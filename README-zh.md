@@ -91,7 +91,7 @@ npx autoapi
 #### 构建指定文档
 
 ```shell
-npx autoapi -ns Foo Bar Baz
+npx autoapi --namespaces Foo Bar Baz
 ```
 
 ## 配置
