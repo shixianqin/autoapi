@@ -28,7 +28,7 @@ function writeFiles(outDir: string, files: FileItem[]) {
 
 async function writeDoc(name: string, document: object) {
   const docsDir = await createDir(join(CONFIG_DIR, 'docs'))
-  await writeFile(join(docsDir, `${name}.json`), JSON.stringify(document, null, 2))
+  await writeFile(join(docsDir, `${kebabCase(name)}.json`), JSON.stringify(document, null, 2))
 }
 
 function validateOptions(options: DocumentOptions, index: number, namespaces?: string[]): options is GeneratorOptions {
