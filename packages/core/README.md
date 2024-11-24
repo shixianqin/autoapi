@@ -23,7 +23,7 @@ const options: GeneratorOptions = {
 
 const generator = new Generator(options)
 
-const files = await generator.generate(/* OpenAPI.Document */)
+const files = await generator.generate()
 ```
 
 ### Parser
@@ -37,5 +37,5 @@ const options: ParserOptions = {
 
 const parser = new Parser(options)
 
-const result = await parser.parse(/* OpenAPI.Document */)
+const result = await parser.parse()
 ```
