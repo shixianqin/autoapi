@@ -1,13 +1,13 @@
 import type { OpenAPI } from 'openapi-types'
-import type { Source } from './types'
-import { readFileSync } from 'node:fs'
+import type { ParserHooks, Source } from './types'
+import { readFile } from 'node:fs/promises'
 import yaml from 'js-yaml'
 import fetch from 'node-fetch'
 
 const URL_PREFIX_PATTERN = /^https?:\/\//
 
-function loadSourceLocal(filePath: string): OpenAPI.Document {
-  const content = readFileSync(filePath, 'utf8')
+async function loadSourceLocal(filePath: string): Promise<OpenAPI.Document> {
+  const content = await readFile(filePath, 'utf-8')
   return filePath.endsWith('.yaml') ? yaml.load(content) : JSON.parse(content)
 }
 
@@ -23,11 +23,17 @@ async function fetchSource(url: string) {
   }
 }
 
-export async function loadSource(source: Source | undefined | null): Promise<null | OpenAPI.Document> {
+export async function loadSource(source: Source | undefined | null, hooks?: ParserHooks): Promise<null | OpenAPI.Document> {
   switch (typeof source) {
     case 'string': {
       if (URL_PREFIX_PATTERN.test(source)) {
-        return fetchSource(source)
+        const res = await fetchSource(source)
+
+        if (res) {
+          hooks?.onDocumentDownloaded?.(res)
+        }
+
+        return res
       }
 
       return loadSourceLocal(source)
@@ -38,7 +44,7 @@ export async function loadSource(source: Source | undefined | null): Promise<nul
     }
 
     case 'function': {
-      return loadSource(await source())
+      return loadSource(await source(), hooks)
     }
 
     default: {

@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-import { existsSync, mkdirSync, writeFile } from 'node:fs'
+import { existsSync } from 'node:fs'
+import { mkdir, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
 import { execSync } from 'node:child_process'
 import { program } from 'commander'
@@ -10,20 +11,24 @@ import { type FileItem, Generator, type GeneratorOptions, type ParserHooks, keba
 import { CONFIG_DIR, OWN_PKG, WORK_DIR, initConfig, readConfig } from './config'
 import type { DocumentOptions } from './index'
 
-function write(outDir: string, files: FileItem[]) {
-  for (const file of files) {
-    const fileDir = join(outDir, file.dir)
-
-    if (!existsSync(fileDir)) {
-      mkdirSync(fileDir, { recursive: true })
-    }
-
-    writeFile(join(fileDir, file.name), file.content, (err) => {
-      if (err) {
-        throw err
-      }
-    })
+async function createDir(dir: string) {
+  if (!existsSync(dir)) {
+    await mkdir(dir, { recursive: true })
   }
+
+  return dir
+}
+
+function writeFiles(outDir: string, files: FileItem[]) {
+  return Promise.all(files.map(async (file) => {
+    const fileDir = await createDir(join(outDir, file.dir))
+    await writeFile(join(fileDir, file.name), file.content)
+  }))
+}
+
+async function writeDoc(name: string, document: object) {
+  const docsDir = await createDir(join(CONFIG_DIR, 'docs'))
+  await writeFile(join(docsDir, `${name}.json`), JSON.stringify(document, null, 2))
 }
 
 function validateOptions(options: DocumentOptions, index: number, namespaces?: string[]): options is GeneratorOptions {
@@ -73,11 +78,9 @@ async function build(namespaces?: string[]) {
         console.log(paragraphs.join(' '))
       },
 
-      onDocumentLoaded: (document) => {
+      onDocumentDownloaded: (document) => {
         if (config.storeDocs) {
-          writeFile(CONFIG_DIR, JSON.stringify(document, null, 2), (err) => {
-            if (err) console.error(err)
-          })
+          writeDoc(namespace, document)
         }
       },
     }
@@ -85,10 +88,10 @@ async function build(namespaces?: string[]) {
     count += 1
 
     return generator.generate(hooks)
-      .then((files) => {
+      .then(async (files) => {
         // Clean up the output directory
         execSync('rm -rf ' + join(outDir, kebabCase(namespace)))
-        write(outDir, files)
+        await writeFiles(outDir, files)
         spinner.succeed(chalk.green(namespace))
       })
       .catch((err) => {

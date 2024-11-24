@@ -67,7 +67,7 @@ export class Parser {
 
   async parse(hooks?: ParserHooks): Promise<ParserResult> {
     const { _options } = this
-    const document = await loadSource(_options.source)
+    const document = await loadSource(_options.source, hooks)
     const tasks: Promise<void>[] = []
     const parsedPaths = new Set<string>()
 
@@ -77,10 +77,6 @@ export class Parser {
 
     this._document = document
     this._hooks = hooks
-
-    if (document) {
-      hooks?.onDocumentLoaded?.(document)
-    }
 
     /**
      * 解析文档中的 paths

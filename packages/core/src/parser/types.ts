@@ -131,5 +131,5 @@ export interface NameConflictInfo {
 
 export interface ParserHooks {
   onNameConflict?: (info: NameConflictInfo) => void
-  onDocumentLoaded?: (document: OpenAPI.Document) => void
+  onDocumentDownloaded?: (document: OpenAPI.Document) => void
 }
