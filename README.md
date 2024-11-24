@@ -166,7 +166,7 @@ export function request<T> (method: string, path: string, options: RequestOption
 
 ## API Structures
 
-### File Structure
+### File Directory
 
 ```mermaid
 flowchart LR
@@ -192,9 +192,9 @@ request --> config
 request --> context
 Operations -..-> response["⬇ Response"]
 
-style Operations fill: lightpink, stroke: hotpink
-style request fill: lightskyblue, stroke: steelblue
-style response fill: lightgreen, stroke: green
+style Operations fill: lightpink, stroke: hotpink, color: black
+style request fill: lightskyblue, stroke: steelblue, color: black
+style response fill: lightgreen, stroke: green, color: black
 ```
 
 ### Type Declarations
@@ -214,7 +214,7 @@ Operations --> Body
 Operations --> Response
 Operations --> Responses@{ shape: procs, label: "Responses" }
 
-style Operations fill: lightpink, stroke: hotpink
+style Operations fill: lightpink, stroke: hotpink, color: black
 ```
 
 ### Adapter
