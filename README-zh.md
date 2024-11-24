@@ -245,5 +245,6 @@ mindmap
   Case、snake_case、param-case、CONSTANT_CASE 等大小写之间转换字符串。
 + [openapi-types](https://github.com/kogosoftwarellc/open-api) - OpenAPI 文档的 TypeScript 类型.
 + [js-yaml](https://github.com/nodeca/js-yaml/) - JavaScript YAML 解析器和转储器。 速度极快
++ [node-fetch](https://github.com/node-fetch/node-fetch/) - 将 Fetch API 引入 Node.js 的轻量级模块
 + [Prettier](https://prettier.io/) - Prettier 是一个固执己见的代码格式化程序
 + [APIs.guru](https://apis.guru/) - Wikipedia for WEB APIs

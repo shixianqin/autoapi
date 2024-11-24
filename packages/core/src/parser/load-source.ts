@@ -1,10 +1,8 @@
-import http from 'node:http'
-import https from 'node:https'
-import { readFileSync } from 'node:fs'
-import { resolve } from 'node:path'
-import yaml from 'js-yaml'
-import type { Source } from './types'
 import type { OpenAPI } from 'openapi-types'
+import type { Source } from './types'
+import { readFileSync } from 'node:fs'
+import yaml from 'js-yaml'
+import fetch from 'node-fetch'
 
 const URL_PREFIX_PATTERN = /^https?:\/\//
 
@@ -13,30 +11,16 @@ function loadSourceLocal(filePath: string): OpenAPI.Document {
   return filePath.endsWith('.yaml') ? yaml.load(content) : JSON.parse(content)
 }
 
-function fetchSource(url: string) {
-  const client = url.startsWith('https://') ? https : http
+async function fetchSource(url: string) {
+  const res = await fetch(url).then((res) => res.text())
 
-  return new Promise<OpenAPI.Document>((resolve, reject) => {
-    client
-      .get(url, (response) => {
-        let data = ''
-
-        response.on('data', (chunk) => {
-          data += chunk
-        })
-
-        response.on('end', () => {
-          try {
-            return resolve(JSON.parse(data))
-          }
-          // eslint-disable-next-line @typescript-eslint/no-unused-vars
-          catch (e) {
-            return resolve(yaml.load(data) as OpenAPI.Document)
-          }
-        })
-      })
-      .on('error', reject)
-  })
+  try {
+    return JSON.parse(res)
+  }
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  catch (e) {
+    return yaml.load(res) as any
+  }
 }
 
 export async function loadSource(source: Source | undefined | null): Promise<null | OpenAPI.Document> {
@@ -50,7 +34,7 @@ export async function loadSource(source: Source | undefined | null): Promise<nul
     }
 
     case 'object': {
-      return source as OpenAPI.Document
+      return source as any
     }
 
     case 'function': {

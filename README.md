@@ -236,5 +236,6 @@ mindmap
   Case, snake_case, param-case, CONSTANT_CASE and others.
 + [openapi-types](https://github.com/kogosoftwarellc/open-api) - Types for OpenAPI documents.
 + [js-yaml](https://github.com/nodeca/js-yaml/) - JavaScript YAML parser and dumper. Very fast.
++ [node-fetch](https://github.com/node-fetch/node-fetch/) - A light-weight module that brings the Fetch API to Node.js
 + [Prettier](https://prettier.io/) - An opinionated code formatter.
 + [APIs.guru](https://apis.guru/) - Wikipedia for Web APIs.
