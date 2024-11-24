@@ -4,13 +4,13 @@ import { existsSync, mkdirSync, writeFile } from 'node:fs'
 import { join } from 'node:path'
 import { execSync } from 'node:child_process'
 import { program } from 'commander'
-import { type FileItem, Generator, kebabCase } from '@autoapi/core'
-import { CONFIG_DIR, OWN_PKG, WORK_DIR, initConfig, readConfig } from './config'
 import chalk from 'chalk'
-import type { GeneratorOptions, ParserHooks } from '@autoapi/core/src'
+import ora from 'ora'
+import { type FileItem, Generator, type GeneratorOptions, type ParserHooks, kebabCase } from '@autoapi/core'
+import { CONFIG_DIR, OWN_PKG, WORK_DIR, initConfig, readConfig } from './config'
 import type { DocumentOptions } from './index'
 
-function write (outDir: string, files: FileItem[]) {
+function write(outDir: string, files: FileItem[]) {
   for (const file of files) {
     const fileDir = join(outDir, file.dir)
 
@@ -26,7 +26,7 @@ function write (outDir: string, files: FileItem[]) {
   }
 }
 
-function validateOptions (options: DocumentOptions, index: number, namespaces?: string[]): options is GeneratorOptions {
+function validateOptions(options: DocumentOptions, index: number, namespaces?: string[]): options is GeneratorOptions {
   const keys: (keyof GeneratorOptions)[] = ['namespace', 'adapter']
 
   for (const key of keys) {
@@ -40,9 +40,13 @@ function validateOptions (options: DocumentOptions, index: number, namespaces?: 
   return !(namespaces?.length && namespaces.indexOf(options.namespace) < 0)
 }
 
-async function build (namespaces?: string[]) {
+async function build(namespaces?: string[]) {
+  const spinner = ora('Processing...\n').start()
+
   const { default: config } = await readConfig()
   const outDir = join(WORK_DIR, config.outDir || 'src/apis')
+
+  let count = 0
 
   const tasks = config.docs.map((options, index) => {
     const _options: DocumentOptions = {
@@ -78,21 +82,31 @@ async function build (namespaces?: string[]) {
       },
     }
 
+    count += 1
+
     return generator.generate(hooks)
       .then((files) => {
         // Clean up the output directory
         execSync('rm -rf ' + join(outDir, kebabCase(namespace)))
-
         write(outDir, files)
-
-        console.log(`✅ ${chalk.green(namespace)}`)
+        spinner.succeed(chalk.green(namespace))
       })
-      .catch(() => {
-        console.log(`❌ ${chalk.red(namespace)}`)
+      .catch((err) => {
+        spinner.fail(chalk.red(namespace))
+        console.error(err)
+      })
+      .finally(() => {
+        if ((count -= 1) > 0) {
+          spinner.start()
+        }
       })
   })
 
-  return Promise.all(tasks)
+  return Promise.all(tasks).finally(() => {
+    if (spinner.isSpinning) {
+      spinner.stop()
+    }
+  })
 }
 
 /////////////////////////////////////////////////////////////
