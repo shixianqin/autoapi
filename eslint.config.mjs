@@ -20,7 +20,7 @@ const multipleStatements = [
  */
 const configs = [
   {
-    ignores: ['example/src/apis'],
+    ignores: ['examples/src/apis'],
   },
   eslint.configs.recommended,
   ...tseslint.configs.recommended,
