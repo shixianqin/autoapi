@@ -243,6 +243,7 @@ mindmap
   RESTful 接口的世界标准。 OAS 使开发人员能够设计出与技术无关的 API 接口，为其 API 的开发和使用奠定基础。
 + [change-case](https://github.com/blakeembrey/change-case/) - 在 camelCase、PascalCase、Capital
   Case、snake_case、param-case、CONSTANT_CASE 等大小写之间转换字符串。
++ [openapi-types](https://github.com/kogosoftwarellc/open-api) - OpenAPI 文档的 TypeScript 类型.
 + [js-yaml](https://github.com/nodeca/js-yaml/) - JavaScript YAML 解析器和转储器。 速度极快
 + [Prettier](https://prettier.io/) - Prettier 是一个固执己见的代码格式化程序
 + [APIs.guru](https://apis.guru/) - Wikipedia for WEB APIs

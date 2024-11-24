@@ -234,6 +234,7 @@ mindmap
   design a technology-agnostic API interface that forms the basis of their API development and consumption.
 + [change-case](https://github.com/blakeembrey/change-case/) - Transform a string between camelCase, PascalCase, Capital
   Case, snake_case, param-case, CONSTANT_CASE and others.
++ [openapi-types](https://github.com/kogosoftwarellc/open-api) - Types for OpenAPI documents.
 + [js-yaml](https://github.com/nodeca/js-yaml/) - JavaScript YAML parser and dumper. Very fast.
 + [Prettier](https://prettier.io/) - An opinionated code formatter.
 + [APIs.guru](https://apis.guru/) - Wikipedia for Web APIs.
