@@ -1,0 +1,26 @@
+{
+  "description": "AutoAPI is a tool based on OpenAPI / Swagger documents to automatically generate atomic request methods and TypeScript types.",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c --configPlugin typescript",
+    "examples": "cd examples && npx autoapi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shixianqin/autoapi.git"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.9",
+    "@eslint/js": "^9.13.0",
+    "@rollup/plugin-typescript": "^12.1.0",
+    "@stylistic/eslint-plugin": "^2.9.0",
+    "@types/eslint__js": "^8.42.3",
+    "@types/node": "^22.5.0",
+    "eslint": "^9.12.0",
+    "rollup": "^4.24.0",
+    "rollup-plugin-dts": "^6.1.1",
+    "tslib": "^2.8.0",
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.11.0"
+  }
+}

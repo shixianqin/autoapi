@@ -1,0 +1,531 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "This is an online swagger codegen server.  You can find out more at https://github.com/swagger-api/swagger-codegen or on [irc.freenode.net, #swagger](http://swagger.io/irc/).",
+    "version": "2.4.42",
+    "title": "Swagger Generator",
+    "termsOfService": "http://swagger.io/terms/",
+    "contact": {
+      "name": "apiteam@swagger.io"
+    },
+    "license": {
+      "name": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  },
+  "host": "generator.swagger.io",
+  "basePath": "/api",
+  "tags": [
+    {
+      "name": "gen"
+    },
+    {
+      "name": "clients"
+    },
+    {
+      "name": "servers"
+    }
+  ],
+  "schemes": [
+    "https"
+  ],
+  "paths": {
+    "/gen/clients/{language}": {
+      "get": {
+        "tags": [
+          "clients"
+        ],
+        "summary": "Returns options for a client library",
+        "description": "",
+        "operationId": "getClientOptions",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "language",
+            "in": "path",
+            "description": "The target language for the client library",
+            "required": true,
+            "type": "string",
+            "enum": [
+              "ada",
+              "akka-scala",
+              "android",
+              "apex",
+              "bash",
+              "clojure",
+              "cpprest",
+              "csharp",
+              "csharp-dotnet2",
+              "cwiki",
+              "dart",
+              "dart-jaguar",
+              "dynamic-html",
+              "eiffel",
+              "elixir",
+              "elm",
+              "erlang-client",
+              "flash",
+              "go",
+              "groovy",
+              "haskell-http-client",
+              "html",
+              "html2",
+              "java",
+              "javascript",
+              "javascript-closure-angular",
+              "jaxrs-cxf-client",
+              "jmeter",
+              "kotlin",
+              "lua",
+              "objc",
+              "perl",
+              "php",
+              "powershell",
+              "python",
+              "qt5cpp",
+              "r",
+              "ruby",
+              "rust",
+              "scala",
+              "scalaz",
+              "swagger",
+              "swagger-yaml",
+              "swift",
+              "swift3",
+              "swift4",
+              "swift5",
+              "tizen",
+              "typescript-angular",
+              "typescript-angularjs",
+              "typescript-aurelia",
+              "typescript-fetch",
+              "typescript-inversify",
+              "typescript-jquery",
+              "typescript-node",
+              "ue4cpp"
+            ]
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "object",
+              "additionalProperties": {
+                "$ref": "#/definitions/CliOption"
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "clients"
+        ],
+        "summary": "Generates a client library",
+        "description": "Accepts a `GeneratorInput` options map for spec location and generation options",
+        "operationId": "generateClient",
+        "parameters": [
+          {
+            "name": "language",
+            "in": "path",
+            "description": "The target language for the client library",
+            "required": true,
+            "type": "string",
+            "enum": [
+              "ada",
+              "akka-scala",
+              "android",
+              "apex",
+              "bash",
+              "clojure",
+              "cpprest",
+              "csharp",
+              "csharp-dotnet2",
+              "cwiki",
+              "dart",
+              "dart-jaguar",
+              "dynamic-html",
+              "eiffel",
+              "elixir",
+              "elm",
+              "erlang-client",
+              "flash",
+              "go",
+              "groovy",
+              "haskell-http-client",
+              "html",
+              "html2",
+              "java",
+              "javascript",
+              "javascript-closure-angular",
+              "jaxrs-cxf-client",
+              "jmeter",
+              "kotlin",
+              "lua",
+              "objc",
+              "perl",
+              "php",
+              "powershell",
+              "python",
+              "qt5cpp",
+              "r",
+              "ruby",
+              "rust",
+              "scala",
+              "scalaz",
+              "swagger",
+              "swagger-yaml",
+              "swift",
+              "swift3",
+              "swift4",
+              "swift5",
+              "tizen",
+              "typescript-angular",
+              "typescript-angularjs",
+              "typescript-aurelia",
+              "typescript-fetch",
+              "typescript-inversify",
+              "typescript-jquery",
+              "typescript-node",
+              "ue4cpp"
+            ]
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "description": "Configuration for building the client library",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/GeneratorInput"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "$ref": "#/definitions/ResponseCode"
+            }
+          }
+        }
+      }
+    },
+    "/gen/servers/{framework}": {
+      "get": {
+        "tags": [
+          "servers"
+        ],
+        "summary": "Returns options for a server framework",
+        "description": "",
+        "operationId": "getServerOptions",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "framework",
+            "in": "path",
+            "description": "The target language for the server framework",
+            "required": true,
+            "type": "string",
+            "enum": [
+              "ada-server",
+              "aspnetcore",
+              "erlang-server",
+              "finch",
+              "go-server",
+              "haskell",
+              "inflector",
+              "java-pkmst",
+              "java-play-framework",
+              "java-vertx",
+              "jaxrs",
+              "jaxrs-cxf",
+              "jaxrs-cxf-cdi",
+              "jaxrs-resteasy",
+              "jaxrs-resteasy-eap",
+              "jaxrs-spec",
+              "kotlin-server",
+              "lumen",
+              "msf4j",
+              "nancyfx",
+              "nodejs-server",
+              "php-silex",
+              "php-symfony",
+              "pistache-server",
+              "python-flask",
+              "rails5",
+              "restbed",
+              "rust-server",
+              "scala-lagom-server",
+              "scalatra",
+              "sinatra",
+              "slim",
+              "spring",
+              "undertow",
+              "ze-ph"
+            ]
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "object",
+              "additionalProperties": {
+                "$ref": "#/definitions/CliOption"
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "servers"
+        ],
+        "summary": "Generates a server library",
+        "description": "Accepts a `GeneratorInput` options map for spec location and generation options.",
+        "operationId": "generateServerForLanguage",
+        "parameters": [
+          {
+            "name": "framework",
+            "in": "path",
+            "description": "framework",
+            "required": true,
+            "type": "string",
+            "enum": [
+              "ada-server",
+              "aspnetcore",
+              "erlang-server",
+              "finch",
+              "go-server",
+              "haskell",
+              "inflector",
+              "java-pkmst",
+              "java-play-framework",
+              "java-vertx",
+              "jaxrs",
+              "jaxrs-cxf",
+              "jaxrs-cxf-cdi",
+              "jaxrs-resteasy",
+              "jaxrs-resteasy-eap",
+              "jaxrs-spec",
+              "kotlin-server",
+              "lumen",
+              "msf4j",
+              "nancyfx",
+              "nodejs-server",
+              "php-silex",
+              "php-symfony",
+              "pistache-server",
+              "python-flask",
+              "rails5",
+              "restbed",
+              "rust-server",
+              "scala-lagom-server",
+              "scalatra",
+              "sinatra",
+              "slim",
+              "spring",
+              "undertow",
+              "ze-ph"
+            ]
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "description": "parameters",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/GeneratorInput"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "$ref": "#/definitions/ResponseCode"
+            }
+          }
+        }
+      }
+    },
+    "/gen/clients": {
+      "get": {
+        "tags": [
+          "clients"
+        ],
+        "summary": "Gets languages supported by the client generator",
+        "description": "",
+        "operationId": "clientOptions",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/gen/servers": {
+      "get": {
+        "tags": [
+          "servers"
+        ],
+        "summary": "Gets languages supported by the server generator",
+        "description": "",
+        "operationId": "serverOptions",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/gen/download/{fileId}": {
+      "get": {
+        "tags": [
+          "clients",
+          "servers"
+        ],
+        "summary": "Downloads a pre-generated file",
+        "description": "A valid `fileId` is generated by the `/clients/{language}` or `/servers/{language}` POST operations.  The fileId code can be used just once, after which a new `fileId` will need to be requested.",
+        "operationId": "downloadFile",
+        "produces": [
+          "application/octet-stream"
+        ],
+        "parameters": [
+          {
+            "name": "fileId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "CliOption": {
+      "type": "object",
+      "properties": {
+        "optionName": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "description": "Data type is based on the types supported by the JSON-Schema"
+        },
+        "default": {
+          "type": "string"
+        },
+        "enum": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "ResponseCode": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string",
+          "example": "d40029be-eda6-4d62-b1ef-d05e2e91a72a",
+          "description": "File download code"
+        },
+        "link": {
+          "type": "string",
+          "example": "http://generator.swagger.io:80/api/gen/download/d40029be-eda6-4d62-b1ef-d05e2e91a72a",
+          "description": "URL for fetching the generated client"
+        }
+      }
+    },
+    "AuthorizationValue": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "keyName": {
+          "type": "string"
+        },
+        "urlMatcher": {
+          "$ref": "#/definitions/UrlMatcher"
+        }
+      }
+    },
+    "GeneratorInput": {
+      "type": "object",
+      "properties": {
+        "spec": {
+          "type": "object"
+        },
+        "options": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "swaggerUrl": {
+          "type": "string",
+          "example": "http://petstore.swagger.io/v2/swagger.json"
+        },
+        "authorizationValue": {
+          "$ref": "#/definitions/AuthorizationValue"
+        },
+        "usingFlattenSpec": {
+          "type": "boolean"
+        },
+        "securityDefinition": {
+          "$ref": "#/definitions/SecuritySchemeDefinition"
+        }
+      }
+    },
+    "SecuritySchemeDefinition": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    },
+    "UrlMatcher": {
+      "type": "object"
+    }
+  }
+}

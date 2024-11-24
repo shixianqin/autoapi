@@ -1,0 +1,27 @@
+{
+  "name": "@autoapi/cli",
+  "version": "1.0.0",
+  "description": "AutoAPI CLI",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "author": "shixianqin",
+  "license": "MIT",
+  "bin": {
+    "autoapi": "./dist/cli.mjs"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/shixianqin/autoapi/packages/cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shixianqin/autoapi.git"
+  },
+  "dependencies": {
+    "@autoapi/core": "workspace:*",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "tsx": "^4.19.1"
+  }
+}

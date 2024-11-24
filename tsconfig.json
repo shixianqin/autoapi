@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "Bundler",
+    "allowJs": true,
+    "checkJs": true,
+    "verbatimModuleSyntax": true
+  },
+  "exclude": [
+    "./examples"
+  ]
+}

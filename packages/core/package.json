@@ -1,0 +1,27 @@
+{
+  "name": "@autoapi/core",
+  "version": "1.0.0",
+  "description": "AutoAPI Core",
+  "main": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "author": "shixianqin",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/shixianqin/autoapi/packages/core",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shixianqin/autoapi.git"
+  },
+  "dependencies": {
+    "change-case": "^5.4.4",
+    "js-yaml": "^4.1.0",
+    "prettier": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "openapi-types": "^12.1.3"
+  }
+}

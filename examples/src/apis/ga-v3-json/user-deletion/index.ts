@@ -1,0 +1,19 @@
+import { request, type RequestConfig, type RequestContext } from "@/adapter";
+
+/**
+ * Insert or update a user deletion requests.
+ * @path `/userDeletion/userDeletionRequests:upsert`
+ */
+export function postAnalyticsRequestUpsert(options?: {
+  queryParams?: API.GaV3Json.UserDeletion.PostAnalyticsRequestUpsert.QueryParams;
+  headers?: API.GaV3Json.UserDeletion.PostAnalyticsRequestUpsert.Headers;
+  body?: API.GaV3Json.UserDeletion.PostAnalyticsRequestUpsert.Body;
+  config?: RequestConfig;
+  context?: RequestContext;
+}) {
+  return request<API.GaV3Json.UserDeletion.PostAnalyticsRequestUpsert.Response>(
+    "post",
+    "/userDeletion/userDeletionRequests:upsert",
+    options || {},
+  );
+}
