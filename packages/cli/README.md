@@ -27,7 +27,7 @@ npx autoapi
 Build Specific Documents:
 
 ```shell
-npx autoapi -ns Foo Bar Baz
+npx autoapi -n Foo Bar Baz
 ```
 
 ## Configuration

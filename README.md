@@ -95,7 +95,7 @@ npx autoapi
 #### Build Specific Documents
 
 ```shell
-npx autoapi --namespaces Foo Bar Baz
+npx autoapi -n Foo Bar Baz
 ```
 
 ## Configuration
