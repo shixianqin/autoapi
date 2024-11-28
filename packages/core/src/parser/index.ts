@@ -905,7 +905,12 @@ export class Parser {
    * type: object
    */
   private _parseSchemaObject(schema: SchemaObject): ObjectType {
-    const { properties = {}, required = [] } = schema
+    const properties = schema.properties || {}
+
+    // 这里的 `required` 应该是字符串数组，但是有的文档可能错误的出现 `true`
+    // 所以不能直接写为：schema.required || []
+    const required = Array.isArray(schema.required) ? schema.required : []
+
     const keys = Object.keys(properties)
     const propertySignatures: PropertySignature[] = []
 
