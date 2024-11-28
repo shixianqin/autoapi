@@ -6,10 +6,13 @@ import { join } from 'node:path'
 import { execSync } from 'node:child_process'
 import { program } from 'commander'
 import chalk from 'chalk'
-import ora from 'ora'
+import ora, { type Ora } from 'ora'
 import { type FileItem, Generator, type GeneratorOptions, type ParserHooks, kebabCase } from '@autoapi/core'
 import { CONFIG_DIR, OWN_PKG, WORK_DIR, initConfig, readConfig } from './config'
 import type { DocumentOptions } from './index'
+
+const SOURCE_KEY = 'source'
+const REQUIRED_KEYS: (keyof GeneratorOptions)[] = ['namespace', 'adapter', SOURCE_KEY]
 
 async function createDir(dir: string) {
   if (!existsSync(dir)) {
@@ -31,17 +34,29 @@ async function writeDoc(name: string, document: object) {
   await writeFile(join(docsDir, `${kebabCase(name)}.json`), JSON.stringify(document, null, 2))
 }
 
-function validateOptions(options: DocumentOptions, index: number, namespaces?: string[]): options is GeneratorOptions {
-  const keys: (keyof GeneratorOptions)[] = ['namespace', 'adapter']
+function validateDocument(
+  options: DocumentOptions,
+  index: number,
+  namespaces: string[] | undefined,
+  spinner: Ora,
+): options is GeneratorOptions {
+  const missingKeys = REQUIRED_KEYS.filter((key) => {
+    return !(options[key] || (key === SOURCE_KEY && options.paths))
+  })
 
-  for (const key of keys) {
-    if (!options[key]) {
-      console.log(`${chalk.red.bold('[AUTOAPI ERROR]:')} config.docs[${index}] is missing \`${chalk.red(key)}\` option.`)
+  if (missingKeys.length > 0) {
+    spinner
+      .fail(
+        `${chalk.red.bold('[AUTOAPI ERROR]:')} config.docs[${index}] is missing some required options: `
+        + chalk.red(missingKeys.join(', '))
+        + (missingKeys.includes(SOURCE_KEY) ? ' or ' + chalk.red('paths') : ''),
+      )
+      .start()
 
-      return false
-    }
+    return false
   }
 
+  // 如果指定了命名空间，但是没有包含当前文档，则验证失败
   return !(namespaces?.length && namespaces.indexOf(options.namespace) < 0)
 }
 
@@ -51,7 +66,8 @@ async function build(namespaces?: string[]) {
   const { default: config } = await readConfig()
   const outDir = join(WORK_DIR, config.outDir || 'src/apis')
 
-  let count = 0
+  // 任务计数器
+  let taskCount = 0
 
   const tasks = config.docs.map((options, index) => {
     const _options: DocumentOptions = {
@@ -59,7 +75,13 @@ async function build(namespaces?: string[]) {
       ...options,
     }
 
-    if (!validateOptions(_options, index, namespaces)) {
+    // 验证配置是否符合要求
+    if (!validateDocument(
+      _options,
+      index,
+      namespaces,
+      spinner,
+    )) {
       return
     }
 
@@ -75,7 +97,7 @@ async function build(namespaces?: string[]) {
           `and it has been safely renamed to "${chalk.bold(info.renamedAs)}".\n`,
         ]
 
-        console.log(paragraphs.join(' '))
+        spinner.warn(paragraphs.join(' ')).start()
       },
 
       onDocumentDownloaded: (document) => {
@@ -85,7 +107,7 @@ async function build(namespaces?: string[]) {
       },
     }
 
-    count += 1
+    taskCount += 1
 
     return generator.generate(hooks)
       .then(async (files) => {
@@ -99,13 +121,15 @@ async function build(namespaces?: string[]) {
         console.error(err)
       })
       .finally(() => {
-        if ((count -= 1) > 0) {
+        // 不是最后一个任务，继续运行 spinner
+        if ((taskCount -= 1) > 0) {
           spinner.start()
         }
       })
   })
 
   return Promise.all(tasks).finally(() => {
+    // 如果所有任务都运行结束后，spinner 还是运行，则手动关闭
     if (spinner.isSpinning) {
       spinner.stop()
     }
