@@ -1,5 +1,12 @@
 # @autoapi/core
 
+## 1.0.3
+
+### Patch Changes
+
+- Filter using the same method to get `tag`
+- Compatibility definition of `required` errors
+
 ## 1.0.2
 
 ### Patch Changes
