@@ -67,26 +67,26 @@ export interface ParserOptions {
    * 获取路径
    * @default meta.originalPath
    */
-  getPath?: (meta: OperationMeta) => string
+  getPath?: (meta: OperationMeta) => string | void
 
   /**
    * 获取分组
    * @default meta.operation.tags[0] || 'Main'
    */
-  getTag?: (meta: OperationMeta) => string
+  getTag?: (meta: OperationMeta) => string | void
 
   /**
    * 获取方法名
    * @default meta.operation.operationId || meta.path
    */
-  getName?: (meta: OperationMeta) => string
+  getName?: (meta: OperationMeta) => string | void
 
   /**
    * 获取属性名
    * @param name
    * @param context
    */
-  getPropertyName?: (name: string, location?: SchemaLocations) => string
+  getPropertyName?: (name: string, location?: SchemaLocations) => string | void
 
   /**
    * 方法名的命名格式，默认 `camel`

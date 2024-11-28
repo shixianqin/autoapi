@@ -70,6 +70,7 @@ export class Parser {
     const document = await loadSource(_options.source, hooks)
     const tasks: Promise<void>[] = []
     const parsedPaths = new Set<string>()
+    const getTag = this._getTag.bind(this)
 
     const start = (meta: OperationMeta, operation?: OpenAPI.Operation) => {
       tasks.push(this._parseOperation(meta, operation || {}))
@@ -95,7 +96,13 @@ export class Parser {
       }
 
       // 是否跳过解析
-      if (skipParsing(meta, this._options)) {
+      if (
+        skipParsing(meta, {
+          getTag,
+          include: _options.include,
+          exclude: _options.exclude,
+        })
+      ) {
         return
       }
 
