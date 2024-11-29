@@ -89,21 +89,20 @@ export interface ParserOptions {
   getPropertyName?: (name: string, location?: SchemaLocations) => string | void
 
   /**
-   * 方法名的命名格式，默认 `camel`
+   * 方法名的命名格式
+   * @default camel
    */
   nameCase?: 'camel' | 'pascal' | 'snake'
 
-  // folderNameCase?: 'kebab' | 'pascal' | 'camel' | 'snake'
-  // fileNameCase?: 'kebab' | 'pascal' | 'camel' | 'snake'
-
   /**
    * 命名优化
+   * @default true
    */
   nameOptimization?: boolean
-  // nameOptimization?: boolean | NameOptimization
 
   /**
    * 是否解析非成功（200-299）响应结构
+   * @default false
    */
   parseUnsuccessfulResponses?: boolean
 
