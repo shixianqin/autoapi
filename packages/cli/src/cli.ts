@@ -90,14 +90,14 @@ async function build(namespaces?: string[]) {
 
     const hooks: ParserHooks = {
       onNameConflict: (info) => {
-        const paragraphs = [
-          chalk.yellow.bold('[AUTOAPI WARNING]:'),
-          `A conflicting method name "${chalk.bold(info.name)}"`,
-          `was found in "${chalk.underline(namespace + '/' + info.tag)}"`,
-          `and it has been safely renamed to "${chalk.bold(info.renamedAs)}".\n`,
-        ]
-
-        spinner.warn(paragraphs.join(' ')).start()
+        spinner.warn(
+          [
+            chalk.yellow.bold('[AUTOAPI WARNING]:'),
+            `A conflicting method name "${chalk.bold(info.name)}"`,
+            `was found in "${chalk.underline(namespace + '/' + info.tag)}"`,
+            `and it has been safely renamed to "${chalk.bold(info.renamedAs)}".`,
+          ].join(' '),
+        ).start()
       },
 
       onDocumentDownloaded: (document) => {
