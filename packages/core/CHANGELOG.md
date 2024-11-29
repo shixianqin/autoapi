@@ -1,5 +1,13 @@
 # @autoapi/core
 
+## 1.0.4
+
+### Patch Changes
+
+- Support for disabled properties
+- `_customized` is an internal private configuration
+- Ignore descriptions with the same name
+
 ## 1.0.3
 
 ### Patch Changes
