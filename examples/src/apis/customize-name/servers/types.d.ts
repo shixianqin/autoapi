@@ -61,9 +61,6 @@ declare namespace API {
         }
 
         interface PathParams {
-          /**
-           * framework
-           */
           framework:
             | "ada-server"
             | "aspnetcore"

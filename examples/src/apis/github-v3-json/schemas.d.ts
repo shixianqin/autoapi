@@ -1,9 +1,6 @@
 declare namespace API {
   namespace GithubV3Json {
     namespace $responses {
-      /**
-       * Accepted
-       */
       interface Accepted {}
 
       /**
@@ -301,9 +298,6 @@ declare namespace API {
         access_level: "none" | "organization" | "user";
       }
 
-      /**
-       * Actor
-       */
       interface Actor {
         /**
          * @format uri
@@ -825,9 +819,6 @@ declare namespace API {
         user: $schemas.NullableSimpleUser;
       }
 
-      /**
-       * Blob
-       */
       interface Blob {
         content: string;
         encoding: string;
@@ -2392,9 +2383,6 @@ declare namespace API {
         key_id: string;
       }
 
-      /**
-       * Collaborator
-       */
       interface Collaborator {
         /**
          * @format uri
@@ -2487,9 +2475,6 @@ declare namespace API {
         url: string;
       }
 
-      /**
-       * Commit
-       */
       interface Commit {
         /**
          * A GitHub user.
@@ -3004,9 +2989,6 @@ declare namespace API {
         url: string;
       }
 
-      /**
-       * Contributor
-       */
       interface Contributor {
         /**
          * @format uri
@@ -3809,9 +3791,6 @@ declare namespace API {
           | "unchanged";
       }
 
-      /**
-       * Email
-       */
       interface Email {
         /**
          * @format email
@@ -3952,9 +3931,6 @@ declare namespace API {
         user: $schemas.SimpleUser;
       }
 
-      /**
-       * Event
-       */
       interface Event {
         /**
          * Actor
@@ -4000,9 +3976,6 @@ declare namespace API {
         type: string;
       }
 
-      /**
-       * Feed
-       */
       interface Feed {
         _links: {
           /**
@@ -4995,9 +4968,6 @@ declare namespace API {
         status: string;
       }
 
-      /**
-       * Hovercard
-       */
       interface Hovercard {
         contexts: Array<{
           message: string;
@@ -5069,9 +5039,6 @@ declare namespace API {
         vcs_url: string;
       }
 
-      /**
-       * Installation
-       */
       interface Installation {
         /**
          * @format uri
@@ -5805,9 +5772,6 @@ declare namespace API {
         workflow_name: string;
       }
 
-      /**
-       * Key
-       */
       interface Key {
         /**
          * @format date-time
@@ -5898,16 +5862,10 @@ declare namespace API {
         url: string;
       }
 
-      /**
-       * Language
-       */
       interface Language {
         [P: string]: number;
       }
 
-      /**
-       * License
-       */
       interface License {
         body: string;
         conditions: string[];
@@ -12074,9 +12032,6 @@ declare namespace API {
         title: string;
       }
 
-      /**
-       * Stargazer
-       */
       interface Stargazer {
         /**
          * @format date-time
@@ -12164,9 +12119,6 @@ declare namespace API {
         url: string;
       }
 
-      /**
-       * Tag
-       */
       interface Tag {
         commit: {
           sha: string;
@@ -12837,9 +12789,6 @@ declare namespace API {
         url: string;
       }
 
-      /**
-       * Thread
-       */
       interface Thread {
         id: string;
         last_read_at: string;

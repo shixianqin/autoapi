@@ -6,9 +6,6 @@ declare namespace API {
        */
       type BadRequest = $schemas.BasicError | $schemas.ScimError;
 
-      /**
-       * Forbidden
-       */
       type Forbidden = $schemas.BasicError;
 
       /**

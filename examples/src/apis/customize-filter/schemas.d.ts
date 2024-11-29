@@ -12,9 +12,6 @@ declare namespace API {
         total_active_caches_size_in_bytes: number;
       }
 
-      /**
-       * Feed
-       */
       interface Feed {
         _links: {
           /**

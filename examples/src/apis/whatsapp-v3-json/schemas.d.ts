@@ -804,9 +804,6 @@ declare namespace API {
       }
 
       interface UpdateUserRequestBody {
-        /**
-         * password
-         */
         password: string;
       }
 

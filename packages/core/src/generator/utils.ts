@@ -154,7 +154,7 @@ export function genObjectTypeBody(definition: ObjectType, unsorted?: boolean) {
     const schema = item.schema || {}
 
     const comments = genComments([
-      item.description,
+      item.description === item.name ? '' : item.description,
       ...VALIDATION_KEYS.map((key) => schema[key] && `@${key} ${schema[key]}`),
       item.deprecated && '@deprecated',
     ])
@@ -244,18 +244,19 @@ export function genTypeBody(definition: TypeDefinition): string {
  */
 export function genTypeDeclaration(item: TypeDeclaration) {
   const body = genTypeBody(item.body)
+  const { name, description } = item
 
   const comments = genComments([
-    item.description,
+    description === name ? '' : description,
     item.deprecated && `@deprecated`,
   ])
 
   // 如果第一个字符是 `{`，则认为是 `interface` 类型
   if (body[0] === '{') {
-    return comments + `interface ${item.name} ${body}`
+    return comments + `interface ${name} ${body}`
   }
 
-  return comments + `type ${item.name} = ${body}`
+  return comments + `type ${name} = ${body}`
 }
 
 /**
