@@ -150,6 +150,7 @@ export interface PropertySignature {
   required?: boolean
   deprecated?: boolean
   additional?: boolean // additionalProperties, `[P: string]: any`
+  disabled?: boolean
 
   schema?: SchemaObject & {
     default?: any

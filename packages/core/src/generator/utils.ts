@@ -147,6 +147,10 @@ export function genObjectTypeBody(definition: ObjectType, unsorted?: boolean) {
   const stringifiedProperties: string[] = []
 
   for (const item of properties) {
+    if (item.disabled) {
+      continue
+    }
+
     const schema = item.schema || {}
 
     const comments = genComments([
