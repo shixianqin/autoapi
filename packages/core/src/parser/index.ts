@@ -145,7 +145,7 @@ export class Parser {
         originalPath: path,
         path,
         method,
-        isCustomized: true,
+        _customized: true,
       })
     })
 
@@ -276,7 +276,7 @@ export class Parser {
       name: '',
 
       // 自定义操作不解析结构
-      types: meta.isCustomized
+      types: meta._customized
         ? {}
         : {
             ...this._parseParams(originalOperation),

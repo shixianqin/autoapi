@@ -39,7 +39,7 @@ export interface OperationMeta {
   docs?: string
   operationId?: string
   deprecated?: boolean
-  isCustomized?: boolean
+  _customized?: boolean
 }
 
 export interface Operation extends OperationMeta {
