@@ -1,5 +1,12 @@
 # @autoapi/cli
 
+## 1.0.7
+
+### Patch Changes
+
+- Updated dependencies
+  - @autoapi/core@1.0.6
+
 ## 1.0.6
 
 ### Patch Changes
