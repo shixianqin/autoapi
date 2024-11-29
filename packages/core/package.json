@@ -1,6 +1,6 @@
 {
   "name": "@autoapi/core",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "AutoAPI Core",
   "main": "dist/index.mjs",
   "types": "dist/index.d.ts",

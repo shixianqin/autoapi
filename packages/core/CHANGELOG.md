@@ -1,5 +1,11 @@
 # @autoapi/core
 
+## 1.0.6
+
+### Patch Changes
+
+- Adjust the order of `headers` option
+
 ## 1.0.5
 
 ### Patch Changes
