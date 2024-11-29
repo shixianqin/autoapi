@@ -12,7 +12,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function getListAlertsForEnterprise(options: {
   pathParams: API.GithubV3Json.Dependabot.GetListAlertsForEnterprise.PathParams;
   queryParams?: API.GithubV3Json.Dependabot.GetListAlertsForEnterprise.QueryParams;
-  headers?: API.GithubV3Json.Dependabot.GetListAlertsForEnterprise.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -38,7 +38,7 @@ export function getListAlertsForEnterprise(options: {
 export function getListAlertsForOrg(options: {
   pathParams: API.GithubV3Json.Dependabot.GetListAlertsForOrg.PathParams;
   queryParams?: API.GithubV3Json.Dependabot.GetListAlertsForOrg.QueryParams;
-  headers?: API.GithubV3Json.Dependabot.GetListAlertsForOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -57,7 +57,7 @@ export function getListAlertsForOrg(options: {
  */
 export function getOrgPublicKey(options: {
   pathParams: API.GithubV3Json.Dependabot.GetOrgPublicKey.PathParams;
-  headers?: API.GithubV3Json.Dependabot.GetOrgPublicKey.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -76,7 +76,7 @@ export function getOrgPublicKey(options: {
  */
 export function deleteRemoveSelectedRepoFromOrgSecret(options: {
   pathParams: API.GithubV3Json.Dependabot.DeleteRemoveSelectedRepoFromOrgSecret.PathParams;
-  headers?: API.GithubV3Json.Dependabot.DeleteRemoveSelectedRepoFromOrgSecret.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -95,7 +95,7 @@ export function deleteRemoveSelectedRepoFromOrgSecret(options: {
  */
 export function putAddSelectedRepoToOrgSecret(options: {
   pathParams: API.GithubV3Json.Dependabot.PutAddSelectedRepoToOrgSecret.PathParams;
-  headers?: API.GithubV3Json.Dependabot.PutAddSelectedRepoToOrgSecret.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -115,7 +115,7 @@ export function putAddSelectedRepoToOrgSecret(options: {
 export function getListSelectedReposForOrgSecret(options: {
   pathParams: API.GithubV3Json.Dependabot.GetListSelectedReposForOrgSecret.PathParams;
   queryParams?: API.GithubV3Json.Dependabot.GetListSelectedReposForOrgSecret.QueryParams;
-  headers?: API.GithubV3Json.Dependabot.GetListSelectedReposForOrgSecret.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -134,7 +134,7 @@ export function getListSelectedReposForOrgSecret(options: {
  */
 export function putSetSelectedReposForOrgSecret(options: {
   pathParams: API.GithubV3Json.Dependabot.PutSetSelectedReposForOrgSecret.PathParams;
-  headers?: API.GithubV3Json.Dependabot.PutSetSelectedReposForOrgSecret.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Dependabot.PutSetSelectedReposForOrgSecret.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -154,7 +154,7 @@ export function putSetSelectedReposForOrgSecret(options: {
  */
 export function deleteOrgSecret(options: {
   pathParams: API.GithubV3Json.Dependabot.DeleteOrgSecret.PathParams;
-  headers?: API.GithubV3Json.Dependabot.DeleteOrgSecret.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -173,7 +173,7 @@ export function deleteOrgSecret(options: {
  */
 export function getOrgSecret(options: {
   pathParams: API.GithubV3Json.Dependabot.GetOrgSecret.PathParams;
-  headers?: API.GithubV3Json.Dependabot.GetOrgSecret.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -267,7 +267,7 @@ export function getOrgSecret(options: {
  */
 export function putCreateOrUpdateOrgSecret(options: {
   pathParams: API.GithubV3Json.Dependabot.PutCreateOrUpdateOrgSecret.PathParams;
-  headers?: API.GithubV3Json.Dependabot.PutCreateOrUpdateOrgSecret.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Dependabot.PutCreateOrUpdateOrgSecret.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -288,7 +288,7 @@ export function putCreateOrUpdateOrgSecret(options: {
 export function getListOrgSecrets(options: {
   pathParams: API.GithubV3Json.Dependabot.GetListOrgSecrets.PathParams;
   queryParams?: API.GithubV3Json.Dependabot.GetListOrgSecrets.QueryParams;
-  headers?: API.GithubV3Json.Dependabot.GetListOrgSecrets.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -309,7 +309,7 @@ export function getListOrgSecrets(options: {
  */
 export function getAlert(options: {
   pathParams: API.GithubV3Json.Dependabot.GetAlert.PathParams;
-  headers?: API.GithubV3Json.Dependabot.GetAlert.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -330,7 +330,7 @@ export function getAlert(options: {
  */
 export function patchUpdateAlert(options: {
   pathParams: API.GithubV3Json.Dependabot.PatchUpdateAlert.PathParams;
-  headers?: API.GithubV3Json.Dependabot.PatchUpdateAlert.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Dependabot.PatchUpdateAlert.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -353,7 +353,7 @@ export function patchUpdateAlert(options: {
 export function getListAlertsForRepo(options: {
   pathParams: API.GithubV3Json.Dependabot.GetListAlertsForRepo.PathParams;
   queryParams?: API.GithubV3Json.Dependabot.GetListAlertsForRepo.QueryParams;
-  headers?: API.GithubV3Json.Dependabot.GetListAlertsForRepo.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -372,7 +372,7 @@ export function getListAlertsForRepo(options: {
  */
 export function getRepoPublicKey(options: {
   pathParams: API.GithubV3Json.Dependabot.GetRepoPublicKey.PathParams;
-  headers?: API.GithubV3Json.Dependabot.GetRepoPublicKey.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -391,7 +391,7 @@ export function getRepoPublicKey(options: {
  */
 export function deleteRepoSecret(options: {
   pathParams: API.GithubV3Json.Dependabot.DeleteRepoSecret.PathParams;
-  headers?: API.GithubV3Json.Dependabot.DeleteRepoSecret.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -410,7 +410,7 @@ export function deleteRepoSecret(options: {
  */
 export function getRepoSecret(options: {
   pathParams: API.GithubV3Json.Dependabot.GetRepoSecret.PathParams;
-  headers?: API.GithubV3Json.Dependabot.GetRepoSecret.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -504,7 +504,7 @@ export function getRepoSecret(options: {
  */
 export function putCreateOrUpdateRepoSecret(options: {
   pathParams: API.GithubV3Json.Dependabot.PutCreateOrUpdateRepoSecret.PathParams;
-  headers?: API.GithubV3Json.Dependabot.PutCreateOrUpdateRepoSecret.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Dependabot.PutCreateOrUpdateRepoSecret.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -525,7 +525,7 @@ export function putCreateOrUpdateRepoSecret(options: {
 export function getListRepoSecrets(options: {
   pathParams: API.GithubV3Json.Dependabot.GetListRepoSecrets.PathParams;
   queryParams?: API.GithubV3Json.Dependabot.GetListRepoSecrets.QueryParams;
-  headers?: API.GithubV3Json.Dependabot.GetListRepoSecrets.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

@@ -4,7 +4,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/wp/v2/settings`
  */
 export function getWpV2(options?: {
-  headers?: API.WordpressV2Json.Settings.GetWpV2.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -16,7 +16,7 @@ export function getWpV2(options?: {
  */
 export function patchWpV2(options?: {
   queryParams?: API.WordpressV2Json.Settings.PatchWpV2.QueryParams;
-  headers?: API.WordpressV2Json.Settings.PatchWpV2.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -27,7 +27,7 @@ export function patchWpV2(options?: {
  * @path `/wp/v2/settings`
  */
 export function postWpV2(options?: {
-  headers?: API.WordpressV2Json.Settings.PostWpV2.Headers;
+  headers?: Record<string, any>;
   formData?: API.WordpressV2Json.Settings.PostWpV2.FormData;
   config?: RequestConfig;
   context?: RequestContext;
@@ -40,7 +40,7 @@ export function postWpV2(options?: {
  */
 export function putWpV2(options?: {
   queryParams?: API.WordpressV2Json.Settings.PutWpV2.QueryParams;
-  headers?: API.WordpressV2Json.Settings.PutWpV2.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

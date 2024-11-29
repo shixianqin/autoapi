@@ -2,10 +2,6 @@ declare namespace API {
   namespace CustomizeParseUnsuccessfulResponses {
     namespace Codespaces {
       namespace GetListInRepositoryForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -86,11 +82,6 @@ declare namespace API {
            * Working directory for this codespace
            */
           working_directory?: string;
-        }
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
         }
 
         interface PathParams {

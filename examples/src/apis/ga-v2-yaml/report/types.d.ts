@@ -2,10 +2,6 @@ declare namespace API {
   namespace GaV2Yaml {
     namespace Report {
       namespace DeleteAnalyticsManagementUnsampledReports {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to delete the unsampled report for
@@ -27,10 +23,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsManagementUnsampledReports {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to retrieve unsampled report for
@@ -52,10 +44,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsManagementUnsampledReportsList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to retrieve unsampled reports for
@@ -85,10 +73,6 @@ declare namespace API {
 
       namespace PostAnalyticsManagementUnsampledReportsInsert {
         type Body = $schemas.Holder;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**

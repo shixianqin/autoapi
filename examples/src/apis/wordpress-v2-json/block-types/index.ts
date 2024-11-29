@@ -6,7 +6,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function getWpV2Namespace(options: {
   pathParams: API.WordpressV2Json.BlockTypes.GetWpV2Namespace.PathParams;
   queryParams?: API.WordpressV2Json.BlockTypes.GetWpV2Namespace.QueryParams;
-  headers?: API.WordpressV2Json.BlockTypes.GetWpV2Namespace.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -22,7 +22,7 @@ export function getWpV2Namespace(options: {
  */
 export function getWpV2(options?: {
   queryParams?: API.WordpressV2Json.BlockTypes.GetWpV2.QueryParams;
-  headers?: API.WordpressV2Json.BlockTypes.GetWpV2.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

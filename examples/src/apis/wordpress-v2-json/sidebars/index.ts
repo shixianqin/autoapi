@@ -6,7 +6,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function getWpV2Id(options: {
   pathParams: API.WordpressV2Json.Sidebars.GetWpV2Id.PathParams;
   queryParams?: API.WordpressV2Json.Sidebars.GetWpV2Id.QueryParams;
-  headers?: API.WordpressV2Json.Sidebars.GetWpV2Id.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -23,7 +23,7 @@ export function getWpV2Id(options: {
 export function patchWpV2Id(options: {
   pathParams: API.WordpressV2Json.Sidebars.PatchWpV2Id.PathParams;
   queryParams?: API.WordpressV2Json.Sidebars.PatchWpV2Id.QueryParams;
-  headers?: API.WordpressV2Json.Sidebars.PatchWpV2Id.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -39,7 +39,7 @@ export function patchWpV2Id(options: {
  */
 export function postWpV2Id(options: {
   pathParams: API.WordpressV2Json.Sidebars.PostWpV2Id.PathParams;
-  headers?: API.WordpressV2Json.Sidebars.PostWpV2Id.Headers;
+  headers?: Record<string, any>;
   formData?: API.WordpressV2Json.Sidebars.PostWpV2Id.FormData;
   config?: RequestConfig;
   context?: RequestContext;
@@ -57,7 +57,7 @@ export function postWpV2Id(options: {
 export function putWpV2Id(options: {
   pathParams: API.WordpressV2Json.Sidebars.PutWpV2Id.PathParams;
   queryParams?: API.WordpressV2Json.Sidebars.PutWpV2Id.QueryParams;
-  headers?: API.WordpressV2Json.Sidebars.PutWpV2Id.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -73,7 +73,7 @@ export function putWpV2Id(options: {
  */
 export function getWpV2(options?: {
   queryParams?: API.WordpressV2Json.Sidebars.GetWpV2.QueryParams;
-  headers?: API.WordpressV2Json.Sidebars.GetWpV2.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

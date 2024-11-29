@@ -2,10 +2,6 @@ declare namespace API {
   namespace GaV2Yaml {
     namespace RealTimeData {
       namespace GetAnalyticsDataRealtime {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * A comma-separated list of real time dimensions

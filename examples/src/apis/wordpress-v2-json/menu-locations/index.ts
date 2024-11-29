@@ -6,7 +6,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function getWpV2Location(options: {
   pathParams: API.WordpressV2Json.MenuLocations.GetWpV2Location.PathParams;
   queryParams?: API.WordpressV2Json.MenuLocations.GetWpV2Location.QueryParams;
-  headers?: API.WordpressV2Json.MenuLocations.GetWpV2Location.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -22,7 +22,7 @@ export function getWpV2Location(options: {
  */
 export function getWpV2(options?: {
   queryParams?: API.WordpressV2Json.MenuLocations.GetWpV2.QueryParams;
-  headers?: API.WordpressV2Json.MenuLocations.GetWpV2.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

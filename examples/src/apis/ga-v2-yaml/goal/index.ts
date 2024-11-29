@@ -7,7 +7,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getAnalyticsManagementGoals(options: {
   pathParams: API.GaV2Yaml.Goal.GetAnalyticsManagementGoals.PathParams;
-  headers?: API.GaV2Yaml.Goal.GetAnalyticsManagementGoals.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -25,7 +25,7 @@ export function getAnalyticsManagementGoals(options: {
  */
 export function patchAnalyticsManagementGoals(options: {
   pathParams: API.GaV2Yaml.Goal.PatchAnalyticsManagementGoals.PathParams;
-  headers?: API.GaV2Yaml.Goal.PatchAnalyticsManagementGoals.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.Goal.PatchAnalyticsManagementGoals.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -44,7 +44,7 @@ export function patchAnalyticsManagementGoals(options: {
  */
 export function putAnalyticsManagementGoalsUpdate(options: {
   pathParams: API.GaV2Yaml.Goal.PutAnalyticsManagementGoalsUpdate.PathParams;
-  headers?: API.GaV2Yaml.Goal.PutAnalyticsManagementGoalsUpdate.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.Goal.PutAnalyticsManagementGoalsUpdate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -64,7 +64,7 @@ export function putAnalyticsManagementGoalsUpdate(options: {
 export function getAnalyticsManagementGoalsList(options: {
   pathParams: API.GaV2Yaml.Goal.GetAnalyticsManagementGoalsList.PathParams;
   queryParams?: API.GaV2Yaml.Goal.GetAnalyticsManagementGoalsList.QueryParams;
-  headers?: API.GaV2Yaml.Goal.GetAnalyticsManagementGoalsList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -82,7 +82,7 @@ export function getAnalyticsManagementGoalsList(options: {
  */
 export function postAnalyticsManagementGoalsInsert(options: {
   pathParams: API.GaV2Yaml.Goal.PostAnalyticsManagementGoalsInsert.PathParams;
-  headers?: API.GaV2Yaml.Goal.PostAnalyticsManagementGoalsInsert.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.Goal.PostAnalyticsManagementGoalsInsert.Body;
   config?: RequestConfig;
   context?: RequestContext;

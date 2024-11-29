@@ -2,10 +2,6 @@ declare namespace API {
   namespace TwitterV3Json {
     namespace DirectMessages {
       namespace GetDmConversationsWithParticipantIdDmEvents {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the participant user for the One to One DM conversation.
@@ -148,11 +144,6 @@ declare namespace API {
       namespace PostDmConversationWithUserEventIdCreate {
         type Body = $schemas.CreateMessageRequest;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the recipient user that will receive the DM.
@@ -166,11 +157,6 @@ declare namespace API {
       namespace PostDmConversationByIdEventIdCreate {
         type Body = $schemas.CreateMessageRequest;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The DM Conversation ID.
@@ -182,10 +168,6 @@ declare namespace API {
       }
 
       namespace GetDmConversationsIdDmEvents {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The DM Conversation ID.
@@ -327,19 +309,10 @@ declare namespace API {
       namespace PostDmConversationIdCreate {
         type Body = $schemas.CreateDmConversationRequest;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         type Response = $schemas.CreateDmEventResponse;
       }
 
       namespace DeleteDmEvent {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the direct-message event to delete.
@@ -351,10 +324,6 @@ declare namespace API {
       }
 
       namespace GetDmEventsById {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * dm event id.
@@ -474,10 +443,6 @@ declare namespace API {
       }
 
       namespace GetDmEvents {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * A comma separated list of DmEvent fields to display.

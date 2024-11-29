@@ -2,10 +2,6 @@ declare namespace API {
   namespace SwaggerHubV2Json {
     namespace Projects {
       namespace GetProjectMembersV2 {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Organization name (case-sensitive)
@@ -23,11 +19,6 @@ declare namespace API {
       namespace PutUpdateProjectMembersV2 {
         type Body = $schemas.ProjectMemberList;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Organization name (case-sensitive)
@@ -41,10 +32,6 @@ declare namespace API {
       }
 
       namespace PutAddSpecToProjectV2 {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of an API or domain that you want to add to the project. Case-sensitive.
@@ -66,10 +53,6 @@ declare namespace API {
       }
 
       namespace DeleteProjectV2 {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Organization name (case-sensitive)
@@ -83,10 +66,6 @@ declare namespace API {
       }
 
       namespace GetProjectV2 {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Organization name (case-sensitive)
@@ -104,10 +83,6 @@ declare namespace API {
       namespace PutSaveProjectV2 {
         type Body = $schemas.Project;
 
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Organization name (case-sensitive)
@@ -121,10 +96,6 @@ declare namespace API {
       }
 
       namespace GetOrgV2 {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Organization name (case-sensitive)
@@ -157,10 +128,6 @@ declare namespace API {
       namespace PostCreateProject {
         type Body = $schemas.Project;
 
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Organization name (case-sensitive)
@@ -170,10 +137,6 @@ declare namespace API {
       }
 
       namespace GetUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Number of results per page (1 .. 100)

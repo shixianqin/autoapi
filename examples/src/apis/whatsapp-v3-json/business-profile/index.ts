@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/settings/business/profile`
  */
 export function getBusinessProfile(options?: {
-  headers?: API.WhatsappV3Json.BusinessProfile.GetBusinessProfile.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -21,7 +21,7 @@ export function getBusinessProfile(options?: {
  * @path `/settings/business/profile`
  */
 export function postUpdate(options: {
-  headers?: API.WhatsappV3Json.BusinessProfile.PostUpdate.Headers;
+  headers?: Record<string, any>;
   body: API.WhatsappV3Json.BusinessProfile.PostUpdate.Body;
   config?: RequestConfig;
   context?: RequestContext;

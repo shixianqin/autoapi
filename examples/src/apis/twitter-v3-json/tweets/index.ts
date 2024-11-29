@@ -9,7 +9,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function getListsId(options: {
   pathParams: API.TwitterV3Json.Tweets.GetListsId.PathParams;
   queryParams?: API.TwitterV3Json.Tweets.GetListsId.QueryParams;
-  headers?: API.TwitterV3Json.Tweets.GetListsId.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -28,7 +28,7 @@ export function getListsId(options: {
  */
 export function getTweetCountsFullArchiveSearch(options: {
   queryParams: API.TwitterV3Json.Tweets.GetTweetCountsFullArchiveSearch.QueryParams;
-  headers?: API.TwitterV3Json.Tweets.GetTweetCountsFullArchiveSearch.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -47,7 +47,7 @@ export function getTweetCountsFullArchiveSearch(options: {
  */
 export function getTweetCountsRecentSearch(options: {
   queryParams: API.TwitterV3Json.Tweets.GetTweetCountsRecentSearch.QueryParams;
-  headers?: API.TwitterV3Json.Tweets.GetTweetCountsRecentSearch.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -65,7 +65,7 @@ export function getTweetCountsRecentSearch(options: {
  */
 export function getFirehoseStreamLangEn(options: {
   queryParams: API.TwitterV3Json.Tweets.GetFirehoseStreamLangEn.QueryParams;
-  headers?: API.TwitterV3Json.Tweets.GetFirehoseStreamLangEn.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -83,7 +83,7 @@ export function getFirehoseStreamLangEn(options: {
  */
 export function getFirehoseStreamLangJa(options: {
   queryParams: API.TwitterV3Json.Tweets.GetFirehoseStreamLangJa.QueryParams;
-  headers?: API.TwitterV3Json.Tweets.GetFirehoseStreamLangJa.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -101,7 +101,7 @@ export function getFirehoseStreamLangJa(options: {
  */
 export function getFirehoseStreamLangKo(options: {
   queryParams: API.TwitterV3Json.Tweets.GetFirehoseStreamLangKo.QueryParams;
-  headers?: API.TwitterV3Json.Tweets.GetFirehoseStreamLangKo.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -119,7 +119,7 @@ export function getFirehoseStreamLangKo(options: {
  */
 export function getFirehoseStreamLangPt(options: {
   queryParams: API.TwitterV3Json.Tweets.GetFirehoseStreamLangPt.QueryParams;
-  headers?: API.TwitterV3Json.Tweets.GetFirehoseStreamLangPt.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -137,7 +137,7 @@ export function getFirehoseStreamLangPt(options: {
  */
 export function getFirehoseStream(options: {
   queryParams: API.TwitterV3Json.Tweets.GetFirehoseStream.QueryParams;
-  headers?: API.TwitterV3Json.Tweets.GetFirehoseStream.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -155,7 +155,7 @@ export function getFirehoseStream(options: {
  */
 export function getSample10Stream(options: {
   queryParams: API.TwitterV3Json.Tweets.GetSample10Stream.QueryParams;
-  headers?: API.TwitterV3Json.Tweets.GetSample10Stream.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -174,7 +174,7 @@ export function getSample10Stream(options: {
  */
 export function getSampleStream(options?: {
   queryParams?: API.TwitterV3Json.Tweets.GetSampleStream.QueryParams;
-  headers?: API.TwitterV3Json.Tweets.GetSampleStream.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -193,7 +193,7 @@ export function getSampleStream(options?: {
  */
 export function getFullarchiveSearch(options: {
   queryParams: API.TwitterV3Json.Tweets.GetFullarchiveSearch.QueryParams;
-  headers?: API.TwitterV3Json.Tweets.GetFullarchiveSearch.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -212,7 +212,7 @@ export function getFullarchiveSearch(options: {
  */
 export function getRecentSearch(options: {
   queryParams: API.TwitterV3Json.Tweets.GetRecentSearch.QueryParams;
-  headers?: API.TwitterV3Json.Tweets.GetRecentSearch.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -231,7 +231,7 @@ export function getRecentSearch(options: {
  */
 export function getRules(options?: {
   queryParams?: API.TwitterV3Json.Tweets.GetRules.QueryParams;
-  headers?: API.TwitterV3Json.Tweets.GetRules.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -250,7 +250,7 @@ export function getRules(options?: {
  */
 export function postAddOrDeleteRules(options: {
   queryParams?: API.TwitterV3Json.Tweets.PostAddOrDeleteRules.QueryParams;
-  headers?: API.TwitterV3Json.Tweets.PostAddOrDeleteRules.Headers;
+  headers?: Record<string, any>;
   body: API.TwitterV3Json.Tweets.PostAddOrDeleteRules.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -270,7 +270,7 @@ export function postAddOrDeleteRules(options: {
  */
 export function getSearchStream(options?: {
   queryParams?: API.TwitterV3Json.Tweets.GetSearchStream.QueryParams;
-  headers?: API.TwitterV3Json.Tweets.GetSearchStream.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -290,7 +290,7 @@ export function getSearchStream(options?: {
 export function getFindThatQuoteATweet(options: {
   pathParams: API.TwitterV3Json.Tweets.GetFindThatQuoteATweet.PathParams;
   queryParams?: API.TwitterV3Json.Tweets.GetFindThatQuoteATweet.QueryParams;
-  headers?: API.TwitterV3Json.Tweets.GetFindThatQuoteATweet.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -310,7 +310,7 @@ export function getFindThatQuoteATweet(options: {
 export function getFindThatRetweetATweet(options: {
   pathParams: API.TwitterV3Json.Tweets.GetFindThatRetweetATweet.PathParams;
   queryParams?: API.TwitterV3Json.Tweets.GetFindThatRetweetATweet.QueryParams;
-  headers?: API.TwitterV3Json.Tweets.GetFindThatRetweetATweet.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -329,7 +329,7 @@ export function getFindThatRetweetATweet(options: {
  */
 export function deleteTweetById(options: {
   pathParams: API.TwitterV3Json.Tweets.DeleteTweetById.PathParams;
-  headers?: API.TwitterV3Json.Tweets.DeleteTweetById.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -349,7 +349,7 @@ export function deleteTweetById(options: {
 export function getFindTweetById(options: {
   pathParams: API.TwitterV3Json.Tweets.GetFindTweetById.PathParams;
   queryParams?: API.TwitterV3Json.Tweets.GetFindTweetById.QueryParams;
-  headers?: API.TwitterV3Json.Tweets.GetFindTweetById.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -368,7 +368,7 @@ export function getFindTweetById(options: {
  */
 export function putHideReplyById(options: {
   pathParams: API.TwitterV3Json.Tweets.PutHideReplyById.PathParams;
-  headers?: API.TwitterV3Json.Tweets.PutHideReplyById.Headers;
+  headers?: Record<string, any>;
   body: API.TwitterV3Json.Tweets.PutHideReplyById.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -388,7 +388,7 @@ export function putHideReplyById(options: {
  */
 export function getFindById(options: {
   queryParams: API.TwitterV3Json.Tweets.GetFindById.QueryParams;
-  headers?: API.TwitterV3Json.Tweets.GetFindById.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -406,7 +406,7 @@ export function getFindById(options: {
  * @docs https://developer.twitter.com/en/docs/twitter-api/tweets/manage-tweets/api-reference/post-tweets
  */
 export function postCreateTweet(options?: {
-  headers?: API.TwitterV3Json.Tweets.PostCreateTweet.Headers;
+  headers?: Record<string, any>;
   body?: API.TwitterV3Json.Tweets.PostCreateTweet.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -427,7 +427,7 @@ export function postCreateTweet(options?: {
 export function getUsersIdLiked(options: {
   pathParams: API.TwitterV3Json.Tweets.GetUsersIdLiked.PathParams;
   queryParams?: API.TwitterV3Json.Tweets.GetUsersIdLiked.QueryParams;
-  headers?: API.TwitterV3Json.Tweets.GetUsersIdLiked.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -446,7 +446,7 @@ export function getUsersIdLiked(options: {
  */
 export function deleteUsersIdUnlike(options: {
   pathParams: API.TwitterV3Json.Tweets.DeleteUsersIdUnlike.PathParams;
-  headers?: API.TwitterV3Json.Tweets.DeleteUsersIdUnlike.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -465,7 +465,7 @@ export function deleteUsersIdUnlike(options: {
  */
 export function postUsersIdLike(options: {
   pathParams: API.TwitterV3Json.Tweets.PostUsersIdLike.PathParams;
-  headers?: API.TwitterV3Json.Tweets.PostUsersIdLike.Headers;
+  headers?: Record<string, any>;
   body: API.TwitterV3Json.Tweets.PostUsersIdLike.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -486,7 +486,7 @@ export function postUsersIdLike(options: {
 export function getUsersIdMentions(options: {
   pathParams: API.TwitterV3Json.Tweets.GetUsersIdMentions.PathParams;
   queryParams?: API.TwitterV3Json.Tweets.GetUsersIdMentions.QueryParams;
-  headers?: API.TwitterV3Json.Tweets.GetUsersIdMentions.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -505,7 +505,7 @@ export function getUsersIdMentions(options: {
  */
 export function deleteUsersIdUnretweets(options: {
   pathParams: API.TwitterV3Json.Tweets.DeleteUsersIdUnretweets.PathParams;
-  headers?: API.TwitterV3Json.Tweets.DeleteUsersIdUnretweets.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -524,7 +524,7 @@ export function deleteUsersIdUnretweets(options: {
  */
 export function postUsersIdRetweets(options: {
   pathParams: API.TwitterV3Json.Tweets.PostUsersIdRetweets.PathParams;
-  headers?: API.TwitterV3Json.Tweets.PostUsersIdRetweets.Headers;
+  headers?: Record<string, any>;
   body: API.TwitterV3Json.Tweets.PostUsersIdRetweets.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -545,7 +545,7 @@ export function postUsersIdRetweets(options: {
 export function getUsersIdTimeline(options: {
   pathParams: API.TwitterV3Json.Tweets.GetUsersIdTimeline.PathParams;
   queryParams?: API.TwitterV3Json.Tweets.GetUsersIdTimeline.QueryParams;
-  headers?: API.TwitterV3Json.Tweets.GetUsersIdTimeline.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -565,7 +565,7 @@ export function getUsersIdTimeline(options: {
 export function getUsersId(options: {
   pathParams: API.TwitterV3Json.Tweets.GetUsersId.PathParams;
   queryParams?: API.TwitterV3Json.Tweets.GetUsersId.QueryParams;
-  headers?: API.TwitterV3Json.Tweets.GetUsersId.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

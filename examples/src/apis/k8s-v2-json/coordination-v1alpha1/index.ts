@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/apis/coordination.k8s.io/v1alpha1/`
  */
 export function getApiResources(options?: {
-  headers?: API.K8sV2Json.CoordinationV1alpha1.GetApiResources.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -22,7 +22,7 @@ export function getApiResources(options?: {
  */
 export function getListLeaseCandidateForAllNamespaces(options?: {
   queryParams?: API.K8sV2Json.CoordinationV1alpha1.GetListLeaseCandidateForAllNamespaces.QueryParams;
-  headers?: API.K8sV2Json.CoordinationV1alpha1.GetListLeaseCandidateForAllNamespaces.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -40,7 +40,7 @@ export function getListLeaseCandidateForAllNamespaces(options?: {
 export function deleteNamespacedLeaseCandidate(options: {
   pathParams: API.K8sV2Json.CoordinationV1alpha1.DeleteNamespacedLeaseCandidate.PathParams;
   queryParams?: API.K8sV2Json.CoordinationV1alpha1.DeleteNamespacedLeaseCandidate.QueryParams;
-  headers?: API.K8sV2Json.CoordinationV1alpha1.DeleteNamespacedLeaseCandidate.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.CoordinationV1alpha1.DeleteNamespacedLeaseCandidate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -59,7 +59,7 @@ export function deleteNamespacedLeaseCandidate(options: {
 export function getReadNamespacedLeaseCandidate(options: {
   pathParams: API.K8sV2Json.CoordinationV1alpha1.GetReadNamespacedLeaseCandidate.PathParams;
   queryParams?: API.K8sV2Json.CoordinationV1alpha1.GetReadNamespacedLeaseCandidate.QueryParams;
-  headers?: API.K8sV2Json.CoordinationV1alpha1.GetReadNamespacedLeaseCandidate.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -77,7 +77,7 @@ export function getReadNamespacedLeaseCandidate(options: {
 export function patchNamespacedLeaseCandidate(options: {
   pathParams: API.K8sV2Json.CoordinationV1alpha1.PatchNamespacedLeaseCandidate.PathParams;
   queryParams?: API.K8sV2Json.CoordinationV1alpha1.PatchNamespacedLeaseCandidate.QueryParams;
-  headers?: API.K8sV2Json.CoordinationV1alpha1.PatchNamespacedLeaseCandidate.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.CoordinationV1alpha1.PatchNamespacedLeaseCandidate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -96,7 +96,7 @@ export function patchNamespacedLeaseCandidate(options: {
 export function putReplaceNamespacedLeaseCandidate(options: {
   pathParams: API.K8sV2Json.CoordinationV1alpha1.PutReplaceNamespacedLeaseCandidate.PathParams;
   queryParams?: API.K8sV2Json.CoordinationV1alpha1.PutReplaceNamespacedLeaseCandidate.QueryParams;
-  headers?: API.K8sV2Json.CoordinationV1alpha1.PutReplaceNamespacedLeaseCandidate.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.CoordinationV1alpha1.PutReplaceNamespacedLeaseCandidate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -115,7 +115,7 @@ export function putReplaceNamespacedLeaseCandidate(options: {
 export function deleteCollectionNamespacedLeaseCandidate(options: {
   pathParams: API.K8sV2Json.CoordinationV1alpha1.DeleteCollectionNamespacedLeaseCandidate.PathParams;
   queryParams?: API.K8sV2Json.CoordinationV1alpha1.DeleteCollectionNamespacedLeaseCandidate.QueryParams;
-  headers?: API.K8sV2Json.CoordinationV1alpha1.DeleteCollectionNamespacedLeaseCandidate.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.CoordinationV1alpha1.DeleteCollectionNamespacedLeaseCandidate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -134,7 +134,7 @@ export function deleteCollectionNamespacedLeaseCandidate(options: {
 export function getListNamespacedLeaseCandidate(options: {
   pathParams: API.K8sV2Json.CoordinationV1alpha1.GetListNamespacedLeaseCandidate.PathParams;
   queryParams?: API.K8sV2Json.CoordinationV1alpha1.GetListNamespacedLeaseCandidate.QueryParams;
-  headers?: API.K8sV2Json.CoordinationV1alpha1.GetListNamespacedLeaseCandidate.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -152,7 +152,7 @@ export function getListNamespacedLeaseCandidate(options: {
 export function postCreateNamespacedLeaseCandidate(options: {
   pathParams: API.K8sV2Json.CoordinationV1alpha1.PostCreateNamespacedLeaseCandidate.PathParams;
   queryParams?: API.K8sV2Json.CoordinationV1alpha1.PostCreateNamespacedLeaseCandidate.QueryParams;
-  headers?: API.K8sV2Json.CoordinationV1alpha1.PostCreateNamespacedLeaseCandidate.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.CoordinationV1alpha1.PostCreateNamespacedLeaseCandidate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -170,7 +170,7 @@ export function postCreateNamespacedLeaseCandidate(options: {
  */
 export function getWatchLeaseCandidateListForAllNamespaces(options?: {
   queryParams?: API.K8sV2Json.CoordinationV1alpha1.GetWatchLeaseCandidateListForAllNamespaces.QueryParams;
-  headers?: API.K8sV2Json.CoordinationV1alpha1.GetWatchLeaseCandidateListForAllNamespaces.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -188,7 +188,7 @@ export function getWatchLeaseCandidateListForAllNamespaces(options?: {
 export function getWatchNamespacedLeaseCandidate(options: {
   pathParams: API.K8sV2Json.CoordinationV1alpha1.GetWatchNamespacedLeaseCandidate.PathParams;
   queryParams?: API.K8sV2Json.CoordinationV1alpha1.GetWatchNamespacedLeaseCandidate.QueryParams;
-  headers?: API.K8sV2Json.CoordinationV1alpha1.GetWatchNamespacedLeaseCandidate.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -206,7 +206,7 @@ export function getWatchNamespacedLeaseCandidate(options: {
 export function getWatchNamespacedLeaseCandidateList(options: {
   pathParams: API.K8sV2Json.CoordinationV1alpha1.GetWatchNamespacedLeaseCandidateList.PathParams;
   queryParams?: API.K8sV2Json.CoordinationV1alpha1.GetWatchNamespacedLeaseCandidateList.QueryParams;
-  headers?: API.K8sV2Json.CoordinationV1alpha1.GetWatchNamespacedLeaseCandidateList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

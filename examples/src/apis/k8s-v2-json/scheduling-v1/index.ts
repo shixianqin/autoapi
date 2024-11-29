@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/apis/scheduling.k8s.io/v1/`
  */
 export function getApiResources(options?: {
-  headers?: API.K8sV2Json.SchedulingV1.GetApiResources.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -23,7 +23,7 @@ export function getApiResources(options?: {
 export function deletePriorityClass(options: {
   pathParams: API.K8sV2Json.SchedulingV1.DeletePriorityClass.PathParams;
   queryParams?: API.K8sV2Json.SchedulingV1.DeletePriorityClass.QueryParams;
-  headers?: API.K8sV2Json.SchedulingV1.DeletePriorityClass.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.SchedulingV1.DeletePriorityClass.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -42,7 +42,7 @@ export function deletePriorityClass(options: {
 export function getReadPriorityClass(options: {
   pathParams: API.K8sV2Json.SchedulingV1.GetReadPriorityClass.PathParams;
   queryParams?: API.K8sV2Json.SchedulingV1.GetReadPriorityClass.QueryParams;
-  headers?: API.K8sV2Json.SchedulingV1.GetReadPriorityClass.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -60,7 +60,7 @@ export function getReadPriorityClass(options: {
 export function patchPriorityClass(options: {
   pathParams: API.K8sV2Json.SchedulingV1.PatchPriorityClass.PathParams;
   queryParams?: API.K8sV2Json.SchedulingV1.PatchPriorityClass.QueryParams;
-  headers?: API.K8sV2Json.SchedulingV1.PatchPriorityClass.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.SchedulingV1.PatchPriorityClass.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -79,7 +79,7 @@ export function patchPriorityClass(options: {
 export function putReplacePriorityClass(options: {
   pathParams: API.K8sV2Json.SchedulingV1.PutReplacePriorityClass.PathParams;
   queryParams?: API.K8sV2Json.SchedulingV1.PutReplacePriorityClass.QueryParams;
-  headers?: API.K8sV2Json.SchedulingV1.PutReplacePriorityClass.Headers;
+  headers?: Record<string, any>;
   body: API.K8sV2Json.SchedulingV1.PutReplacePriorityClass.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -97,7 +97,7 @@ export function putReplacePriorityClass(options: {
  */
 export function deleteCollectionPriorityClass(options?: {
   queryParams?: API.K8sV2Json.SchedulingV1.DeleteCollectionPriorityClass.QueryParams;
-  headers?: API.K8sV2Json.SchedulingV1.DeleteCollectionPriorityClass.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.SchedulingV1.DeleteCollectionPriorityClass.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -115,7 +115,7 @@ export function deleteCollectionPriorityClass(options?: {
  */
 export function getListPriorityClass(options?: {
   queryParams?: API.K8sV2Json.SchedulingV1.GetListPriorityClass.QueryParams;
-  headers?: API.K8sV2Json.SchedulingV1.GetListPriorityClass.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -132,7 +132,7 @@ export function getListPriorityClass(options?: {
  */
 export function postCreatePriorityClass(options: {
   queryParams?: API.K8sV2Json.SchedulingV1.PostCreatePriorityClass.QueryParams;
-  headers?: API.K8sV2Json.SchedulingV1.PostCreatePriorityClass.Headers;
+  headers?: Record<string, any>;
   body: API.K8sV2Json.SchedulingV1.PostCreatePriorityClass.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -151,7 +151,7 @@ export function postCreatePriorityClass(options: {
 export function getWatchPriorityClass(options: {
   pathParams: API.K8sV2Json.SchedulingV1.GetWatchPriorityClass.PathParams;
   queryParams?: API.K8sV2Json.SchedulingV1.GetWatchPriorityClass.QueryParams;
-  headers?: API.K8sV2Json.SchedulingV1.GetWatchPriorityClass.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -168,7 +168,7 @@ export function getWatchPriorityClass(options: {
  */
 export function getWatchPriorityClassList(options?: {
   queryParams?: API.K8sV2Json.SchedulingV1.GetWatchPriorityClassList.QueryParams;
-  headers?: API.K8sV2Json.SchedulingV1.GetWatchPriorityClassList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

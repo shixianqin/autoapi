@@ -8,7 +8,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getFindByCreatorIds(options: {
   queryParams: API.TwitterV3Json.Spaces.GetFindByCreatorIds.QueryParams;
-  headers?: API.TwitterV3Json.Spaces.GetFindByCreatorIds.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -27,7 +27,7 @@ export function getFindByCreatorIds(options: {
  */
 export function getSearch(options: {
   queryParams: API.TwitterV3Json.Spaces.GetSearch.QueryParams;
-  headers?: API.TwitterV3Json.Spaces.GetSearch.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -47,7 +47,7 @@ export function getSearch(options: {
 export function getSpaceBuyers(options: {
   pathParams: API.TwitterV3Json.Spaces.GetSpaceBuyers.PathParams;
   queryParams?: API.TwitterV3Json.Spaces.GetSpaceBuyers.QueryParams;
-  headers?: API.TwitterV3Json.Spaces.GetSpaceBuyers.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -67,7 +67,7 @@ export function getSpaceBuyers(options: {
 export function getSpaceTweets(options: {
   pathParams: API.TwitterV3Json.Spaces.GetSpaceTweets.PathParams;
   queryParams?: API.TwitterV3Json.Spaces.GetSpaceTweets.QueryParams;
-  headers?: API.TwitterV3Json.Spaces.GetSpaceTweets.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -87,7 +87,7 @@ export function getSpaceTweets(options: {
 export function getFindSpaceById(options: {
   pathParams: API.TwitterV3Json.Spaces.GetFindSpaceById.PathParams;
   queryParams?: API.TwitterV3Json.Spaces.GetFindSpaceById.QueryParams;
-  headers?: API.TwitterV3Json.Spaces.GetFindSpaceById.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -106,7 +106,7 @@ export function getFindSpaceById(options: {
  */
 export function getFindByIds(options: {
   queryParams: API.TwitterV3Json.Spaces.GetFindByIds.QueryParams;
-  headers?: API.TwitterV3Json.Spaces.GetFindByIds.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

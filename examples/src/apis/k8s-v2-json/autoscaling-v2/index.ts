@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/apis/autoscaling/v2/`
  */
 export function getApiResources(options?: {
-  headers?: API.K8sV2Json.AutoscalingV2.GetApiResources.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -22,7 +22,7 @@ export function getApiResources(options?: {
  */
 export function getListHorizontalPodAutoscalerForAllNamespaces(options?: {
   queryParams?: API.K8sV2Json.AutoscalingV2.GetListHorizontalPodAutoscalerForAllNamespaces.QueryParams;
-  headers?: API.K8sV2Json.AutoscalingV2.GetListHorizontalPodAutoscalerForAllNamespaces.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -40,7 +40,7 @@ export function getListHorizontalPodAutoscalerForAllNamespaces(options?: {
 export function getReadNamespacedHorizontalPodAutoscalerStatus(options: {
   pathParams: API.K8sV2Json.AutoscalingV2.GetReadNamespacedHorizontalPodAutoscalerStatus.PathParams;
   queryParams?: API.K8sV2Json.AutoscalingV2.GetReadNamespacedHorizontalPodAutoscalerStatus.QueryParams;
-  headers?: API.K8sV2Json.AutoscalingV2.GetReadNamespacedHorizontalPodAutoscalerStatus.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -58,7 +58,7 @@ export function getReadNamespacedHorizontalPodAutoscalerStatus(options: {
 export function patchNamespacedHorizontalPodAutoscalerStatus(options: {
   pathParams: API.K8sV2Json.AutoscalingV2.PatchNamespacedHorizontalPodAutoscalerStatus.PathParams;
   queryParams?: API.K8sV2Json.AutoscalingV2.PatchNamespacedHorizontalPodAutoscalerStatus.QueryParams;
-  headers?: API.K8sV2Json.AutoscalingV2.PatchNamespacedHorizontalPodAutoscalerStatus.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AutoscalingV2.PatchNamespacedHorizontalPodAutoscalerStatus.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -77,7 +77,7 @@ export function patchNamespacedHorizontalPodAutoscalerStatus(options: {
 export function putReplaceNamespacedHorizontalPodAutoscalerStatus(options: {
   pathParams: API.K8sV2Json.AutoscalingV2.PutReplaceNamespacedHorizontalPodAutoscalerStatus.PathParams;
   queryParams?: API.K8sV2Json.AutoscalingV2.PutReplaceNamespacedHorizontalPodAutoscalerStatus.QueryParams;
-  headers?: API.K8sV2Json.AutoscalingV2.PutReplaceNamespacedHorizontalPodAutoscalerStatus.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AutoscalingV2.PutReplaceNamespacedHorizontalPodAutoscalerStatus.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -96,7 +96,7 @@ export function putReplaceNamespacedHorizontalPodAutoscalerStatus(options: {
 export function deleteNamespacedHorizontalPodAutoscaler(options: {
   pathParams: API.K8sV2Json.AutoscalingV2.DeleteNamespacedHorizontalPodAutoscaler.PathParams;
   queryParams?: API.K8sV2Json.AutoscalingV2.DeleteNamespacedHorizontalPodAutoscaler.QueryParams;
-  headers?: API.K8sV2Json.AutoscalingV2.DeleteNamespacedHorizontalPodAutoscaler.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AutoscalingV2.DeleteNamespacedHorizontalPodAutoscaler.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -115,7 +115,7 @@ export function deleteNamespacedHorizontalPodAutoscaler(options: {
 export function getReadNamespacedHorizontalPodAutoscaler(options: {
   pathParams: API.K8sV2Json.AutoscalingV2.GetReadNamespacedHorizontalPodAutoscaler.PathParams;
   queryParams?: API.K8sV2Json.AutoscalingV2.GetReadNamespacedHorizontalPodAutoscaler.QueryParams;
-  headers?: API.K8sV2Json.AutoscalingV2.GetReadNamespacedHorizontalPodAutoscaler.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -133,7 +133,7 @@ export function getReadNamespacedHorizontalPodAutoscaler(options: {
 export function patchNamespacedHorizontalPodAutoscaler(options: {
   pathParams: API.K8sV2Json.AutoscalingV2.PatchNamespacedHorizontalPodAutoscaler.PathParams;
   queryParams?: API.K8sV2Json.AutoscalingV2.PatchNamespacedHorizontalPodAutoscaler.QueryParams;
-  headers?: API.K8sV2Json.AutoscalingV2.PatchNamespacedHorizontalPodAutoscaler.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AutoscalingV2.PatchNamespacedHorizontalPodAutoscaler.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -152,7 +152,7 @@ export function patchNamespacedHorizontalPodAutoscaler(options: {
 export function putReplaceNamespacedHorizontalPodAutoscaler(options: {
   pathParams: API.K8sV2Json.AutoscalingV2.PutReplaceNamespacedHorizontalPodAutoscaler.PathParams;
   queryParams?: API.K8sV2Json.AutoscalingV2.PutReplaceNamespacedHorizontalPodAutoscaler.QueryParams;
-  headers?: API.K8sV2Json.AutoscalingV2.PutReplaceNamespacedHorizontalPodAutoscaler.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AutoscalingV2.PutReplaceNamespacedHorizontalPodAutoscaler.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -171,7 +171,7 @@ export function putReplaceNamespacedHorizontalPodAutoscaler(options: {
 export function deleteCollectionNamespacedHorizontalPodAutoscaler(options: {
   pathParams: API.K8sV2Json.AutoscalingV2.DeleteCollectionNamespacedHorizontalPodAutoscaler.PathParams;
   queryParams?: API.K8sV2Json.AutoscalingV2.DeleteCollectionNamespacedHorizontalPodAutoscaler.QueryParams;
-  headers?: API.K8sV2Json.AutoscalingV2.DeleteCollectionNamespacedHorizontalPodAutoscaler.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AutoscalingV2.DeleteCollectionNamespacedHorizontalPodAutoscaler.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -190,7 +190,7 @@ export function deleteCollectionNamespacedHorizontalPodAutoscaler(options: {
 export function getListNamespacedHorizontalPodAutoscaler(options: {
   pathParams: API.K8sV2Json.AutoscalingV2.GetListNamespacedHorizontalPodAutoscaler.PathParams;
   queryParams?: API.K8sV2Json.AutoscalingV2.GetListNamespacedHorizontalPodAutoscaler.QueryParams;
-  headers?: API.K8sV2Json.AutoscalingV2.GetListNamespacedHorizontalPodAutoscaler.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -208,7 +208,7 @@ export function getListNamespacedHorizontalPodAutoscaler(options: {
 export function postCreateNamespacedHorizontalPodAutoscaler(options: {
   pathParams: API.K8sV2Json.AutoscalingV2.PostCreateNamespacedHorizontalPodAutoscaler.PathParams;
   queryParams?: API.K8sV2Json.AutoscalingV2.PostCreateNamespacedHorizontalPodAutoscaler.QueryParams;
-  headers?: API.K8sV2Json.AutoscalingV2.PostCreateNamespacedHorizontalPodAutoscaler.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AutoscalingV2.PostCreateNamespacedHorizontalPodAutoscaler.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -226,7 +226,7 @@ export function postCreateNamespacedHorizontalPodAutoscaler(options: {
  */
 export function getWatchHorizontalPodAutoscalerListForAllNamespaces(options?: {
   queryParams?: API.K8sV2Json.AutoscalingV2.GetWatchHorizontalPodAutoscalerListForAllNamespaces.QueryParams;
-  headers?: API.K8sV2Json.AutoscalingV2.GetWatchHorizontalPodAutoscalerListForAllNamespaces.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -244,7 +244,7 @@ export function getWatchHorizontalPodAutoscalerListForAllNamespaces(options?: {
 export function getWatchNamespacedHorizontalPodAutoscaler(options: {
   pathParams: API.K8sV2Json.AutoscalingV2.GetWatchNamespacedHorizontalPodAutoscaler.PathParams;
   queryParams?: API.K8sV2Json.AutoscalingV2.GetWatchNamespacedHorizontalPodAutoscaler.QueryParams;
-  headers?: API.K8sV2Json.AutoscalingV2.GetWatchNamespacedHorizontalPodAutoscaler.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -262,7 +262,7 @@ export function getWatchNamespacedHorizontalPodAutoscaler(options: {
 export function getWatchNamespacedHorizontalPodAutoscalerList(options: {
   pathParams: API.K8sV2Json.AutoscalingV2.GetWatchNamespacedHorizontalPodAutoscalerList.PathParams;
   queryParams?: API.K8sV2Json.AutoscalingV2.GetWatchNamespacedHorizontalPodAutoscalerList.QueryParams;
-  headers?: API.K8sV2Json.AutoscalingV2.GetWatchNamespacedHorizontalPodAutoscalerList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

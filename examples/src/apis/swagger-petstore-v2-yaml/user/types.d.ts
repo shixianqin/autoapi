@@ -3,27 +3,13 @@ declare namespace API {
     namespace User {
       namespace PostCreateUsersWithArrayInput {
         type Body = $schemas.User[];
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
       }
 
       namespace PostCreateUsersWithListInput {
         type Body = $schemas.User[];
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
       }
 
       namespace GetLogin {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * The password for login in clear text
@@ -38,17 +24,9 @@ declare namespace API {
         type Response = string;
       }
 
-      namespace GetLogout {
-        interface Headers {
-          [P: string]: any;
-        }
-      }
+      namespace GetLogout {}
 
       namespace DeleteUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name that needs to be deleted
@@ -58,10 +36,6 @@ declare namespace API {
       }
 
       namespace GetByName {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name that needs to be fetched. Use user1 for testing.
@@ -75,11 +49,6 @@ declare namespace API {
       namespace PutUpdate {
         type Body = $schemas.User;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name that need to be updated
@@ -90,11 +59,6 @@ declare namespace API {
 
       namespace PostCreate {
         type Body = $schemas.User;
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
       }
     }
   }

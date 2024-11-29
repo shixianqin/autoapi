@@ -1,4 +1,4 @@
-import type { OpenAPI, OpenAPIV2, OpenAPIV3 } from 'openapi-types'
+import type { OpenAPI, OpenAPIV3 } from 'openapi-types'
 import { camelCase, pascalCase, snakeCase } from 'change-case'
 import { skipParsing } from './skip-parsing'
 import { genTypeBody } from '../generator/utils'
@@ -355,11 +355,7 @@ export class Parser {
    */
   private _parseParams(originalOperation: OpenAPI.Operation) {
     const parameters = originalOperation.parameters || []
-
-    const types: RequestTypes = {
-      // header 默认参数
-      [PARAMETER_IDENTIFIERS.header]: this._createDefaultHeaderParams(originalOperation),
-    }
+    const types: RequestTypes = {}
 
     const parseParameter = (parameter: ParameterObject) => {
       const location = parameter.in as ParameterLocations
@@ -408,46 +404,16 @@ export class Parser {
       parseParameter(item)
     }
 
+    const headers = types[PARAMETER_IDENTIFIERS.header] as ObjectType | undefined
+
+    // 允许 headers 参数使用附加属性，因为文档上并不一定定义了全部需要的 header 参数
+    headers?.properties.push({
+      name: 'P',
+      type: null,
+      additional: true,
+    })
+
     return types
-  }
-
-  /**
-   * 创建默认的 header 参数
-   * @param originalOperation
-   * @private
-   */
-  private _createDefaultHeaderParams(originalOperation: OpenAPI.Operation): ObjectType {
-    let { mimeTypes } = this._getRequestBody(originalOperation)
-
-    if (mimeTypes.length === 0) {
-      mimeTypes = (originalOperation as OpenAPIV2.OperationObject).consumes || []
-    }
-
-    const properties: PropertySignature[] = [
-      // 默认支持附加属性，用于接收其他 header 参数，因为文档中不一定定义了所有的 header 参数
-      {
-        name: 'P',
-        type: null,
-        additional: true,
-      },
-    ]
-
-    // 支持 `Content-Type` 参数
-    // 因为各种可序列化的 body 结构（xml，form-data，form-urlencoded）都被解析为了 JSON，但是传递时可能是需要为 XML，FormData，Query 字符串等
-    // 所以需要指定 Content-Type，以在适配器中将 JSON 格式转换为其他的格式
-    if (mimeTypes.length > 0) {
-      properties.push(
-        {
-          name: 'Content-Type',
-          type: `"${mimeTypes.join('"|"')}" | string`,
-        },
-      )
-    }
-
-    return {
-      type: 'object',
-      properties,
-    }
   }
 
   private _getRequestBody(originalOperation: OpenAPI.Operation) {

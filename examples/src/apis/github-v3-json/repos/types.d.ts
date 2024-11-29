@@ -2,10 +2,6 @@ declare namespace API {
   namespace GithubV3Json {
     namespace Repos {
       namespace GetListForOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -164,11 +160,6 @@ declare namespace API {
           visibility?: "private" | "public";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -180,10 +171,6 @@ declare namespace API {
       }
 
       namespace DeleteAutolink {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the autolink.
@@ -201,10 +188,6 @@ declare namespace API {
       }
 
       namespace GetAutolink {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the autolink.
@@ -224,10 +207,6 @@ declare namespace API {
       }
 
       namespace GetListAutolinks {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -267,11 +246,6 @@ declare namespace API {
           url_template: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -287,10 +261,6 @@ declare namespace API {
       }
 
       namespace DeleteDisableAutomatedSecurityFixes {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -304,10 +274,6 @@ declare namespace API {
       }
 
       namespace PutEnableAutomatedSecurityFixes {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -321,10 +287,6 @@ declare namespace API {
       }
 
       namespace DeleteAdminBranchProtection {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
@@ -342,10 +304,6 @@ declare namespace API {
       }
 
       namespace GetAdminBranchProtection {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
@@ -365,10 +323,6 @@ declare namespace API {
       }
 
       namespace PostSetAdminBranchProtection {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
@@ -388,10 +342,6 @@ declare namespace API {
       }
 
       namespace DeletePullRequestReviewProtection {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
@@ -409,10 +359,6 @@ declare namespace API {
       }
 
       namespace GetPullRequestReviewProtection {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
@@ -485,11 +431,6 @@ declare namespace API {
           required_approving_review_count?: number;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
@@ -509,10 +450,6 @@ declare namespace API {
       }
 
       namespace DeleteCommitSignatureProtection {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
@@ -530,10 +467,6 @@ declare namespace API {
       }
 
       namespace GetCommitSignatureProtection {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
@@ -553,10 +486,6 @@ declare namespace API {
       }
 
       namespace PostCreateCommitSignatureProtection {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
@@ -585,11 +514,6 @@ declare namespace API {
             }
           | string[];
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
@@ -609,10 +533,6 @@ declare namespace API {
       }
 
       namespace GetAllStatusCheckContexts {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
@@ -640,11 +560,6 @@ declare namespace API {
               contexts: string[];
             }
           | string[];
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -674,11 +589,6 @@ declare namespace API {
             }
           | string[];
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
@@ -698,10 +608,6 @@ declare namespace API {
       }
 
       namespace DeleteRemoveStatusCheckProtection {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
@@ -719,10 +625,6 @@ declare namespace API {
       }
 
       namespace GetStatusChecksProtection {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
@@ -768,11 +670,6 @@ declare namespace API {
           strict?: boolean;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
@@ -801,11 +698,6 @@ declare namespace API {
             }
           | string[];
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
@@ -825,10 +717,6 @@ declare namespace API {
       }
 
       namespace GetAppsWithAccessToProtectedBranch {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
@@ -856,11 +744,6 @@ declare namespace API {
               apps: string[];
             }
           | string[];
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -890,11 +773,6 @@ declare namespace API {
             }
           | string[];
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
@@ -923,11 +801,6 @@ declare namespace API {
             }
           | string[];
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
@@ -947,10 +820,6 @@ declare namespace API {
       }
 
       namespace GetTeamsWithAccessToProtectedBranch {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
@@ -978,11 +847,6 @@ declare namespace API {
               teams: string[];
             }
           | string[];
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -1012,11 +876,6 @@ declare namespace API {
             }
           | string[];
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
@@ -1045,11 +904,6 @@ declare namespace API {
             }
           | string[];
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
@@ -1069,10 +923,6 @@ declare namespace API {
       }
 
       namespace GetUsersWithAccessToProtectedBranch {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
@@ -1100,11 +950,6 @@ declare namespace API {
               users: string[];
             }
           | string[];
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -1134,11 +979,6 @@ declare namespace API {
             }
           | string[];
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
@@ -1158,10 +998,6 @@ declare namespace API {
       }
 
       namespace DeleteAccessRestrictions {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
@@ -1179,10 +1015,6 @@ declare namespace API {
       }
 
       namespace GetAccessRestrictions {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
@@ -1202,10 +1034,6 @@ declare namespace API {
       }
 
       namespace DeleteBranchProtection {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
@@ -1223,10 +1051,6 @@ declare namespace API {
       }
 
       namespace GetBranchProtection {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
@@ -1381,11 +1205,6 @@ declare namespace API {
           };
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
@@ -1412,11 +1231,6 @@ declare namespace API {
           new_name: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
@@ -1436,10 +1250,6 @@ declare namespace API {
       }
 
       namespace GetBranch {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
@@ -1459,10 +1269,6 @@ declare namespace API {
       }
 
       namespace GetListBranches {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1495,10 +1301,6 @@ declare namespace API {
       }
 
       namespace GetCodeownersErrors {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1521,10 +1323,6 @@ declare namespace API {
       }
 
       namespace GetCollaboratorPermissionLevel {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1544,10 +1342,6 @@ declare namespace API {
       }
 
       namespace DeleteRemoveCollaborator {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1565,10 +1359,6 @@ declare namespace API {
       }
 
       namespace GetCheckCollaborator {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1594,11 +1384,6 @@ declare namespace API {
           permission?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1618,10 +1403,6 @@ declare namespace API {
       }
 
       namespace GetListCollaborators {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1659,10 +1440,6 @@ declare namespace API {
       }
 
       namespace DeleteCommitComment {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the comment.
@@ -1680,10 +1457,6 @@ declare namespace API {
       }
 
       namespace GetCommitComment {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the comment.
@@ -1710,11 +1483,6 @@ declare namespace API {
           body: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the comment.
@@ -1734,10 +1502,6 @@ declare namespace API {
       }
 
       namespace GetListCommitCommentsForRepo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1766,10 +1530,6 @@ declare namespace API {
       }
 
       namespace GetListBranchesForHeadCommit {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The SHA of the commit.
@@ -1789,10 +1549,6 @@ declare namespace API {
       }
 
       namespace GetListCommentsForCommit {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The SHA of the commit.
@@ -1844,11 +1600,6 @@ declare namespace API {
           position?: number;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The SHA of the commit.
@@ -1868,10 +1619,6 @@ declare namespace API {
       }
 
       namespace GetListPullRequestsAssociatedWithCommit {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The SHA of the commit.
@@ -1904,10 +1651,6 @@ declare namespace API {
       }
 
       namespace GetListCommitStatusesForRef {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1940,10 +1683,6 @@ declare namespace API {
       }
 
       namespace GetCombinedStatusForRef {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1976,10 +1715,6 @@ declare namespace API {
       }
 
       namespace GetCommit {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2012,10 +1747,6 @@ declare namespace API {
       }
 
       namespace GetListCommits {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2066,10 +1797,6 @@ declare namespace API {
       }
 
       namespace GetCommunityProfileMetrics {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2085,10 +1812,6 @@ declare namespace API {
       }
 
       namespace GetCompareCommits {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The base branch and head branch to compare. This parameter expects the format `BASE...HEAD`. Both must be branch names in `repo`. To compare with a branch that exists in a different repository in the same network as `repo`, the `basehead` parameter expects the format `USERNAME:BASE...USERNAME:HEAD`.
@@ -2162,11 +1885,6 @@ declare namespace API {
           sha: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2186,10 +1904,6 @@ declare namespace API {
       }
 
       namespace GetContent {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2270,11 +1984,6 @@ declare namespace API {
           sha?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2294,10 +2003,6 @@ declare namespace API {
       }
 
       namespace GetListContributors {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2330,10 +2035,6 @@ declare namespace API {
       }
 
       namespace GetDeploymentStatus {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * deployment_id parameter
@@ -2354,10 +2055,6 @@ declare namespace API {
       }
 
       namespace GetListDeploymentStatuses {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * deployment_id parameter
@@ -2428,11 +2125,6 @@ declare namespace API {
           target_url?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * deployment_id parameter
@@ -2452,10 +2144,6 @@ declare namespace API {
       }
 
       namespace DeleteDeployment {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * deployment_id parameter
@@ -2473,10 +2161,6 @@ declare namespace API {
       }
 
       namespace GetDeployment {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * deployment_id parameter
@@ -2496,10 +2180,6 @@ declare namespace API {
       }
 
       namespace GetListDeployments {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2591,11 +2271,6 @@ declare namespace API {
           transient_environment?: boolean;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2631,11 +2306,6 @@ declare namespace API {
           event_type: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2649,10 +2319,6 @@ declare namespace API {
       }
 
       namespace DeleteDeploymentBranchPolicy {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the branch policy.
@@ -2674,10 +2340,6 @@ declare namespace API {
       }
 
       namespace GetDeploymentBranchPolicy {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the branch policy.
@@ -2703,11 +2365,6 @@ declare namespace API {
       namespace PutUpdateDeploymentBranchPolicy {
         type Body = $schemas.DeploymentBranchPolicyNamePattern;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the branch policy.
@@ -2731,10 +2388,6 @@ declare namespace API {
       }
 
       namespace GetListDeploymentBranchPolicies {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the environment.
@@ -2775,11 +2428,6 @@ declare namespace API {
       namespace PostCreateDeploymentBranchPolicy {
         type Body = $schemas.DeploymentBranchPolicyNamePattern;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the environment.
@@ -2799,10 +2447,6 @@ declare namespace API {
       }
 
       namespace DeleteAnEnvironment {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the environment.
@@ -2820,10 +2464,6 @@ declare namespace API {
       }
 
       namespace GetEnvironment {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the environment.
@@ -2867,11 +2507,6 @@ declare namespace API {
           wait_timer?: $schemas.WaitTimer;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the environment.
@@ -2891,10 +2526,6 @@ declare namespace API {
       }
 
       namespace GetAllEnvironments {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2929,10 +2560,6 @@ declare namespace API {
       }
 
       namespace GetListForks {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2981,11 +2608,6 @@ declare namespace API {
           organization?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -3001,10 +2623,6 @@ declare namespace API {
       }
 
       namespace GetWebhookConfigForRepo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the hook.
@@ -3041,11 +2659,6 @@ declare namespace API {
           url?: $schemas.WebhookConfigUrl;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the hook.
@@ -3065,10 +2678,6 @@ declare namespace API {
       }
 
       namespace PostRedeliverWebhookDelivery {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           delivery_id: number;
           /**
@@ -3089,10 +2698,6 @@ declare namespace API {
       }
 
       namespace GetWebhookDelivery {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           delivery_id: number;
           /**
@@ -3113,10 +2718,6 @@ declare namespace API {
       }
 
       namespace GetListWebhookDeliveries {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the hook.
@@ -3149,10 +2750,6 @@ declare namespace API {
       }
 
       namespace PostPingWebhook {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the hook.
@@ -3170,10 +2767,6 @@ declare namespace API {
       }
 
       namespace PostTestPushWebhook {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the hook.
@@ -3191,10 +2784,6 @@ declare namespace API {
       }
 
       namespace DeleteWebhook {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the hook.
@@ -3212,10 +2801,6 @@ declare namespace API {
       }
 
       namespace GetWebhook {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the hook.
@@ -3277,11 +2862,6 @@ declare namespace API {
           remove_events?: string[];
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the hook.
@@ -3301,10 +2881,6 @@ declare namespace API {
       }
 
       namespace GetListWebhooks {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -3371,11 +2947,6 @@ declare namespace API {
           name?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -3391,10 +2962,6 @@ declare namespace API {
       }
 
       namespace DeleteInvitation {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the invitation.
@@ -3419,11 +2986,6 @@ declare namespace API {
           permissions?: "admin" | "maintain" | "read" | "triage" | "write";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the invitation.
@@ -3443,10 +3005,6 @@ declare namespace API {
       }
 
       namespace GetListInvitations {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -3475,10 +3033,6 @@ declare namespace API {
       }
 
       namespace DeleteDeployKey {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the key.
@@ -3496,10 +3050,6 @@ declare namespace API {
       }
 
       namespace GetDeployKey {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the key.
@@ -3519,10 +3069,6 @@ declare namespace API {
       }
 
       namespace GetListDeployKeys {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -3568,11 +3114,6 @@ declare namespace API {
           title?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -3588,10 +3129,6 @@ declare namespace API {
       }
 
       namespace GetListLanguages {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -3607,10 +3144,6 @@ declare namespace API {
       }
 
       namespace DeleteDisableLfsForRepo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -3624,10 +3157,6 @@ declare namespace API {
       }
 
       namespace PutEnableLfsForRepo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -3648,11 +3177,6 @@ declare namespace API {
            * The name of the branch which should be updated to match upstream.
            */
           branch: string;
-        }
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
         }
 
         interface PathParams {
@@ -3685,11 +3209,6 @@ declare namespace API {
           head: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -3705,10 +3224,6 @@ declare namespace API {
       }
 
       namespace GetLatestPagesBuild {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -3724,10 +3239,6 @@ declare namespace API {
       }
 
       namespace GetPagesBuild {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           build_id: number;
           /**
@@ -3744,10 +3255,6 @@ declare namespace API {
       }
 
       namespace GetListPagesBuilds {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -3776,10 +3283,6 @@ declare namespace API {
       }
 
       namespace PostRequestPagesBuild {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -3816,11 +3319,6 @@ declare namespace API {
           pages_build_version: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -3836,10 +3334,6 @@ declare namespace API {
       }
 
       namespace GetPagesHealthCheck {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -3855,10 +3349,6 @@ declare namespace API {
       }
 
       namespace DeletePagesSite {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -3872,10 +3362,6 @@ declare namespace API {
       }
 
       namespace GetPages {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -3928,11 +3414,6 @@ declare namespace API {
               build_type: "legacy" | "workflow";
             }
         );
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -4003,11 +3484,6 @@ declare namespace API {
             }
         );
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -4021,10 +3497,6 @@ declare namespace API {
       }
 
       namespace GetReadmeInDirectory {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The alternate path to look for a README file
@@ -4051,10 +3523,6 @@ declare namespace API {
       }
 
       namespace GetReadme {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -4077,10 +3545,6 @@ declare namespace API {
       }
 
       namespace DeleteReleaseAsset {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the asset.
@@ -4098,10 +3562,6 @@ declare namespace API {
       }
 
       namespace GetReleaseAsset {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the asset.
@@ -4131,11 +3591,6 @@ declare namespace API {
            */
           name?: string;
           state?: string;
-        }
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
         }
 
         interface PathParams {
@@ -4176,11 +3631,6 @@ declare namespace API {
           target_commitish?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -4196,10 +3646,6 @@ declare namespace API {
       }
 
       namespace GetLatestRelease {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -4215,10 +3661,6 @@ declare namespace API {
       }
 
       namespace GetReleaseByTag {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -4238,10 +3680,6 @@ declare namespace API {
       }
 
       namespace GetListReleaseAssets {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -4276,11 +3714,6 @@ declare namespace API {
       namespace PostUploadReleaseAsset {
         type Body = ArrayBuffer | ArrayBufferView | Blob | Buffer | File;
 
-        interface Headers {
-          "Content-Type"?: "application/octet-stream" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -4305,10 +3738,6 @@ declare namespace API {
       }
 
       namespace DeleteRelease {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -4326,10 +3755,6 @@ declare namespace API {
       }
 
       namespace GetRelease {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -4385,11 +3810,6 @@ declare namespace API {
           target_commitish?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -4409,10 +3829,6 @@ declare namespace API {
       }
 
       namespace GetListReleases {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -4481,11 +3897,6 @@ declare namespace API {
           target_commitish?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -4501,10 +3912,6 @@ declare namespace API {
       }
 
       namespace GetCodeFrequencyStats {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -4523,10 +3930,6 @@ declare namespace API {
       }
 
       namespace GetCommitActivityStats {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -4545,10 +3948,6 @@ declare namespace API {
       }
 
       namespace GetContributorsStats {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -4567,10 +3966,6 @@ declare namespace API {
       }
 
       namespace GetParticipationStats {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -4586,10 +3981,6 @@ declare namespace API {
       }
 
       namespace GetPunchCardStats {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -4627,11 +4018,6 @@ declare namespace API {
           target_url?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -4648,10 +4034,6 @@ declare namespace API {
       }
 
       namespace DeleteTagProtection {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -4669,10 +4051,6 @@ declare namespace API {
       }
 
       namespace GetListTagProtection {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -4695,11 +4073,6 @@ declare namespace API {
           pattern: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -4715,10 +4088,6 @@ declare namespace API {
       }
 
       namespace GetListTags {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -4747,10 +4116,6 @@ declare namespace API {
       }
 
       namespace GetDownloadTarballArchive {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -4765,10 +4130,6 @@ declare namespace API {
       }
 
       namespace GetListTeams {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -4797,10 +4158,6 @@ declare namespace API {
       }
 
       namespace GetAllTopics {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -4836,11 +4193,6 @@ declare namespace API {
           names: string[];
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -4856,10 +4208,6 @@ declare namespace API {
       }
 
       namespace GetClones {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -4883,10 +4231,6 @@ declare namespace API {
       }
 
       namespace GetTopPaths {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -4902,10 +4246,6 @@ declare namespace API {
       }
 
       namespace GetTopReferrers {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -4921,10 +4261,6 @@ declare namespace API {
       }
 
       namespace GetViews {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -4963,11 +4299,6 @@ declare namespace API {
           team_ids?: number[];
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -4983,10 +4314,6 @@ declare namespace API {
       }
 
       namespace DeleteDisableVulnerabilityAlerts {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -5000,10 +4327,6 @@ declare namespace API {
       }
 
       namespace GetCheckVulnerabilityAlerts {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -5017,10 +4340,6 @@ declare namespace API {
       }
 
       namespace PutEnableVulnerabilityAlerts {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -5034,10 +4353,6 @@ declare namespace API {
       }
 
       namespace GetDownloadZipballArchive {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -5052,10 +4367,6 @@ declare namespace API {
       }
 
       namespace DeleteRepos {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -5069,10 +4380,6 @@ declare namespace API {
       }
 
       namespace GetRepos {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -5248,11 +4555,6 @@ declare namespace API {
           web_commit_signoff_required?: boolean;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -5291,11 +4593,6 @@ declare namespace API {
           private?: boolean;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           template_owner: string;
           template_repo: string;
@@ -5305,10 +4602,6 @@ declare namespace API {
       }
 
       namespace GetListPublic {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * A repository ID. Only return repositories with an ID greater than this ID.
@@ -5320,10 +4613,6 @@ declare namespace API {
       }
 
       namespace GetListForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Comma-separated list of values. Can include:
@@ -5378,10 +4667,6 @@ declare namespace API {
       }
 
       namespace DeleteDeclineInvitationForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the invitation.
@@ -5391,10 +4676,6 @@ declare namespace API {
       }
 
       namespace PatchAcceptInvitationForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the invitation.
@@ -5404,10 +4685,6 @@ declare namespace API {
       }
 
       namespace GetListInvitationsForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Page number of the results to fetch.
@@ -5541,19 +4818,10 @@ declare namespace API {
           team_id?: number;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         type Response = $schemas.Repository;
       }
 
       namespace GetListForUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The handle for the GitHub user account.

@@ -6,7 +6,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/store/inventory`
  */
 export function getInventory(options?: {
-  headers?: API.SwaggerPetstoreV2Yaml.Store.GetInventory.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -24,7 +24,7 @@ export function getInventory(options?: {
  */
 export function deleteOrder(options: {
   pathParams: API.SwaggerPetstoreV2Yaml.Store.DeleteOrder.PathParams;
-  headers?: API.SwaggerPetstoreV2Yaml.Store.DeleteOrder.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -42,7 +42,7 @@ export function deleteOrder(options: {
  */
 export function getOrderById(options: {
   pathParams: API.SwaggerPetstoreV2Yaml.Store.GetOrderById.PathParams;
-  headers?: API.SwaggerPetstoreV2Yaml.Store.GetOrderById.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -58,7 +58,7 @@ export function getOrderById(options: {
  * @path `/store/order`
  */
 export function postPlaceOrder(options?: {
-  headers?: API.SwaggerPetstoreV2Yaml.Store.PostPlaceOrder.Headers;
+  headers?: Record<string, any>;
   body?: API.SwaggerPetstoreV2Yaml.Store.PostPlaceOrder.Body;
   config?: RequestConfig;
   context?: RequestContext;

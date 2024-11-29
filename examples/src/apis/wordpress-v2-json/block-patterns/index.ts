@@ -4,7 +4,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/wp/v2/block-patterns/categories`
  */
 export function getWpV2Categories(options?: {
-  headers?: API.WordpressV2Json.BlockPatterns.GetWpV2Categories.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -15,7 +15,7 @@ export function getWpV2Categories(options?: {
  * @path `/wp/v2/block-patterns/patterns`
  */
 export function getWpV2Patterns(options?: {
-  headers?: API.WordpressV2Json.BlockPatterns.GetWpV2Patterns.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/openid/v1/jwks/`
  */
 export function getServiceAccountIssuerOpenIdKeyset(options?: {
-  headers?: API.K8sV2Json.Openid.GetServiceAccountIssuerOpenIdKeyset.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

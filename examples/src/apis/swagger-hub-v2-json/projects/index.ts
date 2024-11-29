@@ -6,7 +6,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getProjectMembersV2(options: {
   pathParams: API.SwaggerHubV2Json.Projects.GetProjectMembersV2.PathParams;
-  headers?: API.SwaggerHubV2Json.Projects.GetProjectMembersV2.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -25,7 +25,7 @@ export function getProjectMembersV2(options: {
  */
 export function putUpdateProjectMembersV2(options: {
   pathParams: API.SwaggerHubV2Json.Projects.PutUpdateProjectMembersV2.PathParams;
-  headers?: API.SwaggerHubV2Json.Projects.PutUpdateProjectMembersV2.Headers;
+  headers?: Record<string, any>;
   body?: API.SwaggerHubV2Json.Projects.PutUpdateProjectMembersV2.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -46,7 +46,7 @@ export function putUpdateProjectMembersV2(options: {
  */
 export function putAddSpecToProjectV2(options: {
   pathParams: API.SwaggerHubV2Json.Projects.PutAddSpecToProjectV2.PathParams;
-  headers?: API.SwaggerHubV2Json.Projects.PutAddSpecToProjectV2.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -63,7 +63,7 @@ export function putAddSpecToProjectV2(options: {
  */
 export function deleteProjectV2(options: {
   pathParams: API.SwaggerHubV2Json.Projects.DeleteProjectV2.PathParams;
-  headers?: API.SwaggerHubV2Json.Projects.DeleteProjectV2.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -80,7 +80,7 @@ export function deleteProjectV2(options: {
  */
 export function getProjectV2(options: {
   pathParams: API.SwaggerHubV2Json.Projects.GetProjectV2.PathParams;
-  headers?: API.SwaggerHubV2Json.Projects.GetProjectV2.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -102,7 +102,7 @@ export function getProjectV2(options: {
  */
 export function putSaveProjectV2(options: {
   pathParams: API.SwaggerHubV2Json.Projects.PutSaveProjectV2.PathParams;
-  headers?: API.SwaggerHubV2Json.Projects.PutSaveProjectV2.Headers;
+  headers?: Record<string, any>;
   body?: API.SwaggerHubV2Json.Projects.PutSaveProjectV2.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -121,7 +121,7 @@ export function putSaveProjectV2(options: {
 export function getOrgV2(options: {
   pathParams: API.SwaggerHubV2Json.Projects.GetOrgV2.PathParams;
   queryParams?: API.SwaggerHubV2Json.Projects.GetOrgV2.QueryParams;
-  headers?: API.SwaggerHubV2Json.Projects.GetOrgV2.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -138,7 +138,7 @@ export function getOrgV2(options: {
  */
 export function postCreateProject(options: {
   pathParams: API.SwaggerHubV2Json.Projects.PostCreateProject.PathParams;
-  headers?: API.SwaggerHubV2Json.Projects.PostCreateProject.Headers;
+  headers?: Record<string, any>;
   body?: API.SwaggerHubV2Json.Projects.PostCreateProject.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -153,7 +153,7 @@ export function postCreateProject(options: {
  */
 export function getUser(options?: {
   queryParams?: API.SwaggerHubV2Json.Projects.GetUser.QueryParams;
-  headers?: API.SwaggerHubV2Json.Projects.GetUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

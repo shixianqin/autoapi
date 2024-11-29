@@ -7,7 +7,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getAnalyticsDataRealtime(options?: {
   queryParams?: API.GaV2Yaml.RealTimeData.GetAnalyticsDataRealtime.QueryParams;
-  headers?: API.GaV2Yaml.RealTimeData.GetAnalyticsDataRealtime.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

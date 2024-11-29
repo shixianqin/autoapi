@@ -15,7 +15,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function getListAlertsForOrg(options: {
   pathParams: API.GithubV3Json.CodeScanning.GetListAlertsForOrg.PathParams;
   queryParams?: API.GithubV3Json.CodeScanning.GetListAlertsForOrg.QueryParams;
-  headers?: API.GithubV3Json.CodeScanning.GetListAlertsForOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -38,7 +38,7 @@ export function getListAlertsForOrg(options: {
 export function getListAlertInstances(options: {
   pathParams: API.GithubV3Json.CodeScanning.GetListAlertInstances.PathParams;
   queryParams?: API.GithubV3Json.CodeScanning.GetListAlertInstances.QueryParams;
-  headers?: API.GithubV3Json.CodeScanning.GetListAlertInstances.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -57,7 +57,7 @@ export function getListAlertInstances(options: {
  */
 export function getAlert(options: {
   pathParams: API.GithubV3Json.CodeScanning.GetAlert.PathParams;
-  headers?: API.GithubV3Json.CodeScanning.GetAlert.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -76,7 +76,7 @@ export function getAlert(options: {
  */
 export function patchUpdateAlert(options: {
   pathParams: API.GithubV3Json.CodeScanning.PatchUpdateAlert.PathParams;
-  headers?: API.GithubV3Json.CodeScanning.PatchUpdateAlert.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.CodeScanning.PatchUpdateAlert.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -106,7 +106,7 @@ export function patchUpdateAlert(options: {
 export function getListAlertsForRepo(options: {
   pathParams: API.GithubV3Json.CodeScanning.GetListAlertsForRepo.PathParams;
   queryParams?: API.GithubV3Json.CodeScanning.GetListAlertsForRepo.QueryParams;
-  headers?: API.GithubV3Json.CodeScanning.GetListAlertsForRepo.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -189,7 +189,7 @@ export function getListAlertsForRepo(options: {
 export function deleteAnalysis(options: {
   pathParams: API.GithubV3Json.CodeScanning.DeleteAnalysis.PathParams;
   queryParams?: API.GithubV3Json.CodeScanning.DeleteAnalysis.QueryParams;
-  headers?: API.GithubV3Json.CodeScanning.DeleteAnalysis.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -226,7 +226,7 @@ export function deleteAnalysis(options: {
  */
 export function getAnalysis(options: {
   pathParams: API.GithubV3Json.CodeScanning.GetAnalysis.PathParams;
-  headers?: API.GithubV3Json.CodeScanning.GetAnalysis.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -262,7 +262,7 @@ export function getAnalysis(options: {
 export function getListRecentAnalyses(options: {
   pathParams: API.GithubV3Json.CodeScanning.GetListRecentAnalyses.PathParams;
   queryParams?: API.GithubV3Json.CodeScanning.GetListRecentAnalyses.QueryParams;
-  headers?: API.GithubV3Json.CodeScanning.GetListRecentAnalyses.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -291,7 +291,7 @@ export function getListRecentAnalyses(options: {
  */
 export function getCodeqlDatabase(options: {
   pathParams: API.GithubV3Json.CodeScanning.GetCodeqlDatabase.PathParams;
-  headers?: API.GithubV3Json.CodeScanning.GetCodeqlDatabase.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -314,7 +314,7 @@ export function getCodeqlDatabase(options: {
  */
 export function getListCodeqlDatabases(options: {
   pathParams: API.GithubV3Json.CodeScanning.GetListCodeqlDatabases.PathParams;
-  headers?: API.GithubV3Json.CodeScanning.GetListCodeqlDatabases.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -333,7 +333,7 @@ export function getListCodeqlDatabases(options: {
  */
 export function getSarif(options: {
   pathParams: API.GithubV3Json.CodeScanning.GetSarif.PathParams;
-  headers?: API.GithubV3Json.CodeScanning.GetSarif.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -381,7 +381,7 @@ export function getSarif(options: {
  */
 export function postUploadSarif(options: {
   pathParams: API.GithubV3Json.CodeScanning.PostUploadSarif.PathParams;
-  headers?: API.GithubV3Json.CodeScanning.PostUploadSarif.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.CodeScanning.PostUploadSarif.Body;
   config?: RequestConfig;
   context?: RequestContext;

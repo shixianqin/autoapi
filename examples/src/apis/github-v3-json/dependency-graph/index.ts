@@ -9,7 +9,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function getDiffRange(options: {
   pathParams: API.GithubV3Json.DependencyGraph.GetDiffRange.PathParams;
   queryParams?: API.GithubV3Json.DependencyGraph.GetDiffRange.QueryParams;
-  headers?: API.GithubV3Json.DependencyGraph.GetDiffRange.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -28,7 +28,7 @@ export function getDiffRange(options: {
  */
 export function postCreateRepositorySnapshot(options: {
   pathParams: API.GithubV3Json.DependencyGraph.PostCreateRepositorySnapshot.PathParams;
-  headers?: API.GithubV3Json.DependencyGraph.PostCreateRepositorySnapshot.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.DependencyGraph.PostCreateRepositorySnapshot.Body;
   config?: RequestConfig;
   context?: RequestContext;

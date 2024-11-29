@@ -2,10 +2,6 @@ declare namespace API {
   namespace GaV2Yaml {
     namespace AdWord {
       namespace DeleteAnalyticsManagementWebPropertyAdWordsLinks {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * ID of the account which the given web property belongs to
@@ -23,10 +19,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsManagementWebPropertyAdWordsLinks {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * ID of the account which the given web property belongs to
@@ -45,10 +37,6 @@ declare namespace API {
 
       namespace PatchAnalyticsManagementWebPropertyAdWordsLinks {
         type Body = $schemas.Holder;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -69,10 +57,6 @@ declare namespace API {
       namespace PutAnalyticsManagementWebPropertyAdWordsLinksUpdate {
         type Body = $schemas.Holder;
 
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * ID of the account which the given web property belongs to
@@ -90,10 +74,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsManagementWebPropertyAdWordsLinksList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * ID of the account which the given web property belongs to
@@ -119,10 +99,6 @@ declare namespace API {
 
       namespace PostAnalyticsManagementWebPropertyAdWordsLinksInsert {
         type Body = $schemas.Holder;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**

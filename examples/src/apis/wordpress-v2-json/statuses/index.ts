@@ -6,7 +6,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function getWpV2Status(options: {
   pathParams: API.WordpressV2Json.Statuses.GetWpV2Status.PathParams;
   queryParams?: API.WordpressV2Json.Statuses.GetWpV2Status.QueryParams;
-  headers?: API.WordpressV2Json.Statuses.GetWpV2Status.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -22,7 +22,7 @@ export function getWpV2Status(options: {
  */
 export function getWpV2(options?: {
   queryParams?: API.WordpressV2Json.Statuses.GetWpV2.QueryParams;
-  headers?: API.WordpressV2Json.Statuses.GetWpV2.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

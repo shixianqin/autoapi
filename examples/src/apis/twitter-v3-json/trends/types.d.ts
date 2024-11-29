@@ -2,10 +2,6 @@ declare namespace API {
   namespace TwitterV3Json {
     namespace Trends {
       namespace GetTrends {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The WOEID of the place to lookup a trend for.

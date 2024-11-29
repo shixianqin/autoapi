@@ -2,10 +2,6 @@ declare namespace API {
   namespace CustomizeName {
     namespace Clients {
       namespace GetClientOptions {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The target language for the client library
@@ -77,10 +73,6 @@ declare namespace API {
       namespace PostGenerateClient {
         type Body = $schemas.GeneratorInput;
 
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The target language for the client library
@@ -148,18 +140,10 @@ declare namespace API {
       }
 
       namespace GetClientsCustomizeNamed {
-        interface Headers {
-          [P: string]: any;
-        }
-
         type Response = string[];
       }
 
       namespace GetDownloadFile {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           fileId: string;
         }

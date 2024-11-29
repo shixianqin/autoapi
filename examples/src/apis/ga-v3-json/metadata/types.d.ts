@@ -2,10 +2,6 @@ declare namespace API {
   namespace GaV3Json {
     namespace Metadata {
       namespace GetAnalyticsColumnsList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Report type. Allowed Values: 'ga'. Where 'ga' corresponds to the Core Reporting API

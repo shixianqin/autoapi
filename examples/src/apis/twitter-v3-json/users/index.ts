@@ -9,7 +9,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function getListFollowers(options: {
   pathParams: API.TwitterV3Json.Users.GetListFollowers.PathParams;
   queryParams?: API.TwitterV3Json.Users.GetListFollowers.QueryParams;
-  headers?: API.TwitterV3Json.Users.GetListFollowers.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -29,7 +29,7 @@ export function getListFollowers(options: {
 export function getListMembers(options: {
   pathParams: API.TwitterV3Json.Users.GetListMembers.PathParams;
   queryParams?: API.TwitterV3Json.Users.GetListMembers.QueryParams;
-  headers?: API.TwitterV3Json.Users.GetListMembers.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -49,7 +49,7 @@ export function getListMembers(options: {
 export function getTweetsIdLiking(options: {
   pathParams: API.TwitterV3Json.Users.GetTweetsIdLiking.PathParams;
   queryParams?: API.TwitterV3Json.Users.GetTweetsIdLiking.QueryParams;
-  headers?: API.TwitterV3Json.Users.GetTweetsIdLiking.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -69,7 +69,7 @@ export function getTweetsIdLiking(options: {
 export function getTweetsIdRetweeting(options: {
   pathParams: API.TwitterV3Json.Users.GetTweetsIdRetweeting.PathParams;
   queryParams?: API.TwitterV3Json.Users.GetTweetsIdRetweeting.QueryParams;
-  headers?: API.TwitterV3Json.Users.GetTweetsIdRetweeting.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -89,7 +89,7 @@ export function getTweetsIdRetweeting(options: {
 export function getFindUserByUsername(options: {
   pathParams: API.TwitterV3Json.Users.GetFindUserByUsername.PathParams;
   queryParams?: API.TwitterV3Json.Users.GetFindUserByUsername.QueryParams;
-  headers?: API.TwitterV3Json.Users.GetFindUserByUsername.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -108,7 +108,7 @@ export function getFindUserByUsername(options: {
  */
 export function getFindByUsername(options: {
   queryParams: API.TwitterV3Json.Users.GetFindByUsername.QueryParams;
-  headers?: API.TwitterV3Json.Users.GetFindByUsername.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -127,7 +127,7 @@ export function getFindByUsername(options: {
  */
 export function getFindMyUser(options?: {
   queryParams?: API.TwitterV3Json.Users.GetFindMyUser.QueryParams;
-  headers?: API.TwitterV3Json.Users.GetFindMyUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -146,7 +146,7 @@ export function getFindMyUser(options?: {
  */
 export function getSearchUserByQuery(options: {
   queryParams: API.TwitterV3Json.Users.GetSearchUserByQuery.QueryParams;
-  headers?: API.TwitterV3Json.Users.GetSearchUserByQuery.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -166,7 +166,7 @@ export function getSearchUserByQuery(options: {
 export function getIdBlocking(options: {
   pathParams: API.TwitterV3Json.Users.GetIdBlocking.PathParams;
   queryParams?: API.TwitterV3Json.Users.GetIdBlocking.QueryParams;
-  headers?: API.TwitterV3Json.Users.GetIdBlocking.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -186,7 +186,7 @@ export function getIdBlocking(options: {
 export function getIdFollowers(options: {
   pathParams: API.TwitterV3Json.Users.GetIdFollowers.PathParams;
   queryParams?: API.TwitterV3Json.Users.GetIdFollowers.QueryParams;
-  headers?: API.TwitterV3Json.Users.GetIdFollowers.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -206,7 +206,7 @@ export function getIdFollowers(options: {
 export function getIdFollowing(options: {
   pathParams: API.TwitterV3Json.Users.GetIdFollowing.PathParams;
   queryParams?: API.TwitterV3Json.Users.GetIdFollowing.QueryParams;
-  headers?: API.TwitterV3Json.Users.GetIdFollowing.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -225,7 +225,7 @@ export function getIdFollowing(options: {
  */
 export function postIdFollow(options: {
   pathParams: API.TwitterV3Json.Users.PostIdFollow.PathParams;
-  headers?: API.TwitterV3Json.Users.PostIdFollow.Headers;
+  headers?: Record<string, any>;
   body: API.TwitterV3Json.Users.PostIdFollow.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -246,7 +246,7 @@ export function postIdFollow(options: {
 export function getIdMuting(options: {
   pathParams: API.TwitterV3Json.Users.GetIdMuting.PathParams;
   queryParams?: API.TwitterV3Json.Users.GetIdMuting.QueryParams;
-  headers?: API.TwitterV3Json.Users.GetIdMuting.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -265,7 +265,7 @@ export function getIdMuting(options: {
  */
 export function postIdMute(options: {
   pathParams: API.TwitterV3Json.Users.PostIdMute.PathParams;
-  headers?: API.TwitterV3Json.Users.PostIdMute.Headers;
+  headers?: Record<string, any>;
   body: API.TwitterV3Json.Users.PostIdMute.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -286,7 +286,7 @@ export function postIdMute(options: {
 export function getFindUserById(options: {
   pathParams: API.TwitterV3Json.Users.GetFindUserById.PathParams;
   queryParams?: API.TwitterV3Json.Users.GetFindUserById.QueryParams;
-  headers?: API.TwitterV3Json.Users.GetFindUserById.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -305,7 +305,7 @@ export function getFindUserById(options: {
  */
 export function deleteIdUnfollow(options: {
   pathParams: API.TwitterV3Json.Users.DeleteIdUnfollow.PathParams;
-  headers?: API.TwitterV3Json.Users.DeleteIdUnfollow.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -324,7 +324,7 @@ export function deleteIdUnfollow(options: {
  */
 export function deleteIdUnmute(options: {
   pathParams: API.TwitterV3Json.Users.DeleteIdUnmute.PathParams;
-  headers?: API.TwitterV3Json.Users.DeleteIdUnmute.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -343,7 +343,7 @@ export function deleteIdUnmute(options: {
  */
 export function getFindById(options: {
   queryParams: API.TwitterV3Json.Users.GetFindById.QueryParams;
-  headers?: API.TwitterV3Json.Users.GetFindById.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

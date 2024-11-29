@@ -2,25 +2,11 @@ declare namespace API {
   namespace K8sV2Json {
     namespace AuthorizationV1 {
       namespace GetApiResources {
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/yaml"
-            | "application/vnd.kubernetes.protobuf"
-            | string;
-          [P: string]: any;
-        }
-
         type Response = $schemas.IoK8sApimachineryPkgApisMetaV1ApiResourceList;
       }
 
       namespace PostCreateNamespacedLocalSubjectAccessReview {
         type Body = $schemas.IoK8sApiAuthorizationV1LocalSubjectAccessReview;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -55,11 +41,6 @@ declare namespace API {
       namespace PostCreateSelfSubjectAccessReview {
         type Body = $schemas.IoK8sApiAuthorizationV1SelfSubjectAccessReview;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -85,11 +66,6 @@ declare namespace API {
       namespace PostCreateSelfSubjectRulesReview {
         type Body = $schemas.IoK8sApiAuthorizationV1SelfSubjectRulesReview;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -114,11 +90,6 @@ declare namespace API {
 
       namespace PostCreateSubjectAccessReview {
         type Body = $schemas.IoK8sApiAuthorizationV1SubjectAccessReview;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface QueryParams {
           /**

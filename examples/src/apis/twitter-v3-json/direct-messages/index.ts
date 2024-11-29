@@ -8,7 +8,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function getDmConversationsWithParticipantIdDmEvents(options: {
   pathParams: API.TwitterV3Json.DirectMessages.GetDmConversationsWithParticipantIdDmEvents.PathParams;
   queryParams?: API.TwitterV3Json.DirectMessages.GetDmConversationsWithParticipantIdDmEvents.QueryParams;
-  headers?: API.TwitterV3Json.DirectMessages.GetDmConversationsWithParticipantIdDmEvents.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -26,7 +26,7 @@ export function getDmConversationsWithParticipantIdDmEvents(options: {
  */
 export function postDmConversationWithUserEventIdCreate(options: {
   pathParams: API.TwitterV3Json.DirectMessages.PostDmConversationWithUserEventIdCreate.PathParams;
-  headers?: API.TwitterV3Json.DirectMessages.PostDmConversationWithUserEventIdCreate.Headers;
+  headers?: Record<string, any>;
   body: API.TwitterV3Json.DirectMessages.PostDmConversationWithUserEventIdCreate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -45,7 +45,7 @@ export function postDmConversationWithUserEventIdCreate(options: {
  */
 export function postDmConversationByIdEventIdCreate(options: {
   pathParams: API.TwitterV3Json.DirectMessages.PostDmConversationByIdEventIdCreate.PathParams;
-  headers?: API.TwitterV3Json.DirectMessages.PostDmConversationByIdEventIdCreate.Headers;
+  headers?: Record<string, any>;
   body: API.TwitterV3Json.DirectMessages.PostDmConversationByIdEventIdCreate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -65,7 +65,7 @@ export function postDmConversationByIdEventIdCreate(options: {
 export function getDmConversationsIdDmEvents(options: {
   pathParams: API.TwitterV3Json.DirectMessages.GetDmConversationsIdDmEvents.PathParams;
   queryParams?: API.TwitterV3Json.DirectMessages.GetDmConversationsIdDmEvents.QueryParams;
-  headers?: API.TwitterV3Json.DirectMessages.GetDmConversationsIdDmEvents.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -82,7 +82,7 @@ export function getDmConversationsIdDmEvents(options: {
  * @path `/2/dm_conversations`
  */
 export function postDmConversationIdCreate(options: {
-  headers?: API.TwitterV3Json.DirectMessages.PostDmConversationIdCreate.Headers;
+  headers?: Record<string, any>;
   body: API.TwitterV3Json.DirectMessages.PostDmConversationIdCreate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -101,7 +101,7 @@ export function postDmConversationIdCreate(options: {
  */
 export function deleteDmEvent(options: {
   pathParams: API.TwitterV3Json.DirectMessages.DeleteDmEvent.PathParams;
-  headers?: API.TwitterV3Json.DirectMessages.DeleteDmEvent.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -120,7 +120,7 @@ export function deleteDmEvent(options: {
 export function getDmEventsById(options: {
   pathParams: API.TwitterV3Json.DirectMessages.GetDmEventsById.PathParams;
   queryParams?: API.TwitterV3Json.DirectMessages.GetDmEventsById.QueryParams;
-  headers?: API.TwitterV3Json.DirectMessages.GetDmEventsById.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -138,7 +138,7 @@ export function getDmEventsById(options: {
  */
 export function getDmEvents(options?: {
   queryParams?: API.TwitterV3Json.DirectMessages.GetDmEvents.QueryParams;
-  headers?: API.TwitterV3Json.DirectMessages.GetDmEvents.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

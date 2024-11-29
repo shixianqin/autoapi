@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/apis/apiregistration.k8s.io/`
  */
 export function getApiGroup(options?: {
-  headers?: API.K8sV2Json.Apiregistration.GetApiGroup.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

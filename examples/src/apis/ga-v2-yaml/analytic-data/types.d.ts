@@ -2,10 +2,6 @@ declare namespace API {
   namespace GaV2Yaml {
     namespace AnalyticData {
       namespace GetAnalyticsDataGa {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * A comma-separated list of Analytics dimensions
@@ -63,10 +59,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsDataMcf {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * A comma-separated list of Multi-Channel Funnels dimensions

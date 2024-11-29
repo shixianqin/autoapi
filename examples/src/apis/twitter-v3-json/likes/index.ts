@@ -8,7 +8,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getFirehoseStream(options: {
   queryParams: API.TwitterV3Json.Likes.GetFirehoseStream.QueryParams;
-  headers?: API.TwitterV3Json.Likes.GetFirehoseStream.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -27,7 +27,7 @@ export function getFirehoseStream(options: {
  */
 export function getSample10Stream(options: {
   queryParams: API.TwitterV3Json.Likes.GetSample10Stream.QueryParams;
-  headers?: API.TwitterV3Json.Likes.GetSample10Stream.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getWpV2Search(options: {
   queryParams: API.WordpressV2Json.BlockDirectory.GetWpV2Search.QueryParams;
-  headers?: API.WordpressV2Json.BlockDirectory.GetWpV2Search.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

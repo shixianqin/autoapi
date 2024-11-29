@@ -5,6 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getCustomizePathToCategories(options?: {
   queryParams?: API.CustomizeApis.Main.GetCustomizePathToCategories.QueryParams;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -20,6 +21,7 @@ export function getCustomizePathToCategories(options?: {
  * @path `/customize/path/to/create`
  */
 export function postCreate(options: {
+  headers?: Record<string, any>;
   formData: API.CustomizeApis.Main.PostCreate.FormData;
   config?: RequestConfig;
   context?: RequestContext;
@@ -36,6 +38,7 @@ export function postCreate(options: {
  */
 export function getCustomizePathToMedia(options: {
   queryParams: API.CustomizeApis.Main.GetCustomizePathToMedia.QueryParams;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

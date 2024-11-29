@@ -2,10 +2,6 @@ declare namespace API {
   namespace GaV2Yaml {
     namespace User {
       namespace DeleteAnalyticsManagementAccountLinks {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to delete the user link for
@@ -19,10 +15,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsManagementAccountLinksList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to retrieve the user links for
@@ -45,10 +37,6 @@ declare namespace API {
       namespace PostAnalyticsManagementAccountLinksInsert {
         type Body = $schemas.Holder;
 
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to create the user link for
@@ -58,10 +46,6 @@ declare namespace API {
       }
 
       namespace DeleteAnalyticsManagementWebpropertyLinks {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to delete the user link for
@@ -79,10 +63,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsManagementWebpropertyLinksList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID which the given web property belongs to
@@ -109,10 +89,6 @@ declare namespace API {
       namespace PostAnalyticsManagementWebpropertyLinksInsert {
         type Body = $schemas.Holder;
 
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to create the user link for
@@ -126,10 +102,6 @@ declare namespace API {
       }
 
       namespace DeleteAnalyticsManagementProfileLinks {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to delete the user link for
@@ -151,10 +123,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsManagementProfileLinksList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID which the given view (profile) belongs to
@@ -184,10 +152,6 @@ declare namespace API {
 
       namespace PostAnalyticsManagementProfileLinksInsert {
         type Body = $schemas.Holder;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**

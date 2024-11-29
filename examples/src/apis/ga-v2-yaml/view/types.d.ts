@@ -2,10 +2,6 @@ declare namespace API {
   namespace GaV2Yaml {
     namespace View {
       namespace DeleteAnalyticsManagementProfiles {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to delete the view (profile) for
@@ -23,10 +19,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsManagementProfiles {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to retrieve the view (profile) for
@@ -45,10 +37,6 @@ declare namespace API {
 
       namespace PatchAnalyticsManagementProfiles {
         type Body = $schemas.Holder;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -69,10 +57,6 @@ declare namespace API {
       namespace PutAnalyticsManagementProfilesUpdate {
         type Body = $schemas.Holder;
 
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to which the view (profile) belongs
@@ -90,10 +74,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsManagementProfilesList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID for the view (profiles) to retrieve
@@ -119,10 +99,6 @@ declare namespace API {
 
       namespace PostAnalyticsManagementProfilesInsert {
         type Body = $schemas.Holder;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**

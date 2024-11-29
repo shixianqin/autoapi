@@ -10,7 +10,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getListPublic(options?: {
   queryParams?: API.GithubV3Json.Gists.GetListPublic.QueryParams;
-  headers?: API.GithubV3Json.Gists.GetListPublic.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -29,7 +29,7 @@ export function getListPublic(options?: {
  */
 export function getListStarred(options?: {
   queryParams?: API.GithubV3Json.Gists.GetListStarred.QueryParams;
-  headers?: API.GithubV3Json.Gists.GetListStarred.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -47,7 +47,7 @@ export function getListStarred(options?: {
  */
 export function deleteComment(options: {
   pathParams: API.GithubV3Json.Gists.DeleteComment.PathParams;
-  headers?: API.GithubV3Json.Gists.DeleteComment.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -65,7 +65,7 @@ export function deleteComment(options: {
  */
 export function getComment(options: {
   pathParams: API.GithubV3Json.Gists.GetComment.PathParams;
-  headers?: API.GithubV3Json.Gists.GetComment.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -83,7 +83,7 @@ export function getComment(options: {
  */
 export function patchUpdateComment(options: {
   pathParams: API.GithubV3Json.Gists.PatchUpdateComment.PathParams;
-  headers?: API.GithubV3Json.Gists.PatchUpdateComment.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Gists.PatchUpdateComment.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -103,7 +103,7 @@ export function patchUpdateComment(options: {
 export function getListComments(options: {
   pathParams: API.GithubV3Json.Gists.GetListComments.PathParams;
   queryParams?: API.GithubV3Json.Gists.GetListComments.QueryParams;
-  headers?: API.GithubV3Json.Gists.GetListComments.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -121,7 +121,7 @@ export function getListComments(options: {
  */
 export function postCreateComment(options: {
   pathParams: API.GithubV3Json.Gists.PostCreateComment.PathParams;
-  headers?: API.GithubV3Json.Gists.PostCreateComment.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Gists.PostCreateComment.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -141,7 +141,7 @@ export function postCreateComment(options: {
 export function getListCommits(options: {
   pathParams: API.GithubV3Json.Gists.GetListCommits.PathParams;
   queryParams?: API.GithubV3Json.Gists.GetListCommits.QueryParams;
-  headers?: API.GithubV3Json.Gists.GetListCommits.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -160,7 +160,7 @@ export function getListCommits(options: {
 export function getListForks(options: {
   pathParams: API.GithubV3Json.Gists.GetListForks.PathParams;
   queryParams?: API.GithubV3Json.Gists.GetListForks.QueryParams;
-  headers?: API.GithubV3Json.Gists.GetListForks.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -178,7 +178,7 @@ export function getListForks(options: {
  */
 export function postFork(options: {
   pathParams: API.GithubV3Json.Gists.PostFork.PathParams;
-  headers?: API.GithubV3Json.Gists.PostFork.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -196,7 +196,7 @@ export function postFork(options: {
  */
 export function deleteUnstar(options: {
   pathParams: API.GithubV3Json.Gists.DeleteUnstar.PathParams;
-  headers?: API.GithubV3Json.Gists.DeleteUnstar.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -214,7 +214,7 @@ export function deleteUnstar(options: {
  */
 export function getCheckIsStarred(options: {
   pathParams: API.GithubV3Json.Gists.GetCheckIsStarred.PathParams;
-  headers?: API.GithubV3Json.Gists.GetCheckIsStarred.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -233,7 +233,7 @@ export function getCheckIsStarred(options: {
  */
 export function putStar(options: {
   pathParams: API.GithubV3Json.Gists.PutStar.PathParams;
-  headers?: API.GithubV3Json.Gists.PutStar.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -251,7 +251,7 @@ export function putStar(options: {
  */
 export function getRevision(options: {
   pathParams: API.GithubV3Json.Gists.GetRevision.PathParams;
-  headers?: API.GithubV3Json.Gists.GetRevision.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -269,7 +269,7 @@ export function getRevision(options: {
  */
 export function deleteGists(options: {
   pathParams: API.GithubV3Json.Gists.DeleteGists.PathParams;
-  headers?: API.GithubV3Json.Gists.DeleteGists.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -287,7 +287,7 @@ export function deleteGists(options: {
  */
 export function getGists(options: {
   pathParams: API.GithubV3Json.Gists.GetGists.PathParams;
-  headers?: API.GithubV3Json.Gists.GetGists.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -306,7 +306,7 @@ export function getGists(options: {
  */
 export function patchUpdate(options: {
   pathParams: API.GithubV3Json.Gists.PatchUpdate.PathParams;
-  headers?: API.GithubV3Json.Gists.PatchUpdate.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Gists.PatchUpdate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -326,7 +326,7 @@ export function patchUpdate(options: {
  */
 export function getList(options?: {
   queryParams?: API.GithubV3Json.Gists.GetList.QueryParams;
-  headers?: API.GithubV3Json.Gists.GetList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -346,7 +346,7 @@ export function getList(options?: {
  * @docs https://docs.github.com/rest/reference/gists#create-a-gist
  */
 export function postCreate(options: {
-  headers?: API.GithubV3Json.Gists.PostCreate.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Gists.PostCreate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -367,7 +367,7 @@ export function postCreate(options: {
 export function getListForUser(options: {
   pathParams: API.GithubV3Json.Gists.GetListForUser.PathParams;
   queryParams?: API.GithubV3Json.Gists.GetListForUser.QueryParams;
-  headers?: API.GithubV3Json.Gists.GetListForUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function postWpV2IdEncode(options: {
   pathParams: API.WordpressV2Json.WidgetTypes.PostWpV2IdEncode.PathParams;
-  headers?: API.WordpressV2Json.WidgetTypes.PostWpV2IdEncode.Headers;
+  headers?: Record<string, any>;
   formData?: API.WordpressV2Json.WidgetTypes.PostWpV2IdEncode.FormData;
   config?: RequestConfig;
   context?: RequestContext;
@@ -22,7 +22,7 @@ export function postWpV2IdEncode(options: {
  */
 export function postWpV2IdRender(options: {
   pathParams: API.WordpressV2Json.WidgetTypes.PostWpV2IdRender.PathParams;
-  headers?: API.WordpressV2Json.WidgetTypes.PostWpV2IdRender.Headers;
+  headers?: Record<string, any>;
   formData?: API.WordpressV2Json.WidgetTypes.PostWpV2IdRender.FormData;
   config?: RequestConfig;
   context?: RequestContext;
@@ -40,7 +40,7 @@ export function postWpV2IdRender(options: {
 export function getWpV2Id(options: {
   pathParams: API.WordpressV2Json.WidgetTypes.GetWpV2Id.PathParams;
   queryParams?: API.WordpressV2Json.WidgetTypes.GetWpV2Id.QueryParams;
-  headers?: API.WordpressV2Json.WidgetTypes.GetWpV2Id.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -56,7 +56,7 @@ export function getWpV2Id(options: {
  */
 export function getWpV2(options?: {
   queryParams?: API.WordpressV2Json.WidgetTypes.GetWpV2.QueryParams;
-  headers?: API.WordpressV2Json.WidgetTypes.GetWpV2.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

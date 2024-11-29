@@ -24,7 +24,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getCode(options: {
   queryParams: API.GithubV3Json.Search.GetCode.QueryParams;
-  headers?: API.GithubV3Json.Search.GetCode.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -50,7 +50,7 @@ export function getCode(options: {
  */
 export function getCommits(options: {
   queryParams: API.GithubV3Json.Search.GetCommits.QueryParams;
-  headers?: API.GithubV3Json.Search.GetCommits.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -80,7 +80,7 @@ export function getCommits(options: {
  */
 export function getIssuesAndPullRequests(options: {
   queryParams: API.GithubV3Json.Search.GetIssuesAndPullRequests.QueryParams;
-  headers?: API.GithubV3Json.Search.GetIssuesAndPullRequests.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -107,7 +107,7 @@ export function getIssuesAndPullRequests(options: {
  */
 export function getLabels(options: {
   queryParams: API.GithubV3Json.Search.GetLabels.QueryParams;
-  headers?: API.GithubV3Json.Search.GetLabels.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -134,7 +134,7 @@ export function getLabels(options: {
  */
 export function getRepos(options: {
   queryParams: API.GithubV3Json.Search.GetRepos.QueryParams;
-  headers?: API.GithubV3Json.Search.GetRepos.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -161,7 +161,7 @@ export function getRepos(options: {
  */
 export function getTopics(options: {
   queryParams: API.GithubV3Json.Search.GetTopics.QueryParams;
-  headers?: API.GithubV3Json.Search.GetTopics.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -188,7 +188,7 @@ export function getTopics(options: {
  */
 export function getUsers(options: {
   queryParams: API.GithubV3Json.Search.GetUsers.QueryParams;
-  headers?: API.GithubV3Json.Search.GetUsers.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

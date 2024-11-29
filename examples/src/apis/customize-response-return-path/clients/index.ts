@@ -6,7 +6,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getClientOptions(options: {
   pathParams: API.CustomizeResponseReturnPath.Clients.GetClientOptions.PathParams;
-  headers?: API.CustomizeResponseReturnPath.Clients.GetClientOptions.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -22,7 +22,7 @@ export function getClientOptions(options: {
  */
 export function generateClient(options: {
   pathParams: API.CustomizeResponseReturnPath.Clients.GenerateClient.PathParams;
-  headers?: API.CustomizeResponseReturnPath.Clients.GenerateClient.Headers;
+  headers?: Record<string, any>;
   body?: API.CustomizeResponseReturnPath.Clients.GenerateClient.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -37,7 +37,7 @@ export function generateClient(options: {
  * @path `/gen/clients`
  */
 export function clientOptions(options?: {
-  headers?: API.CustomizeResponseReturnPath.Clients.ClientOptions.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -53,7 +53,7 @@ export function clientOptions(options?: {
  */
 export function downloadFile(options: {
   pathParams: API.CustomizeResponseReturnPath.Clients.DownloadFile.PathParams;
-  headers?: API.CustomizeResponseReturnPath.Clients.DownloadFile.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

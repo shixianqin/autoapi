@@ -7,7 +7,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @docs https://docs.github.com/rest/overview/resources-in-the-rest-api#root-endpoint
  */
 export function getRoot(options?: {
-  headers?: API.GithubV3Json.Meta.GetRoot.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -29,7 +29,7 @@ export function getRoot(options?: {
  * @docs https://docs.github.com/rest/reference/meta#get-github-meta-information
  */
 export function getMeta(options?: {
-  headers?: API.GithubV3Json.Meta.GetMeta.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -48,7 +48,7 @@ export function getMeta(options?: {
  */
 export function getOctocat(options?: {
   queryParams?: API.GithubV3Json.Meta.GetOctocat.QueryParams;
-  headers?: API.GithubV3Json.Meta.GetOctocat.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -66,7 +66,7 @@ export function getOctocat(options?: {
  * @docs https://docs.github.com/rest/reference/meta#get-all-api-versions
  */
 export function getAllVersions(options?: {
-  headers?: API.GithubV3Json.Meta.GetAllVersions.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -84,7 +84,7 @@ export function getAllVersions(options?: {
  * @docs https://docs.github.com/rest/meta#get-the-zen-of-github
  */
 export function getZen(options?: {
-  headers?: API.GithubV3Json.Meta.GetZen.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

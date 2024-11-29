@@ -2,10 +2,6 @@ declare namespace API {
   namespace GithubV3Json {
     namespace Checks {
       namespace GetListAnnotations {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the check run.
@@ -38,10 +34,6 @@ declare namespace API {
       }
 
       namespace PostRerequestRun {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the check run.
@@ -61,10 +53,6 @@ declare namespace API {
       }
 
       namespace GetChecks {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the check run.
@@ -242,11 +230,6 @@ declare namespace API {
               [P: string]: any;
             }
         );
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -431,11 +414,6 @@ declare namespace API {
             }
         );
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -468,11 +446,6 @@ declare namespace API {
           }>;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -488,10 +461,6 @@ declare namespace API {
       }
 
       namespace GetListForSuite {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the check suite.
@@ -540,10 +509,6 @@ declare namespace API {
       }
 
       namespace PostRerequestSuite {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the check suite.
@@ -563,10 +528,6 @@ declare namespace API {
       }
 
       namespace GetSuite {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the check suite.
@@ -593,11 +554,6 @@ declare namespace API {
           head_sha: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -613,10 +569,6 @@ declare namespace API {
       }
 
       namespace GetListForRef {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -666,10 +618,6 @@ declare namespace API {
       }
 
       namespace GetListSuitesForRef {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.

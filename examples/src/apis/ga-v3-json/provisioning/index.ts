@@ -6,7 +6,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function postAnalyticsCreateAccountTicket(options?: {
   queryParams?: API.GaV3Json.Provisioning.PostAnalyticsCreateAccountTicket.QueryParams;
-  headers?: API.GaV3Json.Provisioning.PostAnalyticsCreateAccountTicket.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV3Json.Provisioning.PostAnalyticsCreateAccountTicket.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -24,7 +24,7 @@ export function postAnalyticsCreateAccountTicket(options?: {
  */
 export function postAnalyticsCreateAccountTree(options?: {
   queryParams?: API.GaV3Json.Provisioning.PostAnalyticsCreateAccountTree.QueryParams;
-  headers?: API.GaV3Json.Provisioning.PostAnalyticsCreateAccountTree.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV3Json.Provisioning.PostAnalyticsCreateAccountTree.Body;
   config?: RequestConfig;
   context?: RequestContext;

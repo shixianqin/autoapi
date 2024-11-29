@@ -2,10 +2,6 @@ declare namespace API {
   namespace TwitterV3Json {
     namespace Spaces {
       namespace GetFindByCreatorIds {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * A comma separated list of fields to expand.
@@ -85,10 +81,6 @@ declare namespace API {
       }
 
       namespace GetSearch {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * A comma separated list of fields to expand.
@@ -181,10 +173,6 @@ declare namespace API {
       }
 
       namespace GetSpaceBuyers {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the Space to be retrieved.
@@ -278,10 +266,6 @@ declare namespace API {
       }
 
       namespace GetSpaceTweets {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the Space to be retrieved.
@@ -428,10 +412,6 @@ declare namespace API {
       }
 
       namespace GetFindSpaceById {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the Space to be retrieved.
@@ -512,10 +492,6 @@ declare namespace API {
       }
 
       namespace GetFindByIds {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * A comma separated list of fields to expand.

@@ -84,7 +84,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           /**
            * The version of the origin request policy that you are updating. The version is returned in the origin request policy's <code>ETag</code> field in the response to <code>GetOriginRequestPolicyConfig</code>.
            */
@@ -154,7 +153,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           "X-Amz-Algorithm"?: string;
           "X-Amz-Content-Sha256"?: string;
           "X-Amz-Credential"?: string;

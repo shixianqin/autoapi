@@ -6,7 +6,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getChatList(options?: {
   queryParams?: API.GoogleChatV3Json.Spaces.GetChatList.QueryParams;
-  headers?: API.GoogleChatV3Json.Spaces.GetChatList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -24,7 +24,7 @@ export function getChatList(options?: {
 export function deleteChatMessages(options: {
   pathParams: API.GoogleChatV3Json.Spaces.DeleteChatMessages.PathParams;
   queryParams?: API.GoogleChatV3Json.Spaces.DeleteChatMessages.QueryParams;
-  headers?: API.GoogleChatV3Json.Spaces.DeleteChatMessages.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -42,7 +42,7 @@ export function deleteChatMessages(options: {
 export function getChatMessagesAttachments(options: {
   pathParams: API.GoogleChatV3Json.Spaces.GetChatMessagesAttachments.PathParams;
   queryParams?: API.GoogleChatV3Json.Spaces.GetChatMessagesAttachments.QueryParams;
-  headers?: API.GoogleChatV3Json.Spaces.GetChatMessagesAttachments.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -60,7 +60,7 @@ export function getChatMessagesAttachments(options: {
 export function patchChatMessages(options: {
   pathParams: API.GoogleChatV3Json.Spaces.PatchChatMessages.PathParams;
   queryParams?: API.GoogleChatV3Json.Spaces.PatchChatMessages.QueryParams;
-  headers?: API.GoogleChatV3Json.Spaces.PatchChatMessages.Headers;
+  headers?: Record<string, any>;
   body?: API.GoogleChatV3Json.Spaces.PatchChatMessages.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -79,7 +79,7 @@ export function patchChatMessages(options: {
 export function putChatMessagesUpdate(options: {
   pathParams: API.GoogleChatV3Json.Spaces.PutChatMessagesUpdate.PathParams;
   queryParams?: API.GoogleChatV3Json.Spaces.PutChatMessagesUpdate.QueryParams;
-  headers?: API.GoogleChatV3Json.Spaces.PutChatMessagesUpdate.Headers;
+  headers?: Record<string, any>;
   body?: API.GoogleChatV3Json.Spaces.PutChatMessagesUpdate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -98,7 +98,7 @@ export function putChatMessagesUpdate(options: {
 export function getChatMembersList(options: {
   pathParams: API.GoogleChatV3Json.Spaces.GetChatMembersList.PathParams;
   queryParams?: API.GoogleChatV3Json.Spaces.GetChatMembersList.QueryParams;
-  headers?: API.GoogleChatV3Json.Spaces.GetChatMembersList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -116,7 +116,7 @@ export function getChatMembersList(options: {
 export function postChatMessagesCreate(options: {
   pathParams: API.GoogleChatV3Json.Spaces.PostChatMessagesCreate.PathParams;
   queryParams?: API.GoogleChatV3Json.Spaces.PostChatMessagesCreate.QueryParams;
-  headers?: API.GoogleChatV3Json.Spaces.PostChatMessagesCreate.Headers;
+  headers?: Record<string, any>;
   body?: API.GoogleChatV3Json.Spaces.PostChatMessagesCreate.Body;
   config?: RequestConfig;
   context?: RequestContext;

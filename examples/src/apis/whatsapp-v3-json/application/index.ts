@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/account/shards`
  */
 export function postSetShards(options: {
-  headers?: API.WhatsappV3Json.Application.PostSetShards.Headers;
+  headers?: Record<string, any>;
   body: API.WhatsappV3Json.Application.PostSetShards.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -19,7 +19,7 @@ export function postSetShards(options: {
  */
 export function deleteMediaProviders(options: {
   pathParams: API.WhatsappV3Json.Application.DeleteMediaProviders.PathParams;
-  headers?: API.WhatsappV3Json.Application.DeleteMediaProviders.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -35,7 +35,7 @@ export function deleteMediaProviders(options: {
  * @path `/settings/application/media/providers`
  */
 export function getMediaProviders(options?: {
-  headers?: API.WhatsappV3Json.Application.GetMediaProviders.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -51,7 +51,7 @@ export function getMediaProviders(options?: {
  * @path `/settings/application/media/providers`
  */
 export function postUpdateMediaProviders(options?: {
-  headers?: API.WhatsappV3Json.Application.PostUpdateMediaProviders.Headers;
+  headers?: Record<string, any>;
   body?: API.WhatsappV3Json.Application.PostUpdateMediaProviders.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -68,7 +68,7 @@ export function postUpdateMediaProviders(options?: {
  * @path `/settings/application`
  */
 export function deleteResetSettings(options?: {
-  headers?: API.WhatsappV3Json.Application.DeleteResetSettings.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -80,7 +80,7 @@ export function deleteResetSettings(options?: {
  * @path `/settings/application`
  */
 export function getSettings(options?: {
-  headers?: API.WhatsappV3Json.Application.GetSettings.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -97,7 +97,7 @@ export function getSettings(options?: {
  * @path `/settings/application`
  */
 export function patchUpdateSettings(options?: {
-  headers?: API.WhatsappV3Json.Application.PatchUpdateSettings.Headers;
+  headers?: Record<string, any>;
   body?: API.WhatsappV3Json.Application.PatchUpdateSettings.Body;
   config?: RequestConfig;
   context?: RequestContext;

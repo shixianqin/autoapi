@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/contacts`
  */
 export function postCheckContact(options: {
-  headers?: API.WhatsappV3Json.Contacts.PostCheckContact.Headers;
+  headers?: Record<string, any>;
   body: API.WhatsappV3Json.Contacts.PostCheckContact.Body;
   config?: RequestConfig;
   context?: RequestContext;

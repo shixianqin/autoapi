@@ -6,7 +6,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function getWpV2Name(options: {
   pathParams: API.WordpressV2Json.BlockRenderer.GetWpV2Name.PathParams;
   queryParams?: API.WordpressV2Json.BlockRenderer.GetWpV2Name.QueryParams;
-  headers?: API.WordpressV2Json.BlockRenderer.GetWpV2Name.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -22,7 +22,7 @@ export function getWpV2Name(options: {
  */
 export function postWpV2Name(options: {
   pathParams: API.WordpressV2Json.BlockRenderer.PostWpV2Name.PathParams;
-  headers?: API.WordpressV2Json.BlockRenderer.PostWpV2Name.Headers;
+  headers?: Record<string, any>;
   formData?: API.WordpressV2Json.BlockRenderer.PostWpV2Name.FormData;
   config?: RequestConfig;
   context?: RequestContext;

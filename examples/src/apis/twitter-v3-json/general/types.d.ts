@@ -2,18 +2,10 @@ declare namespace API {
   namespace TwitterV3Json {
     namespace General {
       namespace GetOpenApiSpec {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface Response {}
       }
 
       namespace GetRuleCount {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * A comma separated list of RulesCount fields to display.

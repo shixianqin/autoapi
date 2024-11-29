@@ -82,7 +82,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           /**
            * The version of the key group that you are updating. The version is the key group's <code>ETag</code> value.
            */
@@ -146,7 +145,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           "X-Amz-Algorithm"?: string;
           "X-Amz-Content-Sha256"?: string;
           "X-Amz-Credential"?: string;

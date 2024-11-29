@@ -2,11 +2,6 @@ declare namespace API {
   namespace K8sV2Json {
     namespace CertificatesV1 {
       namespace GetReadCertificateSigningRequestApproval {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the CertificateSigningRequest
@@ -27,16 +22,6 @@ declare namespace API {
 
       namespace PatchCertificateSigningRequestApproval {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -75,11 +60,6 @@ declare namespace API {
       namespace PutReplaceCertificateSigningRequestApproval {
         type Body = $schemas.IoK8sApiCertificatesV1CertificateSigningRequest;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the CertificateSigningRequest
@@ -111,11 +91,6 @@ declare namespace API {
       }
 
       namespace GetReadCertificateSigningRequestStatus {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the CertificateSigningRequest
@@ -136,16 +111,6 @@ declare namespace API {
 
       namespace PatchCertificateSigningRequestStatus {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -184,11 +149,6 @@ declare namespace API {
       namespace PutReplaceCertificateSigningRequestStatus {
         type Body = $schemas.IoK8sApiCertificatesV1CertificateSigningRequest;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the CertificateSigningRequest
@@ -221,11 +181,6 @@ declare namespace API {
 
       namespace DeleteCertificateSigningRequest {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -261,11 +216,6 @@ declare namespace API {
       }
 
       namespace GetReadCertificateSigningRequest {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the CertificateSigningRequest
@@ -286,16 +236,6 @@ declare namespace API {
 
       namespace PatchCertificateSigningRequest {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -334,11 +274,6 @@ declare namespace API {
       namespace PutReplaceCertificateSigningRequest {
         type Body = $schemas.IoK8sApiCertificatesV1CertificateSigningRequest;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the CertificateSigningRequest
@@ -371,11 +306,6 @@ declare namespace API {
 
       namespace DeleteCollectionCertificateSigningRequest {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface QueryParams {
           /**
@@ -456,11 +386,6 @@ declare namespace API {
       }
 
       namespace GetListCertificateSigningRequest {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -535,11 +460,6 @@ declare namespace API {
       namespace PostCreateCertificateSigningRequest {
         type Body = $schemas.IoK8sApiCertificatesV1CertificateSigningRequest;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -564,24 +484,10 @@ declare namespace API {
       }
 
       namespace GetApiResources {
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/yaml"
-            | "application/vnd.kubernetes.protobuf"
-            | string;
-          [P: string]: any;
-        }
-
         type Response = $schemas.IoK8sApimachineryPkgApisMetaV1ApiResourceList;
       }
 
       namespace GetWatchCertificateSigningRequest {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the CertificateSigningRequest
@@ -660,11 +566,6 @@ declare namespace API {
       }
 
       namespace GetWatchCertificateSigningRequestList {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.

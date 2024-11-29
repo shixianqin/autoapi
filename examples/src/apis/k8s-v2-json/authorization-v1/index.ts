@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/apis/authorization.k8s.io/v1/`
  */
 export function getApiResources(options?: {
-  headers?: API.K8sV2Json.AuthorizationV1.GetApiResources.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -23,7 +23,7 @@ export function getApiResources(options?: {
 export function postCreateNamespacedLocalSubjectAccessReview(options: {
   pathParams: API.K8sV2Json.AuthorizationV1.PostCreateNamespacedLocalSubjectAccessReview.PathParams;
   queryParams?: API.K8sV2Json.AuthorizationV1.PostCreateNamespacedLocalSubjectAccessReview.QueryParams;
-  headers?: API.K8sV2Json.AuthorizationV1.PostCreateNamespacedLocalSubjectAccessReview.Headers;
+  headers?: Record<string, any>;
   body: API.K8sV2Json.AuthorizationV1.PostCreateNamespacedLocalSubjectAccessReview.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -41,7 +41,7 @@ export function postCreateNamespacedLocalSubjectAccessReview(options: {
  */
 export function postCreateSelfSubjectAccessReview(options: {
   queryParams?: API.K8sV2Json.AuthorizationV1.PostCreateSelfSubjectAccessReview.QueryParams;
-  headers?: API.K8sV2Json.AuthorizationV1.PostCreateSelfSubjectAccessReview.Headers;
+  headers?: Record<string, any>;
   body: API.K8sV2Json.AuthorizationV1.PostCreateSelfSubjectAccessReview.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -59,7 +59,7 @@ export function postCreateSelfSubjectAccessReview(options: {
  */
 export function postCreateSelfSubjectRulesReview(options: {
   queryParams?: API.K8sV2Json.AuthorizationV1.PostCreateSelfSubjectRulesReview.QueryParams;
-  headers?: API.K8sV2Json.AuthorizationV1.PostCreateSelfSubjectRulesReview.Headers;
+  headers?: Record<string, any>;
   body: API.K8sV2Json.AuthorizationV1.PostCreateSelfSubjectRulesReview.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -77,7 +77,7 @@ export function postCreateSelfSubjectRulesReview(options: {
  */
 export function postCreateSubjectAccessReview(options: {
   queryParams?: API.K8sV2Json.AuthorizationV1.PostCreateSubjectAccessReview.QueryParams;
-  headers?: API.K8sV2Json.AuthorizationV1.PostCreateSubjectAccessReview.Headers;
+  headers?: Record<string, any>;
   body: API.K8sV2Json.AuthorizationV1.PostCreateSubjectAccessReview.Body;
   config?: RequestConfig;
   context?: RequestContext;

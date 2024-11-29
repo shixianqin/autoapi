@@ -4,11 +4,6 @@ declare namespace API {
       namespace PostAnalyticsRequestUpsert {
         type Body = $schemas.UserDeletionRequest;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Data format for the response.

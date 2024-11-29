@@ -17,7 +17,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function postRestorePackageForOrg(options: {
   pathParams: API.GithubV3Json.Packages.PostRestorePackageForOrg.PathParams;
   queryParams?: API.GithubV3Json.Packages.PostRestorePackageForOrg.QueryParams;
-  headers?: API.GithubV3Json.Packages.PostRestorePackageForOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -44,7 +44,7 @@ export function postRestorePackageForOrg(options: {
  */
 export function postRestorePackageVersionForOrg(options: {
   pathParams: API.GithubV3Json.Packages.PostRestorePackageVersionForOrg.PathParams;
-  headers?: API.GithubV3Json.Packages.PostRestorePackageVersionForOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -67,7 +67,7 @@ export function postRestorePackageVersionForOrg(options: {
  */
 export function deletePackageVersionForOrg(options: {
   pathParams: API.GithubV3Json.Packages.DeletePackageVersionForOrg.PathParams;
-  headers?: API.GithubV3Json.Packages.DeletePackageVersionForOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -88,7 +88,7 @@ export function deletePackageVersionForOrg(options: {
  */
 export function getPackageVersionForOrganization(options: {
   pathParams: API.GithubV3Json.Packages.GetPackageVersionForOrganization.PathParams;
-  headers?: API.GithubV3Json.Packages.GetPackageVersionForOrganization.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -110,7 +110,7 @@ export function getPackageVersionForOrganization(options: {
 export function getAllPackageVersionsForPackageOwnedByOrg(options: {
   pathParams: API.GithubV3Json.Packages.GetAllPackageVersionsForPackageOwnedByOrg.PathParams;
   queryParams?: API.GithubV3Json.Packages.GetAllPackageVersionsForPackageOwnedByOrg.QueryParams;
-  headers?: API.GithubV3Json.Packages.GetAllPackageVersionsForPackageOwnedByOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -133,7 +133,7 @@ export function getAllPackageVersionsForPackageOwnedByOrg(options: {
  */
 export function deletePackageForOrg(options: {
   pathParams: API.GithubV3Json.Packages.DeletePackageForOrg.PathParams;
-  headers?: API.GithubV3Json.Packages.DeletePackageForOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -154,7 +154,7 @@ export function deletePackageForOrg(options: {
  */
 export function getPackageForOrganization(options: {
   pathParams: API.GithubV3Json.Packages.GetPackageForOrganization.PathParams;
-  headers?: API.GithubV3Json.Packages.GetPackageForOrganization.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -176,7 +176,7 @@ export function getPackageForOrganization(options: {
 export function getListForOrganization(options: {
   pathParams: API.GithubV3Json.Packages.GetListForOrganization.PathParams;
   queryParams: API.GithubV3Json.Packages.GetListForOrganization.QueryParams;
-  headers?: API.GithubV3Json.Packages.GetListForOrganization.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -202,7 +202,7 @@ export function getListForOrganization(options: {
 export function postRestorePackageForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Packages.PostRestorePackageForAuthenticatedUser.PathParams;
   queryParams?: API.GithubV3Json.Packages.PostRestorePackageForAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Packages.PostRestorePackageForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -227,7 +227,7 @@ export function postRestorePackageForAuthenticatedUser(options: {
  */
 export function postRestorePackageVersionForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Packages.PostRestorePackageVersionForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Packages.PostRestorePackageVersionForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -249,7 +249,7 @@ export function postRestorePackageVersionForAuthenticatedUser(options: {
  */
 export function deletePackageVersionForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Packages.DeletePackageVersionForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Packages.DeletePackageVersionForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -270,7 +270,7 @@ export function deletePackageVersionForAuthenticatedUser(options: {
  */
 export function getPackageVersionForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Packages.GetPackageVersionForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Packages.GetPackageVersionForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -292,7 +292,7 @@ export function getPackageVersionForAuthenticatedUser(options: {
 export function getAllPackageVersionsForPackageOwnedByAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Packages.GetAllPackageVersionsForPackageOwnedByAuthenticatedUser.PathParams;
   queryParams?: API.GithubV3Json.Packages.GetAllPackageVersionsForPackageOwnedByAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Packages.GetAllPackageVersionsForPackageOwnedByAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -314,7 +314,7 @@ export function getAllPackageVersionsForPackageOwnedByAuthenticatedUser(options:
  */
 export function deletePackageForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Packages.DeletePackageForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Packages.DeletePackageForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -335,7 +335,7 @@ export function deletePackageForAuthenticatedUser(options: {
  */
 export function getPackageForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Packages.GetPackageForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Packages.GetPackageForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -356,7 +356,7 @@ export function getPackageForAuthenticatedUser(options: {
  */
 export function getListForAuthenticatedUser(options: {
   queryParams: API.GithubV3Json.Packages.GetListForAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Packages.GetListForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -384,7 +384,7 @@ export function getListForAuthenticatedUser(options: {
 export function postRestorePackageForUser(options: {
   pathParams: API.GithubV3Json.Packages.PostRestorePackageForUser.PathParams;
   queryParams?: API.GithubV3Json.Packages.PostRestorePackageForUser.QueryParams;
-  headers?: API.GithubV3Json.Packages.PostRestorePackageForUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -411,7 +411,7 @@ export function postRestorePackageForUser(options: {
  */
 export function postRestorePackageVersionForUser(options: {
   pathParams: API.GithubV3Json.Packages.PostRestorePackageVersionForUser.PathParams;
-  headers?: API.GithubV3Json.Packages.PostRestorePackageVersionForUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -434,7 +434,7 @@ export function postRestorePackageVersionForUser(options: {
  */
 export function deletePackageVersionForUser(options: {
   pathParams: API.GithubV3Json.Packages.DeletePackageVersionForUser.PathParams;
-  headers?: API.GithubV3Json.Packages.DeletePackageVersionForUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -455,7 +455,7 @@ export function deletePackageVersionForUser(options: {
  */
 export function getPackageVersionForUser(options: {
   pathParams: API.GithubV3Json.Packages.GetPackageVersionForUser.PathParams;
-  headers?: API.GithubV3Json.Packages.GetPackageVersionForUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -476,7 +476,7 @@ export function getPackageVersionForUser(options: {
  */
 export function getAllPackageVersionsForPackageOwnedByUser(options: {
   pathParams: API.GithubV3Json.Packages.GetAllPackageVersionsForPackageOwnedByUser.PathParams;
-  headers?: API.GithubV3Json.Packages.GetAllPackageVersionsForPackageOwnedByUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -499,7 +499,7 @@ export function getAllPackageVersionsForPackageOwnedByUser(options: {
  */
 export function deletePackageForUser(options: {
   pathParams: API.GithubV3Json.Packages.DeletePackageForUser.PathParams;
-  headers?: API.GithubV3Json.Packages.DeletePackageForUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -520,7 +520,7 @@ export function deletePackageForUser(options: {
  */
 export function getPackageForUser(options: {
   pathParams: API.GithubV3Json.Packages.GetPackageForUser.PathParams;
-  headers?: API.GithubV3Json.Packages.GetPackageForUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -542,7 +542,7 @@ export function getPackageForUser(options: {
 export function getListForUser(options: {
   pathParams: API.GithubV3Json.Packages.GetListForUser.PathParams;
   queryParams: API.GithubV3Json.Packages.GetListForUser.QueryParams;
-  headers?: API.GithubV3Json.Packages.GetListForUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

@@ -8,7 +8,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function getAnalyticsManagementSourcesList(options: {
   pathParams: API.GaV2Yaml.CustomData.GetAnalyticsManagementSourcesList.PathParams;
   queryParams?: API.GaV2Yaml.CustomData.GetAnalyticsManagementSourcesList.QueryParams;
-  headers?: API.GaV2Yaml.CustomData.GetAnalyticsManagementSourcesList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

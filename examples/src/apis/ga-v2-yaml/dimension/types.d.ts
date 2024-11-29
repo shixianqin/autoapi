@@ -2,10 +2,6 @@ declare namespace API {
   namespace GaV2Yaml {
     namespace Dimension {
       namespace GetAnalyticsManagementCustomDimensions {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID for the custom dimension to retrieve
@@ -24,10 +20,6 @@ declare namespace API {
 
       namespace PatchAnalyticsManagementCustomDimensions {
         type Body = $schemas.Holder;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -55,10 +47,6 @@ declare namespace API {
       namespace PutAnalyticsManagementCustomDimensionsUpdate {
         type Body = $schemas.Holder;
 
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID for the custom dimension to update
@@ -83,10 +71,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsManagementCustomDimensionsList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID for the custom dimensions to retrieve
@@ -112,10 +96,6 @@ declare namespace API {
 
       namespace PostAnalyticsManagementCustomDimensionsInsert {
         type Body = $schemas.Holder;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**

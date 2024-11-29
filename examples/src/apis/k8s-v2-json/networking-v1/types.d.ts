@@ -2,25 +2,11 @@ declare namespace API {
   namespace K8sV2Json {
     namespace NetworkingV1 {
       namespace GetApiResources {
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/yaml"
-            | "application/vnd.kubernetes.protobuf"
-            | string;
-          [P: string]: any;
-        }
-
         type Response = $schemas.IoK8sApimachineryPkgApisMetaV1ApiResourceList;
       }
 
       namespace DeleteIngressClass {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -56,11 +42,6 @@ declare namespace API {
       }
 
       namespace GetReadIngressClass {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the IngressClass
@@ -80,16 +61,6 @@ declare namespace API {
 
       namespace PatchIngressClass {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -127,11 +98,6 @@ declare namespace API {
       namespace PutReplaceIngressClass {
         type Body = $schemas.IoK8sApiNetworkingV1IngressClass;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the IngressClass
@@ -163,11 +129,6 @@ declare namespace API {
 
       namespace DeleteCollectionIngressClass {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface QueryParams {
           /**
@@ -248,11 +209,6 @@ declare namespace API {
       }
 
       namespace GetListIngressClass {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -326,11 +282,6 @@ declare namespace API {
       namespace PostCreateIngressClass {
         type Body = $schemas.IoK8sApiNetworkingV1IngressClass;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -354,11 +305,6 @@ declare namespace API {
       }
 
       namespace GetListIngressForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -430,11 +376,6 @@ declare namespace API {
       }
 
       namespace GetReadNamespacedIngressStatus {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Ingress
@@ -458,16 +399,6 @@ declare namespace API {
 
       namespace PatchNamespacedIngressStatus {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -509,11 +440,6 @@ declare namespace API {
       namespace PutReplaceNamespacedIngressStatus {
         type Body = $schemas.IoK8sApiNetworkingV1Ingress;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Ingress
@@ -549,11 +475,6 @@ declare namespace API {
 
       namespace DeleteNamespacedIngress {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -593,11 +514,6 @@ declare namespace API {
       }
 
       namespace GetReadNamespacedIngress {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Ingress
@@ -621,16 +537,6 @@ declare namespace API {
 
       namespace PatchNamespacedIngress {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -672,11 +578,6 @@ declare namespace API {
       namespace PutReplaceNamespacedIngress {
         type Body = $schemas.IoK8sApiNetworkingV1Ingress;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Ingress
@@ -712,11 +613,6 @@ declare namespace API {
 
       namespace DeleteCollectionNamespacedIngress {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -804,11 +700,6 @@ declare namespace API {
       }
 
       namespace GetListNamespacedIngress {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -889,11 +780,6 @@ declare namespace API {
       namespace PostCreateNamespacedIngress {
         type Body = $schemas.IoK8sApiNetworkingV1Ingress;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -925,11 +811,6 @@ declare namespace API {
 
       namespace DeleteNamespacedNetworkPolicy {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -969,11 +850,6 @@ declare namespace API {
       }
 
       namespace GetReadNamespacedNetworkPolicy {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the NetworkPolicy
@@ -997,16 +873,6 @@ declare namespace API {
 
       namespace PatchNamespacedNetworkPolicy {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -1048,11 +914,6 @@ declare namespace API {
       namespace PutReplaceNamespacedNetworkPolicy {
         type Body = $schemas.IoK8sApiNetworkingV1NetworkPolicy;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the NetworkPolicy
@@ -1088,11 +949,6 @@ declare namespace API {
 
       namespace DeleteCollectionNamespacedNetworkPolicy {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -1180,11 +1036,6 @@ declare namespace API {
       }
 
       namespace GetListNamespacedNetworkPolicy {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -1265,11 +1116,6 @@ declare namespace API {
       namespace PostCreateNamespacedNetworkPolicy {
         type Body = $schemas.IoK8sApiNetworkingV1NetworkPolicy;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -1300,11 +1146,6 @@ declare namespace API {
       }
 
       namespace GetListNetworkPolicyForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -1376,11 +1217,6 @@ declare namespace API {
       }
 
       namespace GetWatchIngressClass {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the IngressClass
@@ -1459,11 +1295,6 @@ declare namespace API {
       }
 
       namespace GetWatchIngressClassList {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -1535,11 +1366,6 @@ declare namespace API {
       }
 
       namespace GetWatchIngressListForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -1611,11 +1437,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedIngress {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Ingress
@@ -1698,11 +1519,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedIngressList {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -1781,11 +1597,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedNetworkPolicy {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the NetworkPolicy
@@ -1868,11 +1679,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedNetworkPolicyList {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -1951,11 +1757,6 @@ declare namespace API {
       }
 
       namespace GetWatchNetworkPolicyListForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.

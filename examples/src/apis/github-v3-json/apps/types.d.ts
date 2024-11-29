@@ -2,10 +2,6 @@ declare namespace API {
   namespace GithubV3Json {
     namespace Apps {
       namespace PostCreateFromManifest {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           code: string;
         }
@@ -20,10 +16,6 @@ declare namespace API {
       }
 
       namespace GetWebhookConfigForApp {
-        interface Headers {
-          [P: string]: any;
-        }
-
         type Response = $schemas.WebhookConfig;
       }
 
@@ -45,19 +37,10 @@ declare namespace API {
           url?: $schemas.WebhookConfigUrl;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         type Response = $schemas.WebhookConfig;
       }
 
       namespace PostRedeliverWebhookDelivery {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           delivery_id: number;
         }
@@ -66,10 +49,6 @@ declare namespace API {
       }
 
       namespace GetWebhookDelivery {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           delivery_id: number;
         }
@@ -78,10 +57,6 @@ declare namespace API {
       }
 
       namespace GetListWebhookDeliveries {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Used for pagination: the starting delivery from which the page of deliveries is fetched. Refer to the `link` header for the next and previous page cursors.
@@ -114,11 +89,6 @@ declare namespace API {
           repository_ids?: number[];
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the installation.
@@ -130,10 +100,6 @@ declare namespace API {
       }
 
       namespace DeleteUnsuspendInstallation {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the installation.
@@ -143,10 +109,6 @@ declare namespace API {
       }
 
       namespace PutSuspendInstallation {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the installation.
@@ -156,10 +118,6 @@ declare namespace API {
       }
 
       namespace DeleteInstallation {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the installation.
@@ -169,10 +127,6 @@ declare namespace API {
       }
 
       namespace GetInstallation {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the installation.
@@ -184,10 +138,6 @@ declare namespace API {
       }
 
       namespace GetListInstallations {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           outdated?: string;
           /**
@@ -211,10 +161,6 @@ declare namespace API {
       }
 
       namespace GetAuthenticated {
-        interface Headers {
-          [P: string]: any;
-        }
-
         type Response = $schemas.Integration;
       }
 
@@ -224,11 +170,6 @@ declare namespace API {
            * The OAuth access token used to authenticate to the GitHub API.
            */
           access_token: string;
-        }
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
         }
 
         interface PathParams {
@@ -267,11 +208,6 @@ declare namespace API {
           target_id?: number;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The client ID of the GitHub app.
@@ -290,11 +226,6 @@ declare namespace API {
           access_token: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The client ID of the GitHub app.
@@ -309,11 +240,6 @@ declare namespace API {
            * The access_token of the OAuth application.
            */
           access_token: string;
-        }
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
         }
 
         interface PathParams {
@@ -334,11 +260,6 @@ declare namespace API {
           access_token: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The client ID of the GitHub app.
@@ -350,10 +271,6 @@ declare namespace API {
       }
 
       namespace GetBySlug {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           app_slug: string;
         }
@@ -362,10 +279,6 @@ declare namespace API {
       }
 
       namespace GetListReposAccessibleToInstallation {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Page number of the results to fetch.
@@ -386,17 +299,9 @@ declare namespace API {
         }
       }
 
-      namespace DeleteRevokeInstallationAccessToken {
-        interface Headers {
-          [P: string]: any;
-        }
-      }
+      namespace DeleteRevokeInstallationAccessToken {}
 
       namespace GetSubscriptionPlanForAccount {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * account_id parameter
@@ -408,10 +313,6 @@ declare namespace API {
       }
 
       namespace GetListAccountsForPlan {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the plan.
@@ -445,10 +346,6 @@ declare namespace API {
       }
 
       namespace GetListPlans {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Page number of the results to fetch.
@@ -466,10 +363,6 @@ declare namespace API {
       }
 
       namespace GetSubscriptionPlanForAccountStubbed {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * account_id parameter
@@ -481,10 +374,6 @@ declare namespace API {
       }
 
       namespace GetListAccountsForPlanStubbed {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the plan.
@@ -518,10 +407,6 @@ declare namespace API {
       }
 
       namespace GetListPlansStubbed {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Page number of the results to fetch.
@@ -539,10 +424,6 @@ declare namespace API {
       }
 
       namespace GetOrgInstallation {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -554,10 +435,6 @@ declare namespace API {
       }
 
       namespace GetRepoInstallation {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -573,10 +450,6 @@ declare namespace API {
       }
 
       namespace DeleteRemoveRepoFromInstallationForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the installation.
@@ -590,10 +463,6 @@ declare namespace API {
       }
 
       namespace PutAddRepoToInstallationForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the installation.
@@ -607,10 +476,6 @@ declare namespace API {
       }
 
       namespace GetListInstallationReposForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the installation.
@@ -639,10 +504,6 @@ declare namespace API {
       }
 
       namespace GetListInstallationsForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Page number of the results to fetch.
@@ -663,10 +524,6 @@ declare namespace API {
       }
 
       namespace GetListSubscriptionsForAuthenticatedUserStubbed {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Page number of the results to fetch.
@@ -684,10 +541,6 @@ declare namespace API {
       }
 
       namespace GetListSubscriptionsForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Page number of the results to fetch.
@@ -705,10 +558,6 @@ declare namespace API {
       }
 
       namespace GetUserInstallation {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The handle for the GitHub user account.

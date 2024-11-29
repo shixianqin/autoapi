@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getWpV2(options?: {
   queryParams?: API.CustomizeResponses.Media.GetWpV2.QueryParams;
-  headers?: API.CustomizeResponses.Media.GetWpV2.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -20,7 +20,7 @@ export function getWpV2(options?: {
  * @path `/wp/v2/media`
  */
 export function postWpV2(options?: {
-  headers?: API.CustomizeResponses.Media.PostWpV2.Headers;
+  headers?: Record<string, any>;
   formData?: API.CustomizeResponses.Media.PostWpV2.FormData;
   config?: RequestConfig;
   context?: RequestContext;

@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/apis/storage.k8s.io/v1alpha1/`
  */
 export function getApiResources(options?: {
-  headers?: API.K8sV2Json.StorageV1alpha1.GetApiResources.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -23,7 +23,7 @@ export function getApiResources(options?: {
 export function deleteVolumeAttributesClass(options: {
   pathParams: API.K8sV2Json.StorageV1alpha1.DeleteVolumeAttributesClass.PathParams;
   queryParams?: API.K8sV2Json.StorageV1alpha1.DeleteVolumeAttributesClass.QueryParams;
-  headers?: API.K8sV2Json.StorageV1alpha1.DeleteVolumeAttributesClass.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.StorageV1alpha1.DeleteVolumeAttributesClass.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -42,7 +42,7 @@ export function deleteVolumeAttributesClass(options: {
 export function getReadVolumeAttributesClass(options: {
   pathParams: API.K8sV2Json.StorageV1alpha1.GetReadVolumeAttributesClass.PathParams;
   queryParams?: API.K8sV2Json.StorageV1alpha1.GetReadVolumeAttributesClass.QueryParams;
-  headers?: API.K8sV2Json.StorageV1alpha1.GetReadVolumeAttributesClass.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -60,7 +60,7 @@ export function getReadVolumeAttributesClass(options: {
 export function patchVolumeAttributesClass(options: {
   pathParams: API.K8sV2Json.StorageV1alpha1.PatchVolumeAttributesClass.PathParams;
   queryParams?: API.K8sV2Json.StorageV1alpha1.PatchVolumeAttributesClass.QueryParams;
-  headers?: API.K8sV2Json.StorageV1alpha1.PatchVolumeAttributesClass.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.StorageV1alpha1.PatchVolumeAttributesClass.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -79,7 +79,7 @@ export function patchVolumeAttributesClass(options: {
 export function putReplaceVolumeAttributesClass(options: {
   pathParams: API.K8sV2Json.StorageV1alpha1.PutReplaceVolumeAttributesClass.PathParams;
   queryParams?: API.K8sV2Json.StorageV1alpha1.PutReplaceVolumeAttributesClass.QueryParams;
-  headers?: API.K8sV2Json.StorageV1alpha1.PutReplaceVolumeAttributesClass.Headers;
+  headers?: Record<string, any>;
   body: API.K8sV2Json.StorageV1alpha1.PutReplaceVolumeAttributesClass.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -97,7 +97,7 @@ export function putReplaceVolumeAttributesClass(options: {
  */
 export function deleteCollectionVolumeAttributesClass(options?: {
   queryParams?: API.K8sV2Json.StorageV1alpha1.DeleteCollectionVolumeAttributesClass.QueryParams;
-  headers?: API.K8sV2Json.StorageV1alpha1.DeleteCollectionVolumeAttributesClass.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.StorageV1alpha1.DeleteCollectionVolumeAttributesClass.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -115,7 +115,7 @@ export function deleteCollectionVolumeAttributesClass(options?: {
  */
 export function getListVolumeAttributesClass(options?: {
   queryParams?: API.K8sV2Json.StorageV1alpha1.GetListVolumeAttributesClass.QueryParams;
-  headers?: API.K8sV2Json.StorageV1alpha1.GetListVolumeAttributesClass.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -132,7 +132,7 @@ export function getListVolumeAttributesClass(options?: {
  */
 export function postCreateVolumeAttributesClass(options: {
   queryParams?: API.K8sV2Json.StorageV1alpha1.PostCreateVolumeAttributesClass.QueryParams;
-  headers?: API.K8sV2Json.StorageV1alpha1.PostCreateVolumeAttributesClass.Headers;
+  headers?: Record<string, any>;
   body: API.K8sV2Json.StorageV1alpha1.PostCreateVolumeAttributesClass.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -151,7 +151,7 @@ export function postCreateVolumeAttributesClass(options: {
 export function getWatchVolumeAttributesClass(options: {
   pathParams: API.K8sV2Json.StorageV1alpha1.GetWatchVolumeAttributesClass.PathParams;
   queryParams?: API.K8sV2Json.StorageV1alpha1.GetWatchVolumeAttributesClass.QueryParams;
-  headers?: API.K8sV2Json.StorageV1alpha1.GetWatchVolumeAttributesClass.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -168,7 +168,7 @@ export function getWatchVolumeAttributesClass(options: {
  */
 export function getWatchVolumeAttributesClassList(options?: {
   queryParams?: API.K8sV2Json.StorageV1alpha1.GetWatchVolumeAttributesClassList.QueryParams;
-  headers?: API.K8sV2Json.StorageV1alpha1.GetWatchVolumeAttributesClassList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

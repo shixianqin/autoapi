@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/apis/storagemigration.k8s.io/v1alpha1/`
  */
 export function getApiResources(options?: {
-  headers?: API.K8sV2Json.StoragemigrationV1alpha1.GetApiResources.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -23,7 +23,7 @@ export function getApiResources(options?: {
 export function getReadStorageVersionMigrationStatus(options: {
   pathParams: API.K8sV2Json.StoragemigrationV1alpha1.GetReadStorageVersionMigrationStatus.PathParams;
   queryParams?: API.K8sV2Json.StoragemigrationV1alpha1.GetReadStorageVersionMigrationStatus.QueryParams;
-  headers?: API.K8sV2Json.StoragemigrationV1alpha1.GetReadStorageVersionMigrationStatus.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -41,7 +41,7 @@ export function getReadStorageVersionMigrationStatus(options: {
 export function patchStorageVersionMigrationStatus(options: {
   pathParams: API.K8sV2Json.StoragemigrationV1alpha1.PatchStorageVersionMigrationStatus.PathParams;
   queryParams?: API.K8sV2Json.StoragemigrationV1alpha1.PatchStorageVersionMigrationStatus.QueryParams;
-  headers?: API.K8sV2Json.StoragemigrationV1alpha1.PatchStorageVersionMigrationStatus.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.StoragemigrationV1alpha1.PatchStorageVersionMigrationStatus.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -60,7 +60,7 @@ export function patchStorageVersionMigrationStatus(options: {
 export function putReplaceStorageVersionMigrationStatus(options: {
   pathParams: API.K8sV2Json.StoragemigrationV1alpha1.PutReplaceStorageVersionMigrationStatus.PathParams;
   queryParams?: API.K8sV2Json.StoragemigrationV1alpha1.PutReplaceStorageVersionMigrationStatus.QueryParams;
-  headers?: API.K8sV2Json.StoragemigrationV1alpha1.PutReplaceStorageVersionMigrationStatus.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.StoragemigrationV1alpha1.PutReplaceStorageVersionMigrationStatus.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -79,7 +79,7 @@ export function putReplaceStorageVersionMigrationStatus(options: {
 export function deleteStorageVersionMigration(options: {
   pathParams: API.K8sV2Json.StoragemigrationV1alpha1.DeleteStorageVersionMigration.PathParams;
   queryParams?: API.K8sV2Json.StoragemigrationV1alpha1.DeleteStorageVersionMigration.QueryParams;
-  headers?: API.K8sV2Json.StoragemigrationV1alpha1.DeleteStorageVersionMigration.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.StoragemigrationV1alpha1.DeleteStorageVersionMigration.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -98,7 +98,7 @@ export function deleteStorageVersionMigration(options: {
 export function getReadStorageVersionMigration(options: {
   pathParams: API.K8sV2Json.StoragemigrationV1alpha1.GetReadStorageVersionMigration.PathParams;
   queryParams?: API.K8sV2Json.StoragemigrationV1alpha1.GetReadStorageVersionMigration.QueryParams;
-  headers?: API.K8sV2Json.StoragemigrationV1alpha1.GetReadStorageVersionMigration.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -116,7 +116,7 @@ export function getReadStorageVersionMigration(options: {
 export function patchStorageVersionMigration(options: {
   pathParams: API.K8sV2Json.StoragemigrationV1alpha1.PatchStorageVersionMigration.PathParams;
   queryParams?: API.K8sV2Json.StoragemigrationV1alpha1.PatchStorageVersionMigration.QueryParams;
-  headers?: API.K8sV2Json.StoragemigrationV1alpha1.PatchStorageVersionMigration.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.StoragemigrationV1alpha1.PatchStorageVersionMigration.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -135,7 +135,7 @@ export function patchStorageVersionMigration(options: {
 export function putReplaceStorageVersionMigration(options: {
   pathParams: API.K8sV2Json.StoragemigrationV1alpha1.PutReplaceStorageVersionMigration.PathParams;
   queryParams?: API.K8sV2Json.StoragemigrationV1alpha1.PutReplaceStorageVersionMigration.QueryParams;
-  headers?: API.K8sV2Json.StoragemigrationV1alpha1.PutReplaceStorageVersionMigration.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.StoragemigrationV1alpha1.PutReplaceStorageVersionMigration.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -153,7 +153,7 @@ export function putReplaceStorageVersionMigration(options: {
  */
 export function deleteCollectionStorageVersionMigration(options?: {
   queryParams?: API.K8sV2Json.StoragemigrationV1alpha1.DeleteCollectionStorageVersionMigration.QueryParams;
-  headers?: API.K8sV2Json.StoragemigrationV1alpha1.DeleteCollectionStorageVersionMigration.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.StoragemigrationV1alpha1.DeleteCollectionStorageVersionMigration.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -171,7 +171,7 @@ export function deleteCollectionStorageVersionMigration(options?: {
  */
 export function getListStorageVersionMigration(options?: {
   queryParams?: API.K8sV2Json.StoragemigrationV1alpha1.GetListStorageVersionMigration.QueryParams;
-  headers?: API.K8sV2Json.StoragemigrationV1alpha1.GetListStorageVersionMigration.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -188,7 +188,7 @@ export function getListStorageVersionMigration(options?: {
  */
 export function postCreateStorageVersionMigration(options?: {
   queryParams?: API.K8sV2Json.StoragemigrationV1alpha1.PostCreateStorageVersionMigration.QueryParams;
-  headers?: API.K8sV2Json.StoragemigrationV1alpha1.PostCreateStorageVersionMigration.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.StoragemigrationV1alpha1.PostCreateStorageVersionMigration.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -207,7 +207,7 @@ export function postCreateStorageVersionMigration(options?: {
 export function getWatchStorageVersionMigration(options: {
   pathParams: API.K8sV2Json.StoragemigrationV1alpha1.GetWatchStorageVersionMigration.PathParams;
   queryParams?: API.K8sV2Json.StoragemigrationV1alpha1.GetWatchStorageVersionMigration.QueryParams;
-  headers?: API.K8sV2Json.StoragemigrationV1alpha1.GetWatchStorageVersionMigration.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -224,7 +224,7 @@ export function getWatchStorageVersionMigration(options: {
  */
 export function getWatchStorageVersionMigrationList(options?: {
   queryParams?: API.K8sV2Json.StoragemigrationV1alpha1.GetWatchStorageVersionMigrationList.QueryParams;
-  headers?: API.K8sV2Json.StoragemigrationV1alpha1.GetWatchStorageVersionMigrationList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

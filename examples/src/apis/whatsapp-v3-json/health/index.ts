@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/health`
  */
 export function getCheck(options?: {
-  headers?: API.WhatsappV3Json.Health.GetCheck.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -18,7 +18,7 @@ export function getCheck(options?: {
  */
 export function getMetrics(options?: {
   queryParams?: API.WhatsappV3Json.Health.GetMetrics.QueryParams;
-  headers?: API.WhatsappV3Json.Health.GetMetrics.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -35,7 +35,7 @@ export function getMetrics(options?: {
  */
 export function getAppStats(options?: {
   queryParams?: API.WhatsappV3Json.Health.GetAppStats.QueryParams;
-  headers?: API.WhatsappV3Json.Health.GetAppStats.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -52,7 +52,7 @@ export function getAppStats(options?: {
  */
 export function getDbStats(options?: {
   queryParams?: API.WhatsappV3Json.Health.GetDbStats.QueryParams;
-  headers?: API.WhatsappV3Json.Health.GetDbStats.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -68,7 +68,7 @@ export function getDbStats(options?: {
  * @path `/support`
  */
 export function getSupportInfo(options?: {
-  headers?: API.WhatsappV3Json.Health.GetSupportInfo.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

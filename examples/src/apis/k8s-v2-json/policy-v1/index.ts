@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/apis/policy/v1/`
  */
 export function getApiResources(options?: {
-  headers?: API.K8sV2Json.PolicyV1.GetApiResources.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -23,7 +23,7 @@ export function getApiResources(options?: {
 export function getReadNamespacedPodDisruptionBudgetStatus(options: {
   pathParams: API.K8sV2Json.PolicyV1.GetReadNamespacedPodDisruptionBudgetStatus.PathParams;
   queryParams?: API.K8sV2Json.PolicyV1.GetReadNamespacedPodDisruptionBudgetStatus.QueryParams;
-  headers?: API.K8sV2Json.PolicyV1.GetReadNamespacedPodDisruptionBudgetStatus.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -41,7 +41,7 @@ export function getReadNamespacedPodDisruptionBudgetStatus(options: {
 export function patchNamespacedPodDisruptionBudgetStatus(options: {
   pathParams: API.K8sV2Json.PolicyV1.PatchNamespacedPodDisruptionBudgetStatus.PathParams;
   queryParams?: API.K8sV2Json.PolicyV1.PatchNamespacedPodDisruptionBudgetStatus.QueryParams;
-  headers?: API.K8sV2Json.PolicyV1.PatchNamespacedPodDisruptionBudgetStatus.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.PolicyV1.PatchNamespacedPodDisruptionBudgetStatus.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -60,7 +60,7 @@ export function patchNamespacedPodDisruptionBudgetStatus(options: {
 export function putReplaceNamespacedPodDisruptionBudgetStatus(options: {
   pathParams: API.K8sV2Json.PolicyV1.PutReplaceNamespacedPodDisruptionBudgetStatus.PathParams;
   queryParams?: API.K8sV2Json.PolicyV1.PutReplaceNamespacedPodDisruptionBudgetStatus.QueryParams;
-  headers?: API.K8sV2Json.PolicyV1.PutReplaceNamespacedPodDisruptionBudgetStatus.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.PolicyV1.PutReplaceNamespacedPodDisruptionBudgetStatus.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -79,7 +79,7 @@ export function putReplaceNamespacedPodDisruptionBudgetStatus(options: {
 export function deleteNamespacedPodDisruptionBudget(options: {
   pathParams: API.K8sV2Json.PolicyV1.DeleteNamespacedPodDisruptionBudget.PathParams;
   queryParams?: API.K8sV2Json.PolicyV1.DeleteNamespacedPodDisruptionBudget.QueryParams;
-  headers?: API.K8sV2Json.PolicyV1.DeleteNamespacedPodDisruptionBudget.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.PolicyV1.DeleteNamespacedPodDisruptionBudget.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -98,7 +98,7 @@ export function deleteNamespacedPodDisruptionBudget(options: {
 export function getReadNamespacedPodDisruptionBudget(options: {
   pathParams: API.K8sV2Json.PolicyV1.GetReadNamespacedPodDisruptionBudget.PathParams;
   queryParams?: API.K8sV2Json.PolicyV1.GetReadNamespacedPodDisruptionBudget.QueryParams;
-  headers?: API.K8sV2Json.PolicyV1.GetReadNamespacedPodDisruptionBudget.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -116,7 +116,7 @@ export function getReadNamespacedPodDisruptionBudget(options: {
 export function patchNamespacedPodDisruptionBudget(options: {
   pathParams: API.K8sV2Json.PolicyV1.PatchNamespacedPodDisruptionBudget.PathParams;
   queryParams?: API.K8sV2Json.PolicyV1.PatchNamespacedPodDisruptionBudget.QueryParams;
-  headers?: API.K8sV2Json.PolicyV1.PatchNamespacedPodDisruptionBudget.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.PolicyV1.PatchNamespacedPodDisruptionBudget.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -135,7 +135,7 @@ export function patchNamespacedPodDisruptionBudget(options: {
 export function putReplaceNamespacedPodDisruptionBudget(options: {
   pathParams: API.K8sV2Json.PolicyV1.PutReplaceNamespacedPodDisruptionBudget.PathParams;
   queryParams?: API.K8sV2Json.PolicyV1.PutReplaceNamespacedPodDisruptionBudget.QueryParams;
-  headers?: API.K8sV2Json.PolicyV1.PutReplaceNamespacedPodDisruptionBudget.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.PolicyV1.PutReplaceNamespacedPodDisruptionBudget.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -154,7 +154,7 @@ export function putReplaceNamespacedPodDisruptionBudget(options: {
 export function deleteCollectionNamespacedPodDisruptionBudget(options: {
   pathParams: API.K8sV2Json.PolicyV1.DeleteCollectionNamespacedPodDisruptionBudget.PathParams;
   queryParams?: API.K8sV2Json.PolicyV1.DeleteCollectionNamespacedPodDisruptionBudget.QueryParams;
-  headers?: API.K8sV2Json.PolicyV1.DeleteCollectionNamespacedPodDisruptionBudget.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.PolicyV1.DeleteCollectionNamespacedPodDisruptionBudget.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -173,7 +173,7 @@ export function deleteCollectionNamespacedPodDisruptionBudget(options: {
 export function getListNamespacedPodDisruptionBudget(options: {
   pathParams: API.K8sV2Json.PolicyV1.GetListNamespacedPodDisruptionBudget.PathParams;
   queryParams?: API.K8sV2Json.PolicyV1.GetListNamespacedPodDisruptionBudget.QueryParams;
-  headers?: API.K8sV2Json.PolicyV1.GetListNamespacedPodDisruptionBudget.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -191,7 +191,7 @@ export function getListNamespacedPodDisruptionBudget(options: {
 export function postCreateNamespacedPodDisruptionBudget(options: {
   pathParams: API.K8sV2Json.PolicyV1.PostCreateNamespacedPodDisruptionBudget.PathParams;
   queryParams?: API.K8sV2Json.PolicyV1.PostCreateNamespacedPodDisruptionBudget.QueryParams;
-  headers?: API.K8sV2Json.PolicyV1.PostCreateNamespacedPodDisruptionBudget.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.PolicyV1.PostCreateNamespacedPodDisruptionBudget.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -209,7 +209,7 @@ export function postCreateNamespacedPodDisruptionBudget(options: {
  */
 export function getListPodDisruptionBudgetForAllNamespaces(options?: {
   queryParams?: API.K8sV2Json.PolicyV1.GetListPodDisruptionBudgetForAllNamespaces.QueryParams;
-  headers?: API.K8sV2Json.PolicyV1.GetListPodDisruptionBudgetForAllNamespaces.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -227,7 +227,7 @@ export function getListPodDisruptionBudgetForAllNamespaces(options?: {
 export function getWatchNamespacedPodDisruptionBudget(options: {
   pathParams: API.K8sV2Json.PolicyV1.GetWatchNamespacedPodDisruptionBudget.PathParams;
   queryParams?: API.K8sV2Json.PolicyV1.GetWatchNamespacedPodDisruptionBudget.QueryParams;
-  headers?: API.K8sV2Json.PolicyV1.GetWatchNamespacedPodDisruptionBudget.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -245,7 +245,7 @@ export function getWatchNamespacedPodDisruptionBudget(options: {
 export function getWatchNamespacedPodDisruptionBudgetList(options: {
   pathParams: API.K8sV2Json.PolicyV1.GetWatchNamespacedPodDisruptionBudgetList.PathParams;
   queryParams?: API.K8sV2Json.PolicyV1.GetWatchNamespacedPodDisruptionBudgetList.QueryParams;
-  headers?: API.K8sV2Json.PolicyV1.GetWatchNamespacedPodDisruptionBudgetList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -262,7 +262,7 @@ export function getWatchNamespacedPodDisruptionBudgetList(options: {
  */
 export function getWatchPodDisruptionBudgetListForAllNamespaces(options?: {
   queryParams?: API.K8sV2Json.PolicyV1.GetWatchPodDisruptionBudgetListForAllNamespaces.QueryParams;
-  headers?: API.K8sV2Json.PolicyV1.GetWatchPodDisruptionBudgetListForAllNamespaces.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

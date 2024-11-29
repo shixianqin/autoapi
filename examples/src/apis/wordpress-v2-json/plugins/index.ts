@@ -6,7 +6,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function deleteWpV2Plugin(options: {
   pathParams: API.WordpressV2Json.Plugins.DeleteWpV2Plugin.PathParams;
   queryParams?: API.WordpressV2Json.Plugins.DeleteWpV2Plugin.QueryParams;
-  headers?: API.WordpressV2Json.Plugins.DeleteWpV2Plugin.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -23,7 +23,7 @@ export function deleteWpV2Plugin(options: {
 export function getWpV2Plugin(options: {
   pathParams: API.WordpressV2Json.Plugins.GetWpV2Plugin.PathParams;
   queryParams?: API.WordpressV2Json.Plugins.GetWpV2Plugin.QueryParams;
-  headers?: API.WordpressV2Json.Plugins.GetWpV2Plugin.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -40,7 +40,7 @@ export function getWpV2Plugin(options: {
 export function patchWpV2Plugin(options: {
   pathParams: API.WordpressV2Json.Plugins.PatchWpV2Plugin.PathParams;
   queryParams?: API.WordpressV2Json.Plugins.PatchWpV2Plugin.QueryParams;
-  headers?: API.WordpressV2Json.Plugins.PatchWpV2Plugin.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -56,7 +56,7 @@ export function patchWpV2Plugin(options: {
  */
 export function postWpV2Plugin(options: {
   pathParams: API.WordpressV2Json.Plugins.PostWpV2Plugin.PathParams;
-  headers?: API.WordpressV2Json.Plugins.PostWpV2Plugin.Headers;
+  headers?: Record<string, any>;
   formData?: API.WordpressV2Json.Plugins.PostWpV2Plugin.FormData;
   config?: RequestConfig;
   context?: RequestContext;
@@ -74,7 +74,7 @@ export function postWpV2Plugin(options: {
 export function putWpV2Plugin(options: {
   pathParams: API.WordpressV2Json.Plugins.PutWpV2Plugin.PathParams;
   queryParams?: API.WordpressV2Json.Plugins.PutWpV2Plugin.QueryParams;
-  headers?: API.WordpressV2Json.Plugins.PutWpV2Plugin.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -90,7 +90,7 @@ export function putWpV2Plugin(options: {
  */
 export function getWpV2(options?: {
   queryParams?: API.WordpressV2Json.Plugins.GetWpV2.QueryParams;
-  headers?: API.WordpressV2Json.Plugins.GetWpV2.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -101,7 +101,7 @@ export function getWpV2(options?: {
  * @path `/wp/v2/plugins`
  */
 export function postWpV2(options: {
-  headers?: API.WordpressV2Json.Plugins.PostWpV2.Headers;
+  headers?: Record<string, any>;
   formData: API.WordpressV2Json.Plugins.PostWpV2.FormData;
   config?: RequestConfig;
   context?: RequestContext;

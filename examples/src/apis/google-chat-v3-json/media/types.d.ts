@@ -2,10 +2,6 @@ declare namespace API {
   namespace GoogleChatV3Json {
     namespace Media {
       namespace GetChatDownload {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Name of the media that is being downloaded. See ReadRequest.resource_name.

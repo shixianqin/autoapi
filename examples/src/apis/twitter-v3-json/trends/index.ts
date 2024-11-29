@@ -9,7 +9,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function getTrends(options: {
   pathParams: API.TwitterV3Json.Trends.GetTrends.PathParams;
   queryParams?: API.TwitterV3Json.Trends.GetTrends.QueryParams;
-  headers?: API.TwitterV3Json.Trends.GetTrends.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

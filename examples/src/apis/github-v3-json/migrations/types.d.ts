@@ -2,10 +2,6 @@ declare namespace API {
   namespace GithubV3Json {
     namespace Migrations {
       namespace DeleteArchiveForOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the migration.
@@ -19,10 +15,6 @@ declare namespace API {
       }
 
       namespace GetDownloadArchiveForOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the migration.
@@ -36,10 +28,6 @@ declare namespace API {
       }
 
       namespace DeleteUnlockRepoForOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the migration.
@@ -57,10 +45,6 @@ declare namespace API {
       }
 
       namespace GetListReposForOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the migration.
@@ -89,10 +73,6 @@ declare namespace API {
       }
 
       namespace GetStatusForOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the migration.
@@ -115,10 +95,6 @@ declare namespace API {
       }
 
       namespace GetListForOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -186,11 +162,6 @@ declare namespace API {
           repositories: string[];
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -213,11 +184,6 @@ declare namespace API {
           name?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           author_id: number;
           /**
@@ -234,10 +200,6 @@ declare namespace API {
       }
 
       namespace GetCommitAuthors {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -260,10 +222,6 @@ declare namespace API {
       }
 
       namespace GetLargeFiles {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -286,11 +244,6 @@ declare namespace API {
           use_lfs: "opt_in" | "opt_out";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -306,10 +259,6 @@ declare namespace API {
       }
 
       namespace DeleteCancelImport {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -323,10 +272,6 @@ declare namespace API {
       }
 
       namespace GetImportStatus {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -359,11 +304,6 @@ declare namespace API {
            * The username to provide to the originating repository.
            */
           vcs_username?: string;
-        }
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
         }
 
         interface PathParams {
@@ -404,11 +344,6 @@ declare namespace API {
           vcs_username?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -424,10 +359,6 @@ declare namespace API {
       }
 
       namespace DeleteArchiveForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the migration.
@@ -437,10 +368,6 @@ declare namespace API {
       }
 
       namespace GetArchiveForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the migration.
@@ -450,10 +377,6 @@ declare namespace API {
       }
 
       namespace DeleteUnlockRepoForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the migration.
@@ -467,10 +390,6 @@ declare namespace API {
       }
 
       namespace GetListReposForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the migration.
@@ -495,10 +414,6 @@ declare namespace API {
       }
 
       namespace GetStatusForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the migration.
@@ -514,10 +429,6 @@ declare namespace API {
       }
 
       namespace GetListForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Page number of the results to fetch.
@@ -569,11 +480,6 @@ declare namespace API {
            */
           org_metadata_only?: boolean;
           repositories: string[];
-        }
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
         }
 
         type Response = $schemas.Migration;

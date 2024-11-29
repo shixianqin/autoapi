@@ -2,10 +2,6 @@ declare namespace API {
   namespace TwitterV3Json {
     namespace Users {
       namespace GetListFollowers {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the List.
@@ -99,10 +95,6 @@ declare namespace API {
       }
 
       namespace GetListMembers {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the List.
@@ -196,10 +188,6 @@ declare namespace API {
       }
 
       namespace GetTweetsIdLiking {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * A single Post ID.
@@ -293,10 +281,6 @@ declare namespace API {
       }
 
       namespace GetTweetsIdRetweeting {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * A single Post ID.
@@ -390,10 +374,6 @@ declare namespace API {
       }
 
       namespace GetFindUserByUsername {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * A username.
@@ -475,10 +455,6 @@ declare namespace API {
       }
 
       namespace GetFindByUsername {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * A comma separated list of fields to expand.
@@ -559,10 +535,6 @@ declare namespace API {
       }
 
       namespace GetFindMyUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * A comma separated list of fields to expand.
@@ -637,10 +609,6 @@ declare namespace API {
       }
 
       namespace GetSearchUserByQuery {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * A comma separated list of fields to expand.
@@ -731,10 +699,6 @@ declare namespace API {
       }
 
       namespace GetIdBlocking {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the authenticated source User for whom to return results.
@@ -827,10 +791,6 @@ declare namespace API {
       }
 
       namespace GetIdFollowers {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the User to lookup.
@@ -923,10 +883,6 @@ declare namespace API {
       }
 
       namespace GetIdFollowing {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the User to lookup.
@@ -1021,11 +977,6 @@ declare namespace API {
       namespace PostIdFollow {
         type Body = $schemas.UsersFollowingCreateRequest;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the authenticated source User that is requesting to follow the target User.
@@ -1037,10 +988,6 @@ declare namespace API {
       }
 
       namespace GetIdMuting {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the authenticated source User for whom to return results.
@@ -1136,11 +1083,6 @@ declare namespace API {
       namespace PostIdMute {
         type Body = $schemas.MuteUserRequest;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the authenticated source User that is requesting to mute the target User.
@@ -1152,10 +1094,6 @@ declare namespace API {
       }
 
       namespace GetFindUserById {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the User to lookup.
@@ -1237,10 +1175,6 @@ declare namespace API {
       }
 
       namespace DeleteIdUnfollow {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the authenticated source User that is requesting to unfollow the target User.
@@ -1256,10 +1190,6 @@ declare namespace API {
       }
 
       namespace DeleteIdUnmute {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the authenticated source User that is requesting to unmute the target User.
@@ -1275,10 +1205,6 @@ declare namespace API {
       }
 
       namespace GetFindById {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * A comma separated list of fields to expand.

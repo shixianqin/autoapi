@@ -7,7 +7,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getConductCode(options: {
   pathParams: API.GithubV3Json.CodesOfConduct.GetConductCode.PathParams;
-  headers?: API.GithubV3Json.CodesOfConduct.GetConductCode.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -24,7 +24,7 @@ export function getConductCode(options: {
  * @docs https://docs.github.com/rest/reference/codes-of-conduct#get-all-codes-of-conduct
  */
 export function getAll(options?: {
-  headers?: API.GithubV3Json.CodesOfConduct.GetAll.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

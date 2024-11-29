@@ -2,10 +2,6 @@ declare namespace API {
   namespace GaV2Yaml {
     namespace CustomData {
       namespace GetAnalyticsManagementSourcesList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account Id for the custom data sources to retrieve

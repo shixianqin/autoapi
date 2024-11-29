@@ -2,14 +2,6 @@ declare namespace API {
   namespace WordpressV2Json {
     namespace BlockRenderer {
       namespace GetWpV2Name {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Unique registered name for the block.
@@ -47,14 +39,6 @@ declare namespace API {
            * ID of the post context.
            */
           post_id?: number | string;
-        }
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
         }
 
         interface PathParams {

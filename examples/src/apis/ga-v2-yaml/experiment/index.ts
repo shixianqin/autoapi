@@ -7,7 +7,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function deleteAnalyticsManagementExperiments(options: {
   pathParams: API.GaV2Yaml.Experiment.DeleteAnalyticsManagementExperiments.PathParams;
-  headers?: API.GaV2Yaml.Experiment.DeleteAnalyticsManagementExperiments.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -25,7 +25,7 @@ export function deleteAnalyticsManagementExperiments(options: {
  */
 export function getAnalyticsManagementExperiments(options: {
   pathParams: API.GaV2Yaml.Experiment.GetAnalyticsManagementExperiments.PathParams;
-  headers?: API.GaV2Yaml.Experiment.GetAnalyticsManagementExperiments.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -43,7 +43,7 @@ export function getAnalyticsManagementExperiments(options: {
  */
 export function patchAnalyticsManagementExperiments(options: {
   pathParams: API.GaV2Yaml.Experiment.PatchAnalyticsManagementExperiments.PathParams;
-  headers?: API.GaV2Yaml.Experiment.PatchAnalyticsManagementExperiments.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.Experiment.PatchAnalyticsManagementExperiments.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -62,7 +62,7 @@ export function patchAnalyticsManagementExperiments(options: {
  */
 export function putAnalyticsManagementExperimentsUpdate(options: {
   pathParams: API.GaV2Yaml.Experiment.PutAnalyticsManagementExperimentsUpdate.PathParams;
-  headers?: API.GaV2Yaml.Experiment.PutAnalyticsManagementExperimentsUpdate.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.Experiment.PutAnalyticsManagementExperimentsUpdate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -82,7 +82,7 @@ export function putAnalyticsManagementExperimentsUpdate(options: {
 export function getAnalyticsManagementExperimentsList(options: {
   pathParams: API.GaV2Yaml.Experiment.GetAnalyticsManagementExperimentsList.PathParams;
   queryParams?: API.GaV2Yaml.Experiment.GetAnalyticsManagementExperimentsList.QueryParams;
-  headers?: API.GaV2Yaml.Experiment.GetAnalyticsManagementExperimentsList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -100,7 +100,7 @@ export function getAnalyticsManagementExperimentsList(options: {
  */
 export function postAnalyticsManagementExperimentsInsert(options: {
   pathParams: API.GaV2Yaml.Experiment.PostAnalyticsManagementExperimentsInsert.PathParams;
-  headers?: API.GaV2Yaml.Experiment.PostAnalyticsManagementExperimentsInsert.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.Experiment.PostAnalyticsManagementExperimentsInsert.Body;
   config?: RequestConfig;
   context?: RequestContext;

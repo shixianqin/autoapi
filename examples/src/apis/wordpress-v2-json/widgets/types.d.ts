@@ -2,14 +2,6 @@ declare namespace API {
   namespace WordpressV2Json {
     namespace Widgets {
       namespace DeleteWpV2Id {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           id: string;
         }
@@ -23,14 +15,6 @@ declare namespace API {
       }
 
       namespace GetWpV2Id {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           id: string;
         }
@@ -44,14 +28,6 @@ declare namespace API {
       }
 
       namespace PatchWpV2Id {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Unique identifier for the widget.
@@ -99,14 +75,6 @@ declare namespace API {
           sidebar?: string;
         }
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Unique identifier for the widget.
@@ -116,14 +84,6 @@ declare namespace API {
       }
 
       namespace PutWpV2Id {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Unique identifier for the widget.
@@ -152,14 +112,6 @@ declare namespace API {
       }
 
       namespace GetWpV2 {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Scope under which the request is made; determines fields present in response.
@@ -194,14 +146,6 @@ declare namespace API {
            * The sidebar the widget belongs to.
            */
           sidebar: string;
-        }
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
         }
       }
     }

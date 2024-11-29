@@ -7,7 +7,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getAnalyticsDataGa(options?: {
   queryParams?: API.GaV2Yaml.AnalyticData.GetAnalyticsDataGa.QueryParams;
-  headers?: API.GaV2Yaml.AnalyticData.GetAnalyticsDataGa.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -21,7 +21,7 @@ export function getAnalyticsDataGa(options?: {
  */
 export function getAnalyticsDataMcf(options?: {
   queryParams?: API.GaV2Yaml.AnalyticData.GetAnalyticsDataMcf.QueryParams;
-  headers?: API.GaV2Yaml.AnalyticData.GetAnalyticsDataMcf.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

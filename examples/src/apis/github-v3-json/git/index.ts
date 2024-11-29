@@ -10,7 +10,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getBlob(options: {
   pathParams: API.GithubV3Json.Git.GetBlob.PathParams;
-  headers?: API.GithubV3Json.Git.GetBlob.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -28,7 +28,7 @@ export function getBlob(options: {
  */
 export function postCreateBlob(options: {
   pathParams: API.GithubV3Json.Git.PostCreateBlob.PathParams;
-  headers?: API.GithubV3Json.Git.PostCreateBlob.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Git.PostCreateBlob.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -77,7 +77,7 @@ export function postCreateBlob(options: {
  */
 export function getCommit(options: {
   pathParams: API.GithubV3Json.Git.GetCommit.PathParams;
-  headers?: API.GithubV3Json.Git.GetCommit.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -125,7 +125,7 @@ export function getCommit(options: {
  */
 export function postCreateCommit(options: {
   pathParams: API.GithubV3Json.Git.PostCreateCommit.PathParams;
-  headers?: API.GithubV3Json.Git.PostCreateCommit.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Git.PostCreateCommit.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -151,7 +151,7 @@ export function postCreateCommit(options: {
  */
 export function getListMatchingRefs(options: {
   pathParams: API.GithubV3Json.Git.GetListMatchingRefs.PathParams;
-  headers?: API.GithubV3Json.Git.GetListMatchingRefs.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -172,7 +172,7 @@ export function getListMatchingRefs(options: {
  */
 export function getRef(options: {
   pathParams: API.GithubV3Json.Git.GetRef.PathParams;
-  headers?: API.GithubV3Json.Git.GetRef.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -190,7 +190,7 @@ export function getRef(options: {
  */
 export function deleteRef(options: {
   pathParams: API.GithubV3Json.Git.DeleteRef.PathParams;
-  headers?: API.GithubV3Json.Git.DeleteRef.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -208,7 +208,7 @@ export function deleteRef(options: {
  */
 export function patchUpdateRef(options: {
   pathParams: API.GithubV3Json.Git.PatchUpdateRef.PathParams;
-  headers?: API.GithubV3Json.Git.PatchUpdateRef.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Git.PatchUpdateRef.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -228,7 +228,7 @@ export function patchUpdateRef(options: {
  */
 export function postCreateRef(options: {
   pathParams: API.GithubV3Json.Git.PostCreateRef.PathParams;
-  headers?: API.GithubV3Json.Git.PostCreateRef.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Git.PostCreateRef.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -275,7 +275,7 @@ export function postCreateRef(options: {
  */
 export function getTag(options: {
   pathParams: API.GithubV3Json.Git.GetTag.PathParams;
-  headers?: API.GithubV3Json.Git.GetTag.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -323,7 +323,7 @@ export function getTag(options: {
  */
 export function postCreateTag(options: {
   pathParams: API.GithubV3Json.Git.PostCreateTag.PathParams;
-  headers?: API.GithubV3Json.Git.PostCreateTag.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Git.PostCreateTag.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -349,7 +349,7 @@ export function postCreateTag(options: {
 export function getTree(options: {
   pathParams: API.GithubV3Json.Git.GetTree.PathParams;
   queryParams?: API.GithubV3Json.Git.GetTree.QueryParams;
-  headers?: API.GithubV3Json.Git.GetTree.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -372,7 +372,7 @@ export function getTree(options: {
  */
 export function postCreateTree(options: {
   pathParams: API.GithubV3Json.Git.PostCreateTree.PathParams;
-  headers?: API.GithubV3Json.Git.PostCreateTree.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Git.PostCreateTree.Body;
   config?: RequestConfig;
   context?: RequestContext;

@@ -2,10 +2,6 @@ declare namespace API {
   namespace SwaggerHubV2Json {
     namespace Integrations {
       namespace PostExecuteIntegration {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API name (case-sensitive)
@@ -34,10 +30,6 @@ declare namespace API {
       }
 
       namespace DeleteIntegration {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API name (case-sensitive)
@@ -59,11 +51,6 @@ declare namespace API {
       }
 
       namespace GetIntegrationById {
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API name (case-sensitive)
@@ -89,11 +76,6 @@ declare namespace API {
       namespace PatchIntegration {
         interface Body {}
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API name (case-sensitive)
@@ -117,11 +99,6 @@ declare namespace API {
       namespace PutUpdateIntegration {
         interface Body {}
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API name (case-sensitive)
@@ -143,10 +120,6 @@ declare namespace API {
       }
 
       namespace GetIntegrations {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API name (case-sensitive)
@@ -167,11 +140,6 @@ declare namespace API {
 
       namespace PostCreateIntegration {
         interface Body {}
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**

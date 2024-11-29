@@ -2,10 +2,6 @@ declare namespace API {
   namespace GithubV3Json {
     namespace Users {
       namespace DeleteUnblock {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The handle for the GitHub user account.
@@ -15,10 +11,6 @@ declare namespace API {
       }
 
       namespace GetCheckBlocked {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The handle for the GitHub user account.
@@ -28,10 +20,6 @@ declare namespace API {
       }
 
       namespace PutBlock {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The handle for the GitHub user account.
@@ -41,10 +29,6 @@ declare namespace API {
       }
 
       namespace GetListBlockedByAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Page number of the results to fetch.
@@ -69,11 +53,6 @@ declare namespace API {
           visibility: "private" | "public";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         type Response = $schemas.Email[];
       }
 
@@ -87,18 +66,9 @@ declare namespace API {
             }
           | string[]
           | string;
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
       }
 
       namespace GetListEmailsForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Page number of the results to fetch.
@@ -126,19 +96,10 @@ declare namespace API {
           | string[]
           | string;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         type Response = $schemas.Email[];
       }
 
       namespace GetListFollowersForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Page number of the results to fetch.
@@ -156,10 +117,6 @@ declare namespace API {
       }
 
       namespace DeleteUnfollow {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The handle for the GitHub user account.
@@ -169,10 +126,6 @@ declare namespace API {
       }
 
       namespace GetCheckPersonIsFollowedByAuthenticated {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The handle for the GitHub user account.
@@ -182,10 +135,6 @@ declare namespace API {
       }
 
       namespace PutFollow {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The handle for the GitHub user account.
@@ -195,10 +144,6 @@ declare namespace API {
       }
 
       namespace GetListFollowedByAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Page number of the results to fetch.
@@ -216,10 +161,6 @@ declare namespace API {
       }
 
       namespace DeleteGpgKeyForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the GPG key.
@@ -229,10 +170,6 @@ declare namespace API {
       }
 
       namespace GetGpgKeyForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the GPG key.
@@ -244,10 +181,6 @@ declare namespace API {
       }
 
       namespace GetListGpgKeysForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Page number of the results to fetch.
@@ -276,19 +209,10 @@ declare namespace API {
           name?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         type Response = $schemas.GpgKey;
       }
 
       namespace DeletePublicSshKeyForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the key.
@@ -298,10 +222,6 @@ declare namespace API {
       }
 
       namespace GetPublicSshKeyForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the key.
@@ -313,10 +233,6 @@ declare namespace API {
       }
 
       namespace GetListPublicSshKeysForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Page number of the results to fetch.
@@ -345,19 +261,10 @@ declare namespace API {
           title?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         type Response = $schemas.Key;
       }
 
       namespace GetListPublicEmailsForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Page number of the results to fetch.
@@ -375,10 +282,6 @@ declare namespace API {
       }
 
       namespace DeleteSshSigningKeyForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the SSH signing key.
@@ -388,10 +291,6 @@ declare namespace API {
       }
 
       namespace GetSshSigningKeyForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the SSH signing key.
@@ -403,10 +302,6 @@ declare namespace API {
       }
 
       namespace GetListSshSigningKeysForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Page number of the results to fetch.
@@ -435,19 +330,10 @@ declare namespace API {
           title?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         type Response = $schemas.SshSigningKey;
       }
 
       namespace GetAuthenticated {
-        interface Headers {
-          [P: string]: any;
-        }
-
         type Response = $schemas.PrivateUser | $schemas.PublicUser;
       }
 
@@ -487,19 +373,10 @@ declare namespace API {
           twitter_username?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         type Response = $schemas.PrivateUser;
       }
 
       namespace GetListFollowersForUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The handle for the GitHub user account.
@@ -524,10 +401,6 @@ declare namespace API {
       }
 
       namespace GetCheckFollowingForUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           target_user: string;
           /**
@@ -538,10 +411,6 @@ declare namespace API {
       }
 
       namespace GetListFollowingForUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The handle for the GitHub user account.
@@ -566,10 +435,6 @@ declare namespace API {
       }
 
       namespace GetListGpgKeysForUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The handle for the GitHub user account.
@@ -594,10 +459,6 @@ declare namespace API {
       }
 
       namespace GetContextForUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The handle for the GitHub user account.
@@ -624,10 +485,6 @@ declare namespace API {
       }
 
       namespace GetListPublicKeysForUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The handle for the GitHub user account.
@@ -652,10 +509,6 @@ declare namespace API {
       }
 
       namespace GetListSshSigningKeysForUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The handle for the GitHub user account.
@@ -680,10 +533,6 @@ declare namespace API {
       }
 
       namespace GetByUsername {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The handle for the GitHub user account.
@@ -695,10 +544,6 @@ declare namespace API {
       }
 
       namespace GetList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * The number of results per page (max 100).

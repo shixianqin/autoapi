@@ -2,10 +2,6 @@ declare namespace API {
   namespace GaV2Yaml {
     namespace WebProperty {
       namespace GetAnalyticsManagementWebproperties {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to retrieve the web property for
@@ -20,10 +16,6 @@ declare namespace API {
 
       namespace PatchAnalyticsManagementWebproperties {
         type Body = $schemas.Holder;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -40,10 +32,6 @@ declare namespace API {
       namespace PutAnalyticsManagementWebpropertiesUpdate {
         type Body = $schemas.Holder;
 
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to which the web property belongs
@@ -57,10 +45,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsManagementWebpropertiesList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to retrieve web properties for
@@ -82,10 +66,6 @@ declare namespace API {
 
       namespace PostAnalyticsManagementWebpropertiesInsert {
         type Body = $schemas.Holder;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**

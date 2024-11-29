@@ -2,10 +2,6 @@ declare namespace API {
   namespace TwitterV3Json {
     namespace Compliance {
       namespace GetBatchJob {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the Compliance Job to retrieve.
@@ -36,10 +32,6 @@ declare namespace API {
       }
 
       namespace GetListBatchJobs {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * A comma separated list of ComplianceJob fields to display.
@@ -73,19 +65,10 @@ declare namespace API {
       namespace PostCreateBatchJob {
         type Body = $schemas.CreateComplianceJobRequest;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         type Response = $schemas.CreateComplianceJobResponse;
       }
 
       namespace GetLikesStream {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * The number of minutes of backfill requested.
@@ -109,10 +92,6 @@ declare namespace API {
       }
 
       namespace GetTweetsStream {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * The number of minutes of backfill requested.
@@ -143,10 +122,6 @@ declare namespace API {
       }
 
       namespace GetTweetsLabelStream {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * The number of minutes of backfill requested.
@@ -170,10 +145,6 @@ declare namespace API {
       }
 
       namespace GetUsersStream {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * The number of minutes of backfill requested.

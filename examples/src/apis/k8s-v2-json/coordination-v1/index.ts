@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/apis/coordination.k8s.io/v1/`
  */
 export function getApiResources(options?: {
-  headers?: API.K8sV2Json.CoordinationV1.GetApiResources.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -22,7 +22,7 @@ export function getApiResources(options?: {
  */
 export function getListLeaseForAllNamespaces(options?: {
   queryParams?: API.K8sV2Json.CoordinationV1.GetListLeaseForAllNamespaces.QueryParams;
-  headers?: API.K8sV2Json.CoordinationV1.GetListLeaseForAllNamespaces.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -40,7 +40,7 @@ export function getListLeaseForAllNamespaces(options?: {
 export function deleteNamespacedLease(options: {
   pathParams: API.K8sV2Json.CoordinationV1.DeleteNamespacedLease.PathParams;
   queryParams?: API.K8sV2Json.CoordinationV1.DeleteNamespacedLease.QueryParams;
-  headers?: API.K8sV2Json.CoordinationV1.DeleteNamespacedLease.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.CoordinationV1.DeleteNamespacedLease.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -59,7 +59,7 @@ export function deleteNamespacedLease(options: {
 export function getReadNamespacedLease(options: {
   pathParams: API.K8sV2Json.CoordinationV1.GetReadNamespacedLease.PathParams;
   queryParams?: API.K8sV2Json.CoordinationV1.GetReadNamespacedLease.QueryParams;
-  headers?: API.K8sV2Json.CoordinationV1.GetReadNamespacedLease.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -77,7 +77,7 @@ export function getReadNamespacedLease(options: {
 export function patchNamespacedLease(options: {
   pathParams: API.K8sV2Json.CoordinationV1.PatchNamespacedLease.PathParams;
   queryParams?: API.K8sV2Json.CoordinationV1.PatchNamespacedLease.QueryParams;
-  headers?: API.K8sV2Json.CoordinationV1.PatchNamespacedLease.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.CoordinationV1.PatchNamespacedLease.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -96,7 +96,7 @@ export function patchNamespacedLease(options: {
 export function putReplaceNamespacedLease(options: {
   pathParams: API.K8sV2Json.CoordinationV1.PutReplaceNamespacedLease.PathParams;
   queryParams?: API.K8sV2Json.CoordinationV1.PutReplaceNamespacedLease.QueryParams;
-  headers?: API.K8sV2Json.CoordinationV1.PutReplaceNamespacedLease.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.CoordinationV1.PutReplaceNamespacedLease.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -115,7 +115,7 @@ export function putReplaceNamespacedLease(options: {
 export function deleteCollectionNamespacedLease(options: {
   pathParams: API.K8sV2Json.CoordinationV1.DeleteCollectionNamespacedLease.PathParams;
   queryParams?: API.K8sV2Json.CoordinationV1.DeleteCollectionNamespacedLease.QueryParams;
-  headers?: API.K8sV2Json.CoordinationV1.DeleteCollectionNamespacedLease.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.CoordinationV1.DeleteCollectionNamespacedLease.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -134,7 +134,7 @@ export function deleteCollectionNamespacedLease(options: {
 export function getListNamespacedLease(options: {
   pathParams: API.K8sV2Json.CoordinationV1.GetListNamespacedLease.PathParams;
   queryParams?: API.K8sV2Json.CoordinationV1.GetListNamespacedLease.QueryParams;
-  headers?: API.K8sV2Json.CoordinationV1.GetListNamespacedLease.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -152,7 +152,7 @@ export function getListNamespacedLease(options: {
 export function postCreateNamespacedLease(options: {
   pathParams: API.K8sV2Json.CoordinationV1.PostCreateNamespacedLease.PathParams;
   queryParams?: API.K8sV2Json.CoordinationV1.PostCreateNamespacedLease.QueryParams;
-  headers?: API.K8sV2Json.CoordinationV1.PostCreateNamespacedLease.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.CoordinationV1.PostCreateNamespacedLease.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -170,7 +170,7 @@ export function postCreateNamespacedLease(options: {
  */
 export function getWatchLeaseListForAllNamespaces(options?: {
   queryParams?: API.K8sV2Json.CoordinationV1.GetWatchLeaseListForAllNamespaces.QueryParams;
-  headers?: API.K8sV2Json.CoordinationV1.GetWatchLeaseListForAllNamespaces.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -188,7 +188,7 @@ export function getWatchLeaseListForAllNamespaces(options?: {
 export function getWatchNamespacedLease(options: {
   pathParams: API.K8sV2Json.CoordinationV1.GetWatchNamespacedLease.PathParams;
   queryParams?: API.K8sV2Json.CoordinationV1.GetWatchNamespacedLease.QueryParams;
-  headers?: API.K8sV2Json.CoordinationV1.GetWatchNamespacedLease.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -206,7 +206,7 @@ export function getWatchNamespacedLease(options: {
 export function getWatchNamespacedLeaseList(options: {
   pathParams: API.K8sV2Json.CoordinationV1.GetWatchNamespacedLeaseList.PathParams;
   queryParams?: API.K8sV2Json.CoordinationV1.GetWatchNamespacedLeaseList.QueryParams;
-  headers?: API.K8sV2Json.CoordinationV1.GetWatchNamespacedLeaseList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

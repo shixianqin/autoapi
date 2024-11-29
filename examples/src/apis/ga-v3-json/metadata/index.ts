@@ -7,7 +7,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function getAnalyticsColumnsList(options: {
   pathParams: API.GaV3Json.Metadata.GetAnalyticsColumnsList.PathParams;
   queryParams?: API.GaV3Json.Metadata.GetAnalyticsColumnsList.QueryParams;
-  headers?: API.GaV3Json.Metadata.GetAnalyticsColumnsList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

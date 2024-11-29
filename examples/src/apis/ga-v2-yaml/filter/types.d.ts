@@ -2,10 +2,6 @@ declare namespace API {
   namespace GaV2Yaml {
     namespace Filter {
       namespace DeleteAnalyticsManagementFilters {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to delete the filter for
@@ -19,10 +15,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsManagementFilters {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to retrieve filters for
@@ -37,10 +29,6 @@ declare namespace API {
 
       namespace PatchAnalyticsManagementFilters {
         type Body = $schemas.Holder;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -57,10 +45,6 @@ declare namespace API {
       namespace PutAnalyticsManagementFiltersUpdate {
         type Body = $schemas.Holder;
 
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to which the filter belongs
@@ -74,10 +58,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsManagementFiltersList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to retrieve filters for
@@ -99,10 +79,6 @@ declare namespace API {
 
       namespace PostAnalyticsManagementFiltersInsert {
         type Body = $schemas.Holder;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**

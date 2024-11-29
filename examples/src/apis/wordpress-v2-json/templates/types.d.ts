@@ -2,14 +2,6 @@ declare namespace API {
   namespace WordpressV2Json {
     namespace Templates {
       namespace GetWpV2Lookup {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Indicates if a template is custom or part of the template hierarchy
@@ -27,14 +19,6 @@ declare namespace API {
       }
 
       namespace GetWpV2IdAutosaves {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           id: number | string;
         }
@@ -99,28 +83,12 @@ declare namespace API {
           type?: string;
         }
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           id: number | string;
         }
       }
 
       namespace DeleteWpV2Id {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The id of a template
@@ -137,14 +105,6 @@ declare namespace API {
       }
 
       namespace GetWpV2Id {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The id of a template
@@ -161,14 +121,6 @@ declare namespace API {
       }
 
       namespace PatchWpV2Id {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The id of a template
@@ -264,14 +216,6 @@ declare namespace API {
           type?: string;
         }
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The id of a template
@@ -281,14 +225,6 @@ declare namespace API {
       }
 
       namespace PutWpV2Id {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The id of a template
@@ -341,14 +277,6 @@ declare namespace API {
       }
 
       namespace GetWpV2ParentRevisions {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID for the parent of the revision.
@@ -405,14 +333,6 @@ declare namespace API {
       }
 
       namespace GetWpV2Parent {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID for the parent of the autosave.
@@ -433,14 +353,6 @@ declare namespace API {
       }
 
       namespace GetWpV2 {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Limit to the specified template part area.
@@ -503,14 +415,6 @@ declare namespace API {
            * Type of template.
            */
           type?: string;
-        }
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
         }
       }
     }

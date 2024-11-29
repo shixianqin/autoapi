@@ -9,7 +9,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function deleteBillingUsers(options: {
   pathParams: API.GithubV3Json.Codespaces.DeleteBillingUsers.PathParams;
-  headers?: API.GithubV3Json.Codespaces.DeleteBillingUsers.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Codespaces.DeleteBillingUsers.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -30,7 +30,7 @@ export function deleteBillingUsers(options: {
  */
 export function postSetBillingUsers(options: {
   pathParams: API.GithubV3Json.Codespaces.PostSetBillingUsers.PathParams;
-  headers?: API.GithubV3Json.Codespaces.PostSetBillingUsers.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Codespaces.PostSetBillingUsers.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -51,7 +51,7 @@ export function postSetBillingUsers(options: {
  */
 export function putSetBilling(options: {
   pathParams: API.GithubV3Json.Codespaces.PutSetBilling.PathParams;
-  headers?: API.GithubV3Json.Codespaces.PutSetBilling.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Codespaces.PutSetBilling.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -71,7 +71,7 @@ export function putSetBilling(options: {
  */
 export function getOrgPublicKey(options: {
   pathParams: API.GithubV3Json.Codespaces.GetOrgPublicKey.PathParams;
-  headers?: API.GithubV3Json.Codespaces.GetOrgPublicKey.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -90,7 +90,7 @@ export function getOrgPublicKey(options: {
  */
 export function deleteRemoveSelectedRepoFromOrgSecret(options: {
   pathParams: API.GithubV3Json.Codespaces.DeleteRemoveSelectedRepoFromOrgSecret.PathParams;
-  headers?: API.GithubV3Json.Codespaces.DeleteRemoveSelectedRepoFromOrgSecret.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -109,7 +109,7 @@ export function deleteRemoveSelectedRepoFromOrgSecret(options: {
  */
 export function putAddSelectedRepoToOrgSecret(options: {
   pathParams: API.GithubV3Json.Codespaces.PutAddSelectedRepoToOrgSecret.PathParams;
-  headers?: API.GithubV3Json.Codespaces.PutAddSelectedRepoToOrgSecret.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -129,7 +129,7 @@ export function putAddSelectedRepoToOrgSecret(options: {
 export function getListSelectedReposForOrgSecret(options: {
   pathParams: API.GithubV3Json.Codespaces.GetListSelectedReposForOrgSecret.PathParams;
   queryParams?: API.GithubV3Json.Codespaces.GetListSelectedReposForOrgSecret.QueryParams;
-  headers?: API.GithubV3Json.Codespaces.GetListSelectedReposForOrgSecret.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -148,7 +148,7 @@ export function getListSelectedReposForOrgSecret(options: {
  */
 export function putSetSelectedReposForOrgSecret(options: {
   pathParams: API.GithubV3Json.Codespaces.PutSetSelectedReposForOrgSecret.PathParams;
-  headers?: API.GithubV3Json.Codespaces.PutSetSelectedReposForOrgSecret.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Codespaces.PutSetSelectedReposForOrgSecret.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -168,7 +168,7 @@ export function putSetSelectedReposForOrgSecret(options: {
  */
 export function deleteOrgSecret(options: {
   pathParams: API.GithubV3Json.Codespaces.DeleteOrgSecret.PathParams;
-  headers?: API.GithubV3Json.Codespaces.DeleteOrgSecret.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -188,7 +188,7 @@ export function deleteOrgSecret(options: {
  */
 export function getOrgSecret(options: {
   pathParams: API.GithubV3Json.Codespaces.GetOrgSecret.PathParams;
-  headers?: API.GithubV3Json.Codespaces.GetOrgSecret.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -281,7 +281,7 @@ export function getOrgSecret(options: {
  */
 export function putCreateOrUpdateOrgSecret(options: {
   pathParams: API.GithubV3Json.Codespaces.PutCreateOrUpdateOrgSecret.PathParams;
-  headers?: API.GithubV3Json.Codespaces.PutCreateOrUpdateOrgSecret.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Codespaces.PutCreateOrUpdateOrgSecret.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -303,7 +303,7 @@ export function putCreateOrUpdateOrgSecret(options: {
 export function getListOrgSecrets(options: {
   pathParams: API.GithubV3Json.Codespaces.GetListOrgSecrets.PathParams;
   queryParams?: API.GithubV3Json.Codespaces.GetListOrgSecrets.QueryParams;
-  headers?: API.GithubV3Json.Codespaces.GetListOrgSecrets.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -325,7 +325,7 @@ export function getListOrgSecrets(options: {
 export function getListInOrganization(options: {
   pathParams: API.GithubV3Json.Codespaces.GetListInOrganization.PathParams;
   queryParams?: API.GithubV3Json.Codespaces.GetListInOrganization.QueryParams;
-  headers?: API.GithubV3Json.Codespaces.GetListInOrganization.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -346,7 +346,7 @@ export function getListInOrganization(options: {
  */
 export function postStopInOrganization(options: {
   pathParams: API.GithubV3Json.Codespaces.PostStopInOrganization.PathParams;
-  headers?: API.GithubV3Json.Codespaces.PostStopInOrganization.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -367,7 +367,7 @@ export function postStopInOrganization(options: {
  */
 export function deleteFromOrganization(options: {
   pathParams: API.GithubV3Json.Codespaces.DeleteFromOrganization.PathParams;
-  headers?: API.GithubV3Json.Codespaces.DeleteFromOrganization.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -389,7 +389,7 @@ export function deleteFromOrganization(options: {
 export function getForUserInOrg(options: {
   pathParams: API.GithubV3Json.Codespaces.GetForUserInOrg.PathParams;
   queryParams?: API.GithubV3Json.Codespaces.GetForUserInOrg.QueryParams;
-  headers?: API.GithubV3Json.Codespaces.GetForUserInOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -414,7 +414,7 @@ export function getForUserInOrg(options: {
 export function getListDevcontainersInRepositoryForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Codespaces.GetListDevcontainersInRepositoryForAuthenticatedUser.PathParams;
   queryParams?: API.GithubV3Json.Codespaces.GetListDevcontainersInRepositoryForAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Codespaces.GetListDevcontainersInRepositoryForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -438,7 +438,7 @@ export function getListDevcontainersInRepositoryForAuthenticatedUser(options: {
 export function getRepoMachinesForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Codespaces.GetRepoMachinesForAuthenticatedUser.PathParams;
   queryParams?: API.GithubV3Json.Codespaces.GetRepoMachinesForAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Codespaces.GetRepoMachinesForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -462,7 +462,7 @@ export function getRepoMachinesForAuthenticatedUser(options: {
 export function getPreFlightWithRepoForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Codespaces.GetPreFlightWithRepoForAuthenticatedUser.PathParams;
   queryParams?: API.GithubV3Json.Codespaces.GetPreFlightWithRepoForAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Codespaces.GetPreFlightWithRepoForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -481,7 +481,7 @@ export function getPreFlightWithRepoForAuthenticatedUser(options: {
  */
 export function getRepoPublicKey(options: {
   pathParams: API.GithubV3Json.Codespaces.GetRepoPublicKey.PathParams;
-  headers?: API.GithubV3Json.Codespaces.GetRepoPublicKey.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -500,7 +500,7 @@ export function getRepoPublicKey(options: {
  */
 export function deleteRepoSecret(options: {
   pathParams: API.GithubV3Json.Codespaces.DeleteRepoSecret.PathParams;
-  headers?: API.GithubV3Json.Codespaces.DeleteRepoSecret.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -519,7 +519,7 @@ export function deleteRepoSecret(options: {
  */
 export function getRepoSecret(options: {
   pathParams: API.GithubV3Json.Codespaces.GetRepoSecret.PathParams;
-  headers?: API.GithubV3Json.Codespaces.GetRepoSecret.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -613,7 +613,7 @@ export function getRepoSecret(options: {
  */
 export function putCreateOrUpdateRepoSecret(options: {
   pathParams: API.GithubV3Json.Codespaces.PutCreateOrUpdateRepoSecret.PathParams;
-  headers?: API.GithubV3Json.Codespaces.PutCreateOrUpdateRepoSecret.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Codespaces.PutCreateOrUpdateRepoSecret.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -634,7 +634,7 @@ export function putCreateOrUpdateRepoSecret(options: {
 export function getListRepoSecrets(options: {
   pathParams: API.GithubV3Json.Codespaces.GetListRepoSecrets.PathParams;
   queryParams?: API.GithubV3Json.Codespaces.GetListRepoSecrets.QueryParams;
-  headers?: API.GithubV3Json.Codespaces.GetListRepoSecrets.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -658,7 +658,7 @@ export function getListRepoSecrets(options: {
 export function getListInRepositoryForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Codespaces.GetListInRepositoryForAuthenticatedUser.PathParams;
   queryParams?: API.GithubV3Json.Codespaces.GetListInRepositoryForAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Codespaces.GetListInRepositoryForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -681,7 +681,7 @@ export function getListInRepositoryForAuthenticatedUser(options: {
  */
 export function postCreateWithRepoForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Codespaces.PostCreateWithRepoForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Codespaces.PostCreateWithRepoForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Codespaces.PostCreateWithRepoForAuthenticatedUser.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -705,7 +705,7 @@ export function postCreateWithRepoForAuthenticatedUser(options: {
  */
 export function postCreateWithPrForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Codespaces.PostCreateWithPrForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Codespaces.PostCreateWithPrForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Codespaces.PostCreateWithPrForAuthenticatedUser.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -728,7 +728,7 @@ export function postCreateWithPrForAuthenticatedUser(options: {
  * @docs https://docs.github.com/rest/reference/codespaces#get-public-key-for-the-authenticated-user
  */
 export function getPublicKeyForAuthenticatedUser(options?: {
-  headers?: API.GithubV3Json.Codespaces.GetPublicKeyForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -749,7 +749,7 @@ export function getPublicKeyForAuthenticatedUser(options?: {
  */
 export function deleteRemoveRepositoryForSecretForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Codespaces.DeleteRemoveRepositoryForSecretForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Codespaces.DeleteRemoveRepositoryForSecretForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -770,7 +770,7 @@ export function deleteRemoveRepositoryForSecretForAuthenticatedUser(options: {
  */
 export function putAddRepositoryForSecretForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Codespaces.PutAddRepositoryForSecretForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Codespaces.PutAddRepositoryForSecretForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -793,7 +793,7 @@ export function putAddRepositoryForSecretForAuthenticatedUser(options: {
  */
 export function getListRepositoriesForSecretForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Codespaces.GetListRepositoriesForSecretForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Codespaces.GetListRepositoriesForSecretForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -816,7 +816,7 @@ export function getListRepositoriesForSecretForAuthenticatedUser(options: {
  */
 export function putSetRepositoriesForSecretForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Codespaces.PutSetRepositoriesForSecretForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Codespaces.PutSetRepositoriesForSecretForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Codespaces.PutSetRepositoriesForSecretForAuthenticatedUser.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -840,7 +840,7 @@ export function putSetRepositoriesForSecretForAuthenticatedUser(options: {
  */
 export function deleteSecretForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Codespaces.DeleteSecretForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Codespaces.DeleteSecretForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -863,7 +863,7 @@ export function deleteSecretForAuthenticatedUser(options: {
  */
 export function getSecretForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Codespaces.GetSecretForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Codespaces.GetSecretForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -959,7 +959,7 @@ export function getSecretForAuthenticatedUser(options: {
  */
 export function putCreateOrUpdateSecretForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Codespaces.PutCreateOrUpdateSecretForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Codespaces.PutCreateOrUpdateSecretForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Codespaces.PutCreateOrUpdateSecretForAuthenticatedUser.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -984,7 +984,7 @@ export function putCreateOrUpdateSecretForAuthenticatedUser(options: {
  */
 export function getListSecretsForAuthenticatedUser(options?: {
   queryParams?: API.GithubV3Json.Codespaces.GetListSecretsForAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Codespaces.GetListSecretsForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1007,7 +1007,7 @@ export function getListSecretsForAuthenticatedUser(options?: {
  */
 export function getExportDetailsForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Codespaces.GetExportDetailsForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Codespaces.GetExportDetailsForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1032,7 +1032,7 @@ export function getExportDetailsForAuthenticatedUser(options: {
  */
 export function postExportForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Codespaces.PostExportForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Codespaces.PostExportForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1055,7 +1055,7 @@ export function postExportForAuthenticatedUser(options: {
  */
 export function getCodespaceMachinesForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Codespaces.GetCodespaceMachinesForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Codespaces.GetCodespaceMachinesForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1082,7 +1082,7 @@ export function getCodespaceMachinesForAuthenticatedUser(options: {
  */
 export function postPublishForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Codespaces.PostPublishForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Codespaces.PostPublishForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Codespaces.PostPublishForAuthenticatedUser.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -1106,7 +1106,7 @@ export function postPublishForAuthenticatedUser(options: {
  */
 export function postStartForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Codespaces.PostStartForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Codespaces.PostStartForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1129,7 +1129,7 @@ export function postStartForAuthenticatedUser(options: {
  */
 export function postStopForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Codespaces.PostStopForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Codespaces.PostStopForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1152,7 +1152,7 @@ export function postStopForAuthenticatedUser(options: {
  */
 export function deleteForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Codespaces.DeleteForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Codespaces.DeleteForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1175,7 +1175,7 @@ export function deleteForAuthenticatedUser(options: {
  */
 export function getForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Codespaces.GetForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Codespaces.GetForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1200,7 +1200,7 @@ export function getForAuthenticatedUser(options: {
  */
 export function patchUpdateForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Codespaces.PatchUpdateForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Codespaces.PatchUpdateForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Codespaces.PatchUpdateForAuthenticatedUser.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -1224,7 +1224,7 @@ export function patchUpdateForAuthenticatedUser(options: {
  */
 export function getListForAuthenticatedUser(options?: {
   queryParams?: API.GithubV3Json.Codespaces.GetListForAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Codespaces.GetListForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1248,7 +1248,7 @@ export function getListForAuthenticatedUser(options?: {
  * @docs https://docs.github.com/rest/reference/codespaces#create-a-codespace-for-the-authenticated-user
  */
 export function postCreateForAuthenticatedUser(options: {
-  headers?: API.GithubV3Json.Codespaces.PostCreateForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Codespaces.PostCreateForAuthenticatedUser.Body;
   config?: RequestConfig;
   context?: RequestContext;

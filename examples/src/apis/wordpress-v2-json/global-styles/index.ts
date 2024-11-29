@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getWpV2ThemesStylesheetVariations(options: {
   pathParams: API.WordpressV2Json.GlobalStyles.GetWpV2ThemesStylesheetVariations.PathParams;
-  headers?: API.WordpressV2Json.GlobalStyles.GetWpV2ThemesStylesheetVariations.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -21,7 +21,7 @@ export function getWpV2ThemesStylesheetVariations(options: {
  */
 export function getWpV2ThemesStylesheet(options: {
   pathParams: API.WordpressV2Json.GlobalStyles.GetWpV2ThemesStylesheet.PathParams;
-  headers?: API.WordpressV2Json.GlobalStyles.GetWpV2ThemesStylesheet.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -37,7 +37,7 @@ export function getWpV2ThemesStylesheet(options: {
  */
 export function getWpV2Id(options: {
   pathParams: API.WordpressV2Json.GlobalStyles.GetWpV2Id.PathParams;
-  headers?: API.WordpressV2Json.GlobalStyles.GetWpV2Id.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -54,7 +54,7 @@ export function getWpV2Id(options: {
 export function patchWpV2Id(options: {
   pathParams: API.WordpressV2Json.GlobalStyles.PatchWpV2Id.PathParams;
   queryParams?: API.WordpressV2Json.GlobalStyles.PatchWpV2Id.QueryParams;
-  headers?: API.WordpressV2Json.GlobalStyles.PatchWpV2Id.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -70,7 +70,7 @@ export function patchWpV2Id(options: {
  */
 export function postWpV2Id(options: {
   pathParams: API.WordpressV2Json.GlobalStyles.PostWpV2Id.PathParams;
-  headers?: API.WordpressV2Json.GlobalStyles.PostWpV2Id.Headers;
+  headers?: Record<string, any>;
   formData?: API.WordpressV2Json.GlobalStyles.PostWpV2Id.FormData;
   config?: RequestConfig;
   context?: RequestContext;
@@ -88,7 +88,7 @@ export function postWpV2Id(options: {
 export function putWpV2Id(options: {
   pathParams: API.WordpressV2Json.GlobalStyles.PutWpV2Id.PathParams;
   queryParams?: API.WordpressV2Json.GlobalStyles.PutWpV2Id.QueryParams;
-  headers?: API.WordpressV2Json.GlobalStyles.PutWpV2Id.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

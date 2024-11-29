@@ -2,10 +2,6 @@ declare namespace API {
   namespace GithubV3Json {
     namespace Actions {
       namespace GetCacheUsageByRepoForOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -33,10 +29,6 @@ declare namespace API {
       }
 
       namespace GetCacheUsageForOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -48,10 +40,6 @@ declare namespace API {
       }
 
       namespace DeleteDisableSelectedRepositoryGithubOrganization {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -65,10 +53,6 @@ declare namespace API {
       }
 
       namespace PutEnableSelectedRepositoryGithubOrganization {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -82,10 +66,6 @@ declare namespace API {
       }
 
       namespace GetListSelectedRepositoriesEnabledGithubOrganization {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -120,11 +100,6 @@ declare namespace API {
           selected_repository_ids: number[];
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -134,10 +109,6 @@ declare namespace API {
       }
 
       namespace GetAllowedOrganization {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -151,11 +122,6 @@ declare namespace API {
       namespace PutSetAllowedOrganization {
         type Body = $schemas.SelectedActions;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -165,10 +131,6 @@ declare namespace API {
       }
 
       namespace GetGithubDefaultWorkflowPermissionsOrganization {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -182,11 +144,6 @@ declare namespace API {
       namespace PutSetGithubDefaultWorkflowPermissionsOrganization {
         type Body = $schemas.ActionsSetDefaultWorkflowPermissions;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -196,10 +153,6 @@ declare namespace API {
       }
 
       namespace GetGithubPermissionsOrganization {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -222,11 +175,6 @@ declare namespace API {
           enabled_repositories: $schemas.EnabledRepositories;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -236,10 +184,6 @@ declare namespace API {
       }
 
       namespace DeleteRemoveSelectedRepoFromRequiredWorkflow {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -257,10 +201,6 @@ declare namespace API {
       }
 
       namespace PutAddSelectedRepoToRequiredWorkflow {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -278,10 +218,6 @@ declare namespace API {
       }
 
       namespace GetListSelectedRepositoriesRequiredWorkflow {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -307,11 +243,6 @@ declare namespace API {
           selected_repository_ids: number[];
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -325,10 +256,6 @@ declare namespace API {
       }
 
       namespace DeleteRequiredWorkflow {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -342,10 +269,6 @@ declare namespace API {
       }
 
       namespace GetRequiredWorkflow {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -381,11 +304,6 @@ declare namespace API {
           workflow_file_path?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -401,10 +319,6 @@ declare namespace API {
       }
 
       namespace GetListRequiredWorkflows {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -452,11 +366,6 @@ declare namespace API {
           workflow_file_path: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -468,10 +377,6 @@ declare namespace API {
       }
 
       namespace GetListRunnerApplicationsForOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -483,10 +388,6 @@ declare namespace API {
       }
 
       namespace PostCreateRegistrationTokenForOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -498,10 +399,6 @@ declare namespace API {
       }
 
       namespace PostCreateRemoveTokenForOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -513,10 +410,6 @@ declare namespace API {
       }
 
       namespace DeleteRemoveCustomLabelFromSelfHostedRunnerForOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of a self-hosted runner's custom label.
@@ -536,10 +429,6 @@ declare namespace API {
       }
 
       namespace DeleteRemoveAllCustomLabelsFromSelfHostedRunnerForOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -555,10 +444,6 @@ declare namespace API {
       }
 
       namespace GetListLabelsForSelfHostedRunnerForOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -581,11 +466,6 @@ declare namespace API {
            * @minItems 1
            */
           labels: string[];
-        }
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
         }
 
         interface PathParams {
@@ -611,11 +491,6 @@ declare namespace API {
           labels: string[];
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -631,10 +506,6 @@ declare namespace API {
       }
 
       namespace DeleteSelfHostedRunnerFromOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -648,10 +519,6 @@ declare namespace API {
       }
 
       namespace GetSelfHostedRunnerForOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -667,10 +534,6 @@ declare namespace API {
       }
 
       namespace GetListSelfHostedRunnersForOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -698,10 +561,6 @@ declare namespace API {
       }
 
       namespace GetOrgPublicKey {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -713,10 +572,6 @@ declare namespace API {
       }
 
       namespace DeleteRemoveSelectedRepoFromOrgSecret {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -731,10 +586,6 @@ declare namespace API {
       }
 
       namespace PutAddSelectedRepoToOrgSecret {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -749,10 +600,6 @@ declare namespace API {
       }
 
       namespace GetListSelectedReposForOrgSecret {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -791,11 +638,6 @@ declare namespace API {
           selected_repository_ids: number[];
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -809,10 +651,6 @@ declare namespace API {
       }
 
       namespace DeleteOrgSecret {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -826,10 +664,6 @@ declare namespace API {
       }
 
       namespace GetOrgSecret {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -864,11 +698,6 @@ declare namespace API {
           visibility: "all" | "private" | "selected";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -884,10 +713,6 @@ declare namespace API {
       }
 
       namespace GetListOrgSecrets {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -915,10 +740,6 @@ declare namespace API {
       }
 
       namespace DeleteRemoveSelectedRepoFromOrgVariable {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the variable.
@@ -933,10 +754,6 @@ declare namespace API {
       }
 
       namespace PutAddSelectedRepoToOrgVariable {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the variable.
@@ -951,10 +768,6 @@ declare namespace API {
       }
 
       namespace GetListSelectedReposForOrgVariable {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the variable.
@@ -993,11 +806,6 @@ declare namespace API {
           selected_repository_ids: number[];
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the variable.
@@ -1011,10 +819,6 @@ declare namespace API {
       }
 
       namespace DeleteOrgVariable {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the variable.
@@ -1028,10 +832,6 @@ declare namespace API {
       }
 
       namespace GetOrgVariable {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the variable.
@@ -1066,11 +866,6 @@ declare namespace API {
           visibility?: "all" | "private" | "selected";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the variable.
@@ -1084,10 +879,6 @@ declare namespace API {
       }
 
       namespace GetListOrgVariables {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -1134,11 +925,6 @@ declare namespace API {
           visibility: "all" | "private" | "selected";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -1150,10 +936,6 @@ declare namespace API {
       }
 
       namespace GetRepoRequiredWorkflowUsage {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -1173,10 +955,6 @@ declare namespace API {
       }
 
       namespace GetRepoRequiredWorkflow {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -1196,10 +974,6 @@ declare namespace API {
       }
 
       namespace GetListRepoRequiredWorkflows {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -1231,10 +1005,6 @@ declare namespace API {
       }
 
       namespace GetDownloadArtifact {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           archive_format: string;
           /**
@@ -1253,10 +1023,6 @@ declare namespace API {
       }
 
       namespace DeleteArtifact {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the artifact.
@@ -1274,10 +1040,6 @@ declare namespace API {
       }
 
       namespace GetArtifact {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the artifact.
@@ -1297,10 +1059,6 @@ declare namespace API {
       }
 
       namespace GetListArtifactsForRepo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1336,10 +1094,6 @@ declare namespace API {
       }
 
       namespace GetCacheUsage {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1355,10 +1109,6 @@ declare namespace API {
       }
 
       namespace DeleteCacheById {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the GitHub Actions cache.
@@ -1376,10 +1126,6 @@ declare namespace API {
       }
 
       namespace DeleteCacheByKey {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1406,10 +1152,6 @@ declare namespace API {
       }
 
       namespace GetCacheList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1456,10 +1198,6 @@ declare namespace API {
       }
 
       namespace GetDownloadJobLogsForWorkflowRun {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the job.
@@ -1484,11 +1222,6 @@ declare namespace API {
           enable_debug_logging?: boolean;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the job.
@@ -1508,10 +1241,6 @@ declare namespace API {
       }
 
       namespace GetJobForWorkflowRun {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the job.
@@ -1531,10 +1260,6 @@ declare namespace API {
       }
 
       namespace GetCustomOidcSubClaimForRepo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1561,11 +1286,6 @@ declare namespace API {
           use_default: boolean;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1581,10 +1301,6 @@ declare namespace API {
       }
 
       namespace GetWorkflowAccessToRepository {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1602,11 +1318,6 @@ declare namespace API {
       namespace PutSetWorkflowAccessToRepository {
         type Body = $schemas.ActionsWorkflowAccessToRepository;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1620,10 +1331,6 @@ declare namespace API {
       }
 
       namespace GetAllowedRepository {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1641,11 +1348,6 @@ declare namespace API {
       namespace PutSetAllowedRepository {
         type Body = $schemas.SelectedActions;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1659,10 +1361,6 @@ declare namespace API {
       }
 
       namespace GetGithubDefaultWorkflowPermissionsRepository {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1680,11 +1378,6 @@ declare namespace API {
       namespace PutSetGithubDefaultWorkflowPermissionsRepository {
         type Body = $schemas.ActionsSetDefaultWorkflowPermissions;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1698,10 +1391,6 @@ declare namespace API {
       }
 
       namespace GetGithubPermissionsRepository {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1728,11 +1417,6 @@ declare namespace API {
           enabled: $schemas.ActionsEnabled;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1746,10 +1430,6 @@ declare namespace API {
       }
 
       namespace GetListRequiredWorkflowRuns {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1832,10 +1512,6 @@ declare namespace API {
       }
 
       namespace GetListRunnerApplicationsForRepo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1851,10 +1527,6 @@ declare namespace API {
       }
 
       namespace PostCreateRegistrationTokenForRepo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1870,10 +1542,6 @@ declare namespace API {
       }
 
       namespace PostCreateRemoveTokenForRepo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1889,10 +1557,6 @@ declare namespace API {
       }
 
       namespace DeleteRemoveCustomLabelFromSelfHostedRunnerForRepo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of a self-hosted runner's custom label.
@@ -1916,10 +1580,6 @@ declare namespace API {
       }
 
       namespace DeleteRemoveAllCustomLabelsFromSelfHostedRunnerForRepo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1939,10 +1599,6 @@ declare namespace API {
       }
 
       namespace GetListLabelsForSelfHostedRunnerForRepo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1969,11 +1625,6 @@ declare namespace API {
            * @minItems 1
            */
           labels: string[];
-        }
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
         }
 
         interface PathParams {
@@ -2003,11 +1654,6 @@ declare namespace API {
           labels: string[];
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2027,10 +1673,6 @@ declare namespace API {
       }
 
       namespace DeleteSelfHostedRunnerFromRepo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2048,10 +1690,6 @@ declare namespace API {
       }
 
       namespace GetSelfHostedRunnerForRepo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2071,10 +1709,6 @@ declare namespace API {
       }
 
       namespace GetListSelfHostedRunnersForRepo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2106,10 +1740,6 @@ declare namespace API {
       }
 
       namespace GetReviewsForRun {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2129,10 +1759,6 @@ declare namespace API {
       }
 
       namespace PostApproveWorkflowRun {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2152,10 +1778,6 @@ declare namespace API {
       }
 
       namespace GetListWorkflowRunArtifacts {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2191,10 +1813,6 @@ declare namespace API {
       }
 
       namespace GetListJobsForWorkflowRunAttempt {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The attempt number of the workflow run.
@@ -2234,10 +1852,6 @@ declare namespace API {
       }
 
       namespace GetDownloadWorkflowRunAttemptLogs {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The attempt number of the workflow run.
@@ -2259,10 +1873,6 @@ declare namespace API {
       }
 
       namespace GetWorkflowRunAttempt {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The attempt number of the workflow run.
@@ -2293,10 +1903,6 @@ declare namespace API {
       }
 
       namespace PostCancelWorkflowRun {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2316,10 +1922,6 @@ declare namespace API {
       }
 
       namespace GetListJobsForWorkflowRun {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2360,10 +1962,6 @@ declare namespace API {
       }
 
       namespace DeleteWorkflowRunLogs {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2381,10 +1979,6 @@ declare namespace API {
       }
 
       namespace GetDownloadWorkflowRunLogs {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2402,10 +1996,6 @@ declare namespace API {
       }
 
       namespace GetPendingDeploymentsForRun {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2440,11 +2030,6 @@ declare namespace API {
           state: "approved" | "rejected";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2469,11 +2054,6 @@ declare namespace API {
            * Whether to enable debug logging for the re-run.
            */
           enable_debug_logging?: boolean;
-        }
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
         }
 
         interface PathParams {
@@ -2502,11 +2082,6 @@ declare namespace API {
           enable_debug_logging?: boolean;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2526,10 +2101,6 @@ declare namespace API {
       }
 
       namespace GetWorkflowRunUsage {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2549,10 +2120,6 @@ declare namespace API {
       }
 
       namespace DeleteWorkflowRun {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2570,10 +2137,6 @@ declare namespace API {
       }
 
       namespace GetWorkflowRun {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2600,10 +2163,6 @@ declare namespace API {
       }
 
       namespace GetListWorkflowRunsForRepo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2682,10 +2241,6 @@ declare namespace API {
       }
 
       namespace GetRepoPublicKey {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2701,10 +2256,6 @@ declare namespace API {
       }
 
       namespace DeleteRepoSecret {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2722,10 +2273,6 @@ declare namespace API {
       }
 
       namespace GetRepoSecret {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2756,11 +2303,6 @@ declare namespace API {
           key_id?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2780,10 +2322,6 @@ declare namespace API {
       }
 
       namespace GetListRepoSecrets {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2815,10 +2353,6 @@ declare namespace API {
       }
 
       namespace DeleteRepoVariable {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the variable.
@@ -2836,10 +2370,6 @@ declare namespace API {
       }
 
       namespace GetRepoVariable {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the variable.
@@ -2870,11 +2400,6 @@ declare namespace API {
           value?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the variable.
@@ -2892,10 +2417,6 @@ declare namespace API {
       }
 
       namespace GetListRepoVariables {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2938,11 +2459,6 @@ declare namespace API {
           value: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2958,10 +2474,6 @@ declare namespace API {
       }
 
       namespace PutDisableWorkflow {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -2993,11 +2505,6 @@ declare namespace API {
           ref: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -3015,10 +2522,6 @@ declare namespace API {
       }
 
       namespace PutEnableWorkflow {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -3036,10 +2539,6 @@ declare namespace API {
       }
 
       namespace GetListWorkflowRuns {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -3122,10 +2621,6 @@ declare namespace API {
       }
 
       namespace GetWorkflowUsage {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -3145,10 +2640,6 @@ declare namespace API {
       }
 
       namespace GetWorkflow {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -3168,10 +2659,6 @@ declare namespace API {
       }
 
       namespace GetListRepoWorkflows {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -3203,10 +2690,6 @@ declare namespace API {
       }
 
       namespace GetEnvironmentPublicKey {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the environment.
@@ -3222,10 +2705,6 @@ declare namespace API {
       }
 
       namespace DeleteEnvironmentSecret {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the environment.
@@ -3243,10 +2722,6 @@ declare namespace API {
       }
 
       namespace GetEnvironmentSecret {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the environment.
@@ -3277,11 +2752,6 @@ declare namespace API {
           key_id: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the environment.
@@ -3301,10 +2771,6 @@ declare namespace API {
       }
 
       namespace GetListEnvironmentSecrets {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the environment.
@@ -3336,10 +2802,6 @@ declare namespace API {
       }
 
       namespace DeleteEnvironmentVariable {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the environment.
@@ -3357,10 +2819,6 @@ declare namespace API {
       }
 
       namespace GetEnvironmentVariable {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the environment.
@@ -3391,11 +2849,6 @@ declare namespace API {
           value?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the environment.
@@ -3413,10 +2866,6 @@ declare namespace API {
       }
 
       namespace GetListEnvironmentVariables {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the environment.
@@ -3457,11 +2906,6 @@ declare namespace API {
            * The value of the variable.
            */
           value: string;
-        }
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
         }
 
         interface PathParams {

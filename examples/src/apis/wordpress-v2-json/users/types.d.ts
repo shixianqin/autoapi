@@ -2,14 +2,6 @@ declare namespace API {
   namespace WordpressV2Json {
     namespace Users {
       namespace DeleteWpV2Me {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Required to be true, as users do not support trashing.
@@ -23,14 +15,6 @@ declare namespace API {
       }
 
       namespace GetWpV2Me {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Scope under which the request is made; determines fields present in response.
@@ -40,14 +24,6 @@ declare namespace API {
       }
 
       namespace PatchWpV2Me {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Description of the user.
@@ -159,25 +135,9 @@ declare namespace API {
            */
           username?: string;
         }
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
       }
 
       namespace PutWpV2Me {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Description of the user.
@@ -235,14 +195,6 @@ declare namespace API {
       }
 
       namespace DeleteWpV2Id {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Unique identifier for the user.
@@ -263,14 +215,6 @@ declare namespace API {
       }
 
       namespace GetWpV2Id {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Unique identifier for the user.
@@ -287,14 +231,6 @@ declare namespace API {
       }
 
       namespace PatchWpV2Id {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Unique identifier for the user.
@@ -414,14 +350,6 @@ declare namespace API {
           username?: string;
         }
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Unique identifier for the user.
@@ -431,14 +359,6 @@ declare namespace API {
       }
 
       namespace PutWpV2Id {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Unique identifier for the user.
@@ -503,14 +423,6 @@ declare namespace API {
       }
 
       namespace GetWpV2UserIdApplicationPasswordsIntrospect {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           user_id: number | string;
         }
@@ -524,28 +436,12 @@ declare namespace API {
       }
 
       namespace DeleteWpV2UserIdApplicationPasswords {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           user_id: number | string;
         }
       }
 
       namespace GetWpV2UserIdApplicationPasswords {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           user_id: number | string;
         }
@@ -570,42 +466,18 @@ declare namespace API {
           name: string;
         }
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           user_id: number | string;
         }
       }
 
       namespace DeleteWpV2UserId {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           user_id: number | string;
         }
       }
 
       namespace GetWpV2UserId {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           user_id: number | string;
         }
@@ -619,14 +491,6 @@ declare namespace API {
       }
 
       namespace PatchWpV2UserId {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           user_id: number | string;
         }
@@ -655,28 +519,12 @@ declare namespace API {
           name?: string;
         }
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           user_id: number | string;
         }
       }
 
       namespace PutWpV2UserId {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           user_id: number | string;
         }
@@ -694,14 +542,6 @@ declare namespace API {
       }
 
       namespace GetWpV2 {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Limit result set to users matching at least one specific capability provided. Accepts csv list or single capability.
@@ -825,14 +665,6 @@ declare namespace API {
            * Login name for the user.
            */
           username: string;
-        }
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
         }
       }
     }

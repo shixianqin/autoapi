@@ -10,7 +10,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getCustomSubTemplateForOrg(options: {
   pathParams: API.GithubV3Json.Oidc.GetCustomSubTemplateForOrg.PathParams;
-  headers?: API.GithubV3Json.Oidc.GetCustomSubTemplateForOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -31,7 +31,7 @@ export function getCustomSubTemplateForOrg(options: {
  */
 export function putUpdateCustomSubTemplateForOrg(options: {
   pathParams: API.GithubV3Json.Oidc.PutUpdateCustomSubTemplateForOrg.PathParams;
-  headers?: API.GithubV3Json.Oidc.PutUpdateCustomSubTemplateForOrg.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Oidc.PutUpdateCustomSubTemplateForOrg.Body;
   config?: RequestConfig;
   context?: RequestContext;

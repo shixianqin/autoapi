@@ -4,10 +4,6 @@ declare namespace API {
       namespace PutAnalyticsManagementAccountUserLinksUpdate {
         type Body = $schemas.Holder;
 
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to update the account-user link for
@@ -22,10 +18,6 @@ declare namespace API {
 
       namespace PutAnalyticsManagementWebpropertyUserLinksUpdate {
         type Body = $schemas.Holder;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -45,10 +37,6 @@ declare namespace API {
 
       namespace PutAnalyticsManagementProfileUserLinksUpdate {
         type Body = $schemas.Holder;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**

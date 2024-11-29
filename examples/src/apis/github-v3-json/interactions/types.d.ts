@@ -2,10 +2,6 @@ declare namespace API {
   namespace GithubV3Json {
     namespace Interactions {
       namespace DeleteRemoveRestrictionsForOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -15,10 +11,6 @@ declare namespace API {
       }
 
       namespace GetRestrictionsForOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -32,11 +24,6 @@ declare namespace API {
       namespace PutSetRestrictionsForOrg {
         type Body = $schemas.InteractionLimit;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -48,10 +35,6 @@ declare namespace API {
       }
 
       namespace DeleteRemoveRestrictionsForRepo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -65,10 +48,6 @@ declare namespace API {
       }
 
       namespace GetRestrictionsForRepo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -86,11 +65,6 @@ declare namespace API {
       namespace PutSetRestrictionsForRepo {
         type Body = $schemas.InteractionLimit;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -105,27 +79,14 @@ declare namespace API {
         type Response = $schemas.InteractionLimitResponse;
       }
 
-      namespace DeleteRemoveRestrictionsForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-      }
+      namespace DeleteRemoveRestrictionsForAuthenticatedUser {}
 
       namespace GetRestrictionsForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         type Response = $schemas.InteractionLimitResponse;
       }
 
       namespace PutSetRestrictionsForAuthenticatedUser {
         type Body = $schemas.InteractionLimit;
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         type Response = $schemas.InteractionLimitResponse;
       }

@@ -13,7 +13,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function getListInRepositoryForAuthenticatedUser(options: {
   pathParams: API.CustomizeParseUnsuccessfulResponses.Codespaces.GetListInRepositoryForAuthenticatedUser.PathParams;
   queryParams?: API.CustomizeParseUnsuccessfulResponses.Codespaces.GetListInRepositoryForAuthenticatedUser.QueryParams;
-  headers?: API.CustomizeParseUnsuccessfulResponses.Codespaces.GetListInRepositoryForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -36,7 +36,7 @@ export function getListInRepositoryForAuthenticatedUser(options: {
  */
 export function postCreateWithRepoForAuthenticatedUser(options: {
   pathParams: API.CustomizeParseUnsuccessfulResponses.Codespaces.PostCreateWithRepoForAuthenticatedUser.PathParams;
-  headers?: API.CustomizeParseUnsuccessfulResponses.Codespaces.PostCreateWithRepoForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   body?: API.CustomizeParseUnsuccessfulResponses.Codespaces.PostCreateWithRepoForAuthenticatedUser.Body;
   config?: RequestConfig;
   context?: RequestContext;

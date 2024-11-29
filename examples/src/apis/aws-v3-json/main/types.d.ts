@@ -85,7 +85,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           /**
            * The version of the cache policy that you are updating. The version is returned in the cache policy's <code>ETag</code> field in the response to <code>GetCachePolicyConfig</code>.
            */
@@ -156,7 +155,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           "X-Amz-Algorithm"?: string;
           "X-Amz-Content-Sha256"?: string;
           "X-Amz-Credential"?: string;
@@ -288,7 +286,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           /**
            * The current version (<code>ETag</code> value) of the continuous deployment policy that you are updating.
            */
@@ -352,7 +349,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           "X-Amz-Algorithm"?: string;
           "X-Amz-Content-Sha256"?: string;
           "X-Amz-Credential"?: string;
@@ -379,7 +375,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           "X-Amz-Algorithm"?: string;
           "X-Amz-Content-Sha256"?: string;
           "X-Amz-Credential"?: string;
@@ -403,7 +398,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           "X-Amz-Algorithm"?: string;
           "X-Amz-Content-Sha256"?: string;
           "X-Amz-Credential"?: string;
@@ -492,7 +486,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           "X-Amz-Algorithm"?: string;
           "X-Amz-Content-Sha256"?: string;
           "X-Amz-Credential"?: string;
@@ -564,7 +557,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           /**
            * The value of the <code>ETag</code> header that you received when retrieving the distribution's configuration. For example: <code>E2QWRUHAPOMQZL</code>.
            */
@@ -677,7 +669,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           /**
            * The version identifier of the primary distribution whose configuration you are copying. This is the <code>ETag</code> value returned in the response to <code>GetDistribution</code> and <code>GetDistributionConfig</code>.
            */
@@ -788,7 +779,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           "X-Amz-Algorithm"?: string;
           "X-Amz-Content-Sha256"?: string;
           "X-Amz-Credential"?: string;
@@ -857,7 +847,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           "X-Amz-Algorithm"?: string;
           "X-Amz-Content-Sha256"?: string;
           "X-Amz-Credential"?: string;
@@ -998,7 +987,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           "X-Amz-Algorithm"?: string;
           "X-Amz-Content-Sha256"?: string;
           "X-Amz-Credential"?: string;
@@ -1115,7 +1103,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           /**
            * The value of the <code>ETag</code> header that you received when retrieving the profile identity to update. For example: <code>E2QWRUHAPOMQZL</code>.
            */
@@ -1226,7 +1213,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           "X-Amz-Algorithm"?: string;
           "X-Amz-Content-Sha256"?: string;
           "X-Amz-Credential"?: string;
@@ -1276,7 +1262,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           /**
            * The value of the <code>ETag</code> header that you received when retrieving the configuration identity to update. For example: <code>E2QWRUHAPOMQZL</code>.
            */
@@ -1387,7 +1372,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           "X-Amz-Algorithm"?: string;
           "X-Amz-Content-Sha256"?: string;
           "X-Amz-Credential"?: string;
@@ -1444,7 +1428,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           /**
            * The current version (<code>ETag</code> value) of the function that you are updating, which you can get using <code>DescribeFunction</code>.
            */
@@ -1539,7 +1522,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           /**
            * The current version (<code>ETag</code> value) of the function that you are testing, which you can get using <code>DescribeFunction</code>.
            */
@@ -1648,7 +1630,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           "X-Amz-Algorithm"?: string;
           "X-Amz-Content-Sha256"?: string;
           "X-Amz-Credential"?: string;
@@ -1675,7 +1656,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           "X-Amz-Algorithm"?: string;
           "X-Amz-Content-Sha256"?: string;
           "X-Amz-Credential"?: string;
@@ -1770,7 +1750,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           /**
            * The version of the key group that you are updating. The version is the key group's <code>ETag</code> value.
            */
@@ -1834,7 +1813,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           "X-Amz-Algorithm"?: string;
           "X-Amz-Content-Sha256"?: string;
           "X-Amz-Credential"?: string;
@@ -1885,7 +1863,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           /**
            * The current version (<code>ETag</code> value) of the origin access control that you are updating.
            */
@@ -1997,7 +1974,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           "X-Amz-Algorithm"?: string;
           "X-Amz-Content-Sha256"?: string;
           "X-Amz-Credential"?: string;
@@ -2045,7 +2021,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           /**
            * The value of the <code>ETag</code> header that you received when retrieving the identity's configuration. For example: <code>E2QWRUHAPOMQZL</code>.
            */
@@ -2154,7 +2129,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           "X-Amz-Algorithm"?: string;
           "X-Amz-Content-Sha256"?: string;
           "X-Amz-Credential"?: string;
@@ -2251,7 +2225,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           /**
            * The version of the origin request policy that you are updating. The version is returned in the origin request policy's <code>ETag</code> field in the response to <code>GetOriginRequestPolicyConfig</code>.
            */
@@ -2321,7 +2294,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           "X-Amz-Algorithm"?: string;
           "X-Amz-Content-Sha256"?: string;
           "X-Amz-Credential"?: string;
@@ -2371,7 +2343,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           /**
            * The value of the <code>ETag</code> header that you received when retrieving the public key to update. For example: <code>E2QWRUHAPOMQZL</code>.
            */
@@ -2482,7 +2453,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           "X-Amz-Algorithm"?: string;
           "X-Amz-Content-Sha256"?: string;
           "X-Amz-Credential"?: string;
@@ -2521,7 +2491,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           "X-Amz-Algorithm"?: string;
           "X-Amz-Content-Sha256"?: string;
           "X-Amz-Credential"?: string;
@@ -2582,7 +2551,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           "X-Amz-Algorithm"?: string;
           "X-Amz-Content-Sha256"?: string;
           "X-Amz-Credential"?: string;
@@ -2681,7 +2649,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           /**
            * <p>The version of the response headers policy that you are updating.</p> <p>The version is returned in the cache policy's <code>ETag</code> field in the response to <code>GetResponseHeadersPolicyConfig</code>.</p>
            */
@@ -2753,7 +2720,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           "X-Amz-Algorithm"?: string;
           "X-Amz-Content-Sha256"?: string;
           "X-Amz-Credential"?: string;
@@ -2779,7 +2745,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           "X-Amz-Algorithm"?: string;
           "X-Amz-Content-Sha256"?: string;
           "X-Amz-Credential"?: string;
@@ -2837,7 +2802,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           /**
            * The value of the <code>ETag</code> header that you received when retrieving the streaming distribution's configuration. For example: <code>E2QWRUHAPOMQZL</code>.
            */
@@ -2952,7 +2916,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           "X-Amz-Algorithm"?: string;
           "X-Amz-Content-Sha256"?: string;
           "X-Amz-Credential"?: string;
@@ -2977,7 +2940,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           "X-Amz-Algorithm"?: string;
           "X-Amz-Content-Sha256"?: string;
           "X-Amz-Credential"?: string;
@@ -3008,7 +2970,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           "X-Amz-Algorithm"?: string;
           "X-Amz-Content-Sha256"?: string;
           "X-Amz-Credential"?: string;

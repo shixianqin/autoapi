@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/apis/node.k8s.io/v1/`
  */
 export function getApiResources(options?: {
-  headers?: API.K8sV2Json.NodeV1.GetApiResources.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -23,7 +23,7 @@ export function getApiResources(options?: {
 export function deleteRuntimeClass(options: {
   pathParams: API.K8sV2Json.NodeV1.DeleteRuntimeClass.PathParams;
   queryParams?: API.K8sV2Json.NodeV1.DeleteRuntimeClass.QueryParams;
-  headers?: API.K8sV2Json.NodeV1.DeleteRuntimeClass.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.NodeV1.DeleteRuntimeClass.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -42,7 +42,7 @@ export function deleteRuntimeClass(options: {
 export function getReadRuntimeClass(options: {
   pathParams: API.K8sV2Json.NodeV1.GetReadRuntimeClass.PathParams;
   queryParams?: API.K8sV2Json.NodeV1.GetReadRuntimeClass.QueryParams;
-  headers?: API.K8sV2Json.NodeV1.GetReadRuntimeClass.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -60,7 +60,7 @@ export function getReadRuntimeClass(options: {
 export function patchRuntimeClass(options: {
   pathParams: API.K8sV2Json.NodeV1.PatchRuntimeClass.PathParams;
   queryParams?: API.K8sV2Json.NodeV1.PatchRuntimeClass.QueryParams;
-  headers?: API.K8sV2Json.NodeV1.PatchRuntimeClass.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.NodeV1.PatchRuntimeClass.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -79,7 +79,7 @@ export function patchRuntimeClass(options: {
 export function putReplaceRuntimeClass(options: {
   pathParams: API.K8sV2Json.NodeV1.PutReplaceRuntimeClass.PathParams;
   queryParams?: API.K8sV2Json.NodeV1.PutReplaceRuntimeClass.QueryParams;
-  headers?: API.K8sV2Json.NodeV1.PutReplaceRuntimeClass.Headers;
+  headers?: Record<string, any>;
   body: API.K8sV2Json.NodeV1.PutReplaceRuntimeClass.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -97,7 +97,7 @@ export function putReplaceRuntimeClass(options: {
  */
 export function deleteCollectionRuntimeClass(options?: {
   queryParams?: API.K8sV2Json.NodeV1.DeleteCollectionRuntimeClass.QueryParams;
-  headers?: API.K8sV2Json.NodeV1.DeleteCollectionRuntimeClass.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.NodeV1.DeleteCollectionRuntimeClass.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -115,7 +115,7 @@ export function deleteCollectionRuntimeClass(options?: {
  */
 export function getListRuntimeClass(options?: {
   queryParams?: API.K8sV2Json.NodeV1.GetListRuntimeClass.QueryParams;
-  headers?: API.K8sV2Json.NodeV1.GetListRuntimeClass.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -132,7 +132,7 @@ export function getListRuntimeClass(options?: {
  */
 export function postCreateRuntimeClass(options: {
   queryParams?: API.K8sV2Json.NodeV1.PostCreateRuntimeClass.QueryParams;
-  headers?: API.K8sV2Json.NodeV1.PostCreateRuntimeClass.Headers;
+  headers?: Record<string, any>;
   body: API.K8sV2Json.NodeV1.PostCreateRuntimeClass.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -151,7 +151,7 @@ export function postCreateRuntimeClass(options: {
 export function getWatchRuntimeClass(options: {
   pathParams: API.K8sV2Json.NodeV1.GetWatchRuntimeClass.PathParams;
   queryParams?: API.K8sV2Json.NodeV1.GetWatchRuntimeClass.QueryParams;
-  headers?: API.K8sV2Json.NodeV1.GetWatchRuntimeClass.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -168,7 +168,7 @@ export function getWatchRuntimeClass(options: {
  */
 export function getWatchRuntimeClassList(options?: {
   queryParams?: API.K8sV2Json.NodeV1.GetWatchRuntimeClassList.QueryParams;
-  headers?: API.K8sV2Json.NodeV1.GetWatchRuntimeClassList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

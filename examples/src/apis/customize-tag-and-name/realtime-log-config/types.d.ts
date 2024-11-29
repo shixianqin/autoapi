@@ -26,7 +26,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           "X-Amz-Algorithm"?: string;
           "X-Amz-Content-Sha256"?: string;
           "X-Amz-Credential"?: string;
@@ -87,7 +86,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           "X-Amz-Algorithm"?: string;
           "X-Amz-Content-Sha256"?: string;
           "X-Amz-Credential"?: string;

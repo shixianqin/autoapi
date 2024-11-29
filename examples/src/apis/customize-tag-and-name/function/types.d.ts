@@ -44,7 +44,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           /**
            * The current version (<code>ETag</code> value) of the function that you are updating, which you can get using <code>DescribeFunction</code>.
            */
@@ -139,7 +138,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           /**
            * The current version (<code>ETag</code> value) of the function that you are testing, which you can get using <code>DescribeFunction</code>.
            */
@@ -248,7 +246,6 @@ declare namespace API {
         }
 
         interface Headers {
-          "Content-Type"?: "text/xml" | string;
           "X-Amz-Algorithm"?: string;
           "X-Amz-Content-Sha256"?: string;
           "X-Amz-Credential"?: string;

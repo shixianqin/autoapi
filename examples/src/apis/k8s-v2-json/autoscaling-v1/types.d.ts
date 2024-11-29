@@ -2,24 +2,10 @@ declare namespace API {
   namespace K8sV2Json {
     namespace AutoscalingV1 {
       namespace GetApiResources {
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/yaml"
-            | "application/vnd.kubernetes.protobuf"
-            | string;
-          [P: string]: any;
-        }
-
         type Response = $schemas.IoK8sApimachineryPkgApisMetaV1ApiResourceList;
       }
 
       namespace GetListHorizontalPodAutoscalerForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -92,11 +78,6 @@ declare namespace API {
       }
 
       namespace GetReadNamespacedHorizontalPodAutoscalerStatus {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the HorizontalPodAutoscaler
@@ -120,16 +101,6 @@ declare namespace API {
 
       namespace PatchNamespacedHorizontalPodAutoscalerStatus {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -171,11 +142,6 @@ declare namespace API {
       namespace PutReplaceNamespacedHorizontalPodAutoscalerStatus {
         type Body = $schemas.IoK8sApiAutoscalingV1HorizontalPodAutoscaler;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the HorizontalPodAutoscaler
@@ -211,11 +177,6 @@ declare namespace API {
 
       namespace DeleteNamespacedHorizontalPodAutoscaler {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -255,11 +216,6 @@ declare namespace API {
       }
 
       namespace GetReadNamespacedHorizontalPodAutoscaler {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the HorizontalPodAutoscaler
@@ -283,16 +239,6 @@ declare namespace API {
 
       namespace PatchNamespacedHorizontalPodAutoscaler {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -334,11 +280,6 @@ declare namespace API {
       namespace PutReplaceNamespacedHorizontalPodAutoscaler {
         type Body = $schemas.IoK8sApiAutoscalingV1HorizontalPodAutoscaler;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the HorizontalPodAutoscaler
@@ -374,11 +315,6 @@ declare namespace API {
 
       namespace DeleteCollectionNamespacedHorizontalPodAutoscaler {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -466,11 +402,6 @@ declare namespace API {
       }
 
       namespace GetListNamespacedHorizontalPodAutoscaler {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -552,11 +483,6 @@ declare namespace API {
       namespace PostCreateNamespacedHorizontalPodAutoscaler {
         type Body = $schemas.IoK8sApiAutoscalingV1HorizontalPodAutoscaler;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -587,11 +513,6 @@ declare namespace API {
       }
 
       namespace GetWatchHorizontalPodAutoscalerListForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -663,11 +584,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedHorizontalPodAutoscaler {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the HorizontalPodAutoscaler
@@ -750,11 +666,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedHorizontalPodAutoscalerList {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects

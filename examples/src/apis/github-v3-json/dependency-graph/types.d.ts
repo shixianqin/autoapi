@@ -2,10 +2,6 @@ declare namespace API {
   namespace GithubV3Json {
     namespace DependencyGraph {
       namespace GetDiffRange {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The base and head Git revisions to compare. The Git revisions will be resolved to commit SHAs. Named revisions will be resolved to their corresponding HEAD commits, and an appropriate merge base will be determined. This parameter expects the format `{base}...{head}`.
@@ -33,11 +29,6 @@ declare namespace API {
 
       namespace PostCreateRepositorySnapshot {
         type Body = $schemas.Snapshot;
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**

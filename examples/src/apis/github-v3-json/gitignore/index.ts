@@ -9,7 +9,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getTemplate(options: {
   pathParams: API.GithubV3Json.Gitignore.GetTemplate.PathParams;
-  headers?: API.GithubV3Json.Gitignore.GetTemplate.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -27,7 +27,7 @@ export function getTemplate(options: {
  * @docs https://docs.github.com/rest/reference/gitignore#get-all-gitignore-templates
  */
 export function getAllTemplates(options?: {
-  headers?: API.GithubV3Json.Gitignore.GetAllTemplates.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

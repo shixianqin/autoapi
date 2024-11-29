@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function deleteWpV2Me(options: {
   queryParams: API.WordpressV2Json.Users.DeleteWpV2Me.QueryParams;
-  headers?: API.WordpressV2Json.Users.DeleteWpV2Me.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -17,7 +17,7 @@ export function deleteWpV2Me(options: {
  */
 export function getWpV2Me(options?: {
   queryParams?: API.WordpressV2Json.Users.GetWpV2Me.QueryParams;
-  headers?: API.WordpressV2Json.Users.GetWpV2Me.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -29,7 +29,7 @@ export function getWpV2Me(options?: {
  */
 export function patchWpV2Me(options?: {
   queryParams?: API.WordpressV2Json.Users.PatchWpV2Me.QueryParams;
-  headers?: API.WordpressV2Json.Users.PatchWpV2Me.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -40,7 +40,7 @@ export function patchWpV2Me(options?: {
  * @path `/wp/v2/users/me`
  */
 export function postWpV2Me(options?: {
-  headers?: API.WordpressV2Json.Users.PostWpV2Me.Headers;
+  headers?: Record<string, any>;
   formData?: API.WordpressV2Json.Users.PostWpV2Me.FormData;
   config?: RequestConfig;
   context?: RequestContext;
@@ -53,7 +53,7 @@ export function postWpV2Me(options?: {
  */
 export function putWpV2Me(options?: {
   queryParams?: API.WordpressV2Json.Users.PutWpV2Me.QueryParams;
-  headers?: API.WordpressV2Json.Users.PutWpV2Me.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -66,7 +66,7 @@ export function putWpV2Me(options?: {
 export function deleteWpV2Id(options: {
   pathParams: API.WordpressV2Json.Users.DeleteWpV2Id.PathParams;
   queryParams: API.WordpressV2Json.Users.DeleteWpV2Id.QueryParams;
-  headers?: API.WordpressV2Json.Users.DeleteWpV2Id.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -83,7 +83,7 @@ export function deleteWpV2Id(options: {
 export function getWpV2Id(options: {
   pathParams: API.WordpressV2Json.Users.GetWpV2Id.PathParams;
   queryParams?: API.WordpressV2Json.Users.GetWpV2Id.QueryParams;
-  headers?: API.WordpressV2Json.Users.GetWpV2Id.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -96,7 +96,7 @@ export function getWpV2Id(options: {
 export function patchWpV2Id(options: {
   pathParams: API.WordpressV2Json.Users.PatchWpV2Id.PathParams;
   queryParams?: API.WordpressV2Json.Users.PatchWpV2Id.QueryParams;
-  headers?: API.WordpressV2Json.Users.PatchWpV2Id.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -112,7 +112,7 @@ export function patchWpV2Id(options: {
  */
 export function postWpV2Id(options: {
   pathParams: API.WordpressV2Json.Users.PostWpV2Id.PathParams;
-  headers?: API.WordpressV2Json.Users.PostWpV2Id.Headers;
+  headers?: Record<string, any>;
   formData?: API.WordpressV2Json.Users.PostWpV2Id.FormData;
   config?: RequestConfig;
   context?: RequestContext;
@@ -126,7 +126,7 @@ export function postWpV2Id(options: {
 export function putWpV2Id(options: {
   pathParams: API.WordpressV2Json.Users.PutWpV2Id.PathParams;
   queryParams?: API.WordpressV2Json.Users.PutWpV2Id.QueryParams;
-  headers?: API.WordpressV2Json.Users.PutWpV2Id.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -139,7 +139,7 @@ export function putWpV2Id(options: {
 export function getWpV2UserIdApplicationPasswordsIntrospect(options: {
   pathParams: API.WordpressV2Json.Users.GetWpV2UserIdApplicationPasswordsIntrospect.PathParams;
   queryParams?: API.WordpressV2Json.Users.GetWpV2UserIdApplicationPasswordsIntrospect.QueryParams;
-  headers?: API.WordpressV2Json.Users.GetWpV2UserIdApplicationPasswordsIntrospect.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -155,7 +155,7 @@ export function getWpV2UserIdApplicationPasswordsIntrospect(options: {
  */
 export function deleteWpV2UserIdApplicationPasswords(options: {
   pathParams: API.WordpressV2Json.Users.DeleteWpV2UserIdApplicationPasswords.PathParams;
-  headers?: API.WordpressV2Json.Users.DeleteWpV2UserIdApplicationPasswords.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -172,7 +172,7 @@ export function deleteWpV2UserIdApplicationPasswords(options: {
 export function getWpV2UserIdApplicationPasswords(options: {
   pathParams: API.WordpressV2Json.Users.GetWpV2UserIdApplicationPasswords.PathParams;
   queryParams?: API.WordpressV2Json.Users.GetWpV2UserIdApplicationPasswords.QueryParams;
-  headers?: API.WordpressV2Json.Users.GetWpV2UserIdApplicationPasswords.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -188,7 +188,7 @@ export function getWpV2UserIdApplicationPasswords(options: {
  */
 export function postWpV2UserIdApplicationPasswords(options: {
   pathParams: API.WordpressV2Json.Users.PostWpV2UserIdApplicationPasswords.PathParams;
-  headers?: API.WordpressV2Json.Users.PostWpV2UserIdApplicationPasswords.Headers;
+  headers?: Record<string, any>;
   formData: API.WordpressV2Json.Users.PostWpV2UserIdApplicationPasswords.FormData;
   config?: RequestConfig;
   context?: RequestContext;
@@ -205,7 +205,7 @@ export function postWpV2UserIdApplicationPasswords(options: {
  */
 export function deleteWpV2UserId(options: {
   pathParams: API.WordpressV2Json.Users.DeleteWpV2UserId.PathParams;
-  headers?: API.WordpressV2Json.Users.DeleteWpV2UserId.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -222,7 +222,7 @@ export function deleteWpV2UserId(options: {
 export function getWpV2UserId(options: {
   pathParams: API.WordpressV2Json.Users.GetWpV2UserId.PathParams;
   queryParams?: API.WordpressV2Json.Users.GetWpV2UserId.QueryParams;
-  headers?: API.WordpressV2Json.Users.GetWpV2UserId.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -239,7 +239,7 @@ export function getWpV2UserId(options: {
 export function patchWpV2UserId(options: {
   pathParams: API.WordpressV2Json.Users.PatchWpV2UserId.PathParams;
   queryParams?: API.WordpressV2Json.Users.PatchWpV2UserId.QueryParams;
-  headers?: API.WordpressV2Json.Users.PatchWpV2UserId.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -255,7 +255,7 @@ export function patchWpV2UserId(options: {
  */
 export function postWpV2UserId(options: {
   pathParams: API.WordpressV2Json.Users.PostWpV2UserId.PathParams;
-  headers?: API.WordpressV2Json.Users.PostWpV2UserId.Headers;
+  headers?: Record<string, any>;
   formData?: API.WordpressV2Json.Users.PostWpV2UserId.FormData;
   config?: RequestConfig;
   context?: RequestContext;
@@ -273,7 +273,7 @@ export function postWpV2UserId(options: {
 export function putWpV2UserId(options: {
   pathParams: API.WordpressV2Json.Users.PutWpV2UserId.PathParams;
   queryParams?: API.WordpressV2Json.Users.PutWpV2UserId.QueryParams;
-  headers?: API.WordpressV2Json.Users.PutWpV2UserId.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -289,7 +289,7 @@ export function putWpV2UserId(options: {
  */
 export function getWpV2(options?: {
   queryParams?: API.WordpressV2Json.Users.GetWpV2.QueryParams;
-  headers?: API.WordpressV2Json.Users.GetWpV2.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -300,7 +300,7 @@ export function getWpV2(options?: {
  * @path `/wp/v2/users`
  */
 export function postWpV2(options: {
-  headers?: API.WordpressV2Json.Users.PostWpV2.Headers;
+  headers?: Record<string, any>;
   formData: API.WordpressV2Json.Users.PostWpV2.FormData;
   config?: RequestConfig;
   context?: RequestContext;

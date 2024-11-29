@@ -2,10 +2,6 @@ declare namespace API {
   namespace GaV2Yaml {
     namespace ProfileFilter {
       namespace DeleteAnalyticsManagementLinks {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to which the profile filter link belongs
@@ -27,10 +23,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsManagementLinks {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to retrieve profile filter link for
@@ -53,10 +45,6 @@ declare namespace API {
 
       namespace PatchAnalyticsManagementLinks {
         type Body = $schemas.Holder;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -81,10 +69,6 @@ declare namespace API {
       namespace PutAnalyticsManagementLinksUpdate {
         type Body = $schemas.Holder;
 
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to which profile filter link belongs
@@ -106,10 +90,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsManagementLinksList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to retrieve profile filter links for
@@ -139,10 +119,6 @@ declare namespace API {
 
       namespace PostAnalyticsManagementLinksInsert {
         type Body = $schemas.Holder;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**

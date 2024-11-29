@@ -2,25 +2,11 @@ declare namespace API {
   namespace K8sV2Json {
     namespace AdmissionregistrationV1 {
       namespace GetApiResources {
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/yaml"
-            | "application/vnd.kubernetes.protobuf"
-            | string;
-          [P: string]: any;
-        }
-
         type Response = $schemas.IoK8sApimachineryPkgApisMetaV1ApiResourceList;
       }
 
       namespace DeleteMutatingWebhookConfiguration {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -56,11 +42,6 @@ declare namespace API {
       }
 
       namespace GetReadMutatingWebhookConfiguration {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the MutatingWebhookConfiguration
@@ -81,16 +62,6 @@ declare namespace API {
 
       namespace PatchMutatingWebhookConfiguration {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -130,11 +101,6 @@ declare namespace API {
         type Body =
           $schemas.IoK8sApiAdmissionregistrationV1MutatingWebhookConfiguration;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the MutatingWebhookConfiguration
@@ -167,11 +133,6 @@ declare namespace API {
 
       namespace DeleteCollectionMutatingWebhookConfiguration {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface QueryParams {
           /**
@@ -252,11 +213,6 @@ declare namespace API {
       }
 
       namespace GetListMutatingWebhookConfiguration {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -332,11 +288,6 @@ declare namespace API {
         type Body =
           $schemas.IoK8sApiAdmissionregistrationV1MutatingWebhookConfiguration;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -361,11 +312,6 @@ declare namespace API {
       }
 
       namespace GetReadValidatingAdmissionPolicyStatus {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ValidatingAdmissionPolicy
@@ -386,16 +332,6 @@ declare namespace API {
 
       namespace PatchValidatingAdmissionPolicyStatus {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -435,11 +371,6 @@ declare namespace API {
         type Body =
           $schemas.IoK8sApiAdmissionregistrationV1ValidatingAdmissionPolicy;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ValidatingAdmissionPolicy
@@ -472,11 +403,6 @@ declare namespace API {
 
       namespace DeleteValidatingAdmissionPolicy {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -512,11 +438,6 @@ declare namespace API {
       }
 
       namespace GetReadValidatingAdmissionPolicy {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ValidatingAdmissionPolicy
@@ -537,16 +458,6 @@ declare namespace API {
 
       namespace PatchValidatingAdmissionPolicy {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -586,11 +497,6 @@ declare namespace API {
         type Body =
           $schemas.IoK8sApiAdmissionregistrationV1ValidatingAdmissionPolicy;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ValidatingAdmissionPolicy
@@ -623,11 +529,6 @@ declare namespace API {
 
       namespace DeleteCollectionValidatingAdmissionPolicy {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface QueryParams {
           /**
@@ -708,11 +609,6 @@ declare namespace API {
       }
 
       namespace GetListValidatingAdmissionPolicy {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -788,11 +684,6 @@ declare namespace API {
         type Body =
           $schemas.IoK8sApiAdmissionregistrationV1ValidatingAdmissionPolicy;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -818,11 +709,6 @@ declare namespace API {
 
       namespace DeleteValidatingAdmissionPolicyBinding {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -858,11 +744,6 @@ declare namespace API {
       }
 
       namespace GetReadValidatingAdmissionPolicyBinding {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ValidatingAdmissionPolicyBinding
@@ -883,16 +764,6 @@ declare namespace API {
 
       namespace PatchValidatingAdmissionPolicyBinding {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -932,11 +803,6 @@ declare namespace API {
         type Body =
           $schemas.IoK8sApiAdmissionregistrationV1ValidatingAdmissionPolicyBinding;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ValidatingAdmissionPolicyBinding
@@ -969,11 +835,6 @@ declare namespace API {
 
       namespace DeleteCollectionValidatingAdmissionPolicyBinding {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface QueryParams {
           /**
@@ -1054,11 +915,6 @@ declare namespace API {
       }
 
       namespace GetListValidatingAdmissionPolicyBinding {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -1134,11 +990,6 @@ declare namespace API {
         type Body =
           $schemas.IoK8sApiAdmissionregistrationV1ValidatingAdmissionPolicyBinding;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -1164,11 +1015,6 @@ declare namespace API {
 
       namespace DeleteValidatingWebhookConfiguration {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -1204,11 +1050,6 @@ declare namespace API {
       }
 
       namespace GetReadValidatingWebhookConfiguration {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ValidatingWebhookConfiguration
@@ -1229,16 +1070,6 @@ declare namespace API {
 
       namespace PatchValidatingWebhookConfiguration {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -1278,11 +1109,6 @@ declare namespace API {
         type Body =
           $schemas.IoK8sApiAdmissionregistrationV1ValidatingWebhookConfiguration;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ValidatingWebhookConfiguration
@@ -1315,11 +1141,6 @@ declare namespace API {
 
       namespace DeleteCollectionValidatingWebhookConfiguration {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface QueryParams {
           /**
@@ -1400,11 +1221,6 @@ declare namespace API {
       }
 
       namespace GetListValidatingWebhookConfiguration {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -1480,11 +1296,6 @@ declare namespace API {
         type Body =
           $schemas.IoK8sApiAdmissionregistrationV1ValidatingWebhookConfiguration;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -1509,11 +1320,6 @@ declare namespace API {
       }
 
       namespace GetWatchMutatingWebhookConfiguration {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the MutatingWebhookConfiguration
@@ -1592,11 +1398,6 @@ declare namespace API {
       }
 
       namespace GetWatchMutatingWebhookConfigurationList {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -1668,11 +1469,6 @@ declare namespace API {
       }
 
       namespace GetWatchValidatingAdmissionPolicy {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ValidatingAdmissionPolicy
@@ -1751,11 +1547,6 @@ declare namespace API {
       }
 
       namespace GetWatchValidatingAdmissionPolicyList {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -1827,11 +1618,6 @@ declare namespace API {
       }
 
       namespace GetWatchValidatingAdmissionPolicyBinding {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ValidatingAdmissionPolicyBinding
@@ -1910,11 +1696,6 @@ declare namespace API {
       }
 
       namespace GetWatchValidatingAdmissionPolicyBindingList {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -1986,11 +1767,6 @@ declare namespace API {
       }
 
       namespace GetWatchValidatingWebhookConfiguration {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ValidatingWebhookConfiguration
@@ -2069,11 +1845,6 @@ declare namespace API {
       }
 
       namespace GetWatchValidatingWebhookConfigurationList {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.

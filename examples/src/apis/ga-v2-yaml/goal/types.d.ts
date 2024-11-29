@@ -2,10 +2,6 @@ declare namespace API {
   namespace GaV2Yaml {
     namespace Goal {
       namespace GetAnalyticsManagementGoals {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to retrieve the goal for
@@ -28,10 +24,6 @@ declare namespace API {
 
       namespace PatchAnalyticsManagementGoals {
         type Body = $schemas.Holder;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -56,10 +48,6 @@ declare namespace API {
       namespace PutAnalyticsManagementGoalsUpdate {
         type Body = $schemas.Holder;
 
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to update the goal
@@ -81,10 +69,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsManagementGoalsList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to retrieve goals for
@@ -114,10 +98,6 @@ declare namespace API {
 
       namespace PostAnalyticsManagementGoalsInsert {
         type Body = $schemas.Holder;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**

@@ -16,7 +16,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @docs https://docs.github.com/rest/reference/activity#get-feeds
  */
 export function getFeeds(options?: {
-  headers?: API.CustomizeFilter.Activity.GetFeeds.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

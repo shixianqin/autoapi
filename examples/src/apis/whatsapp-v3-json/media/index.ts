@@ -6,7 +6,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function deleteMedia(options: {
   pathParams: API.WhatsappV3Json.Media.DeleteMedia.PathParams;
-  headers?: API.WhatsappV3Json.Media.DeleteMedia.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -23,7 +23,7 @@ export function deleteMedia(options: {
  */
 export function getDownload(options: {
   pathParams: API.WhatsappV3Json.Media.GetDownload.PathParams;
-  headers?: API.WhatsappV3Json.Media.GetDownload.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -39,7 +39,7 @@ export function getDownload(options: {
  * @path `/media`
  */
 export function postUpload(options: {
-  headers?: API.WhatsappV3Json.Media.PostUpload.Headers;
+  headers?: Record<string, any>;
   body: API.WhatsappV3Json.Media.PostUpload.Body;
   config?: RequestConfig;
   context?: RequestContext;

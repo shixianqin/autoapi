@@ -7,7 +7,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function getReadFlowSchemaStatus(options: {
   pathParams: API.K8sV2Json.FlowcontrolApiserverV1.GetReadFlowSchemaStatus.PathParams;
   queryParams?: API.K8sV2Json.FlowcontrolApiserverV1.GetReadFlowSchemaStatus.QueryParams;
-  headers?: API.K8sV2Json.FlowcontrolApiserverV1.GetReadFlowSchemaStatus.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -25,7 +25,7 @@ export function getReadFlowSchemaStatus(options: {
 export function patchFlowSchemaStatus(options: {
   pathParams: API.K8sV2Json.FlowcontrolApiserverV1.PatchFlowSchemaStatus.PathParams;
   queryParams?: API.K8sV2Json.FlowcontrolApiserverV1.PatchFlowSchemaStatus.QueryParams;
-  headers?: API.K8sV2Json.FlowcontrolApiserverV1.PatchFlowSchemaStatus.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.FlowcontrolApiserverV1.PatchFlowSchemaStatus.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -44,7 +44,7 @@ export function patchFlowSchemaStatus(options: {
 export function putReplaceFlowSchemaStatus(options: {
   pathParams: API.K8sV2Json.FlowcontrolApiserverV1.PutReplaceFlowSchemaStatus.PathParams;
   queryParams?: API.K8sV2Json.FlowcontrolApiserverV1.PutReplaceFlowSchemaStatus.QueryParams;
-  headers?: API.K8sV2Json.FlowcontrolApiserverV1.PutReplaceFlowSchemaStatus.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.FlowcontrolApiserverV1.PutReplaceFlowSchemaStatus.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -63,7 +63,7 @@ export function putReplaceFlowSchemaStatus(options: {
 export function deleteFlowSchema(options: {
   pathParams: API.K8sV2Json.FlowcontrolApiserverV1.DeleteFlowSchema.PathParams;
   queryParams?: API.K8sV2Json.FlowcontrolApiserverV1.DeleteFlowSchema.QueryParams;
-  headers?: API.K8sV2Json.FlowcontrolApiserverV1.DeleteFlowSchema.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.FlowcontrolApiserverV1.DeleteFlowSchema.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -82,7 +82,7 @@ export function deleteFlowSchema(options: {
 export function getReadFlowSchema(options: {
   pathParams: API.K8sV2Json.FlowcontrolApiserverV1.GetReadFlowSchema.PathParams;
   queryParams?: API.K8sV2Json.FlowcontrolApiserverV1.GetReadFlowSchema.QueryParams;
-  headers?: API.K8sV2Json.FlowcontrolApiserverV1.GetReadFlowSchema.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -100,7 +100,7 @@ export function getReadFlowSchema(options: {
 export function patchFlowSchema(options: {
   pathParams: API.K8sV2Json.FlowcontrolApiserverV1.PatchFlowSchema.PathParams;
   queryParams?: API.K8sV2Json.FlowcontrolApiserverV1.PatchFlowSchema.QueryParams;
-  headers?: API.K8sV2Json.FlowcontrolApiserverV1.PatchFlowSchema.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.FlowcontrolApiserverV1.PatchFlowSchema.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -119,7 +119,7 @@ export function patchFlowSchema(options: {
 export function putReplaceFlowSchema(options: {
   pathParams: API.K8sV2Json.FlowcontrolApiserverV1.PutReplaceFlowSchema.PathParams;
   queryParams?: API.K8sV2Json.FlowcontrolApiserverV1.PutReplaceFlowSchema.QueryParams;
-  headers?: API.K8sV2Json.FlowcontrolApiserverV1.PutReplaceFlowSchema.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.FlowcontrolApiserverV1.PutReplaceFlowSchema.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -137,7 +137,7 @@ export function putReplaceFlowSchema(options: {
  */
 export function deleteCollectionFlowSchema(options?: {
   queryParams?: API.K8sV2Json.FlowcontrolApiserverV1.DeleteCollectionFlowSchema.QueryParams;
-  headers?: API.K8sV2Json.FlowcontrolApiserverV1.DeleteCollectionFlowSchema.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.FlowcontrolApiserverV1.DeleteCollectionFlowSchema.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -155,7 +155,7 @@ export function deleteCollectionFlowSchema(options?: {
  */
 export function getListFlowSchema(options?: {
   queryParams?: API.K8sV2Json.FlowcontrolApiserverV1.GetListFlowSchema.QueryParams;
-  headers?: API.K8sV2Json.FlowcontrolApiserverV1.GetListFlowSchema.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -172,7 +172,7 @@ export function getListFlowSchema(options?: {
  */
 export function postCreateFlowSchema(options?: {
   queryParams?: API.K8sV2Json.FlowcontrolApiserverV1.PostCreateFlowSchema.QueryParams;
-  headers?: API.K8sV2Json.FlowcontrolApiserverV1.PostCreateFlowSchema.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.FlowcontrolApiserverV1.PostCreateFlowSchema.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -189,7 +189,7 @@ export function postCreateFlowSchema(options?: {
  * @path `/apis/flowcontrol.apiserver.k8s.io/v1/`
  */
 export function getApiResources(options?: {
-  headers?: API.K8sV2Json.FlowcontrolApiserverV1.GetApiResources.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -207,7 +207,7 @@ export function getApiResources(options?: {
 export function getReadPriorityLevelConfigurationStatus(options: {
   pathParams: API.K8sV2Json.FlowcontrolApiserverV1.GetReadPriorityLevelConfigurationStatus.PathParams;
   queryParams?: API.K8sV2Json.FlowcontrolApiserverV1.GetReadPriorityLevelConfigurationStatus.QueryParams;
-  headers?: API.K8sV2Json.FlowcontrolApiserverV1.GetReadPriorityLevelConfigurationStatus.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -225,7 +225,7 @@ export function getReadPriorityLevelConfigurationStatus(options: {
 export function patchPriorityLevelConfigurationStatus(options: {
   pathParams: API.K8sV2Json.FlowcontrolApiserverV1.PatchPriorityLevelConfigurationStatus.PathParams;
   queryParams?: API.K8sV2Json.FlowcontrolApiserverV1.PatchPriorityLevelConfigurationStatus.QueryParams;
-  headers?: API.K8sV2Json.FlowcontrolApiserverV1.PatchPriorityLevelConfigurationStatus.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.FlowcontrolApiserverV1.PatchPriorityLevelConfigurationStatus.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -244,7 +244,7 @@ export function patchPriorityLevelConfigurationStatus(options: {
 export function putReplacePriorityLevelConfigurationStatus(options: {
   pathParams: API.K8sV2Json.FlowcontrolApiserverV1.PutReplacePriorityLevelConfigurationStatus.PathParams;
   queryParams?: API.K8sV2Json.FlowcontrolApiserverV1.PutReplacePriorityLevelConfigurationStatus.QueryParams;
-  headers?: API.K8sV2Json.FlowcontrolApiserverV1.PutReplacePriorityLevelConfigurationStatus.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.FlowcontrolApiserverV1.PutReplacePriorityLevelConfigurationStatus.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -263,7 +263,7 @@ export function putReplacePriorityLevelConfigurationStatus(options: {
 export function deletePriorityLevelConfiguration(options: {
   pathParams: API.K8sV2Json.FlowcontrolApiserverV1.DeletePriorityLevelConfiguration.PathParams;
   queryParams?: API.K8sV2Json.FlowcontrolApiserverV1.DeletePriorityLevelConfiguration.QueryParams;
-  headers?: API.K8sV2Json.FlowcontrolApiserverV1.DeletePriorityLevelConfiguration.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.FlowcontrolApiserverV1.DeletePriorityLevelConfiguration.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -282,7 +282,7 @@ export function deletePriorityLevelConfiguration(options: {
 export function getReadPriorityLevelConfiguration(options: {
   pathParams: API.K8sV2Json.FlowcontrolApiserverV1.GetReadPriorityLevelConfiguration.PathParams;
   queryParams?: API.K8sV2Json.FlowcontrolApiserverV1.GetReadPriorityLevelConfiguration.QueryParams;
-  headers?: API.K8sV2Json.FlowcontrolApiserverV1.GetReadPriorityLevelConfiguration.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -300,7 +300,7 @@ export function getReadPriorityLevelConfiguration(options: {
 export function patchPriorityLevelConfiguration(options: {
   pathParams: API.K8sV2Json.FlowcontrolApiserverV1.PatchPriorityLevelConfiguration.PathParams;
   queryParams?: API.K8sV2Json.FlowcontrolApiserverV1.PatchPriorityLevelConfiguration.QueryParams;
-  headers?: API.K8sV2Json.FlowcontrolApiserverV1.PatchPriorityLevelConfiguration.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.FlowcontrolApiserverV1.PatchPriorityLevelConfiguration.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -319,7 +319,7 @@ export function patchPriorityLevelConfiguration(options: {
 export function putReplacePriorityLevelConfiguration(options: {
   pathParams: API.K8sV2Json.FlowcontrolApiserverV1.PutReplacePriorityLevelConfiguration.PathParams;
   queryParams?: API.K8sV2Json.FlowcontrolApiserverV1.PutReplacePriorityLevelConfiguration.QueryParams;
-  headers?: API.K8sV2Json.FlowcontrolApiserverV1.PutReplacePriorityLevelConfiguration.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.FlowcontrolApiserverV1.PutReplacePriorityLevelConfiguration.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -337,7 +337,7 @@ export function putReplacePriorityLevelConfiguration(options: {
  */
 export function deleteCollectionPriorityLevelConfiguration(options?: {
   queryParams?: API.K8sV2Json.FlowcontrolApiserverV1.DeleteCollectionPriorityLevelConfiguration.QueryParams;
-  headers?: API.K8sV2Json.FlowcontrolApiserverV1.DeleteCollectionPriorityLevelConfiguration.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.FlowcontrolApiserverV1.DeleteCollectionPriorityLevelConfiguration.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -355,7 +355,7 @@ export function deleteCollectionPriorityLevelConfiguration(options?: {
  */
 export function getListPriorityLevelConfiguration(options?: {
   queryParams?: API.K8sV2Json.FlowcontrolApiserverV1.GetListPriorityLevelConfiguration.QueryParams;
-  headers?: API.K8sV2Json.FlowcontrolApiserverV1.GetListPriorityLevelConfiguration.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -372,7 +372,7 @@ export function getListPriorityLevelConfiguration(options?: {
  */
 export function postCreatePriorityLevelConfiguration(options?: {
   queryParams?: API.K8sV2Json.FlowcontrolApiserverV1.PostCreatePriorityLevelConfiguration.QueryParams;
-  headers?: API.K8sV2Json.FlowcontrolApiserverV1.PostCreatePriorityLevelConfiguration.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.FlowcontrolApiserverV1.PostCreatePriorityLevelConfiguration.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -391,7 +391,7 @@ export function postCreatePriorityLevelConfiguration(options?: {
 export function getWatchFlowSchema(options: {
   pathParams: API.K8sV2Json.FlowcontrolApiserverV1.GetWatchFlowSchema.PathParams;
   queryParams?: API.K8sV2Json.FlowcontrolApiserverV1.GetWatchFlowSchema.QueryParams;
-  headers?: API.K8sV2Json.FlowcontrolApiserverV1.GetWatchFlowSchema.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -408,7 +408,7 @@ export function getWatchFlowSchema(options: {
  */
 export function getWatchFlowSchemaList(options?: {
   queryParams?: API.K8sV2Json.FlowcontrolApiserverV1.GetWatchFlowSchemaList.QueryParams;
-  headers?: API.K8sV2Json.FlowcontrolApiserverV1.GetWatchFlowSchemaList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -426,7 +426,7 @@ export function getWatchFlowSchemaList(options?: {
 export function getWatchPriorityLevelConfiguration(options: {
   pathParams: API.K8sV2Json.FlowcontrolApiserverV1.GetWatchPriorityLevelConfiguration.PathParams;
   queryParams?: API.K8sV2Json.FlowcontrolApiserverV1.GetWatchPriorityLevelConfiguration.QueryParams;
-  headers?: API.K8sV2Json.FlowcontrolApiserverV1.GetWatchPriorityLevelConfiguration.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -443,7 +443,7 @@ export function getWatchPriorityLevelConfiguration(options: {
  */
 export function getWatchPriorityLevelConfigurationList(options?: {
   queryParams?: API.K8sV2Json.FlowcontrolApiserverV1.GetWatchPriorityLevelConfigurationList.QueryParams;
-  headers?: API.K8sV2Json.FlowcontrolApiserverV1.GetWatchPriorityLevelConfigurationList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

@@ -8,7 +8,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getTweets(options?: {
   queryParams?: API.TwitterV3Json.Usage.GetTweets.QueryParams;
-  headers?: API.TwitterV3Json.Usage.GetTweets.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

@@ -2,10 +2,6 @@ declare namespace API {
   namespace GithubV3Json {
     namespace Billing {
       namespace GetGithubActionsOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -17,10 +13,6 @@ declare namespace API {
       }
 
       namespace GetGithubPackagesOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -32,10 +24,6 @@ declare namespace API {
       }
 
       namespace GetSharedStorageOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -47,10 +35,6 @@ declare namespace API {
       }
 
       namespace GetGithubActionsUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The handle for the GitHub user account.
@@ -62,10 +46,6 @@ declare namespace API {
       }
 
       namespace GetGithubPackagesUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The handle for the GitHub user account.
@@ -77,10 +57,6 @@ declare namespace API {
       }
 
       namespace GetSharedStorageUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The handle for the GitHub user account.

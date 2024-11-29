@@ -7,7 +7,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function deleteAnalyticsManagementFilters(options: {
   pathParams: API.GaV2Yaml.Filter.DeleteAnalyticsManagementFilters.PathParams;
-  headers?: API.GaV2Yaml.Filter.DeleteAnalyticsManagementFilters.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -25,7 +25,7 @@ export function deleteAnalyticsManagementFilters(options: {
  */
 export function getAnalyticsManagementFilters(options: {
   pathParams: API.GaV2Yaml.Filter.GetAnalyticsManagementFilters.PathParams;
-  headers?: API.GaV2Yaml.Filter.GetAnalyticsManagementFilters.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -43,7 +43,7 @@ export function getAnalyticsManagementFilters(options: {
  */
 export function patchAnalyticsManagementFilters(options: {
   pathParams: API.GaV2Yaml.Filter.PatchAnalyticsManagementFilters.PathParams;
-  headers?: API.GaV2Yaml.Filter.PatchAnalyticsManagementFilters.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.Filter.PatchAnalyticsManagementFilters.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -62,7 +62,7 @@ export function patchAnalyticsManagementFilters(options: {
  */
 export function putAnalyticsManagementFiltersUpdate(options: {
   pathParams: API.GaV2Yaml.Filter.PutAnalyticsManagementFiltersUpdate.PathParams;
-  headers?: API.GaV2Yaml.Filter.PutAnalyticsManagementFiltersUpdate.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.Filter.PutAnalyticsManagementFiltersUpdate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -82,7 +82,7 @@ export function putAnalyticsManagementFiltersUpdate(options: {
 export function getAnalyticsManagementFiltersList(options: {
   pathParams: API.GaV2Yaml.Filter.GetAnalyticsManagementFiltersList.PathParams;
   queryParams?: API.GaV2Yaml.Filter.GetAnalyticsManagementFiltersList.QueryParams;
-  headers?: API.GaV2Yaml.Filter.GetAnalyticsManagementFiltersList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -100,7 +100,7 @@ export function getAnalyticsManagementFiltersList(options: {
  */
 export function postAnalyticsManagementFiltersInsert(options: {
   pathParams: API.GaV2Yaml.Filter.PostAnalyticsManagementFiltersInsert.PathParams;
-  headers?: API.GaV2Yaml.Filter.PostAnalyticsManagementFiltersInsert.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.Filter.PostAnalyticsManagementFiltersInsert.Body;
   config?: RequestConfig;
   context?: RequestContext;

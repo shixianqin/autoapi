@@ -6,7 +6,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getServerOptions(options: {
   pathParams: API.SwaggerGeneratorV2Json.Servers.GetServerOptions.PathParams;
-  headers?: API.SwaggerGeneratorV2Json.Servers.GetServerOptions.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -24,7 +24,7 @@ export function getServerOptions(options: {
  */
 export function postGenerateServerForLanguage(options: {
   pathParams: API.SwaggerGeneratorV2Json.Servers.PostGenerateServerForLanguage.PathParams;
-  headers?: API.SwaggerGeneratorV2Json.Servers.PostGenerateServerForLanguage.Headers;
+  headers?: Record<string, any>;
   body?: API.SwaggerGeneratorV2Json.Servers.PostGenerateServerForLanguage.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -41,7 +41,7 @@ export function postGenerateServerForLanguage(options: {
  * @path `/gen/servers`
  */
 export function getServerOptions2(options?: {
-  headers?: API.SwaggerGeneratorV2Json.Servers.GetServerOptions2.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

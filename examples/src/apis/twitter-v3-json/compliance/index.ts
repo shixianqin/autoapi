@@ -9,7 +9,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function getBatchJob(options: {
   pathParams: API.TwitterV3Json.Compliance.GetBatchJob.PathParams;
   queryParams?: API.TwitterV3Json.Compliance.GetBatchJob.QueryParams;
-  headers?: API.TwitterV3Json.Compliance.GetBatchJob.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -28,7 +28,7 @@ export function getBatchJob(options: {
  */
 export function getListBatchJobs(options: {
   queryParams: API.TwitterV3Json.Compliance.GetListBatchJobs.QueryParams;
-  headers?: API.TwitterV3Json.Compliance.GetListBatchJobs.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -46,7 +46,7 @@ export function getListBatchJobs(options: {
  * @docs https://developer.twitter.com/en/docs/twitter-api/compliance/batch-compliance/api-reference/post-compliance-jobs
  */
 export function postCreateBatchJob(options: {
-  headers?: API.TwitterV3Json.Compliance.PostCreateBatchJob.Headers;
+  headers?: Record<string, any>;
   body: API.TwitterV3Json.Compliance.PostCreateBatchJob.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -65,7 +65,7 @@ export function postCreateBatchJob(options: {
  */
 export function getLikesStream(options?: {
   queryParams?: API.TwitterV3Json.Compliance.GetLikesStream.QueryParams;
-  headers?: API.TwitterV3Json.Compliance.GetLikesStream.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -83,7 +83,7 @@ export function getLikesStream(options?: {
  */
 export function getTweetsStream(options: {
   queryParams: API.TwitterV3Json.Compliance.GetTweetsStream.QueryParams;
-  headers?: API.TwitterV3Json.Compliance.GetTweetsStream.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -101,7 +101,7 @@ export function getTweetsStream(options: {
  */
 export function getTweetsLabelStream(options?: {
   queryParams?: API.TwitterV3Json.Compliance.GetTweetsLabelStream.QueryParams;
-  headers?: API.TwitterV3Json.Compliance.GetTweetsLabelStream.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -119,7 +119,7 @@ export function getTweetsLabelStream(options?: {
  */
 export function getUsersStream(options: {
   queryParams: API.TwitterV3Json.Compliance.GetUsersStream.QueryParams;
-  headers?: API.TwitterV3Json.Compliance.GetUsersStream.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

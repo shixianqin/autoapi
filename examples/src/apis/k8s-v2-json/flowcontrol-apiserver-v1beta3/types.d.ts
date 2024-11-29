@@ -2,11 +2,6 @@ declare namespace API {
   namespace K8sV2Json {
     namespace FlowcontrolApiserverV1beta3 {
       namespace GetReadFlowSchemaStatus {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the FlowSchema
@@ -26,16 +21,6 @@ declare namespace API {
 
       namespace PatchFlowSchemaStatus {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -73,11 +58,6 @@ declare namespace API {
       namespace PutReplaceFlowSchemaStatus {
         type Body = $schemas.IoK8sApiFlowcontrolV1beta3FlowSchema;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the FlowSchema
@@ -109,11 +89,6 @@ declare namespace API {
 
       namespace DeleteFlowSchema {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -149,11 +124,6 @@ declare namespace API {
       }
 
       namespace GetReadFlowSchema {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the FlowSchema
@@ -173,16 +143,6 @@ declare namespace API {
 
       namespace PatchFlowSchema {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -220,11 +180,6 @@ declare namespace API {
       namespace PutReplaceFlowSchema {
         type Body = $schemas.IoK8sApiFlowcontrolV1beta3FlowSchema;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the FlowSchema
@@ -256,11 +211,6 @@ declare namespace API {
 
       namespace DeleteCollectionFlowSchema {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface QueryParams {
           /**
@@ -341,11 +291,6 @@ declare namespace API {
       }
 
       namespace GetListFlowSchema {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -419,11 +364,6 @@ declare namespace API {
       namespace PostCreateFlowSchema {
         type Body = $schemas.IoK8sApiFlowcontrolV1beta3FlowSchema;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -447,24 +387,10 @@ declare namespace API {
       }
 
       namespace GetApiResources {
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/yaml"
-            | "application/vnd.kubernetes.protobuf"
-            | string;
-          [P: string]: any;
-        }
-
         type Response = $schemas.IoK8sApimachineryPkgApisMetaV1ApiResourceList;
       }
 
       namespace GetReadPriorityLevelConfigurationStatus {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PriorityLevelConfiguration
@@ -485,16 +411,6 @@ declare namespace API {
 
       namespace PatchPriorityLevelConfigurationStatus {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -534,11 +450,6 @@ declare namespace API {
         type Body =
           $schemas.IoK8sApiFlowcontrolV1beta3PriorityLevelConfiguration;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PriorityLevelConfiguration
@@ -571,11 +482,6 @@ declare namespace API {
 
       namespace DeletePriorityLevelConfiguration {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -611,11 +517,6 @@ declare namespace API {
       }
 
       namespace GetReadPriorityLevelConfiguration {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PriorityLevelConfiguration
@@ -636,16 +537,6 @@ declare namespace API {
 
       namespace PatchPriorityLevelConfiguration {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -685,11 +576,6 @@ declare namespace API {
         type Body =
           $schemas.IoK8sApiFlowcontrolV1beta3PriorityLevelConfiguration;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PriorityLevelConfiguration
@@ -722,11 +608,6 @@ declare namespace API {
 
       namespace DeleteCollectionPriorityLevelConfiguration {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface QueryParams {
           /**
@@ -807,11 +688,6 @@ declare namespace API {
       }
 
       namespace GetListPriorityLevelConfiguration {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -887,11 +763,6 @@ declare namespace API {
         type Body =
           $schemas.IoK8sApiFlowcontrolV1beta3PriorityLevelConfiguration;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -916,11 +787,6 @@ declare namespace API {
       }
 
       namespace GetWatchFlowSchema {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the FlowSchema
@@ -999,11 +865,6 @@ declare namespace API {
       }
 
       namespace GetWatchFlowSchemaList {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -1075,11 +936,6 @@ declare namespace API {
       }
 
       namespace GetWatchPriorityLevelConfiguration {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PriorityLevelConfiguration
@@ -1158,11 +1014,6 @@ declare namespace API {
       }
 
       namespace GetWatchPriorityLevelConfigurationList {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.

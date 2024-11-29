@@ -12,7 +12,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getGithubActionsOrg(options: {
   pathParams: API.GithubV3Json.Billing.GetGithubActionsOrg.PathParams;
-  headers?: API.GithubV3Json.Billing.GetGithubActionsOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -35,7 +35,7 @@ export function getGithubActionsOrg(options: {
  */
 export function getGithubPackagesOrg(options: {
   pathParams: API.GithubV3Json.Billing.GetGithubPackagesOrg.PathParams;
-  headers?: API.GithubV3Json.Billing.GetGithubPackagesOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -58,7 +58,7 @@ export function getGithubPackagesOrg(options: {
  */
 export function getSharedStorageOrg(options: {
   pathParams: API.GithubV3Json.Billing.GetSharedStorageOrg.PathParams;
-  headers?: API.GithubV3Json.Billing.GetSharedStorageOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -81,7 +81,7 @@ export function getSharedStorageOrg(options: {
  */
 export function getGithubActionsUser(options: {
   pathParams: API.GithubV3Json.Billing.GetGithubActionsUser.PathParams;
-  headers?: API.GithubV3Json.Billing.GetGithubActionsUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -104,7 +104,7 @@ export function getGithubActionsUser(options: {
  */
 export function getGithubPackagesUser(options: {
   pathParams: API.GithubV3Json.Billing.GetGithubPackagesUser.PathParams;
-  headers?: API.GithubV3Json.Billing.GetGithubPackagesUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -127,7 +127,7 @@ export function getGithubPackagesUser(options: {
  */
 export function getSharedStorageUser(options: {
   pathParams: API.GithubV3Json.Billing.GetSharedStorageUser.PathParams;
-  headers?: API.GithubV3Json.Billing.GetSharedStorageUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

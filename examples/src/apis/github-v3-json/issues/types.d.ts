@@ -2,10 +2,6 @@ declare namespace API {
   namespace GithubV3Json {
     namespace Issues {
       namespace GetList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           collab?: boolean;
           /**
@@ -62,10 +58,6 @@ declare namespace API {
       }
 
       namespace GetListForOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -125,10 +117,6 @@ declare namespace API {
       }
 
       namespace GetCheckUserCanBeAssigned {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           assignee: string;
           /**
@@ -143,10 +131,6 @@ declare namespace API {
       }
 
       namespace GetListAssignees {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -175,10 +159,6 @@ declare namespace API {
       }
 
       namespace DeleteComment {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the comment.
@@ -196,10 +176,6 @@ declare namespace API {
       }
 
       namespace GetComment {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the comment.
@@ -226,11 +202,6 @@ declare namespace API {
           body: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the comment.
@@ -250,10 +221,6 @@ declare namespace API {
       }
 
       namespace GetListCommentsForRepo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -296,10 +263,6 @@ declare namespace API {
       }
 
       namespace GetEvent {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           event_id: number;
           /**
@@ -316,10 +279,6 @@ declare namespace API {
       }
 
       namespace GetListEventsForRepo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -348,10 +307,6 @@ declare namespace API {
       }
 
       namespace GetCheckUserCanBeAssignedToIssue {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           assignee: string;
           /**
@@ -375,11 +330,6 @@ declare namespace API {
            * Usernames of assignees to remove from an issue. _NOTE: Only users with push access can remove assignees from an issue. Assignees are silently ignored otherwise._
            */
           assignees?: string[];
-        }
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
         }
 
         interface PathParams {
@@ -408,11 +358,6 @@ declare namespace API {
           assignees?: string[];
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the issue.
@@ -432,10 +377,6 @@ declare namespace API {
       }
 
       namespace GetListComments {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the issue.
@@ -480,11 +421,6 @@ declare namespace API {
           body: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the issue.
@@ -504,10 +440,6 @@ declare namespace API {
       }
 
       namespace GetListEvents {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the issue.
@@ -540,10 +472,6 @@ declare namespace API {
       }
 
       namespace DeleteRemoveLabel {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the issue.
@@ -564,10 +492,6 @@ declare namespace API {
       }
 
       namespace DeleteRemoveAllLabels {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the issue.
@@ -585,10 +509,6 @@ declare namespace API {
       }
 
       namespace GetListLabelsOnIssue {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the issue.
@@ -643,11 +563,6 @@ declare namespace API {
             }>
           | string;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the issue.
@@ -689,11 +604,6 @@ declare namespace API {
             }>
           | string;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the issue.
@@ -713,10 +623,6 @@ declare namespace API {
       }
 
       namespace DeleteUnlock {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the issue.
@@ -745,11 +651,6 @@ declare namespace API {
           lock_reason?: "off-topic" | "resolved" | "spam" | "too heated";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the issue.
@@ -767,10 +668,6 @@ declare namespace API {
       }
 
       namespace GetListEventsForTimeline {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the issue.
@@ -803,10 +700,6 @@ declare namespace API {
       }
 
       namespace GetIssues {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the issue.
@@ -858,11 +751,6 @@ declare namespace API {
           title?: string | number;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the issue.
@@ -882,10 +770,6 @@ declare namespace API {
       }
 
       namespace GetListForRepo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -978,11 +862,6 @@ declare namespace API {
           title: string | number;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -998,10 +877,6 @@ declare namespace API {
       }
 
       namespace DeleteLabel {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           name: string;
           /**
@@ -1016,10 +891,6 @@ declare namespace API {
       }
 
       namespace GetLabel {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           name: string;
           /**
@@ -1051,11 +922,6 @@ declare namespace API {
           new_name?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           name: string;
           /**
@@ -1072,10 +938,6 @@ declare namespace API {
       }
 
       namespace GetListLabelsForRepo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1119,11 +981,6 @@ declare namespace API {
           name: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1139,10 +996,6 @@ declare namespace API {
       }
 
       namespace GetListLabelsForMilestone {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the milestone.
@@ -1175,10 +1028,6 @@ declare namespace API {
       }
 
       namespace DeleteMilestone {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the milestone.
@@ -1196,10 +1045,6 @@ declare namespace API {
       }
 
       namespace GetMilestone {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the milestone.
@@ -1240,11 +1085,6 @@ declare namespace API {
           title?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the milestone.
@@ -1264,10 +1104,6 @@ declare namespace API {
       }
 
       namespace GetListMilestones {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1332,11 +1168,6 @@ declare namespace API {
           title: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1352,10 +1183,6 @@ declare namespace API {
       }
 
       namespace GetListForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * The direction to sort the results by.

@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/settings/backup`
  */
 export function postBackupSettings(options: {
-  headers?: API.WhatsappV3Json.BackupRestore.PostBackupSettings.Headers;
+  headers?: Record<string, any>;
   body: API.WhatsappV3Json.BackupRestore.PostBackupSettings.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -22,7 +22,7 @@ export function postBackupSettings(options: {
  * @path `/settings/restore`
  */
 export function postRestoreSettings(options: {
-  headers?: API.WhatsappV3Json.BackupRestore.PostRestoreSettings.Headers;
+  headers?: Record<string, any>;
   body: API.WhatsappV3Json.BackupRestore.PostRestoreSettings.Body;
   config?: RequestConfig;
   context?: RequestContext;

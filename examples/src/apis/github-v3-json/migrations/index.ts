@@ -8,7 +8,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function deleteArchiveForOrg(options: {
   pathParams: API.GithubV3Json.Migrations.DeleteArchiveForOrg.PathParams;
-  headers?: API.GithubV3Json.Migrations.DeleteArchiveForOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -27,7 +27,7 @@ export function deleteArchiveForOrg(options: {
  */
 export function getDownloadArchiveForOrg(options: {
   pathParams: API.GithubV3Json.Migrations.GetDownloadArchiveForOrg.PathParams;
-  headers?: API.GithubV3Json.Migrations.GetDownloadArchiveForOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -46,7 +46,7 @@ export function getDownloadArchiveForOrg(options: {
  */
 export function deleteUnlockRepoForOrg(options: {
   pathParams: API.GithubV3Json.Migrations.DeleteUnlockRepoForOrg.PathParams;
-  headers?: API.GithubV3Json.Migrations.DeleteUnlockRepoForOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -66,7 +66,7 @@ export function deleteUnlockRepoForOrg(options: {
 export function getListReposForOrg(options: {
   pathParams: API.GithubV3Json.Migrations.GetListReposForOrg.PathParams;
   queryParams?: API.GithubV3Json.Migrations.GetListReposForOrg.QueryParams;
-  headers?: API.GithubV3Json.Migrations.GetListReposForOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -92,7 +92,7 @@ export function getListReposForOrg(options: {
 export function getStatusForOrg(options: {
   pathParams: API.GithubV3Json.Migrations.GetStatusForOrg.PathParams;
   queryParams?: API.GithubV3Json.Migrations.GetStatusForOrg.QueryParams;
-  headers?: API.GithubV3Json.Migrations.GetStatusForOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -114,7 +114,7 @@ export function getStatusForOrg(options: {
 export function getListForOrg(options: {
   pathParams: API.GithubV3Json.Migrations.GetListForOrg.PathParams;
   queryParams?: API.GithubV3Json.Migrations.GetListForOrg.QueryParams;
-  headers?: API.GithubV3Json.Migrations.GetListForOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -133,7 +133,7 @@ export function getListForOrg(options: {
  */
 export function postStartForOrg(options: {
   pathParams: API.GithubV3Json.Migrations.PostStartForOrg.PathParams;
-  headers?: API.GithubV3Json.Migrations.PostStartForOrg.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Migrations.PostStartForOrg.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -153,7 +153,7 @@ export function postStartForOrg(options: {
  */
 export function patchMapCommitAuthor(options: {
   pathParams: API.GithubV3Json.Migrations.PatchMapCommitAuthor.PathParams;
-  headers?: API.GithubV3Json.Migrations.PatchMapCommitAuthor.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Migrations.PatchMapCommitAuthor.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -176,7 +176,7 @@ export function patchMapCommitAuthor(options: {
 export function getCommitAuthors(options: {
   pathParams: API.GithubV3Json.Migrations.GetCommitAuthors.PathParams;
   queryParams?: API.GithubV3Json.Migrations.GetCommitAuthors.QueryParams;
-  headers?: API.GithubV3Json.Migrations.GetCommitAuthors.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -195,7 +195,7 @@ export function getCommitAuthors(options: {
  */
 export function getLargeFiles(options: {
   pathParams: API.GithubV3Json.Migrations.GetLargeFiles.PathParams;
-  headers?: API.GithubV3Json.Migrations.GetLargeFiles.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -214,7 +214,7 @@ export function getLargeFiles(options: {
  */
 export function patchSetLfsPreference(options: {
   pathParams: API.GithubV3Json.Migrations.PatchSetLfsPreference.PathParams;
-  headers?: API.GithubV3Json.Migrations.PatchSetLfsPreference.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Migrations.PatchSetLfsPreference.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -234,7 +234,7 @@ export function patchSetLfsPreference(options: {
  */
 export function deleteCancelImport(options: {
   pathParams: API.GithubV3Json.Migrations.DeleteCancelImport.PathParams;
-  headers?: API.GithubV3Json.Migrations.DeleteCancelImport.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -283,7 +283,7 @@ export function deleteCancelImport(options: {
  */
 export function getImportStatus(options: {
   pathParams: API.GithubV3Json.Migrations.GetImportStatus.PathParams;
-  headers?: API.GithubV3Json.Migrations.GetImportStatus.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -307,7 +307,7 @@ export function getImportStatus(options: {
  */
 export function patchUpdateImport(options: {
   pathParams: API.GithubV3Json.Migrations.PatchUpdateImport.PathParams;
-  headers?: API.GithubV3Json.Migrations.PatchUpdateImport.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Migrations.PatchUpdateImport.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -327,7 +327,7 @@ export function patchUpdateImport(options: {
  */
 export function putStartImport(options: {
   pathParams: API.GithubV3Json.Migrations.PutStartImport.PathParams;
-  headers?: API.GithubV3Json.Migrations.PutStartImport.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Migrations.PutStartImport.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -347,7 +347,7 @@ export function putStartImport(options: {
  */
 export function deleteArchiveForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Migrations.DeleteArchiveForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Migrations.DeleteArchiveForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -385,7 +385,7 @@ export function deleteArchiveForAuthenticatedUser(options: {
  */
 export function getArchiveForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Migrations.GetArchiveForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Migrations.GetArchiveForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -404,7 +404,7 @@ export function getArchiveForAuthenticatedUser(options: {
  */
 export function deleteUnlockRepoForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Migrations.DeleteUnlockRepoForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Migrations.DeleteUnlockRepoForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -424,7 +424,7 @@ export function deleteUnlockRepoForAuthenticatedUser(options: {
 export function getListReposForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Migrations.GetListReposForAuthenticatedUser.PathParams;
   queryParams?: API.GithubV3Json.Migrations.GetListReposForAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Migrations.GetListReposForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -450,7 +450,7 @@ export function getListReposForAuthenticatedUser(options: {
 export function getStatusForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Migrations.GetStatusForAuthenticatedUser.PathParams;
   queryParams?: API.GithubV3Json.Migrations.GetStatusForAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Migrations.GetStatusForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -469,7 +469,7 @@ export function getStatusForAuthenticatedUser(options: {
  */
 export function getListForAuthenticatedUser(options?: {
   queryParams?: API.GithubV3Json.Migrations.GetListForAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Migrations.GetListForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -487,7 +487,7 @@ export function getListForAuthenticatedUser(options?: {
  * @docs https://docs.github.com/rest/migrations/users#start-a-user-migration
  */
 export function postStartForAuthenticatedUser(options: {
-  headers?: API.GithubV3Json.Migrations.PostStartForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Migrations.PostStartForAuthenticatedUser.Body;
   config?: RequestConfig;
   context?: RequestContext;

@@ -2,10 +2,6 @@ declare namespace API {
   namespace TwitterV3Json {
     namespace Usage {
       namespace GetTweets {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * The number of days for which you need usage for.

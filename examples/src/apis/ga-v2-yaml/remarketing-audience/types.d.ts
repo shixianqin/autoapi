@@ -2,10 +2,6 @@ declare namespace API {
   namespace GaV2Yaml {
     namespace RemarketingAudience {
       namespace GetAnalyticsManagement {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account ID of the remarketing audience to retrieve
@@ -24,10 +20,6 @@ declare namespace API {
 
       namespace PatchAnalyticsManagement {
         type Body = $schemas.Holder;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -48,10 +40,6 @@ declare namespace API {
       namespace PutAnalyticsManagementUpdate {
         type Body = $schemas.Holder;
 
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account ID of the remarketing audience to update
@@ -69,10 +57,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsManagementList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account ID of the remarketing audiences to retrieve
@@ -99,10 +83,6 @@ declare namespace API {
 
       namespace PostAnalyticsManagementInsert {
         type Body = $schemas.Holder;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**

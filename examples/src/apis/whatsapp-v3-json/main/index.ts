@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/settings/profile/photo`
  */
 export function deleteProfilePhoto(options?: {
-  headers?: API.WhatsappV3Json.Main.DeleteProfilePhoto.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

@@ -2,14 +2,6 @@ declare namespace API {
   namespace WordpressV2Json {
     namespace GlobalStyles {
       namespace GetWpV2ThemesStylesheetVariations {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The theme identifier
@@ -19,14 +11,6 @@ declare namespace API {
       }
 
       namespace GetWpV2ThemesStylesheet {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The theme identifier
@@ -36,14 +20,6 @@ declare namespace API {
       }
 
       namespace GetWpV2Id {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The id of a template
@@ -53,14 +29,6 @@ declare namespace API {
       }
 
       namespace PatchWpV2Id {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           id: string;
         }
@@ -97,28 +65,12 @@ declare namespace API {
           title?: string;
         }
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           id: string;
         }
       }
 
       namespace PutWpV2Id {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           id: string;
         }

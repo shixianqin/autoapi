@@ -2,14 +2,6 @@ declare namespace API {
   namespace WordpressV2Json {
     namespace Plugins {
       namespace DeleteWpV2Plugin {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           plugin: string;
         }
@@ -23,14 +15,6 @@ declare namespace API {
       }
 
       namespace GetWpV2Plugin {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           plugin: string;
         }
@@ -44,14 +28,6 @@ declare namespace API {
       }
 
       namespace PatchWpV2Plugin {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           plugin: string;
         }
@@ -80,28 +56,12 @@ declare namespace API {
           status?: Array<"active" | "inactive">;
         }
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           plugin: string;
         }
       }
 
       namespace PutWpV2Plugin {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           plugin: string;
         }
@@ -119,14 +79,6 @@ declare namespace API {
       }
 
       namespace GetWpV2 {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Scope under which the request is made; determines fields present in response.
@@ -153,14 +105,6 @@ declare namespace API {
            * The plugin activation status.
            */
           status?: Array<"active" | "inactive">;
-        }
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
         }
       }
     }

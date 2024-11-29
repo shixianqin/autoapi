@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getWpV2Lookup(options: {
   queryParams: API.WordpressV2Json.Templates.GetWpV2Lookup.QueryParams;
-  headers?: API.WordpressV2Json.Templates.GetWpV2Lookup.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -18,7 +18,7 @@ export function getWpV2Lookup(options: {
 export function getWpV2IdAutosaves(options: {
   pathParams: API.WordpressV2Json.Templates.GetWpV2IdAutosaves.PathParams;
   queryParams?: API.WordpressV2Json.Templates.GetWpV2IdAutosaves.QueryParams;
-  headers?: API.WordpressV2Json.Templates.GetWpV2IdAutosaves.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -34,7 +34,7 @@ export function getWpV2IdAutosaves(options: {
  */
 export function postWpV2IdAutosaves(options: {
   pathParams: API.WordpressV2Json.Templates.PostWpV2IdAutosaves.PathParams;
-  headers?: API.WordpressV2Json.Templates.PostWpV2IdAutosaves.Headers;
+  headers?: Record<string, any>;
   formData?: API.WordpressV2Json.Templates.PostWpV2IdAutosaves.FormData;
   config?: RequestConfig;
   context?: RequestContext;
@@ -52,7 +52,7 @@ export function postWpV2IdAutosaves(options: {
 export function deleteWpV2Id(options: {
   pathParams: API.WordpressV2Json.Templates.DeleteWpV2Id.PathParams;
   queryParams?: API.WordpressV2Json.Templates.DeleteWpV2Id.QueryParams;
-  headers?: API.WordpressV2Json.Templates.DeleteWpV2Id.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -69,7 +69,7 @@ export function deleteWpV2Id(options: {
 export function getWpV2Id(options: {
   pathParams: API.WordpressV2Json.Templates.GetWpV2Id.PathParams;
   queryParams?: API.WordpressV2Json.Templates.GetWpV2Id.QueryParams;
-  headers?: API.WordpressV2Json.Templates.GetWpV2Id.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -86,7 +86,7 @@ export function getWpV2Id(options: {
 export function patchWpV2Id(options: {
   pathParams: API.WordpressV2Json.Templates.PatchWpV2Id.PathParams;
   queryParams?: API.WordpressV2Json.Templates.PatchWpV2Id.QueryParams;
-  headers?: API.WordpressV2Json.Templates.PatchWpV2Id.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -102,7 +102,7 @@ export function patchWpV2Id(options: {
  */
 export function postWpV2Id(options: {
   pathParams: API.WordpressV2Json.Templates.PostWpV2Id.PathParams;
-  headers?: API.WordpressV2Json.Templates.PostWpV2Id.Headers;
+  headers?: Record<string, any>;
   formData?: API.WordpressV2Json.Templates.PostWpV2Id.FormData;
   config?: RequestConfig;
   context?: RequestContext;
@@ -120,7 +120,7 @@ export function postWpV2Id(options: {
 export function putWpV2Id(options: {
   pathParams: API.WordpressV2Json.Templates.PutWpV2Id.PathParams;
   queryParams?: API.WordpressV2Json.Templates.PutWpV2Id.QueryParams;
-  headers?: API.WordpressV2Json.Templates.PutWpV2Id.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -137,7 +137,7 @@ export function putWpV2Id(options: {
 export function getWpV2ParentRevisions(options: {
   pathParams: API.WordpressV2Json.Templates.GetWpV2ParentRevisions.PathParams;
   queryParams?: API.WordpressV2Json.Templates.GetWpV2ParentRevisions.QueryParams;
-  headers?: API.WordpressV2Json.Templates.GetWpV2ParentRevisions.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -154,7 +154,7 @@ export function getWpV2ParentRevisions(options: {
 export function getWpV2Parent(options: {
   pathParams: API.WordpressV2Json.Templates.GetWpV2Parent.PathParams;
   queryParams?: API.WordpressV2Json.Templates.GetWpV2Parent.QueryParams;
-  headers?: API.WordpressV2Json.Templates.GetWpV2Parent.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -170,7 +170,7 @@ export function getWpV2Parent(options: {
  */
 export function getWpV2(options?: {
   queryParams?: API.WordpressV2Json.Templates.GetWpV2.QueryParams;
-  headers?: API.WordpressV2Json.Templates.GetWpV2.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -181,7 +181,7 @@ export function getWpV2(options?: {
  * @path `/wp/v2/templates`
  */
 export function postWpV2(options: {
-  headers?: API.WordpressV2Json.Templates.PostWpV2.Headers;
+  headers?: Record<string, any>;
   formData: API.WordpressV2Json.Templates.PostWpV2.FormData;
   config?: RequestConfig;
   context?: RequestContext;

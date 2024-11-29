@@ -9,7 +9,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @docs https://docs.github.com/rest/reference/rate-limit#get-rate-limit-status-for-the-authenticated-user
  */
 export function getRateLimit(options?: {
-  headers?: API.GithubV3Json.RateLimit.GetRateLimit.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

@@ -2,14 +2,6 @@ declare namespace API {
   namespace WordpressV2Json {
     namespace Navigation {
       namespace GetWpV2IdAutosaves {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           id: number | string;
         }
@@ -74,28 +66,12 @@ declare namespace API {
           title?: string;
         }
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           id: number | string;
         }
       }
 
       namespace DeleteWpV2Id {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Unique identifier for the post.
@@ -112,14 +88,6 @@ declare namespace API {
       }
 
       namespace GetWpV2Id {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Unique identifier for the post.
@@ -140,14 +108,6 @@ declare namespace API {
       }
 
       namespace PatchWpV2Id {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Unique identifier for the post.
@@ -243,14 +203,6 @@ declare namespace API {
           title?: string;
         }
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Unique identifier for the post.
@@ -260,14 +212,6 @@ declare namespace API {
       }
 
       namespace PutWpV2Id {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Unique identifier for the post.
@@ -320,14 +264,6 @@ declare namespace API {
       }
 
       namespace GetWpV2ParentRevisions {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID for the parent of the revision.
@@ -384,14 +320,6 @@ declare namespace API {
       }
 
       namespace GetWpV2Parent {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID for the parent of the autosave.
@@ -412,14 +340,6 @@ declare namespace API {
       }
 
       namespace GetWpV2 {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Limit response to posts published after a given ISO8601 compliant date.
@@ -541,14 +461,6 @@ declare namespace API {
            * The title for the post.
            */
           title?: string;
-        }
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
         }
       }
     }

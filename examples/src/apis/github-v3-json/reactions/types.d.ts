@@ -2,10 +2,6 @@ declare namespace API {
   namespace GithubV3Json {
     namespace Reactions {
       namespace DeleteForTeamDiscussionComment {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the comment.
@@ -31,10 +27,6 @@ declare namespace API {
       }
 
       namespace GetListForTeamDiscussionCommentInOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the comment.
@@ -98,11 +90,6 @@ declare namespace API {
             | "rocket";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the comment.
@@ -126,10 +113,6 @@ declare namespace API {
       }
 
       namespace DeleteForTeamDiscussion {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the discussion.
@@ -151,10 +134,6 @@ declare namespace API {
       }
 
       namespace GetListForTeamDiscussionInOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the discussion.
@@ -214,11 +193,6 @@ declare namespace API {
             | "rocket";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the discussion.
@@ -238,10 +212,6 @@ declare namespace API {
       }
 
       namespace DeleteForCommitComment {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the comment.
@@ -263,10 +233,6 @@ declare namespace API {
       }
 
       namespace GetListForCommitComment {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the comment.
@@ -326,11 +292,6 @@ declare namespace API {
             | "rocket";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the comment.
@@ -350,10 +311,6 @@ declare namespace API {
       }
 
       namespace DeleteForIssueComment {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the comment.
@@ -375,10 +332,6 @@ declare namespace API {
       }
 
       namespace GetListForIssueComment {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the comment.
@@ -438,11 +391,6 @@ declare namespace API {
             | "rocket";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the comment.
@@ -462,10 +410,6 @@ declare namespace API {
       }
 
       namespace DeleteForIssue {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the issue.
@@ -487,10 +431,6 @@ declare namespace API {
       }
 
       namespace GetListForIssue {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the issue.
@@ -550,11 +490,6 @@ declare namespace API {
             | "rocket";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the issue.
@@ -574,10 +509,6 @@ declare namespace API {
       }
 
       namespace DeleteForPullRequestComment {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the comment.
@@ -599,10 +530,6 @@ declare namespace API {
       }
 
       namespace GetListForPullRequestReviewComment {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the comment.
@@ -662,11 +589,6 @@ declare namespace API {
             | "rocket";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the comment.
@@ -686,10 +608,6 @@ declare namespace API {
       }
 
       namespace DeleteForRelease {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -711,10 +629,6 @@ declare namespace API {
       }
 
       namespace GetListForRelease {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -758,11 +672,6 @@ declare namespace API {
           content: "+1" | "eyes" | "heart" | "hooray" | "laugh" | "rocket";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -782,10 +691,6 @@ declare namespace API {
       }
 
       namespace GetListForTeamDiscussionCommentLegacy {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the comment.
@@ -845,11 +750,6 @@ declare namespace API {
             | "rocket";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the comment.
@@ -869,10 +769,6 @@ declare namespace API {
       }
 
       namespace GetListForTeamDiscussionLegacy {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the discussion.
@@ -926,11 +822,6 @@ declare namespace API {
             | "hooray"
             | "laugh"
             | "rocket";
-        }
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
         }
 
         interface PathParams {

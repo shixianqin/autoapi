@@ -2,14 +2,6 @@ declare namespace API {
   namespace CustomizeResponses {
     namespace Categories {
       namespace GetWpV2 {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Scope under which the request is made; determines fields present in response.
@@ -127,14 +119,6 @@ declare namespace API {
            * An alphanumeric identifier for the term unique to its type.
            */
           slug?: string;
-        }
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
         }
       }
     }

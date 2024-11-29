@@ -2,10 +2,6 @@ declare namespace API {
   namespace GaV2Yaml {
     namespace Upload {
       namespace GetAnalyticsManagementUploads {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account Id for the upload to retrieve
@@ -27,10 +23,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsManagementUploadsList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account Id for the uploads to retrieve

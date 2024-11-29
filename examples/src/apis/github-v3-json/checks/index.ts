@@ -9,7 +9,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function getListAnnotations(options: {
   pathParams: API.GithubV3Json.Checks.GetListAnnotations.PathParams;
   queryParams?: API.GithubV3Json.Checks.GetListAnnotations.QueryParams;
-  headers?: API.GithubV3Json.Checks.GetListAnnotations.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -30,7 +30,7 @@ export function getListAnnotations(options: {
  */
 export function postRerequestRun(options: {
   pathParams: API.GithubV3Json.Checks.PostRerequestRun.PathParams;
-  headers?: API.GithubV3Json.Checks.PostRerequestRun.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -51,7 +51,7 @@ export function postRerequestRun(options: {
  */
 export function getChecks(options: {
   pathParams: API.GithubV3Json.Checks.GetChecks.PathParams;
-  headers?: API.GithubV3Json.Checks.GetChecks.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -72,7 +72,7 @@ export function getChecks(options: {
  */
 export function patchUpdate(options: {
   pathParams: API.GithubV3Json.Checks.PatchUpdate.PathParams;
-  headers?: API.GithubV3Json.Checks.PatchUpdate.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Checks.PatchUpdate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -96,7 +96,7 @@ export function patchUpdate(options: {
  */
 export function postCreate(options: {
   pathParams: API.GithubV3Json.Checks.PostCreate.PathParams;
-  headers?: API.GithubV3Json.Checks.PostCreate.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Checks.PostCreate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -116,7 +116,7 @@ export function postCreate(options: {
  */
 export function patchSetSuitesPreferences(options: {
   pathParams: API.GithubV3Json.Checks.PatchSetSuitesPreferences.PathParams;
-  headers?: API.GithubV3Json.Checks.PatchSetSuitesPreferences.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Checks.PatchSetSuitesPreferences.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -139,7 +139,7 @@ export function patchSetSuitesPreferences(options: {
 export function getListForSuite(options: {
   pathParams: API.GithubV3Json.Checks.GetListForSuite.PathParams;
   queryParams?: API.GithubV3Json.Checks.GetListForSuite.QueryParams;
-  headers?: API.GithubV3Json.Checks.GetListForSuite.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -160,7 +160,7 @@ export function getListForSuite(options: {
  */
 export function postRerequestSuite(options: {
   pathParams: API.GithubV3Json.Checks.PostRerequestSuite.PathParams;
-  headers?: API.GithubV3Json.Checks.PostRerequestSuite.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -181,7 +181,7 @@ export function postRerequestSuite(options: {
  */
 export function getSuite(options: {
   pathParams: API.GithubV3Json.Checks.GetSuite.PathParams;
-  headers?: API.GithubV3Json.Checks.GetSuite.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -202,7 +202,7 @@ export function getSuite(options: {
  */
 export function postCreateSuite(options: {
   pathParams: API.GithubV3Json.Checks.PostCreateSuite.PathParams;
-  headers?: API.GithubV3Json.Checks.PostCreateSuite.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Checks.PostCreateSuite.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -225,7 +225,7 @@ export function postCreateSuite(options: {
 export function getListForRef(options: {
   pathParams: API.GithubV3Json.Checks.GetListForRef.PathParams;
   queryParams?: API.GithubV3Json.Checks.GetListForRef.QueryParams;
-  headers?: API.GithubV3Json.Checks.GetListForRef.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -247,7 +247,7 @@ export function getListForRef(options: {
 export function getListSuitesForRef(options: {
   pathParams: API.GithubV3Json.Checks.GetListSuitesForRef.PathParams;
   queryParams?: API.GithubV3Json.Checks.GetListSuitesForRef.QueryParams;
-  headers?: API.GithubV3Json.Checks.GetListSuitesForRef.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

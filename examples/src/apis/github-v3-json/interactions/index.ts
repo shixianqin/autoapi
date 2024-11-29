@@ -8,7 +8,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function deleteRemoveRestrictionsForOrg(options: {
   pathParams: API.GithubV3Json.Interactions.DeleteRemoveRestrictionsForOrg.PathParams;
-  headers?: API.GithubV3Json.Interactions.DeleteRemoveRestrictionsForOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -27,7 +27,7 @@ export function deleteRemoveRestrictionsForOrg(options: {
  */
 export function getRestrictionsForOrg(options: {
   pathParams: API.GithubV3Json.Interactions.GetRestrictionsForOrg.PathParams;
-  headers?: API.GithubV3Json.Interactions.GetRestrictionsForOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -46,7 +46,7 @@ export function getRestrictionsForOrg(options: {
  */
 export function putSetRestrictionsForOrg(options: {
   pathParams: API.GithubV3Json.Interactions.PutSetRestrictionsForOrg.PathParams;
-  headers?: API.GithubV3Json.Interactions.PutSetRestrictionsForOrg.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Interactions.PutSetRestrictionsForOrg.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -66,7 +66,7 @@ export function putSetRestrictionsForOrg(options: {
  */
 export function deleteRemoveRestrictionsForRepo(options: {
   pathParams: API.GithubV3Json.Interactions.DeleteRemoveRestrictionsForRepo.PathParams;
-  headers?: API.GithubV3Json.Interactions.DeleteRemoveRestrictionsForRepo.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -85,7 +85,7 @@ export function deleteRemoveRestrictionsForRepo(options: {
  */
 export function getRestrictionsForRepo(options: {
   pathParams: API.GithubV3Json.Interactions.GetRestrictionsForRepo.PathParams;
-  headers?: API.GithubV3Json.Interactions.GetRestrictionsForRepo.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -104,7 +104,7 @@ export function getRestrictionsForRepo(options: {
  */
 export function putSetRestrictionsForRepo(options: {
   pathParams: API.GithubV3Json.Interactions.PutSetRestrictionsForRepo.PathParams;
-  headers?: API.GithubV3Json.Interactions.PutSetRestrictionsForRepo.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Interactions.PutSetRestrictionsForRepo.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -123,7 +123,7 @@ export function putSetRestrictionsForRepo(options: {
  * @docs https://docs.github.com/rest/reference/interactions#remove-interaction-restrictions-from-your-public-repositories
  */
 export function deleteRemoveRestrictionsForAuthenticatedUser(options?: {
-  headers?: API.GithubV3Json.Interactions.DeleteRemoveRestrictionsForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -137,7 +137,7 @@ export function deleteRemoveRestrictionsForAuthenticatedUser(options?: {
  * @docs https://docs.github.com/rest/reference/interactions#get-interaction-restrictions-for-your-public-repositories
  */
 export function getRestrictionsForAuthenticatedUser(options?: {
-  headers?: API.GithubV3Json.Interactions.GetRestrictionsForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -155,7 +155,7 @@ export function getRestrictionsForAuthenticatedUser(options?: {
  * @docs https://docs.github.com/rest/reference/interactions#set-interaction-restrictions-for-your-public-repositories
  */
 export function putSetRestrictionsForAuthenticatedUser(options: {
-  headers?: API.GithubV3Json.Interactions.PutSetRestrictionsForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Interactions.PutSetRestrictionsForAuthenticatedUser.Body;
   config?: RequestConfig;
   context?: RequestContext;

@@ -4,11 +4,6 @@ declare namespace API {
       namespace PostAnalyticsCreateAccountTicket {
         type Body = $schemas.AccountTicket;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Data format for the response.
@@ -45,11 +40,6 @@ declare namespace API {
 
       namespace PostAnalyticsCreateAccountTree {
         type Body = $schemas.AccountTreeRequest;
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         interface QueryParams {
           /**

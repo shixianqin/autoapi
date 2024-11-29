@@ -6,7 +6,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getServerOptions(options: {
   pathParams: API.CustomizeResponseWrapper.Servers.GetServerOptions.PathParams;
-  headers?: API.CustomizeResponseWrapper.Servers.GetServerOptions.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -24,7 +24,7 @@ export function getServerOptions(options: {
  */
 export function generateServerForLanguage(options: {
   pathParams: API.CustomizeResponseWrapper.Servers.GenerateServerForLanguage.PathParams;
-  headers?: API.CustomizeResponseWrapper.Servers.GenerateServerForLanguage.Headers;
+  headers?: Record<string, any>;
   body?: API.CustomizeResponseWrapper.Servers.GenerateServerForLanguage.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -41,7 +41,7 @@ export function generateServerForLanguage(options: {
  * @path `/gen/servers`
  */
 export function serverOptions(options?: {
-  headers?: API.CustomizeResponseWrapper.Servers.ServerOptions.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

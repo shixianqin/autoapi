@@ -2,10 +2,6 @@ declare namespace API {
   namespace GaV2Yaml {
     namespace Account {
       namespace GetAnalyticsManagementSummariesList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * The maximum number of account summaries to include in this response, where the largest acceptable value is 1000
@@ -19,10 +15,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsManagementAccountsList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * The maximum number of accounts to include in this response

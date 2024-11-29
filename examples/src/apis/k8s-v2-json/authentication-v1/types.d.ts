@@ -2,25 +2,11 @@ declare namespace API {
   namespace K8sV2Json {
     namespace AuthenticationV1 {
       namespace GetApiResources {
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/yaml"
-            | "application/vnd.kubernetes.protobuf"
-            | string;
-          [P: string]: any;
-        }
-
         type Response = $schemas.IoK8sApimachineryPkgApisMetaV1ApiResourceList;
       }
 
       namespace PostCreateSelfSubjectReview {
         type Body = $schemas.IoK8sApiAuthenticationV1SelfSubjectReview;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface QueryParams {
           /**
@@ -46,11 +32,6 @@ declare namespace API {
 
       namespace PostCreateTokenReview {
         type Body = $schemas.IoK8sApiAuthenticationV1TokenReview;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface QueryParams {
           /**

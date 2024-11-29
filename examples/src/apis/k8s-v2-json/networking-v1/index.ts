@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/apis/networking.k8s.io/v1/`
  */
 export function getApiResources(options?: {
-  headers?: API.K8sV2Json.NetworkingV1.GetApiResources.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -23,7 +23,7 @@ export function getApiResources(options?: {
 export function deleteIngressClass(options: {
   pathParams: API.K8sV2Json.NetworkingV1.DeleteIngressClass.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1.DeleteIngressClass.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.DeleteIngressClass.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.NetworkingV1.DeleteIngressClass.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -42,7 +42,7 @@ export function deleteIngressClass(options: {
 export function getReadIngressClass(options: {
   pathParams: API.K8sV2Json.NetworkingV1.GetReadIngressClass.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1.GetReadIngressClass.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.GetReadIngressClass.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -60,7 +60,7 @@ export function getReadIngressClass(options: {
 export function patchIngressClass(options: {
   pathParams: API.K8sV2Json.NetworkingV1.PatchIngressClass.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1.PatchIngressClass.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.PatchIngressClass.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.NetworkingV1.PatchIngressClass.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -79,7 +79,7 @@ export function patchIngressClass(options: {
 export function putReplaceIngressClass(options: {
   pathParams: API.K8sV2Json.NetworkingV1.PutReplaceIngressClass.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1.PutReplaceIngressClass.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.PutReplaceIngressClass.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.NetworkingV1.PutReplaceIngressClass.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -97,7 +97,7 @@ export function putReplaceIngressClass(options: {
  */
 export function deleteCollectionIngressClass(options?: {
   queryParams?: API.K8sV2Json.NetworkingV1.DeleteCollectionIngressClass.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.DeleteCollectionIngressClass.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.NetworkingV1.DeleteCollectionIngressClass.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -115,7 +115,7 @@ export function deleteCollectionIngressClass(options?: {
  */
 export function getListIngressClass(options?: {
   queryParams?: API.K8sV2Json.NetworkingV1.GetListIngressClass.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.GetListIngressClass.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -132,7 +132,7 @@ export function getListIngressClass(options?: {
  */
 export function postCreateIngressClass(options?: {
   queryParams?: API.K8sV2Json.NetworkingV1.PostCreateIngressClass.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.PostCreateIngressClass.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.NetworkingV1.PostCreateIngressClass.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -150,7 +150,7 @@ export function postCreateIngressClass(options?: {
  */
 export function getListIngressForAllNamespaces(options?: {
   queryParams?: API.K8sV2Json.NetworkingV1.GetListIngressForAllNamespaces.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.GetListIngressForAllNamespaces.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -168,7 +168,7 @@ export function getListIngressForAllNamespaces(options?: {
 export function getReadNamespacedIngressStatus(options: {
   pathParams: API.K8sV2Json.NetworkingV1.GetReadNamespacedIngressStatus.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1.GetReadNamespacedIngressStatus.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.GetReadNamespacedIngressStatus.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -186,7 +186,7 @@ export function getReadNamespacedIngressStatus(options: {
 export function patchNamespacedIngressStatus(options: {
   pathParams: API.K8sV2Json.NetworkingV1.PatchNamespacedIngressStatus.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1.PatchNamespacedIngressStatus.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.PatchNamespacedIngressStatus.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.NetworkingV1.PatchNamespacedIngressStatus.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -205,7 +205,7 @@ export function patchNamespacedIngressStatus(options: {
 export function putReplaceNamespacedIngressStatus(options: {
   pathParams: API.K8sV2Json.NetworkingV1.PutReplaceNamespacedIngressStatus.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1.PutReplaceNamespacedIngressStatus.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.PutReplaceNamespacedIngressStatus.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.NetworkingV1.PutReplaceNamespacedIngressStatus.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -224,7 +224,7 @@ export function putReplaceNamespacedIngressStatus(options: {
 export function deleteNamespacedIngress(options: {
   pathParams: API.K8sV2Json.NetworkingV1.DeleteNamespacedIngress.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1.DeleteNamespacedIngress.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.DeleteNamespacedIngress.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.NetworkingV1.DeleteNamespacedIngress.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -243,7 +243,7 @@ export function deleteNamespacedIngress(options: {
 export function getReadNamespacedIngress(options: {
   pathParams: API.K8sV2Json.NetworkingV1.GetReadNamespacedIngress.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1.GetReadNamespacedIngress.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.GetReadNamespacedIngress.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -261,7 +261,7 @@ export function getReadNamespacedIngress(options: {
 export function patchNamespacedIngress(options: {
   pathParams: API.K8sV2Json.NetworkingV1.PatchNamespacedIngress.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1.PatchNamespacedIngress.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.PatchNamespacedIngress.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.NetworkingV1.PatchNamespacedIngress.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -280,7 +280,7 @@ export function patchNamespacedIngress(options: {
 export function putReplaceNamespacedIngress(options: {
   pathParams: API.K8sV2Json.NetworkingV1.PutReplaceNamespacedIngress.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1.PutReplaceNamespacedIngress.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.PutReplaceNamespacedIngress.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.NetworkingV1.PutReplaceNamespacedIngress.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -299,7 +299,7 @@ export function putReplaceNamespacedIngress(options: {
 export function deleteCollectionNamespacedIngress(options: {
   pathParams: API.K8sV2Json.NetworkingV1.DeleteCollectionNamespacedIngress.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1.DeleteCollectionNamespacedIngress.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.DeleteCollectionNamespacedIngress.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.NetworkingV1.DeleteCollectionNamespacedIngress.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -318,7 +318,7 @@ export function deleteCollectionNamespacedIngress(options: {
 export function getListNamespacedIngress(options: {
   pathParams: API.K8sV2Json.NetworkingV1.GetListNamespacedIngress.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1.GetListNamespacedIngress.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.GetListNamespacedIngress.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -336,7 +336,7 @@ export function getListNamespacedIngress(options: {
 export function postCreateNamespacedIngress(options: {
   pathParams: API.K8sV2Json.NetworkingV1.PostCreateNamespacedIngress.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1.PostCreateNamespacedIngress.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.PostCreateNamespacedIngress.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.NetworkingV1.PostCreateNamespacedIngress.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -355,7 +355,7 @@ export function postCreateNamespacedIngress(options: {
 export function deleteNamespacedNetworkPolicy(options: {
   pathParams: API.K8sV2Json.NetworkingV1.DeleteNamespacedNetworkPolicy.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1.DeleteNamespacedNetworkPolicy.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.DeleteNamespacedNetworkPolicy.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.NetworkingV1.DeleteNamespacedNetworkPolicy.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -374,7 +374,7 @@ export function deleteNamespacedNetworkPolicy(options: {
 export function getReadNamespacedNetworkPolicy(options: {
   pathParams: API.K8sV2Json.NetworkingV1.GetReadNamespacedNetworkPolicy.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1.GetReadNamespacedNetworkPolicy.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.GetReadNamespacedNetworkPolicy.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -392,7 +392,7 @@ export function getReadNamespacedNetworkPolicy(options: {
 export function patchNamespacedNetworkPolicy(options: {
   pathParams: API.K8sV2Json.NetworkingV1.PatchNamespacedNetworkPolicy.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1.PatchNamespacedNetworkPolicy.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.PatchNamespacedNetworkPolicy.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.NetworkingV1.PatchNamespacedNetworkPolicy.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -411,7 +411,7 @@ export function patchNamespacedNetworkPolicy(options: {
 export function putReplaceNamespacedNetworkPolicy(options: {
   pathParams: API.K8sV2Json.NetworkingV1.PutReplaceNamespacedNetworkPolicy.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1.PutReplaceNamespacedNetworkPolicy.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.PutReplaceNamespacedNetworkPolicy.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.NetworkingV1.PutReplaceNamespacedNetworkPolicy.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -430,7 +430,7 @@ export function putReplaceNamespacedNetworkPolicy(options: {
 export function deleteCollectionNamespacedNetworkPolicy(options: {
   pathParams: API.K8sV2Json.NetworkingV1.DeleteCollectionNamespacedNetworkPolicy.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1.DeleteCollectionNamespacedNetworkPolicy.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.DeleteCollectionNamespacedNetworkPolicy.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.NetworkingV1.DeleteCollectionNamespacedNetworkPolicy.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -449,7 +449,7 @@ export function deleteCollectionNamespacedNetworkPolicy(options: {
 export function getListNamespacedNetworkPolicy(options: {
   pathParams: API.K8sV2Json.NetworkingV1.GetListNamespacedNetworkPolicy.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1.GetListNamespacedNetworkPolicy.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.GetListNamespacedNetworkPolicy.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -467,7 +467,7 @@ export function getListNamespacedNetworkPolicy(options: {
 export function postCreateNamespacedNetworkPolicy(options: {
   pathParams: API.K8sV2Json.NetworkingV1.PostCreateNamespacedNetworkPolicy.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1.PostCreateNamespacedNetworkPolicy.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.PostCreateNamespacedNetworkPolicy.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.NetworkingV1.PostCreateNamespacedNetworkPolicy.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -485,7 +485,7 @@ export function postCreateNamespacedNetworkPolicy(options: {
  */
 export function getListNetworkPolicyForAllNamespaces(options?: {
   queryParams?: API.K8sV2Json.NetworkingV1.GetListNetworkPolicyForAllNamespaces.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.GetListNetworkPolicyForAllNamespaces.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -503,7 +503,7 @@ export function getListNetworkPolicyForAllNamespaces(options?: {
 export function getWatchIngressClass(options: {
   pathParams: API.K8sV2Json.NetworkingV1.GetWatchIngressClass.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1.GetWatchIngressClass.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.GetWatchIngressClass.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -520,7 +520,7 @@ export function getWatchIngressClass(options: {
  */
 export function getWatchIngressClassList(options?: {
   queryParams?: API.K8sV2Json.NetworkingV1.GetWatchIngressClassList.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.GetWatchIngressClassList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -537,7 +537,7 @@ export function getWatchIngressClassList(options?: {
  */
 export function getWatchIngressListForAllNamespaces(options?: {
   queryParams?: API.K8sV2Json.NetworkingV1.GetWatchIngressListForAllNamespaces.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.GetWatchIngressListForAllNamespaces.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -555,7 +555,7 @@ export function getWatchIngressListForAllNamespaces(options?: {
 export function getWatchNamespacedIngress(options: {
   pathParams: API.K8sV2Json.NetworkingV1.GetWatchNamespacedIngress.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1.GetWatchNamespacedIngress.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.GetWatchNamespacedIngress.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -573,7 +573,7 @@ export function getWatchNamespacedIngress(options: {
 export function getWatchNamespacedIngressList(options: {
   pathParams: API.K8sV2Json.NetworkingV1.GetWatchNamespacedIngressList.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1.GetWatchNamespacedIngressList.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.GetWatchNamespacedIngressList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -591,7 +591,7 @@ export function getWatchNamespacedIngressList(options: {
 export function getWatchNamespacedNetworkPolicy(options: {
   pathParams: API.K8sV2Json.NetworkingV1.GetWatchNamespacedNetworkPolicy.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1.GetWatchNamespacedNetworkPolicy.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.GetWatchNamespacedNetworkPolicy.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -609,7 +609,7 @@ export function getWatchNamespacedNetworkPolicy(options: {
 export function getWatchNamespacedNetworkPolicyList(options: {
   pathParams: API.K8sV2Json.NetworkingV1.GetWatchNamespacedNetworkPolicyList.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1.GetWatchNamespacedNetworkPolicyList.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.GetWatchNamespacedNetworkPolicyList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -626,7 +626,7 @@ export function getWatchNamespacedNetworkPolicyList(options: {
  */
 export function getWatchNetworkPolicyListForAllNamespaces(options?: {
   queryParams?: API.K8sV2Json.NetworkingV1.GetWatchNetworkPolicyListForAllNamespaces.QueryParams;
-  headers?: API.K8sV2Json.NetworkingV1.GetWatchNetworkPolicyListForAllNamespaces.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

@@ -12,7 +12,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function postExecuteIntegration(options: {
   pathParams: API.SwaggerHubV2Json.Integrations.PostExecuteIntegration.PathParams;
   queryParams?: API.SwaggerHubV2Json.Integrations.PostExecuteIntegration.QueryParams;
-  headers?: API.SwaggerHubV2Json.Integrations.PostExecuteIntegration.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -30,7 +30,7 @@ export function postExecuteIntegration(options: {
  */
 export function deleteIntegration(options: {
   pathParams: API.SwaggerHubV2Json.Integrations.DeleteIntegration.PathParams;
-  headers?: API.SwaggerHubV2Json.Integrations.DeleteIntegration.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -48,7 +48,7 @@ export function deleteIntegration(options: {
  */
 export function getIntegrationById(options: {
   pathParams: API.SwaggerHubV2Json.Integrations.GetIntegrationById.PathParams;
-  headers?: API.SwaggerHubV2Json.Integrations.GetIntegrationById.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -88,7 +88,7 @@ export function getIntegrationById(options: {
  */
 export function patchIntegration(options: {
   pathParams: API.SwaggerHubV2Json.Integrations.PatchIntegration.PathParams;
-  headers?: API.SwaggerHubV2Json.Integrations.PatchIntegration.Headers;
+  headers?: Record<string, any>;
   body?: API.SwaggerHubV2Json.Integrations.PatchIntegration.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -130,7 +130,7 @@ export function patchIntegration(options: {
  */
 export function putUpdateIntegration(options: {
   pathParams: API.SwaggerHubV2Json.Integrations.PutUpdateIntegration.PathParams;
-  headers?: API.SwaggerHubV2Json.Integrations.PutUpdateIntegration.Headers;
+  headers?: Record<string, any>;
   body?: API.SwaggerHubV2Json.Integrations.PutUpdateIntegration.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -151,7 +151,7 @@ export function putUpdateIntegration(options: {
  */
 export function getIntegrations(options: {
   pathParams: API.SwaggerHubV2Json.Integrations.GetIntegrations.PathParams;
-  headers?: API.SwaggerHubV2Json.Integrations.GetIntegrations.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -190,7 +190,7 @@ export function getIntegrations(options: {
  */
 export function postCreateIntegration(options: {
   pathParams: API.SwaggerHubV2Json.Integrations.PostCreateIntegration.PathParams;
-  headers?: API.SwaggerHubV2Json.Integrations.PostCreateIntegration.Headers;
+  headers?: Record<string, any>;
   body?: API.SwaggerHubV2Json.Integrations.PostCreateIntegration.Body;
   config?: RequestConfig;
   context?: RequestContext;

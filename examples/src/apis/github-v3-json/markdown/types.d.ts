@@ -4,11 +4,6 @@ declare namespace API {
       namespace PostRenderRaw {
         type Body = string;
 
-        interface Headers {
-          "Content-Type"?: "text/plain" | "text/x-markdown" | string;
-          [P: string]: any;
-        }
-
         type Response = string;
       }
 
@@ -27,11 +22,6 @@ declare namespace API {
            * The Markdown text to render in HTML.
            */
           text: string;
-        }
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
         }
 
         type Response = string;

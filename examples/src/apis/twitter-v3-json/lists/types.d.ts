@@ -2,10 +2,6 @@ declare namespace API {
   namespace TwitterV3Json {
     namespace Lists {
       namespace DeleteListRemoveMember {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the List to remove a member.
@@ -23,11 +19,6 @@ declare namespace API {
       namespace PostListAddMember {
         type Body = $schemas.ListAddUserRequest;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the List for which to add a member.
@@ -39,10 +30,6 @@ declare namespace API {
       }
 
       namespace DeleteListId {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the List to delete.
@@ -54,10 +41,6 @@ declare namespace API {
       }
 
       namespace GetListId {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the List.
@@ -120,11 +103,6 @@ declare namespace API {
       namespace PutListIdUpdate {
         type Body = $schemas.ListUpdateRequest;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the List to modify.
@@ -138,19 +116,10 @@ declare namespace API {
       namespace PostListIdCreate {
         type Body = $schemas.ListCreateRequest;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         type Response = $schemas.ListCreateResponse;
       }
 
       namespace DeleteListUserUnfollow {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the authenticated source User that will unfollow the List.
@@ -166,10 +135,6 @@ declare namespace API {
       }
 
       namespace GetUserFollowed {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the User to lookup.
@@ -244,11 +209,6 @@ declare namespace API {
       namespace PostListUserFollow {
         type Body = $schemas.ListFollowedRequest;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the authenticated source User that will follow the List.
@@ -260,10 +220,6 @@ declare namespace API {
       }
 
       namespace GetUserListMemberships {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the User to lookup.
@@ -336,10 +292,6 @@ declare namespace API {
       }
 
       namespace GetListUserOwned {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the User to lookup.
@@ -412,10 +364,6 @@ declare namespace API {
       }
 
       namespace DeleteListUserUnpin {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the authenticated source User for whom to return results.
@@ -431,10 +379,6 @@ declare namespace API {
       }
 
       namespace GetListUserPinned {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the authenticated source User for whom to return results.
@@ -496,11 +440,6 @@ declare namespace API {
 
       namespace PostListUserPin {
         type Body = $schemas.ListPinnedRequest;
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**

@@ -2,11 +2,6 @@ declare namespace API {
   namespace K8sV2Json {
     namespace CoreV1 {
       namespace GetReadComponentStatus {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ComponentStatus
@@ -25,11 +20,6 @@ declare namespace API {
       }
 
       namespace GetListComponentStatus {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -101,11 +91,6 @@ declare namespace API {
       }
 
       namespace GetListConfigMapForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -177,11 +162,6 @@ declare namespace API {
       }
 
       namespace GetListEndpointsForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -253,11 +233,6 @@ declare namespace API {
       }
 
       namespace GetListEventForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -329,24 +304,10 @@ declare namespace API {
       }
 
       namespace GetApiResources {
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/yaml"
-            | "application/vnd.kubernetes.protobuf"
-            | string;
-          [P: string]: any;
-        }
-
         type Response = $schemas.IoK8sApimachineryPkgApisMetaV1ApiResourceList;
       }
 
       namespace GetListLimitRangeForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -420,11 +381,6 @@ declare namespace API {
       namespace PostCreateNamespacedBinding {
         type Body = $schemas.IoK8sApiCoreV1Binding;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -456,11 +412,6 @@ declare namespace API {
 
       namespace DeleteNamespacedConfigMap {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -500,11 +451,6 @@ declare namespace API {
       }
 
       namespace GetReadNamespacedConfigMap {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ConfigMap
@@ -528,16 +474,6 @@ declare namespace API {
 
       namespace PatchNamespacedConfigMap {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -579,11 +515,6 @@ declare namespace API {
       namespace PutReplaceNamespacedConfigMap {
         type Body = $schemas.IoK8sApiCoreV1ConfigMap;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ConfigMap
@@ -619,11 +550,6 @@ declare namespace API {
 
       namespace DeleteCollectionNamespacedConfigMap {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -711,11 +637,6 @@ declare namespace API {
       }
 
       namespace GetListNamespacedConfigMap {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -796,11 +717,6 @@ declare namespace API {
       namespace PostCreateNamespacedConfigMap {
         type Body = $schemas.IoK8sApiCoreV1ConfigMap;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -832,11 +748,6 @@ declare namespace API {
 
       namespace DeleteNamespacedEndpoints {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -876,11 +787,6 @@ declare namespace API {
       }
 
       namespace GetReadNamespacedEndpoints {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Endpoints
@@ -904,16 +810,6 @@ declare namespace API {
 
       namespace PatchNamespacedEndpoints {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -955,11 +851,6 @@ declare namespace API {
       namespace PutReplaceNamespacedEndpoints {
         type Body = $schemas.IoK8sApiCoreV1Endpoints;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Endpoints
@@ -995,11 +886,6 @@ declare namespace API {
 
       namespace DeleteCollectionNamespacedEndpoints {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -1087,11 +973,6 @@ declare namespace API {
       }
 
       namespace GetListNamespacedEndpoints {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -1172,11 +1053,6 @@ declare namespace API {
       namespace PostCreateNamespacedEndpoints {
         type Body = $schemas.IoK8sApiCoreV1Endpoints;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -1208,11 +1084,6 @@ declare namespace API {
 
       namespace DeleteNamespacedEvent {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -1252,11 +1123,6 @@ declare namespace API {
       }
 
       namespace GetReadNamespacedEvent {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Event
@@ -1280,16 +1146,6 @@ declare namespace API {
 
       namespace PatchNamespacedEvent {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -1331,11 +1187,6 @@ declare namespace API {
       namespace PutReplaceNamespacedEvent {
         type Body = $schemas.IoK8sApiCoreV1Event;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Event
@@ -1371,11 +1222,6 @@ declare namespace API {
 
       namespace DeleteCollectionNamespacedEvent {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -1463,11 +1309,6 @@ declare namespace API {
       }
 
       namespace GetListNamespacedEvent {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -1548,11 +1389,6 @@ declare namespace API {
       namespace PostCreateNamespacedEvent {
         type Body = $schemas.IoK8sApiCoreV1Event;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -1584,11 +1420,6 @@ declare namespace API {
 
       namespace DeleteNamespacedLimitRange {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -1628,11 +1459,6 @@ declare namespace API {
       }
 
       namespace GetReadNamespacedLimitRange {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the LimitRange
@@ -1656,16 +1482,6 @@ declare namespace API {
 
       namespace PatchNamespacedLimitRange {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -1707,11 +1523,6 @@ declare namespace API {
       namespace PutReplaceNamespacedLimitRange {
         type Body = $schemas.IoK8sApiCoreV1LimitRange;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the LimitRange
@@ -1747,11 +1558,6 @@ declare namespace API {
 
       namespace DeleteCollectionNamespacedLimitRange {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -1839,11 +1645,6 @@ declare namespace API {
       }
 
       namespace GetListNamespacedLimitRange {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -1924,11 +1725,6 @@ declare namespace API {
       namespace PostCreateNamespacedLimitRange {
         type Body = $schemas.IoK8sApiCoreV1LimitRange;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -1959,11 +1755,6 @@ declare namespace API {
       }
 
       namespace GetReadNamespacedPersistentVolumeClaimStatus {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PersistentVolumeClaim
@@ -1987,16 +1778,6 @@ declare namespace API {
 
       namespace PatchNamespacedPersistentVolumeClaimStatus {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -2038,11 +1819,6 @@ declare namespace API {
       namespace PutReplaceNamespacedPersistentVolumeClaimStatus {
         type Body = $schemas.IoK8sApiCoreV1PersistentVolumeClaim;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PersistentVolumeClaim
@@ -2078,11 +1854,6 @@ declare namespace API {
 
       namespace DeleteNamespacedPersistentVolumeClaim {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -2122,11 +1893,6 @@ declare namespace API {
       }
 
       namespace GetReadNamespacedPersistentVolumeClaim {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PersistentVolumeClaim
@@ -2150,16 +1916,6 @@ declare namespace API {
 
       namespace PatchNamespacedPersistentVolumeClaim {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -2201,11 +1957,6 @@ declare namespace API {
       namespace PutReplaceNamespacedPersistentVolumeClaim {
         type Body = $schemas.IoK8sApiCoreV1PersistentVolumeClaim;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PersistentVolumeClaim
@@ -2241,11 +1992,6 @@ declare namespace API {
 
       namespace DeleteCollectionNamespacedPersistentVolumeClaim {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -2333,11 +2079,6 @@ declare namespace API {
       }
 
       namespace GetListNamespacedPersistentVolumeClaim {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -2418,11 +2159,6 @@ declare namespace API {
       namespace PostCreateNamespacedPersistentVolumeClaim {
         type Body = $schemas.IoK8sApiCoreV1PersistentVolumeClaim;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -2453,11 +2189,6 @@ declare namespace API {
       }
 
       namespace GetConnectNamespacedPodAttach {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PodAttachOptions
@@ -2496,11 +2227,6 @@ declare namespace API {
       }
 
       namespace PostConnectNamespacedPodAttach {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PodAttachOptions
@@ -2541,11 +2267,6 @@ declare namespace API {
       namespace PostCreateNamespacedPodBinding {
         type Body = $schemas.IoK8sApiCoreV1Binding;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Binding
@@ -2580,11 +2301,6 @@ declare namespace API {
       }
 
       namespace GetReadNamespacedPodEphemeralcontainers {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Pod
@@ -2608,16 +2324,6 @@ declare namespace API {
 
       namespace PatchNamespacedPodEphemeralcontainers {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -2659,11 +2365,6 @@ declare namespace API {
       namespace PutReplaceNamespacedPodEphemeralcontainers {
         type Body = $schemas.IoK8sApiCoreV1Pod;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Pod
@@ -2700,11 +2401,6 @@ declare namespace API {
       namespace PostCreateNamespacedPodEviction {
         type Body = $schemas.IoK8sApiPolicyV1Eviction;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Eviction
@@ -2739,11 +2435,6 @@ declare namespace API {
       }
 
       namespace GetConnectNamespacedPodExec {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PodExecOptions
@@ -2786,11 +2477,6 @@ declare namespace API {
       }
 
       namespace PostConnectNamespacedPodExec {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PodExecOptions
@@ -2833,11 +2519,6 @@ declare namespace API {
       }
 
       namespace GetReadNamespacedPodLog {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Pod
@@ -2892,11 +2573,6 @@ declare namespace API {
       }
 
       namespace GetConnectNamespacedPodPortforward {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PodPortForwardOptions
@@ -2919,11 +2595,6 @@ declare namespace API {
       }
 
       namespace PostConnectNamespacedPodPortforward {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PodPortForwardOptions
@@ -2946,11 +2617,6 @@ declare namespace API {
       }
 
       namespace DeleteConnectNamespacedPodProxyWithPath {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PodProxyOptions
@@ -2977,11 +2643,6 @@ declare namespace API {
       }
 
       namespace GetConnectNamespacedPodProxyWithPath {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PodProxyOptions
@@ -3008,11 +2669,6 @@ declare namespace API {
       }
 
       namespace HeadConnectNamespacedPodProxyWithPath {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PodProxyOptions
@@ -3039,11 +2695,6 @@ declare namespace API {
       }
 
       namespace OptionsConnectNamespacedPodProxyWithPath {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PodProxyOptions
@@ -3070,11 +2721,6 @@ declare namespace API {
       }
 
       namespace PatchConnectNamespacedPodProxyWithPath {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PodProxyOptions
@@ -3101,11 +2747,6 @@ declare namespace API {
       }
 
       namespace PostConnectNamespacedPodProxyWithPath {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PodProxyOptions
@@ -3132,11 +2773,6 @@ declare namespace API {
       }
 
       namespace PutConnectNamespacedPodProxyWithPath {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PodProxyOptions
@@ -3163,11 +2799,6 @@ declare namespace API {
       }
 
       namespace DeleteConnectNamespacedPodProxy {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PodProxyOptions
@@ -3190,11 +2821,6 @@ declare namespace API {
       }
 
       namespace GetConnectNamespacedPodProxy {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PodProxyOptions
@@ -3217,11 +2843,6 @@ declare namespace API {
       }
 
       namespace HeadConnectNamespacedPodProxy {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PodProxyOptions
@@ -3244,11 +2865,6 @@ declare namespace API {
       }
 
       namespace OptionsConnectNamespacedPodProxy {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PodProxyOptions
@@ -3271,11 +2887,6 @@ declare namespace API {
       }
 
       namespace PatchConnectNamespacedPodProxy {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PodProxyOptions
@@ -3298,11 +2909,6 @@ declare namespace API {
       }
 
       namespace PostConnectNamespacedPodProxy {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PodProxyOptions
@@ -3325,11 +2931,6 @@ declare namespace API {
       }
 
       namespace PutConnectNamespacedPodProxy {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PodProxyOptions
@@ -3352,11 +2953,6 @@ declare namespace API {
       }
 
       namespace GetReadNamespacedPodStatus {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Pod
@@ -3380,16 +2976,6 @@ declare namespace API {
 
       namespace PatchNamespacedPodStatus {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -3431,11 +3017,6 @@ declare namespace API {
       namespace PutReplaceNamespacedPodStatus {
         type Body = $schemas.IoK8sApiCoreV1Pod;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Pod
@@ -3471,11 +3052,6 @@ declare namespace API {
 
       namespace DeleteNamespacedPod {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -3515,11 +3091,6 @@ declare namespace API {
       }
 
       namespace GetReadNamespacedPod {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Pod
@@ -3543,16 +3114,6 @@ declare namespace API {
 
       namespace PatchNamespacedPod {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -3594,11 +3155,6 @@ declare namespace API {
       namespace PutReplaceNamespacedPod {
         type Body = $schemas.IoK8sApiCoreV1Pod;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Pod
@@ -3634,11 +3190,6 @@ declare namespace API {
 
       namespace DeleteCollectionNamespacedPod {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -3726,11 +3277,6 @@ declare namespace API {
       }
 
       namespace GetListNamespacedPod {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -3811,11 +3357,6 @@ declare namespace API {
       namespace PostCreateNamespacedPod {
         type Body = $schemas.IoK8sApiCoreV1Pod;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -3847,11 +3388,6 @@ declare namespace API {
 
       namespace DeleteNamespacedPodTemplate {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -3891,11 +3427,6 @@ declare namespace API {
       }
 
       namespace GetReadNamespacedPodTemplate {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PodTemplate
@@ -3919,16 +3450,6 @@ declare namespace API {
 
       namespace PatchNamespacedPodTemplate {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -3970,11 +3491,6 @@ declare namespace API {
       namespace PutReplaceNamespacedPodTemplate {
         type Body = $schemas.IoK8sApiCoreV1PodTemplate;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PodTemplate
@@ -4010,11 +3526,6 @@ declare namespace API {
 
       namespace DeleteCollectionNamespacedPodTemplate {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -4102,11 +3613,6 @@ declare namespace API {
       }
 
       namespace GetListNamespacedPodTemplate {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -4187,11 +3693,6 @@ declare namespace API {
       namespace PostCreateNamespacedPodTemplate {
         type Body = $schemas.IoK8sApiCoreV1PodTemplate;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -4222,11 +3723,6 @@ declare namespace API {
       }
 
       namespace GetReadNamespacedReplicationControllerScale {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Scale
@@ -4250,16 +3746,6 @@ declare namespace API {
 
       namespace PatchNamespacedReplicationControllerScale {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -4301,11 +3787,6 @@ declare namespace API {
       namespace PutReplaceNamespacedReplicationControllerScale {
         type Body = $schemas.IoK8sApiAutoscalingV1Scale;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Scale
@@ -4340,11 +3821,6 @@ declare namespace API {
       }
 
       namespace GetReadNamespacedReplicationControllerStatus {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ReplicationController
@@ -4368,16 +3844,6 @@ declare namespace API {
 
       namespace PatchNamespacedReplicationControllerStatus {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -4419,11 +3885,6 @@ declare namespace API {
       namespace PutReplaceNamespacedReplicationControllerStatus {
         type Body = $schemas.IoK8sApiCoreV1ReplicationController;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ReplicationController
@@ -4459,11 +3920,6 @@ declare namespace API {
 
       namespace DeleteNamespacedReplicationController {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -4503,11 +3959,6 @@ declare namespace API {
       }
 
       namespace GetReadNamespacedReplicationController {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ReplicationController
@@ -4531,16 +3982,6 @@ declare namespace API {
 
       namespace PatchNamespacedReplicationController {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -4582,11 +4023,6 @@ declare namespace API {
       namespace PutReplaceNamespacedReplicationController {
         type Body = $schemas.IoK8sApiCoreV1ReplicationController;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ReplicationController
@@ -4622,11 +4058,6 @@ declare namespace API {
 
       namespace DeleteCollectionNamespacedReplicationController {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -4714,11 +4145,6 @@ declare namespace API {
       }
 
       namespace GetListNamespacedReplicationController {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -4799,11 +4225,6 @@ declare namespace API {
       namespace PostCreateNamespacedReplicationController {
         type Body = $schemas.IoK8sApiCoreV1ReplicationController;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -4834,11 +4255,6 @@ declare namespace API {
       }
 
       namespace GetReadNamespacedResourceQuotaStatus {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ResourceQuota
@@ -4862,16 +4278,6 @@ declare namespace API {
 
       namespace PatchNamespacedResourceQuotaStatus {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -4913,11 +4319,6 @@ declare namespace API {
       namespace PutReplaceNamespacedResourceQuotaStatus {
         type Body = $schemas.IoK8sApiCoreV1ResourceQuota;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ResourceQuota
@@ -4953,11 +4354,6 @@ declare namespace API {
 
       namespace DeleteNamespacedResourceQuota {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -4997,11 +4393,6 @@ declare namespace API {
       }
 
       namespace GetReadNamespacedResourceQuota {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ResourceQuota
@@ -5025,16 +4416,6 @@ declare namespace API {
 
       namespace PatchNamespacedResourceQuota {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -5076,11 +4457,6 @@ declare namespace API {
       namespace PutReplaceNamespacedResourceQuota {
         type Body = $schemas.IoK8sApiCoreV1ResourceQuota;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ResourceQuota
@@ -5116,11 +4492,6 @@ declare namespace API {
 
       namespace DeleteCollectionNamespacedResourceQuota {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -5208,11 +4579,6 @@ declare namespace API {
       }
 
       namespace GetListNamespacedResourceQuota {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -5293,11 +4659,6 @@ declare namespace API {
       namespace PostCreateNamespacedResourceQuota {
         type Body = $schemas.IoK8sApiCoreV1ResourceQuota;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -5329,11 +4690,6 @@ declare namespace API {
 
       namespace DeleteNamespacedSecret {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -5373,11 +4729,6 @@ declare namespace API {
       }
 
       namespace GetReadNamespacedSecret {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Secret
@@ -5401,16 +4752,6 @@ declare namespace API {
 
       namespace PatchNamespacedSecret {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -5452,11 +4793,6 @@ declare namespace API {
       namespace PutReplaceNamespacedSecret {
         type Body = $schemas.IoK8sApiCoreV1Secret;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Secret
@@ -5492,11 +4828,6 @@ declare namespace API {
 
       namespace DeleteCollectionNamespacedSecret {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -5584,11 +4915,6 @@ declare namespace API {
       }
 
       namespace GetListNamespacedSecret {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -5669,11 +4995,6 @@ declare namespace API {
       namespace PostCreateNamespacedSecret {
         type Body = $schemas.IoK8sApiCoreV1Secret;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -5705,11 +5026,6 @@ declare namespace API {
 
       namespace PostCreateNamespacedServiceAccountToken {
         type Body = $schemas.IoK8sApiAuthenticationV1TokenRequest;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -5746,11 +5062,6 @@ declare namespace API {
 
       namespace DeleteNamespacedServiceAccount {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -5790,11 +5101,6 @@ declare namespace API {
       }
 
       namespace GetReadNamespacedServiceAccount {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ServiceAccount
@@ -5818,16 +5124,6 @@ declare namespace API {
 
       namespace PatchNamespacedServiceAccount {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -5869,11 +5165,6 @@ declare namespace API {
       namespace PutReplaceNamespacedServiceAccount {
         type Body = $schemas.IoK8sApiCoreV1ServiceAccount;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ServiceAccount
@@ -5909,11 +5200,6 @@ declare namespace API {
 
       namespace DeleteCollectionNamespacedServiceAccount {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -6001,11 +5287,6 @@ declare namespace API {
       }
 
       namespace GetListNamespacedServiceAccount {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -6086,11 +5367,6 @@ declare namespace API {
       namespace PostCreateNamespacedServiceAccount {
         type Body = $schemas.IoK8sApiCoreV1ServiceAccount;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -6121,11 +5397,6 @@ declare namespace API {
       }
 
       namespace DeleteConnectNamespacedServiceProxyWithPath {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ServiceProxyOptions
@@ -6152,11 +5423,6 @@ declare namespace API {
       }
 
       namespace GetConnectNamespacedServiceProxyWithPath {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ServiceProxyOptions
@@ -6183,11 +5449,6 @@ declare namespace API {
       }
 
       namespace HeadConnectNamespacedServiceProxyWithPath {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ServiceProxyOptions
@@ -6214,11 +5475,6 @@ declare namespace API {
       }
 
       namespace OptionsConnectNamespacedServiceProxyWithPath {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ServiceProxyOptions
@@ -6245,11 +5501,6 @@ declare namespace API {
       }
 
       namespace PatchConnectNamespacedServiceProxyWithPath {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ServiceProxyOptions
@@ -6276,11 +5527,6 @@ declare namespace API {
       }
 
       namespace PostConnectNamespacedServiceProxyWithPath {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ServiceProxyOptions
@@ -6307,11 +5553,6 @@ declare namespace API {
       }
 
       namespace PutConnectNamespacedServiceProxyWithPath {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ServiceProxyOptions
@@ -6338,11 +5579,6 @@ declare namespace API {
       }
 
       namespace DeleteConnectNamespacedServiceProxy {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ServiceProxyOptions
@@ -6365,11 +5601,6 @@ declare namespace API {
       }
 
       namespace GetConnectNamespacedServiceProxy {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ServiceProxyOptions
@@ -6392,11 +5623,6 @@ declare namespace API {
       }
 
       namespace HeadConnectNamespacedServiceProxy {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ServiceProxyOptions
@@ -6419,11 +5645,6 @@ declare namespace API {
       }
 
       namespace OptionsConnectNamespacedServiceProxy {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ServiceProxyOptions
@@ -6446,11 +5667,6 @@ declare namespace API {
       }
 
       namespace PatchConnectNamespacedServiceProxy {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ServiceProxyOptions
@@ -6473,11 +5689,6 @@ declare namespace API {
       }
 
       namespace PostConnectNamespacedServiceProxy {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ServiceProxyOptions
@@ -6500,11 +5711,6 @@ declare namespace API {
       }
 
       namespace PutConnectNamespacedServiceProxy {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ServiceProxyOptions
@@ -6527,11 +5733,6 @@ declare namespace API {
       }
 
       namespace GetReadNamespacedServiceStatus {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Service
@@ -6555,16 +5756,6 @@ declare namespace API {
 
       namespace PatchNamespacedServiceStatus {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -6606,11 +5797,6 @@ declare namespace API {
       namespace PutReplaceNamespacedServiceStatus {
         type Body = $schemas.IoK8sApiCoreV1Service;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Service
@@ -6646,11 +5832,6 @@ declare namespace API {
 
       namespace DeleteNamespacedService {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -6690,11 +5871,6 @@ declare namespace API {
       }
 
       namespace GetReadNamespacedService {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Service
@@ -6718,16 +5894,6 @@ declare namespace API {
 
       namespace PatchNamespacedService {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -6769,11 +5935,6 @@ declare namespace API {
       namespace PutReplaceNamespacedService {
         type Body = $schemas.IoK8sApiCoreV1Service;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Service
@@ -6809,11 +5970,6 @@ declare namespace API {
 
       namespace DeleteCollectionNamespacedService {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -6901,11 +6057,6 @@ declare namespace API {
       }
 
       namespace GetListNamespacedService {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -6986,11 +6137,6 @@ declare namespace API {
       namespace PostCreateNamespacedService {
         type Body = $schemas.IoK8sApiCoreV1Service;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -7023,11 +6169,6 @@ declare namespace API {
       namespace PutReplaceNamespaceFinalize {
         type Body = $schemas.IoK8sApiCoreV1Namespace;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Namespace
@@ -7058,11 +6199,6 @@ declare namespace API {
       }
 
       namespace GetReadNamespaceStatus {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Namespace
@@ -7082,16 +6218,6 @@ declare namespace API {
 
       namespace PatchNamespaceStatus {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -7129,11 +6255,6 @@ declare namespace API {
       namespace PutReplaceNamespaceStatus {
         type Body = $schemas.IoK8sApiCoreV1Namespace;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Namespace
@@ -7165,11 +6286,6 @@ declare namespace API {
 
       namespace DeleteNamespace {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -7205,11 +6321,6 @@ declare namespace API {
       }
 
       namespace GetReadNamespace {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Namespace
@@ -7229,16 +6340,6 @@ declare namespace API {
 
       namespace PatchNamespace {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -7276,11 +6377,6 @@ declare namespace API {
       namespace PutReplaceNamespace {
         type Body = $schemas.IoK8sApiCoreV1Namespace;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Namespace
@@ -7311,11 +6407,6 @@ declare namespace API {
       }
 
       namespace GetListNamespace {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -7389,11 +6480,6 @@ declare namespace API {
       namespace PostCreateNamespace {
         type Body = $schemas.IoK8sApiCoreV1Namespace;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -7417,11 +6503,6 @@ declare namespace API {
       }
 
       namespace DeleteConnectNodeProxyWithPath {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the NodeProxyOptions
@@ -7444,11 +6525,6 @@ declare namespace API {
       }
 
       namespace GetConnectNodeProxyWithPath {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the NodeProxyOptions
@@ -7471,11 +6547,6 @@ declare namespace API {
       }
 
       namespace HeadConnectNodeProxyWithPath {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the NodeProxyOptions
@@ -7498,11 +6569,6 @@ declare namespace API {
       }
 
       namespace OptionsConnectNodeProxyWithPath {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the NodeProxyOptions
@@ -7525,11 +6591,6 @@ declare namespace API {
       }
 
       namespace PatchConnectNodeProxyWithPath {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the NodeProxyOptions
@@ -7552,11 +6613,6 @@ declare namespace API {
       }
 
       namespace PostConnectNodeProxyWithPath {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the NodeProxyOptions
@@ -7579,11 +6635,6 @@ declare namespace API {
       }
 
       namespace PutConnectNodeProxyWithPath {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the NodeProxyOptions
@@ -7606,11 +6657,6 @@ declare namespace API {
       }
 
       namespace DeleteConnectNodeProxy {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the NodeProxyOptions
@@ -7629,11 +6675,6 @@ declare namespace API {
       }
 
       namespace GetConnectNodeProxy {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the NodeProxyOptions
@@ -7652,11 +6693,6 @@ declare namespace API {
       }
 
       namespace HeadConnectNodeProxy {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the NodeProxyOptions
@@ -7675,11 +6711,6 @@ declare namespace API {
       }
 
       namespace OptionsConnectNodeProxy {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the NodeProxyOptions
@@ -7698,11 +6729,6 @@ declare namespace API {
       }
 
       namespace PatchConnectNodeProxy {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the NodeProxyOptions
@@ -7721,11 +6747,6 @@ declare namespace API {
       }
 
       namespace PostConnectNodeProxy {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the NodeProxyOptions
@@ -7744,11 +6765,6 @@ declare namespace API {
       }
 
       namespace PutConnectNodeProxy {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the NodeProxyOptions
@@ -7767,11 +6783,6 @@ declare namespace API {
       }
 
       namespace GetReadNodeStatus {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Node
@@ -7791,16 +6802,6 @@ declare namespace API {
 
       namespace PatchNodeStatus {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -7838,11 +6839,6 @@ declare namespace API {
       namespace PutReplaceNodeStatus {
         type Body = $schemas.IoK8sApiCoreV1Node;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Node
@@ -7874,11 +6870,6 @@ declare namespace API {
 
       namespace DeleteNode {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -7914,11 +6905,6 @@ declare namespace API {
       }
 
       namespace GetReadNode {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Node
@@ -7938,16 +6924,6 @@ declare namespace API {
 
       namespace PatchNode {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -7985,11 +6961,6 @@ declare namespace API {
       namespace PutReplaceNode {
         type Body = $schemas.IoK8sApiCoreV1Node;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Node
@@ -8021,11 +6992,6 @@ declare namespace API {
 
       namespace DeleteCollectionNode {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface QueryParams {
           /**
@@ -8106,11 +7072,6 @@ declare namespace API {
       }
 
       namespace GetListNode {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -8184,11 +7145,6 @@ declare namespace API {
       namespace PostCreateNode {
         type Body = $schemas.IoK8sApiCoreV1Node;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -8212,11 +7168,6 @@ declare namespace API {
       }
 
       namespace GetListPersistentVolumeClaimForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -8288,11 +7239,6 @@ declare namespace API {
       }
 
       namespace GetReadPersistentVolumeStatus {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PersistentVolume
@@ -8312,16 +7258,6 @@ declare namespace API {
 
       namespace PatchPersistentVolumeStatus {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -8359,11 +7295,6 @@ declare namespace API {
       namespace PutReplacePersistentVolumeStatus {
         type Body = $schemas.IoK8sApiCoreV1PersistentVolume;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PersistentVolume
@@ -8395,11 +7326,6 @@ declare namespace API {
 
       namespace DeletePersistentVolume {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -8435,11 +7361,6 @@ declare namespace API {
       }
 
       namespace GetReadPersistentVolume {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PersistentVolume
@@ -8459,16 +7380,6 @@ declare namespace API {
 
       namespace PatchPersistentVolume {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -8506,11 +7417,6 @@ declare namespace API {
       namespace PutReplacePersistentVolume {
         type Body = $schemas.IoK8sApiCoreV1PersistentVolume;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PersistentVolume
@@ -8542,11 +7448,6 @@ declare namespace API {
 
       namespace DeleteCollectionPersistentVolume {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface QueryParams {
           /**
@@ -8627,11 +7528,6 @@ declare namespace API {
       }
 
       namespace GetListPersistentVolume {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -8705,11 +7601,6 @@ declare namespace API {
       namespace PostCreatePersistentVolume {
         type Body = $schemas.IoK8sApiCoreV1PersistentVolume;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed
@@ -8733,11 +7624,6 @@ declare namespace API {
       }
 
       namespace GetListPodForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -8809,11 +7695,6 @@ declare namespace API {
       }
 
       namespace GetListPodTemplateForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -8885,11 +7766,6 @@ declare namespace API {
       }
 
       namespace GetListReplicationControllerForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -8961,11 +7837,6 @@ declare namespace API {
       }
 
       namespace GetListResourceQuotaForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -9037,11 +7908,6 @@ declare namespace API {
       }
 
       namespace GetListSecretForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -9113,11 +7979,6 @@ declare namespace API {
       }
 
       namespace GetListServiceAccountForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -9189,11 +8050,6 @@ declare namespace API {
       }
 
       namespace GetListServiceForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -9265,11 +8121,6 @@ declare namespace API {
       }
 
       namespace GetWatchConfigMapListForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -9341,11 +8192,6 @@ declare namespace API {
       }
 
       namespace GetWatchEndpointsListForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -9417,11 +8263,6 @@ declare namespace API {
       }
 
       namespace GetWatchEventListForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -9493,11 +8334,6 @@ declare namespace API {
       }
 
       namespace GetWatchLimitRangeListForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -9569,11 +8405,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedConfigMap {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ConfigMap
@@ -9656,11 +8487,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedConfigMapList {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -9739,11 +8565,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedEndpoints {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Endpoints
@@ -9826,11 +8647,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedEndpointsList {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -9909,11 +8725,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedEvent {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Event
@@ -9996,11 +8807,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedEventList {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -10079,11 +8885,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedLimitRange {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the LimitRange
@@ -10166,11 +8967,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedLimitRangeList {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -10249,11 +9045,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedPersistentVolumeClaim {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PersistentVolumeClaim
@@ -10336,11 +9127,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedPersistentVolumeClaimList {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -10419,11 +9205,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedPod {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Pod
@@ -10506,11 +9287,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedPodList {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -10589,11 +9365,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedPodTemplate {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PodTemplate
@@ -10676,11 +9447,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedPodTemplateList {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -10759,11 +9525,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedReplicationController {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ReplicationController
@@ -10846,11 +9607,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedReplicationControllerList {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -10929,11 +9685,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedResourceQuota {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ResourceQuota
@@ -11016,11 +9767,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedResourceQuotaList {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -11099,11 +9845,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedSecret {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Secret
@@ -11186,11 +9927,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedSecretList {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -11269,11 +10005,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedServiceAccount {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the ServiceAccount
@@ -11356,11 +10087,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedServiceAccountList {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -11439,11 +10165,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedService {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Service
@@ -11526,11 +10247,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedServiceList {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -11609,11 +10325,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespace {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Namespace
@@ -11692,11 +10403,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespaceList {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -11768,11 +10474,6 @@ declare namespace API {
       }
 
       namespace GetWatchNode {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the Node
@@ -11851,11 +10552,6 @@ declare namespace API {
       }
 
       namespace GetWatchNodeList {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -11927,11 +10623,6 @@ declare namespace API {
       }
 
       namespace GetWatchPersistentVolumeClaimListForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -12003,11 +10694,6 @@ declare namespace API {
       }
 
       namespace GetWatchPersistentVolume {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PersistentVolume
@@ -12086,11 +10772,6 @@ declare namespace API {
       }
 
       namespace GetWatchPersistentVolumeList {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -12162,11 +10843,6 @@ declare namespace API {
       }
 
       namespace GetWatchPodListForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -12238,11 +10914,6 @@ declare namespace API {
       }
 
       namespace GetWatchPodTemplateListForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -12314,11 +10985,6 @@ declare namespace API {
       }
 
       namespace GetWatchReplicationControllerListForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -12390,11 +11056,6 @@ declare namespace API {
       }
 
       namespace GetWatchResourceQuotaListForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -12466,11 +11127,6 @@ declare namespace API {
       }
 
       namespace GetWatchSecretListForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -12542,11 +11198,6 @@ declare namespace API {
       }
 
       namespace GetWatchServiceAccountListForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -12618,11 +11269,6 @@ declare namespace API {
       }
 
       namespace GetWatchServiceListForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.

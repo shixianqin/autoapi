@@ -6,7 +6,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getAnalyticsGa(options: {
   queryParams: API.GaV3Json.Data.GetAnalyticsGa.QueryParams;
-  headers?: API.GaV3Json.Data.GetAnalyticsGa.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -23,7 +23,7 @@ export function getAnalyticsGa(options: {
  */
 export function getAnalyticsMcf(options: {
   queryParams: API.GaV3Json.Data.GetAnalyticsMcf.QueryParams;
-  headers?: API.GaV3Json.Data.GetAnalyticsMcf.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -40,7 +40,7 @@ export function getAnalyticsMcf(options: {
  */
 export function getAnalyticsRealtime(options: {
   queryParams: API.GaV3Json.Data.GetAnalyticsRealtime.QueryParams;
-  headers?: API.GaV3Json.Data.GetAnalyticsRealtime.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

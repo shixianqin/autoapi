@@ -2,10 +2,6 @@ declare namespace API {
   namespace GithubV3Json {
     namespace Activity {
       namespace GetListPublicEvents {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Page number of the results to fetch.
@@ -23,18 +19,10 @@ declare namespace API {
       }
 
       namespace GetFeeds {
-        interface Headers {
-          [P: string]: any;
-        }
-
         type Response = $schemas.Feed;
       }
 
       namespace GetListPublicEventsForRepoNetwork {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -63,10 +51,6 @@ declare namespace API {
       }
 
       namespace DeleteThreadSubscription {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the notification thread. This corresponds to the value returned in the `id` field when you retrieve notifications (for example with the [`GET /notifications` operation](https://docs.github.com/rest/reference/activity#list-notifications-for-the-authenticated-user)).
@@ -76,10 +60,6 @@ declare namespace API {
       }
 
       namespace GetThreadSubscriptionForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the notification thread. This corresponds to the value returned in the `id` field when you retrieve notifications (for example with the [`GET /notifications` operation](https://docs.github.com/rest/reference/activity#list-notifications-for-the-authenticated-user)).
@@ -98,11 +78,6 @@ declare namespace API {
           ignored?: boolean;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the notification thread. This corresponds to the value returned in the `id` field when you retrieve notifications (for example with the [`GET /notifications` operation](https://docs.github.com/rest/reference/activity#list-notifications-for-the-authenticated-user)).
@@ -114,10 +89,6 @@ declare namespace API {
       }
 
       namespace GetThread {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the notification thread. This corresponds to the value returned in the `id` field when you retrieve notifications (for example with the [`GET /notifications` operation](https://docs.github.com/rest/reference/activity#list-notifications-for-the-authenticated-user)).
@@ -129,10 +100,6 @@ declare namespace API {
       }
 
       namespace PatchMarkThreadAsRead {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the notification thread. This corresponds to the value returned in the `id` field when you retrieve notifications (for example with the [`GET /notifications` operation](https://docs.github.com/rest/reference/activity#list-notifications-for-the-authenticated-user)).
@@ -142,10 +109,6 @@ declare namespace API {
       }
 
       namespace GetListNotificationsForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * If `true`, show notifications marked as read.
@@ -193,21 +156,12 @@ declare namespace API {
           read?: boolean;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface Response {
           message?: string;
         }
       }
 
       namespace GetListPublicOrgEvents {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -232,10 +186,6 @@ declare namespace API {
       }
 
       namespace GetListRepoEvents {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -264,10 +214,6 @@ declare namespace API {
       }
 
       namespace GetListRepoNotificationsForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -322,11 +268,6 @@ declare namespace API {
           last_read_at?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -345,10 +286,6 @@ declare namespace API {
       }
 
       namespace GetListStargazersForRepo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -377,10 +314,6 @@ declare namespace API {
       }
 
       namespace GetListWatchersForRepo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -409,10 +342,6 @@ declare namespace API {
       }
 
       namespace DeleteRepoSubscription {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -426,10 +355,6 @@ declare namespace API {
       }
 
       namespace GetRepoSubscription {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -456,11 +381,6 @@ declare namespace API {
           subscribed?: boolean;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -476,10 +396,6 @@ declare namespace API {
       }
 
       namespace DeleteUnstarRepoForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -493,10 +409,6 @@ declare namespace API {
       }
 
       namespace GetCheckRepoIsStarredByAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -510,10 +422,6 @@ declare namespace API {
       }
 
       namespace PutStarRepoForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -527,10 +435,6 @@ declare namespace API {
       }
 
       namespace GetListReposStarredByAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * The direction to sort the results by.
@@ -558,10 +462,6 @@ declare namespace API {
       }
 
       namespace GetListWatchedReposForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Page number of the results to fetch.
@@ -579,10 +479,6 @@ declare namespace API {
       }
 
       namespace GetListOrgEventsForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -611,10 +507,6 @@ declare namespace API {
       }
 
       namespace GetListPublicEventsForUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The handle for the GitHub user account.
@@ -639,10 +531,6 @@ declare namespace API {
       }
 
       namespace GetListEventsForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The handle for the GitHub user account.
@@ -667,10 +555,6 @@ declare namespace API {
       }
 
       namespace GetListReceivedPublicEventsForUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The handle for the GitHub user account.
@@ -695,10 +579,6 @@ declare namespace API {
       }
 
       namespace GetListReceivedEventsForUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The handle for the GitHub user account.
@@ -723,10 +603,6 @@ declare namespace API {
       }
 
       namespace GetListReposStarredByUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The handle for the GitHub user account.
@@ -761,10 +637,6 @@ declare namespace API {
       }
 
       namespace GetListReposWatchedByUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The handle for the GitHub user account.

@@ -4,10 +4,6 @@ declare namespace API {
       namespace PostAnalyticsManagementUploadsDeleteUpload {
         type Body = $schemas.Holder;
 
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account Id for the uploads to be deleted
@@ -25,10 +21,6 @@ declare namespace API {
       }
 
       namespace PostAnalyticsManagementUploadsUpload {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account Id associated with the upload

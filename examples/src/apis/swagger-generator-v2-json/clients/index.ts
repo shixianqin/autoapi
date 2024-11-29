@@ -6,7 +6,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getClientOptions(options: {
   pathParams: API.SwaggerGeneratorV2Json.Clients.GetClientOptions.PathParams;
-  headers?: API.SwaggerGeneratorV2Json.Clients.GetClientOptions.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -24,7 +24,7 @@ export function getClientOptions(options: {
  */
 export function postGenerateClient(options: {
   pathParams: API.SwaggerGeneratorV2Json.Clients.PostGenerateClient.PathParams;
-  headers?: API.SwaggerGeneratorV2Json.Clients.PostGenerateClient.Headers;
+  headers?: Record<string, any>;
   body?: API.SwaggerGeneratorV2Json.Clients.PostGenerateClient.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -41,7 +41,7 @@ export function postGenerateClient(options: {
  * @path `/gen/clients`
  */
 export function getClientOptions2(options?: {
-  headers?: API.SwaggerGeneratorV2Json.Clients.GetClientOptions2.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -59,7 +59,7 @@ export function getClientOptions2(options?: {
  */
 export function getDownloadFile(options: {
   pathParams: API.SwaggerGeneratorV2Json.Clients.GetDownloadFile.PathParams;
-  headers?: API.SwaggerGeneratorV2Json.Clients.GetDownloadFile.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

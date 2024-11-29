@@ -2,24 +2,10 @@ declare namespace API {
   namespace K8sV2Json {
     namespace PolicyV1 {
       namespace GetApiResources {
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/yaml"
-            | "application/vnd.kubernetes.protobuf"
-            | string;
-          [P: string]: any;
-        }
-
         type Response = $schemas.IoK8sApimachineryPkgApisMetaV1ApiResourceList;
       }
 
       namespace GetReadNamespacedPodDisruptionBudgetStatus {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PodDisruptionBudget
@@ -43,16 +29,6 @@ declare namespace API {
 
       namespace PatchNamespacedPodDisruptionBudgetStatus {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -94,11 +70,6 @@ declare namespace API {
       namespace PutReplaceNamespacedPodDisruptionBudgetStatus {
         type Body = $schemas.IoK8sApiPolicyV1PodDisruptionBudget;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PodDisruptionBudget
@@ -134,11 +105,6 @@ declare namespace API {
 
       namespace DeleteNamespacedPodDisruptionBudget {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -178,11 +144,6 @@ declare namespace API {
       }
 
       namespace GetReadNamespacedPodDisruptionBudget {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PodDisruptionBudget
@@ -206,16 +167,6 @@ declare namespace API {
 
       namespace PatchNamespacedPodDisruptionBudget {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -257,11 +208,6 @@ declare namespace API {
       namespace PutReplaceNamespacedPodDisruptionBudget {
         type Body = $schemas.IoK8sApiPolicyV1PodDisruptionBudget;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PodDisruptionBudget
@@ -297,11 +243,6 @@ declare namespace API {
 
       namespace DeleteCollectionNamespacedPodDisruptionBudget {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -389,11 +330,6 @@ declare namespace API {
       }
 
       namespace GetListNamespacedPodDisruptionBudget {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -474,11 +410,6 @@ declare namespace API {
       namespace PostCreateNamespacedPodDisruptionBudget {
         type Body = $schemas.IoK8sApiPolicyV1PodDisruptionBudget;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -509,11 +440,6 @@ declare namespace API {
       }
 
       namespace GetListPodDisruptionBudgetForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -585,11 +511,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedPodDisruptionBudget {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the PodDisruptionBudget
@@ -672,11 +593,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedPodDisruptionBudgetList {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -755,11 +671,6 @@ declare namespace API {
       }
 
       namespace GetWatchPodDisruptionBudgetListForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.

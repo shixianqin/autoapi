@@ -10,7 +10,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getList(options?: {
   queryParams?: API.GithubV3Json.Orgs.GetList.QueryParams;
-  headers?: API.GithubV3Json.Orgs.GetList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -28,7 +28,7 @@ export function getList(options?: {
  */
 export function deleteUnblockUser(options: {
   pathParams: API.GithubV3Json.Orgs.DeleteUnblockUser.PathParams;
-  headers?: API.GithubV3Json.Orgs.DeleteUnblockUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -46,7 +46,7 @@ export function deleteUnblockUser(options: {
  */
 export function getCheckBlockedUser(options: {
   pathParams: API.GithubV3Json.Orgs.GetCheckBlockedUser.PathParams;
-  headers?: API.GithubV3Json.Orgs.GetCheckBlockedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -64,7 +64,7 @@ export function getCheckBlockedUser(options: {
  */
 export function putBlockUser(options: {
   pathParams: API.GithubV3Json.Orgs.PutBlockUser.PathParams;
-  headers?: API.GithubV3Json.Orgs.PutBlockUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -84,7 +84,7 @@ export function putBlockUser(options: {
 export function getListBlockedUsers(options: {
   pathParams: API.GithubV3Json.Orgs.GetListBlockedUsers.PathParams;
   queryParams?: API.GithubV3Json.Orgs.GetListBlockedUsers.QueryParams;
-  headers?: API.GithubV3Json.Orgs.GetListBlockedUsers.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -104,7 +104,7 @@ export function getListBlockedUsers(options: {
 export function getListFailedInvitations(options: {
   pathParams: API.GithubV3Json.Orgs.GetListFailedInvitations.PathParams;
   queryParams?: API.GithubV3Json.Orgs.GetListFailedInvitations.QueryParams;
-  headers?: API.GithubV3Json.Orgs.GetListFailedInvitations.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -125,7 +125,7 @@ export function getListFailedInvitations(options: {
  */
 export function getWebhookConfigForOrg(options: {
   pathParams: API.GithubV3Json.Orgs.GetWebhookConfigForOrg.PathParams;
-  headers?: API.GithubV3Json.Orgs.GetWebhookConfigForOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -146,7 +146,7 @@ export function getWebhookConfigForOrg(options: {
  */
 export function patchUpdateWebhookConfigForOrg(options: {
   pathParams: API.GithubV3Json.Orgs.PatchUpdateWebhookConfigForOrg.PathParams;
-  headers?: API.GithubV3Json.Orgs.PatchUpdateWebhookConfigForOrg.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Orgs.PatchUpdateWebhookConfigForOrg.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -166,7 +166,7 @@ export function patchUpdateWebhookConfigForOrg(options: {
  */
 export function postRedeliverWebhookDelivery(options: {
   pathParams: API.GithubV3Json.Orgs.PostRedeliverWebhookDelivery.PathParams;
-  headers?: API.GithubV3Json.Orgs.PostRedeliverWebhookDelivery.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -185,7 +185,7 @@ export function postRedeliverWebhookDelivery(options: {
  */
 export function getWebhookDelivery(options: {
   pathParams: API.GithubV3Json.Orgs.GetWebhookDelivery.PathParams;
-  headers?: API.GithubV3Json.Orgs.GetWebhookDelivery.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -205,7 +205,7 @@ export function getWebhookDelivery(options: {
 export function getListWebhookDeliveries(options: {
   pathParams: API.GithubV3Json.Orgs.GetListWebhookDeliveries.PathParams;
   queryParams?: API.GithubV3Json.Orgs.GetListWebhookDeliveries.QueryParams;
-  headers?: API.GithubV3Json.Orgs.GetListWebhookDeliveries.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -224,7 +224,7 @@ export function getListWebhookDeliveries(options: {
  */
 export function postPingWebhook(options: {
   pathParams: API.GithubV3Json.Orgs.PostPingWebhook.PathParams;
-  headers?: API.GithubV3Json.Orgs.PostPingWebhook.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -242,7 +242,7 @@ export function postPingWebhook(options: {
  */
 export function deleteWebhook(options: {
   pathParams: API.GithubV3Json.Orgs.DeleteWebhook.PathParams;
-  headers?: API.GithubV3Json.Orgs.DeleteWebhook.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -261,7 +261,7 @@ export function deleteWebhook(options: {
  */
 export function getWebhook(options: {
   pathParams: API.GithubV3Json.Orgs.GetWebhook.PathParams;
-  headers?: API.GithubV3Json.Orgs.GetWebhook.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -280,7 +280,7 @@ export function getWebhook(options: {
  */
 export function patchUpdateWebhook(options: {
   pathParams: API.GithubV3Json.Orgs.PatchUpdateWebhook.PathParams;
-  headers?: API.GithubV3Json.Orgs.PatchUpdateWebhook.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Orgs.PatchUpdateWebhook.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -300,7 +300,7 @@ export function patchUpdateWebhook(options: {
 export function getListWebhooks(options: {
   pathParams: API.GithubV3Json.Orgs.GetListWebhooks.PathParams;
   queryParams?: API.GithubV3Json.Orgs.GetListWebhooks.QueryParams;
-  headers?: API.GithubV3Json.Orgs.GetListWebhooks.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -319,7 +319,7 @@ export function getListWebhooks(options: {
  */
 export function postCreateWebhook(options: {
   pathParams: API.GithubV3Json.Orgs.PostCreateWebhook.PathParams;
-  headers?: API.GithubV3Json.Orgs.PostCreateWebhook.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Orgs.PostCreateWebhook.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -340,7 +340,7 @@ export function postCreateWebhook(options: {
 export function getListAppInstallations(options: {
   pathParams: API.GithubV3Json.Orgs.GetListAppInstallations.PathParams;
   queryParams?: API.GithubV3Json.Orgs.GetListAppInstallations.QueryParams;
-  headers?: API.GithubV3Json.Orgs.GetListAppInstallations.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -360,7 +360,7 @@ export function getListAppInstallations(options: {
 export function getListInvitationTeams(options: {
   pathParams: API.GithubV3Json.Orgs.GetListInvitationTeams.PathParams;
   queryParams?: API.GithubV3Json.Orgs.GetListInvitationTeams.QueryParams;
-  headers?: API.GithubV3Json.Orgs.GetListInvitationTeams.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -381,7 +381,7 @@ export function getListInvitationTeams(options: {
  */
 export function deleteCancelInvitation(options: {
   pathParams: API.GithubV3Json.Orgs.DeleteCancelInvitation.PathParams;
-  headers?: API.GithubV3Json.Orgs.DeleteCancelInvitation.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -401,7 +401,7 @@ export function deleteCancelInvitation(options: {
 export function getListPendingInvitations(options: {
   pathParams: API.GithubV3Json.Orgs.GetListPendingInvitations.PathParams;
   queryParams?: API.GithubV3Json.Orgs.GetListPendingInvitations.QueryParams;
-  headers?: API.GithubV3Json.Orgs.GetListPendingInvitations.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -422,7 +422,7 @@ export function getListPendingInvitations(options: {
  */
 export function postCreateInvitation(options: {
   pathParams: API.GithubV3Json.Orgs.PostCreateInvitation.PathParams;
-  headers?: API.GithubV3Json.Orgs.PostCreateInvitation.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Orgs.PostCreateInvitation.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -442,7 +442,7 @@ export function postCreateInvitation(options: {
  */
 export function deleteRemoveMember(options: {
   pathParams: API.GithubV3Json.Orgs.DeleteRemoveMember.PathParams;
-  headers?: API.GithubV3Json.Orgs.DeleteRemoveMember.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -461,7 +461,7 @@ export function deleteRemoveMember(options: {
  */
 export function getCheckMembershipForUser(options: {
   pathParams: API.GithubV3Json.Orgs.GetCheckMembershipForUser.PathParams;
-  headers?: API.GithubV3Json.Orgs.GetCheckMembershipForUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -481,7 +481,7 @@ export function getCheckMembershipForUser(options: {
 export function getListMembers(options: {
   pathParams: API.GithubV3Json.Orgs.GetListMembers.PathParams;
   queryParams?: API.GithubV3Json.Orgs.GetListMembers.QueryParams;
-  headers?: API.GithubV3Json.Orgs.GetListMembers.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -502,7 +502,7 @@ export function getListMembers(options: {
  */
 export function deleteRemoveMembershipForUser(options: {
   pathParams: API.GithubV3Json.Orgs.DeleteRemoveMembershipForUser.PathParams;
-  headers?: API.GithubV3Json.Orgs.DeleteRemoveMembershipForUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -521,7 +521,7 @@ export function deleteRemoveMembershipForUser(options: {
  */
 export function getMembershipForUser(options: {
   pathParams: API.GithubV3Json.Orgs.GetMembershipForUser.PathParams;
-  headers?: API.GithubV3Json.Orgs.GetMembershipForUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -546,7 +546,7 @@ export function getMembershipForUser(options: {
  */
 export function putSetMembershipForUser(options: {
   pathParams: API.GithubV3Json.Orgs.PutSetMembershipForUser.PathParams;
-  headers?: API.GithubV3Json.Orgs.PutSetMembershipForUser.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Orgs.PutSetMembershipForUser.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -566,7 +566,7 @@ export function putSetMembershipForUser(options: {
  */
 export function deleteRemoveOutsideCollaborator(options: {
   pathParams: API.GithubV3Json.Orgs.DeleteRemoveOutsideCollaborator.PathParams;
-  headers?: API.GithubV3Json.Orgs.DeleteRemoveOutsideCollaborator.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -585,7 +585,7 @@ export function deleteRemoveOutsideCollaborator(options: {
  */
 export function putConvertMemberToOutsideCollaborator(options: {
   pathParams: API.GithubV3Json.Orgs.PutConvertMemberToOutsideCollaborator.PathParams;
-  headers?: API.GithubV3Json.Orgs.PutConvertMemberToOutsideCollaborator.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Orgs.PutConvertMemberToOutsideCollaborator.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -606,7 +606,7 @@ export function putConvertMemberToOutsideCollaborator(options: {
 export function getListOutsideCollaborators(options: {
   pathParams: API.GithubV3Json.Orgs.GetListOutsideCollaborators.PathParams;
   queryParams?: API.GithubV3Json.Orgs.GetListOutsideCollaborators.QueryParams;
-  headers?: API.GithubV3Json.Orgs.GetListOutsideCollaborators.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -624,7 +624,7 @@ export function getListOutsideCollaborators(options: {
  */
 export function deleteRemovePublicMembershipForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Orgs.DeleteRemovePublicMembershipForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Orgs.DeleteRemovePublicMembershipForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -642,7 +642,7 @@ export function deleteRemovePublicMembershipForAuthenticatedUser(options: {
  */
 export function getCheckPublicMembershipForUser(options: {
   pathParams: API.GithubV3Json.Orgs.GetCheckPublicMembershipForUser.PathParams;
-  headers?: API.GithubV3Json.Orgs.GetCheckPublicMembershipForUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -663,7 +663,7 @@ export function getCheckPublicMembershipForUser(options: {
  */
 export function putSetPublicMembershipForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Orgs.PutSetPublicMembershipForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Orgs.PutSetPublicMembershipForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -683,7 +683,7 @@ export function putSetPublicMembershipForAuthenticatedUser(options: {
 export function getListPublicMembers(options: {
   pathParams: API.GithubV3Json.Orgs.GetListPublicMembers.PathParams;
   queryParams?: API.GithubV3Json.Orgs.GetListPublicMembers.QueryParams;
-  headers?: API.GithubV3Json.Orgs.GetListPublicMembers.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -706,7 +706,7 @@ export function getListPublicMembers(options: {
  */
 export function deleteRemoveSecurityManagerTeam(options: {
   pathParams: API.GithubV3Json.Orgs.DeleteRemoveSecurityManagerTeam.PathParams;
-  headers?: API.GithubV3Json.Orgs.DeleteRemoveSecurityManagerTeam.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -729,7 +729,7 @@ export function deleteRemoveSecurityManagerTeam(options: {
  */
 export function putAddSecurityManagerTeam(options: {
   pathParams: API.GithubV3Json.Orgs.PutAddSecurityManagerTeam.PathParams;
-  headers?: API.GithubV3Json.Orgs.PutAddSecurityManagerTeam.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -752,7 +752,7 @@ export function putAddSecurityManagerTeam(options: {
  */
 export function getListSecurityManagerTeams(options: {
   pathParams: API.GithubV3Json.Orgs.GetListSecurityManagerTeams.PathParams;
-  headers?: API.GithubV3Json.Orgs.GetListSecurityManagerTeams.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -778,7 +778,7 @@ export function getListSecurityManagerTeams(options: {
  */
 export function postEnableOrDisableSecurityProductOnAllOrgRepos(options: {
   pathParams: API.GithubV3Json.Orgs.PostEnableOrDisableSecurityProductOnAllOrgRepos.PathParams;
-  headers?: API.GithubV3Json.Orgs.PostEnableOrDisableSecurityProductOnAllOrgRepos.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -799,7 +799,7 @@ export function postEnableOrDisableSecurityProductOnAllOrgRepos(options: {
  */
 export function getOrgs(options: {
   pathParams: API.GithubV3Json.Orgs.GetOrgs.PathParams;
-  headers?: API.GithubV3Json.Orgs.GetOrgs.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -820,7 +820,7 @@ export function getOrgs(options: {
  */
 export function patchUpdate(options: {
   pathParams: API.GithubV3Json.Orgs.PatchUpdate.PathParams;
-  headers?: API.GithubV3Json.Orgs.PatchUpdate.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Orgs.PatchUpdate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -839,7 +839,7 @@ export function patchUpdate(options: {
  */
 export function getMembershipForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Orgs.GetMembershipForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Orgs.GetMembershipForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -857,7 +857,7 @@ export function getMembershipForAuthenticatedUser(options: {
  */
 export function patchUpdateMembershipForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Orgs.PatchUpdateMembershipForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Orgs.PatchUpdateMembershipForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Orgs.PatchUpdateMembershipForAuthenticatedUser.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -876,7 +876,7 @@ export function patchUpdateMembershipForAuthenticatedUser(options: {
  */
 export function getListMembershipsForAuthenticatedUser(options?: {
   queryParams?: API.GithubV3Json.Orgs.GetListMembershipsForAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Orgs.GetListMembershipsForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -899,7 +899,7 @@ export function getListMembershipsForAuthenticatedUser(options?: {
  */
 export function getListForAuthenticatedUser(options?: {
   queryParams?: API.GithubV3Json.Orgs.GetListForAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Orgs.GetListForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -921,7 +921,7 @@ export function getListForAuthenticatedUser(options?: {
 export function getListForUser(options: {
   pathParams: API.GithubV3Json.Orgs.GetListForUser.PathParams;
   queryParams?: API.GithubV3Json.Orgs.GetListForUser.QueryParams;
-  headers?: API.GithubV3Json.Orgs.GetListForUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

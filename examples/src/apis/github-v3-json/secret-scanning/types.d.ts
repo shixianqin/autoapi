@@ -2,10 +2,6 @@ declare namespace API {
   namespace GithubV3Json {
     namespace SecretScanning {
       namespace GetListAlertsForEnterprise {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The slug version of the enterprise name. You can also substitute this value with the enterprise id.
@@ -57,10 +53,6 @@ declare namespace API {
       }
 
       namespace GetListAlertsForOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -117,10 +109,6 @@ declare namespace API {
       }
 
       namespace GetListLocationsForAlert {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies an alert. You can find this at the end of the URL for a code scanning alert within GitHub, and in the `number` field in the response from the `GET /repos/{owner}/{repo}/code-scanning/alerts` operation.
@@ -153,10 +141,6 @@ declare namespace API {
       }
 
       namespace GetAlert {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies an alert. You can find this at the end of the URL for a code scanning alert within GitHub, and in the `number` field in the response from the `GET /repos/{owner}/{repo}/code-scanning/alerts` operation.
@@ -191,11 +175,6 @@ declare namespace API {
           state: $schemas.SecretScanningAlertState;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies an alert. You can find this at the end of the URL for a code scanning alert within GitHub, and in the `number` field in the response from the `GET /repos/{owner}/{repo}/code-scanning/alerts` operation.
@@ -215,10 +194,6 @@ declare namespace API {
       }
 
       namespace GetListAlertsForRepo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.

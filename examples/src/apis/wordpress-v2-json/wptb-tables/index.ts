@@ -6,7 +6,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function getWpV2IdAutosaves(options: {
   pathParams: API.WordpressV2Json.WptbTables.GetWpV2IdAutosaves.PathParams;
   queryParams?: API.WordpressV2Json.WptbTables.GetWpV2IdAutosaves.QueryParams;
-  headers?: API.WordpressV2Json.WptbTables.GetWpV2IdAutosaves.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -22,7 +22,7 @@ export function getWpV2IdAutosaves(options: {
  */
 export function postWpV2IdAutosaves(options: {
   pathParams: API.WordpressV2Json.WptbTables.PostWpV2IdAutosaves.PathParams;
-  headers?: API.WordpressV2Json.WptbTables.PostWpV2IdAutosaves.Headers;
+  headers?: Record<string, any>;
   formData?: API.WordpressV2Json.WptbTables.PostWpV2IdAutosaves.FormData;
   config?: RequestConfig;
   context?: RequestContext;
@@ -40,7 +40,7 @@ export function postWpV2IdAutosaves(options: {
 export function deleteWpV2Id(options: {
   pathParams: API.WordpressV2Json.WptbTables.DeleteWpV2Id.PathParams;
   queryParams?: API.WordpressV2Json.WptbTables.DeleteWpV2Id.QueryParams;
-  headers?: API.WordpressV2Json.WptbTables.DeleteWpV2Id.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -57,7 +57,7 @@ export function deleteWpV2Id(options: {
 export function getWpV2Id(options: {
   pathParams: API.WordpressV2Json.WptbTables.GetWpV2Id.PathParams;
   queryParams?: API.WordpressV2Json.WptbTables.GetWpV2Id.QueryParams;
-  headers?: API.WordpressV2Json.WptbTables.GetWpV2Id.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -74,7 +74,7 @@ export function getWpV2Id(options: {
 export function patchWpV2Id(options: {
   pathParams: API.WordpressV2Json.WptbTables.PatchWpV2Id.PathParams;
   queryParams?: API.WordpressV2Json.WptbTables.PatchWpV2Id.QueryParams;
-  headers?: API.WordpressV2Json.WptbTables.PatchWpV2Id.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -90,7 +90,7 @@ export function patchWpV2Id(options: {
  */
 export function postWpV2Id(options: {
   pathParams: API.WordpressV2Json.WptbTables.PostWpV2Id.PathParams;
-  headers?: API.WordpressV2Json.WptbTables.PostWpV2Id.Headers;
+  headers?: Record<string, any>;
   formData?: API.WordpressV2Json.WptbTables.PostWpV2Id.FormData;
   config?: RequestConfig;
   context?: RequestContext;
@@ -108,7 +108,7 @@ export function postWpV2Id(options: {
 export function putWpV2Id(options: {
   pathParams: API.WordpressV2Json.WptbTables.PutWpV2Id.PathParams;
   queryParams?: API.WordpressV2Json.WptbTables.PutWpV2Id.QueryParams;
-  headers?: API.WordpressV2Json.WptbTables.PutWpV2Id.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -125,7 +125,7 @@ export function putWpV2Id(options: {
 export function getWpV2Parent(options: {
   pathParams: API.WordpressV2Json.WptbTables.GetWpV2Parent.PathParams;
   queryParams?: API.WordpressV2Json.WptbTables.GetWpV2Parent.QueryParams;
-  headers?: API.WordpressV2Json.WptbTables.GetWpV2Parent.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -141,7 +141,7 @@ export function getWpV2Parent(options: {
  */
 export function getWpV2(options?: {
   queryParams?: API.WordpressV2Json.WptbTables.GetWpV2.QueryParams;
-  headers?: API.WordpressV2Json.WptbTables.GetWpV2.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -152,7 +152,7 @@ export function getWpV2(options?: {
  * @path `/wp/v2/wptb-tables`
  */
 export function postWpV2(options?: {
-  headers?: API.WordpressV2Json.WptbTables.PostWpV2.Headers;
+  headers?: Record<string, any>;
   formData?: API.WordpressV2Json.WptbTables.PostWpV2.FormData;
   config?: RequestConfig;
   context?: RequestContext;

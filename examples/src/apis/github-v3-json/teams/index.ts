@@ -10,7 +10,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function deleteDiscussionCommentInOrg(options: {
   pathParams: API.GithubV3Json.Teams.DeleteDiscussionCommentInOrg.PathParams;
-  headers?: API.GithubV3Json.Teams.DeleteDiscussionCommentInOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -31,7 +31,7 @@ export function deleteDiscussionCommentInOrg(options: {
  */
 export function getDiscussionCommentInOrg(options: {
   pathParams: API.GithubV3Json.Teams.GetDiscussionCommentInOrg.PathParams;
-  headers?: API.GithubV3Json.Teams.GetDiscussionCommentInOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -52,7 +52,7 @@ export function getDiscussionCommentInOrg(options: {
  */
 export function patchUpdateDiscussionCommentInOrg(options: {
   pathParams: API.GithubV3Json.Teams.PatchUpdateDiscussionCommentInOrg.PathParams;
-  headers?: API.GithubV3Json.Teams.PatchUpdateDiscussionCommentInOrg.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Teams.PatchUpdateDiscussionCommentInOrg.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -75,7 +75,7 @@ export function patchUpdateDiscussionCommentInOrg(options: {
 export function getListDiscussionCommentsInOrg(options: {
   pathParams: API.GithubV3Json.Teams.GetListDiscussionCommentsInOrg.PathParams;
   queryParams?: API.GithubV3Json.Teams.GetListDiscussionCommentsInOrg.QueryParams;
-  headers?: API.GithubV3Json.Teams.GetListDiscussionCommentsInOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -98,7 +98,7 @@ export function getListDiscussionCommentsInOrg(options: {
  */
 export function postCreateDiscussionCommentInOrg(options: {
   pathParams: API.GithubV3Json.Teams.PostCreateDiscussionCommentInOrg.PathParams;
-  headers?: API.GithubV3Json.Teams.PostCreateDiscussionCommentInOrg.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Teams.PostCreateDiscussionCommentInOrg.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -120,7 +120,7 @@ export function postCreateDiscussionCommentInOrg(options: {
  */
 export function deleteDiscussionInOrg(options: {
   pathParams: API.GithubV3Json.Teams.DeleteDiscussionInOrg.PathParams;
-  headers?: API.GithubV3Json.Teams.DeleteDiscussionInOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -141,7 +141,7 @@ export function deleteDiscussionInOrg(options: {
  */
 export function getDiscussionInOrg(options: {
   pathParams: API.GithubV3Json.Teams.GetDiscussionInOrg.PathParams;
-  headers?: API.GithubV3Json.Teams.GetDiscussionInOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -162,7 +162,7 @@ export function getDiscussionInOrg(options: {
  */
 export function patchUpdateDiscussionInOrg(options: {
   pathParams: API.GithubV3Json.Teams.PatchUpdateDiscussionInOrg.PathParams;
-  headers?: API.GithubV3Json.Teams.PatchUpdateDiscussionInOrg.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Teams.PatchUpdateDiscussionInOrg.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -185,7 +185,7 @@ export function patchUpdateDiscussionInOrg(options: {
 export function getListDiscussionsInOrg(options: {
   pathParams: API.GithubV3Json.Teams.GetListDiscussionsInOrg.PathParams;
   queryParams?: API.GithubV3Json.Teams.GetListDiscussionsInOrg.QueryParams;
-  headers?: API.GithubV3Json.Teams.GetListDiscussionsInOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -208,7 +208,7 @@ export function getListDiscussionsInOrg(options: {
  */
 export function postCreateDiscussionInOrg(options: {
   pathParams: API.GithubV3Json.Teams.PostCreateDiscussionInOrg.PathParams;
-  headers?: API.GithubV3Json.Teams.PostCreateDiscussionInOrg.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Teams.PostCreateDiscussionInOrg.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -231,7 +231,7 @@ export function postCreateDiscussionInOrg(options: {
 export function getListPendingInvitationsInOrg(options: {
   pathParams: API.GithubV3Json.Teams.GetListPendingInvitationsInOrg.PathParams;
   queryParams?: API.GithubV3Json.Teams.GetListPendingInvitationsInOrg.QueryParams;
-  headers?: API.GithubV3Json.Teams.GetListPendingInvitationsInOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -253,7 +253,7 @@ export function getListPendingInvitationsInOrg(options: {
 export function getListMembersInOrg(options: {
   pathParams: API.GithubV3Json.Teams.GetListMembersInOrg.PathParams;
   queryParams?: API.GithubV3Json.Teams.GetListMembersInOrg.QueryParams;
-  headers?: API.GithubV3Json.Teams.GetListMembersInOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -278,7 +278,7 @@ export function getListMembersInOrg(options: {
  */
 export function deleteRemoveMembershipForUserInOrg(options: {
   pathParams: API.GithubV3Json.Teams.DeleteRemoveMembershipForUserInOrg.PathParams;
-  headers?: API.GithubV3Json.Teams.DeleteRemoveMembershipForUserInOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -306,7 +306,7 @@ export function deleteRemoveMembershipForUserInOrg(options: {
  */
 export function getMembershipForUserInOrg(options: {
   pathParams: API.GithubV3Json.Teams.GetMembershipForUserInOrg.PathParams;
-  headers?: API.GithubV3Json.Teams.GetMembershipForUserInOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -335,7 +335,7 @@ export function getMembershipForUserInOrg(options: {
  */
 export function putAddOrUpdateMembershipForUserInOrg(options: {
   pathParams: API.GithubV3Json.Teams.PutAddOrUpdateMembershipForUserInOrg.PathParams;
-  headers?: API.GithubV3Json.Teams.PutAddOrUpdateMembershipForUserInOrg.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Teams.PutAddOrUpdateMembershipForUserInOrg.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -357,7 +357,7 @@ export function putAddOrUpdateMembershipForUserInOrg(options: {
  */
 export function deleteRemoveProjectInOrg(options: {
   pathParams: API.GithubV3Json.Teams.DeleteRemoveProjectInOrg.PathParams;
-  headers?: API.GithubV3Json.Teams.DeleteRemoveProjectInOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -378,7 +378,7 @@ export function deleteRemoveProjectInOrg(options: {
  */
 export function getCheckPermissionsForProjectInOrg(options: {
   pathParams: API.GithubV3Json.Teams.GetCheckPermissionsForProjectInOrg.PathParams;
-  headers?: API.GithubV3Json.Teams.GetCheckPermissionsForProjectInOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -399,7 +399,7 @@ export function getCheckPermissionsForProjectInOrg(options: {
  */
 export function putAddOrUpdateProjectPermissionsInOrg(options: {
   pathParams: API.GithubV3Json.Teams.PutAddOrUpdateProjectPermissionsInOrg.PathParams;
-  headers?: API.GithubV3Json.Teams.PutAddOrUpdateProjectPermissionsInOrg.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Teams.PutAddOrUpdateProjectPermissionsInOrg.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -422,7 +422,7 @@ export function putAddOrUpdateProjectPermissionsInOrg(options: {
 export function getListProjectsInOrg(options: {
   pathParams: API.GithubV3Json.Teams.GetListProjectsInOrg.PathParams;
   queryParams?: API.GithubV3Json.Teams.GetListProjectsInOrg.QueryParams;
-  headers?: API.GithubV3Json.Teams.GetListProjectsInOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -443,7 +443,7 @@ export function getListProjectsInOrg(options: {
  */
 export function deleteRemoveRepoInOrg(options: {
   pathParams: API.GithubV3Json.Teams.DeleteRemoveRepoInOrg.PathParams;
-  headers?: API.GithubV3Json.Teams.DeleteRemoveRepoInOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -468,7 +468,7 @@ export function deleteRemoveRepoInOrg(options: {
  */
 export function getCheckPermissionsForRepoInOrg(options: {
   pathParams: API.GithubV3Json.Teams.GetCheckPermissionsForRepoInOrg.PathParams;
-  headers?: API.GithubV3Json.Teams.GetCheckPermissionsForRepoInOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -491,7 +491,7 @@ export function getCheckPermissionsForRepoInOrg(options: {
  */
 export function putAddOrUpdateRepoPermissionsInOrg(options: {
   pathParams: API.GithubV3Json.Teams.PutAddOrUpdateRepoPermissionsInOrg.PathParams;
-  headers?: API.GithubV3Json.Teams.PutAddOrUpdateRepoPermissionsInOrg.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Teams.PutAddOrUpdateRepoPermissionsInOrg.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -514,7 +514,7 @@ export function putAddOrUpdateRepoPermissionsInOrg(options: {
 export function getListReposInOrg(options: {
   pathParams: API.GithubV3Json.Teams.GetListReposInOrg.PathParams;
   queryParams?: API.GithubV3Json.Teams.GetListReposInOrg.QueryParams;
-  headers?: API.GithubV3Json.Teams.GetListReposInOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -536,7 +536,7 @@ export function getListReposInOrg(options: {
 export function getListChildInOrg(options: {
   pathParams: API.GithubV3Json.Teams.GetListChildInOrg.PathParams;
   queryParams?: API.GithubV3Json.Teams.GetListChildInOrg.QueryParams;
-  headers?: API.GithubV3Json.Teams.GetListChildInOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -559,7 +559,7 @@ export function getListChildInOrg(options: {
  */
 export function deleteInOrg(options: {
   pathParams: API.GithubV3Json.Teams.DeleteInOrg.PathParams;
-  headers?: API.GithubV3Json.Teams.DeleteInOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -580,7 +580,7 @@ export function deleteInOrg(options: {
  */
 export function getByName(options: {
   pathParams: API.GithubV3Json.Teams.GetByName.PathParams;
-  headers?: API.GithubV3Json.Teams.GetByName.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -601,7 +601,7 @@ export function getByName(options: {
  */
 export function patchUpdateInOrg(options: {
   pathParams: API.GithubV3Json.Teams.PatchUpdateInOrg.PathParams;
-  headers?: API.GithubV3Json.Teams.PatchUpdateInOrg.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Teams.PatchUpdateInOrg.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -622,7 +622,7 @@ export function patchUpdateInOrg(options: {
 export function getList(options: {
   pathParams: API.GithubV3Json.Teams.GetList.PathParams;
   queryParams?: API.GithubV3Json.Teams.GetList.QueryParams;
-  headers?: API.GithubV3Json.Teams.GetList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -643,7 +643,7 @@ export function getList(options: {
  */
 export function postCreate(options: {
   pathParams: API.GithubV3Json.Teams.PostCreate.PathParams;
-  headers?: API.GithubV3Json.Teams.PostCreate.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Teams.PostCreate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -666,7 +666,7 @@ export function postCreate(options: {
  */
 export function deleteDiscussionCommentLegacy(options: {
   pathParams: API.GithubV3Json.Teams.DeleteDiscussionCommentLegacy.PathParams;
-  headers?: API.GithubV3Json.Teams.DeleteDiscussionCommentLegacy.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -688,7 +688,7 @@ export function deleteDiscussionCommentLegacy(options: {
  */
 export function getDiscussionCommentLegacy(options: {
   pathParams: API.GithubV3Json.Teams.GetDiscussionCommentLegacy.PathParams;
-  headers?: API.GithubV3Json.Teams.GetDiscussionCommentLegacy.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -710,7 +710,7 @@ export function getDiscussionCommentLegacy(options: {
  */
 export function patchUpdateDiscussionCommentLegacy(options: {
   pathParams: API.GithubV3Json.Teams.PatchUpdateDiscussionCommentLegacy.PathParams;
-  headers?: API.GithubV3Json.Teams.PatchUpdateDiscussionCommentLegacy.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Teams.PatchUpdateDiscussionCommentLegacy.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -734,7 +734,7 @@ export function patchUpdateDiscussionCommentLegacy(options: {
 export function getListDiscussionCommentsLegacy(options: {
   pathParams: API.GithubV3Json.Teams.GetListDiscussionCommentsLegacy.PathParams;
   queryParams?: API.GithubV3Json.Teams.GetListDiscussionCommentsLegacy.QueryParams;
-  headers?: API.GithubV3Json.Teams.GetListDiscussionCommentsLegacy.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -758,7 +758,7 @@ export function getListDiscussionCommentsLegacy(options: {
  */
 export function postCreateDiscussionCommentLegacy(options: {
   pathParams: API.GithubV3Json.Teams.PostCreateDiscussionCommentLegacy.PathParams;
-  headers?: API.GithubV3Json.Teams.PostCreateDiscussionCommentLegacy.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Teams.PostCreateDiscussionCommentLegacy.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -781,7 +781,7 @@ export function postCreateDiscussionCommentLegacy(options: {
  */
 export function deleteDiscussionLegacy(options: {
   pathParams: API.GithubV3Json.Teams.DeleteDiscussionLegacy.PathParams;
-  headers?: API.GithubV3Json.Teams.DeleteDiscussionLegacy.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -803,7 +803,7 @@ export function deleteDiscussionLegacy(options: {
  */
 export function getDiscussionLegacy(options: {
   pathParams: API.GithubV3Json.Teams.GetDiscussionLegacy.PathParams;
-  headers?: API.GithubV3Json.Teams.GetDiscussionLegacy.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -825,7 +825,7 @@ export function getDiscussionLegacy(options: {
  */
 export function patchUpdateDiscussionLegacy(options: {
   pathParams: API.GithubV3Json.Teams.PatchUpdateDiscussionLegacy.PathParams;
-  headers?: API.GithubV3Json.Teams.PatchUpdateDiscussionLegacy.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Teams.PatchUpdateDiscussionLegacy.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -849,7 +849,7 @@ export function patchUpdateDiscussionLegacy(options: {
 export function getListDiscussionsLegacy(options: {
   pathParams: API.GithubV3Json.Teams.GetListDiscussionsLegacy.PathParams;
   queryParams?: API.GithubV3Json.Teams.GetListDiscussionsLegacy.QueryParams;
-  headers?: API.GithubV3Json.Teams.GetListDiscussionsLegacy.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -873,7 +873,7 @@ export function getListDiscussionsLegacy(options: {
  */
 export function postCreateDiscussionLegacy(options: {
   pathParams: API.GithubV3Json.Teams.PostCreateDiscussionLegacy.PathParams;
-  headers?: API.GithubV3Json.Teams.PostCreateDiscussionLegacy.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Teams.PostCreateDiscussionLegacy.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -897,7 +897,7 @@ export function postCreateDiscussionLegacy(options: {
 export function getListPendingInvitationsLegacy(options: {
   pathParams: API.GithubV3Json.Teams.GetListPendingInvitationsLegacy.PathParams;
   queryParams?: API.GithubV3Json.Teams.GetListPendingInvitationsLegacy.QueryParams;
-  headers?: API.GithubV3Json.Teams.GetListPendingInvitationsLegacy.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -925,7 +925,7 @@ export function getListPendingInvitationsLegacy(options: {
  */
 export function deleteRemoveMemberLegacy(options: {
   pathParams: API.GithubV3Json.Teams.DeleteRemoveMemberLegacy.PathParams;
-  headers?: API.GithubV3Json.Teams.DeleteRemoveMemberLegacy.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -949,7 +949,7 @@ export function deleteRemoveMemberLegacy(options: {
  */
 export function getMemberLegacy(options: {
   pathParams: API.GithubV3Json.Teams.GetMemberLegacy.PathParams;
-  headers?: API.GithubV3Json.Teams.GetMemberLegacy.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -979,7 +979,7 @@ export function getMemberLegacy(options: {
  */
 export function putAddMemberLegacy(options: {
   pathParams: API.GithubV3Json.Teams.PutAddMemberLegacy.PathParams;
-  headers?: API.GithubV3Json.Teams.PutAddMemberLegacy.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1002,7 +1002,7 @@ export function putAddMemberLegacy(options: {
 export function getListMembersLegacy(options: {
   pathParams: API.GithubV3Json.Teams.GetListMembersLegacy.PathParams;
   queryParams?: API.GithubV3Json.Teams.GetListMembersLegacy.QueryParams;
-  headers?: API.GithubV3Json.Teams.GetListMembersLegacy.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1028,7 +1028,7 @@ export function getListMembersLegacy(options: {
  */
 export function deleteRemoveMembershipForUserLegacy(options: {
   pathParams: API.GithubV3Json.Teams.DeleteRemoveMembershipForUserLegacy.PathParams;
-  headers?: API.GithubV3Json.Teams.DeleteRemoveMembershipForUserLegacy.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1057,7 +1057,7 @@ export function deleteRemoveMembershipForUserLegacy(options: {
  */
 export function getMembershipForUserLegacy(options: {
   pathParams: API.GithubV3Json.Teams.GetMembershipForUserLegacy.PathParams;
-  headers?: API.GithubV3Json.Teams.GetMembershipForUserLegacy.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1087,7 +1087,7 @@ export function getMembershipForUserLegacy(options: {
  */
 export function putAddOrUpdateMembershipForUserLegacy(options: {
   pathParams: API.GithubV3Json.Teams.PutAddOrUpdateMembershipForUserLegacy.PathParams;
-  headers?: API.GithubV3Json.Teams.PutAddOrUpdateMembershipForUserLegacy.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Teams.PutAddOrUpdateMembershipForUserLegacy.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -1110,7 +1110,7 @@ export function putAddOrUpdateMembershipForUserLegacy(options: {
  */
 export function deleteRemoveProjectLegacy(options: {
   pathParams: API.GithubV3Json.Teams.DeleteRemoveProjectLegacy.PathParams;
-  headers?: API.GithubV3Json.Teams.DeleteRemoveProjectLegacy.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1132,7 +1132,7 @@ export function deleteRemoveProjectLegacy(options: {
  */
 export function getCheckPermissionsForProjectLegacy(options: {
   pathParams: API.GithubV3Json.Teams.GetCheckPermissionsForProjectLegacy.PathParams;
-  headers?: API.GithubV3Json.Teams.GetCheckPermissionsForProjectLegacy.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1154,7 +1154,7 @@ export function getCheckPermissionsForProjectLegacy(options: {
  */
 export function putAddOrUpdateProjectPermissionsLegacy(options: {
   pathParams: API.GithubV3Json.Teams.PutAddOrUpdateProjectPermissionsLegacy.PathParams;
-  headers?: API.GithubV3Json.Teams.PutAddOrUpdateProjectPermissionsLegacy.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Teams.PutAddOrUpdateProjectPermissionsLegacy.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -1178,7 +1178,7 @@ export function putAddOrUpdateProjectPermissionsLegacy(options: {
 export function getListProjectsLegacy(options: {
   pathParams: API.GithubV3Json.Teams.GetListProjectsLegacy.PathParams;
   queryParams?: API.GithubV3Json.Teams.GetListProjectsLegacy.QueryParams;
-  headers?: API.GithubV3Json.Teams.GetListProjectsLegacy.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1200,7 +1200,7 @@ export function getListProjectsLegacy(options: {
  */
 export function deleteRemoveRepoLegacy(options: {
   pathParams: API.GithubV3Json.Teams.DeleteRemoveRepoLegacy.PathParams;
-  headers?: API.GithubV3Json.Teams.DeleteRemoveRepoLegacy.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1224,7 +1224,7 @@ export function deleteRemoveRepoLegacy(options: {
  */
 export function getCheckPermissionsForRepoLegacy(options: {
   pathParams: API.GithubV3Json.Teams.GetCheckPermissionsForRepoLegacy.PathParams;
-  headers?: API.GithubV3Json.Teams.GetCheckPermissionsForRepoLegacy.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1248,7 +1248,7 @@ export function getCheckPermissionsForRepoLegacy(options: {
  */
 export function putAddOrUpdateRepoPermissionsLegacy(options: {
   pathParams: API.GithubV3Json.Teams.PutAddOrUpdateRepoPermissionsLegacy.PathParams;
-  headers?: API.GithubV3Json.Teams.PutAddOrUpdateRepoPermissionsLegacy.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Teams.PutAddOrUpdateRepoPermissionsLegacy.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -1270,7 +1270,7 @@ export function putAddOrUpdateRepoPermissionsLegacy(options: {
 export function getListReposLegacy(options: {
   pathParams: API.GithubV3Json.Teams.GetListReposLegacy.PathParams;
   queryParams?: API.GithubV3Json.Teams.GetListReposLegacy.QueryParams;
-  headers?: API.GithubV3Json.Teams.GetListReposLegacy.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1291,7 +1291,7 @@ export function getListReposLegacy(options: {
 export function getListChildLegacy(options: {
   pathParams: API.GithubV3Json.Teams.GetListChildLegacy.PathParams;
   queryParams?: API.GithubV3Json.Teams.GetListChildLegacy.QueryParams;
-  headers?: API.GithubV3Json.Teams.GetListChildLegacy.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1315,7 +1315,7 @@ export function getListChildLegacy(options: {
  */
 export function deleteLegacy(options: {
   pathParams: API.GithubV3Json.Teams.DeleteLegacy.PathParams;
-  headers?: API.GithubV3Json.Teams.DeleteLegacy.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1335,7 +1335,7 @@ export function deleteLegacy(options: {
  */
 export function getLegacy(options: {
   pathParams: API.GithubV3Json.Teams.GetLegacy.PathParams;
-  headers?: API.GithubV3Json.Teams.GetLegacy.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1359,7 +1359,7 @@ export function getLegacy(options: {
  */
 export function patchUpdateLegacy(options: {
   pathParams: API.GithubV3Json.Teams.PatchUpdateLegacy.PathParams;
-  headers?: API.GithubV3Json.Teams.PatchUpdateLegacy.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Teams.PatchUpdateLegacy.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -1379,7 +1379,7 @@ export function patchUpdateLegacy(options: {
  */
 export function getListForAuthenticatedUser(options?: {
   queryParams?: API.GithubV3Json.Teams.GetListForAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Teams.GetListForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

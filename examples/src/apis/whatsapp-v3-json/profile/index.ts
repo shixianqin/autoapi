@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/settings/profile/about`
  */
 export function getAbout(options?: {
-  headers?: API.WhatsappV3Json.Profile.GetAbout.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -21,7 +21,7 @@ export function getAbout(options?: {
  * @path `/settings/profile/about`
  */
 export function patchUpdateAbout(options: {
-  headers?: API.WhatsappV3Json.Profile.PatchUpdateAbout.Headers;
+  headers?: Record<string, any>;
   body: API.WhatsappV3Json.Profile.PatchUpdateAbout.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -35,7 +35,7 @@ export function patchUpdateAbout(options: {
  */
 export function getPhoto(options?: {
   queryParams?: API.WhatsappV3Json.Profile.GetPhoto.QueryParams;
-  headers?: API.WhatsappV3Json.Profile.GetPhoto.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -51,7 +51,7 @@ export function getPhoto(options?: {
  * @path `/settings/profile/photo`
  */
 export function postUpdatePhoto(options: {
-  headers?: API.WhatsappV3Json.Profile.PostUpdatePhoto.Headers;
+  headers?: Record<string, any>;
   formData: API.WhatsappV3Json.Profile.PostUpdatePhoto.FormData;
   config?: RequestConfig;
   context?: RequestContext;

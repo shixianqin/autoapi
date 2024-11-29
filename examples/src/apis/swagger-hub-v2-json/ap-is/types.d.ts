@@ -2,10 +2,6 @@ declare namespace API {
   namespace SwaggerHubV2Json {
     namespace ApIs {
       namespace PostRenameApi {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API name (case-sensitive)
@@ -26,10 +22,6 @@ declare namespace API {
       }
 
       namespace GetApiDefaultVersion {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API name (case-sensitive)
@@ -47,11 +39,6 @@ declare namespace API {
       namespace PutSetApiDefaultVersion {
         type Body = $schemas.DefaultVersion;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API name (case-sensitive)
@@ -66,10 +53,6 @@ declare namespace API {
 
       namespace PostCloneApi {
         type Body = $schemas.NewVersion;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -90,10 +73,6 @@ declare namespace API {
       namespace PostUpdateApiCommentsV2 {
         type Body = $schemas.CommentsBatch;
 
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API name (case-sensitive)
@@ -111,10 +90,6 @@ declare namespace API {
       }
 
       namespace DeleteApiCommentReplyV2 {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API name (case-sensitive)
@@ -141,10 +116,6 @@ declare namespace API {
 
       namespace PatchUpdateApiCommentReplyV2 {
         type Body = $schemas.CommentPatch;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -175,10 +146,6 @@ declare namespace API {
       namespace PostAddApiCommentReplyV2 {
         type Body = $schemas.NewReply;
 
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API name (case-sensitive)
@@ -202,10 +169,6 @@ declare namespace API {
       }
 
       namespace PutSetApiCommentStatusV2 {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API name (case-sensitive)
@@ -231,10 +194,6 @@ declare namespace API {
       }
 
       namespace DeleteApiCommentV2 {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API name (case-sensitive)
@@ -257,10 +216,6 @@ declare namespace API {
 
       namespace PatchUpdateApiCommentV2 {
         type Body = $schemas.ClosableCommentPatch;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -285,10 +240,6 @@ declare namespace API {
       }
 
       namespace GetApiCommentsV2 {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API name (case-sensitive)
@@ -309,10 +260,6 @@ declare namespace API {
 
       namespace PostAddApiCommentV2 {
         type Body = $schemas.NewComment;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -335,10 +282,6 @@ declare namespace API {
       namespace PostForkApi {
         type Body = $schemas.ForkVersion;
 
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API name (case-sensitive)
@@ -356,10 +299,6 @@ declare namespace API {
       }
 
       namespace GetLifecycleSettings {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API name (case-sensitive)
@@ -380,11 +319,6 @@ declare namespace API {
 
       namespace PutSetLifecycleSettings {
         type Body = $schemas.LifecycleSettings;
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -410,10 +344,6 @@ declare namespace API {
       }
 
       namespace GetPrivateSettings {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API name (case-sensitive)
@@ -435,11 +365,6 @@ declare namespace API {
       namespace PutSetPrivateSettings {
         type Body = $schemas.VisibilitySettings;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API name (case-sensitive)
@@ -457,10 +382,6 @@ declare namespace API {
       }
 
       namespace GetStandardizationErrors {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           api: string;
           /**
@@ -477,10 +398,6 @@ declare namespace API {
       }
 
       namespace GetJsonDefinition {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API name (case-sensitive)
@@ -511,10 +428,6 @@ declare namespace API {
       }
 
       namespace GetYamlDefinition {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API name (case-sensitive)
@@ -545,10 +458,6 @@ declare namespace API {
       }
 
       namespace GetValidation {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API name (case-sensitive)
@@ -568,10 +477,6 @@ declare namespace API {
       }
 
       namespace DeleteApiVersion {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API name (case-sensitive)
@@ -589,10 +494,6 @@ declare namespace API {
       }
 
       namespace GetDefinition {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API name (case-sensitive)
@@ -623,10 +524,6 @@ declare namespace API {
       }
 
       namespace DeleteApi {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API name (case-sensitive)
@@ -640,10 +537,6 @@ declare namespace API {
       }
 
       namespace GetApiVersions {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API name (case-sensitive)
@@ -660,11 +553,6 @@ declare namespace API {
 
       namespace PostSaveDefinition {
         type Body = string;
-
-        interface Headers {
-          "Content-Type"?: "application/json" | "application/yaml" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -698,10 +586,6 @@ declare namespace API {
       }
 
       namespace GetOwnerApis {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API owner (organization or user, case-sensitive)
@@ -745,10 +629,6 @@ declare namespace API {
       }
 
       namespace GetSearchApis {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Number of results per page (1 .. 100)
@@ -795,10 +675,6 @@ declare namespace API {
       }
 
       namespace GetSearchApisAndDomains {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Number of results per page (1 .. 100)

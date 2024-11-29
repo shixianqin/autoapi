@@ -11,7 +11,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function getListForOrg(options: {
   pathParams: API.GithubV3Json.Repos.GetListForOrg.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetListForOrg.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetListForOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -36,7 +36,7 @@ export function getListForOrg(options: {
  */
 export function postCreateInOrg(options: {
   pathParams: API.GithubV3Json.Repos.PostCreateInOrg.PathParams;
-  headers?: API.GithubV3Json.Repos.PostCreateInOrg.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostCreateInOrg.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -58,7 +58,7 @@ export function postCreateInOrg(options: {
  */
 export function deleteAutolink(options: {
   pathParams: API.GithubV3Json.Repos.DeleteAutolink.PathParams;
-  headers?: API.GithubV3Json.Repos.DeleteAutolink.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -79,7 +79,7 @@ export function deleteAutolink(options: {
  */
 export function getAutolink(options: {
   pathParams: API.GithubV3Json.Repos.GetAutolink.PathParams;
-  headers?: API.GithubV3Json.Repos.GetAutolink.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -101,7 +101,7 @@ export function getAutolink(options: {
 export function getListAutolinks(options: {
   pathParams: API.GithubV3Json.Repos.GetListAutolinks.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetListAutolinks.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetListAutolinks.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -120,7 +120,7 @@ export function getListAutolinks(options: {
  */
 export function postCreateAutolink(options: {
   pathParams: API.GithubV3Json.Repos.PostCreateAutolink.PathParams;
-  headers?: API.GithubV3Json.Repos.PostCreateAutolink.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostCreateAutolink.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -140,7 +140,7 @@ export function postCreateAutolink(options: {
  */
 export function deleteDisableAutomatedSecurityFixes(options: {
   pathParams: API.GithubV3Json.Repos.DeleteDisableAutomatedSecurityFixes.PathParams;
-  headers?: API.GithubV3Json.Repos.DeleteDisableAutomatedSecurityFixes.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -159,7 +159,7 @@ export function deleteDisableAutomatedSecurityFixes(options: {
  */
 export function putEnableAutomatedSecurityFixes(options: {
   pathParams: API.GithubV3Json.Repos.PutEnableAutomatedSecurityFixes.PathParams;
-  headers?: API.GithubV3Json.Repos.PutEnableAutomatedSecurityFixes.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -180,7 +180,7 @@ export function putEnableAutomatedSecurityFixes(options: {
  */
 export function deleteAdminBranchProtection(options: {
   pathParams: API.GithubV3Json.Repos.DeleteAdminBranchProtection.PathParams;
-  headers?: API.GithubV3Json.Repos.DeleteAdminBranchProtection.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -199,7 +199,7 @@ export function deleteAdminBranchProtection(options: {
  */
 export function getAdminBranchProtection(options: {
   pathParams: API.GithubV3Json.Repos.GetAdminBranchProtection.PathParams;
-  headers?: API.GithubV3Json.Repos.GetAdminBranchProtection.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -220,7 +220,7 @@ export function getAdminBranchProtection(options: {
  */
 export function postSetAdminBranchProtection(options: {
   pathParams: API.GithubV3Json.Repos.PostSetAdminBranchProtection.PathParams;
-  headers?: API.GithubV3Json.Repos.PostSetAdminBranchProtection.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -239,7 +239,7 @@ export function postSetAdminBranchProtection(options: {
  */
 export function deletePullRequestReviewProtection(options: {
   pathParams: API.GithubV3Json.Repos.DeletePullRequestReviewProtection.PathParams;
-  headers?: API.GithubV3Json.Repos.DeletePullRequestReviewProtection.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -258,7 +258,7 @@ export function deletePullRequestReviewProtection(options: {
  */
 export function getPullRequestReviewProtection(options: {
   pathParams: API.GithubV3Json.Repos.GetPullRequestReviewProtection.PathParams;
-  headers?: API.GithubV3Json.Repos.GetPullRequestReviewProtection.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -281,7 +281,7 @@ export function getPullRequestReviewProtection(options: {
  */
 export function patchUpdatePullRequestReviewProtection(options: {
   pathParams: API.GithubV3Json.Repos.PatchUpdatePullRequestReviewProtection.PathParams;
-  headers?: API.GithubV3Json.Repos.PatchUpdatePullRequestReviewProtection.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Repos.PatchUpdatePullRequestReviewProtection.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -303,7 +303,7 @@ export function patchUpdatePullRequestReviewProtection(options: {
  */
 export function deleteCommitSignatureProtection(options: {
   pathParams: API.GithubV3Json.Repos.DeleteCommitSignatureProtection.PathParams;
-  headers?: API.GithubV3Json.Repos.DeleteCommitSignatureProtection.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -326,7 +326,7 @@ export function deleteCommitSignatureProtection(options: {
  */
 export function getCommitSignatureProtection(options: {
   pathParams: API.GithubV3Json.Repos.GetCommitSignatureProtection.PathParams;
-  headers?: API.GithubV3Json.Repos.GetCommitSignatureProtection.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -347,7 +347,7 @@ export function getCommitSignatureProtection(options: {
  */
 export function postCreateCommitSignatureProtection(options: {
   pathParams: API.GithubV3Json.Repos.PostCreateCommitSignatureProtection.PathParams;
-  headers?: API.GithubV3Json.Repos.PostCreateCommitSignatureProtection.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -366,7 +366,7 @@ export function postCreateCommitSignatureProtection(options: {
  */
 export function deleteRemoveStatusCheckContexts(options: {
   pathParams: API.GithubV3Json.Repos.DeleteRemoveStatusCheckContexts.PathParams;
-  headers?: API.GithubV3Json.Repos.DeleteRemoveStatusCheckContexts.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.DeleteRemoveStatusCheckContexts.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -386,7 +386,7 @@ export function deleteRemoveStatusCheckContexts(options: {
  */
 export function getAllStatusCheckContexts(options: {
   pathParams: API.GithubV3Json.Repos.GetAllStatusCheckContexts.PathParams;
-  headers?: API.GithubV3Json.Repos.GetAllStatusCheckContexts.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -405,7 +405,7 @@ export function getAllStatusCheckContexts(options: {
  */
 export function postAddStatusCheckContexts(options: {
   pathParams: API.GithubV3Json.Repos.PostAddStatusCheckContexts.PathParams;
-  headers?: API.GithubV3Json.Repos.PostAddStatusCheckContexts.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostAddStatusCheckContexts.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -425,7 +425,7 @@ export function postAddStatusCheckContexts(options: {
  */
 export function putSetStatusCheckContexts(options: {
   pathParams: API.GithubV3Json.Repos.PutSetStatusCheckContexts.PathParams;
-  headers?: API.GithubV3Json.Repos.PutSetStatusCheckContexts.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PutSetStatusCheckContexts.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -445,7 +445,7 @@ export function putSetStatusCheckContexts(options: {
  */
 export function deleteRemoveStatusCheckProtection(options: {
   pathParams: API.GithubV3Json.Repos.DeleteRemoveStatusCheckProtection.PathParams;
-  headers?: API.GithubV3Json.Repos.DeleteRemoveStatusCheckProtection.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -464,7 +464,7 @@ export function deleteRemoveStatusCheckProtection(options: {
  */
 export function getStatusChecksProtection(options: {
   pathParams: API.GithubV3Json.Repos.GetStatusChecksProtection.PathParams;
-  headers?: API.GithubV3Json.Repos.GetStatusChecksProtection.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -485,7 +485,7 @@ export function getStatusChecksProtection(options: {
  */
 export function patchUpdateStatusCheckProtection(options: {
   pathParams: API.GithubV3Json.Repos.PatchUpdateStatusCheckProtection.PathParams;
-  headers?: API.GithubV3Json.Repos.PatchUpdateStatusCheckProtection.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Repos.PatchUpdateStatusCheckProtection.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -507,7 +507,7 @@ export function patchUpdateStatusCheckProtection(options: {
  */
 export function deleteRemoveAppAccessRestrictions(options: {
   pathParams: API.GithubV3Json.Repos.DeleteRemoveAppAccessRestrictions.PathParams;
-  headers?: API.GithubV3Json.Repos.DeleteRemoveAppAccessRestrictions.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.DeleteRemoveAppAccessRestrictions.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -529,7 +529,7 @@ export function deleteRemoveAppAccessRestrictions(options: {
  */
 export function getAppsWithAccessToProtectedBranch(options: {
   pathParams: API.GithubV3Json.Repos.GetAppsWithAccessToProtectedBranch.PathParams;
-  headers?: API.GithubV3Json.Repos.GetAppsWithAccessToProtectedBranch.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -550,7 +550,7 @@ export function getAppsWithAccessToProtectedBranch(options: {
  */
 export function postAddAppAccessRestrictions(options: {
   pathParams: API.GithubV3Json.Repos.PostAddAppAccessRestrictions.PathParams;
-  headers?: API.GithubV3Json.Repos.PostAddAppAccessRestrictions.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostAddAppAccessRestrictions.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -572,7 +572,7 @@ export function postAddAppAccessRestrictions(options: {
  */
 export function putSetAppAccessRestrictions(options: {
   pathParams: API.GithubV3Json.Repos.PutSetAppAccessRestrictions.PathParams;
-  headers?: API.GithubV3Json.Repos.PutSetAppAccessRestrictions.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PutSetAppAccessRestrictions.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -594,7 +594,7 @@ export function putSetAppAccessRestrictions(options: {
  */
 export function deleteRemoveTeamAccessRestrictions(options: {
   pathParams: API.GithubV3Json.Repos.DeleteRemoveTeamAccessRestrictions.PathParams;
-  headers?: API.GithubV3Json.Repos.DeleteRemoveTeamAccessRestrictions.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.DeleteRemoveTeamAccessRestrictions.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -616,7 +616,7 @@ export function deleteRemoveTeamAccessRestrictions(options: {
  */
 export function getTeamsWithAccessToProtectedBranch(options: {
   pathParams: API.GithubV3Json.Repos.GetTeamsWithAccessToProtectedBranch.PathParams;
-  headers?: API.GithubV3Json.Repos.GetTeamsWithAccessToProtectedBranch.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -637,7 +637,7 @@ export function getTeamsWithAccessToProtectedBranch(options: {
  */
 export function postAddTeamAccessRestrictions(options: {
   pathParams: API.GithubV3Json.Repos.PostAddTeamAccessRestrictions.PathParams;
-  headers?: API.GithubV3Json.Repos.PostAddTeamAccessRestrictions.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostAddTeamAccessRestrictions.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -659,7 +659,7 @@ export function postAddTeamAccessRestrictions(options: {
  */
 export function putSetTeamAccessRestrictions(options: {
   pathParams: API.GithubV3Json.Repos.PutSetTeamAccessRestrictions.PathParams;
-  headers?: API.GithubV3Json.Repos.PutSetTeamAccessRestrictions.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PutSetTeamAccessRestrictions.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -685,7 +685,7 @@ export function putSetTeamAccessRestrictions(options: {
  */
 export function deleteRemoveUserAccessRestrictions(options: {
   pathParams: API.GithubV3Json.Repos.DeleteRemoveUserAccessRestrictions.PathParams;
-  headers?: API.GithubV3Json.Repos.DeleteRemoveUserAccessRestrictions.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.DeleteRemoveUserAccessRestrictions.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -707,7 +707,7 @@ export function deleteRemoveUserAccessRestrictions(options: {
  */
 export function getUsersWithAccessToProtectedBranch(options: {
   pathParams: API.GithubV3Json.Repos.GetUsersWithAccessToProtectedBranch.PathParams;
-  headers?: API.GithubV3Json.Repos.GetUsersWithAccessToProtectedBranch.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -732,7 +732,7 @@ export function getUsersWithAccessToProtectedBranch(options: {
  */
 export function postAddUserAccessRestrictions(options: {
   pathParams: API.GithubV3Json.Repos.PostAddUserAccessRestrictions.PathParams;
-  headers?: API.GithubV3Json.Repos.PostAddUserAccessRestrictions.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostAddUserAccessRestrictions.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -758,7 +758,7 @@ export function postAddUserAccessRestrictions(options: {
  */
 export function putSetUserAccessRestrictions(options: {
   pathParams: API.GithubV3Json.Repos.PutSetUserAccessRestrictions.PathParams;
-  headers?: API.GithubV3Json.Repos.PutSetUserAccessRestrictions.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PutSetUserAccessRestrictions.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -780,7 +780,7 @@ export function putSetUserAccessRestrictions(options: {
  */
 export function deleteAccessRestrictions(options: {
   pathParams: API.GithubV3Json.Repos.DeleteAccessRestrictions.PathParams;
-  headers?: API.GithubV3Json.Repos.DeleteAccessRestrictions.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -803,7 +803,7 @@ export function deleteAccessRestrictions(options: {
  */
 export function getAccessRestrictions(options: {
   pathParams: API.GithubV3Json.Repos.GetAccessRestrictions.PathParams;
-  headers?: API.GithubV3Json.Repos.GetAccessRestrictions.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -822,7 +822,7 @@ export function getAccessRestrictions(options: {
  */
 export function deleteBranchProtection(options: {
   pathParams: API.GithubV3Json.Repos.DeleteBranchProtection.PathParams;
-  headers?: API.GithubV3Json.Repos.DeleteBranchProtection.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -841,7 +841,7 @@ export function deleteBranchProtection(options: {
  */
 export function getBranchProtection(options: {
   pathParams: API.GithubV3Json.Repos.GetBranchProtection.PathParams;
-  headers?: API.GithubV3Json.Repos.GetBranchProtection.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -866,7 +866,7 @@ export function getBranchProtection(options: {
  */
 export function putUpdateBranchProtection(options: {
   pathParams: API.GithubV3Json.Repos.PutUpdateBranchProtection.PathParams;
-  headers?: API.GithubV3Json.Repos.PutUpdateBranchProtection.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PutUpdateBranchProtection.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -898,7 +898,7 @@ export function putUpdateBranchProtection(options: {
  */
 export function postRenameBranch(options: {
   pathParams: API.GithubV3Json.Repos.PostRenameBranch.PathParams;
-  headers?: API.GithubV3Json.Repos.PostRenameBranch.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostRenameBranch.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -917,7 +917,7 @@ export function postRenameBranch(options: {
  */
 export function getBranch(options: {
   pathParams: API.GithubV3Json.Repos.GetBranch.PathParams;
-  headers?: API.GithubV3Json.Repos.GetBranch.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -936,7 +936,7 @@ export function getBranch(options: {
 export function getListBranches(options: {
   pathParams: API.GithubV3Json.Repos.GetListBranches.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetListBranches.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetListBranches.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -960,7 +960,7 @@ export function getListBranches(options: {
 export function getCodeownersErrors(options: {
   pathParams: API.GithubV3Json.Repos.GetCodeownersErrors.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetCodeownersErrors.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetCodeownersErrors.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -979,7 +979,7 @@ export function getCodeownersErrors(options: {
  */
 export function getCollaboratorPermissionLevel(options: {
   pathParams: API.GithubV3Json.Repos.GetCollaboratorPermissionLevel.PathParams;
-  headers?: API.GithubV3Json.Repos.GetCollaboratorPermissionLevel.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -997,7 +997,7 @@ export function getCollaboratorPermissionLevel(options: {
  */
 export function deleteRemoveCollaborator(options: {
   pathParams: API.GithubV3Json.Repos.DeleteRemoveCollaborator.PathParams;
-  headers?: API.GithubV3Json.Repos.DeleteRemoveCollaborator.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1022,7 +1022,7 @@ export function deleteRemoveCollaborator(options: {
  */
 export function getCheckCollaborator(options: {
   pathParams: API.GithubV3Json.Repos.GetCheckCollaborator.PathParams;
-  headers?: API.GithubV3Json.Repos.GetCheckCollaborator.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1061,7 +1061,7 @@ export function getCheckCollaborator(options: {
  */
 export function putAddCollaborator(options: {
   pathParams: API.GithubV3Json.Repos.PutAddCollaborator.PathParams;
-  headers?: API.GithubV3Json.Repos.PutAddCollaborator.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Repos.PutAddCollaborator.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -1089,7 +1089,7 @@ export function putAddCollaborator(options: {
 export function getListCollaborators(options: {
   pathParams: API.GithubV3Json.Repos.GetListCollaborators.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetListCollaborators.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetListCollaborators.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1107,7 +1107,7 @@ export function getListCollaborators(options: {
  */
 export function deleteCommitComment(options: {
   pathParams: API.GithubV3Json.Repos.DeleteCommitComment.PathParams;
-  headers?: API.GithubV3Json.Repos.DeleteCommitComment.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1125,7 +1125,7 @@ export function deleteCommitComment(options: {
  */
 export function getCommitComment(options: {
   pathParams: API.GithubV3Json.Repos.GetCommitComment.PathParams;
-  headers?: API.GithubV3Json.Repos.GetCommitComment.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1143,7 +1143,7 @@ export function getCommitComment(options: {
  */
 export function patchUpdateCommitComment(options: {
   pathParams: API.GithubV3Json.Repos.PatchUpdateCommitComment.PathParams;
-  headers?: API.GithubV3Json.Repos.PatchUpdateCommitComment.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PatchUpdateCommitComment.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -1166,7 +1166,7 @@ export function patchUpdateCommitComment(options: {
 export function getListCommitCommentsForRepo(options: {
   pathParams: API.GithubV3Json.Repos.GetListCommitCommentsForRepo.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetListCommitCommentsForRepo.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetListCommitCommentsForRepo.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1187,7 +1187,7 @@ export function getListCommitCommentsForRepo(options: {
  */
 export function getListBranchesForHeadCommit(options: {
   pathParams: API.GithubV3Json.Repos.GetListBranchesForHeadCommit.PathParams;
-  headers?: API.GithubV3Json.Repos.GetListBranchesForHeadCommit.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1207,7 +1207,7 @@ export function getListBranchesForHeadCommit(options: {
 export function getListCommentsForCommit(options: {
   pathParams: API.GithubV3Json.Repos.GetListCommentsForCommit.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetListCommentsForCommit.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetListCommentsForCommit.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1228,7 +1228,7 @@ export function getListCommentsForCommit(options: {
  */
 export function postCreateCommitComment(options: {
   pathParams: API.GithubV3Json.Repos.PostCreateCommitComment.PathParams;
-  headers?: API.GithubV3Json.Repos.PostCreateCommitComment.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostCreateCommitComment.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -1249,7 +1249,7 @@ export function postCreateCommitComment(options: {
 export function getListPullRequestsAssociatedWithCommit(options: {
   pathParams: API.GithubV3Json.Repos.GetListPullRequestsAssociatedWithCommit.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetListPullRequestsAssociatedWithCommit.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetListPullRequestsAssociatedWithCommit.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1271,7 +1271,7 @@ export function getListPullRequestsAssociatedWithCommit(options: {
 export function getListCommitStatusesForRef(options: {
   pathParams: API.GithubV3Json.Repos.GetListCommitStatusesForRef.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetListCommitStatusesForRef.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetListCommitStatusesForRef.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1297,7 +1297,7 @@ export function getListCommitStatusesForRef(options: {
 export function getCombinedStatusForRef(options: {
   pathParams: API.GithubV3Json.Repos.GetCombinedStatusForRef.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetCombinedStatusForRef.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetCombinedStatusForRef.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1352,7 +1352,7 @@ export function getCombinedStatusForRef(options: {
 export function getCommit(options: {
   pathParams: API.GithubV3Json.Repos.GetCommit.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetCommit.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetCommit.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1399,7 +1399,7 @@ export function getCommit(options: {
 export function getListCommits(options: {
   pathParams: API.GithubV3Json.Repos.GetListCommits.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetListCommits.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetListCommits.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1430,7 +1430,7 @@ export function getListCommits(options: {
  */
 export function getCommunityProfileMetrics(options: {
   pathParams: API.GithubV3Json.Repos.GetCommunityProfileMetrics.PathParams;
-  headers?: API.GithubV3Json.Repos.GetCommunityProfileMetrics.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1494,7 +1494,7 @@ export function getCommunityProfileMetrics(options: {
 export function getCompareCommits(options: {
   pathParams: API.GithubV3Json.Repos.GetCompareCommits.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetCompareCommits.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetCompareCommits.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1521,7 +1521,7 @@ export function getCompareCommits(options: {
  */
 export function deleteFile(options: {
   pathParams: API.GithubV3Json.Repos.DeleteFile.PathParams;
-  headers?: API.GithubV3Json.Repos.DeleteFile.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.DeleteFile.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -1578,7 +1578,7 @@ export function deleteFile(options: {
 export function getContent(options: {
   pathParams: API.GithubV3Json.Repos.GetContent.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetContent.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetContent.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1599,7 +1599,7 @@ export function getContent(options: {
  */
 export function putCreateOrUpdateFileContents(options: {
   pathParams: API.GithubV3Json.Repos.PutCreateOrUpdateFileContents.PathParams;
-  headers?: API.GithubV3Json.Repos.PutCreateOrUpdateFileContents.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PutCreateOrUpdateFileContents.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -1622,7 +1622,7 @@ export function putCreateOrUpdateFileContents(options: {
 export function getListContributors(options: {
   pathParams: API.GithubV3Json.Repos.GetListContributors.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetListContributors.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetListContributors.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1641,7 +1641,7 @@ export function getListContributors(options: {
  */
 export function getDeploymentStatus(options: {
   pathParams: API.GithubV3Json.Repos.GetDeploymentStatus.PathParams;
-  headers?: API.GithubV3Json.Repos.GetDeploymentStatus.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1661,7 +1661,7 @@ export function getDeploymentStatus(options: {
 export function getListDeploymentStatuses(options: {
   pathParams: API.GithubV3Json.Repos.GetListDeploymentStatuses.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetListDeploymentStatuses.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetListDeploymentStatuses.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1682,7 +1682,7 @@ export function getListDeploymentStatuses(options: {
  */
 export function postCreateDeploymentStatus(options: {
   pathParams: API.GithubV3Json.Repos.PostCreateDeploymentStatus.PathParams;
-  headers?: API.GithubV3Json.Repos.PostCreateDeploymentStatus.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostCreateDeploymentStatus.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -1708,7 +1708,7 @@ export function postCreateDeploymentStatus(options: {
  */
 export function deleteDeployment(options: {
   pathParams: API.GithubV3Json.Repos.DeleteDeployment.PathParams;
-  headers?: API.GithubV3Json.Repos.DeleteDeployment.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1726,7 +1726,7 @@ export function deleteDeployment(options: {
  */
 export function getDeployment(options: {
   pathParams: API.GithubV3Json.Repos.GetDeployment.PathParams;
-  headers?: API.GithubV3Json.Repos.GetDeployment.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1746,7 +1746,7 @@ export function getDeployment(options: {
 export function getListDeployments(options: {
   pathParams: API.GithubV3Json.Repos.GetListDeployments.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetListDeployments.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetListDeployments.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1809,7 +1809,7 @@ export function getListDeployments(options: {
  */
 export function postCreateDeployment(options: {
   pathParams: API.GithubV3Json.Repos.PostCreateDeployment.PathParams;
-  headers?: API.GithubV3Json.Repos.PostCreateDeployment.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostCreateDeployment.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -1838,7 +1838,7 @@ export function postCreateDeployment(options: {
  */
 export function postCreateDispatchEvent(options: {
   pathParams: API.GithubV3Json.Repos.PostCreateDispatchEvent.PathParams;
-  headers?: API.GithubV3Json.Repos.PostCreateDispatchEvent.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostCreateDispatchEvent.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -1860,7 +1860,7 @@ export function postCreateDispatchEvent(options: {
  */
 export function deleteDeploymentBranchPolicy(options: {
   pathParams: API.GithubV3Json.Repos.DeleteDeploymentBranchPolicy.PathParams;
-  headers?: API.GithubV3Json.Repos.DeleteDeploymentBranchPolicy.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1881,7 +1881,7 @@ export function deleteDeploymentBranchPolicy(options: {
  */
 export function getDeploymentBranchPolicy(options: {
   pathParams: API.GithubV3Json.Repos.GetDeploymentBranchPolicy.PathParams;
-  headers?: API.GithubV3Json.Repos.GetDeploymentBranchPolicy.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1902,7 +1902,7 @@ export function getDeploymentBranchPolicy(options: {
  */
 export function putUpdateDeploymentBranchPolicy(options: {
   pathParams: API.GithubV3Json.Repos.PutUpdateDeploymentBranchPolicy.PathParams;
-  headers?: API.GithubV3Json.Repos.PutUpdateDeploymentBranchPolicy.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PutUpdateDeploymentBranchPolicy.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -1925,7 +1925,7 @@ export function putUpdateDeploymentBranchPolicy(options: {
 export function getListDeploymentBranchPolicies(options: {
   pathParams: API.GithubV3Json.Repos.GetListDeploymentBranchPolicies.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetListDeploymentBranchPolicies.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetListDeploymentBranchPolicies.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1946,7 +1946,7 @@ export function getListDeploymentBranchPolicies(options: {
  */
 export function postCreateDeploymentBranchPolicy(options: {
   pathParams: API.GithubV3Json.Repos.PostCreateDeploymentBranchPolicy.PathParams;
-  headers?: API.GithubV3Json.Repos.PostCreateDeploymentBranchPolicy.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostCreateDeploymentBranchPolicy.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -1966,7 +1966,7 @@ export function postCreateDeploymentBranchPolicy(options: {
  */
 export function deleteAnEnvironment(options: {
   pathParams: API.GithubV3Json.Repos.DeleteAnEnvironment.PathParams;
-  headers?: API.GithubV3Json.Repos.DeleteAnEnvironment.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1989,7 +1989,7 @@ export function deleteAnEnvironment(options: {
  */
 export function getEnvironment(options: {
   pathParams: API.GithubV3Json.Repos.GetEnvironment.PathParams;
-  headers?: API.GithubV3Json.Repos.GetEnvironment.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2014,7 +2014,7 @@ export function getEnvironment(options: {
  */
 export function putCreateOrUpdateEnvironment(options: {
   pathParams: API.GithubV3Json.Repos.PutCreateOrUpdateEnvironment.PathParams;
-  headers?: API.GithubV3Json.Repos.PutCreateOrUpdateEnvironment.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Repos.PutCreateOrUpdateEnvironment.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -2037,7 +2037,7 @@ export function putCreateOrUpdateEnvironment(options: {
 export function getAllEnvironments(options: {
   pathParams: API.GithubV3Json.Repos.GetAllEnvironments.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetAllEnvironments.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetAllEnvironments.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2056,7 +2056,7 @@ export function getAllEnvironments(options: {
 export function getListForks(options: {
   pathParams: API.GithubV3Json.Repos.GetListForks.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetListForks.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetListForks.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2077,7 +2077,7 @@ export function getListForks(options: {
  */
 export function postCreateFork(options: {
   pathParams: API.GithubV3Json.Repos.PostCreateFork.PathParams;
-  headers?: API.GithubV3Json.Repos.PostCreateFork.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Repos.PostCreateFork.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -2099,7 +2099,7 @@ export function postCreateFork(options: {
  */
 export function getWebhookConfigForRepo(options: {
   pathParams: API.GithubV3Json.Repos.GetWebhookConfigForRepo.PathParams;
-  headers?: API.GithubV3Json.Repos.GetWebhookConfigForRepo.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2120,7 +2120,7 @@ export function getWebhookConfigForRepo(options: {
  */
 export function patchUpdateWebhookConfigForRepo(options: {
   pathParams: API.GithubV3Json.Repos.PatchUpdateWebhookConfigForRepo.PathParams;
-  headers?: API.GithubV3Json.Repos.PatchUpdateWebhookConfigForRepo.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Repos.PatchUpdateWebhookConfigForRepo.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -2140,7 +2140,7 @@ export function patchUpdateWebhookConfigForRepo(options: {
  */
 export function postRedeliverWebhookDelivery(options: {
   pathParams: API.GithubV3Json.Repos.PostRedeliverWebhookDelivery.PathParams;
-  headers?: API.GithubV3Json.Repos.PostRedeliverWebhookDelivery.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2159,7 +2159,7 @@ export function postRedeliverWebhookDelivery(options: {
  */
 export function getWebhookDelivery(options: {
   pathParams: API.GithubV3Json.Repos.GetWebhookDelivery.PathParams;
-  headers?: API.GithubV3Json.Repos.GetWebhookDelivery.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2179,7 +2179,7 @@ export function getWebhookDelivery(options: {
 export function getListWebhookDeliveries(options: {
   pathParams: API.GithubV3Json.Repos.GetListWebhookDeliveries.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetListWebhookDeliveries.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetListWebhookDeliveries.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2198,7 +2198,7 @@ export function getListWebhookDeliveries(options: {
  */
 export function postPingWebhook(options: {
   pathParams: API.GithubV3Json.Repos.PostPingWebhook.PathParams;
-  headers?: API.GithubV3Json.Repos.PostPingWebhook.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2219,7 +2219,7 @@ export function postPingWebhook(options: {
  */
 export function postTestPushWebhook(options: {
   pathParams: API.GithubV3Json.Repos.PostTestPushWebhook.PathParams;
-  headers?: API.GithubV3Json.Repos.PostTestPushWebhook.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2237,7 +2237,7 @@ export function postTestPushWebhook(options: {
  */
 export function deleteWebhook(options: {
   pathParams: API.GithubV3Json.Repos.DeleteWebhook.PathParams;
-  headers?: API.GithubV3Json.Repos.DeleteWebhook.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2256,7 +2256,7 @@ export function deleteWebhook(options: {
  */
 export function getWebhook(options: {
   pathParams: API.GithubV3Json.Repos.GetWebhook.PathParams;
-  headers?: API.GithubV3Json.Repos.GetWebhook.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2275,7 +2275,7 @@ export function getWebhook(options: {
  */
 export function patchUpdateWebhook(options: {
   pathParams: API.GithubV3Json.Repos.PatchUpdateWebhook.PathParams;
-  headers?: API.GithubV3Json.Repos.PatchUpdateWebhook.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Repos.PatchUpdateWebhook.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -2296,7 +2296,7 @@ export function patchUpdateWebhook(options: {
 export function getListWebhooks(options: {
   pathParams: API.GithubV3Json.Repos.GetListWebhooks.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetListWebhooks.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetListWebhooks.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2316,7 +2316,7 @@ export function getListWebhooks(options: {
  */
 export function postCreateWebhook(options: {
   pathParams: API.GithubV3Json.Repos.PostCreateWebhook.PathParams;
-  headers?: API.GithubV3Json.Repos.PostCreateWebhook.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Repos.PostCreateWebhook.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -2335,7 +2335,7 @@ export function postCreateWebhook(options: {
  */
 export function deleteInvitation(options: {
   pathParams: API.GithubV3Json.Repos.DeleteInvitation.PathParams;
-  headers?: API.GithubV3Json.Repos.DeleteInvitation.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2353,7 +2353,7 @@ export function deleteInvitation(options: {
  */
 export function patchUpdateInvitation(options: {
   pathParams: API.GithubV3Json.Repos.PatchUpdateInvitation.PathParams;
-  headers?: API.GithubV3Json.Repos.PatchUpdateInvitation.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Repos.PatchUpdateInvitation.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -2374,7 +2374,7 @@ export function patchUpdateInvitation(options: {
 export function getListInvitations(options: {
   pathParams: API.GithubV3Json.Repos.GetListInvitations.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetListInvitations.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetListInvitations.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2393,7 +2393,7 @@ export function getListInvitations(options: {
  */
 export function deleteDeployKey(options: {
   pathParams: API.GithubV3Json.Repos.DeleteDeployKey.PathParams;
-  headers?: API.GithubV3Json.Repos.DeleteDeployKey.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2411,7 +2411,7 @@ export function deleteDeployKey(options: {
  */
 export function getDeployKey(options: {
   pathParams: API.GithubV3Json.Repos.GetDeployKey.PathParams;
-  headers?: API.GithubV3Json.Repos.GetDeployKey.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2430,7 +2430,7 @@ export function getDeployKey(options: {
 export function getListDeployKeys(options: {
   pathParams: API.GithubV3Json.Repos.GetListDeployKeys.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetListDeployKeys.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetListDeployKeys.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2449,7 +2449,7 @@ export function getListDeployKeys(options: {
  */
 export function postCreateDeployKey(options: {
   pathParams: API.GithubV3Json.Repos.PostCreateDeployKey.PathParams;
-  headers?: API.GithubV3Json.Repos.PostCreateDeployKey.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostCreateDeployKey.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -2469,7 +2469,7 @@ export function postCreateDeployKey(options: {
  */
 export function getListLanguages(options: {
   pathParams: API.GithubV3Json.Repos.GetListLanguages.PathParams;
-  headers?: API.GithubV3Json.Repos.GetListLanguages.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2488,7 +2488,7 @@ export function getListLanguages(options: {
  */
 export function deleteDisableLfsForRepo(options: {
   pathParams: API.GithubV3Json.Repos.DeleteDisableLfsForRepo.PathParams;
-  headers?: API.GithubV3Json.Repos.DeleteDisableLfsForRepo.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2507,7 +2507,7 @@ export function deleteDisableLfsForRepo(options: {
  */
 export function putEnableLfsForRepo(options: {
   pathParams: API.GithubV3Json.Repos.PutEnableLfsForRepo.PathParams;
-  headers?: API.GithubV3Json.Repos.PutEnableLfsForRepo.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2526,7 +2526,7 @@ export function putEnableLfsForRepo(options: {
  */
 export function postMergeUpstream(options: {
   pathParams: API.GithubV3Json.Repos.PostMergeUpstream.PathParams;
-  headers?: API.GithubV3Json.Repos.PostMergeUpstream.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostMergeUpstream.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -2545,7 +2545,7 @@ export function postMergeUpstream(options: {
  */
 export function postMerge(options: {
   pathParams: API.GithubV3Json.Repos.PostMerge.PathParams;
-  headers?: API.GithubV3Json.Repos.PostMerge.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostMerge.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -2564,7 +2564,7 @@ export function postMerge(options: {
  */
 export function getLatestPagesBuild(options: {
   pathParams: API.GithubV3Json.Repos.GetLatestPagesBuild.PathParams;
-  headers?: API.GithubV3Json.Repos.GetLatestPagesBuild.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2582,7 +2582,7 @@ export function getLatestPagesBuild(options: {
  */
 export function getPagesBuild(options: {
   pathParams: API.GithubV3Json.Repos.GetPagesBuild.PathParams;
-  headers?: API.GithubV3Json.Repos.GetPagesBuild.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2601,7 +2601,7 @@ export function getPagesBuild(options: {
 export function getListPagesBuilds(options: {
   pathParams: API.GithubV3Json.Repos.GetListPagesBuilds.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetListPagesBuilds.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetListPagesBuilds.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2622,7 +2622,7 @@ export function getListPagesBuilds(options: {
  */
 export function postRequestPagesBuild(options: {
   pathParams: API.GithubV3Json.Repos.PostRequestPagesBuild.PathParams;
-  headers?: API.GithubV3Json.Repos.PostRequestPagesBuild.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2643,7 +2643,7 @@ export function postRequestPagesBuild(options: {
  */
 export function postCreatePagesDeployment(options: {
   pathParams: API.GithubV3Json.Repos.PostCreatePagesDeployment.PathParams;
-  headers?: API.GithubV3Json.Repos.PostCreatePagesDeployment.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostCreatePagesDeployment.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -2667,7 +2667,7 @@ export function postCreatePagesDeployment(options: {
  */
 export function getPagesHealthCheck(options: {
   pathParams: API.GithubV3Json.Repos.GetPagesHealthCheck.PathParams;
-  headers?: API.GithubV3Json.Repos.GetPagesHealthCheck.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2688,7 +2688,7 @@ export function getPagesHealthCheck(options: {
  */
 export function deletePagesSite(options: {
   pathParams: API.GithubV3Json.Repos.DeletePagesSite.PathParams;
-  headers?: API.GithubV3Json.Repos.DeletePagesSite.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2706,7 +2706,7 @@ export function deletePagesSite(options: {
  */
 export function getPages(options: {
   pathParams: API.GithubV3Json.Repos.GetPages.PathParams;
-  headers?: API.GithubV3Json.Repos.GetPages.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2727,7 +2727,7 @@ export function getPages(options: {
  */
 export function postCreatePagesSite(options: {
   pathParams: API.GithubV3Json.Repos.PostCreatePagesSite.PathParams;
-  headers?: API.GithubV3Json.Repos.PostCreatePagesSite.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostCreatePagesSite.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -2749,7 +2749,7 @@ export function postCreatePagesSite(options: {
  */
 export function putUpdateInformationAboutPagesSite(options: {
   pathParams: API.GithubV3Json.Repos.PutUpdateInformationAboutPagesSite.PathParams;
-  headers?: API.GithubV3Json.Repos.PutUpdateInformationAboutPagesSite.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PutUpdateInformationAboutPagesSite.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -2772,7 +2772,7 @@ export function putUpdateInformationAboutPagesSite(options: {
 export function getReadmeInDirectory(options: {
   pathParams: API.GithubV3Json.Repos.GetReadmeInDirectory.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetReadmeInDirectory.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetReadmeInDirectory.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2794,7 +2794,7 @@ export function getReadmeInDirectory(options: {
 export function getReadme(options: {
   pathParams: API.GithubV3Json.Repos.GetReadme.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetReadme.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetReadme.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2812,7 +2812,7 @@ export function getReadme(options: {
  */
 export function deleteReleaseAsset(options: {
   pathParams: API.GithubV3Json.Repos.DeleteReleaseAsset.PathParams;
-  headers?: API.GithubV3Json.Repos.DeleteReleaseAsset.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2831,7 +2831,7 @@ export function deleteReleaseAsset(options: {
  */
 export function getReleaseAsset(options: {
   pathParams: API.GithubV3Json.Repos.GetReleaseAsset.PathParams;
-  headers?: API.GithubV3Json.Repos.GetReleaseAsset.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2850,7 +2850,7 @@ export function getReleaseAsset(options: {
  */
 export function patchUpdateReleaseAsset(options: {
   pathParams: API.GithubV3Json.Repos.PatchUpdateReleaseAsset.PathParams;
-  headers?: API.GithubV3Json.Repos.PatchUpdateReleaseAsset.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Repos.PatchUpdateReleaseAsset.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -2870,7 +2870,7 @@ export function patchUpdateReleaseAsset(options: {
  */
 export function postGenerateReleaseNotes(options: {
   pathParams: API.GithubV3Json.Repos.PostGenerateReleaseNotes.PathParams;
-  headers?: API.GithubV3Json.Repos.PostGenerateReleaseNotes.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostGenerateReleaseNotes.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -2892,7 +2892,7 @@ export function postGenerateReleaseNotes(options: {
  */
 export function getLatestRelease(options: {
   pathParams: API.GithubV3Json.Repos.GetLatestRelease.PathParams;
-  headers?: API.GithubV3Json.Repos.GetLatestRelease.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2911,7 +2911,7 @@ export function getLatestRelease(options: {
  */
 export function getReleaseByTag(options: {
   pathParams: API.GithubV3Json.Repos.GetReleaseByTag.PathParams;
-  headers?: API.GithubV3Json.Repos.GetReleaseByTag.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2930,7 +2930,7 @@ export function getReleaseByTag(options: {
 export function getListReleaseAssets(options: {
   pathParams: API.GithubV3Json.Repos.GetListReleaseAssets.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetListReleaseAssets.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetListReleaseAssets.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2968,7 +2968,7 @@ export function getListReleaseAssets(options: {
 export function postUploadReleaseAsset(options: {
   pathParams: API.GithubV3Json.Repos.PostUploadReleaseAsset.PathParams;
   queryParams: API.GithubV3Json.Repos.PostUploadReleaseAsset.QueryParams;
-  headers?: API.GithubV3Json.Repos.PostUploadReleaseAsset.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostUploadReleaseAsset.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -2988,7 +2988,7 @@ export function postUploadReleaseAsset(options: {
  */
 export function deleteRelease(options: {
   pathParams: API.GithubV3Json.Repos.DeleteRelease.PathParams;
-  headers?: API.GithubV3Json.Repos.DeleteRelease.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3007,7 +3007,7 @@ export function deleteRelease(options: {
  */
 export function getRelease(options: {
   pathParams: API.GithubV3Json.Repos.GetRelease.PathParams;
-  headers?: API.GithubV3Json.Repos.GetRelease.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3026,7 +3026,7 @@ export function getRelease(options: {
  */
 export function patchUpdateRelease(options: {
   pathParams: API.GithubV3Json.Repos.PatchUpdateRelease.PathParams;
-  headers?: API.GithubV3Json.Repos.PatchUpdateRelease.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Repos.PatchUpdateRelease.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -3049,7 +3049,7 @@ export function patchUpdateRelease(options: {
 export function getListReleases(options: {
   pathParams: API.GithubV3Json.Repos.GetListReleases.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetListReleases.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetListReleases.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3070,7 +3070,7 @@ export function getListReleases(options: {
  */
 export function postCreateRelease(options: {
   pathParams: API.GithubV3Json.Repos.PostCreateRelease.PathParams;
-  headers?: API.GithubV3Json.Repos.PostCreateRelease.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostCreateRelease.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -3090,7 +3090,7 @@ export function postCreateRelease(options: {
  */
 export function getCodeFrequencyStats(options: {
   pathParams: API.GithubV3Json.Repos.GetCodeFrequencyStats.PathParams;
-  headers?: API.GithubV3Json.Repos.GetCodeFrequencyStats.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3109,7 +3109,7 @@ export function getCodeFrequencyStats(options: {
  */
 export function getCommitActivityStats(options: {
   pathParams: API.GithubV3Json.Repos.GetCommitActivityStats.PathParams;
-  headers?: API.GithubV3Json.Repos.GetCommitActivityStats.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3133,7 +3133,7 @@ export function getCommitActivityStats(options: {
  */
 export function getContributorsStats(options: {
   pathParams: API.GithubV3Json.Repos.GetContributorsStats.PathParams;
-  headers?: API.GithubV3Json.Repos.GetContributorsStats.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3154,7 +3154,7 @@ export function getContributorsStats(options: {
  */
 export function getParticipationStats(options: {
   pathParams: API.GithubV3Json.Repos.GetParticipationStats.PathParams;
-  headers?: API.GithubV3Json.Repos.GetParticipationStats.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3178,7 +3178,7 @@ export function getParticipationStats(options: {
  */
 export function getPunchCardStats(options: {
   pathParams: API.GithubV3Json.Repos.GetPunchCardStats.PathParams;
-  headers?: API.GithubV3Json.Repos.GetPunchCardStats.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3199,7 +3199,7 @@ export function getPunchCardStats(options: {
  */
 export function postCreateCommitStatus(options: {
   pathParams: API.GithubV3Json.Repos.PostCreateCommitStatus.PathParams;
-  headers?: API.GithubV3Json.Repos.PostCreateCommitStatus.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostCreateCommitStatus.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -3220,7 +3220,7 @@ export function postCreateCommitStatus(options: {
  */
 export function deleteTagProtection(options: {
   pathParams: API.GithubV3Json.Repos.DeleteTagProtection.PathParams;
-  headers?: API.GithubV3Json.Repos.DeleteTagProtection.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3241,7 +3241,7 @@ export function deleteTagProtection(options: {
  */
 export function getListTagProtection(options: {
   pathParams: API.GithubV3Json.Repos.GetListTagProtection.PathParams;
-  headers?: API.GithubV3Json.Repos.GetListTagProtection.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3261,7 +3261,7 @@ export function getListTagProtection(options: {
  */
 export function postCreateTagProtection(options: {
   pathParams: API.GithubV3Json.Repos.PostCreateTagProtection.PathParams;
-  headers?: API.GithubV3Json.Repos.PostCreateTagProtection.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostCreateTagProtection.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -3281,7 +3281,7 @@ export function postCreateTagProtection(options: {
 export function getListTags(options: {
   pathParams: API.GithubV3Json.Repos.GetListTags.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetListTags.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetListTags.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3303,7 +3303,7 @@ export function getListTags(options: {
  */
 export function getDownloadTarballArchive(options: {
   pathParams: API.GithubV3Json.Repos.GetDownloadTarballArchive.PathParams;
-  headers?: API.GithubV3Json.Repos.GetDownloadTarballArchive.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3322,7 +3322,7 @@ export function getDownloadTarballArchive(options: {
 export function getListTeams(options: {
   pathParams: API.GithubV3Json.Repos.GetListTeams.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetListTeams.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetListTeams.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3341,7 +3341,7 @@ export function getListTeams(options: {
 export function getAllTopics(options: {
   pathParams: API.GithubV3Json.Repos.GetAllTopics.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetAllTopics.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetAllTopics.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3359,7 +3359,7 @@ export function getAllTopics(options: {
  */
 export function putReplaceAllTopics(options: {
   pathParams: API.GithubV3Json.Repos.PutReplaceAllTopics.PathParams;
-  headers?: API.GithubV3Json.Repos.PutReplaceAllTopics.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PutReplaceAllTopics.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -3380,7 +3380,7 @@ export function putReplaceAllTopics(options: {
 export function getClones(options: {
   pathParams: API.GithubV3Json.Repos.GetClones.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetClones.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetClones.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3399,7 +3399,7 @@ export function getClones(options: {
  */
 export function getTopPaths(options: {
   pathParams: API.GithubV3Json.Repos.GetTopPaths.PathParams;
-  headers?: API.GithubV3Json.Repos.GetTopPaths.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3418,7 +3418,7 @@ export function getTopPaths(options: {
  */
 export function getTopReferrers(options: {
   pathParams: API.GithubV3Json.Repos.GetTopReferrers.PathParams;
-  headers?: API.GithubV3Json.Repos.GetTopReferrers.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3438,7 +3438,7 @@ export function getTopReferrers(options: {
 export function getViews(options: {
   pathParams: API.GithubV3Json.Repos.GetViews.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetViews.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetViews.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3457,7 +3457,7 @@ export function getViews(options: {
  */
 export function postTransfer(options: {
   pathParams: API.GithubV3Json.Repos.PostTransfer.PathParams;
-  headers?: API.GithubV3Json.Repos.PostTransfer.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostTransfer.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -3479,7 +3479,7 @@ export function postTransfer(options: {
  */
 export function deleteDisableVulnerabilityAlerts(options: {
   pathParams: API.GithubV3Json.Repos.DeleteDisableVulnerabilityAlerts.PathParams;
-  headers?: API.GithubV3Json.Repos.DeleteDisableVulnerabilityAlerts.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3498,7 +3498,7 @@ export function deleteDisableVulnerabilityAlerts(options: {
  */
 export function getCheckVulnerabilityAlerts(options: {
   pathParams: API.GithubV3Json.Repos.GetCheckVulnerabilityAlerts.PathParams;
-  headers?: API.GithubV3Json.Repos.GetCheckVulnerabilityAlerts.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3517,7 +3517,7 @@ export function getCheckVulnerabilityAlerts(options: {
  */
 export function putEnableVulnerabilityAlerts(options: {
   pathParams: API.GithubV3Json.Repos.PutEnableVulnerabilityAlerts.PathParams;
-  headers?: API.GithubV3Json.Repos.PutEnableVulnerabilityAlerts.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3540,7 +3540,7 @@ export function putEnableVulnerabilityAlerts(options: {
  */
 export function getDownloadZipballArchive(options: {
   pathParams: API.GithubV3Json.Repos.GetDownloadZipballArchive.PathParams;
-  headers?: API.GithubV3Json.Repos.GetDownloadZipballArchive.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3562,7 +3562,7 @@ export function getDownloadZipballArchive(options: {
  */
 export function deleteRepos(options: {
   pathParams: API.GithubV3Json.Repos.DeleteRepos.PathParams;
-  headers?: API.GithubV3Json.Repos.DeleteRepos.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3583,7 +3583,7 @@ export function deleteRepos(options: {
  */
 export function getRepos(options: {
   pathParams: API.GithubV3Json.Repos.GetRepos.PathParams;
-  headers?: API.GithubV3Json.Repos.GetRepos.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3602,7 +3602,7 @@ export function getRepos(options: {
  */
 export function patchUpdate(options: {
   pathParams: API.GithubV3Json.Repos.PatchUpdate.PathParams;
-  headers?: API.GithubV3Json.Repos.PatchUpdate.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Repos.PatchUpdate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -3628,7 +3628,7 @@ export function patchUpdate(options: {
  */
 export function postCreateUsingTemplate(options: {
   pathParams: API.GithubV3Json.Repos.PostCreateUsingTemplate.PathParams;
-  headers?: API.GithubV3Json.Repos.PostCreateUsingTemplate.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostCreateUsingTemplate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -3652,7 +3652,7 @@ export function postCreateUsingTemplate(options: {
  */
 export function getListPublic(options?: {
   queryParams?: API.GithubV3Json.Repos.GetListPublic.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetListPublic.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3673,7 +3673,7 @@ export function getListPublic(options?: {
  */
 export function getListForAuthenticatedUser(options?: {
   queryParams?: API.GithubV3Json.Repos.GetListForAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetListForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3691,7 +3691,7 @@ export function getListForAuthenticatedUser(options?: {
  */
 export function deleteDeclineInvitationForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Repos.DeleteDeclineInvitationForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Repos.DeleteDeclineInvitationForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3709,7 +3709,7 @@ export function deleteDeclineInvitationForAuthenticatedUser(options: {
  */
 export function patchAcceptInvitationForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Repos.PatchAcceptInvitationForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Repos.PatchAcceptInvitationForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3728,7 +3728,7 @@ export function patchAcceptInvitationForAuthenticatedUser(options: {
  */
 export function getListInvitationsForAuthenticatedUser(options?: {
   queryParams?: API.GithubV3Json.Repos.GetListInvitationsForAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetListInvitationsForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3752,7 +3752,7 @@ export function getListInvitationsForAuthenticatedUser(options?: {
  * @docs https://docs.github.com/rest/reference/repos#create-a-repository-for-the-authenticated-user
  */
 export function postCreateForAuthenticatedUser(options: {
-  headers?: API.GithubV3Json.Repos.PostCreateForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostCreateForAuthenticatedUser.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -3773,7 +3773,7 @@ export function postCreateForAuthenticatedUser(options: {
 export function getListForUser(options: {
   pathParams: API.GithubV3Json.Repos.GetListForUser.PathParams;
   queryParams?: API.GithubV3Json.Repos.GetListForUser.QueryParams;
-  headers?: API.GithubV3Json.Repos.GetListForUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

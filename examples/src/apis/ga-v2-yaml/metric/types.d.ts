@@ -2,10 +2,6 @@ declare namespace API {
   namespace GaV2Yaml {
     namespace Metric {
       namespace GetAnalyticsManagementCustomMetrics {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID for the custom metric to retrieve
@@ -24,10 +20,6 @@ declare namespace API {
 
       namespace PatchAnalyticsManagementCustomMetrics {
         type Body = $schemas.Holder;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -55,10 +47,6 @@ declare namespace API {
       namespace PutAnalyticsManagementCustomMetricsUpdate {
         type Body = $schemas.Holder;
 
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID for the custom metric to update
@@ -83,10 +71,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsManagementCustomMetricsList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID for the custom metrics to retrieve
@@ -112,10 +96,6 @@ declare namespace API {
 
       namespace PostAnalyticsManagementCustomMetricsInsert {
         type Body = $schemas.Holder;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**

@@ -6,7 +6,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function getWpV2Taxonomy(options: {
   pathParams: API.WordpressV2Json.Taxonomies.GetWpV2Taxonomy.PathParams;
   queryParams?: API.WordpressV2Json.Taxonomies.GetWpV2Taxonomy.QueryParams;
-  headers?: API.WordpressV2Json.Taxonomies.GetWpV2Taxonomy.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -22,7 +22,7 @@ export function getWpV2Taxonomy(options: {
  */
 export function getWpV2(options?: {
   queryParams?: API.WordpressV2Json.Taxonomies.GetWpV2.QueryParams;
-  headers?: API.WordpressV2Json.Taxonomies.GetWpV2.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

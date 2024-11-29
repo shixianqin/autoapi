@@ -2,10 +2,6 @@ declare namespace API {
   namespace GaV3Json {
     namespace Management {
       namespace GetAnalyticsAccountSummariesList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Data format for the response.
@@ -50,10 +46,6 @@ declare namespace API {
       }
 
       namespace DeleteAnalyticsAccountUserLinks {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to delete the user link for.
@@ -99,11 +91,6 @@ declare namespace API {
 
       namespace PutAnalyticsAccountUserLinksUpdate {
         type Body = $schemas.EntityUserLink;
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -151,10 +138,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsAccountUserLinksList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to retrieve the user links for.
@@ -208,11 +191,6 @@ declare namespace API {
       namespace PostAnalyticsAccountUserLinksInsert {
         type Body = $schemas.EntityUserLink;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to create the user link for.
@@ -255,10 +233,6 @@ declare namespace API {
       }
 
       namespace DeleteAnalyticsFilters {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to delete the filter for.
@@ -305,10 +279,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsFilters {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to retrieve filters for.
@@ -356,11 +326,6 @@ declare namespace API {
 
       namespace PatchAnalyticsFilters {
         type Body = $schemas.Filter;
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -410,11 +375,6 @@ declare namespace API {
       namespace PutAnalyticsFiltersUpdate {
         type Body = $schemas.Filter;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to which the filter belongs.
@@ -461,10 +421,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsFiltersList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to retrieve filters for.
@@ -518,11 +474,6 @@ declare namespace API {
       namespace PostAnalyticsFiltersInsert {
         type Body = $schemas.Filter;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to create filter for.
@@ -566,11 +517,6 @@ declare namespace API {
 
       namespace PostAnalyticsUploadsDeleteUploadData {
         type Body = $schemas.AnalyticsDataimportDeleteUploadDataRequest;
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -620,10 +566,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsUploads {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account Id for the upload to retrieve.
@@ -678,10 +620,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsUploadsList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account Id for the uploads to retrieve.
@@ -742,10 +680,6 @@ declare namespace API {
       }
 
       namespace PostAnalyticsUploadsUploadData {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account Id associated with the upload.
@@ -796,10 +730,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsCustomDataSourcesList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account Id for the custom data sources to retrieve.
@@ -856,10 +786,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsCustomDimensions {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID for the custom dimension to retrieve.
@@ -911,11 +837,6 @@ declare namespace API {
 
       namespace PatchAnalyticsCustomDimensions {
         type Body = $schemas.CustomDimension;
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -973,11 +894,6 @@ declare namespace API {
       namespace PutAnalyticsCustomDimensionsUpdate {
         type Body = $schemas.CustomDimension;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID for the custom dimension to update.
@@ -1032,10 +948,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsCustomDimensionsList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID for the custom dimensions to retrieve.
@@ -1093,11 +1005,6 @@ declare namespace API {
       namespace PostAnalyticsCustomDimensionsInsert {
         type Body = $schemas.CustomDimension;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID for the custom dimension to create.
@@ -1144,10 +1051,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsCustomMetrics {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID for the custom metric to retrieve.
@@ -1199,11 +1102,6 @@ declare namespace API {
 
       namespace PatchAnalyticsCustomMetrics {
         type Body = $schemas.CustomMetric;
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -1261,11 +1159,6 @@ declare namespace API {
       namespace PutAnalyticsCustomMetricsUpdate {
         type Body = $schemas.CustomMetric;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID for the custom metric to update.
@@ -1320,10 +1213,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsCustomMetricsList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID for the custom metrics to retrieve.
@@ -1381,11 +1270,6 @@ declare namespace API {
       namespace PostAnalyticsCustomMetricsInsert {
         type Body = $schemas.CustomMetric;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID for the custom metric to create.
@@ -1432,10 +1316,6 @@ declare namespace API {
       }
 
       namespace DeleteAnalyticsWebPropertyAdWordsLinks {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * ID of the account which the given web property belongs to.
@@ -1484,10 +1364,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsWebPropertyAdWordsLinks {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * ID of the account which the given web property belongs to.
@@ -1539,11 +1415,6 @@ declare namespace API {
 
       namespace PatchAnalyticsWebPropertyAdWordsLinks {
         type Body = $schemas.EntityAdWordsLink;
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -1597,11 +1468,6 @@ declare namespace API {
       namespace PutAnalyticsWebPropertyAdWordsLinksUpdate {
         type Body = $schemas.EntityAdWordsLink;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * ID of the account which the given web property belongs to.
@@ -1652,10 +1518,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsWebPropertyAdWordsLinksList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * ID of the account which the given web property belongs to.
@@ -1713,11 +1575,6 @@ declare namespace API {
       namespace PostAnalyticsWebPropertyAdWordsLinksInsert {
         type Body = $schemas.EntityAdWordsLink;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * ID of the Google Analytics account to create the link for.
@@ -1764,10 +1621,6 @@ declare namespace API {
       }
 
       namespace DeleteAnalyticsWebpropertyUserLinks {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to delete the user link for.
@@ -1817,11 +1670,6 @@ declare namespace API {
 
       namespace PutAnalyticsWebpropertyUserLinksUpdate {
         type Body = $schemas.EntityUserLink;
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -1873,10 +1721,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsWebpropertyUserLinksList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID which the given web property belongs to.
@@ -1934,11 +1778,6 @@ declare namespace API {
       namespace PostAnalyticsWebpropertyUserLinksInsert {
         type Body = $schemas.EntityUserLink;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to create the user link for.
@@ -1985,10 +1824,6 @@ declare namespace API {
       }
 
       namespace DeleteAnalyticsProfileUserLinks {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to delete the user link for.
@@ -2042,11 +1877,6 @@ declare namespace API {
 
       namespace PutAnalyticsProfileUserLinksUpdate {
         type Body = $schemas.EntityUserLink;
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -2102,10 +1932,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsProfileUserLinksList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID which the given view (profile) belongs to.
@@ -2167,11 +1993,6 @@ declare namespace API {
       namespace PostAnalyticsProfileUserLinksInsert {
         type Body = $schemas.EntityUserLink;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to create the user link for.
@@ -2222,10 +2043,6 @@ declare namespace API {
       }
 
       namespace DeleteAnalyticsExperiments {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to which the experiment belongs
@@ -2278,10 +2095,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsExperiments {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to retrieve the experiment for.
@@ -2337,11 +2150,6 @@ declare namespace API {
 
       namespace PatchAnalyticsExperiments {
         type Body = $schemas.Experiment;
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -2399,11 +2207,6 @@ declare namespace API {
       namespace PutAnalyticsExperimentsUpdate {
         type Body = $schemas.Experiment;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID of the experiment to update.
@@ -2458,10 +2261,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsExperimentsList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to retrieve experiments for.
@@ -2523,11 +2322,6 @@ declare namespace API {
       namespace PostAnalyticsExperimentsInsert {
         type Body = $schemas.Experiment;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to create the experiment for.
@@ -2578,10 +2372,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsGoals {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to retrieve the goal for.
@@ -2637,11 +2427,6 @@ declare namespace API {
 
       namespace PatchAnalyticsGoals {
         type Body = $schemas.Goal;
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -2699,11 +2484,6 @@ declare namespace API {
       namespace PutAnalyticsGoalsUpdate {
         type Body = $schemas.Goal;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to update the goal.
@@ -2758,10 +2538,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsGoalsList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to retrieve goals for. Can either be a specific account ID or '~all', which refers to all the accounts that user has access to.
@@ -2823,11 +2599,6 @@ declare namespace API {
       namespace PostAnalyticsGoalsInsert {
         type Body = $schemas.Goal;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to create the goal for.
@@ -2878,10 +2649,6 @@ declare namespace API {
       }
 
       namespace DeleteAnalyticsProfileFilterLinks {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to which the profile filter link belongs.
@@ -2934,10 +2701,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsProfileFilterLinks {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to retrieve profile filter link for.
@@ -2993,11 +2756,6 @@ declare namespace API {
 
       namespace PatchAnalyticsProfileFilterLinks {
         type Body = $schemas.ProfileFilterLink;
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -3055,11 +2813,6 @@ declare namespace API {
       namespace PutAnalyticsProfileFilterLinksUpdate {
         type Body = $schemas.ProfileFilterLink;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to which profile filter link belongs.
@@ -3114,10 +2867,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsProfileFilterLinksList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to retrieve profile filter links for.
@@ -3179,11 +2928,6 @@ declare namespace API {
       namespace PostAnalyticsProfileFilterLinksInsert {
         type Body = $schemas.ProfileFilterLink;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to create profile filter link for.
@@ -3234,10 +2978,6 @@ declare namespace API {
       }
 
       namespace DeleteAnalyticsUnsampledReports {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to delete the unsampled report for.
@@ -3290,10 +3030,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsUnsampledReports {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to retrieve unsampled report for.
@@ -3348,10 +3084,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsUnsampledReportsList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to retrieve unsampled reports for. Must be a specific account ID, ~all is not supported.
@@ -3413,11 +3145,6 @@ declare namespace API {
       namespace PostAnalyticsUnsampledReportsInsert {
         type Body = $schemas.UnsampledReport;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to create the unsampled report for.
@@ -3468,10 +3195,6 @@ declare namespace API {
       }
 
       namespace DeleteAnalyticsProfiles {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to delete the view (profile) for.
@@ -3520,10 +3243,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsProfiles {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to retrieve the view (profile) for.
@@ -3575,11 +3294,6 @@ declare namespace API {
 
       namespace PatchAnalyticsProfiles {
         type Body = $schemas.Profile;
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -3633,11 +3347,6 @@ declare namespace API {
       namespace PutAnalyticsProfilesUpdate {
         type Body = $schemas.Profile;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to which the view (profile) belongs
@@ -3688,10 +3397,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsProfilesList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID for the view (profiles) to retrieve. Can either be a specific account ID or '~all', which refers to all the accounts to which the user has access.
@@ -3749,11 +3454,6 @@ declare namespace API {
       namespace PostAnalyticsProfilesInsert {
         type Body = $schemas.Profile;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to create the view (profile) for.
@@ -3800,10 +3500,6 @@ declare namespace API {
       }
 
       namespace DeleteAnalyticsRemarketingAudience {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to which the remarketing audience belongs.
@@ -3852,10 +3548,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsRemarketingAudience {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account ID of the remarketing audience to retrieve.
@@ -3907,11 +3599,6 @@ declare namespace API {
 
       namespace PatchAnalyticsRemarketingAudience {
         type Body = $schemas.RemarketingAudience;
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -3965,11 +3652,6 @@ declare namespace API {
       namespace PutAnalyticsRemarketingAudienceUpdate {
         type Body = $schemas.RemarketingAudience;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account ID of the remarketing audience to update.
@@ -4020,10 +3702,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsRemarketingAudienceList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account ID of the remarketing audiences to retrieve.
@@ -4082,11 +3760,6 @@ declare namespace API {
       namespace PostAnalyticsRemarketingAudienceInsert {
         type Body = $schemas.RemarketingAudience;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account ID for which to create the remarketing audience.
@@ -4133,10 +3806,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsWebproperties {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to retrieve the web property for.
@@ -4184,11 +3853,6 @@ declare namespace API {
 
       namespace PatchAnalyticsWebproperties {
         type Body = $schemas.Webproperty;
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -4238,11 +3902,6 @@ declare namespace API {
       namespace PutAnalyticsWebpropertiesUpdate {
         type Body = $schemas.Webproperty;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to which the web property belongs
@@ -4289,10 +3948,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsWebpropertiesList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to retrieve web properties for. Can either be a specific account ID or '~all', which refers to all the accounts that user has access to.
@@ -4346,11 +4001,6 @@ declare namespace API {
       namespace PostAnalyticsWebpropertiesInsert {
         type Body = $schemas.Webproperty;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to create the web property for.
@@ -4393,10 +4043,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsAccountsList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Data format for the response.
@@ -4443,11 +4089,6 @@ declare namespace API {
       namespace PostAnalyticsClientIdHashClientId {
         type Body = $schemas.HashClientIdRequest;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Data format for the response.
@@ -4483,10 +4124,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsSegmentsList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Data format for the response.

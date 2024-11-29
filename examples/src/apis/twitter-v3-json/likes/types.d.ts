@@ -2,10 +2,6 @@ declare namespace API {
   namespace TwitterV3Json {
     namespace Likes {
       namespace GetFirehoseStream {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * The number of minutes of backfill requested.
@@ -112,10 +108,6 @@ declare namespace API {
       }
 
       namespace GetSample10Stream {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * The number of minutes of backfill requested.

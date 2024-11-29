@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function postWpV2IdEdit(options: {
   pathParams: API.WordpressV2Json.Media.PostWpV2IdEdit.PathParams;
-  headers?: API.WordpressV2Json.Media.PostWpV2IdEdit.Headers;
+  headers?: Record<string, any>;
   formData: API.WordpressV2Json.Media.PostWpV2IdEdit.FormData;
   config?: RequestConfig;
   context?: RequestContext;
@@ -22,7 +22,7 @@ export function postWpV2IdEdit(options: {
  */
 export function postWpV2IdProcess(options: {
   pathParams: API.WordpressV2Json.Media.PostWpV2IdProcess.PathParams;
-  headers?: API.WordpressV2Json.Media.PostWpV2IdProcess.Headers;
+  headers?: Record<string, any>;
   formData: API.WordpressV2Json.Media.PostWpV2IdProcess.FormData;
   config?: RequestConfig;
   context?: RequestContext;
@@ -40,7 +40,7 @@ export function postWpV2IdProcess(options: {
 export function deleteWpV2Id(options: {
   pathParams: API.WordpressV2Json.Media.DeleteWpV2Id.PathParams;
   queryParams?: API.WordpressV2Json.Media.DeleteWpV2Id.QueryParams;
-  headers?: API.WordpressV2Json.Media.DeleteWpV2Id.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -57,7 +57,7 @@ export function deleteWpV2Id(options: {
 export function getWpV2Id(options: {
   pathParams: API.WordpressV2Json.Media.GetWpV2Id.PathParams;
   queryParams?: API.WordpressV2Json.Media.GetWpV2Id.QueryParams;
-  headers?: API.WordpressV2Json.Media.GetWpV2Id.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -70,7 +70,7 @@ export function getWpV2Id(options: {
 export function patchWpV2Id(options: {
   pathParams: API.WordpressV2Json.Media.PatchWpV2Id.PathParams;
   queryParams?: API.WordpressV2Json.Media.PatchWpV2Id.QueryParams;
-  headers?: API.WordpressV2Json.Media.PatchWpV2Id.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -86,7 +86,7 @@ export function patchWpV2Id(options: {
  */
 export function postWpV2Id(options: {
   pathParams: API.WordpressV2Json.Media.PostWpV2Id.PathParams;
-  headers?: API.WordpressV2Json.Media.PostWpV2Id.Headers;
+  headers?: Record<string, any>;
   formData?: API.WordpressV2Json.Media.PostWpV2Id.FormData;
   config?: RequestConfig;
   context?: RequestContext;
@@ -100,7 +100,7 @@ export function postWpV2Id(options: {
 export function putWpV2Id(options: {
   pathParams: API.WordpressV2Json.Media.PutWpV2Id.PathParams;
   queryParams?: API.WordpressV2Json.Media.PutWpV2Id.QueryParams;
-  headers?: API.WordpressV2Json.Media.PutWpV2Id.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -112,7 +112,7 @@ export function putWpV2Id(options: {
  */
 export function getWpV2(options?: {
   queryParams?: API.WordpressV2Json.Media.GetWpV2.QueryParams;
-  headers?: API.WordpressV2Json.Media.GetWpV2.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -123,7 +123,7 @@ export function getWpV2(options?: {
  * @path `/wp/v2/media`
  */
 export function postWpV2(options?: {
-  headers?: API.WordpressV2Json.Media.PostWpV2.Headers;
+  headers?: Record<string, any>;
   formData?: API.WordpressV2Json.Media.PostWpV2.FormData;
   config?: RequestConfig;
   context?: RequestContext;

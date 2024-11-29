@@ -2,10 +2,6 @@ declare namespace API {
   namespace SwaggerHubV2Json {
     namespace Templates {
       namespace PostRenameTemplate {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API, domain, or template owner identifier (case-sensitive)
@@ -28,10 +24,6 @@ declare namespace API {
       namespace PostUpdateTemplateComments {
         type Body = $schemas.CommentsBatch;
 
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API, domain, or template owner identifier (case-sensitive)
@@ -49,10 +41,6 @@ declare namespace API {
       }
 
       namespace GetTemplateComments {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API, domain, or template owner identifier (case-sensitive)
@@ -74,10 +62,6 @@ declare namespace API {
       namespace PostForkTemplate {
         type Body = $schemas.ForkVersion;
 
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API, domain, or template owner identifier (case-sensitive)
@@ -95,10 +79,6 @@ declare namespace API {
       }
 
       namespace GetTemplateLifecycleSettings {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API, domain, or template owner identifier (case-sensitive)
@@ -119,10 +99,6 @@ declare namespace API {
 
       namespace PutSetTemplateLifecycleSettings {
         type Body = $schemas.LifecycleSettings;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -148,10 +124,6 @@ declare namespace API {
       }
 
       namespace GetTemplatePrivateSettings {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API, domain, or template owner identifier (case-sensitive)
@@ -173,10 +145,6 @@ declare namespace API {
       namespace PutSetTemplatePrivateSettings {
         type Body = $schemas.VisibilitySettings;
 
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API, domain, or template owner identifier (case-sensitive)
@@ -194,10 +162,6 @@ declare namespace API {
       }
 
       namespace DeleteTemplateVersion {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API, domain, or template owner identifier (case-sensitive)
@@ -215,10 +179,6 @@ declare namespace API {
       }
 
       namespace GetTemplateDefinition {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API, domain, or template owner identifier (case-sensitive)
@@ -245,10 +205,6 @@ declare namespace API {
       }
 
       namespace DeleteTemplate {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API, domain, or template owner identifier (case-sensitive)
@@ -262,10 +218,6 @@ declare namespace API {
       }
 
       namespace GetTemplateVersions {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * API, domain, or template owner identifier (case-sensitive)
@@ -282,11 +234,6 @@ declare namespace API {
 
       namespace PostSaveTemplateDefinition {
         type Body = string;
-
-        interface Headers {
-          "Content-Type"?: "application/json" | "application/yaml" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -320,10 +267,6 @@ declare namespace API {
       }
 
       namespace GetTemplates {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Owner name

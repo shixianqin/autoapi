@@ -2,10 +2,6 @@ declare namespace API {
   namespace GithubV3Json {
     namespace Packages {
       namespace PostRestorePackageForOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -36,10 +32,6 @@ declare namespace API {
       }
 
       namespace PostRestorePackageVersionForOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -67,10 +59,6 @@ declare namespace API {
       }
 
       namespace DeletePackageVersionForOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -98,10 +86,6 @@ declare namespace API {
       }
 
       namespace GetPackageVersionForOrganization {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -131,10 +115,6 @@ declare namespace API {
       }
 
       namespace GetAllPackageVersionsForPackageOwnedByOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -178,10 +158,6 @@ declare namespace API {
       }
 
       namespace DeletePackageForOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -205,10 +181,6 @@ declare namespace API {
       }
 
       namespace GetPackageForOrganization {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -234,10 +206,6 @@ declare namespace API {
       }
 
       namespace GetListForOrganization {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -279,10 +247,6 @@ declare namespace API {
       }
 
       namespace PostRestorePackageForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the package.
@@ -309,10 +273,6 @@ declare namespace API {
       }
 
       namespace PostRestorePackageVersionForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the package.
@@ -336,10 +296,6 @@ declare namespace API {
       }
 
       namespace DeletePackageVersionForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the package.
@@ -363,10 +319,6 @@ declare namespace API {
       }
 
       namespace GetPackageVersionForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the package.
@@ -392,10 +344,6 @@ declare namespace API {
       }
 
       namespace GetAllPackageVersionsForPackageOwnedByAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the package.
@@ -435,10 +383,6 @@ declare namespace API {
       }
 
       namespace DeletePackageForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the package.
@@ -458,10 +402,6 @@ declare namespace API {
       }
 
       namespace GetPackageForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the package.
@@ -483,10 +423,6 @@ declare namespace API {
       }
 
       namespace GetListForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * The type of supported package. Packages in GitHub's Gradle registry have the type `maven`. Docker images pushed to GitHub's Container registry (`ghcr.io`) have the type `container`. You can use the type `docker` to find images that were pushed to GitHub's Docker registry (`docker.pkg.github.com`), even if these have now been migrated to the Container registry.
@@ -511,10 +447,6 @@ declare namespace API {
       }
 
       namespace PostRestorePackageForUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the package.
@@ -545,10 +477,6 @@ declare namespace API {
       }
 
       namespace PostRestorePackageVersionForUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the package.
@@ -576,10 +504,6 @@ declare namespace API {
       }
 
       namespace DeletePackageVersionForUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the package.
@@ -607,10 +531,6 @@ declare namespace API {
       }
 
       namespace GetPackageVersionForUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the package.
@@ -640,10 +560,6 @@ declare namespace API {
       }
 
       namespace GetAllPackageVersionsForPackageOwnedByUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the package.
@@ -669,10 +585,6 @@ declare namespace API {
       }
 
       namespace DeletePackageForUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the package.
@@ -696,10 +608,6 @@ declare namespace API {
       }
 
       namespace GetPackageForUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the package.
@@ -725,10 +633,6 @@ declare namespace API {
       }
 
       namespace GetListForUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The handle for the GitHub user account.

@@ -2,10 +2,6 @@ declare namespace API {
   namespace TwitterV3Json {
     namespace Tweets {
       namespace GetListsId {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the List.
@@ -156,10 +152,6 @@ declare namespace API {
       }
 
       namespace GetTweetCountsFullArchiveSearch {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * YYYY-MM-DDTHH:mm:ssZ. The newest, most recent UTC timestamp to which the Posts will be provided. Timestamp is in second granularity and is exclusive (i.e. 12:00:01 excludes the first second of the minute).
@@ -209,10 +201,6 @@ declare namespace API {
       }
 
       namespace GetTweetCountsRecentSearch {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * YYYY-MM-DDTHH:mm:ssZ. The newest, most recent UTC timestamp to which the Posts will be provided. Timestamp is in second granularity and is exclusive (i.e. 12:00:01 excludes the first second of the minute).
@@ -262,10 +250,6 @@ declare namespace API {
       }
 
       namespace GetFirehoseStreamLangEn {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * The number of minutes of backfill requested.
@@ -420,10 +404,6 @@ declare namespace API {
       }
 
       namespace GetFirehoseStreamLangJa {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * The number of minutes of backfill requested.
@@ -578,10 +558,6 @@ declare namespace API {
       }
 
       namespace GetFirehoseStreamLangKo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * The number of minutes of backfill requested.
@@ -736,10 +712,6 @@ declare namespace API {
       }
 
       namespace GetFirehoseStreamLangPt {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * The number of minutes of backfill requested.
@@ -894,10 +866,6 @@ declare namespace API {
       }
 
       namespace GetFirehoseStream {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * The number of minutes of backfill requested.
@@ -1052,10 +1020,6 @@ declare namespace API {
       }
 
       namespace GetSample10Stream {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * The number of minutes of backfill requested.
@@ -1210,10 +1174,6 @@ declare namespace API {
       }
 
       namespace GetSampleStream {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * The number of minutes of backfill requested.
@@ -1351,10 +1311,6 @@ declare namespace API {
       }
 
       namespace GetFullarchiveSearch {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * YYYY-MM-DDTHH:mm:ssZ. The newest, most recent UTC timestamp to which the Posts will be provided. Timestamp is in second granularity and is exclusive (i.e. 12:00:01 excludes the first second of the minute).
@@ -1530,10 +1486,6 @@ declare namespace API {
       }
 
       namespace GetRecentSearch {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * YYYY-MM-DDTHH:mm:ssZ. The newest, most recent UTC timestamp to which the Posts will be provided. Timestamp is in second granularity and is exclusive (i.e. 12:00:01 excludes the first second of the minute).
@@ -1709,10 +1661,6 @@ declare namespace API {
       }
 
       namespace GetRules {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * A comma-separated list of Rule IDs.
@@ -1740,11 +1688,6 @@ declare namespace API {
       namespace PostAddOrDeleteRules {
         type Body = $schemas.AddOrDeleteRulesRequest;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Delete All can be used to delete all of the rules associated this client app, it should be specified with no other parameters. Once deleted, rules cannot be recovered.
@@ -1760,10 +1703,6 @@ declare namespace API {
       }
 
       namespace GetSearchStream {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * The number of minutes of backfill requested.
@@ -1911,10 +1850,6 @@ declare namespace API {
       }
 
       namespace GetFindThatQuoteATweet {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * A single Post ID.
@@ -2070,10 +2005,6 @@ declare namespace API {
       }
 
       namespace GetFindThatRetweetATweet {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * A single Post ID.
@@ -2224,10 +2155,6 @@ declare namespace API {
       }
 
       namespace DeleteTweetById {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the Post to be deleted.
@@ -2239,10 +2166,6 @@ declare namespace API {
       }
 
       namespace GetFindTweetById {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * A single Post ID.
@@ -2383,11 +2306,6 @@ declare namespace API {
       namespace PutHideReplyById {
         type Body = $schemas.TweetHideRequest;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the reply that you want to hide or unhide.
@@ -2399,10 +2317,6 @@ declare namespace API {
       }
 
       namespace GetFindById {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * A comma separated list of fields to expand.
@@ -2542,19 +2456,10 @@ declare namespace API {
       namespace PostCreateTweet {
         type Body = $schemas.TweetCreateRequest;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         type Response = $schemas.TweetCreateResponse;
       }
 
       namespace GetUsersIdLiked {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the User to lookup.
@@ -2704,10 +2609,6 @@ declare namespace API {
       }
 
       namespace DeleteUsersIdUnlike {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the authenticated source User that is requesting to unlike the Post.
@@ -2725,11 +2626,6 @@ declare namespace API {
       namespace PostUsersIdLike {
         type Body = $schemas.UsersLikesCreateRequest;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the authenticated source User that is requesting to like the Post.
@@ -2741,10 +2637,6 @@ declare namespace API {
       }
 
       namespace GetUsersIdMentions {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the User to lookup.
@@ -2912,10 +2804,6 @@ declare namespace API {
       }
 
       namespace DeleteUsersIdUnretweets {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the authenticated source User that is requesting to repost the Post.
@@ -2933,11 +2821,6 @@ declare namespace API {
       namespace PostUsersIdRetweets {
         type Body = $schemas.UsersRetweetsCreateRequest;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the authenticated source User that is requesting to repost the Post.
@@ -2949,10 +2832,6 @@ declare namespace API {
       }
 
       namespace GetUsersIdTimeline {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the authenticated source User to list Reverse Chronological Timeline Posts of.
@@ -3125,10 +3004,6 @@ declare namespace API {
       }
 
       namespace GetUsersId {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the User to lookup.

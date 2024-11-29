@@ -29,11 +29,6 @@ declare namespace API {
           user_id: number;
         }
 
-        interface Headers {
-          "Content-Type"?: "multipart/form-data" | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -73,15 +68,6 @@ declare namespace API {
         }
 
         type FormData = Body;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
 
         interface Response {
           /**
@@ -132,15 +118,6 @@ declare namespace API {
 
         type FormData = Body;
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -170,15 +147,6 @@ declare namespace API {
         }
 
         type FormData = Body;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
 
         interface Response {
           /**
@@ -214,15 +182,6 @@ declare namespace API {
 
         type FormData = Body;
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -236,10 +195,6 @@ declare namespace API {
       }
 
       namespace PostClose {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -302,15 +257,6 @@ declare namespace API {
 
         type FormData = Body;
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -359,11 +305,6 @@ declare namespace API {
           user_id: number;
         }
 
-        interface Headers {
-          "Content-Type"?: "multipart/form-data" | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -386,15 +327,6 @@ declare namespace API {
 
         type FormData = Body;
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -416,15 +348,6 @@ declare namespace API {
         }
 
         type FormData = Body;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
 
         interface Response {
           /**
@@ -452,15 +375,6 @@ declare namespace API {
 
         type FormData = Body;
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -483,15 +397,6 @@ declare namespace API {
 
         type FormData = Body;
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -513,15 +418,6 @@ declare namespace API {
         }
 
         type FormData = Body;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
 
         interface Response {
           /**
@@ -568,15 +464,6 @@ declare namespace API {
         }
 
         type FormData = Body;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
 
         interface Response {
           /**
@@ -629,15 +516,6 @@ declare namespace API {
 
         type FormData = Body;
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -671,11 +549,6 @@ declare namespace API {
           reply_markup?: $schemas.InlineKeyboardMarkup;
         }
 
-        interface Headers {
-          "Content-Type"?: "multipart/form-data" | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -706,15 +579,6 @@ declare namespace API {
         }
 
         type FormData = Body;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
 
         interface Response {
           /**
@@ -763,15 +627,6 @@ declare namespace API {
 
         type FormData = Body;
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -790,15 +645,6 @@ declare namespace API {
         }
 
         type FormData = Body;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
 
         interface Response {
           /**
@@ -831,15 +677,6 @@ declare namespace API {
 
         type FormData = Body;
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -861,15 +698,6 @@ declare namespace API {
         }
 
         type FormData = Body;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
 
         interface Response {
           /**
@@ -894,15 +722,6 @@ declare namespace API {
 
         type FormData = Body;
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -925,15 +744,6 @@ declare namespace API {
 
         type FormData = Body;
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -952,15 +762,6 @@ declare namespace API {
         }
 
         type FormData = Body;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
 
         interface Response {
           /**
@@ -983,15 +784,6 @@ declare namespace API {
         }
 
         type FormData = Body;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
 
         interface Response {
           /**
@@ -1029,15 +821,6 @@ declare namespace API {
 
         type FormData = Body;
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -1048,10 +831,6 @@ declare namespace API {
       }
 
       namespace PostGetMe {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -1065,10 +844,6 @@ declare namespace API {
       }
 
       namespace PostGetMyCommands {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -1087,15 +862,6 @@ declare namespace API {
         }
 
         type FormData = Body;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
 
         interface Response {
           /**
@@ -1136,15 +902,6 @@ declare namespace API {
 
         type FormData = Body;
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -1175,15 +932,6 @@ declare namespace API {
 
         type FormData = Body;
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -1197,10 +945,6 @@ declare namespace API {
       }
 
       namespace PostGetWebhookInfo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -1231,15 +975,6 @@ declare namespace API {
 
         type FormData = Body;
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -1262,15 +997,6 @@ declare namespace API {
 
         type FormData = Body;
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -1284,10 +1010,6 @@ declare namespace API {
       }
 
       namespace PostLogOut {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -1317,15 +1039,6 @@ declare namespace API {
         }
 
         type FormData = Body;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
 
         interface Response {
           /**
@@ -1389,15 +1102,6 @@ declare namespace API {
 
         type FormData = Body;
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -1431,15 +1135,6 @@ declare namespace API {
         }
 
         type FormData = Body;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
 
         interface Response {
           /**
@@ -1511,11 +1206,6 @@ declare namespace API {
            * Animation width
            */
           width?: number;
-        }
-
-        interface Headers {
-          "Content-Type"?: "multipart/form-data" | string;
-          [P: string]: any;
         }
 
         interface Response {
@@ -1590,11 +1280,6 @@ declare namespace API {
           title?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "multipart/form-data" | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -1620,15 +1305,6 @@ declare namespace API {
         }
 
         type FormData = Body;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
 
         interface Response {
           /**
@@ -1688,15 +1364,6 @@ declare namespace API {
 
         type FormData = Body;
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -1743,15 +1410,6 @@ declare namespace API {
         }
 
         type FormData = Body;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
 
         interface Response {
           /**
@@ -1817,11 +1475,6 @@ declare namespace API {
           thumb?: $schemas.InputFile | string;
         }
 
-        interface Headers {
-          "Content-Type"?: "multipart/form-data" | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -1863,15 +1516,6 @@ declare namespace API {
         }
 
         type FormData = Body;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
 
         interface Response {
           /**
@@ -1987,15 +1631,6 @@ declare namespace API {
 
         type FormData = Body;
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -2062,15 +1697,6 @@ declare namespace API {
 
         type FormData = Body;
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -2105,11 +1731,6 @@ declare namespace API {
            * If the messages are a reply, ID of the original message
            */
           reply_to_message_id?: number;
-        }
-
-        interface Headers {
-          "Content-Type"?: "multipart/form-data" | string;
-          [P: string]: any;
         }
 
         interface Response {
@@ -2167,15 +1788,6 @@ declare namespace API {
 
         type FormData = Body;
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -2230,11 +1842,6 @@ declare namespace API {
            * If the message is a reply, ID of the original message
            */
           reply_to_message_id?: number;
-        }
-
-        interface Headers {
-          "Content-Type"?: "multipart/form-data" | string;
-          [P: string]: any;
         }
 
         interface Response {
@@ -2327,15 +1934,6 @@ declare namespace API {
 
         type FormData = Body;
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -2378,11 +1976,6 @@ declare namespace API {
            * Sticker to send. Pass a file\_id as String to send a file that exists on the Telegram servers (recommended), pass an HTTP URL as a String for Telegram to get a .WEBP file from the Internet, or upload a new one using multipart/form-data. [More info on Sending Files »](https://core.telegram.org/bots/api/#sending-files)
            */
           sticker: $schemas.InputFile | string;
-        }
-
-        interface Headers {
-          "Content-Type"?: "multipart/form-data" | string;
-          [P: string]: any;
         }
 
         interface Response {
@@ -2459,15 +2052,6 @@ declare namespace API {
 
         type FormData = Body;
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -2522,11 +2106,6 @@ declare namespace API {
            * Video note to send. Pass a file\_id as String to send a video note that exists on the Telegram servers (recommended) or upload a new video using multipart/form-data. [More info on Sending Files »](https://core.telegram.org/bots/api/#sending-files). Sending video notes by a URL is currently unsupported
            */
           video_note: $schemas.InputFile | string;
-        }
-
-        interface Headers {
-          "Content-Type"?: "multipart/form-data" | string;
-          [P: string]: any;
         }
 
         interface Response {
@@ -2605,11 +2184,6 @@ declare namespace API {
           width?: number;
         }
 
-        interface Headers {
-          "Content-Type"?: "multipart/form-data" | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -2670,11 +2244,6 @@ declare namespace API {
           voice: $schemas.InputFile | string;
         }
 
-        interface Headers {
-          "Content-Type"?: "multipart/form-data" | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -2705,15 +2274,6 @@ declare namespace API {
 
         type FormData = Body;
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -2739,15 +2299,6 @@ declare namespace API {
         }
 
         type FormData = Body;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
 
         interface Response {
           /**
@@ -2775,15 +2326,6 @@ declare namespace API {
 
         type FormData = Body;
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -2806,11 +2348,6 @@ declare namespace API {
            * This object represents the contents of a file to be uploaded. Must be posted using multipart/form-data in the usual way that files are uploaded via the browser.
            */
           photo: $schemas.InputFile;
-        }
-
-        interface Headers {
-          "Content-Type"?: "multipart/form-data" | string;
-          [P: string]: any;
         }
 
         interface Response {
@@ -2839,15 +2376,6 @@ declare namespace API {
 
         type FormData = Body;
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -2873,15 +2401,6 @@ declare namespace API {
         }
 
         type FormData = Body;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
 
         interface Response {
           /**
@@ -2929,15 +2448,6 @@ declare namespace API {
 
         type FormData = Body;
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -2956,15 +2466,6 @@ declare namespace API {
         }
 
         type FormData = Body;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
 
         interface Response {
           /**
@@ -2992,15 +2493,6 @@ declare namespace API {
 
         type FormData = Body;
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -3026,15 +2518,6 @@ declare namespace API {
         }
 
         type FormData = Body;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
 
         interface Response {
           /**
@@ -3062,11 +2545,6 @@ declare namespace API {
            * User identifier of the sticker set owner
            */
           user_id: number;
-        }
-
-        interface Headers {
-          "Content-Type"?: "multipart/form-data" | string;
-          [P: string]: any;
         }
 
         interface Response {
@@ -3111,11 +2589,6 @@ declare namespace API {
           url: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "multipart/form-data" | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -3150,15 +2623,6 @@ declare namespace API {
 
         type FormData = Body;
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -3185,15 +2649,6 @@ declare namespace API {
         }
 
         type FormData = Body;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
 
         interface Response {
           /**
@@ -3225,15 +2680,6 @@ declare namespace API {
 
         type FormData = Body;
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -3255,15 +2701,6 @@ declare namespace API {
         }
 
         type FormData = Body;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
 
         interface Response {
           /**
@@ -3291,15 +2728,6 @@ declare namespace API {
 
         type FormData = Body;
 
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface Response {
           /**
            * @default true
@@ -3322,11 +2750,6 @@ declare namespace API {
            * User identifier of sticker file owner
            */
           user_id: number;
-        }
-
-        interface Headers {
-          "Content-Type"?: "multipart/form-data" | string;
-          [P: string]: any;
         }
 
         interface Response {

@@ -2,10 +2,6 @@ declare namespace API {
   namespace GaV2Yaml {
     namespace Segment {
       namespace GetAnalyticsManagementSegmentsList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * The maximum number of segments to include in this response

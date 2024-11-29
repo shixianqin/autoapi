@@ -7,7 +7,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function getChatDownload(options: {
   pathParams: API.GoogleChatV3Json.Media.GetChatDownload.PathParams;
   queryParams?: API.GoogleChatV3Json.Media.GetChatDownload.QueryParams;
-  headers?: API.GoogleChatV3Json.Media.GetChatDownload.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

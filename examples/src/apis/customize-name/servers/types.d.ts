@@ -2,10 +2,6 @@ declare namespace API {
   namespace CustomizeName {
     namespace Servers {
       namespace GetServerOptions {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The target language for the server framework
@@ -56,10 +52,6 @@ declare namespace API {
       namespace PostGenerateServerForLanguage {
         type Body = $schemas.GeneratorInput;
 
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           framework:
             | "ada-server"
@@ -103,10 +95,6 @@ declare namespace API {
       }
 
       namespace GetServersCustomizeNamed {
-        interface Headers {
-          [P: string]: any;
-        }
-
         type Response = string[];
       }
     }

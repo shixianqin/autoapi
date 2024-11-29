@@ -7,7 +7,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function postAnalyticsManagementUploadsDeleteUpload(options: {
   pathParams: API.GaV2Yaml.Data.PostAnalyticsManagementUploadsDeleteUpload.PathParams;
-  headers?: API.GaV2Yaml.Data.PostAnalyticsManagementUploadsDeleteUpload.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.Data.PostAnalyticsManagementUploadsDeleteUpload.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -26,7 +26,7 @@ export function postAnalyticsManagementUploadsDeleteUpload(options: {
  */
 export function postAnalyticsManagementUploadsUpload(options: {
   pathParams: API.GaV2Yaml.Data.PostAnalyticsManagementUploadsUpload.PathParams;
-  headers?: API.GaV2Yaml.Data.PostAnalyticsManagementUploadsUpload.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

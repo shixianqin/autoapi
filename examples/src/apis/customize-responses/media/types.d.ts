@@ -2,14 +2,6 @@ declare namespace API {
   namespace CustomizeResponses {
     namespace Media {
       namespace GetWpV2 {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Limit response to posts published after a given ISO8601 compliant date.
@@ -580,14 +572,6 @@ declare namespace API {
            * The title for the post.
            */
           title?: string;
-        }
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
         }
       }
     }

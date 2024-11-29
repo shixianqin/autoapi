@@ -7,7 +7,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function postRenameTemplate(options: {
   pathParams: API.SwaggerHubV2Json.Templates.PostRenameTemplate.PathParams;
   queryParams: API.SwaggerHubV2Json.Templates.PostRenameTemplate.QueryParams;
-  headers?: API.SwaggerHubV2Json.Templates.PostRenameTemplate.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -24,7 +24,7 @@ export function postRenameTemplate(options: {
  */
 export function postUpdateTemplateComments(options: {
   pathParams: API.SwaggerHubV2Json.Templates.PostUpdateTemplateComments.PathParams;
-  headers?: API.SwaggerHubV2Json.Templates.PostUpdateTemplateComments.Headers;
+  headers?: Record<string, any>;
   body?: API.SwaggerHubV2Json.Templates.PostUpdateTemplateComments.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -42,7 +42,7 @@ export function postUpdateTemplateComments(options: {
  */
 export function getTemplateComments(options: {
   pathParams: API.SwaggerHubV2Json.Templates.GetTemplateComments.PathParams;
-  headers?: API.SwaggerHubV2Json.Templates.GetTemplateComments.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -59,7 +59,7 @@ export function getTemplateComments(options: {
  */
 export function postForkTemplate(options: {
   pathParams: API.SwaggerHubV2Json.Templates.PostForkTemplate.PathParams;
-  headers?: API.SwaggerHubV2Json.Templates.PostForkTemplate.Headers;
+  headers?: Record<string, any>;
   body: API.SwaggerHubV2Json.Templates.PostForkTemplate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -77,7 +77,7 @@ export function postForkTemplate(options: {
  */
 export function getTemplateLifecycleSettings(options: {
   pathParams: API.SwaggerHubV2Json.Templates.GetTemplateLifecycleSettings.PathParams;
-  headers?: API.SwaggerHubV2Json.Templates.GetTemplateLifecycleSettings.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -95,7 +95,7 @@ export function getTemplateLifecycleSettings(options: {
 export function putSetTemplateLifecycleSettings(options: {
   pathParams: API.SwaggerHubV2Json.Templates.PutSetTemplateLifecycleSettings.PathParams;
   queryParams?: API.SwaggerHubV2Json.Templates.PutSetTemplateLifecycleSettings.QueryParams;
-  headers?: API.SwaggerHubV2Json.Templates.PutSetTemplateLifecycleSettings.Headers;
+  headers?: Record<string, any>;
   body?: API.SwaggerHubV2Json.Templates.PutSetTemplateLifecycleSettings.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -113,7 +113,7 @@ export function putSetTemplateLifecycleSettings(options: {
  */
 export function getTemplatePrivateSettings(options: {
   pathParams: API.SwaggerHubV2Json.Templates.GetTemplatePrivateSettings.PathParams;
-  headers?: API.SwaggerHubV2Json.Templates.GetTemplatePrivateSettings.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -130,7 +130,7 @@ export function getTemplatePrivateSettings(options: {
  */
 export function putSetTemplatePrivateSettings(options: {
   pathParams: API.SwaggerHubV2Json.Templates.PutSetTemplatePrivateSettings.PathParams;
-  headers?: API.SwaggerHubV2Json.Templates.PutSetTemplatePrivateSettings.Headers;
+  headers?: Record<string, any>;
   body: API.SwaggerHubV2Json.Templates.PutSetTemplatePrivateSettings.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -148,7 +148,7 @@ export function putSetTemplatePrivateSettings(options: {
  */
 export function deleteTemplateVersion(options: {
   pathParams: API.SwaggerHubV2Json.Templates.DeleteTemplateVersion.PathParams;
-  headers?: API.SwaggerHubV2Json.Templates.DeleteTemplateVersion.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -166,7 +166,7 @@ export function deleteTemplateVersion(options: {
 export function getTemplateDefinition(options: {
   pathParams: API.SwaggerHubV2Json.Templates.GetTemplateDefinition.PathParams;
   queryParams?: API.SwaggerHubV2Json.Templates.GetTemplateDefinition.QueryParams;
-  headers?: API.SwaggerHubV2Json.Templates.GetTemplateDefinition.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -183,7 +183,7 @@ export function getTemplateDefinition(options: {
  */
 export function deleteTemplate(options: {
   pathParams: API.SwaggerHubV2Json.Templates.DeleteTemplate.PathParams;
-  headers?: API.SwaggerHubV2Json.Templates.DeleteTemplate.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -200,7 +200,7 @@ export function deleteTemplate(options: {
  */
 export function getTemplateVersions(options: {
   pathParams: API.SwaggerHubV2Json.Templates.GetTemplateVersions.PathParams;
-  headers?: API.SwaggerHubV2Json.Templates.GetTemplateVersions.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -219,7 +219,7 @@ export function getTemplateVersions(options: {
 export function postSaveTemplateDefinition(options: {
   pathParams: API.SwaggerHubV2Json.Templates.PostSaveTemplateDefinition.PathParams;
   queryParams?: API.SwaggerHubV2Json.Templates.PostSaveTemplateDefinition.QueryParams;
-  headers?: API.SwaggerHubV2Json.Templates.PostSaveTemplateDefinition.Headers;
+  headers?: Record<string, any>;
   body: API.SwaggerHubV2Json.Templates.PostSaveTemplateDefinition.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -237,7 +237,7 @@ export function postSaveTemplateDefinition(options: {
  */
 export function getTemplates(options?: {
   queryParams?: API.SwaggerHubV2Json.Templates.GetTemplates.QueryParams;
-  headers?: API.SwaggerHubV2Json.Templates.GetTemplates.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

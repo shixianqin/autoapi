@@ -6,7 +6,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function deleteWpV2Id(options: {
   pathParams: API.WordpressV2Json.Categories.DeleteWpV2Id.PathParams;
   queryParams?: API.WordpressV2Json.Categories.DeleteWpV2Id.QueryParams;
-  headers?: API.WordpressV2Json.Categories.DeleteWpV2Id.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -23,7 +23,7 @@ export function deleteWpV2Id(options: {
 export function getWpV2Id(options: {
   pathParams: API.WordpressV2Json.Categories.GetWpV2Id.PathParams;
   queryParams?: API.WordpressV2Json.Categories.GetWpV2Id.QueryParams;
-  headers?: API.WordpressV2Json.Categories.GetWpV2Id.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -40,7 +40,7 @@ export function getWpV2Id(options: {
 export function patchWpV2Id(options: {
   pathParams: API.WordpressV2Json.Categories.PatchWpV2Id.PathParams;
   queryParams?: API.WordpressV2Json.Categories.PatchWpV2Id.QueryParams;
-  headers?: API.WordpressV2Json.Categories.PatchWpV2Id.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -56,7 +56,7 @@ export function patchWpV2Id(options: {
  */
 export function postWpV2Id(options: {
   pathParams: API.WordpressV2Json.Categories.PostWpV2Id.PathParams;
-  headers?: API.WordpressV2Json.Categories.PostWpV2Id.Headers;
+  headers?: Record<string, any>;
   formData?: API.WordpressV2Json.Categories.PostWpV2Id.FormData;
   config?: RequestConfig;
   context?: RequestContext;
@@ -74,7 +74,7 @@ export function postWpV2Id(options: {
 export function putWpV2Id(options: {
   pathParams: API.WordpressV2Json.Categories.PutWpV2Id.PathParams;
   queryParams?: API.WordpressV2Json.Categories.PutWpV2Id.QueryParams;
-  headers?: API.WordpressV2Json.Categories.PutWpV2Id.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -90,7 +90,7 @@ export function putWpV2Id(options: {
  */
 export function getWpV2(options?: {
   queryParams?: API.WordpressV2Json.Categories.GetWpV2.QueryParams;
-  headers?: API.WordpressV2Json.Categories.GetWpV2.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -101,7 +101,7 @@ export function getWpV2(options?: {
  * @path `/wp/v2/categories`
  */
 export function postWpV2(options: {
-  headers?: API.WordpressV2Json.Categories.PostWpV2.Headers;
+  headers?: Record<string, any>;
   formData: API.WordpressV2Json.Categories.PostWpV2.FormData;
   config?: RequestConfig;
   context?: RequestContext;

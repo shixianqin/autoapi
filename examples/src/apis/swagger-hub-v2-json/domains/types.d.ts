@@ -2,10 +2,6 @@ declare namespace API {
   namespace SwaggerHubV2Json {
     namespace Domains {
       namespace PostRenameDomain {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Domain name (case-sensitive)
@@ -30,10 +26,6 @@ declare namespace API {
       }
 
       namespace GetDomainDefaultVersion {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Domain name (case-sensitive)
@@ -51,11 +43,6 @@ declare namespace API {
       namespace PutSetDomainDefaultVersion {
         type Body = $schemas.DefaultVersion;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Domain name (case-sensitive)
@@ -70,10 +57,6 @@ declare namespace API {
 
       namespace PostCloneDomain {
         type Body = $schemas.NewVersion;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -94,10 +77,6 @@ declare namespace API {
       namespace PostUpdateDomainCommentsV2 {
         type Body = $schemas.CommentsBatch;
 
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Domain name (case-sensitive)
@@ -115,10 +94,6 @@ declare namespace API {
       }
 
       namespace DeleteDomainCommentReplyV2 {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Comment identifier
@@ -145,10 +120,6 @@ declare namespace API {
 
       namespace PatchUpdateDomainCommentReplyV2 {
         type Body = $schemas.CommentPatch;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -179,10 +150,6 @@ declare namespace API {
       namespace PostAddDomainCommentReplyV2 {
         type Body = $schemas.NewReply;
 
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Comment identifier
@@ -206,10 +173,6 @@ declare namespace API {
       }
 
       namespace PutSetDomainCommentStatusV2 {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Comment identifier
@@ -235,10 +198,6 @@ declare namespace API {
       }
 
       namespace DeleteDomainCommentV2 {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Comment identifier
@@ -261,10 +220,6 @@ declare namespace API {
 
       namespace PatchUpdateDomainCommentV2 {
         type Body = $schemas.ClosableCommentPatch;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -289,10 +244,6 @@ declare namespace API {
       }
 
       namespace GetDomainCommentsV2 {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Domain name (case-sensitive)
@@ -314,10 +265,6 @@ declare namespace API {
       namespace PostAddDomainCommentV2 {
         type Body = $schemas.NewComment;
 
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Domain name (case-sensitive)
@@ -337,10 +284,6 @@ declare namespace API {
       }
 
       namespace GetDomainJsonDefinition {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Domain name (case-sensitive)
@@ -360,10 +303,6 @@ declare namespace API {
       }
 
       namespace GetDomainYamlDefinition {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Domain name (case-sensitive)
@@ -385,10 +324,6 @@ declare namespace API {
       namespace PostForkDomain {
         type Body = $schemas.ForkVersion;
 
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Domain name (case-sensitive)
@@ -406,10 +341,6 @@ declare namespace API {
       }
 
       namespace GetDomainLifecycleSettings {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Domain name (case-sensitive)
@@ -430,11 +361,6 @@ declare namespace API {
 
       namespace PutSetDomainLifecycleSettings {
         type Body = $schemas.LifecycleSettings;
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -460,10 +386,6 @@ declare namespace API {
       }
 
       namespace GetDomainPrivateSettings {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Domain name (case-sensitive)
@@ -484,11 +406,6 @@ declare namespace API {
 
       namespace PutSetDomainPrivateSettings {
         type Body = $schemas.VisibilitySettings;
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -514,10 +431,6 @@ declare namespace API {
       }
 
       namespace DeleteDomainVersion {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Domain name (case-sensitive)
@@ -542,10 +455,6 @@ declare namespace API {
       }
 
       namespace GetDomainDefinition {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Domain name (case-sensitive)
@@ -565,10 +474,6 @@ declare namespace API {
       }
 
       namespace DeleteDomain {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Domain name (case-sensitive)
@@ -589,10 +494,6 @@ declare namespace API {
       }
 
       namespace GetDomainVersions {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Domain name (case-sensitive)
@@ -609,11 +510,6 @@ declare namespace API {
 
       namespace PostSaveDomainDefinition {
         type Body = string;
-
-        interface Headers {
-          "Content-Type"?: "application/json" | "application/yaml" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -643,10 +539,6 @@ declare namespace API {
       }
 
       namespace GetOwner {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Domain owner (organization or user, case-sensitive)
@@ -690,10 +582,6 @@ declare namespace API {
       }
 
       namespace GetSearch {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Number of results per page (1 .. 100)

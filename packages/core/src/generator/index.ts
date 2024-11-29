@@ -130,14 +130,20 @@ export class Generator {
       const name = PARAMETER_IDENTIFIERS[location]
       const definition = types[name]
 
-      if (!definition) {
+      const type = definition
+        ? `${typePrefix}.${pascalCase(name)}`
+        : location === 'header'
+          ? 'Record<string, any>'
+          : null
+
+      if (!type) {
         continue
       }
 
       properties.push(
         propertyMap[location] = {
           name: name,
-          type: `${typePrefix}.${pascalCase(name)}`,
+          type: type,
           required: hasRequired(definition),
         },
       )

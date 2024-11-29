@@ -7,7 +7,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getAnalyticsManagementSummariesList(options?: {
   queryParams?: API.GaV2Yaml.Account.GetAnalyticsManagementSummariesList.QueryParams;
-  headers?: API.GaV2Yaml.Account.GetAnalyticsManagementSummariesList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -21,7 +21,7 @@ export function getAnalyticsManagementSummariesList(options?: {
  */
 export function getAnalyticsManagementAccountsList(options?: {
   queryParams?: API.GaV2Yaml.Account.GetAnalyticsManagementAccountsList.QueryParams;
-  headers?: API.GaV2Yaml.Account.GetAnalyticsManagementAccountsList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

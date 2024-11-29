@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/apis/authentication.k8s.io/v1/`
  */
 export function getApiResources(options?: {
-  headers?: API.K8sV2Json.AuthenticationV1.GetApiResources.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -22,7 +22,7 @@ export function getApiResources(options?: {
  */
 export function postCreateSelfSubjectReview(options?: {
   queryParams?: API.K8sV2Json.AuthenticationV1.PostCreateSelfSubjectReview.QueryParams;
-  headers?: API.K8sV2Json.AuthenticationV1.PostCreateSelfSubjectReview.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AuthenticationV1.PostCreateSelfSubjectReview.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -40,7 +40,7 @@ export function postCreateSelfSubjectReview(options?: {
  */
 export function postCreateTokenReview(options: {
   queryParams?: API.K8sV2Json.AuthenticationV1.PostCreateTokenReview.QueryParams;
-  headers?: API.K8sV2Json.AuthenticationV1.PostCreateTokenReview.Headers;
+  headers?: Record<string, any>;
   body: API.K8sV2Json.AuthenticationV1.PostCreateTokenReview.Body;
   config?: RequestConfig;
   context?: RequestContext;

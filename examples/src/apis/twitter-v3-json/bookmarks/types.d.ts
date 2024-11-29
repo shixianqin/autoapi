@@ -2,10 +2,6 @@ declare namespace API {
   namespace TwitterV3Json {
     namespace Bookmarks {
       namespace DeleteUsersId {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the authenticated source User whose bookmark is to be removed.
@@ -21,10 +17,6 @@ declare namespace API {
       }
 
       namespace GetUsersId {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the authenticated source User for whom to return results.
@@ -175,11 +167,6 @@ declare namespace API {
 
       namespace PostUsersId {
         type Body = $schemas.BookmarkAddRequest;
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**

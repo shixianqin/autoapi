@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/apis/policy/`
  */
 export function getApiGroup(options?: {
-  headers?: API.K8sV2Json.Policy.GetApiGroup.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

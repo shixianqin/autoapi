@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/users/login`
  */
 export function postLoginUser(options: {
-  headers?: API.WhatsappV3Json.Users.PostLoginUser.Headers;
+  headers?: Record<string, any>;
   body: API.WhatsappV3Json.Users.PostLoginUser.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -22,7 +22,7 @@ export function postLoginUser(options: {
  * @path `/users/logout`
  */
 export function postLogoutUser(options?: {
-  headers?: API.WhatsappV3Json.Users.PostLogoutUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -35,7 +35,7 @@ export function postLogoutUser(options?: {
  */
 export function deleteUser(options: {
   pathParams: API.WhatsappV3Json.Users.DeleteUser.PathParams;
-  headers?: API.WhatsappV3Json.Users.DeleteUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -52,7 +52,7 @@ export function deleteUser(options: {
  */
 export function getUser(options: {
   pathParams: API.WhatsappV3Json.Users.GetUser.PathParams;
-  headers?: API.WhatsappV3Json.Users.GetUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -69,7 +69,7 @@ export function getUser(options: {
  */
 export function putUpdateUser(options: {
   pathParams: API.WhatsappV3Json.Users.PutUpdateUser.PathParams;
-  headers?: API.WhatsappV3Json.Users.PutUpdateUser.Headers;
+  headers?: Record<string, any>;
   body: API.WhatsappV3Json.Users.PutUpdateUser.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -86,7 +86,7 @@ export function putUpdateUser(options: {
  * @path `/users`
  */
 export function postCreateUser(options: {
-  headers?: API.WhatsappV3Json.Users.PostCreateUser.Headers;
+  headers?: Record<string, any>;
   body: API.WhatsappV3Json.Users.PostCreateUser.Body;
   config?: RequestConfig;
   context?: RequestContext;

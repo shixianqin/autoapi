@@ -2,10 +2,6 @@ declare namespace API {
   namespace GoogleChatV3Json {
     namespace Spaces {
       namespace GetChatList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * V1 error format.
@@ -65,10 +61,6 @@ declare namespace API {
       }
 
       namespace DeleteChatMessages {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Required. Resource name of the message to be deleted, in the form "spaces/*\/messages/*" Example: spaces/AAAAAAAAAAA/messages/BBBBBBBBBBB.BBBBBBBBBBB
@@ -127,10 +119,6 @@ declare namespace API {
       }
 
       namespace GetChatMessagesAttachments {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Required. Resource name of the attachment, in the form "spaces/*\/messages/*\/attachments/*".
@@ -190,11 +178,6 @@ declare namespace API {
 
       namespace PatchChatMessages {
         type Body = $schemas.Message;
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -264,11 +247,6 @@ declare namespace API {
       namespace PutChatMessagesUpdate {
         type Body = $schemas.Message;
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Resource name in the form `spaces/*\/messages/*`. Example: `spaces/AAAAAAAAAAA/messages/BBBBBBBBBBB.BBBBBBBBBBB`
@@ -335,10 +313,6 @@ declare namespace API {
       }
 
       namespace GetChatMembersList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Required. The resource name of the space for which to fetch a membership list. Format: spaces/{space}
@@ -406,11 +380,6 @@ declare namespace API {
 
       namespace PostChatMessagesCreate {
         type Body = $schemas.Message;
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**

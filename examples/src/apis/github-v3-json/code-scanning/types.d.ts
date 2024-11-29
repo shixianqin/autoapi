@@ -2,10 +2,6 @@ declare namespace API {
   namespace GithubV3Json {
     namespace CodeScanning {
       namespace GetListAlertsForOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -64,10 +60,6 @@ declare namespace API {
       }
 
       namespace GetListAlertInstances {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies an alert. You can find this at the end of the URL for a code scanning alert within GitHub, and in the `number` field in the response from the `GET /repos/{owner}/{repo}/code-scanning/alerts` operation.
@@ -104,10 +96,6 @@ declare namespace API {
       }
 
       namespace GetAlert {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies an alert. You can find this at the end of the URL for a code scanning alert within GitHub, and in the `number` field in the response from the `GET /repos/{owner}/{repo}/code-scanning/alerts` operation.
@@ -143,11 +131,6 @@ declare namespace API {
           state: $schemas.CodeScanningAlertSetState;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies an alert. You can find this at the end of the URL for a code scanning alert within GitHub, and in the `number` field in the response from the `GET /repos/{owner}/{repo}/code-scanning/alerts` operation.
@@ -167,10 +150,6 @@ declare namespace API {
       }
 
       namespace GetListAlertsForRepo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -229,10 +208,6 @@ declare namespace API {
       }
 
       namespace DeleteAnalysis {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the analysis, as returned from the `GET /repos/{owner}/{repo}/code-scanning/analyses` operation.
@@ -259,10 +234,6 @@ declare namespace API {
       }
 
       namespace GetAnalysis {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The ID of the analysis, as returned from the `GET /repos/{owner}/{repo}/code-scanning/analyses` operation.
@@ -286,10 +257,6 @@ declare namespace API {
       }
 
       namespace GetListRecentAnalyses {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -344,10 +311,6 @@ declare namespace API {
       }
 
       namespace GetCodeqlDatabase {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The language of the CodeQL database.
@@ -367,10 +330,6 @@ declare namespace API {
       }
 
       namespace GetListCodeqlDatabases {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -386,10 +345,6 @@ declare namespace API {
       }
 
       namespace GetSarif {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -445,11 +400,6 @@ declare namespace API {
            * This parameter is intended to help integrators ensure that the uploaded SARIF files are correctly rendered by code scanning.
            */
           validate?: boolean;
-        }
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
         }
 
         interface PathParams {

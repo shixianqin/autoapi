@@ -7,7 +7,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @docs https://docs.github.com/rest/reference/emojis#get-emojis
  */
 export function getEmojis(options?: {
-  headers?: API.GithubV3Json.Emojis.GetEmojis.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

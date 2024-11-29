@@ -7,7 +7,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getAnalyticsManagement(options: {
   pathParams: API.GaV2Yaml.RemarketingAudience.GetAnalyticsManagement.PathParams;
-  headers?: API.GaV2Yaml.RemarketingAudience.GetAnalyticsManagement.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -25,7 +25,7 @@ export function getAnalyticsManagement(options: {
  */
 export function patchAnalyticsManagement(options: {
   pathParams: API.GaV2Yaml.RemarketingAudience.PatchAnalyticsManagement.PathParams;
-  headers?: API.GaV2Yaml.RemarketingAudience.PatchAnalyticsManagement.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.RemarketingAudience.PatchAnalyticsManagement.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -44,7 +44,7 @@ export function patchAnalyticsManagement(options: {
  */
 export function putAnalyticsManagementUpdate(options: {
   pathParams: API.GaV2Yaml.RemarketingAudience.PutAnalyticsManagementUpdate.PathParams;
-  headers?: API.GaV2Yaml.RemarketingAudience.PutAnalyticsManagementUpdate.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.RemarketingAudience.PutAnalyticsManagementUpdate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -64,7 +64,7 @@ export function putAnalyticsManagementUpdate(options: {
 export function getAnalyticsManagementList(options: {
   pathParams: API.GaV2Yaml.RemarketingAudience.GetAnalyticsManagementList.PathParams;
   queryParams?: API.GaV2Yaml.RemarketingAudience.GetAnalyticsManagementList.QueryParams;
-  headers?: API.GaV2Yaml.RemarketingAudience.GetAnalyticsManagementList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -82,7 +82,7 @@ export function getAnalyticsManagementList(options: {
  */
 export function postAnalyticsManagementInsert(options: {
   pathParams: API.GaV2Yaml.RemarketingAudience.PostAnalyticsManagementInsert.PathParams;
-  headers?: API.GaV2Yaml.RemarketingAudience.PostAnalyticsManagementInsert.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.RemarketingAudience.PostAnalyticsManagementInsert.Body;
   config?: RequestConfig;
   context?: RequestContext;

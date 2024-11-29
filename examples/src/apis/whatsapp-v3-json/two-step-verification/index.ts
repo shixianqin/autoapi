@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/settings/account/two-step`
  */
 export function deleteDisableTwoStep(options?: {
-  headers?: API.WhatsappV3Json.TwoStepVerification.DeleteDisableTwoStep.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -17,7 +17,7 @@ export function deleteDisableTwoStep(options?: {
  * @path `/settings/account/two-step`
  */
 export function postEnableTwoStep(options: {
-  headers?: API.WhatsappV3Json.TwoStepVerification.PostEnableTwoStep.Headers;
+  headers?: Record<string, any>;
   body: API.WhatsappV3Json.TwoStepVerification.PostEnableTwoStep.Body;
   config?: RequestConfig;
   context?: RequestContext;

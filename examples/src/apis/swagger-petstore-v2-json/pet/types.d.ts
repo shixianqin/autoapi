@@ -2,10 +2,6 @@ declare namespace API {
   namespace SwaggerPetstoreV2Json {
     namespace Pet {
       namespace GetFindPetsByStatus {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Status values that need to be considered for filter
@@ -17,10 +13,6 @@ declare namespace API {
       }
 
       namespace GetFindPetsByTags {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Tags to filter by
@@ -41,11 +33,6 @@ declare namespace API {
            * file to upload
            */
           file?: File;
-        }
-
-        interface Headers {
-          "Content-Type"?: "multipart/form-data" | string;
-          [P: string]: any;
         }
 
         interface PathParams {
@@ -73,10 +60,6 @@ declare namespace API {
       }
 
       namespace GetById {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * ID of pet to return
@@ -99,11 +82,6 @@ declare namespace API {
           status?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/x-www-form-urlencoded" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * ID of pet that needs to be updated
@@ -114,20 +92,10 @@ declare namespace API {
 
       namespace PostAdd {
         type Body = $schemas.Pet;
-
-        interface Headers {
-          "Content-Type"?: "application/json" | "application/xml" | string;
-          [P: string]: any;
-        }
       }
 
       namespace PutUpdate {
         type Body = $schemas.Pet;
-
-        interface Headers {
-          "Content-Type"?: "application/json" | "application/xml" | string;
-          [P: string]: any;
-        }
       }
     }
   }

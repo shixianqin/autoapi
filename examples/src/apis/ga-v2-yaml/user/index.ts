@@ -7,7 +7,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function deleteAnalyticsManagementAccountLinks(options: {
   pathParams: API.GaV2Yaml.User.DeleteAnalyticsManagementAccountLinks.PathParams;
-  headers?: API.GaV2Yaml.User.DeleteAnalyticsManagementAccountLinks.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -26,7 +26,7 @@ export function deleteAnalyticsManagementAccountLinks(options: {
 export function getAnalyticsManagementAccountLinksList(options: {
   pathParams: API.GaV2Yaml.User.GetAnalyticsManagementAccountLinksList.PathParams;
   queryParams?: API.GaV2Yaml.User.GetAnalyticsManagementAccountLinksList.QueryParams;
-  headers?: API.GaV2Yaml.User.GetAnalyticsManagementAccountLinksList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -44,7 +44,7 @@ export function getAnalyticsManagementAccountLinksList(options: {
  */
 export function postAnalyticsManagementAccountLinksInsert(options: {
   pathParams: API.GaV2Yaml.User.PostAnalyticsManagementAccountLinksInsert.PathParams;
-  headers?: API.GaV2Yaml.User.PostAnalyticsManagementAccountLinksInsert.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.User.PostAnalyticsManagementAccountLinksInsert.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -63,7 +63,7 @@ export function postAnalyticsManagementAccountLinksInsert(options: {
  */
 export function deleteAnalyticsManagementWebpropertyLinks(options: {
   pathParams: API.GaV2Yaml.User.DeleteAnalyticsManagementWebpropertyLinks.PathParams;
-  headers?: API.GaV2Yaml.User.DeleteAnalyticsManagementWebpropertyLinks.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -82,7 +82,7 @@ export function deleteAnalyticsManagementWebpropertyLinks(options: {
 export function getAnalyticsManagementWebpropertyLinksList(options: {
   pathParams: API.GaV2Yaml.User.GetAnalyticsManagementWebpropertyLinksList.PathParams;
   queryParams?: API.GaV2Yaml.User.GetAnalyticsManagementWebpropertyLinksList.QueryParams;
-  headers?: API.GaV2Yaml.User.GetAnalyticsManagementWebpropertyLinksList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -100,7 +100,7 @@ export function getAnalyticsManagementWebpropertyLinksList(options: {
  */
 export function postAnalyticsManagementWebpropertyLinksInsert(options: {
   pathParams: API.GaV2Yaml.User.PostAnalyticsManagementWebpropertyLinksInsert.PathParams;
-  headers?: API.GaV2Yaml.User.PostAnalyticsManagementWebpropertyLinksInsert.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.User.PostAnalyticsManagementWebpropertyLinksInsert.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -119,7 +119,7 @@ export function postAnalyticsManagementWebpropertyLinksInsert(options: {
  */
 export function deleteAnalyticsManagementProfileLinks(options: {
   pathParams: API.GaV2Yaml.User.DeleteAnalyticsManagementProfileLinks.PathParams;
-  headers?: API.GaV2Yaml.User.DeleteAnalyticsManagementProfileLinks.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -138,7 +138,7 @@ export function deleteAnalyticsManagementProfileLinks(options: {
 export function getAnalyticsManagementProfileLinksList(options: {
   pathParams: API.GaV2Yaml.User.GetAnalyticsManagementProfileLinksList.PathParams;
   queryParams?: API.GaV2Yaml.User.GetAnalyticsManagementProfileLinksList.QueryParams;
-  headers?: API.GaV2Yaml.User.GetAnalyticsManagementProfileLinksList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -156,7 +156,7 @@ export function getAnalyticsManagementProfileLinksList(options: {
  */
 export function postAnalyticsManagementProfileLinksInsert(options: {
   pathParams: API.GaV2Yaml.User.PostAnalyticsManagementProfileLinksInsert.PathParams;
-  headers?: API.GaV2Yaml.User.PostAnalyticsManagementProfileLinksInsert.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.User.PostAnalyticsManagementProfileLinksInsert.Body;
   config?: RequestConfig;
   context?: RequestContext;

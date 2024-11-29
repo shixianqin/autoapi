@@ -7,7 +7,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getLicenses(options: {
   pathParams: API.GithubV3Json.Licenses.GetLicenses.PathParams;
-  headers?: API.GithubV3Json.Licenses.GetLicenses.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -25,7 +25,7 @@ export function getLicenses(options: {
  */
 export function getAllCommonlyUsed(options?: {
   queryParams?: API.GithubV3Json.Licenses.GetAllCommonlyUsed.QueryParams;
-  headers?: API.GithubV3Json.Licenses.GetAllCommonlyUsed.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -46,7 +46,7 @@ export function getAllCommonlyUsed(options?: {
  */
 export function getForRepo(options: {
   pathParams: API.GithubV3Json.Licenses.GetForRepo.PathParams;
-  headers?: API.GithubV3Json.Licenses.GetForRepo.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

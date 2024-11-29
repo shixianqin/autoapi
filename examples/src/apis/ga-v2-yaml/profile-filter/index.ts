@@ -7,7 +7,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function deleteAnalyticsManagementLinks(options: {
   pathParams: API.GaV2Yaml.ProfileFilter.DeleteAnalyticsManagementLinks.PathParams;
-  headers?: API.GaV2Yaml.ProfileFilter.DeleteAnalyticsManagementLinks.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -25,7 +25,7 @@ export function deleteAnalyticsManagementLinks(options: {
  */
 export function getAnalyticsManagementLinks(options: {
   pathParams: API.GaV2Yaml.ProfileFilter.GetAnalyticsManagementLinks.PathParams;
-  headers?: API.GaV2Yaml.ProfileFilter.GetAnalyticsManagementLinks.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -43,7 +43,7 @@ export function getAnalyticsManagementLinks(options: {
  */
 export function patchAnalyticsManagementLinks(options: {
   pathParams: API.GaV2Yaml.ProfileFilter.PatchAnalyticsManagementLinks.PathParams;
-  headers?: API.GaV2Yaml.ProfileFilter.PatchAnalyticsManagementLinks.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.ProfileFilter.PatchAnalyticsManagementLinks.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -62,7 +62,7 @@ export function patchAnalyticsManagementLinks(options: {
  */
 export function putAnalyticsManagementLinksUpdate(options: {
   pathParams: API.GaV2Yaml.ProfileFilter.PutAnalyticsManagementLinksUpdate.PathParams;
-  headers?: API.GaV2Yaml.ProfileFilter.PutAnalyticsManagementLinksUpdate.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.ProfileFilter.PutAnalyticsManagementLinksUpdate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -82,7 +82,7 @@ export function putAnalyticsManagementLinksUpdate(options: {
 export function getAnalyticsManagementLinksList(options: {
   pathParams: API.GaV2Yaml.ProfileFilter.GetAnalyticsManagementLinksList.PathParams;
   queryParams?: API.GaV2Yaml.ProfileFilter.GetAnalyticsManagementLinksList.QueryParams;
-  headers?: API.GaV2Yaml.ProfileFilter.GetAnalyticsManagementLinksList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -100,7 +100,7 @@ export function getAnalyticsManagementLinksList(options: {
  */
 export function postAnalyticsManagementLinksInsert(options: {
   pathParams: API.GaV2Yaml.ProfileFilter.PostAnalyticsManagementLinksInsert.PathParams;
-  headers?: API.GaV2Yaml.ProfileFilter.PostAnalyticsManagementLinksInsert.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.ProfileFilter.PostAnalyticsManagementLinksInsert.Body;
   config?: RequestConfig;
   context?: RequestContext;

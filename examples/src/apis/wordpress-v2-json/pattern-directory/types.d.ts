@@ -2,14 +2,6 @@ declare namespace API {
   namespace WordpressV2Json {
     namespace PatternDirectory {
       namespace GetWpV2Patterns {
-        interface Headers {
-          "Content-Type"?:
-            | "application/x-www-form-urlencoded"
-            | "multipart/form-data"
-            | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Limit results to those matching a category ID.

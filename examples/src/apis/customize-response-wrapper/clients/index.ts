@@ -6,7 +6,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getClientOptions(options: {
   pathParams: API.CustomizeResponseWrapper.Clients.GetClientOptions.PathParams;
-  headers?: API.CustomizeResponseWrapper.Clients.GetClientOptions.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -24,7 +24,7 @@ export function getClientOptions(options: {
  */
 export function generateClient(options: {
   pathParams: API.CustomizeResponseWrapper.Clients.GenerateClient.PathParams;
-  headers?: API.CustomizeResponseWrapper.Clients.GenerateClient.Headers;
+  headers?: Record<string, any>;
   body?: API.CustomizeResponseWrapper.Clients.GenerateClient.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -41,7 +41,7 @@ export function generateClient(options: {
  * @path `/gen/clients`
  */
 export function clientOptions(options?: {
-  headers?: API.CustomizeResponseWrapper.Clients.ClientOptions.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -59,7 +59,7 @@ export function clientOptions(options?: {
  */
 export function downloadFile(options: {
   pathParams: API.CustomizeResponseWrapper.Clients.DownloadFile.PathParams;
-  headers?: API.CustomizeResponseWrapper.Clients.DownloadFile.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

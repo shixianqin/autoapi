@@ -7,7 +7,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function deleteAnalyticsManagementWebPropertyAdWordsLinks(options: {
   pathParams: API.GaV2Yaml.AdWord.DeleteAnalyticsManagementWebPropertyAdWordsLinks.PathParams;
-  headers?: API.GaV2Yaml.AdWord.DeleteAnalyticsManagementWebPropertyAdWordsLinks.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -25,7 +25,7 @@ export function deleteAnalyticsManagementWebPropertyAdWordsLinks(options: {
  */
 export function getAnalyticsManagementWebPropertyAdWordsLinks(options: {
   pathParams: API.GaV2Yaml.AdWord.GetAnalyticsManagementWebPropertyAdWordsLinks.PathParams;
-  headers?: API.GaV2Yaml.AdWord.GetAnalyticsManagementWebPropertyAdWordsLinks.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -43,7 +43,7 @@ export function getAnalyticsManagementWebPropertyAdWordsLinks(options: {
  */
 export function patchAnalyticsManagementWebPropertyAdWordsLinks(options: {
   pathParams: API.GaV2Yaml.AdWord.PatchAnalyticsManagementWebPropertyAdWordsLinks.PathParams;
-  headers?: API.GaV2Yaml.AdWord.PatchAnalyticsManagementWebPropertyAdWordsLinks.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.AdWord.PatchAnalyticsManagementWebPropertyAdWordsLinks.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -62,7 +62,7 @@ export function patchAnalyticsManagementWebPropertyAdWordsLinks(options: {
  */
 export function putAnalyticsManagementWebPropertyAdWordsLinksUpdate(options: {
   pathParams: API.GaV2Yaml.AdWord.PutAnalyticsManagementWebPropertyAdWordsLinksUpdate.PathParams;
-  headers?: API.GaV2Yaml.AdWord.PutAnalyticsManagementWebPropertyAdWordsLinksUpdate.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.AdWord.PutAnalyticsManagementWebPropertyAdWordsLinksUpdate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -82,7 +82,7 @@ export function putAnalyticsManagementWebPropertyAdWordsLinksUpdate(options: {
 export function getAnalyticsManagementWebPropertyAdWordsLinksList(options: {
   pathParams: API.GaV2Yaml.AdWord.GetAnalyticsManagementWebPropertyAdWordsLinksList.PathParams;
   queryParams?: API.GaV2Yaml.AdWord.GetAnalyticsManagementWebPropertyAdWordsLinksList.QueryParams;
-  headers?: API.GaV2Yaml.AdWord.GetAnalyticsManagementWebPropertyAdWordsLinksList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -100,7 +100,7 @@ export function getAnalyticsManagementWebPropertyAdWordsLinksList(options: {
  */
 export function postAnalyticsManagementWebPropertyAdWordsLinksInsert(options: {
   pathParams: API.GaV2Yaml.AdWord.PostAnalyticsManagementWebPropertyAdWordsLinksInsert.PathParams;
-  headers?: API.GaV2Yaml.AdWord.PostAnalyticsManagementWebPropertyAdWordsLinksInsert.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.AdWord.PostAnalyticsManagementWebPropertyAdWordsLinksInsert.Body;
   config?: RequestConfig;
   context?: RequestContext;

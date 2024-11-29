@@ -7,7 +7,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getAnalyticsManagementCustomDimensions(options: {
   pathParams: API.GaV2Yaml.Dimension.GetAnalyticsManagementCustomDimensions.PathParams;
-  headers?: API.GaV2Yaml.Dimension.GetAnalyticsManagementCustomDimensions.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -26,7 +26,7 @@ export function getAnalyticsManagementCustomDimensions(options: {
 export function patchAnalyticsManagementCustomDimensions(options: {
   pathParams: API.GaV2Yaml.Dimension.PatchAnalyticsManagementCustomDimensions.PathParams;
   queryParams?: API.GaV2Yaml.Dimension.PatchAnalyticsManagementCustomDimensions.QueryParams;
-  headers?: API.GaV2Yaml.Dimension.PatchAnalyticsManagementCustomDimensions.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.Dimension.PatchAnalyticsManagementCustomDimensions.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -46,7 +46,7 @@ export function patchAnalyticsManagementCustomDimensions(options: {
 export function putAnalyticsManagementCustomDimensionsUpdate(options: {
   pathParams: API.GaV2Yaml.Dimension.PutAnalyticsManagementCustomDimensionsUpdate.PathParams;
   queryParams?: API.GaV2Yaml.Dimension.PutAnalyticsManagementCustomDimensionsUpdate.QueryParams;
-  headers?: API.GaV2Yaml.Dimension.PutAnalyticsManagementCustomDimensionsUpdate.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.Dimension.PutAnalyticsManagementCustomDimensionsUpdate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -66,7 +66,7 @@ export function putAnalyticsManagementCustomDimensionsUpdate(options: {
 export function getAnalyticsManagementCustomDimensionsList(options: {
   pathParams: API.GaV2Yaml.Dimension.GetAnalyticsManagementCustomDimensionsList.PathParams;
   queryParams?: API.GaV2Yaml.Dimension.GetAnalyticsManagementCustomDimensionsList.QueryParams;
-  headers?: API.GaV2Yaml.Dimension.GetAnalyticsManagementCustomDimensionsList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -84,7 +84,7 @@ export function getAnalyticsManagementCustomDimensionsList(options: {
  */
 export function postAnalyticsManagementCustomDimensionsInsert(options: {
   pathParams: API.GaV2Yaml.Dimension.PostAnalyticsManagementCustomDimensionsInsert.PathParams;
-  headers?: API.GaV2Yaml.Dimension.PostAnalyticsManagementCustomDimensionsInsert.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.Dimension.PostAnalyticsManagementCustomDimensionsInsert.Body;
   config?: RequestConfig;
   context?: RequestContext;

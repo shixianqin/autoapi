@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/api/`
  */
 export function getApiVersions(options?: {
-  headers?: API.K8sV2Json.Core.GetApiVersions.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

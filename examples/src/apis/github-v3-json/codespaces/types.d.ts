@@ -10,11 +10,6 @@ declare namespace API {
           selected_usernames: string[];
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -30,11 +25,6 @@ declare namespace API {
            * @maxItems 100
            */
           selected_usernames: string[];
-        }
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
         }
 
         interface PathParams {
@@ -62,11 +52,6 @@ declare namespace API {
             | "selected_members";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -76,10 +61,6 @@ declare namespace API {
       }
 
       namespace GetOrgPublicKey {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -91,10 +72,6 @@ declare namespace API {
       }
 
       namespace DeleteRemoveSelectedRepoFromOrgSecret {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -109,10 +86,6 @@ declare namespace API {
       }
 
       namespace PutAddSelectedRepoToOrgSecret {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -127,10 +100,6 @@ declare namespace API {
       }
 
       namespace GetListSelectedReposForOrgSecret {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -169,11 +138,6 @@ declare namespace API {
           selected_repository_ids: number[];
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -187,10 +151,6 @@ declare namespace API {
       }
 
       namespace DeleteOrgSecret {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -204,10 +164,6 @@ declare namespace API {
       }
 
       namespace GetOrgSecret {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -242,11 +198,6 @@ declare namespace API {
           visibility: "all" | "private" | "selected";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -262,10 +213,6 @@ declare namespace API {
       }
 
       namespace GetListOrgSecrets {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -293,10 +240,6 @@ declare namespace API {
       }
 
       namespace GetListInOrganization {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -324,10 +267,6 @@ declare namespace API {
       }
 
       namespace PostStopInOrganization {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the codespace.
@@ -347,10 +286,6 @@ declare namespace API {
       }
 
       namespace DeleteFromOrganization {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the codespace.
@@ -370,10 +305,6 @@ declare namespace API {
       }
 
       namespace GetForUserInOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -405,10 +336,6 @@ declare namespace API {
       }
 
       namespace GetListDevcontainersInRepositoryForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -443,10 +370,6 @@ declare namespace API {
       }
 
       namespace GetRepoMachinesForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -476,10 +399,6 @@ declare namespace API {
       }
 
       namespace GetPreFlightWithRepoForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -515,10 +434,6 @@ declare namespace API {
       }
 
       namespace GetRepoPublicKey {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -534,10 +449,6 @@ declare namespace API {
       }
 
       namespace DeleteRepoSecret {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -555,10 +466,6 @@ declare namespace API {
       }
 
       namespace GetRepoSecret {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -589,11 +496,6 @@ declare namespace API {
           key_id?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -613,10 +515,6 @@ declare namespace API {
       }
 
       namespace GetListRepoSecrets {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -648,10 +546,6 @@ declare namespace API {
       }
 
       namespace GetListInRepositoryForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -726,11 +620,6 @@ declare namespace API {
           working_directory?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -785,11 +674,6 @@ declare namespace API {
           working_directory?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -809,18 +693,10 @@ declare namespace API {
       }
 
       namespace GetPublicKeyForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         type Response = $schemas.CodespacesUserPublicKey;
       }
 
       namespace DeleteRemoveRepositoryForSecretForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           repository_id: number;
           /**
@@ -831,10 +707,6 @@ declare namespace API {
       }
 
       namespace PutAddRepositoryForSecretForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           repository_id: number;
           /**
@@ -845,10 +717,6 @@ declare namespace API {
       }
 
       namespace GetListRepositoriesForSecretForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the secret.
@@ -870,11 +738,6 @@ declare namespace API {
           selected_repository_ids: number[];
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the secret.
@@ -884,10 +747,6 @@ declare namespace API {
       }
 
       namespace DeleteSecretForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the secret.
@@ -897,10 +756,6 @@ declare namespace API {
       }
 
       namespace GetSecretForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the secret.
@@ -927,11 +782,6 @@ declare namespace API {
           selected_repository_ids?: any[];
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the secret.
@@ -943,10 +793,6 @@ declare namespace API {
       }
 
       namespace GetListSecretsForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Page number of the results to fetch.
@@ -967,10 +813,6 @@ declare namespace API {
       }
 
       namespace GetExportDetailsForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the codespace.
@@ -986,10 +828,6 @@ declare namespace API {
       }
 
       namespace PostExportForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the codespace.
@@ -1001,10 +839,6 @@ declare namespace API {
       }
 
       namespace GetCodespaceMachinesForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the codespace.
@@ -1030,11 +864,6 @@ declare namespace API {
           private?: boolean;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the codespace.
@@ -1046,10 +875,6 @@ declare namespace API {
       }
 
       namespace PostStartForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the codespace.
@@ -1061,10 +886,6 @@ declare namespace API {
       }
 
       namespace PostStopForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the codespace.
@@ -1076,10 +897,6 @@ declare namespace API {
       }
 
       namespace DeleteForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the codespace.
@@ -1091,10 +908,6 @@ declare namespace API {
       }
 
       namespace GetForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the codespace.
@@ -1121,11 +934,6 @@ declare namespace API {
           recent_folders?: string[];
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The name of the codespace.
@@ -1137,10 +945,6 @@ declare namespace API {
       }
 
       namespace GetListForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Page number of the results to fetch.
@@ -1247,11 +1051,6 @@ declare namespace API {
                */
               working_directory?: string;
             };
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
 
         type Response = $schemas.Codespace;
       }

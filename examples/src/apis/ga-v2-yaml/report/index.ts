@@ -7,7 +7,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function deleteAnalyticsManagementUnsampledReports(options: {
   pathParams: API.GaV2Yaml.Report.DeleteAnalyticsManagementUnsampledReports.PathParams;
-  headers?: API.GaV2Yaml.Report.DeleteAnalyticsManagementUnsampledReports.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -25,7 +25,7 @@ export function deleteAnalyticsManagementUnsampledReports(options: {
  */
 export function getAnalyticsManagementUnsampledReports(options: {
   pathParams: API.GaV2Yaml.Report.GetAnalyticsManagementUnsampledReports.PathParams;
-  headers?: API.GaV2Yaml.Report.GetAnalyticsManagementUnsampledReports.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -44,7 +44,7 @@ export function getAnalyticsManagementUnsampledReports(options: {
 export function getAnalyticsManagementUnsampledReportsList(options: {
   pathParams: API.GaV2Yaml.Report.GetAnalyticsManagementUnsampledReportsList.PathParams;
   queryParams?: API.GaV2Yaml.Report.GetAnalyticsManagementUnsampledReportsList.QueryParams;
-  headers?: API.GaV2Yaml.Report.GetAnalyticsManagementUnsampledReportsList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -62,7 +62,7 @@ export function getAnalyticsManagementUnsampledReportsList(options: {
  */
 export function postAnalyticsManagementUnsampledReportsInsert(options: {
   pathParams: API.GaV2Yaml.Report.PostAnalyticsManagementUnsampledReportsInsert.PathParams;
-  headers?: API.GaV2Yaml.Report.PostAnalyticsManagementUnsampledReportsInsert.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.Report.PostAnalyticsManagementUnsampledReportsInsert.Body;
   config?: RequestConfig;
   context?: RequestContext;

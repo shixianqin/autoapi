@@ -2,24 +2,10 @@ declare namespace API {
   namespace K8sV2Json {
     namespace CoordinationV1alpha1 {
       namespace GetApiResources {
-        interface Headers {
-          "Content-Type"?:
-            | "application/json"
-            | "application/yaml"
-            | "application/vnd.kubernetes.protobuf"
-            | string;
-          [P: string]: any;
-        }
-
         type Response = $schemas.IoK8sApimachineryPkgApisMetaV1ApiResourceList;
       }
 
       namespace GetListLeaseCandidateForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -93,11 +79,6 @@ declare namespace API {
       namespace DeleteNamespacedLeaseCandidate {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the LeaseCandidate
@@ -136,11 +117,6 @@ declare namespace API {
       }
 
       namespace GetReadNamespacedLeaseCandidate {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the LeaseCandidate
@@ -164,16 +140,6 @@ declare namespace API {
 
       namespace PatchNamespacedLeaseCandidate {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1Patch;
-
-        interface Headers {
-          "Content-Type"?:
-            | "application/json-patch+json"
-            | "application/merge-patch+json"
-            | "application/strategic-merge-patch+json"
-            | "application/apply-patch+yaml"
-            | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -215,11 +181,6 @@ declare namespace API {
       namespace PutReplaceNamespacedLeaseCandidate {
         type Body = $schemas.IoK8sApiCoordinationV1alpha1LeaseCandidate;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the LeaseCandidate
@@ -255,11 +216,6 @@ declare namespace API {
 
       namespace DeleteCollectionNamespacedLeaseCandidate {
         type Body = $schemas.IoK8sApimachineryPkgApisMetaV1DeleteOptions;
-
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -347,11 +303,6 @@ declare namespace API {
       }
 
       namespace GetListNamespacedLeaseCandidate {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -432,11 +383,6 @@ declare namespace API {
       namespace PostCreateNamespacedLeaseCandidate {
         type Body = $schemas.IoK8sApiCoordinationV1alpha1LeaseCandidate;
 
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects
@@ -467,11 +413,6 @@ declare namespace API {
       }
 
       namespace GetWatchLeaseCandidateListForAllNamespaces {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * allowWatchBookmarks requests watch events with type "BOOKMARK". Servers that do not implement bookmarks may ignore this flag and bookmarks are sent at the server's discretion. Clients should not assume bookmarks are returned at any specific interval, nor may they assume the server will send any BOOKMARK event during a session. If this is not a watch, this field is ignored.
@@ -543,11 +484,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedLeaseCandidate {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * name of the LeaseCandidate
@@ -630,11 +566,6 @@ declare namespace API {
       }
 
       namespace GetWatchNamespacedLeaseCandidateList {
-        interface Headers {
-          "Content-Type"?: "*/*" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * object name and auth scope, such as for teams and projects

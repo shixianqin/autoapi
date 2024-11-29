@@ -2,10 +2,6 @@ declare namespace API {
   namespace GaV2Yaml {
     namespace Experiment {
       namespace DeleteAnalyticsManagementExperiments {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to which the experiment belongs
@@ -27,10 +23,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsManagementExperiments {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to retrieve the experiment for
@@ -53,10 +45,6 @@ declare namespace API {
 
       namespace PatchAnalyticsManagementExperiments {
         type Body = $schemas.Holder;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**
@@ -81,10 +69,6 @@ declare namespace API {
       namespace PutAnalyticsManagementExperimentsUpdate {
         type Body = $schemas.Holder;
 
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID of the experiment to update
@@ -106,10 +90,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsManagementExperimentsList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * Account ID to retrieve experiments for
@@ -139,10 +119,6 @@ declare namespace API {
 
       namespace PostAnalyticsManagementExperimentsInsert {
         type Body = $schemas.Holder;
-
-        interface Headers {
-          [P: string]: any;
-        }
 
         interface PathParams {
           /**

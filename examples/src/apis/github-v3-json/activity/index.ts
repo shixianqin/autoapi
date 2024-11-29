@@ -8,7 +8,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getListPublicEvents(options?: {
   queryParams?: API.GithubV3Json.Activity.GetListPublicEvents.QueryParams;
-  headers?: API.GithubV3Json.Activity.GetListPublicEvents.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -35,7 +35,7 @@ export function getListPublicEvents(options?: {
  * @docs https://docs.github.com/rest/reference/activity#get-feeds
  */
 export function getFeeds(options?: {
-  headers?: API.GithubV3Json.Activity.GetFeeds.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -54,7 +54,7 @@ export function getFeeds(options?: {
 export function getListPublicEventsForRepoNetwork(options: {
   pathParams: API.GithubV3Json.Activity.GetListPublicEventsForRepoNetwork.PathParams;
   queryParams?: API.GithubV3Json.Activity.GetListPublicEventsForRepoNetwork.QueryParams;
-  headers?: API.GithubV3Json.Activity.GetListPublicEventsForRepoNetwork.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -73,7 +73,7 @@ export function getListPublicEventsForRepoNetwork(options: {
  */
 export function deleteThreadSubscription(options: {
   pathParams: API.GithubV3Json.Activity.DeleteThreadSubscription.PathParams;
-  headers?: API.GithubV3Json.Activity.DeleteThreadSubscription.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -94,7 +94,7 @@ export function deleteThreadSubscription(options: {
  */
 export function getThreadSubscriptionForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Activity.GetThreadSubscriptionForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Activity.GetThreadSubscriptionForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -117,7 +117,7 @@ export function getThreadSubscriptionForAuthenticatedUser(options: {
  */
 export function putSetThreadSubscription(options: {
   pathParams: API.GithubV3Json.Activity.PutSetThreadSubscription.PathParams;
-  headers?: API.GithubV3Json.Activity.PutSetThreadSubscription.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Activity.PutSetThreadSubscription.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -137,7 +137,7 @@ export function putSetThreadSubscription(options: {
  */
 export function getThread(options: {
   pathParams: API.GithubV3Json.Activity.GetThread.PathParams;
-  headers?: API.GithubV3Json.Activity.GetThread.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -156,7 +156,7 @@ export function getThread(options: {
  */
 export function patchMarkThreadAsRead(options: {
   pathParams: API.GithubV3Json.Activity.PatchMarkThreadAsRead.PathParams;
-  headers?: API.GithubV3Json.Activity.PatchMarkThreadAsRead.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -175,7 +175,7 @@ export function patchMarkThreadAsRead(options: {
  */
 export function getListNotificationsForAuthenticatedUser(options?: {
   queryParams?: API.GithubV3Json.Activity.GetListNotificationsForAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Activity.GetListNotificationsForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -193,7 +193,7 @@ export function getListNotificationsForAuthenticatedUser(options?: {
  * @docs https://docs.github.com/rest/reference/activity#mark-notifications-as-read
  */
 export function putMarkNotificationsAsRead(options?: {
-  headers?: API.GithubV3Json.Activity.PutMarkNotificationsAsRead.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Activity.PutMarkNotificationsAsRead.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -213,7 +213,7 @@ export function putMarkNotificationsAsRead(options?: {
 export function getListPublicOrgEvents(options: {
   pathParams: API.GithubV3Json.Activity.GetListPublicOrgEvents.PathParams;
   queryParams?: API.GithubV3Json.Activity.GetListPublicOrgEvents.QueryParams;
-  headers?: API.GithubV3Json.Activity.GetListPublicOrgEvents.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -232,7 +232,7 @@ export function getListPublicOrgEvents(options: {
 export function getListRepoEvents(options: {
   pathParams: API.GithubV3Json.Activity.GetListRepoEvents.PathParams;
   queryParams?: API.GithubV3Json.Activity.GetListRepoEvents.QueryParams;
-  headers?: API.GithubV3Json.Activity.GetListRepoEvents.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -252,7 +252,7 @@ export function getListRepoEvents(options: {
 export function getListRepoNotificationsForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Activity.GetListRepoNotificationsForAuthenticatedUser.PathParams;
   queryParams?: API.GithubV3Json.Activity.GetListRepoNotificationsForAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Activity.GetListRepoNotificationsForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -271,7 +271,7 @@ export function getListRepoNotificationsForAuthenticatedUser(options: {
  */
 export function putMarkRepoNotificationsAsRead(options: {
   pathParams: API.GithubV3Json.Activity.PutMarkRepoNotificationsAsRead.PathParams;
-  headers?: API.GithubV3Json.Activity.PutMarkRepoNotificationsAsRead.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Activity.PutMarkRepoNotificationsAsRead.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -294,7 +294,7 @@ export function putMarkRepoNotificationsAsRead(options: {
 export function getListStargazersForRepo(options: {
   pathParams: API.GithubV3Json.Activity.GetListStargazersForRepo.PathParams;
   queryParams?: API.GithubV3Json.Activity.GetListStargazersForRepo.QueryParams;
-  headers?: API.GithubV3Json.Activity.GetListStargazersForRepo.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -314,7 +314,7 @@ export function getListStargazersForRepo(options: {
 export function getListWatchersForRepo(options: {
   pathParams: API.GithubV3Json.Activity.GetListWatchersForRepo.PathParams;
   queryParams?: API.GithubV3Json.Activity.GetListWatchersForRepo.QueryParams;
-  headers?: API.GithubV3Json.Activity.GetListWatchersForRepo.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -333,7 +333,7 @@ export function getListWatchersForRepo(options: {
  */
 export function deleteRepoSubscription(options: {
   pathParams: API.GithubV3Json.Activity.DeleteRepoSubscription.PathParams;
-  headers?: API.GithubV3Json.Activity.DeleteRepoSubscription.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -351,7 +351,7 @@ export function deleteRepoSubscription(options: {
  */
 export function getRepoSubscription(options: {
   pathParams: API.GithubV3Json.Activity.GetRepoSubscription.PathParams;
-  headers?: API.GithubV3Json.Activity.GetRepoSubscription.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -370,7 +370,7 @@ export function getRepoSubscription(options: {
  */
 export function putSetRepoSubscription(options: {
   pathParams: API.GithubV3Json.Activity.PutSetRepoSubscription.PathParams;
-  headers?: API.GithubV3Json.Activity.PutSetRepoSubscription.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Activity.PutSetRepoSubscription.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -389,7 +389,7 @@ export function putSetRepoSubscription(options: {
  */
 export function deleteUnstarRepoForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Activity.DeleteUnstarRepoForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Activity.DeleteUnstarRepoForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -407,7 +407,7 @@ export function deleteUnstarRepoForAuthenticatedUser(options: {
  */
 export function getCheckRepoIsStarredByAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Activity.GetCheckRepoIsStarredByAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Activity.GetCheckRepoIsStarredByAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -426,7 +426,7 @@ export function getCheckRepoIsStarredByAuthenticatedUser(options: {
  */
 export function putStarRepoForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Activity.PutStarRepoForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Activity.PutStarRepoForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -447,7 +447,7 @@ export function putStarRepoForAuthenticatedUser(options: {
  */
 export function getListReposStarredByAuthenticatedUser(options?: {
   queryParams?: API.GithubV3Json.Activity.GetListReposStarredByAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Activity.GetListReposStarredByAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -466,7 +466,7 @@ export function getListReposStarredByAuthenticatedUser(options?: {
  */
 export function getListWatchedReposForAuthenticatedUser(options?: {
   queryParams?: API.GithubV3Json.Activity.GetListWatchedReposForAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Activity.GetListWatchedReposForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -486,7 +486,7 @@ export function getListWatchedReposForAuthenticatedUser(options?: {
 export function getListOrgEventsForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Activity.GetListOrgEventsForAuthenticatedUser.PathParams;
   queryParams?: API.GithubV3Json.Activity.GetListOrgEventsForAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Activity.GetListOrgEventsForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -505,7 +505,7 @@ export function getListOrgEventsForAuthenticatedUser(options: {
 export function getListPublicEventsForUser(options: {
   pathParams: API.GithubV3Json.Activity.GetListPublicEventsForUser.PathParams;
   queryParams?: API.GithubV3Json.Activity.GetListPublicEventsForUser.QueryParams;
-  headers?: API.GithubV3Json.Activity.GetListPublicEventsForUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -525,7 +525,7 @@ export function getListPublicEventsForUser(options: {
 export function getListEventsForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Activity.GetListEventsForAuthenticatedUser.PathParams;
   queryParams?: API.GithubV3Json.Activity.GetListEventsForAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Activity.GetListEventsForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -544,7 +544,7 @@ export function getListEventsForAuthenticatedUser(options: {
 export function getListReceivedPublicEventsForUser(options: {
   pathParams: API.GithubV3Json.Activity.GetListReceivedPublicEventsForUser.PathParams;
   queryParams?: API.GithubV3Json.Activity.GetListReceivedPublicEventsForUser.QueryParams;
-  headers?: API.GithubV3Json.Activity.GetListReceivedPublicEventsForUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -564,7 +564,7 @@ export function getListReceivedPublicEventsForUser(options: {
 export function getListReceivedEventsForUser(options: {
   pathParams: API.GithubV3Json.Activity.GetListReceivedEventsForUser.PathParams;
   queryParams?: API.GithubV3Json.Activity.GetListReceivedEventsForUser.QueryParams;
-  headers?: API.GithubV3Json.Activity.GetListReceivedEventsForUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -586,7 +586,7 @@ export function getListReceivedEventsForUser(options: {
 export function getListReposStarredByUser(options: {
   pathParams: API.GithubV3Json.Activity.GetListReposStarredByUser.PathParams;
   queryParams?: API.GithubV3Json.Activity.GetListReposStarredByUser.QueryParams;
-  headers?: API.GithubV3Json.Activity.GetListReposStarredByUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -606,7 +606,7 @@ export function getListReposStarredByUser(options: {
 export function getListReposWatchedByUser(options: {
   pathParams: API.GithubV3Json.Activity.GetListReposWatchedByUser.PathParams;
   queryParams?: API.GithubV3Json.Activity.GetListReposWatchedByUser.QueryParams;
-  headers?: API.GithubV3Json.Activity.GetListReposWatchedByUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

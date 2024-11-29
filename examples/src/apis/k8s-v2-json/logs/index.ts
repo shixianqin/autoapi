@@ -4,7 +4,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/logs/`
  */
 export function getLogFileListHandler(options?: {
-  headers?: API.K8sV2Json.Logs.GetLogFileListHandler.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -16,7 +16,7 @@ export function getLogFileListHandler(options?: {
  */
 export function getLogFileHandler(options: {
   pathParams: API.K8sV2Json.Logs.GetLogFileHandler.PathParams;
-  headers?: API.K8sV2Json.Logs.GetLogFileHandler.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

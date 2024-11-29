@@ -7,7 +7,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function deleteClusterTrustBundle(options: {
   pathParams: API.K8sV2Json.CertificatesV1alpha1.DeleteClusterTrustBundle.PathParams;
   queryParams?: API.K8sV2Json.CertificatesV1alpha1.DeleteClusterTrustBundle.QueryParams;
-  headers?: API.K8sV2Json.CertificatesV1alpha1.DeleteClusterTrustBundle.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.CertificatesV1alpha1.DeleteClusterTrustBundle.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -26,7 +26,7 @@ export function deleteClusterTrustBundle(options: {
 export function getReadClusterTrustBundle(options: {
   pathParams: API.K8sV2Json.CertificatesV1alpha1.GetReadClusterTrustBundle.PathParams;
   queryParams?: API.K8sV2Json.CertificatesV1alpha1.GetReadClusterTrustBundle.QueryParams;
-  headers?: API.K8sV2Json.CertificatesV1alpha1.GetReadClusterTrustBundle.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -44,7 +44,7 @@ export function getReadClusterTrustBundle(options: {
 export function patchClusterTrustBundle(options: {
   pathParams: API.K8sV2Json.CertificatesV1alpha1.PatchClusterTrustBundle.PathParams;
   queryParams?: API.K8sV2Json.CertificatesV1alpha1.PatchClusterTrustBundle.QueryParams;
-  headers?: API.K8sV2Json.CertificatesV1alpha1.PatchClusterTrustBundle.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.CertificatesV1alpha1.PatchClusterTrustBundle.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -63,7 +63,7 @@ export function patchClusterTrustBundle(options: {
 export function putReplaceClusterTrustBundle(options: {
   pathParams: API.K8sV2Json.CertificatesV1alpha1.PutReplaceClusterTrustBundle.PathParams;
   queryParams?: API.K8sV2Json.CertificatesV1alpha1.PutReplaceClusterTrustBundle.QueryParams;
-  headers?: API.K8sV2Json.CertificatesV1alpha1.PutReplaceClusterTrustBundle.Headers;
+  headers?: Record<string, any>;
   body: API.K8sV2Json.CertificatesV1alpha1.PutReplaceClusterTrustBundle.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -81,7 +81,7 @@ export function putReplaceClusterTrustBundle(options: {
  */
 export function deleteCollectionClusterTrustBundle(options?: {
   queryParams?: API.K8sV2Json.CertificatesV1alpha1.DeleteCollectionClusterTrustBundle.QueryParams;
-  headers?: API.K8sV2Json.CertificatesV1alpha1.DeleteCollectionClusterTrustBundle.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.CertificatesV1alpha1.DeleteCollectionClusterTrustBundle.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -99,7 +99,7 @@ export function deleteCollectionClusterTrustBundle(options?: {
  */
 export function getListClusterTrustBundle(options?: {
   queryParams?: API.K8sV2Json.CertificatesV1alpha1.GetListClusterTrustBundle.QueryParams;
-  headers?: API.K8sV2Json.CertificatesV1alpha1.GetListClusterTrustBundle.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -116,7 +116,7 @@ export function getListClusterTrustBundle(options?: {
  */
 export function postCreateClusterTrustBundle(options: {
   queryParams?: API.K8sV2Json.CertificatesV1alpha1.PostCreateClusterTrustBundle.QueryParams;
-  headers?: API.K8sV2Json.CertificatesV1alpha1.PostCreateClusterTrustBundle.Headers;
+  headers?: Record<string, any>;
   body: API.K8sV2Json.CertificatesV1alpha1.PostCreateClusterTrustBundle.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -133,7 +133,7 @@ export function postCreateClusterTrustBundle(options: {
  * @path `/apis/certificates.k8s.io/v1alpha1/`
  */
 export function getApiResources(options?: {
-  headers?: API.K8sV2Json.CertificatesV1alpha1.GetApiResources.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -151,7 +151,7 @@ export function getApiResources(options?: {
 export function getWatchClusterTrustBundle(options: {
   pathParams: API.K8sV2Json.CertificatesV1alpha1.GetWatchClusterTrustBundle.PathParams;
   queryParams?: API.K8sV2Json.CertificatesV1alpha1.GetWatchClusterTrustBundle.QueryParams;
-  headers?: API.K8sV2Json.CertificatesV1alpha1.GetWatchClusterTrustBundle.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -168,7 +168,7 @@ export function getWatchClusterTrustBundle(options: {
  */
 export function getWatchClusterTrustBundleList(options?: {
   queryParams?: API.K8sV2Json.CertificatesV1alpha1.GetWatchClusterTrustBundleList.QueryParams;
-  headers?: API.K8sV2Json.CertificatesV1alpha1.GetWatchClusterTrustBundleList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

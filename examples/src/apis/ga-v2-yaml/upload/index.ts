@@ -7,7 +7,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getAnalyticsManagementUploads(options: {
   pathParams: API.GaV2Yaml.Upload.GetAnalyticsManagementUploads.PathParams;
-  headers?: API.GaV2Yaml.Upload.GetAnalyticsManagementUploads.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -26,7 +26,7 @@ export function getAnalyticsManagementUploads(options: {
 export function getAnalyticsManagementUploadsList(options: {
   pathParams: API.GaV2Yaml.Upload.GetAnalyticsManagementUploadsList.PathParams;
   queryParams?: API.GaV2Yaml.Upload.GetAnalyticsManagementUploadsList.QueryParams;
-  headers?: API.GaV2Yaml.Upload.GetAnalyticsManagementUploadsList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

@@ -7,7 +7,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getAnalyticsMetadataColumnsList(options: {
   pathParams: API.GaV2Yaml.Column.GetAnalyticsMetadataColumnsList.PathParams;
-  headers?: API.GaV2Yaml.Column.GetAnalyticsMetadataColumnsList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

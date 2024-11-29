@@ -7,7 +7,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getFindPetsByStatus(options: {
   queryParams: API.SwaggerPetstoreV2Yaml.Pet.GetFindPetsByStatus.QueryParams;
-  headers?: API.SwaggerPetstoreV2Yaml.Pet.GetFindPetsByStatus.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -26,7 +26,7 @@ export function getFindPetsByStatus(options: {
  */
 export function getFindPetsByTags(options: {
   queryParams: API.SwaggerPetstoreV2Yaml.Pet.GetFindPetsByTags.QueryParams;
-  headers?: API.SwaggerPetstoreV2Yaml.Pet.GetFindPetsByTags.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -43,7 +43,7 @@ export function getFindPetsByTags(options: {
  */
 export function postUploadFile(options: {
   pathParams: API.SwaggerPetstoreV2Yaml.Pet.PostUploadFile.PathParams;
-  headers?: API.SwaggerPetstoreV2Yaml.Pet.PostUploadFile.Headers;
+  headers?: Record<string, any>;
   formData?: API.SwaggerPetstoreV2Yaml.Pet.PostUploadFile.FormData;
   config?: RequestConfig;
   context?: RequestContext;
@@ -75,7 +75,7 @@ export function deletePet(options: {
  */
 export function getById(options: {
   pathParams: API.SwaggerPetstoreV2Yaml.Pet.GetById.PathParams;
-  headers?: API.SwaggerPetstoreV2Yaml.Pet.GetById.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -92,7 +92,7 @@ export function getById(options: {
  */
 export function postUpdateWithForm(options: {
   pathParams: API.SwaggerPetstoreV2Yaml.Pet.PostUpdateWithForm.PathParams;
-  headers?: API.SwaggerPetstoreV2Yaml.Pet.PostUpdateWithForm.Headers;
+  headers?: Record<string, any>;
   formData?: API.SwaggerPetstoreV2Yaml.Pet.PostUpdateWithForm.FormData;
   config?: RequestConfig;
   context?: RequestContext;
@@ -105,7 +105,7 @@ export function postUpdateWithForm(options: {
  * @path `/pet`
  */
 export function postAdd(options: {
-  headers?: API.SwaggerPetstoreV2Yaml.Pet.PostAdd.Headers;
+  headers?: Record<string, any>;
   body: API.SwaggerPetstoreV2Yaml.Pet.PostAdd.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -118,7 +118,7 @@ export function postAdd(options: {
  * @path `/pet`
  */
 export function putUpdate(options: {
-  headers?: API.SwaggerPetstoreV2Yaml.Pet.PutUpdate.Headers;
+  headers?: Record<string, any>;
   body: API.SwaggerPetstoreV2Yaml.Pet.PutUpdate.Body;
   config?: RequestConfig;
   context?: RequestContext;

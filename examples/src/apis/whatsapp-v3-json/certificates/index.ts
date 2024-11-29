@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/certificates/external/ca`
  */
 export function getDownloadCaCertificate(options?: {
-  headers?: API.WhatsappV3Json.Certificates.GetDownloadCaCertificate.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -21,7 +21,7 @@ export function getDownloadCaCertificate(options?: {
  * @path `/certificates/external`
  */
 export function postUploadCertificate(options: {
-  headers?: API.WhatsappV3Json.Certificates.PostUploadCertificate.Headers;
+  headers?: Record<string, any>;
   body: API.WhatsappV3Json.Certificates.PostUploadCertificate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -34,7 +34,7 @@ export function postUploadCertificate(options: {
  * @path `/certificates/webhooks/ca`
  */
 export function deleteWebhookCaCertificate(options?: {
-  headers?: API.WhatsappV3Json.Certificates.DeleteWebhookCaCertificate.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -46,7 +46,7 @@ export function deleteWebhookCaCertificate(options?: {
  * @path `/certificates/webhooks/ca`
  */
 export function getDownloadWebhookCaCertificate(options?: {
-  headers?: API.WhatsappV3Json.Certificates.GetDownloadWebhookCaCertificate.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -62,7 +62,7 @@ export function getDownloadWebhookCaCertificate(options?: {
  * @path `/certificates/webhooks/ca`
  */
 export function postUploadWebhookCaCertificate(options: {
-  headers?: API.WhatsappV3Json.Certificates.PostUploadWebhookCaCertificate.Headers;
+  headers?: Record<string, any>;
   body: API.WhatsappV3Json.Certificates.PostUploadWebhookCaCertificate.Body;
   config?: RequestConfig;
   context?: RequestContext;

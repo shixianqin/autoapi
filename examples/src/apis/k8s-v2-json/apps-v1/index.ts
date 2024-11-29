@@ -6,7 +6,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getListControllerRevisionForAllNamespaces(options?: {
   queryParams?: API.K8sV2Json.AppsV1.GetListControllerRevisionForAllNamespaces.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetListControllerRevisionForAllNamespaces.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -23,7 +23,7 @@ export function getListControllerRevisionForAllNamespaces(options?: {
  */
 export function getListDaemonSetForAllNamespaces(options?: {
   queryParams?: API.K8sV2Json.AppsV1.GetListDaemonSetForAllNamespaces.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetListDaemonSetForAllNamespaces.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -40,7 +40,7 @@ export function getListDaemonSetForAllNamespaces(options?: {
  */
 export function getListDeploymentForAllNamespaces(options?: {
   queryParams?: API.K8sV2Json.AppsV1.GetListDeploymentForAllNamespaces.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetListDeploymentForAllNamespaces.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -56,7 +56,7 @@ export function getListDeploymentForAllNamespaces(options?: {
  * @path `/apis/apps/v1/`
  */
 export function getApiResources(options?: {
-  headers?: API.K8sV2Json.AppsV1.GetApiResources.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -74,7 +74,7 @@ export function getApiResources(options?: {
 export function deleteNamespacedControllerRevision(options: {
   pathParams: API.K8sV2Json.AppsV1.DeleteNamespacedControllerRevision.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.DeleteNamespacedControllerRevision.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.DeleteNamespacedControllerRevision.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.DeleteNamespacedControllerRevision.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -93,7 +93,7 @@ export function deleteNamespacedControllerRevision(options: {
 export function getReadNamespacedControllerRevision(options: {
   pathParams: API.K8sV2Json.AppsV1.GetReadNamespacedControllerRevision.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.GetReadNamespacedControllerRevision.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetReadNamespacedControllerRevision.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -111,7 +111,7 @@ export function getReadNamespacedControllerRevision(options: {
 export function patchNamespacedControllerRevision(options: {
   pathParams: API.K8sV2Json.AppsV1.PatchNamespacedControllerRevision.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.PatchNamespacedControllerRevision.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.PatchNamespacedControllerRevision.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.PatchNamespacedControllerRevision.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -130,7 +130,7 @@ export function patchNamespacedControllerRevision(options: {
 export function putReplaceNamespacedControllerRevision(options: {
   pathParams: API.K8sV2Json.AppsV1.PutReplaceNamespacedControllerRevision.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.PutReplaceNamespacedControllerRevision.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.PutReplaceNamespacedControllerRevision.Headers;
+  headers?: Record<string, any>;
   body: API.K8sV2Json.AppsV1.PutReplaceNamespacedControllerRevision.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -149,7 +149,7 @@ export function putReplaceNamespacedControllerRevision(options: {
 export function deleteCollectionNamespacedControllerRevision(options: {
   pathParams: API.K8sV2Json.AppsV1.DeleteCollectionNamespacedControllerRevision.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.DeleteCollectionNamespacedControllerRevision.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.DeleteCollectionNamespacedControllerRevision.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.DeleteCollectionNamespacedControllerRevision.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -168,7 +168,7 @@ export function deleteCollectionNamespacedControllerRevision(options: {
 export function getListNamespacedControllerRevision(options: {
   pathParams: API.K8sV2Json.AppsV1.GetListNamespacedControllerRevision.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.GetListNamespacedControllerRevision.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetListNamespacedControllerRevision.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -186,7 +186,7 @@ export function getListNamespacedControllerRevision(options: {
 export function postCreateNamespacedControllerRevision(options: {
   pathParams: API.K8sV2Json.AppsV1.PostCreateNamespacedControllerRevision.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.PostCreateNamespacedControllerRevision.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.PostCreateNamespacedControllerRevision.Headers;
+  headers?: Record<string, any>;
   body: API.K8sV2Json.AppsV1.PostCreateNamespacedControllerRevision.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -205,7 +205,7 @@ export function postCreateNamespacedControllerRevision(options: {
 export function getReadNamespacedDaemonSetStatus(options: {
   pathParams: API.K8sV2Json.AppsV1.GetReadNamespacedDaemonSetStatus.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.GetReadNamespacedDaemonSetStatus.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetReadNamespacedDaemonSetStatus.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -223,7 +223,7 @@ export function getReadNamespacedDaemonSetStatus(options: {
 export function patchNamespacedDaemonSetStatus(options: {
   pathParams: API.K8sV2Json.AppsV1.PatchNamespacedDaemonSetStatus.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.PatchNamespacedDaemonSetStatus.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.PatchNamespacedDaemonSetStatus.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.PatchNamespacedDaemonSetStatus.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -242,7 +242,7 @@ export function patchNamespacedDaemonSetStatus(options: {
 export function putReplaceNamespacedDaemonSetStatus(options: {
   pathParams: API.K8sV2Json.AppsV1.PutReplaceNamespacedDaemonSetStatus.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.PutReplaceNamespacedDaemonSetStatus.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.PutReplaceNamespacedDaemonSetStatus.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.PutReplaceNamespacedDaemonSetStatus.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -261,7 +261,7 @@ export function putReplaceNamespacedDaemonSetStatus(options: {
 export function deleteNamespacedDaemonSet(options: {
   pathParams: API.K8sV2Json.AppsV1.DeleteNamespacedDaemonSet.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.DeleteNamespacedDaemonSet.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.DeleteNamespacedDaemonSet.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.DeleteNamespacedDaemonSet.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -280,7 +280,7 @@ export function deleteNamespacedDaemonSet(options: {
 export function getReadNamespacedDaemonSet(options: {
   pathParams: API.K8sV2Json.AppsV1.GetReadNamespacedDaemonSet.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.GetReadNamespacedDaemonSet.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetReadNamespacedDaemonSet.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -298,7 +298,7 @@ export function getReadNamespacedDaemonSet(options: {
 export function patchNamespacedDaemonSet(options: {
   pathParams: API.K8sV2Json.AppsV1.PatchNamespacedDaemonSet.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.PatchNamespacedDaemonSet.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.PatchNamespacedDaemonSet.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.PatchNamespacedDaemonSet.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -317,7 +317,7 @@ export function patchNamespacedDaemonSet(options: {
 export function putReplaceNamespacedDaemonSet(options: {
   pathParams: API.K8sV2Json.AppsV1.PutReplaceNamespacedDaemonSet.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.PutReplaceNamespacedDaemonSet.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.PutReplaceNamespacedDaemonSet.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.PutReplaceNamespacedDaemonSet.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -336,7 +336,7 @@ export function putReplaceNamespacedDaemonSet(options: {
 export function deleteCollectionNamespacedDaemonSet(options: {
   pathParams: API.K8sV2Json.AppsV1.DeleteCollectionNamespacedDaemonSet.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.DeleteCollectionNamespacedDaemonSet.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.DeleteCollectionNamespacedDaemonSet.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.DeleteCollectionNamespacedDaemonSet.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -355,7 +355,7 @@ export function deleteCollectionNamespacedDaemonSet(options: {
 export function getListNamespacedDaemonSet(options: {
   pathParams: API.K8sV2Json.AppsV1.GetListNamespacedDaemonSet.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.GetListNamespacedDaemonSet.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetListNamespacedDaemonSet.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -373,7 +373,7 @@ export function getListNamespacedDaemonSet(options: {
 export function postCreateNamespacedDaemonSet(options: {
   pathParams: API.K8sV2Json.AppsV1.PostCreateNamespacedDaemonSet.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.PostCreateNamespacedDaemonSet.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.PostCreateNamespacedDaemonSet.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.PostCreateNamespacedDaemonSet.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -392,7 +392,7 @@ export function postCreateNamespacedDaemonSet(options: {
 export function getReadNamespacedDeploymentScale(options: {
   pathParams: API.K8sV2Json.AppsV1.GetReadNamespacedDeploymentScale.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.GetReadNamespacedDeploymentScale.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetReadNamespacedDeploymentScale.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -410,7 +410,7 @@ export function getReadNamespacedDeploymentScale(options: {
 export function patchNamespacedDeploymentScale(options: {
   pathParams: API.K8sV2Json.AppsV1.PatchNamespacedDeploymentScale.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.PatchNamespacedDeploymentScale.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.PatchNamespacedDeploymentScale.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.PatchNamespacedDeploymentScale.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -429,7 +429,7 @@ export function patchNamespacedDeploymentScale(options: {
 export function putReplaceNamespacedDeploymentScale(options: {
   pathParams: API.K8sV2Json.AppsV1.PutReplaceNamespacedDeploymentScale.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.PutReplaceNamespacedDeploymentScale.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.PutReplaceNamespacedDeploymentScale.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.PutReplaceNamespacedDeploymentScale.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -448,7 +448,7 @@ export function putReplaceNamespacedDeploymentScale(options: {
 export function getReadNamespacedDeploymentStatus(options: {
   pathParams: API.K8sV2Json.AppsV1.GetReadNamespacedDeploymentStatus.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.GetReadNamespacedDeploymentStatus.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetReadNamespacedDeploymentStatus.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -466,7 +466,7 @@ export function getReadNamespacedDeploymentStatus(options: {
 export function patchNamespacedDeploymentStatus(options: {
   pathParams: API.K8sV2Json.AppsV1.PatchNamespacedDeploymentStatus.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.PatchNamespacedDeploymentStatus.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.PatchNamespacedDeploymentStatus.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.PatchNamespacedDeploymentStatus.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -485,7 +485,7 @@ export function patchNamespacedDeploymentStatus(options: {
 export function putReplaceNamespacedDeploymentStatus(options: {
   pathParams: API.K8sV2Json.AppsV1.PutReplaceNamespacedDeploymentStatus.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.PutReplaceNamespacedDeploymentStatus.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.PutReplaceNamespacedDeploymentStatus.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.PutReplaceNamespacedDeploymentStatus.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -504,7 +504,7 @@ export function putReplaceNamespacedDeploymentStatus(options: {
 export function deleteNamespacedDeployment(options: {
   pathParams: API.K8sV2Json.AppsV1.DeleteNamespacedDeployment.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.DeleteNamespacedDeployment.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.DeleteNamespacedDeployment.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.DeleteNamespacedDeployment.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -523,7 +523,7 @@ export function deleteNamespacedDeployment(options: {
 export function getReadNamespacedDeployment(options: {
   pathParams: API.K8sV2Json.AppsV1.GetReadNamespacedDeployment.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.GetReadNamespacedDeployment.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetReadNamespacedDeployment.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -541,7 +541,7 @@ export function getReadNamespacedDeployment(options: {
 export function patchNamespacedDeployment(options: {
   pathParams: API.K8sV2Json.AppsV1.PatchNamespacedDeployment.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.PatchNamespacedDeployment.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.PatchNamespacedDeployment.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.PatchNamespacedDeployment.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -560,7 +560,7 @@ export function patchNamespacedDeployment(options: {
 export function putReplaceNamespacedDeployment(options: {
   pathParams: API.K8sV2Json.AppsV1.PutReplaceNamespacedDeployment.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.PutReplaceNamespacedDeployment.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.PutReplaceNamespacedDeployment.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.PutReplaceNamespacedDeployment.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -579,7 +579,7 @@ export function putReplaceNamespacedDeployment(options: {
 export function deleteCollectionNamespacedDeployment(options: {
   pathParams: API.K8sV2Json.AppsV1.DeleteCollectionNamespacedDeployment.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.DeleteCollectionNamespacedDeployment.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.DeleteCollectionNamespacedDeployment.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.DeleteCollectionNamespacedDeployment.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -598,7 +598,7 @@ export function deleteCollectionNamespacedDeployment(options: {
 export function getListNamespacedDeployment(options: {
   pathParams: API.K8sV2Json.AppsV1.GetListNamespacedDeployment.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.GetListNamespacedDeployment.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetListNamespacedDeployment.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -616,7 +616,7 @@ export function getListNamespacedDeployment(options: {
 export function postCreateNamespacedDeployment(options: {
   pathParams: API.K8sV2Json.AppsV1.PostCreateNamespacedDeployment.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.PostCreateNamespacedDeployment.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.PostCreateNamespacedDeployment.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.PostCreateNamespacedDeployment.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -635,7 +635,7 @@ export function postCreateNamespacedDeployment(options: {
 export function getReadNamespacedReplicaSetScale(options: {
   pathParams: API.K8sV2Json.AppsV1.GetReadNamespacedReplicaSetScale.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.GetReadNamespacedReplicaSetScale.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetReadNamespacedReplicaSetScale.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -653,7 +653,7 @@ export function getReadNamespacedReplicaSetScale(options: {
 export function patchNamespacedReplicaSetScale(options: {
   pathParams: API.K8sV2Json.AppsV1.PatchNamespacedReplicaSetScale.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.PatchNamespacedReplicaSetScale.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.PatchNamespacedReplicaSetScale.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.PatchNamespacedReplicaSetScale.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -672,7 +672,7 @@ export function patchNamespacedReplicaSetScale(options: {
 export function putReplaceNamespacedReplicaSetScale(options: {
   pathParams: API.K8sV2Json.AppsV1.PutReplaceNamespacedReplicaSetScale.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.PutReplaceNamespacedReplicaSetScale.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.PutReplaceNamespacedReplicaSetScale.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.PutReplaceNamespacedReplicaSetScale.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -691,7 +691,7 @@ export function putReplaceNamespacedReplicaSetScale(options: {
 export function getReadNamespacedReplicaSetStatus(options: {
   pathParams: API.K8sV2Json.AppsV1.GetReadNamespacedReplicaSetStatus.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.GetReadNamespacedReplicaSetStatus.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetReadNamespacedReplicaSetStatus.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -709,7 +709,7 @@ export function getReadNamespacedReplicaSetStatus(options: {
 export function patchNamespacedReplicaSetStatus(options: {
   pathParams: API.K8sV2Json.AppsV1.PatchNamespacedReplicaSetStatus.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.PatchNamespacedReplicaSetStatus.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.PatchNamespacedReplicaSetStatus.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.PatchNamespacedReplicaSetStatus.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -728,7 +728,7 @@ export function patchNamespacedReplicaSetStatus(options: {
 export function putReplaceNamespacedReplicaSetStatus(options: {
   pathParams: API.K8sV2Json.AppsV1.PutReplaceNamespacedReplicaSetStatus.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.PutReplaceNamespacedReplicaSetStatus.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.PutReplaceNamespacedReplicaSetStatus.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.PutReplaceNamespacedReplicaSetStatus.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -747,7 +747,7 @@ export function putReplaceNamespacedReplicaSetStatus(options: {
 export function deleteNamespacedReplicaSet(options: {
   pathParams: API.K8sV2Json.AppsV1.DeleteNamespacedReplicaSet.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.DeleteNamespacedReplicaSet.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.DeleteNamespacedReplicaSet.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.DeleteNamespacedReplicaSet.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -766,7 +766,7 @@ export function deleteNamespacedReplicaSet(options: {
 export function getReadNamespacedReplicaSet(options: {
   pathParams: API.K8sV2Json.AppsV1.GetReadNamespacedReplicaSet.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.GetReadNamespacedReplicaSet.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetReadNamespacedReplicaSet.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -784,7 +784,7 @@ export function getReadNamespacedReplicaSet(options: {
 export function patchNamespacedReplicaSet(options: {
   pathParams: API.K8sV2Json.AppsV1.PatchNamespacedReplicaSet.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.PatchNamespacedReplicaSet.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.PatchNamespacedReplicaSet.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.PatchNamespacedReplicaSet.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -803,7 +803,7 @@ export function patchNamespacedReplicaSet(options: {
 export function putReplaceNamespacedReplicaSet(options: {
   pathParams: API.K8sV2Json.AppsV1.PutReplaceNamespacedReplicaSet.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.PutReplaceNamespacedReplicaSet.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.PutReplaceNamespacedReplicaSet.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.PutReplaceNamespacedReplicaSet.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -822,7 +822,7 @@ export function putReplaceNamespacedReplicaSet(options: {
 export function deleteCollectionNamespacedReplicaSet(options: {
   pathParams: API.K8sV2Json.AppsV1.DeleteCollectionNamespacedReplicaSet.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.DeleteCollectionNamespacedReplicaSet.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.DeleteCollectionNamespacedReplicaSet.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.DeleteCollectionNamespacedReplicaSet.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -841,7 +841,7 @@ export function deleteCollectionNamespacedReplicaSet(options: {
 export function getListNamespacedReplicaSet(options: {
   pathParams: API.K8sV2Json.AppsV1.GetListNamespacedReplicaSet.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.GetListNamespacedReplicaSet.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetListNamespacedReplicaSet.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -859,7 +859,7 @@ export function getListNamespacedReplicaSet(options: {
 export function postCreateNamespacedReplicaSet(options: {
   pathParams: API.K8sV2Json.AppsV1.PostCreateNamespacedReplicaSet.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.PostCreateNamespacedReplicaSet.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.PostCreateNamespacedReplicaSet.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.PostCreateNamespacedReplicaSet.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -878,7 +878,7 @@ export function postCreateNamespacedReplicaSet(options: {
 export function getReadNamespacedStatefulSetScale(options: {
   pathParams: API.K8sV2Json.AppsV1.GetReadNamespacedStatefulSetScale.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.GetReadNamespacedStatefulSetScale.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetReadNamespacedStatefulSetScale.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -896,7 +896,7 @@ export function getReadNamespacedStatefulSetScale(options: {
 export function patchNamespacedStatefulSetScale(options: {
   pathParams: API.K8sV2Json.AppsV1.PatchNamespacedStatefulSetScale.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.PatchNamespacedStatefulSetScale.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.PatchNamespacedStatefulSetScale.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.PatchNamespacedStatefulSetScale.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -915,7 +915,7 @@ export function patchNamespacedStatefulSetScale(options: {
 export function putReplaceNamespacedStatefulSetScale(options: {
   pathParams: API.K8sV2Json.AppsV1.PutReplaceNamespacedStatefulSetScale.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.PutReplaceNamespacedStatefulSetScale.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.PutReplaceNamespacedStatefulSetScale.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.PutReplaceNamespacedStatefulSetScale.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -934,7 +934,7 @@ export function putReplaceNamespacedStatefulSetScale(options: {
 export function getReadNamespacedStatefulSetStatus(options: {
   pathParams: API.K8sV2Json.AppsV1.GetReadNamespacedStatefulSetStatus.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.GetReadNamespacedStatefulSetStatus.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetReadNamespacedStatefulSetStatus.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -952,7 +952,7 @@ export function getReadNamespacedStatefulSetStatus(options: {
 export function patchNamespacedStatefulSetStatus(options: {
   pathParams: API.K8sV2Json.AppsV1.PatchNamespacedStatefulSetStatus.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.PatchNamespacedStatefulSetStatus.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.PatchNamespacedStatefulSetStatus.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.PatchNamespacedStatefulSetStatus.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -971,7 +971,7 @@ export function patchNamespacedStatefulSetStatus(options: {
 export function putReplaceNamespacedStatefulSetStatus(options: {
   pathParams: API.K8sV2Json.AppsV1.PutReplaceNamespacedStatefulSetStatus.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.PutReplaceNamespacedStatefulSetStatus.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.PutReplaceNamespacedStatefulSetStatus.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.PutReplaceNamespacedStatefulSetStatus.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -990,7 +990,7 @@ export function putReplaceNamespacedStatefulSetStatus(options: {
 export function deleteNamespacedStatefulSet(options: {
   pathParams: API.K8sV2Json.AppsV1.DeleteNamespacedStatefulSet.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.DeleteNamespacedStatefulSet.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.DeleteNamespacedStatefulSet.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.DeleteNamespacedStatefulSet.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -1009,7 +1009,7 @@ export function deleteNamespacedStatefulSet(options: {
 export function getReadNamespacedStatefulSet(options: {
   pathParams: API.K8sV2Json.AppsV1.GetReadNamespacedStatefulSet.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.GetReadNamespacedStatefulSet.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetReadNamespacedStatefulSet.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1027,7 +1027,7 @@ export function getReadNamespacedStatefulSet(options: {
 export function patchNamespacedStatefulSet(options: {
   pathParams: API.K8sV2Json.AppsV1.PatchNamespacedStatefulSet.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.PatchNamespacedStatefulSet.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.PatchNamespacedStatefulSet.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.PatchNamespacedStatefulSet.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -1046,7 +1046,7 @@ export function patchNamespacedStatefulSet(options: {
 export function putReplaceNamespacedStatefulSet(options: {
   pathParams: API.K8sV2Json.AppsV1.PutReplaceNamespacedStatefulSet.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.PutReplaceNamespacedStatefulSet.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.PutReplaceNamespacedStatefulSet.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.PutReplaceNamespacedStatefulSet.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -1065,7 +1065,7 @@ export function putReplaceNamespacedStatefulSet(options: {
 export function deleteCollectionNamespacedStatefulSet(options: {
   pathParams: API.K8sV2Json.AppsV1.DeleteCollectionNamespacedStatefulSet.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.DeleteCollectionNamespacedStatefulSet.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.DeleteCollectionNamespacedStatefulSet.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.DeleteCollectionNamespacedStatefulSet.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -1084,7 +1084,7 @@ export function deleteCollectionNamespacedStatefulSet(options: {
 export function getListNamespacedStatefulSet(options: {
   pathParams: API.K8sV2Json.AppsV1.GetListNamespacedStatefulSet.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.GetListNamespacedStatefulSet.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetListNamespacedStatefulSet.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1102,7 +1102,7 @@ export function getListNamespacedStatefulSet(options: {
 export function postCreateNamespacedStatefulSet(options: {
   pathParams: API.K8sV2Json.AppsV1.PostCreateNamespacedStatefulSet.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.PostCreateNamespacedStatefulSet.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.PostCreateNamespacedStatefulSet.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.AppsV1.PostCreateNamespacedStatefulSet.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -1120,7 +1120,7 @@ export function postCreateNamespacedStatefulSet(options: {
  */
 export function getListReplicaSetForAllNamespaces(options?: {
   queryParams?: API.K8sV2Json.AppsV1.GetListReplicaSetForAllNamespaces.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetListReplicaSetForAllNamespaces.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1137,7 +1137,7 @@ export function getListReplicaSetForAllNamespaces(options?: {
  */
 export function getListStatefulSetForAllNamespaces(options?: {
   queryParams?: API.K8sV2Json.AppsV1.GetListStatefulSetForAllNamespaces.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetListStatefulSetForAllNamespaces.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1154,7 +1154,7 @@ export function getListStatefulSetForAllNamespaces(options?: {
  */
 export function getWatchControllerRevisionListForAllNamespaces(options?: {
   queryParams?: API.K8sV2Json.AppsV1.GetWatchControllerRevisionListForAllNamespaces.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetWatchControllerRevisionListForAllNamespaces.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1171,7 +1171,7 @@ export function getWatchControllerRevisionListForAllNamespaces(options?: {
  */
 export function getWatchDaemonSetListForAllNamespaces(options?: {
   queryParams?: API.K8sV2Json.AppsV1.GetWatchDaemonSetListForAllNamespaces.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetWatchDaemonSetListForAllNamespaces.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1188,7 +1188,7 @@ export function getWatchDaemonSetListForAllNamespaces(options?: {
  */
 export function getWatchDeploymentListForAllNamespaces(options?: {
   queryParams?: API.K8sV2Json.AppsV1.GetWatchDeploymentListForAllNamespaces.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetWatchDeploymentListForAllNamespaces.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1206,7 +1206,7 @@ export function getWatchDeploymentListForAllNamespaces(options?: {
 export function getWatchNamespacedControllerRevision(options: {
   pathParams: API.K8sV2Json.AppsV1.GetWatchNamespacedControllerRevision.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.GetWatchNamespacedControllerRevision.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetWatchNamespacedControllerRevision.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1224,7 +1224,7 @@ export function getWatchNamespacedControllerRevision(options: {
 export function getWatchNamespacedControllerRevisionList(options: {
   pathParams: API.K8sV2Json.AppsV1.GetWatchNamespacedControllerRevisionList.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.GetWatchNamespacedControllerRevisionList.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetWatchNamespacedControllerRevisionList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1242,7 +1242,7 @@ export function getWatchNamespacedControllerRevisionList(options: {
 export function getWatchNamespacedDaemonSet(options: {
   pathParams: API.K8sV2Json.AppsV1.GetWatchNamespacedDaemonSet.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.GetWatchNamespacedDaemonSet.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetWatchNamespacedDaemonSet.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1260,7 +1260,7 @@ export function getWatchNamespacedDaemonSet(options: {
 export function getWatchNamespacedDaemonSetList(options: {
   pathParams: API.K8sV2Json.AppsV1.GetWatchNamespacedDaemonSetList.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.GetWatchNamespacedDaemonSetList.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetWatchNamespacedDaemonSetList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1278,7 +1278,7 @@ export function getWatchNamespacedDaemonSetList(options: {
 export function getWatchNamespacedDeployment(options: {
   pathParams: API.K8sV2Json.AppsV1.GetWatchNamespacedDeployment.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.GetWatchNamespacedDeployment.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetWatchNamespacedDeployment.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1296,7 +1296,7 @@ export function getWatchNamespacedDeployment(options: {
 export function getWatchNamespacedDeploymentList(options: {
   pathParams: API.K8sV2Json.AppsV1.GetWatchNamespacedDeploymentList.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.GetWatchNamespacedDeploymentList.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetWatchNamespacedDeploymentList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1314,7 +1314,7 @@ export function getWatchNamespacedDeploymentList(options: {
 export function getWatchNamespacedReplicaSet(options: {
   pathParams: API.K8sV2Json.AppsV1.GetWatchNamespacedReplicaSet.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.GetWatchNamespacedReplicaSet.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetWatchNamespacedReplicaSet.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1332,7 +1332,7 @@ export function getWatchNamespacedReplicaSet(options: {
 export function getWatchNamespacedReplicaSetList(options: {
   pathParams: API.K8sV2Json.AppsV1.GetWatchNamespacedReplicaSetList.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.GetWatchNamespacedReplicaSetList.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetWatchNamespacedReplicaSetList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1350,7 +1350,7 @@ export function getWatchNamespacedReplicaSetList(options: {
 export function getWatchNamespacedStatefulSet(options: {
   pathParams: API.K8sV2Json.AppsV1.GetWatchNamespacedStatefulSet.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.GetWatchNamespacedStatefulSet.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetWatchNamespacedStatefulSet.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1368,7 +1368,7 @@ export function getWatchNamespacedStatefulSet(options: {
 export function getWatchNamespacedStatefulSetList(options: {
   pathParams: API.K8sV2Json.AppsV1.GetWatchNamespacedStatefulSetList.PathParams;
   queryParams?: API.K8sV2Json.AppsV1.GetWatchNamespacedStatefulSetList.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetWatchNamespacedStatefulSetList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1385,7 +1385,7 @@ export function getWatchNamespacedStatefulSetList(options: {
  */
 export function getWatchReplicaSetListForAllNamespaces(options?: {
   queryParams?: API.K8sV2Json.AppsV1.GetWatchReplicaSetListForAllNamespaces.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetWatchReplicaSetListForAllNamespaces.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1402,7 +1402,7 @@ export function getWatchReplicaSetListForAllNamespaces(options?: {
  */
 export function getWatchStatefulSetListForAllNamespaces(options?: {
   queryParams?: API.K8sV2Json.AppsV1.GetWatchStatefulSetListForAllNamespaces.QueryParams;
-  headers?: API.K8sV2Json.AppsV1.GetWatchStatefulSetListForAllNamespaces.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

@@ -2,10 +2,6 @@ declare namespace API {
   namespace GithubV3Json {
     namespace Pulls {
       namespace DeleteReviewComment {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the comment.
@@ -23,10 +19,6 @@ declare namespace API {
       }
 
       namespace GetReviewComment {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the comment.
@@ -53,11 +45,6 @@ declare namespace API {
           body: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the comment.
@@ -77,10 +64,6 @@ declare namespace API {
       }
 
       namespace GetListReviewCommentsForRepo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -126,11 +109,6 @@ declare namespace API {
           body: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the comment.
@@ -154,10 +132,6 @@ declare namespace API {
       }
 
       namespace GetListReviewComments {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -244,11 +218,6 @@ declare namespace API {
           start_side?: "LEFT" | "RIGHT" | "side";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -268,10 +237,6 @@ declare namespace API {
       }
 
       namespace GetListCommits {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -304,10 +269,6 @@ declare namespace API {
       }
 
       namespace GetListFiles {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -340,10 +301,6 @@ declare namespace API {
       }
 
       namespace GetCheckIfMerged {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -380,11 +337,6 @@ declare namespace API {
           sha?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -415,11 +367,6 @@ declare namespace API {
           team_reviewers?: string[];
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -439,10 +386,6 @@ declare namespace API {
       }
 
       namespace GetListRequestedReviewers {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -480,11 +423,6 @@ declare namespace API {
             }
         );
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -504,10 +442,6 @@ declare namespace API {
       }
 
       namespace GetListCommentsForReview {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -552,11 +486,6 @@ declare namespace API {
           message: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -591,11 +520,6 @@ declare namespace API {
           event: "APPROVE" | "COMMENT" | "REQUEST_CHANGES";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -619,10 +543,6 @@ declare namespace API {
       }
 
       namespace DeletePendingReview {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -646,10 +566,6 @@ declare namespace API {
       }
 
       namespace GetReview {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -680,11 +596,6 @@ declare namespace API {
           body: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -708,10 +619,6 @@ declare namespace API {
       }
 
       namespace GetListReviews {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -780,11 +687,6 @@ declare namespace API {
           event?: "APPROVE" | "COMMENT" | "REQUEST_CHANGES";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -811,11 +713,6 @@ declare namespace API {
           expected_head_sha?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -838,10 +735,6 @@ declare namespace API {
       }
 
       namespace GetPulls {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -884,11 +777,6 @@ declare namespace API {
           title?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -908,10 +796,6 @@ declare namespace API {
       }
 
       namespace GetList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -996,11 +880,6 @@ declare namespace API {
            * The title of the new pull request. Required unless `issue` is specified.
            */
           title?: string;
-        }
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
         }
 
         interface PathParams {

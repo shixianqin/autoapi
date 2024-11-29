@@ -7,7 +7,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function deleteAnalyticsManagementProfiles(options: {
   pathParams: API.GaV2Yaml.View.DeleteAnalyticsManagementProfiles.PathParams;
-  headers?: API.GaV2Yaml.View.DeleteAnalyticsManagementProfiles.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -25,7 +25,7 @@ export function deleteAnalyticsManagementProfiles(options: {
  */
 export function getAnalyticsManagementProfiles(options: {
   pathParams: API.GaV2Yaml.View.GetAnalyticsManagementProfiles.PathParams;
-  headers?: API.GaV2Yaml.View.GetAnalyticsManagementProfiles.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -43,7 +43,7 @@ export function getAnalyticsManagementProfiles(options: {
  */
 export function patchAnalyticsManagementProfiles(options: {
   pathParams: API.GaV2Yaml.View.PatchAnalyticsManagementProfiles.PathParams;
-  headers?: API.GaV2Yaml.View.PatchAnalyticsManagementProfiles.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.View.PatchAnalyticsManagementProfiles.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -62,7 +62,7 @@ export function patchAnalyticsManagementProfiles(options: {
  */
 export function putAnalyticsManagementProfilesUpdate(options: {
   pathParams: API.GaV2Yaml.View.PutAnalyticsManagementProfilesUpdate.PathParams;
-  headers?: API.GaV2Yaml.View.PutAnalyticsManagementProfilesUpdate.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.View.PutAnalyticsManagementProfilesUpdate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -82,7 +82,7 @@ export function putAnalyticsManagementProfilesUpdate(options: {
 export function getAnalyticsManagementProfilesList(options: {
   pathParams: API.GaV2Yaml.View.GetAnalyticsManagementProfilesList.PathParams;
   queryParams?: API.GaV2Yaml.View.GetAnalyticsManagementProfilesList.QueryParams;
-  headers?: API.GaV2Yaml.View.GetAnalyticsManagementProfilesList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -100,7 +100,7 @@ export function getAnalyticsManagementProfilesList(options: {
  */
 export function postAnalyticsManagementProfilesInsert(options: {
   pathParams: API.GaV2Yaml.View.PostAnalyticsManagementProfilesInsert.PathParams;
-  headers?: API.GaV2Yaml.View.PostAnalyticsManagementProfilesInsert.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.View.PostAnalyticsManagementProfilesInsert.Body;
   config?: RequestConfig;
   context?: RequestContext;

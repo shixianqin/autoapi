@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/user/createWithArray`
  */
 export function postCreateUsersWithArrayInput(options?: {
-  headers?: API.SwaggerPetstoreV2Yaml.User.PostCreateUsersWithArrayInput.Headers;
+  headers?: Record<string, any>;
   body?: API.SwaggerPetstoreV2Yaml.User.PostCreateUsersWithArrayInput.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -18,7 +18,7 @@ export function postCreateUsersWithArrayInput(options?: {
  * @path `/user/createWithList`
  */
 export function postCreateUsersWithListInput(options?: {
-  headers?: API.SwaggerPetstoreV2Yaml.User.PostCreateUsersWithListInput.Headers;
+  headers?: Record<string, any>;
   body?: API.SwaggerPetstoreV2Yaml.User.PostCreateUsersWithListInput.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -32,7 +32,7 @@ export function postCreateUsersWithListInput(options?: {
  */
 export function getLogin(options: {
   queryParams: API.SwaggerPetstoreV2Yaml.User.GetLogin.QueryParams;
-  headers?: API.SwaggerPetstoreV2Yaml.User.GetLogin.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -48,7 +48,7 @@ export function getLogin(options: {
  * @path `/user/logout`
  */
 export function getLogout(options?: {
-  headers?: API.SwaggerPetstoreV2Yaml.User.GetLogout.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -62,7 +62,7 @@ export function getLogout(options?: {
  */
 export function deleteUser(options: {
   pathParams: API.SwaggerPetstoreV2Yaml.User.DeleteUser.PathParams;
-  headers?: API.SwaggerPetstoreV2Yaml.User.DeleteUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -79,7 +79,7 @@ export function deleteUser(options: {
  */
 export function getByName(options: {
   pathParams: API.SwaggerPetstoreV2Yaml.User.GetByName.PathParams;
-  headers?: API.SwaggerPetstoreV2Yaml.User.GetByName.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -97,7 +97,7 @@ export function getByName(options: {
  */
 export function putUpdate(options: {
   pathParams: API.SwaggerPetstoreV2Yaml.User.PutUpdate.PathParams;
-  headers?: API.SwaggerPetstoreV2Yaml.User.PutUpdate.Headers;
+  headers?: Record<string, any>;
   body?: API.SwaggerPetstoreV2Yaml.User.PutUpdate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -111,7 +111,7 @@ export function putUpdate(options: {
  * @path `/user`
  */
 export function postCreate(options?: {
-  headers?: API.SwaggerPetstoreV2Yaml.User.PostCreate.Headers;
+  headers?: Record<string, any>;
   body?: API.SwaggerPetstoreV2Yaml.User.PostCreate.Body;
   config?: RequestConfig;
   context?: RequestContext;

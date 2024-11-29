@@ -3,10 +3,6 @@ declare namespace API {
     namespace Ticket {
       namespace PostAnalyticsProvisioningCreateAccount {
         type Body = $schemas.Holder;
-
-        interface Headers {
-          [P: string]: any;
-        }
       }
     }
   }

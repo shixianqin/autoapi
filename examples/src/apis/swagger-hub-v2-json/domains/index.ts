@@ -8,7 +8,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function postRenameDomain(options: {
   pathParams: API.SwaggerHubV2Json.Domains.PostRenameDomain.PathParams;
   queryParams: API.SwaggerHubV2Json.Domains.PostRenameDomain.QueryParams;
-  headers?: API.SwaggerHubV2Json.Domains.PostRenameDomain.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -26,7 +26,7 @@ export function postRenameDomain(options: {
  */
 export function getDomainDefaultVersion(options: {
   pathParams: API.SwaggerHubV2Json.Domains.GetDomainDefaultVersion.PathParams;
-  headers?: API.SwaggerHubV2Json.Domains.GetDomainDefaultVersion.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -43,7 +43,7 @@ export function getDomainDefaultVersion(options: {
  */
 export function putSetDomainDefaultVersion(options: {
   pathParams: API.SwaggerHubV2Json.Domains.PutSetDomainDefaultVersion.PathParams;
-  headers?: API.SwaggerHubV2Json.Domains.PutSetDomainDefaultVersion.Headers;
+  headers?: Record<string, any>;
   body: API.SwaggerHubV2Json.Domains.PutSetDomainDefaultVersion.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -64,7 +64,7 @@ export function putSetDomainDefaultVersion(options: {
  */
 export function postCloneDomain(options: {
   pathParams: API.SwaggerHubV2Json.Domains.PostCloneDomain.PathParams;
-  headers?: API.SwaggerHubV2Json.Domains.PostCloneDomain.Headers;
+  headers?: Record<string, any>;
   body: API.SwaggerHubV2Json.Domains.PostCloneDomain.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -82,7 +82,7 @@ export function postCloneDomain(options: {
  */
 export function postUpdateDomainCommentsV2(options: {
   pathParams: API.SwaggerHubV2Json.Domains.PostUpdateDomainCommentsV2.PathParams;
-  headers?: API.SwaggerHubV2Json.Domains.PostUpdateDomainCommentsV2.Headers;
+  headers?: Record<string, any>;
   body?: API.SwaggerHubV2Json.Domains.PostUpdateDomainCommentsV2.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -100,7 +100,7 @@ export function postUpdateDomainCommentsV2(options: {
  */
 export function deleteDomainCommentReplyV2(options: {
   pathParams: API.SwaggerHubV2Json.Domains.DeleteDomainCommentReplyV2.PathParams;
-  headers?: API.SwaggerHubV2Json.Domains.DeleteDomainCommentReplyV2.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -117,7 +117,7 @@ export function deleteDomainCommentReplyV2(options: {
  */
 export function patchUpdateDomainCommentReplyV2(options: {
   pathParams: API.SwaggerHubV2Json.Domains.PatchUpdateDomainCommentReplyV2.PathParams;
-  headers?: API.SwaggerHubV2Json.Domains.PatchUpdateDomainCommentReplyV2.Headers;
+  headers?: Record<string, any>;
   body?: API.SwaggerHubV2Json.Domains.PatchUpdateDomainCommentReplyV2.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -135,7 +135,7 @@ export function patchUpdateDomainCommentReplyV2(options: {
  */
 export function postAddDomainCommentReplyV2(options: {
   pathParams: API.SwaggerHubV2Json.Domains.PostAddDomainCommentReplyV2.PathParams;
-  headers?: API.SwaggerHubV2Json.Domains.PostAddDomainCommentReplyV2.Headers;
+  headers?: Record<string, any>;
   body: API.SwaggerHubV2Json.Domains.PostAddDomainCommentReplyV2.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -153,7 +153,7 @@ export function postAddDomainCommentReplyV2(options: {
  */
 export function putSetDomainCommentStatusV2(options: {
   pathParams: API.SwaggerHubV2Json.Domains.PutSetDomainCommentStatusV2.PathParams;
-  headers?: API.SwaggerHubV2Json.Domains.PutSetDomainCommentStatusV2.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -170,7 +170,7 @@ export function putSetDomainCommentStatusV2(options: {
  */
 export function deleteDomainCommentV2(options: {
   pathParams: API.SwaggerHubV2Json.Domains.DeleteDomainCommentV2.PathParams;
-  headers?: API.SwaggerHubV2Json.Domains.DeleteDomainCommentV2.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -187,7 +187,7 @@ export function deleteDomainCommentV2(options: {
  */
 export function patchUpdateDomainCommentV2(options: {
   pathParams: API.SwaggerHubV2Json.Domains.PatchUpdateDomainCommentV2.PathParams;
-  headers?: API.SwaggerHubV2Json.Domains.PatchUpdateDomainCommentV2.Headers;
+  headers?: Record<string, any>;
   body?: API.SwaggerHubV2Json.Domains.PatchUpdateDomainCommentV2.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -205,7 +205,7 @@ export function patchUpdateDomainCommentV2(options: {
  */
 export function getDomainCommentsV2(options: {
   pathParams: API.SwaggerHubV2Json.Domains.GetDomainCommentsV2.PathParams;
-  headers?: API.SwaggerHubV2Json.Domains.GetDomainCommentsV2.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -222,7 +222,7 @@ export function getDomainCommentsV2(options: {
  */
 export function postAddDomainCommentV2(options: {
   pathParams: API.SwaggerHubV2Json.Domains.PostAddDomainCommentV2.PathParams;
-  headers?: API.SwaggerHubV2Json.Domains.PostAddDomainCommentV2.Headers;
+  headers?: Record<string, any>;
   body: API.SwaggerHubV2Json.Domains.PostAddDomainCommentV2.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -240,7 +240,7 @@ export function postAddDomainCommentV2(options: {
  */
 export function getDomainJsonDefinition(options: {
   pathParams: API.SwaggerHubV2Json.Domains.GetDomainJsonDefinition.PathParams;
-  headers?: API.SwaggerHubV2Json.Domains.GetDomainJsonDefinition.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -257,7 +257,7 @@ export function getDomainJsonDefinition(options: {
  */
 export function getDomainYamlDefinition(options: {
   pathParams: API.SwaggerHubV2Json.Domains.GetDomainYamlDefinition.PathParams;
-  headers?: API.SwaggerHubV2Json.Domains.GetDomainYamlDefinition.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -275,7 +275,7 @@ export function getDomainYamlDefinition(options: {
  */
 export function postForkDomain(options: {
   pathParams: API.SwaggerHubV2Json.Domains.PostForkDomain.PathParams;
-  headers?: API.SwaggerHubV2Json.Domains.PostForkDomain.Headers;
+  headers?: Record<string, any>;
   body: API.SwaggerHubV2Json.Domains.PostForkDomain.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -293,7 +293,7 @@ export function postForkDomain(options: {
  */
 export function getDomainLifecycleSettings(options: {
   pathParams: API.SwaggerHubV2Json.Domains.GetDomainLifecycleSettings.PathParams;
-  headers?: API.SwaggerHubV2Json.Domains.GetDomainLifecycleSettings.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -311,7 +311,7 @@ export function getDomainLifecycleSettings(options: {
 export function putSetDomainLifecycleSettings(options: {
   pathParams: API.SwaggerHubV2Json.Domains.PutSetDomainLifecycleSettings.PathParams;
   queryParams?: API.SwaggerHubV2Json.Domains.PutSetDomainLifecycleSettings.QueryParams;
-  headers?: API.SwaggerHubV2Json.Domains.PutSetDomainLifecycleSettings.Headers;
+  headers?: Record<string, any>;
   body?: API.SwaggerHubV2Json.Domains.PutSetDomainLifecycleSettings.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -329,7 +329,7 @@ export function putSetDomainLifecycleSettings(options: {
  */
 export function getDomainPrivateSettings(options: {
   pathParams: API.SwaggerHubV2Json.Domains.GetDomainPrivateSettings.PathParams;
-  headers?: API.SwaggerHubV2Json.Domains.GetDomainPrivateSettings.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -347,7 +347,7 @@ export function getDomainPrivateSettings(options: {
 export function putSetDomainPrivateSettings(options: {
   pathParams: API.SwaggerHubV2Json.Domains.PutSetDomainPrivateSettings.PathParams;
   queryParams?: API.SwaggerHubV2Json.Domains.PutSetDomainPrivateSettings.QueryParams;
-  headers?: API.SwaggerHubV2Json.Domains.PutSetDomainPrivateSettings.Headers;
+  headers?: Record<string, any>;
   body: API.SwaggerHubV2Json.Domains.PutSetDomainPrivateSettings.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -366,7 +366,7 @@ export function putSetDomainPrivateSettings(options: {
 export function deleteDomainVersion(options: {
   pathParams: API.SwaggerHubV2Json.Domains.DeleteDomainVersion.PathParams;
   queryParams?: API.SwaggerHubV2Json.Domains.DeleteDomainVersion.QueryParams;
-  headers?: API.SwaggerHubV2Json.Domains.DeleteDomainVersion.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -383,7 +383,7 @@ export function deleteDomainVersion(options: {
  */
 export function getDomainDefinition(options: {
   pathParams: API.SwaggerHubV2Json.Domains.GetDomainDefinition.PathParams;
-  headers?: API.SwaggerHubV2Json.Domains.GetDomainDefinition.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -401,7 +401,7 @@ export function getDomainDefinition(options: {
 export function deleteDomain(options: {
   pathParams: API.SwaggerHubV2Json.Domains.DeleteDomain.PathParams;
   queryParams?: API.SwaggerHubV2Json.Domains.DeleteDomain.QueryParams;
-  headers?: API.SwaggerHubV2Json.Domains.DeleteDomain.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -418,7 +418,7 @@ export function deleteDomain(options: {
  */
 export function getDomainVersions(options: {
   pathParams: API.SwaggerHubV2Json.Domains.GetDomainVersions.PathParams;
-  headers?: API.SwaggerHubV2Json.Domains.GetDomainVersions.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -436,7 +436,7 @@ export function getDomainVersions(options: {
 export function postSaveDomainDefinition(options: {
   pathParams: API.SwaggerHubV2Json.Domains.PostSaveDomainDefinition.PathParams;
   queryParams?: API.SwaggerHubV2Json.Domains.PostSaveDomainDefinition.QueryParams;
-  headers?: API.SwaggerHubV2Json.Domains.PostSaveDomainDefinition.Headers;
+  headers?: Record<string, any>;
   body: API.SwaggerHubV2Json.Domains.PostSaveDomainDefinition.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -455,7 +455,7 @@ export function postSaveDomainDefinition(options: {
 export function getOwner(options: {
   pathParams: API.SwaggerHubV2Json.Domains.GetOwner.PathParams;
   queryParams?: API.SwaggerHubV2Json.Domains.GetOwner.QueryParams;
-  headers?: API.SwaggerHubV2Json.Domains.GetOwner.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -473,7 +473,7 @@ export function getOwner(options: {
  */
 export function getSearch(options?: {
   queryParams?: API.SwaggerHubV2Json.Domains.GetSearch.QueryParams;
-  headers?: API.SwaggerHubV2Json.Domains.GetSearch.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

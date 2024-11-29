@@ -9,7 +9,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function getListForOrg(options: {
   pathParams: API.GithubV3Json.Projects.GetListForOrg.PathParams;
   queryParams?: API.GithubV3Json.Projects.GetListForOrg.QueryParams;
-  headers?: API.GithubV3Json.Projects.GetListForOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -28,7 +28,7 @@ export function getListForOrg(options: {
  */
 export function postCreateForOrg(options: {
   pathParams: API.GithubV3Json.Projects.PostCreateForOrg.PathParams;
-  headers?: API.GithubV3Json.Projects.PostCreateForOrg.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Projects.PostCreateForOrg.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -47,7 +47,7 @@ export function postCreateForOrg(options: {
  */
 export function postMoveCard(options: {
   pathParams: API.GithubV3Json.Projects.PostMoveCard.PathParams;
-  headers?: API.GithubV3Json.Projects.PostMoveCard.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Projects.PostMoveCard.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -66,7 +66,7 @@ export function postMoveCard(options: {
  */
 export function deleteCard(options: {
   pathParams: API.GithubV3Json.Projects.DeleteCard.PathParams;
-  headers?: API.GithubV3Json.Projects.DeleteCard.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -84,7 +84,7 @@ export function deleteCard(options: {
  */
 export function getCard(options: {
   pathParams: API.GithubV3Json.Projects.GetCard.PathParams;
-  headers?: API.GithubV3Json.Projects.GetCard.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -102,7 +102,7 @@ export function getCard(options: {
  */
 export function patchUpdateCard(options: {
   pathParams: API.GithubV3Json.Projects.PatchUpdateCard.PathParams;
-  headers?: API.GithubV3Json.Projects.PatchUpdateCard.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Projects.PatchUpdateCard.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -122,7 +122,7 @@ export function patchUpdateCard(options: {
 export function getListCards(options: {
   pathParams: API.GithubV3Json.Projects.GetListCards.PathParams;
   queryParams?: API.GithubV3Json.Projects.GetListCards.QueryParams;
-  headers?: API.GithubV3Json.Projects.GetListCards.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -140,7 +140,7 @@ export function getListCards(options: {
  */
 export function postCreateCard(options: {
   pathParams: API.GithubV3Json.Projects.PostCreateCard.PathParams;
-  headers?: API.GithubV3Json.Projects.PostCreateCard.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Projects.PostCreateCard.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -159,7 +159,7 @@ export function postCreateCard(options: {
  */
 export function postMoveColumn(options: {
   pathParams: API.GithubV3Json.Projects.PostMoveColumn.PathParams;
-  headers?: API.GithubV3Json.Projects.PostMoveColumn.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Projects.PostMoveColumn.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -178,7 +178,7 @@ export function postMoveColumn(options: {
  */
 export function deleteColumn(options: {
   pathParams: API.GithubV3Json.Projects.DeleteColumn.PathParams;
-  headers?: API.GithubV3Json.Projects.DeleteColumn.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -196,7 +196,7 @@ export function deleteColumn(options: {
  */
 export function getColumn(options: {
   pathParams: API.GithubV3Json.Projects.GetColumn.PathParams;
-  headers?: API.GithubV3Json.Projects.GetColumn.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -214,7 +214,7 @@ export function getColumn(options: {
  */
 export function patchUpdateColumn(options: {
   pathParams: API.GithubV3Json.Projects.PatchUpdateColumn.PathParams;
-  headers?: API.GithubV3Json.Projects.PatchUpdateColumn.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Projects.PatchUpdateColumn.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -234,7 +234,7 @@ export function patchUpdateColumn(options: {
  */
 export function getPermissionForUser(options: {
   pathParams: API.GithubV3Json.Projects.GetPermissionForUser.PathParams;
-  headers?: API.GithubV3Json.Projects.GetPermissionForUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -253,7 +253,7 @@ export function getPermissionForUser(options: {
  */
 export function deleteRemoveCollaborator(options: {
   pathParams: API.GithubV3Json.Projects.DeleteRemoveCollaborator.PathParams;
-  headers?: API.GithubV3Json.Projects.DeleteRemoveCollaborator.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -272,7 +272,7 @@ export function deleteRemoveCollaborator(options: {
  */
 export function putAddCollaborator(options: {
   pathParams: API.GithubV3Json.Projects.PutAddCollaborator.PathParams;
-  headers?: API.GithubV3Json.Projects.PutAddCollaborator.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Projects.PutAddCollaborator.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -293,7 +293,7 @@ export function putAddCollaborator(options: {
 export function getListCollaborators(options: {
   pathParams: API.GithubV3Json.Projects.GetListCollaborators.PathParams;
   queryParams?: API.GithubV3Json.Projects.GetListCollaborators.QueryParams;
-  headers?: API.GithubV3Json.Projects.GetListCollaborators.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -312,7 +312,7 @@ export function getListCollaborators(options: {
 export function getListColumns(options: {
   pathParams: API.GithubV3Json.Projects.GetListColumns.PathParams;
   queryParams?: API.GithubV3Json.Projects.GetListColumns.QueryParams;
-  headers?: API.GithubV3Json.Projects.GetListColumns.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -330,7 +330,7 @@ export function getListColumns(options: {
  */
 export function postCreateColumn(options: {
   pathParams: API.GithubV3Json.Projects.PostCreateColumn.PathParams;
-  headers?: API.GithubV3Json.Projects.PostCreateColumn.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Projects.PostCreateColumn.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -350,7 +350,7 @@ export function postCreateColumn(options: {
  */
 export function deleteProjects(options: {
   pathParams: API.GithubV3Json.Projects.DeleteProjects.PathParams;
-  headers?: API.GithubV3Json.Projects.DeleteProjects.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -369,7 +369,7 @@ export function deleteProjects(options: {
  */
 export function getProjects(options: {
   pathParams: API.GithubV3Json.Projects.GetProjects.PathParams;
-  headers?: API.GithubV3Json.Projects.GetProjects.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -388,7 +388,7 @@ export function getProjects(options: {
  */
 export function patchUpdate(options: {
   pathParams: API.GithubV3Json.Projects.PatchUpdate.PathParams;
-  headers?: API.GithubV3Json.Projects.PatchUpdate.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Projects.PatchUpdate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -409,7 +409,7 @@ export function patchUpdate(options: {
 export function getListForRepo(options: {
   pathParams: API.GithubV3Json.Projects.GetListForRepo.PathParams;
   queryParams?: API.GithubV3Json.Projects.GetListForRepo.QueryParams;
-  headers?: API.GithubV3Json.Projects.GetListForRepo.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -428,7 +428,7 @@ export function getListForRepo(options: {
  */
 export function postCreateForRepo(options: {
   pathParams: API.GithubV3Json.Projects.PostCreateForRepo.PathParams;
-  headers?: API.GithubV3Json.Projects.PostCreateForRepo.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Projects.PostCreateForRepo.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -447,7 +447,7 @@ export function postCreateForRepo(options: {
  * @docs https://docs.github.com/rest/reference/projects#create-a-user-project
  */
 export function postCreateForAuthenticatedUser(options: {
-  headers?: API.GithubV3Json.Projects.PostCreateForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Projects.PostCreateForAuthenticatedUser.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -467,7 +467,7 @@ export function postCreateForAuthenticatedUser(options: {
 export function getListForUser(options: {
   pathParams: API.GithubV3Json.Projects.GetListForUser.PathParams;
   queryParams?: API.GithubV3Json.Projects.GetListForUser.QueryParams;
-  headers?: API.GithubV3Json.Projects.GetListForUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

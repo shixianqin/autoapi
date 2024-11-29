@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getWpV2Patterns(options?: {
   queryParams?: API.WordpressV2Json.PatternDirectory.GetWpV2Patterns.QueryParams;
-  headers?: API.WordpressV2Json.PatternDirectory.GetWpV2Patterns.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

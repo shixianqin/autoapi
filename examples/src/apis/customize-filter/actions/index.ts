@@ -10,7 +10,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getCacheUsageForOrg(options: {
   pathParams: API.CustomizeFilter.Actions.GetCacheUsageForOrg.PathParams;
-  headers?: API.CustomizeFilter.Actions.GetCacheUsageForOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

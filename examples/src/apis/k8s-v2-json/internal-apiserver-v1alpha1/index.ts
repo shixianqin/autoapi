@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/apis/internal.apiserver.k8s.io/v1alpha1/`
  */
 export function getApiResources(options?: {
-  headers?: API.K8sV2Json.InternalApiserverV1alpha1.GetApiResources.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -23,7 +23,7 @@ export function getApiResources(options?: {
 export function getReadStorageVersionStatus(options: {
   pathParams: API.K8sV2Json.InternalApiserverV1alpha1.GetReadStorageVersionStatus.PathParams;
   queryParams?: API.K8sV2Json.InternalApiserverV1alpha1.GetReadStorageVersionStatus.QueryParams;
-  headers?: API.K8sV2Json.InternalApiserverV1alpha1.GetReadStorageVersionStatus.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -41,7 +41,7 @@ export function getReadStorageVersionStatus(options: {
 export function patchStorageVersionStatus(options: {
   pathParams: API.K8sV2Json.InternalApiserverV1alpha1.PatchStorageVersionStatus.PathParams;
   queryParams?: API.K8sV2Json.InternalApiserverV1alpha1.PatchStorageVersionStatus.QueryParams;
-  headers?: API.K8sV2Json.InternalApiserverV1alpha1.PatchStorageVersionStatus.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.InternalApiserverV1alpha1.PatchStorageVersionStatus.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -60,7 +60,7 @@ export function patchStorageVersionStatus(options: {
 export function putReplaceStorageVersionStatus(options: {
   pathParams: API.K8sV2Json.InternalApiserverV1alpha1.PutReplaceStorageVersionStatus.PathParams;
   queryParams?: API.K8sV2Json.InternalApiserverV1alpha1.PutReplaceStorageVersionStatus.QueryParams;
-  headers?: API.K8sV2Json.InternalApiserverV1alpha1.PutReplaceStorageVersionStatus.Headers;
+  headers?: Record<string, any>;
   body: API.K8sV2Json.InternalApiserverV1alpha1.PutReplaceStorageVersionStatus.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -79,7 +79,7 @@ export function putReplaceStorageVersionStatus(options: {
 export function deleteStorageVersion(options: {
   pathParams: API.K8sV2Json.InternalApiserverV1alpha1.DeleteStorageVersion.PathParams;
   queryParams?: API.K8sV2Json.InternalApiserverV1alpha1.DeleteStorageVersion.QueryParams;
-  headers?: API.K8sV2Json.InternalApiserverV1alpha1.DeleteStorageVersion.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.InternalApiserverV1alpha1.DeleteStorageVersion.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -98,7 +98,7 @@ export function deleteStorageVersion(options: {
 export function getReadStorageVersion(options: {
   pathParams: API.K8sV2Json.InternalApiserverV1alpha1.GetReadStorageVersion.PathParams;
   queryParams?: API.K8sV2Json.InternalApiserverV1alpha1.GetReadStorageVersion.QueryParams;
-  headers?: API.K8sV2Json.InternalApiserverV1alpha1.GetReadStorageVersion.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -116,7 +116,7 @@ export function getReadStorageVersion(options: {
 export function patchStorageVersion(options: {
   pathParams: API.K8sV2Json.InternalApiserverV1alpha1.PatchStorageVersion.PathParams;
   queryParams?: API.K8sV2Json.InternalApiserverV1alpha1.PatchStorageVersion.QueryParams;
-  headers?: API.K8sV2Json.InternalApiserverV1alpha1.PatchStorageVersion.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.InternalApiserverV1alpha1.PatchStorageVersion.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -135,7 +135,7 @@ export function patchStorageVersion(options: {
 export function putReplaceStorageVersion(options: {
   pathParams: API.K8sV2Json.InternalApiserverV1alpha1.PutReplaceStorageVersion.PathParams;
   queryParams?: API.K8sV2Json.InternalApiserverV1alpha1.PutReplaceStorageVersion.QueryParams;
-  headers?: API.K8sV2Json.InternalApiserverV1alpha1.PutReplaceStorageVersion.Headers;
+  headers?: Record<string, any>;
   body: API.K8sV2Json.InternalApiserverV1alpha1.PutReplaceStorageVersion.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -153,7 +153,7 @@ export function putReplaceStorageVersion(options: {
  */
 export function deleteCollectionStorageVersion(options?: {
   queryParams?: API.K8sV2Json.InternalApiserverV1alpha1.DeleteCollectionStorageVersion.QueryParams;
-  headers?: API.K8sV2Json.InternalApiserverV1alpha1.DeleteCollectionStorageVersion.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.InternalApiserverV1alpha1.DeleteCollectionStorageVersion.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -171,7 +171,7 @@ export function deleteCollectionStorageVersion(options?: {
  */
 export function getListStorageVersion(options?: {
   queryParams?: API.K8sV2Json.InternalApiserverV1alpha1.GetListStorageVersion.QueryParams;
-  headers?: API.K8sV2Json.InternalApiserverV1alpha1.GetListStorageVersion.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -188,7 +188,7 @@ export function getListStorageVersion(options?: {
  */
 export function postCreateStorageVersion(options: {
   queryParams?: API.K8sV2Json.InternalApiserverV1alpha1.PostCreateStorageVersion.QueryParams;
-  headers?: API.K8sV2Json.InternalApiserverV1alpha1.PostCreateStorageVersion.Headers;
+  headers?: Record<string, any>;
   body: API.K8sV2Json.InternalApiserverV1alpha1.PostCreateStorageVersion.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -207,7 +207,7 @@ export function postCreateStorageVersion(options: {
 export function getWatchStorageVersion(options: {
   pathParams: API.K8sV2Json.InternalApiserverV1alpha1.GetWatchStorageVersion.PathParams;
   queryParams?: API.K8sV2Json.InternalApiserverV1alpha1.GetWatchStorageVersion.QueryParams;
-  headers?: API.K8sV2Json.InternalApiserverV1alpha1.GetWatchStorageVersion.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -224,7 +224,7 @@ export function getWatchStorageVersion(options: {
  */
 export function getWatchStorageVersionList(options?: {
   queryParams?: API.K8sV2Json.InternalApiserverV1alpha1.GetWatchStorageVersionList.QueryParams;
-  headers?: API.K8sV2Json.InternalApiserverV1alpha1.GetWatchStorageVersionList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

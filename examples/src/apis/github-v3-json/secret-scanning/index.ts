@@ -10,7 +10,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function getListAlertsForEnterprise(options: {
   pathParams: API.GithubV3Json.SecretScanning.GetListAlertsForEnterprise.PathParams;
   queryParams?: API.GithubV3Json.SecretScanning.GetListAlertsForEnterprise.QueryParams;
-  headers?: API.GithubV3Json.SecretScanning.GetListAlertsForEnterprise.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -34,7 +34,7 @@ export function getListAlertsForEnterprise(options: {
 export function getListAlertsForOrg(options: {
   pathParams: API.GithubV3Json.SecretScanning.GetListAlertsForOrg.PathParams;
   queryParams?: API.GithubV3Json.SecretScanning.GetListAlertsForOrg.QueryParams;
-  headers?: API.GithubV3Json.SecretScanning.GetListAlertsForOrg.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -58,7 +58,7 @@ export function getListAlertsForOrg(options: {
 export function getListLocationsForAlert(options: {
   pathParams: API.GithubV3Json.SecretScanning.GetListLocationsForAlert.PathParams;
   queryParams?: API.GithubV3Json.SecretScanning.GetListLocationsForAlert.QueryParams;
-  headers?: API.GithubV3Json.SecretScanning.GetListLocationsForAlert.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -81,7 +81,7 @@ export function getListLocationsForAlert(options: {
  */
 export function getAlert(options: {
   pathParams: API.GithubV3Json.SecretScanning.GetAlert.PathParams;
-  headers?: API.GithubV3Json.SecretScanning.GetAlert.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -104,7 +104,7 @@ export function getAlert(options: {
  */
 export function patchUpdateAlert(options: {
   pathParams: API.GithubV3Json.SecretScanning.PatchUpdateAlert.PathParams;
-  headers?: API.GithubV3Json.SecretScanning.PatchUpdateAlert.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.SecretScanning.PatchUpdateAlert.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -129,7 +129,7 @@ export function patchUpdateAlert(options: {
 export function getListAlertsForRepo(options: {
   pathParams: API.GithubV3Json.SecretScanning.GetListAlertsForRepo.PathParams;
   queryParams?: API.GithubV3Json.SecretScanning.GetListAlertsForRepo.QueryParams;
-  headers?: API.GithubV3Json.SecretScanning.GetListAlertsForRepo.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

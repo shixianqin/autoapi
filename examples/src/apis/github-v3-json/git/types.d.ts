@@ -2,10 +2,6 @@ declare namespace API {
   namespace GithubV3Json {
     namespace Git {
       namespace GetBlob {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           file_sha: string;
           /**
@@ -34,11 +30,6 @@ declare namespace API {
           encoding?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -54,10 +45,6 @@ declare namespace API {
       }
 
       namespace GetCommit {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The SHA of the commit.
@@ -132,11 +119,6 @@ declare namespace API {
           tree: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -152,10 +134,6 @@ declare namespace API {
       }
 
       namespace GetListMatchingRefs {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -175,10 +153,6 @@ declare namespace API {
       }
 
       namespace GetRef {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -198,10 +172,6 @@ declare namespace API {
       }
 
       namespace DeleteRef {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -228,11 +198,6 @@ declare namespace API {
            * The SHA1 value to set this reference to
            */
           sha: string;
-        }
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
         }
 
         interface PathParams {
@@ -266,11 +231,6 @@ declare namespace API {
           sha: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -286,10 +246,6 @@ declare namespace API {
       }
 
       namespace GetTag {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -343,11 +299,6 @@ declare namespace API {
           type: "blob" | "commit" | "tree";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -363,10 +314,6 @@ declare namespace API {
       }
 
       namespace GetTree {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -426,11 +373,6 @@ declare namespace API {
              */
             type?: "blob" | "commit" | "tree";
           }>;
-        }
-
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
         }
 
         interface PathParams {

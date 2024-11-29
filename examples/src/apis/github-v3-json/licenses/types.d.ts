@@ -2,10 +2,6 @@ declare namespace API {
   namespace GithubV3Json {
     namespace Licenses {
       namespace GetLicenses {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           license: string;
         }
@@ -14,10 +10,6 @@ declare namespace API {
       }
 
       namespace GetAllCommonlyUsed {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           featured?: boolean;
           /**
@@ -36,10 +28,6 @@ declare namespace API {
       }
 
       namespace GetForRepo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.

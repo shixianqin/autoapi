@@ -8,7 +8,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function postCreateFromManifest(options: {
   pathParams: API.GithubV3Json.Apps.PostCreateFromManifest.PathParams;
-  headers?: API.GithubV3Json.Apps.PostCreateFromManifest.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -28,7 +28,7 @@ export function postCreateFromManifest(options: {
  * @docs https://docs.github.com/rest/reference/apps#get-a-webhook-configuration-for-an-app
  */
 export function getWebhookConfigForApp(options?: {
-  headers?: API.GithubV3Json.Apps.GetWebhookConfigForApp.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -48,7 +48,7 @@ export function getWebhookConfigForApp(options?: {
  * @docs https://docs.github.com/rest/reference/apps#update-a-webhook-configuration-for-an-app
  */
 export function patchUpdateWebhookConfigForApp(options?: {
-  headers?: API.GithubV3Json.Apps.PatchUpdateWebhookConfigForApp.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Apps.PatchUpdateWebhookConfigForApp.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -70,7 +70,7 @@ export function patchUpdateWebhookConfigForApp(options?: {
  */
 export function postRedeliverWebhookDelivery(options: {
   pathParams: API.GithubV3Json.Apps.PostRedeliverWebhookDelivery.PathParams;
-  headers?: API.GithubV3Json.Apps.PostRedeliverWebhookDelivery.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -91,7 +91,7 @@ export function postRedeliverWebhookDelivery(options: {
  */
 export function getWebhookDelivery(options: {
   pathParams: API.GithubV3Json.Apps.GetWebhookDelivery.PathParams;
-  headers?: API.GithubV3Json.Apps.GetWebhookDelivery.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -112,7 +112,7 @@ export function getWebhookDelivery(options: {
  */
 export function getListWebhookDeliveries(options?: {
   queryParams?: API.GithubV3Json.Apps.GetListWebhookDeliveries.QueryParams;
-  headers?: API.GithubV3Json.Apps.GetListWebhookDeliveries.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -133,7 +133,7 @@ export function getListWebhookDeliveries(options?: {
  */
 export function postCreateInstallationAccessToken(options: {
   pathParams: API.GithubV3Json.Apps.PostCreateInstallationAccessToken.PathParams;
-  headers?: API.GithubV3Json.Apps.PostCreateInstallationAccessToken.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Apps.PostCreateInstallationAccessToken.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -155,7 +155,7 @@ export function postCreateInstallationAccessToken(options: {
  */
 export function deleteUnsuspendInstallation(options: {
   pathParams: API.GithubV3Json.Apps.DeleteUnsuspendInstallation.PathParams;
-  headers?: API.GithubV3Json.Apps.DeleteUnsuspendInstallation.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -176,7 +176,7 @@ export function deleteUnsuspendInstallation(options: {
  */
 export function putSuspendInstallation(options: {
   pathParams: API.GithubV3Json.Apps.PutSuspendInstallation.PathParams;
-  headers?: API.GithubV3Json.Apps.PutSuspendInstallation.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -197,7 +197,7 @@ export function putSuspendInstallation(options: {
  */
 export function deleteInstallation(options: {
   pathParams: API.GithubV3Json.Apps.DeleteInstallation.PathParams;
-  headers?: API.GithubV3Json.Apps.DeleteInstallation.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -218,7 +218,7 @@ export function deleteInstallation(options: {
  */
 export function getInstallation(options: {
   pathParams: API.GithubV3Json.Apps.GetInstallation.PathParams;
-  headers?: API.GithubV3Json.Apps.GetInstallation.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -239,7 +239,7 @@ export function getInstallation(options: {
  */
 export function getListInstallations(options?: {
   queryParams?: API.GithubV3Json.Apps.GetListInstallations.QueryParams;
-  headers?: API.GithubV3Json.Apps.GetListInstallations.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -259,7 +259,7 @@ export function getListInstallations(options?: {
  * @docs https://docs.github.com/rest/reference/apps#get-the-authenticated-app
  */
 export function getAuthenticated(options?: {
-  headers?: API.GithubV3Json.Apps.GetAuthenticated.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -279,7 +279,7 @@ export function getAuthenticated(options?: {
  */
 export function deleteAuthorization(options: {
   pathParams: API.GithubV3Json.Apps.DeleteAuthorization.PathParams;
-  headers?: API.GithubV3Json.Apps.DeleteAuthorization.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Apps.DeleteAuthorization.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -299,7 +299,7 @@ export function deleteAuthorization(options: {
  */
 export function postScopeToken(options: {
   pathParams: API.GithubV3Json.Apps.PostScopeToken.PathParams;
-  headers?: API.GithubV3Json.Apps.PostScopeToken.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Apps.PostScopeToken.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -319,7 +319,7 @@ export function postScopeToken(options: {
  */
 export function deleteToken(options: {
   pathParams: API.GithubV3Json.Apps.DeleteToken.PathParams;
-  headers?: API.GithubV3Json.Apps.DeleteToken.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Apps.DeleteToken.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -339,7 +339,7 @@ export function deleteToken(options: {
  */
 export function patchResetToken(options: {
   pathParams: API.GithubV3Json.Apps.PatchResetToken.PathParams;
-  headers?: API.GithubV3Json.Apps.PatchResetToken.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Apps.PatchResetToken.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -359,7 +359,7 @@ export function patchResetToken(options: {
  */
 export function postCheckToken(options: {
   pathParams: API.GithubV3Json.Apps.PostCheckToken.PathParams;
-  headers?: API.GithubV3Json.Apps.PostCheckToken.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Apps.PostCheckToken.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -381,7 +381,7 @@ export function postCheckToken(options: {
  */
 export function getBySlug(options: {
   pathParams: API.GithubV3Json.Apps.GetBySlug.PathParams;
-  headers?: API.GithubV3Json.Apps.GetBySlug.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -402,7 +402,7 @@ export function getBySlug(options: {
  */
 export function getListReposAccessibleToInstallation(options?: {
   queryParams?: API.GithubV3Json.Apps.GetListReposAccessibleToInstallation.QueryParams;
-  headers?: API.GithubV3Json.Apps.GetListReposAccessibleToInstallation.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -424,7 +424,7 @@ export function getListReposAccessibleToInstallation(options?: {
  * @docs https://docs.github.com/rest/reference/apps#revoke-an-installation-access-token
  */
 export function deleteRevokeInstallationAccessToken(options?: {
-  headers?: API.GithubV3Json.Apps.DeleteRevokeInstallationAccessToken.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -441,7 +441,7 @@ export function deleteRevokeInstallationAccessToken(options?: {
  */
 export function getSubscriptionPlanForAccount(options: {
   pathParams: API.GithubV3Json.Apps.GetSubscriptionPlanForAccount.PathParams;
-  headers?: API.GithubV3Json.Apps.GetSubscriptionPlanForAccount.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -463,7 +463,7 @@ export function getSubscriptionPlanForAccount(options: {
 export function getListAccountsForPlan(options: {
   pathParams: API.GithubV3Json.Apps.GetListAccountsForPlan.PathParams;
   queryParams?: API.GithubV3Json.Apps.GetListAccountsForPlan.QueryParams;
-  headers?: API.GithubV3Json.Apps.GetListAccountsForPlan.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -484,7 +484,7 @@ export function getListAccountsForPlan(options: {
  */
 export function getListPlans(options?: {
   queryParams?: API.GithubV3Json.Apps.GetListPlans.QueryParams;
-  headers?: API.GithubV3Json.Apps.GetListPlans.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -505,7 +505,7 @@ export function getListPlans(options?: {
  */
 export function getSubscriptionPlanForAccountStubbed(options: {
   pathParams: API.GithubV3Json.Apps.GetSubscriptionPlanForAccountStubbed.PathParams;
-  headers?: API.GithubV3Json.Apps.GetSubscriptionPlanForAccountStubbed.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -527,7 +527,7 @@ export function getSubscriptionPlanForAccountStubbed(options: {
 export function getListAccountsForPlanStubbed(options: {
   pathParams: API.GithubV3Json.Apps.GetListAccountsForPlanStubbed.PathParams;
   queryParams?: API.GithubV3Json.Apps.GetListAccountsForPlanStubbed.QueryParams;
-  headers?: API.GithubV3Json.Apps.GetListAccountsForPlanStubbed.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -548,7 +548,7 @@ export function getListAccountsForPlanStubbed(options: {
  */
 export function getListPlansStubbed(options?: {
   queryParams?: API.GithubV3Json.Apps.GetListPlansStubbed.QueryParams;
-  headers?: API.GithubV3Json.Apps.GetListPlansStubbed.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -569,7 +569,7 @@ export function getListPlansStubbed(options?: {
  */
 export function getOrgInstallation(options: {
   pathParams: API.GithubV3Json.Apps.GetOrgInstallation.PathParams;
-  headers?: API.GithubV3Json.Apps.GetOrgInstallation.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -590,7 +590,7 @@ export function getOrgInstallation(options: {
  */
 export function getRepoInstallation(options: {
   pathParams: API.GithubV3Json.Apps.GetRepoInstallation.PathParams;
-  headers?: API.GithubV3Json.Apps.GetRepoInstallation.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -611,7 +611,7 @@ export function getRepoInstallation(options: {
  */
 export function deleteRemoveRepoFromInstallationForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Apps.DeleteRemoveRepoFromInstallationForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Apps.DeleteRemoveRepoFromInstallationForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -632,7 +632,7 @@ export function deleteRemoveRepoFromInstallationForAuthenticatedUser(options: {
  */
 export function putAddRepoToInstallationForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Apps.PutAddRepoToInstallationForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Apps.PutAddRepoToInstallationForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -658,7 +658,7 @@ export function putAddRepoToInstallationForAuthenticatedUser(options: {
 export function getListInstallationReposForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Apps.GetListInstallationReposForAuthenticatedUser.PathParams;
   queryParams?: API.GithubV3Json.Apps.GetListInstallationReposForAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Apps.GetListInstallationReposForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -683,7 +683,7 @@ export function getListInstallationReposForAuthenticatedUser(options: {
  */
 export function getListInstallationsForAuthenticatedUser(options?: {
   queryParams?: API.GithubV3Json.Apps.GetListInstallationsForAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Apps.GetListInstallationsForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -702,7 +702,7 @@ export function getListInstallationsForAuthenticatedUser(options?: {
  */
 export function getListSubscriptionsForAuthenticatedUserStubbed(options?: {
   queryParams?: API.GithubV3Json.Apps.GetListSubscriptionsForAuthenticatedUserStubbed.QueryParams;
-  headers?: API.GithubV3Json.Apps.GetListSubscriptionsForAuthenticatedUserStubbed.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -721,7 +721,7 @@ export function getListSubscriptionsForAuthenticatedUserStubbed(options?: {
  */
 export function getListSubscriptionsForAuthenticatedUser(options?: {
   queryParams?: API.GithubV3Json.Apps.GetListSubscriptionsForAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Apps.GetListSubscriptionsForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -742,7 +742,7 @@ export function getListSubscriptionsForAuthenticatedUser(options?: {
  */
 export function getUserInstallation(options: {
   pathParams: API.GithubV3Json.Apps.GetUserInstallation.PathParams;
-  headers?: API.GithubV3Json.Apps.GetUserInstallation.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

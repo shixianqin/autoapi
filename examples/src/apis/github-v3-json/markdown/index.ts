@@ -7,7 +7,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @docs https://docs.github.com/rest/reference/markdown#render-a-markdown-document-in-raw-mode
  */
 export function postRenderRaw(options: {
-  headers?: API.GithubV3Json.Markdown.PostRenderRaw.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Markdown.PostRenderRaw.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -25,7 +25,7 @@ export function postRenderRaw(options: {
  * @docs https://docs.github.com/rest/reference/markdown#render-a-markdown-document
  */
 export function postRender(options: {
-  headers?: API.GithubV3Json.Markdown.PostRender.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Markdown.PostRender.Body;
   config?: RequestConfig;
   context?: RequestContext;

@@ -8,7 +8,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function deleteListRemoveMember(options: {
   pathParams: API.TwitterV3Json.Lists.DeleteListRemoveMember.PathParams;
-  headers?: API.TwitterV3Json.Lists.DeleteListRemoveMember.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -27,7 +27,7 @@ export function deleteListRemoveMember(options: {
  */
 export function postListAddMember(options: {
   pathParams: API.TwitterV3Json.Lists.PostListAddMember.PathParams;
-  headers?: API.TwitterV3Json.Lists.PostListAddMember.Headers;
+  headers?: Record<string, any>;
   body: API.TwitterV3Json.Lists.PostListAddMember.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -47,7 +47,7 @@ export function postListAddMember(options: {
  */
 export function deleteListId(options: {
   pathParams: API.TwitterV3Json.Lists.DeleteListId.PathParams;
-  headers?: API.TwitterV3Json.Lists.DeleteListId.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -67,7 +67,7 @@ export function deleteListId(options: {
 export function getListId(options: {
   pathParams: API.TwitterV3Json.Lists.GetListId.PathParams;
   queryParams?: API.TwitterV3Json.Lists.GetListId.QueryParams;
-  headers?: API.TwitterV3Json.Lists.GetListId.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -86,7 +86,7 @@ export function getListId(options: {
  */
 export function putListIdUpdate(options: {
   pathParams: API.TwitterV3Json.Lists.PutListIdUpdate.PathParams;
-  headers?: API.TwitterV3Json.Lists.PutListIdUpdate.Headers;
+  headers?: Record<string, any>;
   body?: API.TwitterV3Json.Lists.PutListIdUpdate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -105,7 +105,7 @@ export function putListIdUpdate(options: {
  * @docs https://developer.twitter.com/en/docs/twitter-api/lists/manage-lists/api-reference/post-lists
  */
 export function postListIdCreate(options: {
-  headers?: API.TwitterV3Json.Lists.PostListIdCreate.Headers;
+  headers?: Record<string, any>;
   body: API.TwitterV3Json.Lists.PostListIdCreate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -125,7 +125,7 @@ export function postListIdCreate(options: {
  */
 export function deleteListUserUnfollow(options: {
   pathParams: API.TwitterV3Json.Lists.DeleteListUserUnfollow.PathParams;
-  headers?: API.TwitterV3Json.Lists.DeleteListUserUnfollow.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -145,7 +145,7 @@ export function deleteListUserUnfollow(options: {
 export function getUserFollowed(options: {
   pathParams: API.TwitterV3Json.Lists.GetUserFollowed.PathParams;
   queryParams?: API.TwitterV3Json.Lists.GetUserFollowed.QueryParams;
-  headers?: API.TwitterV3Json.Lists.GetUserFollowed.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -164,7 +164,7 @@ export function getUserFollowed(options: {
  */
 export function postListUserFollow(options: {
   pathParams: API.TwitterV3Json.Lists.PostListUserFollow.PathParams;
-  headers?: API.TwitterV3Json.Lists.PostListUserFollow.Headers;
+  headers?: Record<string, any>;
   body: API.TwitterV3Json.Lists.PostListUserFollow.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -185,7 +185,7 @@ export function postListUserFollow(options: {
 export function getUserListMemberships(options: {
   pathParams: API.TwitterV3Json.Lists.GetUserListMemberships.PathParams;
   queryParams?: API.TwitterV3Json.Lists.GetUserListMemberships.QueryParams;
-  headers?: API.TwitterV3Json.Lists.GetUserListMemberships.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -204,7 +204,7 @@ export function getUserListMemberships(options: {
 export function getListUserOwned(options: {
   pathParams: API.TwitterV3Json.Lists.GetListUserOwned.PathParams;
   queryParams?: API.TwitterV3Json.Lists.GetListUserOwned.QueryParams;
-  headers?: API.TwitterV3Json.Lists.GetListUserOwned.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -223,7 +223,7 @@ export function getListUserOwned(options: {
  */
 export function deleteListUserUnpin(options: {
   pathParams: API.TwitterV3Json.Lists.DeleteListUserUnpin.PathParams;
-  headers?: API.TwitterV3Json.Lists.DeleteListUserUnpin.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -243,7 +243,7 @@ export function deleteListUserUnpin(options: {
 export function getListUserPinned(options: {
   pathParams: API.TwitterV3Json.Lists.GetListUserPinned.PathParams;
   queryParams?: API.TwitterV3Json.Lists.GetListUserPinned.QueryParams;
-  headers?: API.TwitterV3Json.Lists.GetListUserPinned.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -262,7 +262,7 @@ export function getListUserPinned(options: {
  */
 export function postListUserPin(options: {
   pathParams: API.TwitterV3Json.Lists.PostListUserPin.PathParams;
-  headers?: API.TwitterV3Json.Lists.PostListUserPin.Headers;
+  headers?: Record<string, any>;
   body: API.TwitterV3Json.Lists.PostListUserPin.Body;
   config?: RequestConfig;
   context?: RequestContext;

@@ -2,10 +2,6 @@ declare namespace API {
   namespace GithubV3Json {
     namespace Gists {
       namespace GetListPublic {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Page number of the results to fetch.
@@ -28,10 +24,6 @@ declare namespace API {
       }
 
       namespace GetListStarred {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Page number of the results to fetch.
@@ -54,10 +46,6 @@ declare namespace API {
       }
 
       namespace DeleteComment {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the comment.
@@ -71,10 +59,6 @@ declare namespace API {
       }
 
       namespace GetComment {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the comment.
@@ -98,11 +82,6 @@ declare namespace API {
           body: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the comment.
@@ -118,10 +97,6 @@ declare namespace API {
       }
 
       namespace GetListComments {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the gist.
@@ -154,11 +129,6 @@ declare namespace API {
           body: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the gist.
@@ -170,10 +140,6 @@ declare namespace API {
       }
 
       namespace GetListCommits {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the gist.
@@ -198,10 +164,6 @@ declare namespace API {
       }
 
       namespace GetListForks {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the gist.
@@ -226,10 +188,6 @@ declare namespace API {
       }
 
       namespace PostFork {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the gist.
@@ -241,10 +199,6 @@ declare namespace API {
       }
 
       namespace DeleteUnstar {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the gist.
@@ -254,10 +208,6 @@ declare namespace API {
       }
 
       namespace GetCheckIsStarred {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the gist.
@@ -267,10 +217,6 @@ declare namespace API {
       }
 
       namespace PutStar {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the gist.
@@ -280,10 +226,6 @@ declare namespace API {
       }
 
       namespace GetRevision {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the gist.
@@ -296,10 +238,6 @@ declare namespace API {
       }
 
       namespace DeleteGists {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the gist.
@@ -309,10 +247,6 @@ declare namespace API {
       }
 
       namespace GetGists {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the gist.
@@ -381,11 +315,6 @@ declare namespace API {
             }
         );
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the gist.
@@ -397,10 +326,6 @@ declare namespace API {
       }
 
       namespace GetList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Page number of the results to fetch.
@@ -442,19 +367,10 @@ declare namespace API {
           public?: boolean | ("false" | "true");
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         type Response = $schemas.GistSimple;
       }
 
       namespace GetListForUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The handle for the GitHub user account.

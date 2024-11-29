@@ -1,17 +1,9 @@
 declare namespace API {
   namespace WhatsappV3Json {
     namespace Health {
-      namespace GetCheck {
-        interface Headers {
-          [P: string]: any;
-        }
-      }
+      namespace GetCheck {}
 
       namespace GetMetrics {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           format?: string;
         }
@@ -20,10 +12,6 @@ declare namespace API {
       }
 
       namespace GetAppStats {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           format?: string;
         }
@@ -32,10 +20,6 @@ declare namespace API {
       }
 
       namespace GetDbStats {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           format?: string;
         }
@@ -44,10 +28,6 @@ declare namespace API {
       }
 
       namespace GetSupportInfo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface Response {}
       }
     }

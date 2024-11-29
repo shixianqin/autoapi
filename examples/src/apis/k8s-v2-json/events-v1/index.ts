@@ -6,7 +6,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getListEventForAllNamespaces(options?: {
   queryParams?: API.K8sV2Json.EventsV1.GetListEventForAllNamespaces.QueryParams;
-  headers?: API.K8sV2Json.EventsV1.GetListEventForAllNamespaces.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -22,7 +22,7 @@ export function getListEventForAllNamespaces(options?: {
  * @path `/apis/events.k8s.io/v1/`
  */
 export function getApiResources(options?: {
-  headers?: API.K8sV2Json.EventsV1.GetApiResources.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -40,7 +40,7 @@ export function getApiResources(options?: {
 export function deleteNamespacedEvent(options: {
   pathParams: API.K8sV2Json.EventsV1.DeleteNamespacedEvent.PathParams;
   queryParams?: API.K8sV2Json.EventsV1.DeleteNamespacedEvent.QueryParams;
-  headers?: API.K8sV2Json.EventsV1.DeleteNamespacedEvent.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.EventsV1.DeleteNamespacedEvent.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -59,7 +59,7 @@ export function deleteNamespacedEvent(options: {
 export function getReadNamespacedEvent(options: {
   pathParams: API.K8sV2Json.EventsV1.GetReadNamespacedEvent.PathParams;
   queryParams?: API.K8sV2Json.EventsV1.GetReadNamespacedEvent.QueryParams;
-  headers?: API.K8sV2Json.EventsV1.GetReadNamespacedEvent.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -77,7 +77,7 @@ export function getReadNamespacedEvent(options: {
 export function patchNamespacedEvent(options: {
   pathParams: API.K8sV2Json.EventsV1.PatchNamespacedEvent.PathParams;
   queryParams?: API.K8sV2Json.EventsV1.PatchNamespacedEvent.QueryParams;
-  headers?: API.K8sV2Json.EventsV1.PatchNamespacedEvent.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.EventsV1.PatchNamespacedEvent.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -96,7 +96,7 @@ export function patchNamespacedEvent(options: {
 export function putReplaceNamespacedEvent(options: {
   pathParams: API.K8sV2Json.EventsV1.PutReplaceNamespacedEvent.PathParams;
   queryParams?: API.K8sV2Json.EventsV1.PutReplaceNamespacedEvent.QueryParams;
-  headers?: API.K8sV2Json.EventsV1.PutReplaceNamespacedEvent.Headers;
+  headers?: Record<string, any>;
   body: API.K8sV2Json.EventsV1.PutReplaceNamespacedEvent.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -115,7 +115,7 @@ export function putReplaceNamespacedEvent(options: {
 export function deleteCollectionNamespacedEvent(options: {
   pathParams: API.K8sV2Json.EventsV1.DeleteCollectionNamespacedEvent.PathParams;
   queryParams?: API.K8sV2Json.EventsV1.DeleteCollectionNamespacedEvent.QueryParams;
-  headers?: API.K8sV2Json.EventsV1.DeleteCollectionNamespacedEvent.Headers;
+  headers?: Record<string, any>;
   body?: API.K8sV2Json.EventsV1.DeleteCollectionNamespacedEvent.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -134,7 +134,7 @@ export function deleteCollectionNamespacedEvent(options: {
 export function getListNamespacedEvent(options: {
   pathParams: API.K8sV2Json.EventsV1.GetListNamespacedEvent.PathParams;
   queryParams?: API.K8sV2Json.EventsV1.GetListNamespacedEvent.QueryParams;
-  headers?: API.K8sV2Json.EventsV1.GetListNamespacedEvent.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -152,7 +152,7 @@ export function getListNamespacedEvent(options: {
 export function postCreateNamespacedEvent(options: {
   pathParams: API.K8sV2Json.EventsV1.PostCreateNamespacedEvent.PathParams;
   queryParams?: API.K8sV2Json.EventsV1.PostCreateNamespacedEvent.QueryParams;
-  headers?: API.K8sV2Json.EventsV1.PostCreateNamespacedEvent.Headers;
+  headers?: Record<string, any>;
   body: API.K8sV2Json.EventsV1.PostCreateNamespacedEvent.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -170,7 +170,7 @@ export function postCreateNamespacedEvent(options: {
  */
 export function getWatchEventListForAllNamespaces(options?: {
   queryParams?: API.K8sV2Json.EventsV1.GetWatchEventListForAllNamespaces.QueryParams;
-  headers?: API.K8sV2Json.EventsV1.GetWatchEventListForAllNamespaces.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -188,7 +188,7 @@ export function getWatchEventListForAllNamespaces(options?: {
 export function getWatchNamespacedEvent(options: {
   pathParams: API.K8sV2Json.EventsV1.GetWatchNamespacedEvent.PathParams;
   queryParams?: API.K8sV2Json.EventsV1.GetWatchNamespacedEvent.QueryParams;
-  headers?: API.K8sV2Json.EventsV1.GetWatchNamespacedEvent.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -206,7 +206,7 @@ export function getWatchNamespacedEvent(options: {
 export function getWatchNamespacedEventList(options: {
   pathParams: API.K8sV2Json.EventsV1.GetWatchNamespacedEventList.PathParams;
   queryParams?: API.K8sV2Json.EventsV1.GetWatchNamespacedEventList.QueryParams;
-  headers?: API.K8sV2Json.EventsV1.GetWatchNamespacedEventList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getWpV2Stylesheet(options: {
   pathParams: API.WordpressV2Json.Themes.GetWpV2Stylesheet.PathParams;
-  headers?: API.WordpressV2Json.Themes.GetWpV2Stylesheet.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -21,7 +21,7 @@ export function getWpV2Stylesheet(options: {
  */
 export function getWpV2(options?: {
   queryParams?: API.WordpressV2Json.Themes.GetWpV2.QueryParams;
-  headers?: API.WordpressV2Json.Themes.GetWpV2.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

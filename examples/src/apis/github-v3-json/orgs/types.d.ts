@@ -2,10 +2,6 @@ declare namespace API {
   namespace GithubV3Json {
     namespace Orgs {
       namespace GetList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * The number of results per page (max 100).
@@ -22,10 +18,6 @@ declare namespace API {
       }
 
       namespace DeleteUnblockUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -39,10 +31,6 @@ declare namespace API {
       }
 
       namespace GetCheckBlockedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -56,10 +44,6 @@ declare namespace API {
       }
 
       namespace PutBlockUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -73,10 +57,6 @@ declare namespace API {
       }
 
       namespace GetListBlockedUsers {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -101,10 +81,6 @@ declare namespace API {
       }
 
       namespace GetListFailedInvitations {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -129,10 +105,6 @@ declare namespace API {
       }
 
       namespace GetWebhookConfigForOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the hook.
@@ -165,11 +137,6 @@ declare namespace API {
           url?: $schemas.WebhookConfigUrl;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the hook.
@@ -185,10 +152,6 @@ declare namespace API {
       }
 
       namespace PostRedeliverWebhookDelivery {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           delivery_id: number;
           /**
@@ -205,10 +168,6 @@ declare namespace API {
       }
 
       namespace GetWebhookDelivery {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           delivery_id: number;
           /**
@@ -225,10 +184,6 @@ declare namespace API {
       }
 
       namespace GetListWebhookDeliveries {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the hook.
@@ -257,10 +212,6 @@ declare namespace API {
       }
 
       namespace PostPingWebhook {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the hook.
@@ -274,10 +225,6 @@ declare namespace API {
       }
 
       namespace DeleteWebhook {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the hook.
@@ -291,10 +238,6 @@ declare namespace API {
       }
 
       namespace GetWebhook {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the hook.
@@ -343,11 +286,6 @@ declare namespace API {
           name?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the hook.
@@ -363,10 +301,6 @@ declare namespace API {
       }
 
       namespace GetListWebhooks {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -429,11 +363,6 @@ declare namespace API {
           name: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -445,10 +374,6 @@ declare namespace API {
       }
 
       namespace GetListAppInstallations {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -476,10 +401,6 @@ declare namespace API {
       }
 
       namespace GetListInvitationTeams {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the invitation.
@@ -508,10 +429,6 @@ declare namespace API {
       }
 
       namespace DeleteCancelInvitation {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the invitation.
@@ -525,10 +442,6 @@ declare namespace API {
       }
 
       namespace GetListPendingInvitations {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -591,11 +504,6 @@ declare namespace API {
           team_ids?: number[];
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -607,10 +515,6 @@ declare namespace API {
       }
 
       namespace DeleteRemoveMember {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -624,10 +528,6 @@ declare namespace API {
       }
 
       namespace GetCheckMembershipForUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -641,10 +541,6 @@ declare namespace API {
       }
 
       namespace GetListMembers {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -679,10 +575,6 @@ declare namespace API {
       }
 
       namespace DeleteRemoveMembershipForUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -696,10 +588,6 @@ declare namespace API {
       }
 
       namespace GetMembershipForUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -725,11 +613,6 @@ declare namespace API {
           role?: "admin" | "member";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -745,10 +628,6 @@ declare namespace API {
       }
 
       namespace DeleteRemoveOutsideCollaborator {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -769,11 +648,6 @@ declare namespace API {
           async?: boolean;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -789,10 +663,6 @@ declare namespace API {
       }
 
       namespace GetListOutsideCollaborators {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -822,10 +692,6 @@ declare namespace API {
       }
 
       namespace DeleteRemovePublicMembershipForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -839,10 +705,6 @@ declare namespace API {
       }
 
       namespace GetCheckPublicMembershipForUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -856,10 +718,6 @@ declare namespace API {
       }
 
       namespace PutSetPublicMembershipForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -873,10 +731,6 @@ declare namespace API {
       }
 
       namespace GetListPublicMembers {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -901,10 +755,6 @@ declare namespace API {
       }
 
       namespace DeleteRemoveSecurityManagerTeam {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -918,10 +768,6 @@ declare namespace API {
       }
 
       namespace PutAddSecurityManagerTeam {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -935,10 +781,6 @@ declare namespace API {
       }
 
       namespace GetListSecurityManagerTeams {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -950,10 +792,6 @@ declare namespace API {
       }
 
       namespace PostEnableOrDisableSecurityProductOnAllOrgRepos {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The action to take.
@@ -980,10 +818,6 @@ declare namespace API {
       }
 
       namespace GetOrgs {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -1141,11 +975,6 @@ declare namespace API {
           web_commit_signoff_required?: boolean;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -1157,10 +986,6 @@ declare namespace API {
       }
 
       namespace GetMembershipForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -1179,11 +1004,6 @@ declare namespace API {
           state: "active";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -1195,10 +1015,6 @@ declare namespace API {
       }
 
       namespace GetListMembershipsForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Page number of the results to fetch.
@@ -1220,10 +1036,6 @@ declare namespace API {
       }
 
       namespace GetListForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Page number of the results to fetch.
@@ -1241,10 +1053,6 @@ declare namespace API {
       }
 
       namespace GetListForUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The handle for the GitHub user account.

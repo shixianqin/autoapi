@@ -7,7 +7,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function putAnalyticsManagementAccountUserLinksUpdate(options: {
   pathParams: API.GaV2Yaml.Permission.PutAnalyticsManagementAccountUserLinksUpdate.PathParams;
-  headers?: API.GaV2Yaml.Permission.PutAnalyticsManagementAccountUserLinksUpdate.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.Permission.PutAnalyticsManagementAccountUserLinksUpdate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -26,7 +26,7 @@ export function putAnalyticsManagementAccountUserLinksUpdate(options: {
  */
 export function putAnalyticsManagementWebpropertyUserLinksUpdate(options: {
   pathParams: API.GaV2Yaml.Permission.PutAnalyticsManagementWebpropertyUserLinksUpdate.PathParams;
-  headers?: API.GaV2Yaml.Permission.PutAnalyticsManagementWebpropertyUserLinksUpdate.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.Permission.PutAnalyticsManagementWebpropertyUserLinksUpdate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -45,7 +45,7 @@ export function putAnalyticsManagementWebpropertyUserLinksUpdate(options: {
  */
 export function putAnalyticsManagementProfileUserLinksUpdate(options: {
   pathParams: API.GaV2Yaml.Permission.PutAnalyticsManagementProfileUserLinksUpdate.PathParams;
-  headers?: API.GaV2Yaml.Permission.PutAnalyticsManagementProfileUserLinksUpdate.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.Permission.PutAnalyticsManagementProfileUserLinksUpdate.Body;
   config?: RequestConfig;
   context?: RequestContext;

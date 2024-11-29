@@ -6,7 +6,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getClientOptions(options: {
   pathParams: API.CustomizeName.Clients.GetClientOptions.PathParams;
-  headers?: API.CustomizeName.Clients.GetClientOptions.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -24,7 +24,7 @@ export function getClientOptions(options: {
  */
 export function postGenerateClient(options: {
   pathParams: API.CustomizeName.Clients.PostGenerateClient.PathParams;
-  headers?: API.CustomizeName.Clients.PostGenerateClient.Headers;
+  headers?: Record<string, any>;
   body?: API.CustomizeName.Clients.PostGenerateClient.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -41,7 +41,7 @@ export function postGenerateClient(options: {
  * @path `/gen/clients`
  */
 export function getClients_CustomizeNamed(options?: {
-  headers?: API.CustomizeName.Clients.GetClientsCustomizeNamed.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -59,7 +59,7 @@ export function getClients_CustomizeNamed(options?: {
  */
 export function getDownloadFile(options: {
   pathParams: API.CustomizeName.Clients.GetDownloadFile.PathParams;
-  headers?: API.CustomizeName.Clients.GetDownloadFile.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

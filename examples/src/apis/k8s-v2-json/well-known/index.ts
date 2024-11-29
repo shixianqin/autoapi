@@ -5,7 +5,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/.well-known/openid-configuration/`
  */
 export function getServiceAccountIssuerOpenIdConfiguration(options?: {
-  headers?: API.K8sV2Json.WellKnown.GetServiceAccountIssuerOpenIdConfiguration.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

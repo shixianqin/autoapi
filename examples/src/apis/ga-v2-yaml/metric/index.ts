@@ -7,7 +7,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getAnalyticsManagementCustomMetrics(options: {
   pathParams: API.GaV2Yaml.Metric.GetAnalyticsManagementCustomMetrics.PathParams;
-  headers?: API.GaV2Yaml.Metric.GetAnalyticsManagementCustomMetrics.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -26,7 +26,7 @@ export function getAnalyticsManagementCustomMetrics(options: {
 export function patchAnalyticsManagementCustomMetrics(options: {
   pathParams: API.GaV2Yaml.Metric.PatchAnalyticsManagementCustomMetrics.PathParams;
   queryParams?: API.GaV2Yaml.Metric.PatchAnalyticsManagementCustomMetrics.QueryParams;
-  headers?: API.GaV2Yaml.Metric.PatchAnalyticsManagementCustomMetrics.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.Metric.PatchAnalyticsManagementCustomMetrics.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -46,7 +46,7 @@ export function patchAnalyticsManagementCustomMetrics(options: {
 export function putAnalyticsManagementCustomMetricsUpdate(options: {
   pathParams: API.GaV2Yaml.Metric.PutAnalyticsManagementCustomMetricsUpdate.PathParams;
   queryParams?: API.GaV2Yaml.Metric.PutAnalyticsManagementCustomMetricsUpdate.QueryParams;
-  headers?: API.GaV2Yaml.Metric.PutAnalyticsManagementCustomMetricsUpdate.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.Metric.PutAnalyticsManagementCustomMetricsUpdate.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -66,7 +66,7 @@ export function putAnalyticsManagementCustomMetricsUpdate(options: {
 export function getAnalyticsManagementCustomMetricsList(options: {
   pathParams: API.GaV2Yaml.Metric.GetAnalyticsManagementCustomMetricsList.PathParams;
   queryParams?: API.GaV2Yaml.Metric.GetAnalyticsManagementCustomMetricsList.QueryParams;
-  headers?: API.GaV2Yaml.Metric.GetAnalyticsManagementCustomMetricsList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -84,7 +84,7 @@ export function getAnalyticsManagementCustomMetricsList(options: {
  */
 export function postAnalyticsManagementCustomMetricsInsert(options: {
   pathParams: API.GaV2Yaml.Metric.PostAnalyticsManagementCustomMetricsInsert.PathParams;
-  headers?: API.GaV2Yaml.Metric.PostAnalyticsManagementCustomMetricsInsert.Headers;
+  headers?: Record<string, any>;
   body?: API.GaV2Yaml.Metric.PostAnalyticsManagementCustomMetricsInsert.Body;
   config?: RequestConfig;
   context?: RequestContext;

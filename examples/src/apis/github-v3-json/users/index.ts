@@ -7,7 +7,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function deleteUnblock(options: {
   pathParams: API.GithubV3Json.Users.DeleteUnblock.PathParams;
-  headers?: API.GithubV3Json.Users.DeleteUnblock.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -25,7 +25,7 @@ export function deleteUnblock(options: {
  */
 export function getCheckBlocked(options: {
   pathParams: API.GithubV3Json.Users.GetCheckBlocked.PathParams;
-  headers?: API.GithubV3Json.Users.GetCheckBlocked.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -43,7 +43,7 @@ export function getCheckBlocked(options: {
  */
 export function putBlock(options: {
   pathParams: API.GithubV3Json.Users.PutBlock.PathParams;
-  headers?: API.GithubV3Json.Users.PutBlock.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -62,7 +62,7 @@ export function putBlock(options: {
  */
 export function getListBlockedByAuthenticatedUser(options?: {
   queryParams?: API.GithubV3Json.Users.GetListBlockedByAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Users.GetListBlockedByAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -80,7 +80,7 @@ export function getListBlockedByAuthenticatedUser(options?: {
  * @docs https://docs.github.com/rest/reference/users#set-primary-email-visibility-for-the-authenticated-user
  */
 export function patchSetPrimaryEmailVisibilityForAuthenticatedUser(options: {
-  headers?: API.GithubV3Json.Users.PatchSetPrimaryEmailVisibilityForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Users.PatchSetPrimaryEmailVisibilityForAuthenticatedUser.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -99,7 +99,7 @@ export function patchSetPrimaryEmailVisibilityForAuthenticatedUser(options: {
  * @docs https://docs.github.com/rest/reference/users#delete-an-email-address-for-the-authenticated-user
  */
 export function deleteEmailForAuthenticatedUser(options: {
-  headers?: API.GithubV3Json.Users.DeleteEmailForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Users.DeleteEmailForAuthenticatedUser.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -115,7 +115,7 @@ export function deleteEmailForAuthenticatedUser(options: {
  */
 export function getListEmailsForAuthenticatedUser(options?: {
   queryParams?: API.GithubV3Json.Users.GetListEmailsForAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Users.GetListEmailsForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -133,7 +133,7 @@ export function getListEmailsForAuthenticatedUser(options?: {
  * @docs https://docs.github.com/rest/reference/users#add-an-email-address-for-the-authenticated-user
  */
 export function postAddEmailForAuthenticatedUser(options: {
-  headers?: API.GithubV3Json.Users.PostAddEmailForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Users.PostAddEmailForAuthenticatedUser.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -153,7 +153,7 @@ export function postAddEmailForAuthenticatedUser(options: {
  */
 export function getListFollowersForAuthenticatedUser(options?: {
   queryParams?: API.GithubV3Json.Users.GetListFollowersForAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Users.GetListFollowersForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -172,7 +172,7 @@ export function getListFollowersForAuthenticatedUser(options?: {
  */
 export function deleteUnfollow(options: {
   pathParams: API.GithubV3Json.Users.DeleteUnfollow.PathParams;
-  headers?: API.GithubV3Json.Users.DeleteUnfollow.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -190,7 +190,7 @@ export function deleteUnfollow(options: {
  */
 export function getCheckPersonIsFollowedByAuthenticated(options: {
   pathParams: API.GithubV3Json.Users.GetCheckPersonIsFollowedByAuthenticated.PathParams;
-  headers?: API.GithubV3Json.Users.GetCheckPersonIsFollowedByAuthenticated.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -211,7 +211,7 @@ export function getCheckPersonIsFollowedByAuthenticated(options: {
  */
 export function putFollow(options: {
   pathParams: API.GithubV3Json.Users.PutFollow.PathParams;
-  headers?: API.GithubV3Json.Users.PutFollow.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -230,7 +230,7 @@ export function putFollow(options: {
  */
 export function getListFollowedByAuthenticatedUser(options?: {
   queryParams?: API.GithubV3Json.Users.GetListFollowedByAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Users.GetListFollowedByAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -249,7 +249,7 @@ export function getListFollowedByAuthenticatedUser(options?: {
  */
 export function deleteGpgKeyForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Users.DeleteGpgKeyForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Users.DeleteGpgKeyForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -268,7 +268,7 @@ export function deleteGpgKeyForAuthenticatedUser(options: {
  */
 export function getGpgKeyForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Users.GetGpgKeyForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Users.GetGpgKeyForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -287,7 +287,7 @@ export function getGpgKeyForAuthenticatedUser(options: {
  */
 export function getListGpgKeysForAuthenticatedUser(options?: {
   queryParams?: API.GithubV3Json.Users.GetListGpgKeysForAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Users.GetListGpgKeysForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -305,7 +305,7 @@ export function getListGpgKeysForAuthenticatedUser(options?: {
  * @docs https://docs.github.com/rest/reference/users#create-a-gpg-key-for-the-authenticated-user
  */
 export function postCreateGpgKeyForAuthenticatedUser(options: {
-  headers?: API.GithubV3Json.Users.PostCreateGpgKeyForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Users.PostCreateGpgKeyForAuthenticatedUser.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -325,7 +325,7 @@ export function postCreateGpgKeyForAuthenticatedUser(options: {
  */
 export function deletePublicSshKeyForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Users.DeletePublicSshKeyForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Users.DeletePublicSshKeyForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -344,7 +344,7 @@ export function deletePublicSshKeyForAuthenticatedUser(options: {
  */
 export function getPublicSshKeyForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Users.GetPublicSshKeyForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Users.GetPublicSshKeyForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -363,7 +363,7 @@ export function getPublicSshKeyForAuthenticatedUser(options: {
  */
 export function getListPublicSshKeysForAuthenticatedUser(options?: {
   queryParams?: API.GithubV3Json.Users.GetListPublicSshKeysForAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Users.GetListPublicSshKeysForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -381,7 +381,7 @@ export function getListPublicSshKeysForAuthenticatedUser(options?: {
  * @docs https://docs.github.com/rest/reference/users#create-a-public-ssh-key-for-the-authenticated-user
  */
 export function postCreatePublicSshKeyForAuthenticatedUser(options: {
-  headers?: API.GithubV3Json.Users.PostCreatePublicSshKeyForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Users.PostCreatePublicSshKeyForAuthenticatedUser.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -401,7 +401,7 @@ export function postCreatePublicSshKeyForAuthenticatedUser(options: {
  */
 export function getListPublicEmailsForAuthenticatedUser(options?: {
   queryParams?: API.GithubV3Json.Users.GetListPublicEmailsForAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Users.GetListPublicEmailsForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -420,7 +420,7 @@ export function getListPublicEmailsForAuthenticatedUser(options?: {
  */
 export function deleteSshSigningKeyForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Users.DeleteSshSigningKeyForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Users.DeleteSshSigningKeyForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -439,7 +439,7 @@ export function deleteSshSigningKeyForAuthenticatedUser(options: {
  */
 export function getSshSigningKeyForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Users.GetSshSigningKeyForAuthenticatedUser.PathParams;
-  headers?: API.GithubV3Json.Users.GetSshSigningKeyForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -458,7 +458,7 @@ export function getSshSigningKeyForAuthenticatedUser(options: {
  */
 export function getListSshSigningKeysForAuthenticatedUser(options?: {
   queryParams?: API.GithubV3Json.Users.GetListSshSigningKeysForAuthenticatedUser.QueryParams;
-  headers?: API.GithubV3Json.Users.GetListSshSigningKeysForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -476,7 +476,7 @@ export function getListSshSigningKeysForAuthenticatedUser(options?: {
  * @docs https://docs.github.com/rest/reference/users#create-an-ssh-signing-key-for-the-authenticated-user
  */
 export function postCreateSshSigningKeyForAuthenticatedUser(options: {
-  headers?: API.GithubV3Json.Users.PostCreateSshSigningKeyForAuthenticatedUser.Headers;
+  headers?: Record<string, any>;
   body: API.GithubV3Json.Users.PostCreateSshSigningKeyForAuthenticatedUser.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -497,7 +497,7 @@ export function postCreateSshSigningKeyForAuthenticatedUser(options: {
  * @docs https://docs.github.com/rest/reference/users#get-the-authenticated-user
  */
 export function getAuthenticated(options?: {
-  headers?: API.GithubV3Json.Users.GetAuthenticated.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -515,7 +515,7 @@ export function getAuthenticated(options?: {
  * @docs https://docs.github.com/rest/reference/users/#update-the-authenticated-user
  */
 export function patchUpdateAuthenticated(options?: {
-  headers?: API.GithubV3Json.Users.PatchUpdateAuthenticated.Headers;
+  headers?: Record<string, any>;
   body?: API.GithubV3Json.Users.PatchUpdateAuthenticated.Body;
   config?: RequestConfig;
   context?: RequestContext;
@@ -536,7 +536,7 @@ export function patchUpdateAuthenticated(options?: {
 export function getListFollowersForUser(options: {
   pathParams: API.GithubV3Json.Users.GetListFollowersForUser.PathParams;
   queryParams?: API.GithubV3Json.Users.GetListFollowersForUser.QueryParams;
-  headers?: API.GithubV3Json.Users.GetListFollowersForUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -554,7 +554,7 @@ export function getListFollowersForUser(options: {
  */
 export function getCheckFollowingForUser(options: {
   pathParams: API.GithubV3Json.Users.GetCheckFollowingForUser.PathParams;
-  headers?: API.GithubV3Json.Users.GetCheckFollowingForUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -574,7 +574,7 @@ export function getCheckFollowingForUser(options: {
 export function getListFollowingForUser(options: {
   pathParams: API.GithubV3Json.Users.GetListFollowingForUser.PathParams;
   queryParams?: API.GithubV3Json.Users.GetListFollowingForUser.QueryParams;
-  headers?: API.GithubV3Json.Users.GetListFollowingForUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -594,7 +594,7 @@ export function getListFollowingForUser(options: {
 export function getListGpgKeysForUser(options: {
   pathParams: API.GithubV3Json.Users.GetListGpgKeysForUser.PathParams;
   queryParams?: API.GithubV3Json.Users.GetListGpgKeysForUser.QueryParams;
-  headers?: API.GithubV3Json.Users.GetListGpgKeysForUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -621,7 +621,7 @@ export function getListGpgKeysForUser(options: {
 export function getContextForUser(options: {
   pathParams: API.GithubV3Json.Users.GetContextForUser.PathParams;
   queryParams?: API.GithubV3Json.Users.GetContextForUser.QueryParams;
-  headers?: API.GithubV3Json.Users.GetContextForUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -641,7 +641,7 @@ export function getContextForUser(options: {
 export function getListPublicKeysForUser(options: {
   pathParams: API.GithubV3Json.Users.GetListPublicKeysForUser.PathParams;
   queryParams?: API.GithubV3Json.Users.GetListPublicKeysForUser.QueryParams;
-  headers?: API.GithubV3Json.Users.GetListPublicKeysForUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -661,7 +661,7 @@ export function getListPublicKeysForUser(options: {
 export function getListSshSigningKeysForUser(options: {
   pathParams: API.GithubV3Json.Users.GetListSshSigningKeysForUser.PathParams;
   queryParams?: API.GithubV3Json.Users.GetListSshSigningKeysForUser.QueryParams;
-  headers?: API.GithubV3Json.Users.GetListSshSigningKeysForUser.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -686,7 +686,7 @@ export function getListSshSigningKeysForUser(options: {
  */
 export function getByUsername(options: {
   pathParams: API.GithubV3Json.Users.GetByUsername.PathParams;
-  headers?: API.GithubV3Json.Users.GetByUsername.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -707,7 +707,7 @@ export function getByUsername(options: {
  */
 export function getList(options?: {
   queryParams?: API.GithubV3Json.Users.GetList.QueryParams;
-  headers?: API.GithubV3Json.Users.GetList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

@@ -8,7 +8,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function deleteUsersId(options: {
   pathParams: API.TwitterV3Json.Bookmarks.DeleteUsersId.PathParams;
-  headers?: API.TwitterV3Json.Bookmarks.DeleteUsersId.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -28,7 +28,7 @@ export function deleteUsersId(options: {
 export function getUsersId(options: {
   pathParams: API.TwitterV3Json.Bookmarks.GetUsersId.PathParams;
   queryParams?: API.TwitterV3Json.Bookmarks.GetUsersId.QueryParams;
-  headers?: API.TwitterV3Json.Bookmarks.GetUsersId.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -47,7 +47,7 @@ export function getUsersId(options: {
  */
 export function postUsersId(options: {
   pathParams: API.TwitterV3Json.Bookmarks.PostUsersId.PathParams;
-  headers?: API.TwitterV3Json.Bookmarks.PostUsersId.Headers;
+  headers?: Record<string, any>;
   body: API.TwitterV3Json.Bookmarks.PostUsersId.Body;
   config?: RequestConfig;
   context?: RequestContext;

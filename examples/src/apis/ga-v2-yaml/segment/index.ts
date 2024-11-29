@@ -7,7 +7,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function getAnalyticsManagementSegmentsList(options?: {
   queryParams?: API.GaV2Yaml.Segment.GetAnalyticsManagementSegmentsList.QueryParams;
-  headers?: API.GaV2Yaml.Segment.GetAnalyticsManagementSegmentsList.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

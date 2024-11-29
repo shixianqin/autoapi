@@ -2,10 +2,6 @@ declare namespace API {
   namespace GaV3Json {
     namespace Data {
       namespace GetAnalyticsGa {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Data format for the response.
@@ -94,10 +90,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsMcf {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Data format for the response.
@@ -174,10 +166,6 @@ declare namespace API {
       }
 
       namespace GetAnalyticsRealtime {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Data format for the response.

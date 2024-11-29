@@ -2,10 +2,6 @@ declare namespace API {
   namespace GithubV3Json {
     namespace Dependabot {
       namespace GetListAlertsForEnterprise {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The slug version of the enterprise name. You can also substitute this value with the enterprise id.
@@ -88,10 +84,6 @@ declare namespace API {
       }
 
       namespace GetListAlertsForOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -174,10 +166,6 @@ declare namespace API {
       }
 
       namespace GetOrgPublicKey {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -189,10 +177,6 @@ declare namespace API {
       }
 
       namespace DeleteRemoveSelectedRepoFromOrgSecret {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -207,10 +191,6 @@ declare namespace API {
       }
 
       namespace PutAddSelectedRepoToOrgSecret {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -225,10 +205,6 @@ declare namespace API {
       }
 
       namespace GetListSelectedReposForOrgSecret {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -267,11 +243,6 @@ declare namespace API {
           selected_repository_ids: number[];
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -285,10 +256,6 @@ declare namespace API {
       }
 
       namespace DeleteOrgSecret {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -302,10 +269,6 @@ declare namespace API {
       }
 
       namespace GetOrgSecret {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -340,11 +303,6 @@ declare namespace API {
           visibility: "all" | "private" | "selected";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -360,10 +318,6 @@ declare namespace API {
       }
 
       namespace GetListOrgSecrets {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -391,10 +345,6 @@ declare namespace API {
       }
 
       namespace GetAlert {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies a Dependabot alert in its repository.
@@ -439,11 +389,6 @@ declare namespace API {
           state: "dismissed" | "open";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies a Dependabot alert in its repository.
@@ -466,10 +411,6 @@ declare namespace API {
       }
 
       namespace GetListAlertsForRepo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -567,10 +508,6 @@ declare namespace API {
       }
 
       namespace GetRepoPublicKey {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -586,10 +523,6 @@ declare namespace API {
       }
 
       namespace DeleteRepoSecret {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -607,10 +540,6 @@ declare namespace API {
       }
 
       namespace GetRepoSecret {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -641,11 +570,6 @@ declare namespace API {
           key_id?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -665,10 +589,6 @@ declare namespace API {
       }
 
       namespace GetListRepoSecrets {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.

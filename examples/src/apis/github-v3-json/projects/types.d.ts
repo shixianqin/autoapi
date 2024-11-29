@@ -2,10 +2,6 @@ declare namespace API {
   namespace GithubV3Json {
     namespace Projects {
       namespace GetListForOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -46,11 +42,6 @@ declare namespace API {
           name: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -73,11 +64,6 @@ declare namespace API {
           position: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the card.
@@ -89,10 +75,6 @@ declare namespace API {
       }
 
       namespace DeleteCard {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the card.
@@ -102,10 +84,6 @@ declare namespace API {
       }
 
       namespace GetCard {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the card.
@@ -128,11 +106,6 @@ declare namespace API {
           note?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the card.
@@ -144,10 +117,6 @@ declare namespace API {
       }
 
       namespace GetListCards {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the column.
@@ -195,11 +164,6 @@ declare namespace API {
               content_type: string;
             };
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the column.
@@ -218,11 +182,6 @@ declare namespace API {
           position: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the column.
@@ -234,10 +193,6 @@ declare namespace API {
       }
 
       namespace DeleteColumn {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the column.
@@ -247,10 +202,6 @@ declare namespace API {
       }
 
       namespace GetColumn {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the column.
@@ -269,11 +220,6 @@ declare namespace API {
           name: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the column.
@@ -285,10 +231,6 @@ declare namespace API {
       }
 
       namespace GetPermissionForUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the project.
@@ -304,10 +246,6 @@ declare namespace API {
       }
 
       namespace DeleteRemoveCollaborator {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the project.
@@ -329,11 +267,6 @@ declare namespace API {
           permission?: "admin" | "read" | "write";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the project.
@@ -347,10 +280,6 @@ declare namespace API {
       }
 
       namespace GetListCollaborators {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the project.
@@ -380,10 +309,6 @@ declare namespace API {
       }
 
       namespace GetListColumns {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the project.
@@ -415,11 +340,6 @@ declare namespace API {
           name: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the project.
@@ -431,10 +351,6 @@ declare namespace API {
       }
 
       namespace DeleteProjects {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the project.
@@ -444,10 +360,6 @@ declare namespace API {
       }
 
       namespace GetProjects {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the project.
@@ -482,11 +394,6 @@ declare namespace API {
           state?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the project.
@@ -498,10 +405,6 @@ declare namespace API {
       }
 
       namespace GetListForRepo {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -546,11 +449,6 @@ declare namespace API {
           name: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -577,19 +475,10 @@ declare namespace API {
           name: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         type Response = $schemas.Project;
       }
 
       namespace GetListForUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The handle for the GitHub user account.

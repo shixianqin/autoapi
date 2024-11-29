@@ -6,7 +6,7 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/2/openapi.json`
  */
 export function getOpenApiSpec(options?: {
-  headers?: API.TwitterV3Json.General.GetOpenApiSpec.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -25,7 +25,7 @@ export function getOpenApiSpec(options?: {
  */
 export function getRuleCount(options?: {
   queryParams?: API.TwitterV3Json.General.GetRuleCount.QueryParams;
-  headers?: API.TwitterV3Json.General.GetRuleCount.Headers;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

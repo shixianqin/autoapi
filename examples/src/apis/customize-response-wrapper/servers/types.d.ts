@@ -2,10 +2,6 @@ declare namespace API {
   namespace CustomizeResponseWrapper {
     namespace Servers {
       namespace GetServerOptions {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The target language for the server framework
@@ -56,10 +52,6 @@ declare namespace API {
       namespace GenerateServerForLanguage {
         type Body = $schemas.GeneratorInput;
 
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           framework:
             | "ada-server"
@@ -103,10 +95,6 @@ declare namespace API {
       }
 
       namespace ServerOptions {
-        interface Headers {
-          [P: string]: any;
-        }
-
         type Response = ResponseWrapper<string[]>;
       }
     }

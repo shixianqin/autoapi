@@ -2,10 +2,6 @@ declare namespace API {
   namespace GithubV3Json {
     namespace Teams {
       namespace DeleteDiscussionCommentInOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the comment.
@@ -27,10 +23,6 @@ declare namespace API {
       }
 
       namespace GetDiscussionCommentInOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the comment.
@@ -61,11 +53,6 @@ declare namespace API {
           body: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the comment.
@@ -89,10 +76,6 @@ declare namespace API {
       }
 
       namespace GetListDiscussionCommentsInOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the discussion.
@@ -137,11 +120,6 @@ declare namespace API {
           body: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the discussion.
@@ -161,10 +139,6 @@ declare namespace API {
       }
 
       namespace DeleteDiscussionInOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the discussion.
@@ -182,10 +156,6 @@ declare namespace API {
       }
 
       namespace GetDiscussionInOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the discussion.
@@ -216,11 +186,6 @@ declare namespace API {
           title?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the discussion.
@@ -240,10 +205,6 @@ declare namespace API {
       }
 
       namespace GetListDiscussionsInOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -296,11 +257,6 @@ declare namespace API {
           title: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -316,10 +272,6 @@ declare namespace API {
       }
 
       namespace GetListPendingInvitationsInOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -348,10 +300,6 @@ declare namespace API {
       }
 
       namespace GetListMembersInOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -385,10 +333,6 @@ declare namespace API {
       }
 
       namespace DeleteRemoveMembershipForUserInOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -406,10 +350,6 @@ declare namespace API {
       }
 
       namespace GetMembershipForUserInOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -437,11 +377,6 @@ declare namespace API {
           role?: "maintainer" | "member";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -461,10 +396,6 @@ declare namespace API {
       }
 
       namespace DeleteRemoveProjectInOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -482,10 +413,6 @@ declare namespace API {
       }
 
       namespace GetCheckPermissionsForProjectInOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -512,11 +439,6 @@ declare namespace API {
           permission?: "admin" | "read" | "write";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -534,10 +456,6 @@ declare namespace API {
       }
 
       namespace GetListProjectsInOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -566,10 +484,6 @@ declare namespace API {
       }
 
       namespace DeleteRemoveRepoInOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -591,10 +505,6 @@ declare namespace API {
       }
 
       namespace GetCheckPermissionsForRepoInOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -626,11 +536,6 @@ declare namespace API {
           permission?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -652,10 +557,6 @@ declare namespace API {
       }
 
       namespace GetListReposInOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -684,10 +585,6 @@ declare namespace API {
       }
 
       namespace GetListChildInOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -716,10 +613,6 @@ declare namespace API {
       }
 
       namespace DeleteInOrg {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -733,10 +626,6 @@ declare namespace API {
       }
 
       namespace GetByName {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -781,11 +670,6 @@ declare namespace API {
           privacy?: "closed" | "secret";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -801,10 +685,6 @@ declare namespace API {
       }
 
       namespace GetList {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -868,11 +748,6 @@ declare namespace API {
           repo_names?: string[];
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The organization name. The name is not case sensitive.
@@ -884,10 +759,6 @@ declare namespace API {
       }
 
       namespace DeleteDiscussionCommentLegacy {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the comment.
@@ -905,10 +776,6 @@ declare namespace API {
       }
 
       namespace GetDiscussionCommentLegacy {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the comment.
@@ -935,11 +802,6 @@ declare namespace API {
           body: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the comment.
@@ -959,10 +821,6 @@ declare namespace API {
       }
 
       namespace GetListDiscussionCommentsLegacy {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the discussion.
@@ -1003,11 +861,6 @@ declare namespace API {
           body: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the discussion.
@@ -1023,10 +876,6 @@ declare namespace API {
       }
 
       namespace DeleteDiscussionLegacy {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the discussion.
@@ -1040,10 +889,6 @@ declare namespace API {
       }
 
       namespace GetDiscussionLegacy {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the discussion.
@@ -1070,11 +915,6 @@ declare namespace API {
           title?: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The number that identifies the discussion.
@@ -1090,10 +930,6 @@ declare namespace API {
       }
 
       namespace GetListDiscussionsLegacy {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the team.
@@ -1138,11 +974,6 @@ declare namespace API {
           title: string;
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the team.
@@ -1154,10 +985,6 @@ declare namespace API {
       }
 
       namespace GetListPendingInvitationsLegacy {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the team.
@@ -1182,10 +1009,6 @@ declare namespace API {
       }
 
       namespace DeleteRemoveMemberLegacy {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the team.
@@ -1199,10 +1022,6 @@ declare namespace API {
       }
 
       namespace GetMemberLegacy {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the team.
@@ -1216,10 +1035,6 @@ declare namespace API {
       }
 
       namespace PutAddMemberLegacy {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the team.
@@ -1233,10 +1048,6 @@ declare namespace API {
       }
 
       namespace GetListMembersLegacy {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the team.
@@ -1266,10 +1077,6 @@ declare namespace API {
       }
 
       namespace DeleteRemoveMembershipForUserLegacy {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the team.
@@ -1283,10 +1090,6 @@ declare namespace API {
       }
 
       namespace GetMembershipForUserLegacy {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the team.
@@ -1310,11 +1113,6 @@ declare namespace API {
           role?: "maintainer" | "member";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the team.
@@ -1330,10 +1128,6 @@ declare namespace API {
       }
 
       namespace DeleteRemoveProjectLegacy {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the project.
@@ -1347,10 +1141,6 @@ declare namespace API {
       }
 
       namespace GetCheckPermissionsForProjectLegacy {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the project.
@@ -1373,11 +1163,6 @@ declare namespace API {
           permission?: "admin" | "read" | "write";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the project.
@@ -1391,10 +1176,6 @@ declare namespace API {
       }
 
       namespace GetListProjectsLegacy {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the team.
@@ -1419,10 +1200,6 @@ declare namespace API {
       }
 
       namespace DeleteRemoveRepoLegacy {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1440,10 +1217,6 @@ declare namespace API {
       }
 
       namespace GetCheckPermissionsForRepoLegacy {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1470,11 +1243,6 @@ declare namespace API {
           permission?: "admin" | "pull" | "push";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The account owner of the repository. The name is not case sensitive.
@@ -1492,10 +1260,6 @@ declare namespace API {
       }
 
       namespace GetListReposLegacy {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the team.
@@ -1520,10 +1284,6 @@ declare namespace API {
       }
 
       namespace GetListChildLegacy {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the team.
@@ -1548,10 +1308,6 @@ declare namespace API {
       }
 
       namespace DeleteLegacy {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the team.
@@ -1561,10 +1317,6 @@ declare namespace API {
       }
 
       namespace GetLegacy {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the team.
@@ -1605,11 +1357,6 @@ declare namespace API {
           privacy?: "closed" | "secret";
         }
 
-        interface Headers {
-          "Content-Type"?: "application/json" | string;
-          [P: string]: any;
-        }
-
         interface PathParams {
           /**
            * The unique identifier of the team.
@@ -1621,10 +1368,6 @@ declare namespace API {
       }
 
       namespace GetListForAuthenticatedUser {
-        interface Headers {
-          [P: string]: any;
-        }
-
         interface QueryParams {
           /**
            * Page number of the results to fetch.
