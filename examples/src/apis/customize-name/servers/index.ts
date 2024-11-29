@@ -1,4 +1,4 @@
-import { request } from "@/adapter";
+import { request, type RequestConfig, type RequestContext } from "@/adapter";
 
 /**
  * Returns options for a server framework
@@ -7,8 +7,8 @@ import { request } from "@/adapter";
 export function getServerOptions(options: {
   pathParams: API.CustomizeName.Servers.GetServerOptions.PathParams;
   headers?: API.CustomizeName.Servers.GetServerOptions.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeName.Servers.GetServerOptions.Response>(
     "get",
@@ -26,8 +26,8 @@ export function postGenerateServerForLanguage(options: {
   pathParams: API.CustomizeName.Servers.PostGenerateServerForLanguage.PathParams;
   headers?: API.CustomizeName.Servers.PostGenerateServerForLanguage.Headers;
   body?: API.CustomizeName.Servers.PostGenerateServerForLanguage.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeName.Servers.PostGenerateServerForLanguage.Response>(
     "post",
@@ -42,8 +42,8 @@ export function postGenerateServerForLanguage(options: {
  */
 export function getServers_CustomizeNamed(options?: {
   headers?: API.CustomizeName.Servers.GetServersCustomizeNamed.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeName.Servers.GetServersCustomizeNamed.Response>(
     "get",

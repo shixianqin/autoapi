@@ -1,4 +1,4 @@
-import { request } from "@/adapter";
+import { request, type RequestConfig, type RequestContext } from "@/adapter";
 
 /**
  * List the distributions that are associated with a specified WAF web ACL.
@@ -8,8 +8,8 @@ export function getList(options: {
   pathParams: API.CustomizeTagAndName.DistributionsByWebAclId.GetList.PathParams;
   queryParams?: API.CustomizeTagAndName.DistributionsByWebAclId.GetList.QueryParams;
   headers?: API.CustomizeTagAndName.DistributionsByWebAclId.GetList.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.DistributionsByWebAclId.GetList.Response>(
     "get",

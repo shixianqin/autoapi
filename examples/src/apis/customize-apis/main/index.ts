@@ -1,12 +1,12 @@
-import { request } from "@/adapter";
+import { request, type RequestConfig, type RequestContext } from "@/adapter";
 
 /**
  * @path `/customize/path/to/categories`
  */
 export function getCustomizePathToCategories(options?: {
   queryParams?: API.CustomizeApis.Main.GetCustomizePathToCategories.QueryParams;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeApis.Main.GetCustomizePathToCategories.Response>(
     "get",
@@ -21,8 +21,8 @@ export function getCustomizePathToCategories(options?: {
  */
 export function postCreate(options: {
   formData: API.CustomizeApis.Main.PostCreate.FormData;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeApis.Main.PostCreate.Response>(
     "post",
@@ -36,8 +36,8 @@ export function postCreate(options: {
  */
 export function getCustomizePathToMedia(options: {
   queryParams: API.CustomizeApis.Main.GetCustomizePathToMedia.QueryParams;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeApis.Main.GetCustomizePathToMedia.Response>(
     "get",

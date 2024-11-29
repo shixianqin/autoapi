@@ -1,4 +1,4 @@
-import { request } from "@/adapter";
+import { request, type RequestConfig, type RequestContext } from "@/adapter";
 
 /**
  * Lists the codespaces associated to a specified repository and the authenticated user.
@@ -14,8 +14,8 @@ export function getListInRepositoryForAuthenticatedUser(options: {
   pathParams: API.CustomizeParseUnsuccessfulResponses.Codespaces.GetListInRepositoryForAuthenticatedUser.PathParams;
   queryParams?: API.CustomizeParseUnsuccessfulResponses.Codespaces.GetListInRepositoryForAuthenticatedUser.QueryParams;
   headers?: API.CustomizeParseUnsuccessfulResponses.Codespaces.GetListInRepositoryForAuthenticatedUser.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeParseUnsuccessfulResponses.Codespaces.GetListInRepositoryForAuthenticatedUser.Response>(
     "get",
@@ -38,8 +38,8 @@ export function postCreateWithRepoForAuthenticatedUser(options: {
   pathParams: API.CustomizeParseUnsuccessfulResponses.Codespaces.PostCreateWithRepoForAuthenticatedUser.PathParams;
   headers?: API.CustomizeParseUnsuccessfulResponses.Codespaces.PostCreateWithRepoForAuthenticatedUser.Headers;
   body?: API.CustomizeParseUnsuccessfulResponses.Codespaces.PostCreateWithRepoForAuthenticatedUser.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeParseUnsuccessfulResponses.Codespaces.PostCreateWithRepoForAuthenticatedUser.Response>(
     "post",

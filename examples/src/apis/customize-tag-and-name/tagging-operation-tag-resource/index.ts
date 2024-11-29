@@ -1,4 +1,4 @@
-import { request } from "@/adapter";
+import { request, type RequestConfig, type RequestContext } from "@/adapter";
 
 /**
  * Add tags to a CloudFront resource.
@@ -8,8 +8,8 @@ export function postTagResource(options: {
   queryParams: API.CustomizeTagAndName.TaggingOperationTagResource.PostTagResource.QueryParams;
   headers?: API.CustomizeTagAndName.TaggingOperationTagResource.PostTagResource.Headers;
   body: API.CustomizeTagAndName.TaggingOperationTagResource.PostTagResource.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<any>(
     "post",

@@ -1,4 +1,4 @@
-import { request } from "@/adapter";
+import { request, type RequestConfig, type RequestContext } from "@/adapter";
 
 /**
  * <p>Updates a real-time log configuration.</p> <p>When you update a real-time log configuration, all the parameters are updated with the values provided in the request. You cannot update some parameters independent of others. To update a real-time log configuration:</p> <ol> <li> <p>Call <code>GetRealtimeLogConfig</code> to get the current real-time log configuration.</p> </li> <li> <p>Locally modify the parameters in the real-time log configuration that you want to update.</p> </li> <li> <p>Call this API (<code>UpdateRealtimeLogConfig</code>) by providing the entire real-time log configuration, including the parameters that you modified and those that you didn't.</p> </li> </ol> <p>You cannot update a real-time log configuration's <code>Name</code> or <code>ARN</code>.</p>
@@ -7,8 +7,8 @@ import { request } from "@/adapter";
 export function putUpdate(options?: {
   headers?: API.CustomizeTagAndName.RealtimeLogConfig.PutUpdate.Headers;
   body?: API.CustomizeTagAndName.RealtimeLogConfig.PutUpdate.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.RealtimeLogConfig.PutUpdate.Response>(
     "put",
@@ -24,8 +24,8 @@ export function putUpdate(options?: {
 export function getListRealtimeLogConfigs(options?: {
   queryParams?: API.CustomizeTagAndName.RealtimeLogConfig.GetListRealtimeLogConfigs.QueryParams;
   headers?: API.CustomizeTagAndName.RealtimeLogConfig.GetListRealtimeLogConfigs.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.RealtimeLogConfig.GetListRealtimeLogConfigs.Response>(
     "get",
@@ -41,8 +41,8 @@ export function getListRealtimeLogConfigs(options?: {
 export function postCreate(options: {
   headers?: API.CustomizeTagAndName.RealtimeLogConfig.PostCreate.Headers;
   body: API.CustomizeTagAndName.RealtimeLogConfig.PostCreate.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.RealtimeLogConfig.PostCreate.Response>(
     "post",

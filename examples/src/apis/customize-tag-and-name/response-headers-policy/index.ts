@@ -1,4 +1,4 @@
-import { request } from "@/adapter";
+import { request, type RequestConfig, type RequestContext } from "@/adapter";
 
 /**
  * <p>Gets a response headers policy configuration.</p> <p>To get a response headers policy configuration, you must provide the policy's identifier. If the response headers policy is attached to a distribution's cache behavior, you can get the policy's identifier using <code>ListDistributions</code> or <code>GetDistribution</code>. If the response headers policy is not attached to a cache behavior, you can get the identifier using <code>ListResponseHeadersPolicies</code>.</p>
@@ -7,8 +7,8 @@ import { request } from "@/adapter";
 export function getConfig(options: {
   pathParams: API.CustomizeTagAndName.ResponseHeadersPolicy.GetConfig.PathParams;
   headers?: API.CustomizeTagAndName.ResponseHeadersPolicy.GetConfig.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.ResponseHeadersPolicy.GetConfig.Response>(
     "get",
@@ -24,8 +24,8 @@ export function getConfig(options: {
 export function deleteResponseHeadersPolicy(options: {
   pathParams: API.CustomizeTagAndName.ResponseHeadersPolicy.DeleteResponseHeadersPolicy.PathParams;
   headers?: API.CustomizeTagAndName.ResponseHeadersPolicy.DeleteResponseHeadersPolicy.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<any>(
     "delete",
@@ -41,8 +41,8 @@ export function deleteResponseHeadersPolicy(options: {
 export function getResponseHeadersPolicy(options: {
   pathParams: API.CustomizeTagAndName.ResponseHeadersPolicy.GetResponseHeadersPolicy.PathParams;
   headers?: API.CustomizeTagAndName.ResponseHeadersPolicy.GetResponseHeadersPolicy.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.ResponseHeadersPolicy.GetResponseHeadersPolicy.Response>(
     "get",
@@ -59,8 +59,8 @@ export function putUpdate(options: {
   pathParams: API.CustomizeTagAndName.ResponseHeadersPolicy.PutUpdate.PathParams;
   headers?: API.CustomizeTagAndName.ResponseHeadersPolicy.PutUpdate.Headers;
   body: API.CustomizeTagAndName.ResponseHeadersPolicy.PutUpdate.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.ResponseHeadersPolicy.PutUpdate.Response>(
     "put",
@@ -76,8 +76,8 @@ export function putUpdate(options: {
 export function getListResponseHeadersPolicies(options?: {
   queryParams?: API.CustomizeTagAndName.ResponseHeadersPolicy.GetListResponseHeadersPolicies.QueryParams;
   headers?: API.CustomizeTagAndName.ResponseHeadersPolicy.GetListResponseHeadersPolicies.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.ResponseHeadersPolicy.GetListResponseHeadersPolicies.Response>(
     "get",
@@ -93,8 +93,8 @@ export function getListResponseHeadersPolicies(options?: {
 export function postCreate(options: {
   headers?: API.CustomizeTagAndName.ResponseHeadersPolicy.PostCreate.Headers;
   body: API.CustomizeTagAndName.ResponseHeadersPolicy.PostCreate.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.ResponseHeadersPolicy.PostCreate.Response>(
     "post",

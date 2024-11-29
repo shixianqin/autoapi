@@ -1,4 +1,4 @@
-import { request } from "@/adapter";
+import { request, type RequestConfig, type RequestContext } from "@/adapter";
 
 /**
  * Returns options for a client library
@@ -7,8 +7,8 @@ import { request } from "@/adapter";
 export function getClientOptions(options: {
   pathParams: API.CustomizeName.Clients.GetClientOptions.PathParams;
   headers?: API.CustomizeName.Clients.GetClientOptions.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeName.Clients.GetClientOptions.Response>(
     "get",
@@ -26,8 +26,8 @@ export function postGenerateClient(options: {
   pathParams: API.CustomizeName.Clients.PostGenerateClient.PathParams;
   headers?: API.CustomizeName.Clients.PostGenerateClient.Headers;
   body?: API.CustomizeName.Clients.PostGenerateClient.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeName.Clients.PostGenerateClient.Response>(
     "post",
@@ -42,8 +42,8 @@ export function postGenerateClient(options: {
  */
 export function getClients_CustomizeNamed(options?: {
   headers?: API.CustomizeName.Clients.GetClientsCustomizeNamed.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeName.Clients.GetClientsCustomizeNamed.Response>(
     "get",
@@ -60,8 +60,8 @@ export function getClients_CustomizeNamed(options?: {
 export function getDownloadFile(options: {
   pathParams: API.CustomizeName.Clients.GetDownloadFile.PathParams;
   headers?: API.CustomizeName.Clients.GetDownloadFile.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeName.Clients.GetDownloadFile.Response>(
     "get",

@@ -1,4 +1,4 @@
-import { request } from "@/adapter";
+import { request, type RequestConfig, type RequestContext } from "@/adapter";
 
 /**
  * GitHub provides several timeline resources in [Atom](http://en.wikipedia.org/wiki/Atom_(standard)) format. The Feeds API lists all the feeds available to the authenticated user:
@@ -17,8 +17,8 @@ import { request } from "@/adapter";
  */
 export function getFeeds(options?: {
   headers?: API.CustomizeFilter.Activity.GetFeeds.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeFilter.Activity.GetFeeds.Response>(
     "get",

@@ -1,4 +1,4 @@
-import { request } from "@/adapter";
+import { request, type RequestConfig, type RequestContext } from "@/adapter";
 
 /**
  * Remove tags from a CloudFront resource.
@@ -8,8 +8,8 @@ export function postUntagResource(options: {
   queryParams: API.CustomizeTagAndName.TaggingOperationUntagResource.PostUntagResource.QueryParams;
   headers?: API.CustomizeTagAndName.TaggingOperationUntagResource.PostUntagResource.Headers;
   body: API.CustomizeTagAndName.TaggingOperationUntagResource.PostUntagResource.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<any>(
     "post",

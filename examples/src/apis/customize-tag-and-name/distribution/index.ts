@@ -1,4 +1,4 @@
-import { request } from "@/adapter";
+import { request, type RequestConfig, type RequestContext } from "@/adapter";
 
 /**
  * Get the information about an invalidation.
@@ -7,8 +7,8 @@ import { request } from "@/adapter";
 export function getInvalidation(options: {
   pathParams: API.CustomizeTagAndName.Distribution.GetInvalidation.PathParams;
   headers?: API.CustomizeTagAndName.Distribution.GetInvalidation.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.Distribution.GetInvalidation.Response>(
     "get",
@@ -25,8 +25,8 @@ export function getListInvalidations(options: {
   pathParams: API.CustomizeTagAndName.Distribution.GetListInvalidations.PathParams;
   queryParams?: API.CustomizeTagAndName.Distribution.GetListInvalidations.QueryParams;
   headers?: API.CustomizeTagAndName.Distribution.GetListInvalidations.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.Distribution.GetListInvalidations.Response>(
     "get",
@@ -43,8 +43,8 @@ export function postCreateInvalidation(options: {
   pathParams: API.CustomizeTagAndName.Distribution.PostCreateInvalidation.PathParams;
   headers?: API.CustomizeTagAndName.Distribution.PostCreateInvalidation.Headers;
   body: API.CustomizeTagAndName.Distribution.PostCreateInvalidation.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.Distribution.PostCreateInvalidation.Response>(
     "post",
@@ -60,8 +60,8 @@ export function postCreateInvalidation(options: {
 export function getConfig(options: {
   pathParams: API.CustomizeTagAndName.Distribution.GetConfig.PathParams;
   headers?: API.CustomizeTagAndName.Distribution.GetConfig.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.Distribution.GetConfig.Response>(
     "get",
@@ -78,8 +78,8 @@ export function putUpdate(options: {
   pathParams: API.CustomizeTagAndName.Distribution.PutUpdate.PathParams;
   headers?: API.CustomizeTagAndName.Distribution.PutUpdate.Headers;
   body: API.CustomizeTagAndName.Distribution.PutUpdate.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.Distribution.PutUpdate.Response>(
     "put",
@@ -96,8 +96,8 @@ export function putUpdateWithStagingConfig(options: {
   pathParams: API.CustomizeTagAndName.Distribution.PutUpdateWithStagingConfig.PathParams;
   queryParams?: API.CustomizeTagAndName.Distribution.PutUpdateWithStagingConfig.QueryParams;
   headers?: API.CustomizeTagAndName.Distribution.PutUpdateWithStagingConfig.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.Distribution.PutUpdateWithStagingConfig.Response>(
     "put",
@@ -113,8 +113,8 @@ export function putUpdateWithStagingConfig(options: {
 export function deleteDistribution(options: {
   pathParams: API.CustomizeTagAndName.Distribution.DeleteDistribution.PathParams;
   headers?: API.CustomizeTagAndName.Distribution.DeleteDistribution.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<any>(
     "delete",
@@ -130,8 +130,8 @@ export function deleteDistribution(options: {
 export function getDistribution(options: {
   pathParams: API.CustomizeTagAndName.Distribution.GetDistribution.PathParams;
   headers?: API.CustomizeTagAndName.Distribution.GetDistribution.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.Distribution.GetDistribution.Response>(
     "get",
@@ -148,8 +148,8 @@ export function postCopy(options: {
   pathParams: API.CustomizeTagAndName.Distribution.PostCopy.PathParams;
   headers?: API.CustomizeTagAndName.Distribution.PostCopy.Headers;
   body: API.CustomizeTagAndName.Distribution.PostCopy.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.Distribution.PostCopy.Response>(
     "post",
@@ -166,8 +166,8 @@ export function putAssociateAlias(options: {
   pathParams: API.CustomizeTagAndName.Distribution.PutAssociateAlias.PathParams;
   queryParams: API.CustomizeTagAndName.Distribution.PutAssociateAlias.QueryParams;
   headers?: API.CustomizeTagAndName.Distribution.PutAssociateAlias.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<any>(
     "put",
@@ -183,8 +183,8 @@ export function putAssociateAlias(options: {
 export function getListDistributions(options?: {
   queryParams?: API.CustomizeTagAndName.Distribution.GetListDistributions.QueryParams;
   headers?: API.CustomizeTagAndName.Distribution.GetListDistributions.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.Distribution.GetListDistributions.Response>(
     "get",
@@ -200,8 +200,8 @@ export function getListDistributions(options?: {
 export function postCreate(options: {
   headers?: API.CustomizeTagAndName.Distribution.PostCreate.Headers;
   body: API.CustomizeTagAndName.Distribution.PostCreate.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.Distribution.PostCreate.Response>(
     "post",

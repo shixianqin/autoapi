@@ -1,4 +1,4 @@
-import { request } from "@/adapter";
+import { request, type RequestConfig, type RequestContext } from "@/adapter";
 
 /**
  * @path `/wp/v2/media`
@@ -6,8 +6,8 @@ import { request } from "@/adapter";
 export function getWpV2(options?: {
   queryParams?: API.CustomizeResponses.Media.GetWpV2.QueryParams;
   headers?: API.CustomizeResponses.Media.GetWpV2.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeResponses.Media.GetWpV2.Response>(
     "get",
@@ -22,8 +22,8 @@ export function getWpV2(options?: {
 export function postWpV2(options?: {
   headers?: API.CustomizeResponses.Media.PostWpV2.Headers;
   formData?: API.CustomizeResponses.Media.PostWpV2.FormData;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<any>("post", "/wp/v2/media", options || {});
 }

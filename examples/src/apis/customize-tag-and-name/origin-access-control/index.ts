@@ -1,4 +1,4 @@
-import { request } from "@/adapter";
+import { request, type RequestConfig, type RequestContext } from "@/adapter";
 
 /**
  * Gets a CloudFront origin access control configuration.
@@ -7,8 +7,8 @@ import { request } from "@/adapter";
 export function getConfig(options: {
   pathParams: API.CustomizeTagAndName.OriginAccessControl.GetConfig.PathParams;
   headers?: API.CustomizeTagAndName.OriginAccessControl.GetConfig.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.OriginAccessControl.GetConfig.Response>(
     "get",
@@ -25,8 +25,8 @@ export function putUpdate(options: {
   pathParams: API.CustomizeTagAndName.OriginAccessControl.PutUpdate.PathParams;
   headers?: API.CustomizeTagAndName.OriginAccessControl.PutUpdate.Headers;
   body: API.CustomizeTagAndName.OriginAccessControl.PutUpdate.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.OriginAccessControl.PutUpdate.Response>(
     "put",
@@ -42,8 +42,8 @@ export function putUpdate(options: {
 export function deleteOriginAccessControl(options: {
   pathParams: API.CustomizeTagAndName.OriginAccessControl.DeleteOriginAccessControl.PathParams;
   headers?: API.CustomizeTagAndName.OriginAccessControl.DeleteOriginAccessControl.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<any>(
     "delete",
@@ -59,8 +59,8 @@ export function deleteOriginAccessControl(options: {
 export function getOriginAccessControl(options: {
   pathParams: API.CustomizeTagAndName.OriginAccessControl.GetOriginAccessControl.PathParams;
   headers?: API.CustomizeTagAndName.OriginAccessControl.GetOriginAccessControl.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.OriginAccessControl.GetOriginAccessControl.Response>(
     "get",
@@ -76,8 +76,8 @@ export function getOriginAccessControl(options: {
 export function getListOriginAccessControls(options?: {
   queryParams?: API.CustomizeTagAndName.OriginAccessControl.GetListOriginAccessControls.QueryParams;
   headers?: API.CustomizeTagAndName.OriginAccessControl.GetListOriginAccessControls.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.OriginAccessControl.GetListOriginAccessControls.Response>(
     "get",
@@ -93,8 +93,8 @@ export function getListOriginAccessControls(options?: {
 export function postCreate(options: {
   headers?: API.CustomizeTagAndName.OriginAccessControl.PostCreate.Headers;
   body: API.CustomizeTagAndName.OriginAccessControl.PostCreate.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.OriginAccessControl.PostCreate.Response>(
     "post",

@@ -1,4 +1,4 @@
-import { request } from "@/adapter";
+import { request, type RequestConfig, type RequestContext } from "@/adapter";
 
 /**
  * Gets the total GitHub Actions cache usage for an organization.
@@ -11,8 +11,8 @@ import { request } from "@/adapter";
 export function getCacheUsageForOrg(options: {
   pathParams: API.CustomizeFilter.Actions.GetCacheUsageForOrg.PathParams;
   headers?: API.CustomizeFilter.Actions.GetCacheUsageForOrg.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeFilter.Actions.GetCacheUsageForOrg.Response>(
     "get",

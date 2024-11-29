@@ -1,4 +1,4 @@
-import { request } from "@/adapter";
+import { request, type RequestConfig, type RequestContext } from "@/adapter";
 
 /**
  * Returns options for a server framework
@@ -7,8 +7,8 @@ import { request } from "@/adapter";
 export function getServerOptions(options: {
   pathParams: API.CustomizeResponseWrapper.Servers.GetServerOptions.PathParams;
   headers?: API.CustomizeResponseWrapper.Servers.GetServerOptions.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeResponseWrapper.Servers.GetServerOptions.Response>(
     "get",
@@ -26,8 +26,8 @@ export function generateServerForLanguage(options: {
   pathParams: API.CustomizeResponseWrapper.Servers.GenerateServerForLanguage.PathParams;
   headers?: API.CustomizeResponseWrapper.Servers.GenerateServerForLanguage.Headers;
   body?: API.CustomizeResponseWrapper.Servers.GenerateServerForLanguage.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeResponseWrapper.Servers.GenerateServerForLanguage.Response>(
     "post",
@@ -42,8 +42,8 @@ export function generateServerForLanguage(options: {
  */
 export function serverOptions(options?: {
   headers?: API.CustomizeResponseWrapper.Servers.ServerOptions.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeResponseWrapper.Servers.ServerOptions.Response>(
     "get",

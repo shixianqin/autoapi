@@ -1,4 +1,4 @@
-import { request } from "@/adapter";
+import { request, type RequestConfig, type RequestContext } from "@/adapter";
 
 /**
  * @path `/wp/v2/categories`
@@ -6,8 +6,8 @@ import { request } from "@/adapter";
 export function getWpV2(options?: {
   queryParams?: API.CustomizeResponses.Categories.GetWpV2.QueryParams;
   headers?: API.CustomizeResponses.Categories.GetWpV2.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeResponses.Categories.GetWpV2.Response>(
     "get",
@@ -22,8 +22,8 @@ export function getWpV2(options?: {
 export function postWpV2(options: {
   headers?: API.CustomizeResponses.Categories.PostWpV2.Headers;
   formData: API.CustomizeResponses.Categories.PostWpV2.FormData;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<any>("post", "/wp/v2/categories", options);
 }

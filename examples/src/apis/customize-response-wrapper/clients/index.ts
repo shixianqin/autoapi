@@ -1,4 +1,4 @@
-import { request } from "@/adapter";
+import { request, type RequestConfig, type RequestContext } from "@/adapter";
 
 /**
  * Returns options for a client library
@@ -7,8 +7,8 @@ import { request } from "@/adapter";
 export function getClientOptions(options: {
   pathParams: API.CustomizeResponseWrapper.Clients.GetClientOptions.PathParams;
   headers?: API.CustomizeResponseWrapper.Clients.GetClientOptions.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeResponseWrapper.Clients.GetClientOptions.Response>(
     "get",
@@ -26,8 +26,8 @@ export function generateClient(options: {
   pathParams: API.CustomizeResponseWrapper.Clients.GenerateClient.PathParams;
   headers?: API.CustomizeResponseWrapper.Clients.GenerateClient.Headers;
   body?: API.CustomizeResponseWrapper.Clients.GenerateClient.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeResponseWrapper.Clients.GenerateClient.Response>(
     "post",
@@ -42,8 +42,8 @@ export function generateClient(options: {
  */
 export function clientOptions(options?: {
   headers?: API.CustomizeResponseWrapper.Clients.ClientOptions.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeResponseWrapper.Clients.ClientOptions.Response>(
     "get",
@@ -60,8 +60,8 @@ export function clientOptions(options?: {
 export function downloadFile(options: {
   pathParams: API.CustomizeResponseWrapper.Clients.DownloadFile.PathParams;
   headers?: API.CustomizeResponseWrapper.Clients.DownloadFile.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeResponseWrapper.Clients.DownloadFile.Response>(
     "get",

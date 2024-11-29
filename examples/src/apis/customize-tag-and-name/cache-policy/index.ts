@@ -1,4 +1,4 @@
-import { request } from "@/adapter";
+import { request, type RequestConfig, type RequestContext } from "@/adapter";
 
 /**
  * <p>Gets a cache policy configuration.</p> <p>To get a cache policy configuration, you must provide the policy's identifier. If the cache policy is attached to a distribution's cache behavior, you can get the policy's identifier using <code>ListDistributions</code> or <code>GetDistribution</code>. If the cache policy is not attached to a cache behavior, you can get the identifier using <code>ListCachePolicies</code>.</p>
@@ -7,8 +7,8 @@ import { request } from "@/adapter";
 export function getConfig(options: {
   pathParams: API.CustomizeTagAndName.CachePolicy.GetConfig.PathParams;
   headers?: API.CustomizeTagAndName.CachePolicy.GetConfig.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.CachePolicy.GetConfig.Response>(
     "get",
@@ -24,8 +24,8 @@ export function getConfig(options: {
 export function deleteCachePolicy(options: {
   pathParams: API.CustomizeTagAndName.CachePolicy.DeleteCachePolicy.PathParams;
   headers?: API.CustomizeTagAndName.CachePolicy.DeleteCachePolicy.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<any>(
     "delete",
@@ -41,8 +41,8 @@ export function deleteCachePolicy(options: {
 export function getCachePolicy(options: {
   pathParams: API.CustomizeTagAndName.CachePolicy.GetCachePolicy.PathParams;
   headers?: API.CustomizeTagAndName.CachePolicy.GetCachePolicy.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.CachePolicy.GetCachePolicy.Response>(
     "get",
@@ -59,8 +59,8 @@ export function putUpdate(options: {
   pathParams: API.CustomizeTagAndName.CachePolicy.PutUpdate.PathParams;
   headers?: API.CustomizeTagAndName.CachePolicy.PutUpdate.Headers;
   body: API.CustomizeTagAndName.CachePolicy.PutUpdate.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.CachePolicy.PutUpdate.Response>(
     "put",
@@ -76,8 +76,8 @@ export function putUpdate(options: {
 export function getListCachePolicies(options?: {
   queryParams?: API.CustomizeTagAndName.CachePolicy.GetListCachePolicies.QueryParams;
   headers?: API.CustomizeTagAndName.CachePolicy.GetListCachePolicies.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.CachePolicy.GetListCachePolicies.Response>(
     "get",
@@ -93,8 +93,8 @@ export function getListCachePolicies(options?: {
 export function postCreate(options: {
   headers?: API.CustomizeTagAndName.CachePolicy.PostCreate.Headers;
   body: API.CustomizeTagAndName.CachePolicy.PostCreate.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.CachePolicy.PostCreate.Response>(
     "post",

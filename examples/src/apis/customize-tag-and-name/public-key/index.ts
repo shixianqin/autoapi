@@ -1,4 +1,4 @@
-import { request } from "@/adapter";
+import { request, type RequestConfig, type RequestContext } from "@/adapter";
 
 /**
  * Gets a public key configuration.
@@ -7,8 +7,8 @@ import { request } from "@/adapter";
 export function getConfig(options: {
   pathParams: API.CustomizeTagAndName.PublicKey.GetConfig.PathParams;
   headers?: API.CustomizeTagAndName.PublicKey.GetConfig.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.PublicKey.GetConfig.Response>(
     "get",
@@ -25,8 +25,8 @@ export function putUpdate(options: {
   pathParams: API.CustomizeTagAndName.PublicKey.PutUpdate.PathParams;
   headers?: API.CustomizeTagAndName.PublicKey.PutUpdate.Headers;
   body: API.CustomizeTagAndName.PublicKey.PutUpdate.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.PublicKey.PutUpdate.Response>(
     "put",
@@ -42,8 +42,8 @@ export function putUpdate(options: {
 export function deletePublicKey(options: {
   pathParams: API.CustomizeTagAndName.PublicKey.DeletePublicKey.PathParams;
   headers?: API.CustomizeTagAndName.PublicKey.DeletePublicKey.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<any>(
     "delete",
@@ -59,8 +59,8 @@ export function deletePublicKey(options: {
 export function getPublicKey(options: {
   pathParams: API.CustomizeTagAndName.PublicKey.GetPublicKey.PathParams;
   headers?: API.CustomizeTagAndName.PublicKey.GetPublicKey.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.PublicKey.GetPublicKey.Response>(
     "get",
@@ -76,8 +76,8 @@ export function getPublicKey(options: {
 export function getListPublicKeys(options?: {
   queryParams?: API.CustomizeTagAndName.PublicKey.GetListPublicKeys.QueryParams;
   headers?: API.CustomizeTagAndName.PublicKey.GetListPublicKeys.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.PublicKey.GetListPublicKeys.Response>(
     "get",
@@ -93,8 +93,8 @@ export function getListPublicKeys(options?: {
 export function postCreate(options: {
   headers?: API.CustomizeTagAndName.PublicKey.PostCreate.Headers;
   body: API.CustomizeTagAndName.PublicKey.PostCreate.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.PublicKey.PostCreate.Response>(
     "post",

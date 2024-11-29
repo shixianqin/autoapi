@@ -1,4 +1,4 @@
-import { request } from "@/adapter";
+import { request, type RequestConfig, type RequestContext } from "@/adapter";
 
 /**
  * List tags for a CloudFront resource.
@@ -7,8 +7,8 @@ import { request } from "@/adapter";
 export function getListTagsForResource(options: {
   queryParams: API.CustomizeTagAndName.TaggingResource.GetListTagsForResource.QueryParams;
   headers?: API.CustomizeTagAndName.TaggingResource.GetListTagsForResource.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.TaggingResource.GetListTagsForResource.Response>(
     "get",

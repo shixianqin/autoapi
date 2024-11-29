@@ -468,7 +468,6 @@ export interface FilterPaths {
 
 ```ts
 export interface ParameterOptions {
-  assignType?: boolean
   required?: boolean
   disabled?: boolean
 }

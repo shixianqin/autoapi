@@ -1,4 +1,4 @@
-import { request } from "@/adapter";
+import { request, type RequestConfig, type RequestContext } from "@/adapter";
 
 /**
  * Get the configuration information about a streaming distribution.
@@ -7,8 +7,8 @@ import { request } from "@/adapter";
 export function getConfig(options: {
   pathParams: API.CustomizeTagAndName.StreamingDistribution.GetConfig.PathParams;
   headers?: API.CustomizeTagAndName.StreamingDistribution.GetConfig.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.StreamingDistribution.GetConfig.Response>(
     "get",
@@ -25,8 +25,8 @@ export function putUpdate(options: {
   pathParams: API.CustomizeTagAndName.StreamingDistribution.PutUpdate.PathParams;
   headers?: API.CustomizeTagAndName.StreamingDistribution.PutUpdate.Headers;
   body: API.CustomizeTagAndName.StreamingDistribution.PutUpdate.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.StreamingDistribution.PutUpdate.Response>(
     "put",
@@ -42,8 +42,8 @@ export function putUpdate(options: {
 export function deleteStreamingDistribution(options: {
   pathParams: API.CustomizeTagAndName.StreamingDistribution.DeleteStreamingDistribution.PathParams;
   headers?: API.CustomizeTagAndName.StreamingDistribution.DeleteStreamingDistribution.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<any>(
     "delete",
@@ -59,8 +59,8 @@ export function deleteStreamingDistribution(options: {
 export function getStreamingDistribution(options: {
   pathParams: API.CustomizeTagAndName.StreamingDistribution.GetStreamingDistribution.PathParams;
   headers?: API.CustomizeTagAndName.StreamingDistribution.GetStreamingDistribution.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.StreamingDistribution.GetStreamingDistribution.Response>(
     "get",
@@ -76,8 +76,8 @@ export function getStreamingDistribution(options: {
 export function getListStreamingDistributions(options?: {
   queryParams?: API.CustomizeTagAndName.StreamingDistribution.GetListStreamingDistributions.QueryParams;
   headers?: API.CustomizeTagAndName.StreamingDistribution.GetListStreamingDistributions.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.StreamingDistribution.GetListStreamingDistributions.Response>(
     "get",
@@ -93,8 +93,8 @@ export function getListStreamingDistributions(options?: {
 export function postCreate(options: {
   headers?: API.CustomizeTagAndName.StreamingDistribution.PostCreate.Headers;
   body: API.CustomizeTagAndName.StreamingDistribution.PostCreate.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.StreamingDistribution.PostCreate.Response>(
     "post",

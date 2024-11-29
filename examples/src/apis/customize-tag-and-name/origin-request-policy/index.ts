@@ -1,4 +1,4 @@
-import { request } from "@/adapter";
+import { request, type RequestConfig, type RequestContext } from "@/adapter";
 
 /**
  * <p>Gets an origin request policy configuration.</p> <p>To get an origin request policy configuration, you must provide the policy's identifier. If the origin request policy is attached to a distribution's cache behavior, you can get the policy's identifier using <code>ListDistributions</code> or <code>GetDistribution</code>. If the origin request policy is not attached to a cache behavior, you can get the identifier using <code>ListOriginRequestPolicies</code>.</p>
@@ -7,8 +7,8 @@ import { request } from "@/adapter";
 export function getConfig(options: {
   pathParams: API.CustomizeTagAndName.OriginRequestPolicy.GetConfig.PathParams;
   headers?: API.CustomizeTagAndName.OriginRequestPolicy.GetConfig.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.OriginRequestPolicy.GetConfig.Response>(
     "get",
@@ -24,8 +24,8 @@ export function getConfig(options: {
 export function deleteOriginRequestPolicy(options: {
   pathParams: API.CustomizeTagAndName.OriginRequestPolicy.DeleteOriginRequestPolicy.PathParams;
   headers?: API.CustomizeTagAndName.OriginRequestPolicy.DeleteOriginRequestPolicy.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<any>(
     "delete",
@@ -41,8 +41,8 @@ export function deleteOriginRequestPolicy(options: {
 export function getOriginRequestPolicy(options: {
   pathParams: API.CustomizeTagAndName.OriginRequestPolicy.GetOriginRequestPolicy.PathParams;
   headers?: API.CustomizeTagAndName.OriginRequestPolicy.GetOriginRequestPolicy.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.OriginRequestPolicy.GetOriginRequestPolicy.Response>(
     "get",
@@ -59,8 +59,8 @@ export function putUpdate(options: {
   pathParams: API.CustomizeTagAndName.OriginRequestPolicy.PutUpdate.PathParams;
   headers?: API.CustomizeTagAndName.OriginRequestPolicy.PutUpdate.Headers;
   body: API.CustomizeTagAndName.OriginRequestPolicy.PutUpdate.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.OriginRequestPolicy.PutUpdate.Response>(
     "put",
@@ -76,8 +76,8 @@ export function putUpdate(options: {
 export function getListOriginRequestPolicies(options?: {
   queryParams?: API.CustomizeTagAndName.OriginRequestPolicy.GetListOriginRequestPolicies.QueryParams;
   headers?: API.CustomizeTagAndName.OriginRequestPolicy.GetListOriginRequestPolicies.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.OriginRequestPolicy.GetListOriginRequestPolicies.Response>(
     "get",
@@ -93,8 +93,8 @@ export function getListOriginRequestPolicies(options?: {
 export function postCreate(options: {
   headers?: API.CustomizeTagAndName.OriginRequestPolicy.PostCreate.Headers;
   body: API.CustomizeTagAndName.OriginRequestPolicy.PostCreate.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.OriginRequestPolicy.PostCreate.Response>(
     "post",

@@ -1,4 +1,4 @@
-import { request } from "@/adapter";
+import { request, type RequestConfig, type RequestContext } from "@/adapter";
 
 /**
  * Get the field-level encryption configuration information.
@@ -7,8 +7,8 @@ import { request } from "@/adapter";
 export function getConfig(options: {
   pathParams: API.CustomizeTagAndName.FieldLevelEncryption.GetConfig.PathParams;
   headers?: API.CustomizeTagAndName.FieldLevelEncryption.GetConfig.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.FieldLevelEncryption.GetConfig.Response>(
     "get",
@@ -25,8 +25,8 @@ export function putUpdateConfig(options: {
   pathParams: API.CustomizeTagAndName.FieldLevelEncryption.PutUpdateConfig.PathParams;
   headers?: API.CustomizeTagAndName.FieldLevelEncryption.PutUpdateConfig.Headers;
   body: API.CustomizeTagAndName.FieldLevelEncryption.PutUpdateConfig.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.FieldLevelEncryption.PutUpdateConfig.Response>(
     "put",
@@ -42,8 +42,8 @@ export function putUpdateConfig(options: {
 export function deleteConfig(options: {
   pathParams: API.CustomizeTagAndName.FieldLevelEncryption.DeleteConfig.PathParams;
   headers?: API.CustomizeTagAndName.FieldLevelEncryption.DeleteConfig.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<any>(
     "delete",
@@ -59,8 +59,8 @@ export function deleteConfig(options: {
 export function getFieldLevelEncryption(options: {
   pathParams: API.CustomizeTagAndName.FieldLevelEncryption.GetFieldLevelEncryption.PathParams;
   headers?: API.CustomizeTagAndName.FieldLevelEncryption.GetFieldLevelEncryption.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.FieldLevelEncryption.GetFieldLevelEncryption.Response>(
     "get",
@@ -76,8 +76,8 @@ export function getFieldLevelEncryption(options: {
 export function getListConfigs(options?: {
   queryParams?: API.CustomizeTagAndName.FieldLevelEncryption.GetListConfigs.QueryParams;
   headers?: API.CustomizeTagAndName.FieldLevelEncryption.GetListConfigs.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.FieldLevelEncryption.GetListConfigs.Response>(
     "get",
@@ -93,8 +93,8 @@ export function getListConfigs(options?: {
 export function postCreateConfig(options: {
   headers?: API.CustomizeTagAndName.FieldLevelEncryption.PostCreateConfig.Headers;
   body: API.CustomizeTagAndName.FieldLevelEncryption.PostCreateConfig.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.FieldLevelEncryption.PostCreateConfig.Response>(
     "post",

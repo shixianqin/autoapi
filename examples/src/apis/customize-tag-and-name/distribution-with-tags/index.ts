@@ -1,4 +1,4 @@
-import { request } from "@/adapter";
+import { request, type RequestConfig, type RequestContext } from "@/adapter";
 
 /**
  * Create a new distribution with tags.
@@ -8,8 +8,8 @@ export function postCreate(options: {
   queryParams: API.CustomizeTagAndName.DistributionWithTags.PostCreate.QueryParams;
   headers?: API.CustomizeTagAndName.DistributionWithTags.PostCreate.Headers;
   body: API.CustomizeTagAndName.DistributionWithTags.PostCreate.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.DistributionWithTags.PostCreate.Response>(
     "post",

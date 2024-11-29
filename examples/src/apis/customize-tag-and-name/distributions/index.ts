@@ -1,4 +1,4 @@
-import { request } from "@/adapter";
+import { request, type RequestConfig, type RequestContext } from "@/adapter";
 
 /**
  * Disables additional CloudWatch metrics for the specified CloudFront distribution.
@@ -7,8 +7,8 @@ import { request } from "@/adapter";
 export function deleteMonitoringSubscription(options: {
   pathParams: API.CustomizeTagAndName.Distributions.DeleteMonitoringSubscription.PathParams;
   headers?: API.CustomizeTagAndName.Distributions.DeleteMonitoringSubscription.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.Distributions.DeleteMonitoringSubscription.Response>(
     "delete",
@@ -24,8 +24,8 @@ export function deleteMonitoringSubscription(options: {
 export function getMonitoringSubscription(options: {
   pathParams: API.CustomizeTagAndName.Distributions.GetMonitoringSubscription.PathParams;
   headers?: API.CustomizeTagAndName.Distributions.GetMonitoringSubscription.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.Distributions.GetMonitoringSubscription.Response>(
     "get",
@@ -42,8 +42,8 @@ export function postCreateMonitoringSubscription(options: {
   pathParams: API.CustomizeTagAndName.Distributions.PostCreateMonitoringSubscription.PathParams;
   headers?: API.CustomizeTagAndName.Distributions.PostCreateMonitoringSubscription.Headers;
   body: API.CustomizeTagAndName.Distributions.PostCreateMonitoringSubscription.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.Distributions.PostCreateMonitoringSubscription.Response>(
     "post",

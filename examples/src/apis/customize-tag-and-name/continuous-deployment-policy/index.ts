@@ -1,4 +1,4 @@
-import { request } from "@/adapter";
+import { request, type RequestConfig, type RequestContext } from "@/adapter";
 
 /**
  * Gets configuration information about a continuous deployment policy.
@@ -7,8 +7,8 @@ import { request } from "@/adapter";
 export function getConfig(options: {
   pathParams: API.CustomizeTagAndName.ContinuousDeploymentPolicy.GetConfig.PathParams;
   headers?: API.CustomizeTagAndName.ContinuousDeploymentPolicy.GetConfig.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.ContinuousDeploymentPolicy.GetConfig.Response>(
     "get",
@@ -24,8 +24,8 @@ export function getConfig(options: {
 export function deleteContinuousDeploymentPolicy(options: {
   pathParams: API.CustomizeTagAndName.ContinuousDeploymentPolicy.DeleteContinuousDeploymentPolicy.PathParams;
   headers?: API.CustomizeTagAndName.ContinuousDeploymentPolicy.DeleteContinuousDeploymentPolicy.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<any>(
     "delete",
@@ -41,8 +41,8 @@ export function deleteContinuousDeploymentPolicy(options: {
 export function getContinuousDeploymentPolicy(options: {
   pathParams: API.CustomizeTagAndName.ContinuousDeploymentPolicy.GetContinuousDeploymentPolicy.PathParams;
   headers?: API.CustomizeTagAndName.ContinuousDeploymentPolicy.GetContinuousDeploymentPolicy.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.ContinuousDeploymentPolicy.GetContinuousDeploymentPolicy.Response>(
     "get",
@@ -59,8 +59,8 @@ export function putUpdate(options: {
   pathParams: API.CustomizeTagAndName.ContinuousDeploymentPolicy.PutUpdate.PathParams;
   headers?: API.CustomizeTagAndName.ContinuousDeploymentPolicy.PutUpdate.Headers;
   body: API.CustomizeTagAndName.ContinuousDeploymentPolicy.PutUpdate.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.ContinuousDeploymentPolicy.PutUpdate.Response>(
     "put",
@@ -76,8 +76,8 @@ export function putUpdate(options: {
 export function getListContinuousDeploymentPolicies(options?: {
   queryParams?: API.CustomizeTagAndName.ContinuousDeploymentPolicy.GetListContinuousDeploymentPolicies.QueryParams;
   headers?: API.CustomizeTagAndName.ContinuousDeploymentPolicy.GetListContinuousDeploymentPolicies.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.ContinuousDeploymentPolicy.GetListContinuousDeploymentPolicies.Response>(
     "get",
@@ -93,8 +93,8 @@ export function getListContinuousDeploymentPolicies(options?: {
 export function postCreate(options: {
   headers?: API.CustomizeTagAndName.ContinuousDeploymentPolicy.PostCreate.Headers;
   body: API.CustomizeTagAndName.ContinuousDeploymentPolicy.PostCreate.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.ContinuousDeploymentPolicy.PostCreate.Response>(
     "post",

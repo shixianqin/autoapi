@@ -146,7 +146,7 @@ export class Generator {
     if (!requestConfig?.disabled) {
       properties.push({
         name: IDENTIFIERS.requestConfig,
-        type: requestConfig?.assignType ? IDENTIFIERS.requestConfigType : 'object',
+        type: IDENTIFIERS.requestConfigType,
         required: requestConfig?.required,
       })
     }
@@ -154,7 +154,7 @@ export class Generator {
     if (!requestContext?.disabled) {
       properties.push({
         name: IDENTIFIERS.requestContext,
-        type: requestContext?.assignType ? IDENTIFIERS.requestContextType : 'object',
+        type: IDENTIFIERS.requestContextType,
         required: requestContext?.required,
       })
     }
@@ -216,11 +216,11 @@ export class Generator {
 
     const importSpecifiers: string[] = [IDENTIFIERS.requestAdapter]
 
-    if (!requestConfig?.disabled && requestConfig?.assignType) {
+    if (!requestConfig?.disabled) {
       importSpecifiers.push('type ' + IDENTIFIERS.requestConfigType)
     }
 
-    if (!requestContext?.disabled && requestConfig?.assignType) {
+    if (!requestContext?.disabled) {
       importSpecifiers.push('type ' + IDENTIFIERS.requestContextType)
     }
 

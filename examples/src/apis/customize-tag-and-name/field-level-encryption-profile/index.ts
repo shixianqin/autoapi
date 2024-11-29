@@ -1,4 +1,4 @@
-import { request } from "@/adapter";
+import { request, type RequestConfig, type RequestContext } from "@/adapter";
 
 /**
  * Get the field-level encryption profile configuration information.
@@ -7,8 +7,8 @@ import { request } from "@/adapter";
 export function getConfig(options: {
   pathParams: API.CustomizeTagAndName.FieldLevelEncryptionProfile.GetConfig.PathParams;
   headers?: API.CustomizeTagAndName.FieldLevelEncryptionProfile.GetConfig.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.FieldLevelEncryptionProfile.GetConfig.Response>(
     "get",
@@ -25,8 +25,8 @@ export function putUpdate(options: {
   pathParams: API.CustomizeTagAndName.FieldLevelEncryptionProfile.PutUpdate.PathParams;
   headers?: API.CustomizeTagAndName.FieldLevelEncryptionProfile.PutUpdate.Headers;
   body: API.CustomizeTagAndName.FieldLevelEncryptionProfile.PutUpdate.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.FieldLevelEncryptionProfile.PutUpdate.Response>(
     "put",
@@ -42,8 +42,8 @@ export function putUpdate(options: {
 export function deleteFieldLevelEncryptionProfile(options: {
   pathParams: API.CustomizeTagAndName.FieldLevelEncryptionProfile.DeleteFieldLevelEncryptionProfile.PathParams;
   headers?: API.CustomizeTagAndName.FieldLevelEncryptionProfile.DeleteFieldLevelEncryptionProfile.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<any>(
     "delete",
@@ -59,8 +59,8 @@ export function deleteFieldLevelEncryptionProfile(options: {
 export function getFieldLevelEncryptionProfile(options: {
   pathParams: API.CustomizeTagAndName.FieldLevelEncryptionProfile.GetFieldLevelEncryptionProfile.PathParams;
   headers?: API.CustomizeTagAndName.FieldLevelEncryptionProfile.GetFieldLevelEncryptionProfile.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.FieldLevelEncryptionProfile.GetFieldLevelEncryptionProfile.Response>(
     "get",
@@ -76,8 +76,8 @@ export function getFieldLevelEncryptionProfile(options: {
 export function getListFieldLevelEncryptionProfiles(options?: {
   queryParams?: API.CustomizeTagAndName.FieldLevelEncryptionProfile.GetListFieldLevelEncryptionProfiles.QueryParams;
   headers?: API.CustomizeTagAndName.FieldLevelEncryptionProfile.GetListFieldLevelEncryptionProfiles.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.FieldLevelEncryptionProfile.GetListFieldLevelEncryptionProfiles.Response>(
     "get",
@@ -93,8 +93,8 @@ export function getListFieldLevelEncryptionProfiles(options?: {
 export function postCreate(options: {
   headers?: API.CustomizeTagAndName.FieldLevelEncryptionProfile.PostCreate.Headers;
   body: API.CustomizeTagAndName.FieldLevelEncryptionProfile.PostCreate.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.FieldLevelEncryptionProfile.PostCreate.Response>(
     "post",

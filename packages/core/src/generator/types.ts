@@ -1,7 +1,6 @@
 import type { ParserOptions, TypeDefinition } from '../parser'
 
 export interface ParameterOptions {
-  assignType?: boolean
   required?: boolean
   disabled?: boolean
 }

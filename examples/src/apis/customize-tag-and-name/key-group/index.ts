@@ -1,4 +1,4 @@
-import { request } from "@/adapter";
+import { request, type RequestConfig, type RequestContext } from "@/adapter";
 
 /**
  * <p>Gets a key group configuration.</p> <p>To get a key group configuration, you must provide the key group's identifier. If the key group is referenced in a distribution's cache behavior, you can get the key group's identifier using <code>ListDistributions</code> or <code>GetDistribution</code>. If the key group is not referenced in a cache behavior, you can get the identifier using <code>ListKeyGroups</code>.</p>
@@ -7,8 +7,8 @@ import { request } from "@/adapter";
 export function getConfig(options: {
   pathParams: API.CustomizeTagAndName.KeyGroup.GetConfig.PathParams;
   headers?: API.CustomizeTagAndName.KeyGroup.GetConfig.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.KeyGroup.GetConfig.Response>(
     "get",
@@ -24,8 +24,8 @@ export function getConfig(options: {
 export function deleteKeyGroup(options: {
   pathParams: API.CustomizeTagAndName.KeyGroup.DeleteKeyGroup.PathParams;
   headers?: API.CustomizeTagAndName.KeyGroup.DeleteKeyGroup.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<any>(
     "delete",
@@ -41,8 +41,8 @@ export function deleteKeyGroup(options: {
 export function getKeyGroup(options: {
   pathParams: API.CustomizeTagAndName.KeyGroup.GetKeyGroup.PathParams;
   headers?: API.CustomizeTagAndName.KeyGroup.GetKeyGroup.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.KeyGroup.GetKeyGroup.Response>(
     "get",
@@ -59,8 +59,8 @@ export function putUpdate(options: {
   pathParams: API.CustomizeTagAndName.KeyGroup.PutUpdate.PathParams;
   headers?: API.CustomizeTagAndName.KeyGroup.PutUpdate.Headers;
   body: API.CustomizeTagAndName.KeyGroup.PutUpdate.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.KeyGroup.PutUpdate.Response>(
     "put",
@@ -76,8 +76,8 @@ export function putUpdate(options: {
 export function getListKeyGroups(options?: {
   queryParams?: API.CustomizeTagAndName.KeyGroup.GetListKeyGroups.QueryParams;
   headers?: API.CustomizeTagAndName.KeyGroup.GetListKeyGroups.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.KeyGroup.GetListKeyGroups.Response>(
     "get",
@@ -93,8 +93,8 @@ export function getListKeyGroups(options?: {
 export function postCreate(options: {
   headers?: API.CustomizeTagAndName.KeyGroup.PostCreate.Headers;
   body: API.CustomizeTagAndName.KeyGroup.PostCreate.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.KeyGroup.PostCreate.Response>(
     "post",

@@ -1,4 +1,4 @@
-import { request } from "@/adapter";
+import { request, type RequestConfig, type RequestContext } from "@/adapter";
 
 /**
  * Get the configuration information about an origin access identity.
@@ -7,8 +7,8 @@ import { request } from "@/adapter";
 export function getCloudFrontConfig(options: {
   pathParams: API.CustomizeTagAndName.OriginAccessIdentity.GetCloudFrontConfig.PathParams;
   headers?: API.CustomizeTagAndName.OriginAccessIdentity.GetCloudFrontConfig.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.OriginAccessIdentity.GetCloudFrontConfig.Response>(
     "get",
@@ -25,8 +25,8 @@ export function putUpdateCloudFront(options: {
   pathParams: API.CustomizeTagAndName.OriginAccessIdentity.PutUpdateCloudFront.PathParams;
   headers?: API.CustomizeTagAndName.OriginAccessIdentity.PutUpdateCloudFront.Headers;
   body: API.CustomizeTagAndName.OriginAccessIdentity.PutUpdateCloudFront.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.OriginAccessIdentity.PutUpdateCloudFront.Response>(
     "put",
@@ -42,8 +42,8 @@ export function putUpdateCloudFront(options: {
 export function deleteCloudFront(options: {
   pathParams: API.CustomizeTagAndName.OriginAccessIdentity.DeleteCloudFront.PathParams;
   headers?: API.CustomizeTagAndName.OriginAccessIdentity.DeleteCloudFront.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<any>(
     "delete",
@@ -59,8 +59,8 @@ export function deleteCloudFront(options: {
 export function getCloudFront(options: {
   pathParams: API.CustomizeTagAndName.OriginAccessIdentity.GetCloudFront.PathParams;
   headers?: API.CustomizeTagAndName.OriginAccessIdentity.GetCloudFront.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.OriginAccessIdentity.GetCloudFront.Response>(
     "get",
@@ -76,8 +76,8 @@ export function getCloudFront(options: {
 export function getListCloudFrontOriginAccessIdentities(options?: {
   queryParams?: API.CustomizeTagAndName.OriginAccessIdentity.GetListCloudFrontOriginAccessIdentities.QueryParams;
   headers?: API.CustomizeTagAndName.OriginAccessIdentity.GetListCloudFrontOriginAccessIdentities.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.OriginAccessIdentity.GetListCloudFrontOriginAccessIdentities.Response>(
     "get",
@@ -93,8 +93,8 @@ export function getListCloudFrontOriginAccessIdentities(options?: {
 export function postCreateCloudFront(options: {
   headers?: API.CustomizeTagAndName.OriginAccessIdentity.PostCreateCloudFront.Headers;
   body: API.CustomizeTagAndName.OriginAccessIdentity.PostCreateCloudFront.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.OriginAccessIdentity.PostCreateCloudFront.Response>(
     "post",

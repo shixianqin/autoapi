@@ -1,4 +1,4 @@
-import { request } from "@/adapter";
+import { request, type RequestConfig, type RequestContext } from "@/adapter";
 
 /**
  * <p>Deletes a CloudFront function.</p> <p>You cannot delete a function if it's associated with a cache behavior. First, update your distributions to remove the function association from all cache behaviors, then delete the function.</p> <p>To delete a function, you must provide the function's name and version (<code>ETag</code> value). To get these values, you can use <code>ListFunctions</code> and <code>DescribeFunction</code>.</p>
@@ -7,8 +7,8 @@ import { request } from "@/adapter";
 export function deleteFunction(options: {
   pathParams: API.CustomizeTagAndName.Function.DeleteFunction.PathParams;
   headers?: API.CustomizeTagAndName.Function.DeleteFunction.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<any>(
     "delete",
@@ -25,8 +25,8 @@ export function putUpdate(options: {
   pathParams: API.CustomizeTagAndName.Function.PutUpdate.PathParams;
   headers?: API.CustomizeTagAndName.Function.PutUpdate.Headers;
   body: API.CustomizeTagAndName.Function.PutUpdate.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.Function.PutUpdate.Response>(
     "put",
@@ -43,8 +43,8 @@ export function getDescribe(options: {
   pathParams: API.CustomizeTagAndName.Function.GetDescribe.PathParams;
   queryParams?: API.CustomizeTagAndName.Function.GetDescribe.QueryParams;
   headers?: API.CustomizeTagAndName.Function.GetDescribe.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.Function.GetDescribe.Response>(
     "get",
@@ -60,8 +60,8 @@ export function getDescribe(options: {
 export function postPublish(options: {
   pathParams: API.CustomizeTagAndName.Function.PostPublish.PathParams;
   headers?: API.CustomizeTagAndName.Function.PostPublish.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.Function.PostPublish.Response>(
     "post",
@@ -78,8 +78,8 @@ export function postTest(options: {
   pathParams: API.CustomizeTagAndName.Function.PostTest.PathParams;
   headers?: API.CustomizeTagAndName.Function.PostTest.Headers;
   body: API.CustomizeTagAndName.Function.PostTest.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.Function.PostTest.Response>(
     "post",
@@ -96,8 +96,8 @@ export function getFunction(options: {
   pathParams: API.CustomizeTagAndName.Function.GetFunction.PathParams;
   queryParams?: API.CustomizeTagAndName.Function.GetFunction.QueryParams;
   headers?: API.CustomizeTagAndName.Function.GetFunction.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.Function.GetFunction.Response>(
     "get",
@@ -113,8 +113,8 @@ export function getFunction(options: {
 export function getListFunctions(options?: {
   queryParams?: API.CustomizeTagAndName.Function.GetListFunctions.QueryParams;
   headers?: API.CustomizeTagAndName.Function.GetListFunctions.Headers;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.Function.GetListFunctions.Response>(
     "get",
@@ -130,8 +130,8 @@ export function getListFunctions(options?: {
 export function postCreate(options: {
   headers?: API.CustomizeTagAndName.Function.PostCreate.Headers;
   body: API.CustomizeTagAndName.Function.PostCreate.Body;
-  config?: object;
-  context?: object;
+  config?: RequestConfig;
+  context?: RequestContext;
 }) {
   return request<API.CustomizeTagAndName.Function.PostCreate.Response>(
     "post",
