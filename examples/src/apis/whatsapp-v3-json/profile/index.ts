@@ -21,8 +21,8 @@ export function getAbout(options?: {
  * @path `/settings/profile/about`
  */
 export function patchUpdateAbout(options: {
-  headers?: Record<string, any>;
   body: API.WhatsappV3Json.Profile.PatchUpdateAbout.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -51,8 +51,8 @@ export function getPhoto(options?: {
  * @path `/settings/profile/photo`
  */
 export function postUpdatePhoto(options: {
-  headers?: Record<string, any>;
   formData: API.WhatsappV3Json.Profile.PostUpdatePhoto.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

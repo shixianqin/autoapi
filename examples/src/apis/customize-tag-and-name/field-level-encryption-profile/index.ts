@@ -23,8 +23,8 @@ export function getConfig(options: {
  */
 export function putUpdate(options: {
   pathParams: API.CustomizeTagAndName.FieldLevelEncryptionProfile.PutUpdate.PathParams;
-  headers?: API.CustomizeTagAndName.FieldLevelEncryptionProfile.PutUpdate.Headers;
   body: API.CustomizeTagAndName.FieldLevelEncryptionProfile.PutUpdate.Body;
+  headers?: API.CustomizeTagAndName.FieldLevelEncryptionProfile.PutUpdate.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -91,8 +91,8 @@ export function getListFieldLevelEncryptionProfiles(options?: {
  * @path `/2020-05-31/field-level-encryption-profile`
  */
 export function postCreate(options: {
-  headers?: API.CustomizeTagAndName.FieldLevelEncryptionProfile.PostCreate.Headers;
   body: API.CustomizeTagAndName.FieldLevelEncryptionProfile.PostCreate.Body;
+  headers?: API.CustomizeTagAndName.FieldLevelEncryptionProfile.PostCreate.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

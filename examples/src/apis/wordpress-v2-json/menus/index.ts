@@ -52,8 +52,8 @@ export function patchWpV2Id(options: {
  */
 export function postWpV2Id(options: {
   pathParams: API.WordpressV2Json.Menus.PostWpV2Id.PathParams;
-  headers?: Record<string, any>;
   formData?: API.WordpressV2Json.Menus.PostWpV2Id.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -89,8 +89,8 @@ export function getWpV2(options?: {
  * @path `/wp/v2/menus`
  */
 export function postWpV2(options: {
-  headers?: Record<string, any>;
   formData: API.WordpressV2Json.Menus.PostWpV2.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

@@ -88,8 +88,8 @@ export function getIntegrationById(options: {
  */
 export function patchIntegration(options: {
   pathParams: API.SwaggerHubV2Json.Integrations.PatchIntegration.PathParams;
-  headers?: Record<string, any>;
   body?: API.SwaggerHubV2Json.Integrations.PatchIntegration.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -130,8 +130,8 @@ export function patchIntegration(options: {
  */
 export function putUpdateIntegration(options: {
   pathParams: API.SwaggerHubV2Json.Integrations.PutUpdateIntegration.PathParams;
-  headers?: Record<string, any>;
   body?: API.SwaggerHubV2Json.Integrations.PutUpdateIntegration.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -190,8 +190,8 @@ export function getIntegrations(options: {
  */
 export function postCreateIntegration(options: {
   pathParams: API.SwaggerHubV2Json.Integrations.PostCreateIntegration.PathParams;
-  headers?: Record<string, any>;
   body?: API.SwaggerHubV2Json.Integrations.PostCreateIntegration.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

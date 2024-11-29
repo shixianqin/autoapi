@@ -25,8 +25,8 @@ export function getReadCertificateSigningRequestApproval(options: {
 export function patchCertificateSigningRequestApproval(options: {
   pathParams: API.K8sV2Json.CertificatesV1.PatchCertificateSigningRequestApproval.PathParams;
   queryParams?: API.K8sV2Json.CertificatesV1.PatchCertificateSigningRequestApproval.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.CertificatesV1.PatchCertificateSigningRequestApproval.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -44,8 +44,8 @@ export function patchCertificateSigningRequestApproval(options: {
 export function putReplaceCertificateSigningRequestApproval(options: {
   pathParams: API.K8sV2Json.CertificatesV1.PutReplaceCertificateSigningRequestApproval.PathParams;
   queryParams?: API.K8sV2Json.CertificatesV1.PutReplaceCertificateSigningRequestApproval.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.CertificatesV1.PutReplaceCertificateSigningRequestApproval.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -81,8 +81,8 @@ export function getReadCertificateSigningRequestStatus(options: {
 export function patchCertificateSigningRequestStatus(options: {
   pathParams: API.K8sV2Json.CertificatesV1.PatchCertificateSigningRequestStatus.PathParams;
   queryParams?: API.K8sV2Json.CertificatesV1.PatchCertificateSigningRequestStatus.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.CertificatesV1.PatchCertificateSigningRequestStatus.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -100,8 +100,8 @@ export function patchCertificateSigningRequestStatus(options: {
 export function putReplaceCertificateSigningRequestStatus(options: {
   pathParams: API.K8sV2Json.CertificatesV1.PutReplaceCertificateSigningRequestStatus.PathParams;
   queryParams?: API.K8sV2Json.CertificatesV1.PutReplaceCertificateSigningRequestStatus.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.CertificatesV1.PutReplaceCertificateSigningRequestStatus.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -119,8 +119,8 @@ export function putReplaceCertificateSigningRequestStatus(options: {
 export function deleteCertificateSigningRequest(options: {
   pathParams: API.K8sV2Json.CertificatesV1.DeleteCertificateSigningRequest.PathParams;
   queryParams?: API.K8sV2Json.CertificatesV1.DeleteCertificateSigningRequest.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.CertificatesV1.DeleteCertificateSigningRequest.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -156,8 +156,8 @@ export function getReadCertificateSigningRequest(options: {
 export function patchCertificateSigningRequest(options: {
   pathParams: API.K8sV2Json.CertificatesV1.PatchCertificateSigningRequest.PathParams;
   queryParams?: API.K8sV2Json.CertificatesV1.PatchCertificateSigningRequest.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.CertificatesV1.PatchCertificateSigningRequest.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -175,8 +175,8 @@ export function patchCertificateSigningRequest(options: {
 export function putReplaceCertificateSigningRequest(options: {
   pathParams: API.K8sV2Json.CertificatesV1.PutReplaceCertificateSigningRequest.PathParams;
   queryParams?: API.K8sV2Json.CertificatesV1.PutReplaceCertificateSigningRequest.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.CertificatesV1.PutReplaceCertificateSigningRequest.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -193,8 +193,8 @@ export function putReplaceCertificateSigningRequest(options: {
  */
 export function deleteCollectionCertificateSigningRequest(options?: {
   queryParams?: API.K8sV2Json.CertificatesV1.DeleteCollectionCertificateSigningRequest.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.CertificatesV1.DeleteCollectionCertificateSigningRequest.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -228,8 +228,8 @@ export function getListCertificateSigningRequest(options?: {
  */
 export function postCreateCertificateSigningRequest(options: {
   queryParams?: API.K8sV2Json.CertificatesV1.PostCreateCertificateSigningRequest.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.CertificatesV1.PostCreateCertificateSigningRequest.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

@@ -40,8 +40,8 @@ export function getMonitoringSubscription(options: {
  */
 export function postCreateMonitoringSubscription(options: {
   pathParams: API.CustomizeTagAndName.Distributions.PostCreateMonitoringSubscription.PathParams;
-  headers?: API.CustomizeTagAndName.Distributions.PostCreateMonitoringSubscription.Headers;
   body: API.CustomizeTagAndName.Distributions.PostCreateMonitoringSubscription.Body;
+  headers?: API.CustomizeTagAndName.Distributions.PostCreateMonitoringSubscription.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

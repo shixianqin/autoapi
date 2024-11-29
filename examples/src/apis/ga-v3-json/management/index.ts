@@ -42,8 +42,8 @@ export function deleteAnalyticsAccountUserLinks(options: {
 export function putAnalyticsAccountUserLinksUpdate(options: {
   pathParams: API.GaV3Json.Management.PutAnalyticsAccountUserLinksUpdate.PathParams;
   queryParams?: API.GaV3Json.Management.PutAnalyticsAccountUserLinksUpdate.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PutAnalyticsAccountUserLinksUpdate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -79,8 +79,8 @@ export function getAnalyticsAccountUserLinksList(options: {
 export function postAnalyticsAccountUserLinksInsert(options: {
   pathParams: API.GaV3Json.Management.PostAnalyticsAccountUserLinksInsert.PathParams;
   queryParams?: API.GaV3Json.Management.PostAnalyticsAccountUserLinksInsert.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PostAnalyticsAccountUserLinksInsert.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -134,8 +134,8 @@ export function getAnalyticsFilters(options: {
 export function patchAnalyticsFilters(options: {
   pathParams: API.GaV3Json.Management.PatchAnalyticsFilters.PathParams;
   queryParams?: API.GaV3Json.Management.PatchAnalyticsFilters.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PatchAnalyticsFilters.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -153,8 +153,8 @@ export function patchAnalyticsFilters(options: {
 export function putAnalyticsFiltersUpdate(options: {
   pathParams: API.GaV3Json.Management.PutAnalyticsFiltersUpdate.PathParams;
   queryParams?: API.GaV3Json.Management.PutAnalyticsFiltersUpdate.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PutAnalyticsFiltersUpdate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -190,8 +190,8 @@ export function getAnalyticsFiltersList(options: {
 export function postAnalyticsFiltersInsert(options: {
   pathParams: API.GaV3Json.Management.PostAnalyticsFiltersInsert.PathParams;
   queryParams?: API.GaV3Json.Management.PostAnalyticsFiltersInsert.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PostAnalyticsFiltersInsert.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -209,8 +209,8 @@ export function postAnalyticsFiltersInsert(options: {
 export function postAnalyticsUploadsDeleteUploadData(options: {
   pathParams: API.GaV3Json.Management.PostAnalyticsUploadsDeleteUploadData.PathParams;
   queryParams?: API.GaV3Json.Management.PostAnalyticsUploadsDeleteUploadData.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PostAnalyticsUploadsDeleteUploadData.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -318,8 +318,8 @@ export function getAnalyticsCustomDimensions(options: {
 export function patchAnalyticsCustomDimensions(options: {
   pathParams: API.GaV3Json.Management.PatchAnalyticsCustomDimensions.PathParams;
   queryParams?: API.GaV3Json.Management.PatchAnalyticsCustomDimensions.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PatchAnalyticsCustomDimensions.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -337,8 +337,8 @@ export function patchAnalyticsCustomDimensions(options: {
 export function putAnalyticsCustomDimensionsUpdate(options: {
   pathParams: API.GaV3Json.Management.PutAnalyticsCustomDimensionsUpdate.PathParams;
   queryParams?: API.GaV3Json.Management.PutAnalyticsCustomDimensionsUpdate.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PutAnalyticsCustomDimensionsUpdate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -374,8 +374,8 @@ export function getAnalyticsCustomDimensionsList(options: {
 export function postAnalyticsCustomDimensionsInsert(options: {
   pathParams: API.GaV3Json.Management.PostAnalyticsCustomDimensionsInsert.PathParams;
   queryParams?: API.GaV3Json.Management.PostAnalyticsCustomDimensionsInsert.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PostAnalyticsCustomDimensionsInsert.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -411,8 +411,8 @@ export function getAnalyticsCustomMetrics(options: {
 export function patchAnalyticsCustomMetrics(options: {
   pathParams: API.GaV3Json.Management.PatchAnalyticsCustomMetrics.PathParams;
   queryParams?: API.GaV3Json.Management.PatchAnalyticsCustomMetrics.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PatchAnalyticsCustomMetrics.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -430,8 +430,8 @@ export function patchAnalyticsCustomMetrics(options: {
 export function putAnalyticsCustomMetricsUpdate(options: {
   pathParams: API.GaV3Json.Management.PutAnalyticsCustomMetricsUpdate.PathParams;
   queryParams?: API.GaV3Json.Management.PutAnalyticsCustomMetricsUpdate.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PutAnalyticsCustomMetricsUpdate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -467,8 +467,8 @@ export function getAnalyticsCustomMetricsList(options: {
 export function postAnalyticsCustomMetricsInsert(options: {
   pathParams: API.GaV3Json.Management.PostAnalyticsCustomMetricsInsert.PathParams;
   queryParams?: API.GaV3Json.Management.PostAnalyticsCustomMetricsInsert.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PostAnalyticsCustomMetricsInsert.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -522,8 +522,8 @@ export function getAnalyticsWebPropertyAdWordsLinks(options: {
 export function patchAnalyticsWebPropertyAdWordsLinks(options: {
   pathParams: API.GaV3Json.Management.PatchAnalyticsWebPropertyAdWordsLinks.PathParams;
   queryParams?: API.GaV3Json.Management.PatchAnalyticsWebPropertyAdWordsLinks.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PatchAnalyticsWebPropertyAdWordsLinks.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -541,8 +541,8 @@ export function patchAnalyticsWebPropertyAdWordsLinks(options: {
 export function putAnalyticsWebPropertyAdWordsLinksUpdate(options: {
   pathParams: API.GaV3Json.Management.PutAnalyticsWebPropertyAdWordsLinksUpdate.PathParams;
   queryParams?: API.GaV3Json.Management.PutAnalyticsWebPropertyAdWordsLinksUpdate.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PutAnalyticsWebPropertyAdWordsLinksUpdate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -578,8 +578,8 @@ export function getAnalyticsWebPropertyAdWordsLinksList(options: {
 export function postAnalyticsWebPropertyAdWordsLinksInsert(options: {
   pathParams: API.GaV3Json.Management.PostAnalyticsWebPropertyAdWordsLinksInsert.PathParams;
   queryParams?: API.GaV3Json.Management.PostAnalyticsWebPropertyAdWordsLinksInsert.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PostAnalyticsWebPropertyAdWordsLinksInsert.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -615,8 +615,8 @@ export function deleteAnalyticsWebpropertyUserLinks(options: {
 export function putAnalyticsWebpropertyUserLinksUpdate(options: {
   pathParams: API.GaV3Json.Management.PutAnalyticsWebpropertyUserLinksUpdate.PathParams;
   queryParams?: API.GaV3Json.Management.PutAnalyticsWebpropertyUserLinksUpdate.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PutAnalyticsWebpropertyUserLinksUpdate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -652,8 +652,8 @@ export function getAnalyticsWebpropertyUserLinksList(options: {
 export function postAnalyticsWebpropertyUserLinksInsert(options: {
   pathParams: API.GaV3Json.Management.PostAnalyticsWebpropertyUserLinksInsert.PathParams;
   queryParams?: API.GaV3Json.Management.PostAnalyticsWebpropertyUserLinksInsert.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PostAnalyticsWebpropertyUserLinksInsert.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -689,8 +689,8 @@ export function deleteAnalyticsProfileUserLinks(options: {
 export function putAnalyticsProfileUserLinksUpdate(options: {
   pathParams: API.GaV3Json.Management.PutAnalyticsProfileUserLinksUpdate.PathParams;
   queryParams?: API.GaV3Json.Management.PutAnalyticsProfileUserLinksUpdate.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PutAnalyticsProfileUserLinksUpdate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -726,8 +726,8 @@ export function getAnalyticsProfileUserLinksList(options: {
 export function postAnalyticsProfileUserLinksInsert(options: {
   pathParams: API.GaV3Json.Management.PostAnalyticsProfileUserLinksInsert.PathParams;
   queryParams?: API.GaV3Json.Management.PostAnalyticsProfileUserLinksInsert.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PostAnalyticsProfileUserLinksInsert.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -781,8 +781,8 @@ export function getAnalyticsExperiments(options: {
 export function patchAnalyticsExperiments(options: {
   pathParams: API.GaV3Json.Management.PatchAnalyticsExperiments.PathParams;
   queryParams?: API.GaV3Json.Management.PatchAnalyticsExperiments.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PatchAnalyticsExperiments.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -800,8 +800,8 @@ export function patchAnalyticsExperiments(options: {
 export function putAnalyticsExperimentsUpdate(options: {
   pathParams: API.GaV3Json.Management.PutAnalyticsExperimentsUpdate.PathParams;
   queryParams?: API.GaV3Json.Management.PutAnalyticsExperimentsUpdate.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PutAnalyticsExperimentsUpdate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -837,8 +837,8 @@ export function getAnalyticsExperimentsList(options: {
 export function postAnalyticsExperimentsInsert(options: {
   pathParams: API.GaV3Json.Management.PostAnalyticsExperimentsInsert.PathParams;
   queryParams?: API.GaV3Json.Management.PostAnalyticsExperimentsInsert.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PostAnalyticsExperimentsInsert.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -874,8 +874,8 @@ export function getAnalyticsGoals(options: {
 export function patchAnalyticsGoals(options: {
   pathParams: API.GaV3Json.Management.PatchAnalyticsGoals.PathParams;
   queryParams?: API.GaV3Json.Management.PatchAnalyticsGoals.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PatchAnalyticsGoals.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -893,8 +893,8 @@ export function patchAnalyticsGoals(options: {
 export function putAnalyticsGoalsUpdate(options: {
   pathParams: API.GaV3Json.Management.PutAnalyticsGoalsUpdate.PathParams;
   queryParams?: API.GaV3Json.Management.PutAnalyticsGoalsUpdate.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PutAnalyticsGoalsUpdate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -930,8 +930,8 @@ export function getAnalyticsGoalsList(options: {
 export function postAnalyticsGoalsInsert(options: {
   pathParams: API.GaV3Json.Management.PostAnalyticsGoalsInsert.PathParams;
   queryParams?: API.GaV3Json.Management.PostAnalyticsGoalsInsert.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PostAnalyticsGoalsInsert.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -985,8 +985,8 @@ export function getAnalyticsProfileFilterLinks(options: {
 export function patchAnalyticsProfileFilterLinks(options: {
   pathParams: API.GaV3Json.Management.PatchAnalyticsProfileFilterLinks.PathParams;
   queryParams?: API.GaV3Json.Management.PatchAnalyticsProfileFilterLinks.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PatchAnalyticsProfileFilterLinks.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1004,8 +1004,8 @@ export function patchAnalyticsProfileFilterLinks(options: {
 export function putAnalyticsProfileFilterLinksUpdate(options: {
   pathParams: API.GaV3Json.Management.PutAnalyticsProfileFilterLinksUpdate.PathParams;
   queryParams?: API.GaV3Json.Management.PutAnalyticsProfileFilterLinksUpdate.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PutAnalyticsProfileFilterLinksUpdate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1041,8 +1041,8 @@ export function getAnalyticsProfileFilterLinksList(options: {
 export function postAnalyticsProfileFilterLinksInsert(options: {
   pathParams: API.GaV3Json.Management.PostAnalyticsProfileFilterLinksInsert.PathParams;
   queryParams?: API.GaV3Json.Management.PostAnalyticsProfileFilterLinksInsert.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PostAnalyticsProfileFilterLinksInsert.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1114,8 +1114,8 @@ export function getAnalyticsUnsampledReportsList(options: {
 export function postAnalyticsUnsampledReportsInsert(options: {
   pathParams: API.GaV3Json.Management.PostAnalyticsUnsampledReportsInsert.PathParams;
   queryParams?: API.GaV3Json.Management.PostAnalyticsUnsampledReportsInsert.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PostAnalyticsUnsampledReportsInsert.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1169,8 +1169,8 @@ export function getAnalyticsProfiles(options: {
 export function patchAnalyticsProfiles(options: {
   pathParams: API.GaV3Json.Management.PatchAnalyticsProfiles.PathParams;
   queryParams?: API.GaV3Json.Management.PatchAnalyticsProfiles.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PatchAnalyticsProfiles.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1188,8 +1188,8 @@ export function patchAnalyticsProfiles(options: {
 export function putAnalyticsProfilesUpdate(options: {
   pathParams: API.GaV3Json.Management.PutAnalyticsProfilesUpdate.PathParams;
   queryParams?: API.GaV3Json.Management.PutAnalyticsProfilesUpdate.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PutAnalyticsProfilesUpdate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1225,8 +1225,8 @@ export function getAnalyticsProfilesList(options: {
 export function postAnalyticsProfilesInsert(options: {
   pathParams: API.GaV3Json.Management.PostAnalyticsProfilesInsert.PathParams;
   queryParams?: API.GaV3Json.Management.PostAnalyticsProfilesInsert.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PostAnalyticsProfilesInsert.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1280,8 +1280,8 @@ export function getAnalyticsRemarketingAudience(options: {
 export function patchAnalyticsRemarketingAudience(options: {
   pathParams: API.GaV3Json.Management.PatchAnalyticsRemarketingAudience.PathParams;
   queryParams?: API.GaV3Json.Management.PatchAnalyticsRemarketingAudience.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PatchAnalyticsRemarketingAudience.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1299,8 +1299,8 @@ export function patchAnalyticsRemarketingAudience(options: {
 export function putAnalyticsRemarketingAudienceUpdate(options: {
   pathParams: API.GaV3Json.Management.PutAnalyticsRemarketingAudienceUpdate.PathParams;
   queryParams?: API.GaV3Json.Management.PutAnalyticsRemarketingAudienceUpdate.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PutAnalyticsRemarketingAudienceUpdate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1336,8 +1336,8 @@ export function getAnalyticsRemarketingAudienceList(options: {
 export function postAnalyticsRemarketingAudienceInsert(options: {
   pathParams: API.GaV3Json.Management.PostAnalyticsRemarketingAudienceInsert.PathParams;
   queryParams?: API.GaV3Json.Management.PostAnalyticsRemarketingAudienceInsert.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PostAnalyticsRemarketingAudienceInsert.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1373,8 +1373,8 @@ export function getAnalyticsWebproperties(options: {
 export function patchAnalyticsWebproperties(options: {
   pathParams: API.GaV3Json.Management.PatchAnalyticsWebproperties.PathParams;
   queryParams?: API.GaV3Json.Management.PatchAnalyticsWebproperties.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PatchAnalyticsWebproperties.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1392,8 +1392,8 @@ export function patchAnalyticsWebproperties(options: {
 export function putAnalyticsWebpropertiesUpdate(options: {
   pathParams: API.GaV3Json.Management.PutAnalyticsWebpropertiesUpdate.PathParams;
   queryParams?: API.GaV3Json.Management.PutAnalyticsWebpropertiesUpdate.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PutAnalyticsWebpropertiesUpdate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1429,8 +1429,8 @@ export function getAnalyticsWebpropertiesList(options: {
 export function postAnalyticsWebpropertiesInsert(options: {
   pathParams: API.GaV3Json.Management.PostAnalyticsWebpropertiesInsert.PathParams;
   queryParams?: API.GaV3Json.Management.PostAnalyticsWebpropertiesInsert.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PostAnalyticsWebpropertiesInsert.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1464,8 +1464,8 @@ export function getAnalyticsAccountsList(options?: {
  */
 export function postAnalyticsClientIdHashClientId(options?: {
   queryParams?: API.GaV3Json.Management.PostAnalyticsClientIdHashClientId.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.Management.PostAnalyticsClientIdHashClientId.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

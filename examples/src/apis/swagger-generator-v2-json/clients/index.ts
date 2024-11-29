@@ -24,8 +24,8 @@ export function getClientOptions(options: {
  */
 export function postGenerateClient(options: {
   pathParams: API.SwaggerGeneratorV2Json.Clients.PostGenerateClient.PathParams;
-  headers?: Record<string, any>;
   body?: API.SwaggerGeneratorV2Json.Clients.PostGenerateClient.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

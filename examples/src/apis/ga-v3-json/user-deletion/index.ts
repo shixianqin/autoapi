@@ -6,8 +6,8 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function postAnalyticsRequestUpsert(options?: {
   queryParams?: API.GaV3Json.UserDeletion.PostAnalyticsRequestUpsert.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV3Json.UserDeletion.PostAnalyticsRequestUpsert.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

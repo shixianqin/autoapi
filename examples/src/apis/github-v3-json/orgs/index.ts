@@ -146,8 +146,8 @@ export function getWebhookConfigForOrg(options: {
  */
 export function patchUpdateWebhookConfigForOrg(options: {
   pathParams: API.GithubV3Json.Orgs.PatchUpdateWebhookConfigForOrg.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Orgs.PatchUpdateWebhookConfigForOrg.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -280,8 +280,8 @@ export function getWebhook(options: {
  */
 export function patchUpdateWebhook(options: {
   pathParams: API.GithubV3Json.Orgs.PatchUpdateWebhook.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Orgs.PatchUpdateWebhook.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -319,8 +319,8 @@ export function getListWebhooks(options: {
  */
 export function postCreateWebhook(options: {
   pathParams: API.GithubV3Json.Orgs.PostCreateWebhook.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Orgs.PostCreateWebhook.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -422,8 +422,8 @@ export function getListPendingInvitations(options: {
  */
 export function postCreateInvitation(options: {
   pathParams: API.GithubV3Json.Orgs.PostCreateInvitation.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Orgs.PostCreateInvitation.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -546,8 +546,8 @@ export function getMembershipForUser(options: {
  */
 export function putSetMembershipForUser(options: {
   pathParams: API.GithubV3Json.Orgs.PutSetMembershipForUser.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Orgs.PutSetMembershipForUser.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -585,8 +585,8 @@ export function deleteRemoveOutsideCollaborator(options: {
  */
 export function putConvertMemberToOutsideCollaborator(options: {
   pathParams: API.GithubV3Json.Orgs.PutConvertMemberToOutsideCollaborator.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Orgs.PutConvertMemberToOutsideCollaborator.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -820,8 +820,8 @@ export function getOrgs(options: {
  */
 export function patchUpdate(options: {
   pathParams: API.GithubV3Json.Orgs.PatchUpdate.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Orgs.PatchUpdate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -857,8 +857,8 @@ export function getMembershipForAuthenticatedUser(options: {
  */
 export function patchUpdateMembershipForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Orgs.PatchUpdateMembershipForAuthenticatedUser.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Orgs.PatchUpdateMembershipForAuthenticatedUser.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

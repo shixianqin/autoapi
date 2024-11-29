@@ -57,8 +57,8 @@ export function getCachePolicy(options: {
  */
 export function putUpdate(options: {
   pathParams: API.CustomizeTagAndName.CachePolicy.PutUpdate.PathParams;
-  headers?: API.CustomizeTagAndName.CachePolicy.PutUpdate.Headers;
   body: API.CustomizeTagAndName.CachePolicy.PutUpdate.Body;
+  headers?: API.CustomizeTagAndName.CachePolicy.PutUpdate.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -91,8 +91,8 @@ export function getListCachePolicies(options?: {
  * @path `/2020-05-31/cache-policy`
  */
 export function postCreate(options: {
-  headers?: API.CustomizeTagAndName.CachePolicy.PostCreate.Headers;
   body: API.CustomizeTagAndName.CachePolicy.PostCreate.Body;
+  headers?: API.CustomizeTagAndName.CachePolicy.PostCreate.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

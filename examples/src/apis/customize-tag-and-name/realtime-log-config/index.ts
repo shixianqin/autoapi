@@ -5,8 +5,8 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/2020-05-31/realtime-log-config/`
  */
 export function putUpdate(options?: {
-  headers?: API.CustomizeTagAndName.RealtimeLogConfig.PutUpdate.Headers;
   body?: API.CustomizeTagAndName.RealtimeLogConfig.PutUpdate.Body;
+  headers?: API.CustomizeTagAndName.RealtimeLogConfig.PutUpdate.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -39,8 +39,8 @@ export function getListRealtimeLogConfigs(options?: {
  * @path `/2020-05-31/realtime-log-config`
  */
 export function postCreate(options: {
-  headers?: API.CustomizeTagAndName.RealtimeLogConfig.PostCreate.Headers;
   body: API.CustomizeTagAndName.RealtimeLogConfig.PostCreate.Body;
+  headers?: API.CustomizeTagAndName.RealtimeLogConfig.PostCreate.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

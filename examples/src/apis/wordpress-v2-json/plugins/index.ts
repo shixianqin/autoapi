@@ -56,8 +56,8 @@ export function patchWpV2Plugin(options: {
  */
 export function postWpV2Plugin(options: {
   pathParams: API.WordpressV2Json.Plugins.PostWpV2Plugin.PathParams;
-  headers?: Record<string, any>;
   formData?: API.WordpressV2Json.Plugins.PostWpV2Plugin.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -101,8 +101,8 @@ export function getWpV2(options?: {
  * @path `/wp/v2/plugins`
  */
 export function postWpV2(options: {
-  headers?: Record<string, any>;
   formData: API.WordpressV2Json.Plugins.PostWpV2.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

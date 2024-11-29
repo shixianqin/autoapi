@@ -52,8 +52,8 @@ export function getDiscussionCommentInOrg(options: {
  */
 export function patchUpdateDiscussionCommentInOrg(options: {
   pathParams: API.GithubV3Json.Teams.PatchUpdateDiscussionCommentInOrg.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Teams.PatchUpdateDiscussionCommentInOrg.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -98,8 +98,8 @@ export function getListDiscussionCommentsInOrg(options: {
  */
 export function postCreateDiscussionCommentInOrg(options: {
   pathParams: API.GithubV3Json.Teams.PostCreateDiscussionCommentInOrg.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Teams.PostCreateDiscussionCommentInOrg.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -162,8 +162,8 @@ export function getDiscussionInOrg(options: {
  */
 export function patchUpdateDiscussionInOrg(options: {
   pathParams: API.GithubV3Json.Teams.PatchUpdateDiscussionInOrg.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Teams.PatchUpdateDiscussionInOrg.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -208,8 +208,8 @@ export function getListDiscussionsInOrg(options: {
  */
 export function postCreateDiscussionInOrg(options: {
   pathParams: API.GithubV3Json.Teams.PostCreateDiscussionInOrg.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Teams.PostCreateDiscussionInOrg.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -335,8 +335,8 @@ export function getMembershipForUserInOrg(options: {
  */
 export function putAddOrUpdateMembershipForUserInOrg(options: {
   pathParams: API.GithubV3Json.Teams.PutAddOrUpdateMembershipForUserInOrg.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Teams.PutAddOrUpdateMembershipForUserInOrg.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -399,8 +399,8 @@ export function getCheckPermissionsForProjectInOrg(options: {
  */
 export function putAddOrUpdateProjectPermissionsInOrg(options: {
   pathParams: API.GithubV3Json.Teams.PutAddOrUpdateProjectPermissionsInOrg.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Teams.PutAddOrUpdateProjectPermissionsInOrg.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -491,8 +491,8 @@ export function getCheckPermissionsForRepoInOrg(options: {
  */
 export function putAddOrUpdateRepoPermissionsInOrg(options: {
   pathParams: API.GithubV3Json.Teams.PutAddOrUpdateRepoPermissionsInOrg.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Teams.PutAddOrUpdateRepoPermissionsInOrg.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -601,8 +601,8 @@ export function getByName(options: {
  */
 export function patchUpdateInOrg(options: {
   pathParams: API.GithubV3Json.Teams.PatchUpdateInOrg.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Teams.PatchUpdateInOrg.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -643,8 +643,8 @@ export function getList(options: {
  */
 export function postCreate(options: {
   pathParams: API.GithubV3Json.Teams.PostCreate.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Teams.PostCreate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -710,8 +710,8 @@ export function getDiscussionCommentLegacy(options: {
  */
 export function patchUpdateDiscussionCommentLegacy(options: {
   pathParams: API.GithubV3Json.Teams.PatchUpdateDiscussionCommentLegacy.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Teams.PatchUpdateDiscussionCommentLegacy.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -758,8 +758,8 @@ export function getListDiscussionCommentsLegacy(options: {
  */
 export function postCreateDiscussionCommentLegacy(options: {
   pathParams: API.GithubV3Json.Teams.PostCreateDiscussionCommentLegacy.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Teams.PostCreateDiscussionCommentLegacy.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -825,8 +825,8 @@ export function getDiscussionLegacy(options: {
  */
 export function patchUpdateDiscussionLegacy(options: {
   pathParams: API.GithubV3Json.Teams.PatchUpdateDiscussionLegacy.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Teams.PatchUpdateDiscussionLegacy.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -873,8 +873,8 @@ export function getListDiscussionsLegacy(options: {
  */
 export function postCreateDiscussionLegacy(options: {
   pathParams: API.GithubV3Json.Teams.PostCreateDiscussionLegacy.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Teams.PostCreateDiscussionLegacy.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1087,8 +1087,8 @@ export function getMembershipForUserLegacy(options: {
  */
 export function putAddOrUpdateMembershipForUserLegacy(options: {
   pathParams: API.GithubV3Json.Teams.PutAddOrUpdateMembershipForUserLegacy.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Teams.PutAddOrUpdateMembershipForUserLegacy.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1154,8 +1154,8 @@ export function getCheckPermissionsForProjectLegacy(options: {
  */
 export function putAddOrUpdateProjectPermissionsLegacy(options: {
   pathParams: API.GithubV3Json.Teams.PutAddOrUpdateProjectPermissionsLegacy.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Teams.PutAddOrUpdateProjectPermissionsLegacy.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1248,8 +1248,8 @@ export function getCheckPermissionsForRepoLegacy(options: {
  */
 export function putAddOrUpdateRepoPermissionsLegacy(options: {
   pathParams: API.GithubV3Json.Teams.PutAddOrUpdateRepoPermissionsLegacy.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Teams.PutAddOrUpdateRepoPermissionsLegacy.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1359,8 +1359,8 @@ export function getLegacy(options: {
  */
 export function patchUpdateLegacy(options: {
   pathParams: API.GithubV3Json.Teams.PatchUpdateLegacy.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Teams.PatchUpdateLegacy.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

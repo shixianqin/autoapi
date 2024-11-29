@@ -36,8 +36,8 @@ export function getListInRepositoryForAuthenticatedUser(options: {
  */
 export function postCreateWithRepoForAuthenticatedUser(options: {
   pathParams: API.CustomizeParseUnsuccessfulResponses.Codespaces.PostCreateWithRepoForAuthenticatedUser.PathParams;
-  headers?: Record<string, any>;
   body?: API.CustomizeParseUnsuccessfulResponses.Codespaces.PostCreateWithRepoForAuthenticatedUser.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

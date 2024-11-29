@@ -76,8 +76,8 @@ export function getAlert(options: {
  */
 export function patchUpdateAlert(options: {
   pathParams: API.GithubV3Json.CodeScanning.PatchUpdateAlert.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.CodeScanning.PatchUpdateAlert.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -381,8 +381,8 @@ export function getSarif(options: {
  */
 export function postUploadSarif(options: {
   pathParams: API.GithubV3Json.CodeScanning.PostUploadSarif.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.CodeScanning.PostUploadSarif.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

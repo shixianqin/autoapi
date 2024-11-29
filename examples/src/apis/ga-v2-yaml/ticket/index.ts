@@ -6,8 +6,8 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/provisioning/createAccountTicket`
  */
 export function postAnalyticsProvisioningCreateAccount(options?: {
-  headers?: Record<string, any>;
   body?: API.GaV2Yaml.Ticket.PostAnalyticsProvisioningCreateAccount.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

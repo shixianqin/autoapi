@@ -5,8 +5,8 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/account/shards`
  */
 export function postSetShards(options: {
-  headers?: Record<string, any>;
   body: API.WhatsappV3Json.Application.PostSetShards.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -51,8 +51,8 @@ export function getMediaProviders(options?: {
  * @path `/settings/application/media/providers`
  */
 export function postUpdateMediaProviders(options?: {
-  headers?: Record<string, any>;
   body?: API.WhatsappV3Json.Application.PostUpdateMediaProviders.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -97,8 +97,8 @@ export function getSettings(options?: {
  * @path `/settings/application`
  */
 export function patchUpdateSettings(options?: {
-  headers?: Record<string, any>;
   body?: API.WhatsappV3Json.Application.PatchUpdateSettings.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

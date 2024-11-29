@@ -133,8 +133,8 @@ export function getListForOrg(options: {
  */
 export function postStartForOrg(options: {
   pathParams: API.GithubV3Json.Migrations.PostStartForOrg.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Migrations.PostStartForOrg.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -153,8 +153,8 @@ export function postStartForOrg(options: {
  */
 export function patchMapCommitAuthor(options: {
   pathParams: API.GithubV3Json.Migrations.PatchMapCommitAuthor.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Migrations.PatchMapCommitAuthor.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -214,8 +214,8 @@ export function getLargeFiles(options: {
  */
 export function patchSetLfsPreference(options: {
   pathParams: API.GithubV3Json.Migrations.PatchSetLfsPreference.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Migrations.PatchSetLfsPreference.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -307,8 +307,8 @@ export function getImportStatus(options: {
  */
 export function patchUpdateImport(options: {
   pathParams: API.GithubV3Json.Migrations.PatchUpdateImport.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Migrations.PatchUpdateImport.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -327,8 +327,8 @@ export function patchUpdateImport(options: {
  */
 export function putStartImport(options: {
   pathParams: API.GithubV3Json.Migrations.PutStartImport.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Migrations.PutStartImport.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -487,8 +487,8 @@ export function getListForAuthenticatedUser(options?: {
  * @docs https://docs.github.com/rest/migrations/users#start-a-user-migration
  */
 export function postStartForAuthenticatedUser(options: {
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Migrations.PostStartForAuthenticatedUser.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

@@ -23,8 +23,8 @@ export function getConfig(options: {
  */
 export function putUpdate(options: {
   pathParams: API.CustomizeTagAndName.StreamingDistribution.PutUpdate.PathParams;
-  headers?: API.CustomizeTagAndName.StreamingDistribution.PutUpdate.Headers;
   body: API.CustomizeTagAndName.StreamingDistribution.PutUpdate.Body;
+  headers?: API.CustomizeTagAndName.StreamingDistribution.PutUpdate.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -91,8 +91,8 @@ export function getListStreamingDistributions(options?: {
  * @path `/2020-05-31/streaming-distribution`
  */
 export function postCreate(options: {
-  headers?: API.CustomizeTagAndName.StreamingDistribution.PostCreate.Headers;
   body: API.CustomizeTagAndName.StreamingDistribution.PostCreate.Body;
+  headers?: API.CustomizeTagAndName.StreamingDistribution.PostCreate.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

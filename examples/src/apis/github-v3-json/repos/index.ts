@@ -36,8 +36,8 @@ export function getListForOrg(options: {
  */
 export function postCreateInOrg(options: {
   pathParams: API.GithubV3Json.Repos.PostCreateInOrg.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostCreateInOrg.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -120,8 +120,8 @@ export function getListAutolinks(options: {
  */
 export function postCreateAutolink(options: {
   pathParams: API.GithubV3Json.Repos.PostCreateAutolink.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostCreateAutolink.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -281,8 +281,8 @@ export function getPullRequestReviewProtection(options: {
  */
 export function patchUpdatePullRequestReviewProtection(options: {
   pathParams: API.GithubV3Json.Repos.PatchUpdatePullRequestReviewProtection.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Repos.PatchUpdatePullRequestReviewProtection.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -366,8 +366,8 @@ export function postCreateCommitSignatureProtection(options: {
  */
 export function deleteRemoveStatusCheckContexts(options: {
   pathParams: API.GithubV3Json.Repos.DeleteRemoveStatusCheckContexts.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.DeleteRemoveStatusCheckContexts.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -405,8 +405,8 @@ export function getAllStatusCheckContexts(options: {
  */
 export function postAddStatusCheckContexts(options: {
   pathParams: API.GithubV3Json.Repos.PostAddStatusCheckContexts.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostAddStatusCheckContexts.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -425,8 +425,8 @@ export function postAddStatusCheckContexts(options: {
  */
 export function putSetStatusCheckContexts(options: {
   pathParams: API.GithubV3Json.Repos.PutSetStatusCheckContexts.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PutSetStatusCheckContexts.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -485,8 +485,8 @@ export function getStatusChecksProtection(options: {
  */
 export function patchUpdateStatusCheckProtection(options: {
   pathParams: API.GithubV3Json.Repos.PatchUpdateStatusCheckProtection.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Repos.PatchUpdateStatusCheckProtection.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -507,8 +507,8 @@ export function patchUpdateStatusCheckProtection(options: {
  */
 export function deleteRemoveAppAccessRestrictions(options: {
   pathParams: API.GithubV3Json.Repos.DeleteRemoveAppAccessRestrictions.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.DeleteRemoveAppAccessRestrictions.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -550,8 +550,8 @@ export function getAppsWithAccessToProtectedBranch(options: {
  */
 export function postAddAppAccessRestrictions(options: {
   pathParams: API.GithubV3Json.Repos.PostAddAppAccessRestrictions.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostAddAppAccessRestrictions.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -572,8 +572,8 @@ export function postAddAppAccessRestrictions(options: {
  */
 export function putSetAppAccessRestrictions(options: {
   pathParams: API.GithubV3Json.Repos.PutSetAppAccessRestrictions.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PutSetAppAccessRestrictions.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -594,8 +594,8 @@ export function putSetAppAccessRestrictions(options: {
  */
 export function deleteRemoveTeamAccessRestrictions(options: {
   pathParams: API.GithubV3Json.Repos.DeleteRemoveTeamAccessRestrictions.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.DeleteRemoveTeamAccessRestrictions.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -637,8 +637,8 @@ export function getTeamsWithAccessToProtectedBranch(options: {
  */
 export function postAddTeamAccessRestrictions(options: {
   pathParams: API.GithubV3Json.Repos.PostAddTeamAccessRestrictions.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostAddTeamAccessRestrictions.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -659,8 +659,8 @@ export function postAddTeamAccessRestrictions(options: {
  */
 export function putSetTeamAccessRestrictions(options: {
   pathParams: API.GithubV3Json.Repos.PutSetTeamAccessRestrictions.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PutSetTeamAccessRestrictions.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -685,8 +685,8 @@ export function putSetTeamAccessRestrictions(options: {
  */
 export function deleteRemoveUserAccessRestrictions(options: {
   pathParams: API.GithubV3Json.Repos.DeleteRemoveUserAccessRestrictions.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.DeleteRemoveUserAccessRestrictions.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -732,8 +732,8 @@ export function getUsersWithAccessToProtectedBranch(options: {
  */
 export function postAddUserAccessRestrictions(options: {
   pathParams: API.GithubV3Json.Repos.PostAddUserAccessRestrictions.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostAddUserAccessRestrictions.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -758,8 +758,8 @@ export function postAddUserAccessRestrictions(options: {
  */
 export function putSetUserAccessRestrictions(options: {
   pathParams: API.GithubV3Json.Repos.PutSetUserAccessRestrictions.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PutSetUserAccessRestrictions.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -866,8 +866,8 @@ export function getBranchProtection(options: {
  */
 export function putUpdateBranchProtection(options: {
   pathParams: API.GithubV3Json.Repos.PutUpdateBranchProtection.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PutUpdateBranchProtection.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -898,8 +898,8 @@ export function putUpdateBranchProtection(options: {
  */
 export function postRenameBranch(options: {
   pathParams: API.GithubV3Json.Repos.PostRenameBranch.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostRenameBranch.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1061,8 +1061,8 @@ export function getCheckCollaborator(options: {
  */
 export function putAddCollaborator(options: {
   pathParams: API.GithubV3Json.Repos.PutAddCollaborator.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Repos.PutAddCollaborator.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1143,8 +1143,8 @@ export function getCommitComment(options: {
  */
 export function patchUpdateCommitComment(options: {
   pathParams: API.GithubV3Json.Repos.PatchUpdateCommitComment.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PatchUpdateCommitComment.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1228,8 +1228,8 @@ export function getListCommentsForCommit(options: {
  */
 export function postCreateCommitComment(options: {
   pathParams: API.GithubV3Json.Repos.PostCreateCommitComment.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostCreateCommitComment.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1521,8 +1521,8 @@ export function getCompareCommits(options: {
  */
 export function deleteFile(options: {
   pathParams: API.GithubV3Json.Repos.DeleteFile.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.DeleteFile.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1599,8 +1599,8 @@ export function getContent(options: {
  */
 export function putCreateOrUpdateFileContents(options: {
   pathParams: API.GithubV3Json.Repos.PutCreateOrUpdateFileContents.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PutCreateOrUpdateFileContents.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1682,8 +1682,8 @@ export function getListDeploymentStatuses(options: {
  */
 export function postCreateDeploymentStatus(options: {
   pathParams: API.GithubV3Json.Repos.PostCreateDeploymentStatus.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostCreateDeploymentStatus.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1809,8 +1809,8 @@ export function getListDeployments(options: {
  */
 export function postCreateDeployment(options: {
   pathParams: API.GithubV3Json.Repos.PostCreateDeployment.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostCreateDeployment.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1838,8 +1838,8 @@ export function postCreateDeployment(options: {
  */
 export function postCreateDispatchEvent(options: {
   pathParams: API.GithubV3Json.Repos.PostCreateDispatchEvent.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostCreateDispatchEvent.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1902,8 +1902,8 @@ export function getDeploymentBranchPolicy(options: {
  */
 export function putUpdateDeploymentBranchPolicy(options: {
   pathParams: API.GithubV3Json.Repos.PutUpdateDeploymentBranchPolicy.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PutUpdateDeploymentBranchPolicy.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1946,8 +1946,8 @@ export function getListDeploymentBranchPolicies(options: {
  */
 export function postCreateDeploymentBranchPolicy(options: {
   pathParams: API.GithubV3Json.Repos.PostCreateDeploymentBranchPolicy.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostCreateDeploymentBranchPolicy.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2014,8 +2014,8 @@ export function getEnvironment(options: {
  */
 export function putCreateOrUpdateEnvironment(options: {
   pathParams: API.GithubV3Json.Repos.PutCreateOrUpdateEnvironment.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Repos.PutCreateOrUpdateEnvironment.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2077,8 +2077,8 @@ export function getListForks(options: {
  */
 export function postCreateFork(options: {
   pathParams: API.GithubV3Json.Repos.PostCreateFork.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Repos.PostCreateFork.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2120,8 +2120,8 @@ export function getWebhookConfigForRepo(options: {
  */
 export function patchUpdateWebhookConfigForRepo(options: {
   pathParams: API.GithubV3Json.Repos.PatchUpdateWebhookConfigForRepo.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Repos.PatchUpdateWebhookConfigForRepo.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2275,8 +2275,8 @@ export function getWebhook(options: {
  */
 export function patchUpdateWebhook(options: {
   pathParams: API.GithubV3Json.Repos.PatchUpdateWebhook.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Repos.PatchUpdateWebhook.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2316,8 +2316,8 @@ export function getListWebhooks(options: {
  */
 export function postCreateWebhook(options: {
   pathParams: API.GithubV3Json.Repos.PostCreateWebhook.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Repos.PostCreateWebhook.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2353,8 +2353,8 @@ export function deleteInvitation(options: {
  */
 export function patchUpdateInvitation(options: {
   pathParams: API.GithubV3Json.Repos.PatchUpdateInvitation.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Repos.PatchUpdateInvitation.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2449,8 +2449,8 @@ export function getListDeployKeys(options: {
  */
 export function postCreateDeployKey(options: {
   pathParams: API.GithubV3Json.Repos.PostCreateDeployKey.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostCreateDeployKey.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2526,8 +2526,8 @@ export function putEnableLfsForRepo(options: {
  */
 export function postMergeUpstream(options: {
   pathParams: API.GithubV3Json.Repos.PostMergeUpstream.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostMergeUpstream.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2545,8 +2545,8 @@ export function postMergeUpstream(options: {
  */
 export function postMerge(options: {
   pathParams: API.GithubV3Json.Repos.PostMerge.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostMerge.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2643,8 +2643,8 @@ export function postRequestPagesBuild(options: {
  */
 export function postCreatePagesDeployment(options: {
   pathParams: API.GithubV3Json.Repos.PostCreatePagesDeployment.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostCreatePagesDeployment.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2727,8 +2727,8 @@ export function getPages(options: {
  */
 export function postCreatePagesSite(options: {
   pathParams: API.GithubV3Json.Repos.PostCreatePagesSite.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostCreatePagesSite.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2749,8 +2749,8 @@ export function postCreatePagesSite(options: {
  */
 export function putUpdateInformationAboutPagesSite(options: {
   pathParams: API.GithubV3Json.Repos.PutUpdateInformationAboutPagesSite.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PutUpdateInformationAboutPagesSite.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2850,8 +2850,8 @@ export function getReleaseAsset(options: {
  */
 export function patchUpdateReleaseAsset(options: {
   pathParams: API.GithubV3Json.Repos.PatchUpdateReleaseAsset.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Repos.PatchUpdateReleaseAsset.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2870,8 +2870,8 @@ export function patchUpdateReleaseAsset(options: {
  */
 export function postGenerateReleaseNotes(options: {
   pathParams: API.GithubV3Json.Repos.PostGenerateReleaseNotes.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostGenerateReleaseNotes.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2968,8 +2968,8 @@ export function getListReleaseAssets(options: {
 export function postUploadReleaseAsset(options: {
   pathParams: API.GithubV3Json.Repos.PostUploadReleaseAsset.PathParams;
   queryParams: API.GithubV3Json.Repos.PostUploadReleaseAsset.QueryParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostUploadReleaseAsset.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3026,8 +3026,8 @@ export function getRelease(options: {
  */
 export function patchUpdateRelease(options: {
   pathParams: API.GithubV3Json.Repos.PatchUpdateRelease.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Repos.PatchUpdateRelease.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3070,8 +3070,8 @@ export function getListReleases(options: {
  */
 export function postCreateRelease(options: {
   pathParams: API.GithubV3Json.Repos.PostCreateRelease.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostCreateRelease.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3199,8 +3199,8 @@ export function getPunchCardStats(options: {
  */
 export function postCreateCommitStatus(options: {
   pathParams: API.GithubV3Json.Repos.PostCreateCommitStatus.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostCreateCommitStatus.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3261,8 +3261,8 @@ export function getListTagProtection(options: {
  */
 export function postCreateTagProtection(options: {
   pathParams: API.GithubV3Json.Repos.PostCreateTagProtection.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostCreateTagProtection.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3359,8 +3359,8 @@ export function getAllTopics(options: {
  */
 export function putReplaceAllTopics(options: {
   pathParams: API.GithubV3Json.Repos.PutReplaceAllTopics.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PutReplaceAllTopics.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3457,8 +3457,8 @@ export function getViews(options: {
  */
 export function postTransfer(options: {
   pathParams: API.GithubV3Json.Repos.PostTransfer.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostTransfer.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3602,8 +3602,8 @@ export function getRepos(options: {
  */
 export function patchUpdate(options: {
   pathParams: API.GithubV3Json.Repos.PatchUpdate.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Repos.PatchUpdate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3628,8 +3628,8 @@ export function patchUpdate(options: {
  */
 export function postCreateUsingTemplate(options: {
   pathParams: API.GithubV3Json.Repos.PostCreateUsingTemplate.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostCreateUsingTemplate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3752,8 +3752,8 @@ export function getListInvitationsForAuthenticatedUser(options?: {
  * @docs https://docs.github.com/rest/reference/repos#create-a-repository-for-the-authenticated-user
  */
 export function postCreateForAuthenticatedUser(options: {
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Repos.PostCreateForAuthenticatedUser.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

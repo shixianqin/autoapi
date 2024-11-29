@@ -80,8 +80,8 @@ export function getListBlockedByAuthenticatedUser(options?: {
  * @docs https://docs.github.com/rest/reference/users#set-primary-email-visibility-for-the-authenticated-user
  */
 export function patchSetPrimaryEmailVisibilityForAuthenticatedUser(options: {
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Users.PatchSetPrimaryEmailVisibilityForAuthenticatedUser.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -99,8 +99,8 @@ export function patchSetPrimaryEmailVisibilityForAuthenticatedUser(options: {
  * @docs https://docs.github.com/rest/reference/users#delete-an-email-address-for-the-authenticated-user
  */
 export function deleteEmailForAuthenticatedUser(options: {
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Users.DeleteEmailForAuthenticatedUser.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -133,8 +133,8 @@ export function getListEmailsForAuthenticatedUser(options?: {
  * @docs https://docs.github.com/rest/reference/users#add-an-email-address-for-the-authenticated-user
  */
 export function postAddEmailForAuthenticatedUser(options: {
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Users.PostAddEmailForAuthenticatedUser.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -305,8 +305,8 @@ export function getListGpgKeysForAuthenticatedUser(options?: {
  * @docs https://docs.github.com/rest/reference/users#create-a-gpg-key-for-the-authenticated-user
  */
 export function postCreateGpgKeyForAuthenticatedUser(options: {
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Users.PostCreateGpgKeyForAuthenticatedUser.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -381,8 +381,8 @@ export function getListPublicSshKeysForAuthenticatedUser(options?: {
  * @docs https://docs.github.com/rest/reference/users#create-a-public-ssh-key-for-the-authenticated-user
  */
 export function postCreatePublicSshKeyForAuthenticatedUser(options: {
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Users.PostCreatePublicSshKeyForAuthenticatedUser.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -476,8 +476,8 @@ export function getListSshSigningKeysForAuthenticatedUser(options?: {
  * @docs https://docs.github.com/rest/reference/users#create-an-ssh-signing-key-for-the-authenticated-user
  */
 export function postCreateSshSigningKeyForAuthenticatedUser(options: {
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Users.PostCreateSshSigningKeyForAuthenticatedUser.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -515,8 +515,8 @@ export function getAuthenticated(options?: {
  * @docs https://docs.github.com/rest/reference/users/#update-the-authenticated-user
  */
 export function patchUpdateAuthenticated(options?: {
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Users.PatchUpdateAuthenticated.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

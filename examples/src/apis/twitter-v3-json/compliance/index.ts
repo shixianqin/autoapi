@@ -46,8 +46,8 @@ export function getListBatchJobs(options: {
  * @docs https://developer.twitter.com/en/docs/twitter-api/compliance/batch-compliance/api-reference/post-compliance-jobs
  */
 export function postCreateBatchJob(options: {
-  headers?: Record<string, any>;
   body: API.TwitterV3Json.Compliance.PostCreateBatchJob.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

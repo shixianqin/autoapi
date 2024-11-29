@@ -5,8 +5,8 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/account/verify`
  */
 export function postRegisterAccount(options: {
-  headers?: Record<string, any>;
   body: API.WhatsappV3Json.Registration.PostRegisterAccount.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -18,8 +18,8 @@ export function postRegisterAccount(options: {
  * @path `/account`
  */
 export function postRequestCode(options: {
-  headers?: Record<string, any>;
   body: API.WhatsappV3Json.Registration.PostRequestCode.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

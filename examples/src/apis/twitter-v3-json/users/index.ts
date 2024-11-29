@@ -225,8 +225,8 @@ export function getIdFollowing(options: {
  */
 export function postIdFollow(options: {
   pathParams: API.TwitterV3Json.Users.PostIdFollow.PathParams;
-  headers?: Record<string, any>;
   body: API.TwitterV3Json.Users.PostIdFollow.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -265,8 +265,8 @@ export function getIdMuting(options: {
  */
 export function postIdMute(options: {
   pathParams: API.TwitterV3Json.Users.PostIdMute.PathParams;
-  headers?: Record<string, any>;
   body: API.TwitterV3Json.Users.PostIdMute.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

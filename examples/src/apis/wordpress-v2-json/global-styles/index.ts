@@ -70,8 +70,8 @@ export function patchWpV2Id(options: {
  */
 export function postWpV2Id(options: {
   pathParams: API.WordpressV2Json.GlobalStyles.PostWpV2Id.PathParams;
-  headers?: Record<string, any>;
   formData?: API.WordpressV2Json.GlobalStyles.PostWpV2Id.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

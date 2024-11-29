@@ -6,8 +6,8 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function postCreate(options: {
   queryParams: API.CustomizeTagAndName.StreamingDistributionWithTags.PostCreate.QueryParams;
-  headers?: API.CustomizeTagAndName.StreamingDistributionWithTags.PostCreate.Headers;
   body: API.CustomizeTagAndName.StreamingDistributionWithTags.PostCreate.Body;
+  headers?: API.CustomizeTagAndName.StreamingDistributionWithTags.PostCreate.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

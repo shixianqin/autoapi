@@ -24,8 +24,8 @@ export function getServerOptions(options: {
  */
 export function postGenerateServerForLanguage(options: {
   pathParams: API.CustomizeName.Servers.PostGenerateServerForLanguage.PathParams;
-  headers?: Record<string, any>;
   body?: API.CustomizeName.Servers.PostGenerateServerForLanguage.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

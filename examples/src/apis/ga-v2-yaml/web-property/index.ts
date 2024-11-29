@@ -25,8 +25,8 @@ export function getAnalyticsManagementWebproperties(options: {
  */
 export function patchAnalyticsManagementWebproperties(options: {
   pathParams: API.GaV2Yaml.WebProperty.PatchAnalyticsManagementWebproperties.PathParams;
-  headers?: Record<string, any>;
   body?: API.GaV2Yaml.WebProperty.PatchAnalyticsManagementWebproperties.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -44,8 +44,8 @@ export function patchAnalyticsManagementWebproperties(options: {
  */
 export function putAnalyticsManagementWebpropertiesUpdate(options: {
   pathParams: API.GaV2Yaml.WebProperty.PutAnalyticsManagementWebpropertiesUpdate.PathParams;
-  headers?: Record<string, any>;
   body?: API.GaV2Yaml.WebProperty.PutAnalyticsManagementWebpropertiesUpdate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -82,8 +82,8 @@ export function getAnalyticsManagementWebpropertiesList(options: {
  */
 export function postAnalyticsManagementWebpropertiesInsert(options: {
   pathParams: API.GaV2Yaml.WebProperty.PostAnalyticsManagementWebpropertiesInsert.PathParams;
-  headers?: Record<string, any>;
   body?: API.GaV2Yaml.WebProperty.PostAnalyticsManagementWebpropertiesInsert.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

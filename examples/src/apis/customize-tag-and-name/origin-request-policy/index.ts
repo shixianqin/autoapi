@@ -57,8 +57,8 @@ export function getOriginRequestPolicy(options: {
  */
 export function putUpdate(options: {
   pathParams: API.CustomizeTagAndName.OriginRequestPolicy.PutUpdate.PathParams;
-  headers?: API.CustomizeTagAndName.OriginRequestPolicy.PutUpdate.Headers;
   body: API.CustomizeTagAndName.OriginRequestPolicy.PutUpdate.Body;
+  headers?: API.CustomizeTagAndName.OriginRequestPolicy.PutUpdate.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -91,8 +91,8 @@ export function getListOriginRequestPolicies(options?: {
  * @path `/2020-05-31/origin-request-policy`
  */
 export function postCreate(options: {
-  headers?: API.CustomizeTagAndName.OriginRequestPolicy.PostCreate.Headers;
   body: API.CustomizeTagAndName.OriginRequestPolicy.PostCreate.Body;
+  headers?: API.CustomizeTagAndName.OriginRequestPolicy.PostCreate.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

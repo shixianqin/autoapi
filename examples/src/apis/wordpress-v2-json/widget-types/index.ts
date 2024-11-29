@@ -5,8 +5,8 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function postWpV2IdEncode(options: {
   pathParams: API.WordpressV2Json.WidgetTypes.PostWpV2IdEncode.PathParams;
-  headers?: Record<string, any>;
   formData?: API.WordpressV2Json.WidgetTypes.PostWpV2IdEncode.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -22,8 +22,8 @@ export function postWpV2IdEncode(options: {
  */
 export function postWpV2IdRender(options: {
   pathParams: API.WordpressV2Json.WidgetTypes.PostWpV2IdRender.PathParams;
-  headers?: Record<string, any>;
   formData?: API.WordpressV2Json.WidgetTypes.PostWpV2IdRender.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

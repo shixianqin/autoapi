@@ -46,8 +46,8 @@ export function getRestrictionsForOrg(options: {
  */
 export function putSetRestrictionsForOrg(options: {
   pathParams: API.GithubV3Json.Interactions.PutSetRestrictionsForOrg.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Interactions.PutSetRestrictionsForOrg.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -104,8 +104,8 @@ export function getRestrictionsForRepo(options: {
  */
 export function putSetRestrictionsForRepo(options: {
   pathParams: API.GithubV3Json.Interactions.PutSetRestrictionsForRepo.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Interactions.PutSetRestrictionsForRepo.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -155,8 +155,8 @@ export function getRestrictionsForAuthenticatedUser(options?: {
  * @docs https://docs.github.com/rest/reference/interactions#set-interaction-restrictions-for-your-public-repositories
  */
 export function putSetRestrictionsForAuthenticatedUser(options: {
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Interactions.PutSetRestrictionsForAuthenticatedUser.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

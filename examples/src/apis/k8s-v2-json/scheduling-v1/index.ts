@@ -23,8 +23,8 @@ export function getApiResources(options?: {
 export function deletePriorityClass(options: {
   pathParams: API.K8sV2Json.SchedulingV1.DeletePriorityClass.PathParams;
   queryParams?: API.K8sV2Json.SchedulingV1.DeletePriorityClass.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.SchedulingV1.DeletePriorityClass.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -60,8 +60,8 @@ export function getReadPriorityClass(options: {
 export function patchPriorityClass(options: {
   pathParams: API.K8sV2Json.SchedulingV1.PatchPriorityClass.PathParams;
   queryParams?: API.K8sV2Json.SchedulingV1.PatchPriorityClass.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.SchedulingV1.PatchPriorityClass.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -79,8 +79,8 @@ export function patchPriorityClass(options: {
 export function putReplacePriorityClass(options: {
   pathParams: API.K8sV2Json.SchedulingV1.PutReplacePriorityClass.PathParams;
   queryParams?: API.K8sV2Json.SchedulingV1.PutReplacePriorityClass.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.SchedulingV1.PutReplacePriorityClass.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -97,8 +97,8 @@ export function putReplacePriorityClass(options: {
  */
 export function deleteCollectionPriorityClass(options?: {
   queryParams?: API.K8sV2Json.SchedulingV1.DeleteCollectionPriorityClass.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.SchedulingV1.DeleteCollectionPriorityClass.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -132,8 +132,8 @@ export function getListPriorityClass(options?: {
  */
 export function postCreatePriorityClass(options: {
   queryParams?: API.K8sV2Json.SchedulingV1.PostCreatePriorityClass.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.SchedulingV1.PostCreatePriorityClass.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

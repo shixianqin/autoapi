@@ -24,8 +24,8 @@ export function postRenameTemplate(options: {
  */
 export function postUpdateTemplateComments(options: {
   pathParams: API.SwaggerHubV2Json.Templates.PostUpdateTemplateComments.PathParams;
-  headers?: Record<string, any>;
   body?: API.SwaggerHubV2Json.Templates.PostUpdateTemplateComments.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -59,8 +59,8 @@ export function getTemplateComments(options: {
  */
 export function postForkTemplate(options: {
   pathParams: API.SwaggerHubV2Json.Templates.PostForkTemplate.PathParams;
-  headers?: Record<string, any>;
   body: API.SwaggerHubV2Json.Templates.PostForkTemplate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -95,8 +95,8 @@ export function getTemplateLifecycleSettings(options: {
 export function putSetTemplateLifecycleSettings(options: {
   pathParams: API.SwaggerHubV2Json.Templates.PutSetTemplateLifecycleSettings.PathParams;
   queryParams?: API.SwaggerHubV2Json.Templates.PutSetTemplateLifecycleSettings.QueryParams;
-  headers?: Record<string, any>;
   body?: API.SwaggerHubV2Json.Templates.PutSetTemplateLifecycleSettings.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -130,8 +130,8 @@ export function getTemplatePrivateSettings(options: {
  */
 export function putSetTemplatePrivateSettings(options: {
   pathParams: API.SwaggerHubV2Json.Templates.PutSetTemplatePrivateSettings.PathParams;
-  headers?: Record<string, any>;
   body: API.SwaggerHubV2Json.Templates.PutSetTemplatePrivateSettings.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -219,8 +219,8 @@ export function getTemplateVersions(options: {
 export function postSaveTemplateDefinition(options: {
   pathParams: API.SwaggerHubV2Json.Templates.PostSaveTemplateDefinition.PathParams;
   queryParams?: API.SwaggerHubV2Json.Templates.PostSaveTemplateDefinition.QueryParams;
-  headers?: Record<string, any>;
   body: API.SwaggerHubV2Json.Templates.PostSaveTemplateDefinition.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

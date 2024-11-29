@@ -57,8 +57,8 @@ export function getKeyGroup(options: {
  */
 export function putUpdate(options: {
   pathParams: API.CustomizeTagAndName.KeyGroup.PutUpdate.PathParams;
-  headers?: API.CustomizeTagAndName.KeyGroup.PutUpdate.Headers;
   body: API.CustomizeTagAndName.KeyGroup.PutUpdate.Body;
+  headers?: API.CustomizeTagAndName.KeyGroup.PutUpdate.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -91,8 +91,8 @@ export function getListKeyGroups(options?: {
  * @path `/2020-05-31/key-group`
  */
 export function postCreate(options: {
-  headers?: API.CustomizeTagAndName.KeyGroup.PostCreate.Headers;
   body: API.CustomizeTagAndName.KeyGroup.PostCreate.Body;
+  headers?: API.CustomizeTagAndName.KeyGroup.PostCreate.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

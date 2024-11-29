@@ -24,8 +24,8 @@ export function getServerOptions(options: {
  */
 export function postGenerateServerForLanguage(options: {
   pathParams: API.SwaggerGeneratorV2Json.Servers.PostGenerateServerForLanguage.PathParams;
-  headers?: Record<string, any>;
   body?: API.SwaggerGeneratorV2Json.Servers.PostGenerateServerForLanguage.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

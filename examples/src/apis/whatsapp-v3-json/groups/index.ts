@@ -6,8 +6,8 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function deleteDemoteGroupAdmin(options: {
   pathParams: API.WhatsappV3Json.Groups.DeleteDemoteGroupAdmin.PathParams;
-  headers?: Record<string, any>;
   body: API.WhatsappV3Json.Groups.DeleteDemoteGroupAdmin.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -24,8 +24,8 @@ export function deleteDemoteGroupAdmin(options: {
  */
 export function patchPromoteToGroupAdmin(options: {
   pathParams: API.WhatsappV3Json.Groups.PatchPromoteToGroupAdmin.PathParams;
-  headers?: Record<string, any>;
   body: API.WhatsappV3Json.Groups.PatchPromoteToGroupAdmin.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -42,8 +42,8 @@ export function patchPromoteToGroupAdmin(options: {
  */
 export function deleteGroupIcon(options: {
   pathParams: API.WhatsappV3Json.Groups.DeleteGroupIcon.PathParams;
-  headers?: Record<string, any>;
   formData: API.WhatsappV3Json.Groups.DeleteGroupIcon.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -77,8 +77,8 @@ export function getGroupIconBinary(options: {
  */
 export function postSetGroupIcon(options: {
   pathParams: API.WhatsappV3Json.Groups.PostSetGroupIcon.PathParams;
-  headers?: Record<string, any>;
   formData: API.WhatsappV3Json.Groups.PostSetGroupIcon.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -146,8 +146,8 @@ export function postLeaveGroup(options: {
  */
 export function deleteRemoveGroupParticipant(options: {
   pathParams: API.WhatsappV3Json.Groups.DeleteRemoveGroupParticipant.PathParams;
-  headers?: Record<string, any>;
   body: API.WhatsappV3Json.Groups.DeleteRemoveGroupParticipant.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -181,8 +181,8 @@ export function getGroupInfo(options: {
  */
 export function putUpdateGroupInfo(options: {
   pathParams: API.WhatsappV3Json.Groups.PutUpdateGroupInfo.PathParams;
-  headers?: Record<string, any>;
   body: API.WhatsappV3Json.Groups.PutUpdateGroupInfo.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -210,8 +210,8 @@ export function getAll(options?: {
  * @path `/groups`
  */
 export function postCreateGroup(options: {
-  headers?: Record<string, any>;
   body: API.WhatsappV3Json.Groups.PostCreateGroup.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

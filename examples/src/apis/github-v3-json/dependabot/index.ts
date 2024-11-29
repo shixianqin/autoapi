@@ -134,8 +134,8 @@ export function getListSelectedReposForOrgSecret(options: {
  */
 export function putSetSelectedReposForOrgSecret(options: {
   pathParams: API.GithubV3Json.Dependabot.PutSetSelectedReposForOrgSecret.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Dependabot.PutSetSelectedReposForOrgSecret.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -267,8 +267,8 @@ export function getOrgSecret(options: {
  */
 export function putCreateOrUpdateOrgSecret(options: {
   pathParams: API.GithubV3Json.Dependabot.PutCreateOrUpdateOrgSecret.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Dependabot.PutCreateOrUpdateOrgSecret.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -330,8 +330,8 @@ export function getAlert(options: {
  */
 export function patchUpdateAlert(options: {
   pathParams: API.GithubV3Json.Dependabot.PatchUpdateAlert.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Dependabot.PatchUpdateAlert.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -504,8 +504,8 @@ export function getRepoSecret(options: {
  */
 export function putCreateOrUpdateRepoSecret(options: {
   pathParams: API.GithubV3Json.Dependabot.PutCreateOrUpdateRepoSecret.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Dependabot.PutCreateOrUpdateRepoSecret.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

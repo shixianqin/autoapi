@@ -27,8 +27,8 @@ export function patchWpV2(options?: {
  * @path `/wp/v2/settings`
  */
 export function postWpV2(options?: {
-  headers?: Record<string, any>;
   formData?: API.WordpressV2Json.Settings.PostWpV2.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

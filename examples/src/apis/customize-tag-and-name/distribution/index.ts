@@ -41,8 +41,8 @@ export function getListInvalidations(options: {
  */
 export function postCreateInvalidation(options: {
   pathParams: API.CustomizeTagAndName.Distribution.PostCreateInvalidation.PathParams;
-  headers?: API.CustomizeTagAndName.Distribution.PostCreateInvalidation.Headers;
   body: API.CustomizeTagAndName.Distribution.PostCreateInvalidation.Body;
+  headers?: API.CustomizeTagAndName.Distribution.PostCreateInvalidation.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -76,8 +76,8 @@ export function getConfig(options: {
  */
 export function putUpdate(options: {
   pathParams: API.CustomizeTagAndName.Distribution.PutUpdate.PathParams;
-  headers?: API.CustomizeTagAndName.Distribution.PutUpdate.Headers;
   body: API.CustomizeTagAndName.Distribution.PutUpdate.Body;
+  headers?: API.CustomizeTagAndName.Distribution.PutUpdate.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -146,8 +146,8 @@ export function getDistribution(options: {
  */
 export function postCopy(options: {
   pathParams: API.CustomizeTagAndName.Distribution.PostCopy.PathParams;
-  headers?: API.CustomizeTagAndName.Distribution.PostCopy.Headers;
   body: API.CustomizeTagAndName.Distribution.PostCopy.Body;
+  headers?: API.CustomizeTagAndName.Distribution.PostCopy.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -198,8 +198,8 @@ export function getListDistributions(options?: {
  * @path `/2020-05-31/distribution`
  */
 export function postCreate(options: {
-  headers?: API.CustomizeTagAndName.Distribution.PostCreate.Headers;
   body: API.CustomizeTagAndName.Distribution.PostCreate.Body;
+  headers?: API.CustomizeTagAndName.Distribution.PostCreate.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

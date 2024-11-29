@@ -31,8 +31,8 @@ export function getCustomSubTemplateForOrg(options: {
  */
 export function putUpdateCustomSubTemplateForOrg(options: {
   pathParams: API.GithubV3Json.Oidc.PutUpdateCustomSubTemplateForOrg.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Oidc.PutUpdateCustomSubTemplateForOrg.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

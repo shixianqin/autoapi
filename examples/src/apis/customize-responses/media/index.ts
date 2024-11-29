@@ -20,8 +20,8 @@ export function getWpV2(options?: {
  * @path `/wp/v2/media`
  */
 export function postWpV2(options?: {
-  headers?: Record<string, any>;
   formData?: API.CustomizeResponses.Media.PostWpV2.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

@@ -21,8 +21,8 @@ export function getBusinessProfile(options?: {
  * @path `/settings/business/profile`
  */
 export function postUpdate(options: {
-  headers?: Record<string, any>;
   body: API.WhatsappV3Json.BusinessProfile.PostUpdate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

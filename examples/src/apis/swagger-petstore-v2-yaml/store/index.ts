@@ -58,8 +58,8 @@ export function getOrderById(options: {
  * @path `/store/order`
  */
 export function postPlaceOrder(options?: {
-  headers?: Record<string, any>;
   body?: API.SwaggerPetstoreV2Yaml.Store.PostPlaceOrder.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

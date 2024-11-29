@@ -40,8 +40,8 @@ export function getApiResources(options?: {
 export function deleteNamespacedEvent(options: {
   pathParams: API.K8sV2Json.EventsV1.DeleteNamespacedEvent.PathParams;
   queryParams?: API.K8sV2Json.EventsV1.DeleteNamespacedEvent.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.EventsV1.DeleteNamespacedEvent.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -77,8 +77,8 @@ export function getReadNamespacedEvent(options: {
 export function patchNamespacedEvent(options: {
   pathParams: API.K8sV2Json.EventsV1.PatchNamespacedEvent.PathParams;
   queryParams?: API.K8sV2Json.EventsV1.PatchNamespacedEvent.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.EventsV1.PatchNamespacedEvent.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -96,8 +96,8 @@ export function patchNamespacedEvent(options: {
 export function putReplaceNamespacedEvent(options: {
   pathParams: API.K8sV2Json.EventsV1.PutReplaceNamespacedEvent.PathParams;
   queryParams?: API.K8sV2Json.EventsV1.PutReplaceNamespacedEvent.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.EventsV1.PutReplaceNamespacedEvent.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -115,8 +115,8 @@ export function putReplaceNamespacedEvent(options: {
 export function deleteCollectionNamespacedEvent(options: {
   pathParams: API.K8sV2Json.EventsV1.DeleteCollectionNamespacedEvent.PathParams;
   queryParams?: API.K8sV2Json.EventsV1.DeleteCollectionNamespacedEvent.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.EventsV1.DeleteCollectionNamespacedEvent.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -152,8 +152,8 @@ export function getListNamespacedEvent(options: {
 export function postCreateNamespacedEvent(options: {
   pathParams: API.K8sV2Json.EventsV1.PostCreateNamespacedEvent.PathParams;
   queryParams?: API.K8sV2Json.EventsV1.PostCreateNamespacedEvent.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.EventsV1.PostCreateNamespacedEvent.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

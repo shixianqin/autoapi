@@ -23,8 +23,8 @@ export function getCloudFrontConfig(options: {
  */
 export function putUpdateCloudFront(options: {
   pathParams: API.CustomizeTagAndName.OriginAccessIdentity.PutUpdateCloudFront.PathParams;
-  headers?: API.CustomizeTagAndName.OriginAccessIdentity.PutUpdateCloudFront.Headers;
   body: API.CustomizeTagAndName.OriginAccessIdentity.PutUpdateCloudFront.Body;
+  headers?: API.CustomizeTagAndName.OriginAccessIdentity.PutUpdateCloudFront.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -91,8 +91,8 @@ export function getListCloudFrontOriginAccessIdentities(options?: {
  * @path `/2020-05-31/origin-access-identity/cloudfront`
  */
 export function postCreateCloudFront(options: {
-  headers?: API.CustomizeTagAndName.OriginAccessIdentity.PostCreateCloudFront.Headers;
   body: API.CustomizeTagAndName.OriginAccessIdentity.PostCreateCloudFront.Body;
+  headers?: API.CustomizeTagAndName.OriginAccessIdentity.PostCreateCloudFront.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

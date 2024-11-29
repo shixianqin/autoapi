@@ -43,8 +43,8 @@ export function getAnalyticsManagementFilters(options: {
  */
 export function patchAnalyticsManagementFilters(options: {
   pathParams: API.GaV2Yaml.Filter.PatchAnalyticsManagementFilters.PathParams;
-  headers?: Record<string, any>;
   body?: API.GaV2Yaml.Filter.PatchAnalyticsManagementFilters.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -62,8 +62,8 @@ export function patchAnalyticsManagementFilters(options: {
  */
 export function putAnalyticsManagementFiltersUpdate(options: {
   pathParams: API.GaV2Yaml.Filter.PutAnalyticsManagementFiltersUpdate.PathParams;
-  headers?: Record<string, any>;
   body?: API.GaV2Yaml.Filter.PutAnalyticsManagementFiltersUpdate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -100,8 +100,8 @@ export function getAnalyticsManagementFiltersList(options: {
  */
 export function postAnalyticsManagementFiltersInsert(options: {
   pathParams: API.GaV2Yaml.Filter.PostAnalyticsManagementFiltersInsert.PathParams;
-  headers?: Record<string, any>;
   body?: API.GaV2Yaml.Filter.PostAnalyticsManagementFiltersInsert.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

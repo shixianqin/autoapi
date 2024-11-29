@@ -47,8 +47,8 @@ export function getUsersId(options: {
  */
 export function postUsersId(options: {
   pathParams: API.TwitterV3Json.Bookmarks.PostUsersId.PathParams;
-  headers?: Record<string, any>;
   body: API.TwitterV3Json.Bookmarks.PostUsersId.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

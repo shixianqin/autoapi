@@ -62,8 +62,8 @@ export function getAnalyticsManagementUnsampledReportsList(options: {
  */
 export function postAnalyticsManagementUnsampledReportsInsert(options: {
   pathParams: API.GaV2Yaml.Report.PostAnalyticsManagementUnsampledReportsInsert.PathParams;
-  headers?: Record<string, any>;
   body?: API.GaV2Yaml.Report.PostAnalyticsManagementUnsampledReportsInsert.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

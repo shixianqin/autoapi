@@ -22,8 +22,8 @@ export function getClientOptions(options: {
  */
 export function generateClient(options: {
   pathParams: API.CustomizeResponseReturnPath.Clients.GenerateClient.PathParams;
-  headers?: Record<string, any>;
   body?: API.CustomizeResponseReturnPath.Clients.GenerateClient.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

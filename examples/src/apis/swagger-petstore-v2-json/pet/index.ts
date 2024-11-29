@@ -43,8 +43,8 @@ export function getFindPetsByTags(options: {
  */
 export function postUploadFile(options: {
   pathParams: API.SwaggerPetstoreV2Json.Pet.PostUploadFile.PathParams;
-  headers?: Record<string, any>;
   formData?: API.SwaggerPetstoreV2Json.Pet.PostUploadFile.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -92,8 +92,8 @@ export function getById(options: {
  */
 export function postUpdateWithForm(options: {
   pathParams: API.SwaggerPetstoreV2Json.Pet.PostUpdateWithForm.PathParams;
-  headers?: Record<string, any>;
   formData?: API.SwaggerPetstoreV2Json.Pet.PostUpdateWithForm.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -105,8 +105,8 @@ export function postUpdateWithForm(options: {
  * @path `/pet`
  */
 export function postAdd(options: {
-  headers?: Record<string, any>;
   body: API.SwaggerPetstoreV2Json.Pet.PostAdd.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -118,8 +118,8 @@ export function postAdd(options: {
  * @path `/pet`
  */
 export function putUpdate(options: {
-  headers?: Record<string, any>;
   body: API.SwaggerPetstoreV2Json.Pet.PutUpdate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

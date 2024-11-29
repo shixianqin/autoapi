@@ -5,8 +5,8 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/2020-05-31/distributionsByRealtimeLogConfig/`
  */
 export function postList(options?: {
-  headers?: API.CustomizeTagAndName.DistributionsByRealtimeLogConfig.PostList.Headers;
   body?: API.CustomizeTagAndName.DistributionsByRealtimeLogConfig.PostList.Body;
+  headers?: API.CustomizeTagAndName.DistributionsByRealtimeLogConfig.PostList.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

@@ -43,8 +43,8 @@ export function getApiDefaultVersion(options: {
  */
 export function putSetApiDefaultVersion(options: {
   pathParams: API.SwaggerHubV2Json.ApIs.PutSetApiDefaultVersion.PathParams;
-  headers?: Record<string, any>;
   body: API.SwaggerHubV2Json.ApIs.PutSetApiDefaultVersion.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -64,8 +64,8 @@ export function putSetApiDefaultVersion(options: {
  */
 export function postCloneApi(options: {
   pathParams: API.SwaggerHubV2Json.ApIs.PostCloneApi.PathParams;
-  headers?: Record<string, any>;
   body: API.SwaggerHubV2Json.ApIs.PostCloneApi.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -82,8 +82,8 @@ export function postCloneApi(options: {
  */
 export function postUpdateApiCommentsV2(options: {
   pathParams: API.SwaggerHubV2Json.ApIs.PostUpdateApiCommentsV2.PathParams;
-  headers?: Record<string, any>;
   body?: API.SwaggerHubV2Json.ApIs.PostUpdateApiCommentsV2.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -117,8 +117,8 @@ export function deleteApiCommentReplyV2(options: {
  */
 export function patchUpdateApiCommentReplyV2(options: {
   pathParams: API.SwaggerHubV2Json.ApIs.PatchUpdateApiCommentReplyV2.PathParams;
-  headers?: Record<string, any>;
   body?: API.SwaggerHubV2Json.ApIs.PatchUpdateApiCommentReplyV2.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -135,8 +135,8 @@ export function patchUpdateApiCommentReplyV2(options: {
  */
 export function postAddApiCommentReplyV2(options: {
   pathParams: API.SwaggerHubV2Json.ApIs.PostAddApiCommentReplyV2.PathParams;
-  headers?: Record<string, any>;
   body: API.SwaggerHubV2Json.ApIs.PostAddApiCommentReplyV2.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -187,8 +187,8 @@ export function deleteApiCommentV2(options: {
  */
 export function patchUpdateApiCommentV2(options: {
   pathParams: API.SwaggerHubV2Json.ApIs.PatchUpdateApiCommentV2.PathParams;
-  headers?: Record<string, any>;
   body?: API.SwaggerHubV2Json.ApIs.PatchUpdateApiCommentV2.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -222,8 +222,8 @@ export function getApiCommentsV2(options: {
  */
 export function postAddApiCommentV2(options: {
   pathParams: API.SwaggerHubV2Json.ApIs.PostAddApiCommentV2.PathParams;
-  headers?: Record<string, any>;
   body: API.SwaggerHubV2Json.ApIs.PostAddApiCommentV2.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -241,8 +241,8 @@ export function postAddApiCommentV2(options: {
  */
 export function postForkApi(options: {
   pathParams: API.SwaggerHubV2Json.ApIs.PostForkApi.PathParams;
-  headers?: Record<string, any>;
   body: API.SwaggerHubV2Json.ApIs.PostForkApi.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -277,8 +277,8 @@ export function getLifecycleSettings(options: {
 export function putSetLifecycleSettings(options: {
   pathParams: API.SwaggerHubV2Json.ApIs.PutSetLifecycleSettings.PathParams;
   queryParams?: API.SwaggerHubV2Json.ApIs.PutSetLifecycleSettings.QueryParams;
-  headers?: Record<string, any>;
   body?: API.SwaggerHubV2Json.ApIs.PutSetLifecycleSettings.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -312,8 +312,8 @@ export function getPrivateSettings(options: {
  */
 export function putSetPrivateSettings(options: {
   pathParams: API.SwaggerHubV2Json.ApIs.PutSetPrivateSettings.PathParams;
-  headers?: Record<string, any>;
   body: API.SwaggerHubV2Json.ApIs.PutSetPrivateSettings.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -495,8 +495,8 @@ export function getApiVersions(options: {
 export function postSaveDefinition(options: {
   pathParams: API.SwaggerHubV2Json.ApIs.PostSaveDefinition.PathParams;
   queryParams?: API.SwaggerHubV2Json.ApIs.PostSaveDefinition.QueryParams;
-  headers?: Record<string, any>;
   body: API.SwaggerHubV2Json.ApIs.PostSaveDefinition.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

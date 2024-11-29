@@ -6,8 +6,8 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function putMarkMessageAsRead(options: {
   pathParams: API.WhatsappV3Json.Messages.PutMarkMessageAsRead.PathParams;
-  headers?: Record<string, any>;
   body: API.WhatsappV3Json.Messages.PutMarkMessageAsRead.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -23,8 +23,8 @@ export function putMarkMessageAsRead(options: {
  * @path `/messages`
  */
 export function postSendMessage(options: {
-  headers?: Record<string, any>;
   body: API.WhatsappV3Json.Messages.PostSendMessage.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

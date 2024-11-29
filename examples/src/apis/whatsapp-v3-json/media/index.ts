@@ -39,8 +39,8 @@ export function getDownload(options: {
  * @path `/media`
  */
 export function postUpload(options: {
-  headers?: Record<string, any>;
   body: API.WhatsappV3Json.Media.PostUpload.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

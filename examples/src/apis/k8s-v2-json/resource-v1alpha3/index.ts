@@ -7,8 +7,8 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function deleteDeviceClass(options: {
   pathParams: API.K8sV2Json.ResourceV1alpha3.DeleteDeviceClass.PathParams;
   queryParams?: API.K8sV2Json.ResourceV1alpha3.DeleteDeviceClass.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.ResourceV1alpha3.DeleteDeviceClass.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -44,8 +44,8 @@ export function getReadDeviceClass(options: {
 export function patchDeviceClass(options: {
   pathParams: API.K8sV2Json.ResourceV1alpha3.PatchDeviceClass.PathParams;
   queryParams?: API.K8sV2Json.ResourceV1alpha3.PatchDeviceClass.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.ResourceV1alpha3.PatchDeviceClass.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -63,8 +63,8 @@ export function patchDeviceClass(options: {
 export function putReplaceDeviceClass(options: {
   pathParams: API.K8sV2Json.ResourceV1alpha3.PutReplaceDeviceClass.PathParams;
   queryParams?: API.K8sV2Json.ResourceV1alpha3.PutReplaceDeviceClass.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.ResourceV1alpha3.PutReplaceDeviceClass.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -81,8 +81,8 @@ export function putReplaceDeviceClass(options: {
  */
 export function deleteCollectionDeviceClass(options?: {
   queryParams?: API.K8sV2Json.ResourceV1alpha3.DeleteCollectionDeviceClass.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.ResourceV1alpha3.DeleteCollectionDeviceClass.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -116,8 +116,8 @@ export function getListDeviceClass(options?: {
  */
 export function postCreateDeviceClass(options: {
   queryParams?: API.K8sV2Json.ResourceV1alpha3.PostCreateDeviceClass.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.ResourceV1alpha3.PostCreateDeviceClass.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -169,8 +169,8 @@ export function getReadNamespacedPodSchedulingContextStatus(options: {
 export function patchNamespacedPodSchedulingContextStatus(options: {
   pathParams: API.K8sV2Json.ResourceV1alpha3.PatchNamespacedPodSchedulingContextStatus.PathParams;
   queryParams?: API.K8sV2Json.ResourceV1alpha3.PatchNamespacedPodSchedulingContextStatus.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.ResourceV1alpha3.PatchNamespacedPodSchedulingContextStatus.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -188,8 +188,8 @@ export function patchNamespacedPodSchedulingContextStatus(options: {
 export function putReplaceNamespacedPodSchedulingContextStatus(options: {
   pathParams: API.K8sV2Json.ResourceV1alpha3.PutReplaceNamespacedPodSchedulingContextStatus.PathParams;
   queryParams?: API.K8sV2Json.ResourceV1alpha3.PutReplaceNamespacedPodSchedulingContextStatus.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.ResourceV1alpha3.PutReplaceNamespacedPodSchedulingContextStatus.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -207,8 +207,8 @@ export function putReplaceNamespacedPodSchedulingContextStatus(options: {
 export function deleteNamespacedPodSchedulingContext(options: {
   pathParams: API.K8sV2Json.ResourceV1alpha3.DeleteNamespacedPodSchedulingContext.PathParams;
   queryParams?: API.K8sV2Json.ResourceV1alpha3.DeleteNamespacedPodSchedulingContext.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.ResourceV1alpha3.DeleteNamespacedPodSchedulingContext.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -244,8 +244,8 @@ export function getReadNamespacedPodSchedulingContext(options: {
 export function patchNamespacedPodSchedulingContext(options: {
   pathParams: API.K8sV2Json.ResourceV1alpha3.PatchNamespacedPodSchedulingContext.PathParams;
   queryParams?: API.K8sV2Json.ResourceV1alpha3.PatchNamespacedPodSchedulingContext.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.ResourceV1alpha3.PatchNamespacedPodSchedulingContext.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -263,8 +263,8 @@ export function patchNamespacedPodSchedulingContext(options: {
 export function putReplaceNamespacedPodSchedulingContext(options: {
   pathParams: API.K8sV2Json.ResourceV1alpha3.PutReplaceNamespacedPodSchedulingContext.PathParams;
   queryParams?: API.K8sV2Json.ResourceV1alpha3.PutReplaceNamespacedPodSchedulingContext.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.ResourceV1alpha3.PutReplaceNamespacedPodSchedulingContext.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -282,8 +282,8 @@ export function putReplaceNamespacedPodSchedulingContext(options: {
 export function deleteCollectionNamespacedPodSchedulingContext(options: {
   pathParams: API.K8sV2Json.ResourceV1alpha3.DeleteCollectionNamespacedPodSchedulingContext.PathParams;
   queryParams?: API.K8sV2Json.ResourceV1alpha3.DeleteCollectionNamespacedPodSchedulingContext.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.ResourceV1alpha3.DeleteCollectionNamespacedPodSchedulingContext.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -319,8 +319,8 @@ export function getListNamespacedPodSchedulingContext(options: {
 export function postCreateNamespacedPodSchedulingContext(options: {
   pathParams: API.K8sV2Json.ResourceV1alpha3.PostCreateNamespacedPodSchedulingContext.PathParams;
   queryParams?: API.K8sV2Json.ResourceV1alpha3.PostCreateNamespacedPodSchedulingContext.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.ResourceV1alpha3.PostCreateNamespacedPodSchedulingContext.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -356,8 +356,8 @@ export function getReadNamespacedResourceClaimStatus(options: {
 export function patchNamespacedResourceClaimStatus(options: {
   pathParams: API.K8sV2Json.ResourceV1alpha3.PatchNamespacedResourceClaimStatus.PathParams;
   queryParams?: API.K8sV2Json.ResourceV1alpha3.PatchNamespacedResourceClaimStatus.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.ResourceV1alpha3.PatchNamespacedResourceClaimStatus.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -375,8 +375,8 @@ export function patchNamespacedResourceClaimStatus(options: {
 export function putReplaceNamespacedResourceClaimStatus(options: {
   pathParams: API.K8sV2Json.ResourceV1alpha3.PutReplaceNamespacedResourceClaimStatus.PathParams;
   queryParams?: API.K8sV2Json.ResourceV1alpha3.PutReplaceNamespacedResourceClaimStatus.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.ResourceV1alpha3.PutReplaceNamespacedResourceClaimStatus.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -394,8 +394,8 @@ export function putReplaceNamespacedResourceClaimStatus(options: {
 export function deleteNamespacedResourceClaim(options: {
   pathParams: API.K8sV2Json.ResourceV1alpha3.DeleteNamespacedResourceClaim.PathParams;
   queryParams?: API.K8sV2Json.ResourceV1alpha3.DeleteNamespacedResourceClaim.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.ResourceV1alpha3.DeleteNamespacedResourceClaim.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -431,8 +431,8 @@ export function getReadNamespacedResourceClaim(options: {
 export function patchNamespacedResourceClaim(options: {
   pathParams: API.K8sV2Json.ResourceV1alpha3.PatchNamespacedResourceClaim.PathParams;
   queryParams?: API.K8sV2Json.ResourceV1alpha3.PatchNamespacedResourceClaim.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.ResourceV1alpha3.PatchNamespacedResourceClaim.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -450,8 +450,8 @@ export function patchNamespacedResourceClaim(options: {
 export function putReplaceNamespacedResourceClaim(options: {
   pathParams: API.K8sV2Json.ResourceV1alpha3.PutReplaceNamespacedResourceClaim.PathParams;
   queryParams?: API.K8sV2Json.ResourceV1alpha3.PutReplaceNamespacedResourceClaim.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.ResourceV1alpha3.PutReplaceNamespacedResourceClaim.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -469,8 +469,8 @@ export function putReplaceNamespacedResourceClaim(options: {
 export function deleteCollectionNamespacedResourceClaim(options: {
   pathParams: API.K8sV2Json.ResourceV1alpha3.DeleteCollectionNamespacedResourceClaim.PathParams;
   queryParams?: API.K8sV2Json.ResourceV1alpha3.DeleteCollectionNamespacedResourceClaim.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.ResourceV1alpha3.DeleteCollectionNamespacedResourceClaim.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -506,8 +506,8 @@ export function getListNamespacedResourceClaim(options: {
 export function postCreateNamespacedResourceClaim(options: {
   pathParams: API.K8sV2Json.ResourceV1alpha3.PostCreateNamespacedResourceClaim.PathParams;
   queryParams?: API.K8sV2Json.ResourceV1alpha3.PostCreateNamespacedResourceClaim.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.ResourceV1alpha3.PostCreateNamespacedResourceClaim.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -525,8 +525,8 @@ export function postCreateNamespacedResourceClaim(options: {
 export function deleteNamespacedResourceClaimTemplate(options: {
   pathParams: API.K8sV2Json.ResourceV1alpha3.DeleteNamespacedResourceClaimTemplate.PathParams;
   queryParams?: API.K8sV2Json.ResourceV1alpha3.DeleteNamespacedResourceClaimTemplate.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.ResourceV1alpha3.DeleteNamespacedResourceClaimTemplate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -562,8 +562,8 @@ export function getReadNamespacedResourceClaimTemplate(options: {
 export function patchNamespacedResourceClaimTemplate(options: {
   pathParams: API.K8sV2Json.ResourceV1alpha3.PatchNamespacedResourceClaimTemplate.PathParams;
   queryParams?: API.K8sV2Json.ResourceV1alpha3.PatchNamespacedResourceClaimTemplate.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.ResourceV1alpha3.PatchNamespacedResourceClaimTemplate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -581,8 +581,8 @@ export function patchNamespacedResourceClaimTemplate(options: {
 export function putReplaceNamespacedResourceClaimTemplate(options: {
   pathParams: API.K8sV2Json.ResourceV1alpha3.PutReplaceNamespacedResourceClaimTemplate.PathParams;
   queryParams?: API.K8sV2Json.ResourceV1alpha3.PutReplaceNamespacedResourceClaimTemplate.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.ResourceV1alpha3.PutReplaceNamespacedResourceClaimTemplate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -600,8 +600,8 @@ export function putReplaceNamespacedResourceClaimTemplate(options: {
 export function deleteCollectionNamespacedResourceClaimTemplate(options: {
   pathParams: API.K8sV2Json.ResourceV1alpha3.DeleteCollectionNamespacedResourceClaimTemplate.PathParams;
   queryParams?: API.K8sV2Json.ResourceV1alpha3.DeleteCollectionNamespacedResourceClaimTemplate.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.ResourceV1alpha3.DeleteCollectionNamespacedResourceClaimTemplate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -637,8 +637,8 @@ export function getListNamespacedResourceClaimTemplate(options: {
 export function postCreateNamespacedResourceClaimTemplate(options: {
   pathParams: API.K8sV2Json.ResourceV1alpha3.PostCreateNamespacedResourceClaimTemplate.PathParams;
   queryParams?: API.K8sV2Json.ResourceV1alpha3.PostCreateNamespacedResourceClaimTemplate.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.ResourceV1alpha3.PostCreateNamespacedResourceClaimTemplate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -707,8 +707,8 @@ export function getListResourceClaimTemplateForAllNamespaces(options?: {
 export function deleteResourceSlice(options: {
   pathParams: API.K8sV2Json.ResourceV1alpha3.DeleteResourceSlice.PathParams;
   queryParams?: API.K8sV2Json.ResourceV1alpha3.DeleteResourceSlice.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.ResourceV1alpha3.DeleteResourceSlice.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -744,8 +744,8 @@ export function getReadResourceSlice(options: {
 export function patchResourceSlice(options: {
   pathParams: API.K8sV2Json.ResourceV1alpha3.PatchResourceSlice.PathParams;
   queryParams?: API.K8sV2Json.ResourceV1alpha3.PatchResourceSlice.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.ResourceV1alpha3.PatchResourceSlice.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -763,8 +763,8 @@ export function patchResourceSlice(options: {
 export function putReplaceResourceSlice(options: {
   pathParams: API.K8sV2Json.ResourceV1alpha3.PutReplaceResourceSlice.PathParams;
   queryParams?: API.K8sV2Json.ResourceV1alpha3.PutReplaceResourceSlice.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.ResourceV1alpha3.PutReplaceResourceSlice.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -781,8 +781,8 @@ export function putReplaceResourceSlice(options: {
  */
 export function deleteCollectionResourceSlice(options?: {
   queryParams?: API.K8sV2Json.ResourceV1alpha3.DeleteCollectionResourceSlice.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.ResourceV1alpha3.DeleteCollectionResourceSlice.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -816,8 +816,8 @@ export function getListResourceSlice(options?: {
  */
 export function postCreateResourceSlice(options: {
   queryParams?: API.K8sV2Json.ResourceV1alpha3.PostCreateResourceSlice.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.ResourceV1alpha3.PostCreateResourceSlice.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

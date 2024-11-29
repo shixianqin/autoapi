@@ -250,8 +250,8 @@ export function getRules(options?: {
  */
 export function postAddOrDeleteRules(options: {
   queryParams?: API.TwitterV3Json.Tweets.PostAddOrDeleteRules.QueryParams;
-  headers?: Record<string, any>;
   body: API.TwitterV3Json.Tweets.PostAddOrDeleteRules.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -368,8 +368,8 @@ export function getFindTweetById(options: {
  */
 export function putHideReplyById(options: {
   pathParams: API.TwitterV3Json.Tweets.PutHideReplyById.PathParams;
-  headers?: Record<string, any>;
   body: API.TwitterV3Json.Tweets.PutHideReplyById.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -406,8 +406,8 @@ export function getFindById(options: {
  * @docs https://developer.twitter.com/en/docs/twitter-api/tweets/manage-tweets/api-reference/post-tweets
  */
 export function postCreateTweet(options?: {
-  headers?: Record<string, any>;
   body?: API.TwitterV3Json.Tweets.PostCreateTweet.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -465,8 +465,8 @@ export function deleteUsersIdUnlike(options: {
  */
 export function postUsersIdLike(options: {
   pathParams: API.TwitterV3Json.Tweets.PostUsersIdLike.PathParams;
-  headers?: Record<string, any>;
   body: API.TwitterV3Json.Tweets.PostUsersIdLike.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -524,8 +524,8 @@ export function deleteUsersIdUnretweets(options: {
  */
 export function postUsersIdRetweets(options: {
   pathParams: API.TwitterV3Json.Tweets.PostUsersIdRetweets.PathParams;
-  headers?: Record<string, any>;
   body: API.TwitterV3Json.Tweets.PostUsersIdRetweets.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

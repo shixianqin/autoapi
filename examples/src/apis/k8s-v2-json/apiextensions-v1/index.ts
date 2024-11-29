@@ -25,8 +25,8 @@ export function getReadCustomResourceDefinitionStatus(options: {
 export function patchCustomResourceDefinitionStatus(options: {
   pathParams: API.K8sV2Json.ApiextensionsV1.PatchCustomResourceDefinitionStatus.PathParams;
   queryParams?: API.K8sV2Json.ApiextensionsV1.PatchCustomResourceDefinitionStatus.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.ApiextensionsV1.PatchCustomResourceDefinitionStatus.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -44,8 +44,8 @@ export function patchCustomResourceDefinitionStatus(options: {
 export function putReplaceCustomResourceDefinitionStatus(options: {
   pathParams: API.K8sV2Json.ApiextensionsV1.PutReplaceCustomResourceDefinitionStatus.PathParams;
   queryParams?: API.K8sV2Json.ApiextensionsV1.PutReplaceCustomResourceDefinitionStatus.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.ApiextensionsV1.PutReplaceCustomResourceDefinitionStatus.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -63,8 +63,8 @@ export function putReplaceCustomResourceDefinitionStatus(options: {
 export function deleteCustomResourceDefinition(options: {
   pathParams: API.K8sV2Json.ApiextensionsV1.DeleteCustomResourceDefinition.PathParams;
   queryParams?: API.K8sV2Json.ApiextensionsV1.DeleteCustomResourceDefinition.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.ApiextensionsV1.DeleteCustomResourceDefinition.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -100,8 +100,8 @@ export function getReadCustomResourceDefinition(options: {
 export function patchCustomResourceDefinition(options: {
   pathParams: API.K8sV2Json.ApiextensionsV1.PatchCustomResourceDefinition.PathParams;
   queryParams?: API.K8sV2Json.ApiextensionsV1.PatchCustomResourceDefinition.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.ApiextensionsV1.PatchCustomResourceDefinition.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -119,8 +119,8 @@ export function patchCustomResourceDefinition(options: {
 export function putReplaceCustomResourceDefinition(options: {
   pathParams: API.K8sV2Json.ApiextensionsV1.PutReplaceCustomResourceDefinition.PathParams;
   queryParams?: API.K8sV2Json.ApiextensionsV1.PutReplaceCustomResourceDefinition.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.ApiextensionsV1.PutReplaceCustomResourceDefinition.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -137,8 +137,8 @@ export function putReplaceCustomResourceDefinition(options: {
  */
 export function deleteCollectionCustomResourceDefinition(options?: {
   queryParams?: API.K8sV2Json.ApiextensionsV1.DeleteCollectionCustomResourceDefinition.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.ApiextensionsV1.DeleteCollectionCustomResourceDefinition.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -172,8 +172,8 @@ export function getListCustomResourceDefinition(options?: {
  */
 export function postCreateCustomResourceDefinition(options: {
   queryParams?: API.K8sV2Json.ApiextensionsV1.PostCreateCustomResourceDefinition.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.ApiextensionsV1.PostCreateCustomResourceDefinition.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

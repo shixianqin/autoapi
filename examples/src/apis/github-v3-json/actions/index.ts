@@ -117,8 +117,8 @@ export function getListSelectedRepositoriesEnabledGithubOrganization(options: {
  */
 export function putSetSelectedRepositoriesEnabledGithubOrganization(options: {
   pathParams: API.GithubV3Json.Actions.PutSetSelectedRepositoriesEnabledGithubOrganization.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Actions.PutSetSelectedRepositoriesEnabledGithubOrganization.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -160,8 +160,8 @@ export function getAllowedOrganization(options: {
  */
 export function putSetAllowedOrganization(options: {
   pathParams: API.GithubV3Json.Actions.PutSetAllowedOrganization.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Actions.PutSetAllowedOrganization.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -207,8 +207,8 @@ export function getGithubDefaultWorkflowPermissionsOrganization(options: {
  */
 export function putSetGithubDefaultWorkflowPermissionsOrganization(options: {
   pathParams: API.GithubV3Json.Actions.PutSetGithubDefaultWorkflowPermissionsOrganization.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Actions.PutSetGithubDefaultWorkflowPermissionsOrganization.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -250,8 +250,8 @@ export function getGithubPermissionsOrganization(options: {
  */
 export function putSetGithubPermissionsOrganization(options: {
   pathParams: API.GithubV3Json.Actions.PutSetGithubPermissionsOrganization.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Actions.PutSetGithubPermissionsOrganization.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -343,8 +343,8 @@ export function getListSelectedRepositoriesRequiredWorkflow(options: {
  */
 export function putSetSelectedReposToRequiredWorkflow(options: {
   pathParams: API.GithubV3Json.Actions.PutSetSelectedReposToRequiredWorkflow.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Actions.PutSetSelectedReposToRequiredWorkflow.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -413,8 +413,8 @@ export function getRequiredWorkflow(options: {
  */
 export function patchUpdateRequiredWorkflow(options: {
   pathParams: API.GithubV3Json.Actions.PatchUpdateRequiredWorkflow.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Actions.PatchUpdateRequiredWorkflow.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -461,8 +461,8 @@ export function getListRequiredWorkflows(options: {
  */
 export function postCreateRequiredWorkflow(options: {
   pathParams: API.GithubV3Json.Actions.PostCreateRequiredWorkflow.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Actions.PostCreateRequiredWorkflow.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -631,8 +631,8 @@ export function getListLabelsForSelfHostedRunnerForOrg(options: {
  */
 export function postAddCustomLabelsToSelfHostedRunnerForOrg(options: {
   pathParams: API.GithubV3Json.Actions.PostAddCustomLabelsToSelfHostedRunnerForOrg.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Actions.PostAddCustomLabelsToSelfHostedRunnerForOrg.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -654,8 +654,8 @@ export function postAddCustomLabelsToSelfHostedRunnerForOrg(options: {
  */
 export function putSetCustomLabelsForSelfHostedRunnerForOrg(options: {
   pathParams: API.GithubV3Json.Actions.PutSetCustomLabelsForSelfHostedRunnerForOrg.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Actions.PutSetCustomLabelsForSelfHostedRunnerForOrg.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -815,8 +815,8 @@ export function getListSelectedReposForOrgSecret(options: {
  */
 export function putSetSelectedReposForOrgSecret(options: {
   pathParams: API.GithubV3Json.Actions.PutSetSelectedReposForOrgSecret.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Actions.PutSetSelectedReposForOrgSecret.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -948,8 +948,8 @@ export function getOrgSecret(options: {
  */
 export function putCreateOrUpdateOrgSecret(options: {
   pathParams: API.GithubV3Json.Actions.PutCreateOrUpdateOrgSecret.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Actions.PutCreateOrUpdateOrgSecret.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1046,8 +1046,8 @@ export function getListSelectedReposForOrgVariable(options: {
  */
 export function putSetSelectedReposForOrgVariable(options: {
   pathParams: API.GithubV3Json.Actions.PutSetSelectedReposForOrgVariable.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Actions.PutSetSelectedReposForOrgVariable.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1108,8 +1108,8 @@ export function getOrgVariable(options: {
  */
 export function patchUpdateOrgVariable(options: {
   pathParams: API.GithubV3Json.Actions.PatchUpdateOrgVariable.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Actions.PatchUpdateOrgVariable.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1150,8 +1150,8 @@ export function getListOrgVariables(options: {
  */
 export function postCreateOrgVariable(options: {
   pathParams: API.GithubV3Json.Actions.PostCreateOrgVariable.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Actions.PostCreateOrgVariable.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1424,8 +1424,8 @@ export function getDownloadJobLogsForWorkflowRun(options: {
  */
 export function postReRunJobForWorkflowRun(options: {
   pathParams: API.GithubV3Json.Actions.PostReRunJobForWorkflowRun.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Actions.PostReRunJobForWorkflowRun.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1486,8 +1486,8 @@ export function getCustomOidcSubClaimForRepo(options: {
  */
 export function putSetCustomOidcSubClaimForRepo(options: {
   pathParams: API.GithubV3Json.Actions.PutSetCustomOidcSubClaimForRepo.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Actions.PutSetCustomOidcSubClaimForRepo.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1535,8 +1535,8 @@ export function getWorkflowAccessToRepository(options: {
  */
 export function putSetWorkflowAccessToRepository(options: {
   pathParams: API.GithubV3Json.Actions.PutSetWorkflowAccessToRepository.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Actions.PutSetWorkflowAccessToRepository.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1578,8 +1578,8 @@ export function getAllowedRepository(options: {
  */
 export function putSetAllowedRepository(options: {
   pathParams: API.GithubV3Json.Actions.PutSetAllowedRepository.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Actions.PutSetAllowedRepository.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1625,8 +1625,8 @@ export function getGithubDefaultWorkflowPermissionsRepository(options: {
  */
 export function putSetGithubDefaultWorkflowPermissionsRepository(options: {
   pathParams: API.GithubV3Json.Actions.PutSetGithubDefaultWorkflowPermissionsRepository.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Actions.PutSetGithubDefaultWorkflowPermissionsRepository.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1668,8 +1668,8 @@ export function getGithubPermissionsRepository(options: {
  */
 export function putSetGithubPermissionsRepository(options: {
   pathParams: API.GithubV3Json.Actions.PutSetGithubPermissionsRepository.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Actions.PutSetGithubPermissionsRepository.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1861,8 +1861,8 @@ export function getListLabelsForSelfHostedRunnerForRepo(options: {
  */
 export function postAddCustomLabelsToSelfHostedRunnerForRepo(options: {
   pathParams: API.GithubV3Json.Actions.PostAddCustomLabelsToSelfHostedRunnerForRepo.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Actions.PostAddCustomLabelsToSelfHostedRunnerForRepo.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1885,8 +1885,8 @@ export function postAddCustomLabelsToSelfHostedRunnerForRepo(options: {
  */
 export function putSetCustomLabelsForSelfHostedRunnerForRepo(options: {
   pathParams: API.GithubV3Json.Actions.PutSetCustomLabelsForSelfHostedRunnerForRepo.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Actions.PutSetCustomLabelsForSelfHostedRunnerForRepo.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2197,8 +2197,8 @@ export function getPendingDeploymentsForRun(options: {
  */
 export function postReviewPendingDeploymentsForRun(options: {
   pathParams: API.GithubV3Json.Actions.PostReviewPendingDeploymentsForRun.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Actions.PostReviewPendingDeploymentsForRun.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2217,8 +2217,8 @@ export function postReviewPendingDeploymentsForRun(options: {
  */
 export function postReRunWorkflowFailedJobs(options: {
   pathParams: API.GithubV3Json.Actions.PostReRunWorkflowFailedJobs.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Actions.PostReRunWorkflowFailedJobs.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2237,8 +2237,8 @@ export function postReRunWorkflowFailedJobs(options: {
  */
 export function postReRunWorkflow(options: {
   pathParams: API.GithubV3Json.Actions.PostReRunWorkflow.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Actions.PostReRunWorkflow.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2473,8 +2473,8 @@ export function getRepoSecret(options: {
  */
 export function putCreateOrUpdateRepoSecret(options: {
   pathParams: API.GithubV3Json.Actions.PutCreateOrUpdateRepoSecret.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Actions.PutCreateOrUpdateRepoSecret.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2555,8 +2555,8 @@ export function getRepoVariable(options: {
  */
 export function patchUpdateRepoVariable(options: {
   pathParams: API.GithubV3Json.Actions.PatchUpdateRepoVariable.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Actions.PatchUpdateRepoVariable.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2597,8 +2597,8 @@ export function getListRepoVariables(options: {
  */
 export function postCreateRepoVariable(options: {
   pathParams: API.GithubV3Json.Actions.PostCreateRepoVariable.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Actions.PostCreateRepoVariable.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2642,8 +2642,8 @@ export function putDisableWorkflow(options: {
  */
 export function postCreateWorkflowDispatch(options: {
   pathParams: API.GithubV3Json.Actions.PostCreateWorkflowDispatch.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Actions.PostCreateWorkflowDispatch.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2897,8 +2897,8 @@ export function getEnvironmentSecret(options: {
  */
 export function putCreateOrUpdateEnvironmentSecret(options: {
   pathParams: API.GithubV3Json.Actions.PutCreateOrUpdateEnvironmentSecret.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Actions.PutCreateOrUpdateEnvironmentSecret.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -2979,8 +2979,8 @@ export function getEnvironmentVariable(options: {
  */
 export function patchUpdateEnvironmentVariable(options: {
   pathParams: API.GithubV3Json.Actions.PatchUpdateEnvironmentVariable.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Actions.PatchUpdateEnvironmentVariable.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -3021,8 +3021,8 @@ export function getListEnvironmentVariables(options: {
  */
 export function postCreateEnvironmentVariable(options: {
   pathParams: API.GithubV3Json.Actions.PostCreateEnvironmentVariable.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Actions.PostCreateEnvironmentVariable.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

@@ -23,8 +23,8 @@ export function getApiResources(options?: {
 export function deleteIpAddress(options: {
   pathParams: API.K8sV2Json.NetworkingV1beta1.DeleteIpAddress.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1beta1.DeleteIpAddress.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.NetworkingV1beta1.DeleteIpAddress.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -60,8 +60,8 @@ export function getReadIpAddress(options: {
 export function patchIpAddress(options: {
   pathParams: API.K8sV2Json.NetworkingV1beta1.PatchIpAddress.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1beta1.PatchIpAddress.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.NetworkingV1beta1.PatchIpAddress.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -79,8 +79,8 @@ export function patchIpAddress(options: {
 export function putReplaceIpAddress(options: {
   pathParams: API.K8sV2Json.NetworkingV1beta1.PutReplaceIpAddress.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1beta1.PutReplaceIpAddress.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.NetworkingV1beta1.PutReplaceIpAddress.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -97,8 +97,8 @@ export function putReplaceIpAddress(options: {
  */
 export function deleteCollectionIpAddress(options?: {
   queryParams?: API.K8sV2Json.NetworkingV1beta1.DeleteCollectionIpAddress.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.NetworkingV1beta1.DeleteCollectionIpAddress.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -132,8 +132,8 @@ export function getListIpAddress(options?: {
  */
 export function postCreateIpAddress(options?: {
   queryParams?: API.K8sV2Json.NetworkingV1beta1.PostCreateIpAddress.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.NetworkingV1beta1.PostCreateIpAddress.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -169,8 +169,8 @@ export function getReadServiceCidrStatus(options: {
 export function patchServiceCidrStatus(options: {
   pathParams: API.K8sV2Json.NetworkingV1beta1.PatchServiceCidrStatus.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1beta1.PatchServiceCidrStatus.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.NetworkingV1beta1.PatchServiceCidrStatus.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -188,8 +188,8 @@ export function patchServiceCidrStatus(options: {
 export function putReplaceServiceCidrStatus(options: {
   pathParams: API.K8sV2Json.NetworkingV1beta1.PutReplaceServiceCidrStatus.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1beta1.PutReplaceServiceCidrStatus.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.NetworkingV1beta1.PutReplaceServiceCidrStatus.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -207,8 +207,8 @@ export function putReplaceServiceCidrStatus(options: {
 export function deleteServiceCidr(options: {
   pathParams: API.K8sV2Json.NetworkingV1beta1.DeleteServiceCidr.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1beta1.DeleteServiceCidr.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.NetworkingV1beta1.DeleteServiceCidr.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -244,8 +244,8 @@ export function getReadServiceCidr(options: {
 export function patchServiceCidr(options: {
   pathParams: API.K8sV2Json.NetworkingV1beta1.PatchServiceCidr.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1beta1.PatchServiceCidr.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.NetworkingV1beta1.PatchServiceCidr.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -263,8 +263,8 @@ export function patchServiceCidr(options: {
 export function putReplaceServiceCidr(options: {
   pathParams: API.K8sV2Json.NetworkingV1beta1.PutReplaceServiceCidr.PathParams;
   queryParams?: API.K8sV2Json.NetworkingV1beta1.PutReplaceServiceCidr.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.NetworkingV1beta1.PutReplaceServiceCidr.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -281,8 +281,8 @@ export function putReplaceServiceCidr(options: {
  */
 export function deleteCollectionServiceCidr(options?: {
   queryParams?: API.K8sV2Json.NetworkingV1beta1.DeleteCollectionServiceCidr.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.NetworkingV1beta1.DeleteCollectionServiceCidr.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -316,8 +316,8 @@ export function getListServiceCidr(options?: {
  */
 export function postCreateServiceCidr(options?: {
   queryParams?: API.K8sV2Json.NetworkingV1beta1.PostCreateServiceCidr.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.NetworkingV1beta1.PostCreateServiceCidr.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

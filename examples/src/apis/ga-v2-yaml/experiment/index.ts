@@ -43,8 +43,8 @@ export function getAnalyticsManagementExperiments(options: {
  */
 export function patchAnalyticsManagementExperiments(options: {
   pathParams: API.GaV2Yaml.Experiment.PatchAnalyticsManagementExperiments.PathParams;
-  headers?: Record<string, any>;
   body?: API.GaV2Yaml.Experiment.PatchAnalyticsManagementExperiments.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -62,8 +62,8 @@ export function patchAnalyticsManagementExperiments(options: {
  */
 export function putAnalyticsManagementExperimentsUpdate(options: {
   pathParams: API.GaV2Yaml.Experiment.PutAnalyticsManagementExperimentsUpdate.PathParams;
-  headers?: Record<string, any>;
   body?: API.GaV2Yaml.Experiment.PutAnalyticsManagementExperimentsUpdate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -100,8 +100,8 @@ export function getAnalyticsManagementExperimentsList(options: {
  */
 export function postAnalyticsManagementExperimentsInsert(options: {
   pathParams: API.GaV2Yaml.Experiment.PostAnalyticsManagementExperimentsInsert.PathParams;
-  headers?: Record<string, any>;
   body?: API.GaV2Yaml.Experiment.PostAnalyticsManagementExperimentsInsert.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

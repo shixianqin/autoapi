@@ -5,8 +5,8 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/2020-05-31/get-realtime-log-config/`
  */
 export function postGetRealtimeLogConfig(options?: {
-  headers?: API.CustomizeTagAndName.GetRealtimeLogConfig.PostGetRealtimeLogConfig.Headers;
   body?: API.CustomizeTagAndName.GetRealtimeLogConfig.PostGetRealtimeLogConfig.Body;
+  headers?: API.CustomizeTagAndName.GetRealtimeLogConfig.PostGetRealtimeLogConfig.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

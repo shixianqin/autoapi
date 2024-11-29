@@ -13,9 +13,9 @@ export enum IDENTIFIERS {
 export enum PARAMETER_IDENTIFIERS {
   path = 'pathParams',
   query = 'queryParams',
-  header = 'headers',
   formData = 'formData',
   body = 'body',
+  header = 'headers',
 }
 
 export type ParameterLocations = keyof typeof PARAMETER_IDENTIFIERS

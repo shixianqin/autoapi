@@ -28,8 +28,8 @@ export function getDiffRange(options: {
  */
 export function postCreateRepositorySnapshot(options: {
   pathParams: API.GithubV3Json.DependencyGraph.PostCreateRepositorySnapshot.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.DependencyGraph.PostCreateRepositorySnapshot.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

@@ -43,8 +43,8 @@ export function getAnalyticsManagementWebPropertyAdWordsLinks(options: {
  */
 export function patchAnalyticsManagementWebPropertyAdWordsLinks(options: {
   pathParams: API.GaV2Yaml.AdWord.PatchAnalyticsManagementWebPropertyAdWordsLinks.PathParams;
-  headers?: Record<string, any>;
   body?: API.GaV2Yaml.AdWord.PatchAnalyticsManagementWebPropertyAdWordsLinks.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -62,8 +62,8 @@ export function patchAnalyticsManagementWebPropertyAdWordsLinks(options: {
  */
 export function putAnalyticsManagementWebPropertyAdWordsLinksUpdate(options: {
   pathParams: API.GaV2Yaml.AdWord.PutAnalyticsManagementWebPropertyAdWordsLinksUpdate.PathParams;
-  headers?: Record<string, any>;
   body?: API.GaV2Yaml.AdWord.PutAnalyticsManagementWebPropertyAdWordsLinksUpdate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -100,8 +100,8 @@ export function getAnalyticsManagementWebPropertyAdWordsLinksList(options: {
  */
 export function postAnalyticsManagementWebPropertyAdWordsLinksInsert(options: {
   pathParams: API.GaV2Yaml.AdWord.PostAnalyticsManagementWebPropertyAdWordsLinksInsert.PathParams;
-  headers?: Record<string, any>;
   body?: API.GaV2Yaml.AdWord.PostAnalyticsManagementWebPropertyAdWordsLinksInsert.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

@@ -57,8 +57,8 @@ export function getContinuousDeploymentPolicy(options: {
  */
 export function putUpdate(options: {
   pathParams: API.CustomizeTagAndName.ContinuousDeploymentPolicy.PutUpdate.PathParams;
-  headers?: API.CustomizeTagAndName.ContinuousDeploymentPolicy.PutUpdate.Headers;
   body: API.CustomizeTagAndName.ContinuousDeploymentPolicy.PutUpdate.Body;
+  headers?: API.CustomizeTagAndName.ContinuousDeploymentPolicy.PutUpdate.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -91,8 +91,8 @@ export function getListContinuousDeploymentPolicies(options?: {
  * @path `/2020-05-31/continuous-deployment-policy`
  */
 export function postCreate(options: {
-  headers?: API.CustomizeTagAndName.ContinuousDeploymentPolicy.PostCreate.Headers;
   body: API.CustomizeTagAndName.ContinuousDeploymentPolicy.PostCreate.Body;
+  headers?: API.CustomizeTagAndName.ContinuousDeploymentPolicy.PostCreate.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

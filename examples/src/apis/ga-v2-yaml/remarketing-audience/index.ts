@@ -25,8 +25,8 @@ export function getAnalyticsManagement(options: {
  */
 export function patchAnalyticsManagement(options: {
   pathParams: API.GaV2Yaml.RemarketingAudience.PatchAnalyticsManagement.PathParams;
-  headers?: Record<string, any>;
   body?: API.GaV2Yaml.RemarketingAudience.PatchAnalyticsManagement.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -44,8 +44,8 @@ export function patchAnalyticsManagement(options: {
  */
 export function putAnalyticsManagementUpdate(options: {
   pathParams: API.GaV2Yaml.RemarketingAudience.PutAnalyticsManagementUpdate.PathParams;
-  headers?: Record<string, any>;
   body?: API.GaV2Yaml.RemarketingAudience.PutAnalyticsManagementUpdate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -82,8 +82,8 @@ export function getAnalyticsManagementList(options: {
  */
 export function postAnalyticsManagementInsert(options: {
   pathParams: API.GaV2Yaml.RemarketingAudience.PostAnalyticsManagementInsert.PathParams;
-  headers?: Record<string, any>;
   body?: API.GaV2Yaml.RemarketingAudience.PostAnalyticsManagementInsert.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

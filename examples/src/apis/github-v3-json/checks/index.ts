@@ -72,8 +72,8 @@ export function getChecks(options: {
  */
 export function patchUpdate(options: {
   pathParams: API.GithubV3Json.Checks.PatchUpdate.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Checks.PatchUpdate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -96,8 +96,8 @@ export function patchUpdate(options: {
  */
 export function postCreate(options: {
   pathParams: API.GithubV3Json.Checks.PostCreate.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Checks.PostCreate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -116,8 +116,8 @@ export function postCreate(options: {
  */
 export function patchSetSuitesPreferences(options: {
   pathParams: API.GithubV3Json.Checks.PatchSetSuitesPreferences.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Checks.PatchSetSuitesPreferences.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -202,8 +202,8 @@ export function getSuite(options: {
  */
 export function postCreateSuite(options: {
   pathParams: API.GithubV3Json.Checks.PostCreateSuite.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Checks.PostCreateSuite.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

@@ -23,8 +23,8 @@ export function getConfig(options: {
  */
 export function putUpdate(options: {
   pathParams: API.CustomizeTagAndName.OriginAccessControl.PutUpdate.PathParams;
-  headers?: API.CustomizeTagAndName.OriginAccessControl.PutUpdate.Headers;
   body: API.CustomizeTagAndName.OriginAccessControl.PutUpdate.Body;
+  headers?: API.CustomizeTagAndName.OriginAccessControl.PutUpdate.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -91,8 +91,8 @@ export function getListOriginAccessControls(options?: {
  * @path `/2020-05-31/origin-access-control`
  */
 export function postCreate(options: {
-  headers?: API.CustomizeTagAndName.OriginAccessControl.PostCreate.Headers;
   body: API.CustomizeTagAndName.OriginAccessControl.PostCreate.Body;
+  headers?: API.CustomizeTagAndName.OriginAccessControl.PostCreate.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

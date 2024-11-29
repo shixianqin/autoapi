@@ -26,8 +26,8 @@ export function getDmConversationsWithParticipantIdDmEvents(options: {
  */
 export function postDmConversationWithUserEventIdCreate(options: {
   pathParams: API.TwitterV3Json.DirectMessages.PostDmConversationWithUserEventIdCreate.PathParams;
-  headers?: Record<string, any>;
   body: API.TwitterV3Json.DirectMessages.PostDmConversationWithUserEventIdCreate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -45,8 +45,8 @@ export function postDmConversationWithUserEventIdCreate(options: {
  */
 export function postDmConversationByIdEventIdCreate(options: {
   pathParams: API.TwitterV3Json.DirectMessages.PostDmConversationByIdEventIdCreate.PathParams;
-  headers?: Record<string, any>;
   body: API.TwitterV3Json.DirectMessages.PostDmConversationByIdEventIdCreate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -82,8 +82,8 @@ export function getDmConversationsIdDmEvents(options: {
  * @path `/2/dm_conversations`
  */
 export function postDmConversationIdCreate(options: {
-  headers?: Record<string, any>;
   body: API.TwitterV3Json.DirectMessages.PostDmConversationIdCreate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

@@ -22,8 +22,8 @@ export function getWpV2Name(options: {
  */
 export function postWpV2Name(options: {
   pathParams: API.WordpressV2Json.BlockRenderer.PostWpV2Name.PathParams;
-  headers?: Record<string, any>;
   formData?: API.WordpressV2Json.BlockRenderer.PostWpV2Name.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

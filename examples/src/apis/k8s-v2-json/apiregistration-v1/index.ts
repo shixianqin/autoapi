@@ -25,8 +25,8 @@ export function getReadApiServiceStatus(options: {
 export function patchApiServiceStatus(options: {
   pathParams: API.K8sV2Json.ApiregistrationV1.PatchApiServiceStatus.PathParams;
   queryParams?: API.K8sV2Json.ApiregistrationV1.PatchApiServiceStatus.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.ApiregistrationV1.PatchApiServiceStatus.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -44,8 +44,8 @@ export function patchApiServiceStatus(options: {
 export function putReplaceApiServiceStatus(options: {
   pathParams: API.K8sV2Json.ApiregistrationV1.PutReplaceApiServiceStatus.PathParams;
   queryParams?: API.K8sV2Json.ApiregistrationV1.PutReplaceApiServiceStatus.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.ApiregistrationV1.PutReplaceApiServiceStatus.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -63,8 +63,8 @@ export function putReplaceApiServiceStatus(options: {
 export function deleteApiService(options: {
   pathParams: API.K8sV2Json.ApiregistrationV1.DeleteApiService.PathParams;
   queryParams?: API.K8sV2Json.ApiregistrationV1.DeleteApiService.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.ApiregistrationV1.DeleteApiService.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -100,8 +100,8 @@ export function getReadApiService(options: {
 export function patchApiService(options: {
   pathParams: API.K8sV2Json.ApiregistrationV1.PatchApiService.PathParams;
   queryParams?: API.K8sV2Json.ApiregistrationV1.PatchApiService.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.ApiregistrationV1.PatchApiService.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -119,8 +119,8 @@ export function patchApiService(options: {
 export function putReplaceApiService(options: {
   pathParams: API.K8sV2Json.ApiregistrationV1.PutReplaceApiService.PathParams;
   queryParams?: API.K8sV2Json.ApiregistrationV1.PutReplaceApiService.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.ApiregistrationV1.PutReplaceApiService.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -137,8 +137,8 @@ export function putReplaceApiService(options: {
  */
 export function deleteCollectionApiService(options?: {
   queryParams?: API.K8sV2Json.ApiregistrationV1.DeleteCollectionApiService.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.ApiregistrationV1.DeleteCollectionApiService.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -172,8 +172,8 @@ export function getListApiService(options?: {
  */
 export function postCreateApiService(options?: {
   queryParams?: API.K8sV2Json.ApiregistrationV1.PostCreateApiService.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.ApiregistrationV1.PostCreateApiService.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

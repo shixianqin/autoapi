@@ -6,8 +6,8 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function postUntagResource(options: {
   queryParams: API.CustomizeTagAndName.TaggingOperationUntagResource.PostUntagResource.QueryParams;
-  headers?: API.CustomizeTagAndName.TaggingOperationUntagResource.PostUntagResource.Headers;
   body: API.CustomizeTagAndName.TaggingOperationUntagResource.PostUntagResource.Body;
+  headers?: API.CustomizeTagAndName.TaggingOperationUntagResource.PostUntagResource.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

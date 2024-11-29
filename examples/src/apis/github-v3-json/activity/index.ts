@@ -117,8 +117,8 @@ export function getThreadSubscriptionForAuthenticatedUser(options: {
  */
 export function putSetThreadSubscription(options: {
   pathParams: API.GithubV3Json.Activity.PutSetThreadSubscription.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Activity.PutSetThreadSubscription.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -193,8 +193,8 @@ export function getListNotificationsForAuthenticatedUser(options?: {
  * @docs https://docs.github.com/rest/reference/activity#mark-notifications-as-read
  */
 export function putMarkNotificationsAsRead(options?: {
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Activity.PutMarkNotificationsAsRead.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -271,8 +271,8 @@ export function getListRepoNotificationsForAuthenticatedUser(options: {
  */
 export function putMarkRepoNotificationsAsRead(options: {
   pathParams: API.GithubV3Json.Activity.PutMarkRepoNotificationsAsRead.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Activity.PutMarkRepoNotificationsAsRead.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -370,8 +370,8 @@ export function getRepoSubscription(options: {
  */
 export function putSetRepoSubscription(options: {
   pathParams: API.GithubV3Json.Activity.PutSetRepoSubscription.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Activity.PutSetRepoSubscription.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

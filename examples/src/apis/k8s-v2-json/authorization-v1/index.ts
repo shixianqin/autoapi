@@ -23,8 +23,8 @@ export function getApiResources(options?: {
 export function postCreateNamespacedLocalSubjectAccessReview(options: {
   pathParams: API.K8sV2Json.AuthorizationV1.PostCreateNamespacedLocalSubjectAccessReview.PathParams;
   queryParams?: API.K8sV2Json.AuthorizationV1.PostCreateNamespacedLocalSubjectAccessReview.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.AuthorizationV1.PostCreateNamespacedLocalSubjectAccessReview.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -41,8 +41,8 @@ export function postCreateNamespacedLocalSubjectAccessReview(options: {
  */
 export function postCreateSelfSubjectAccessReview(options: {
   queryParams?: API.K8sV2Json.AuthorizationV1.PostCreateSelfSubjectAccessReview.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.AuthorizationV1.PostCreateSelfSubjectAccessReview.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -59,8 +59,8 @@ export function postCreateSelfSubjectAccessReview(options: {
  */
 export function postCreateSelfSubjectRulesReview(options: {
   queryParams?: API.K8sV2Json.AuthorizationV1.PostCreateSelfSubjectRulesReview.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.AuthorizationV1.PostCreateSelfSubjectRulesReview.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -77,8 +77,8 @@ export function postCreateSelfSubjectRulesReview(options: {
  */
 export function postCreateSubjectAccessReview(options: {
   queryParams?: API.K8sV2Json.AuthorizationV1.PostCreateSubjectAccessReview.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.AuthorizationV1.PostCreateSubjectAccessReview.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

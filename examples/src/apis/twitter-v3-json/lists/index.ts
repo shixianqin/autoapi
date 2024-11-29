@@ -27,8 +27,8 @@ export function deleteListRemoveMember(options: {
  */
 export function postListAddMember(options: {
   pathParams: API.TwitterV3Json.Lists.PostListAddMember.PathParams;
-  headers?: Record<string, any>;
   body: API.TwitterV3Json.Lists.PostListAddMember.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -86,8 +86,8 @@ export function getListId(options: {
  */
 export function putListIdUpdate(options: {
   pathParams: API.TwitterV3Json.Lists.PutListIdUpdate.PathParams;
-  headers?: Record<string, any>;
   body?: API.TwitterV3Json.Lists.PutListIdUpdate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -105,8 +105,8 @@ export function putListIdUpdate(options: {
  * @docs https://developer.twitter.com/en/docs/twitter-api/lists/manage-lists/api-reference/post-lists
  */
 export function postListIdCreate(options: {
-  headers?: Record<string, any>;
   body: API.TwitterV3Json.Lists.PostListIdCreate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -164,8 +164,8 @@ export function getUserFollowed(options: {
  */
 export function postListUserFollow(options: {
   pathParams: API.TwitterV3Json.Lists.PostListUserFollow.PathParams;
-  headers?: Record<string, any>;
   body: API.TwitterV3Json.Lists.PostListUserFollow.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -262,8 +262,8 @@ export function getListUserPinned(options: {
  */
 export function postListUserPin(options: {
   pathParams: API.TwitterV3Json.Lists.PostListUserPin.PathParams;
-  headers?: Record<string, any>;
   body: API.TwitterV3Json.Lists.PostListUserPin.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

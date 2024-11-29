@@ -22,8 +22,8 @@ export function getApiResources(options?: {
  */
 export function postCreateSelfSubjectReview(options?: {
   queryParams?: API.K8sV2Json.AuthenticationV1alpha1.PostCreateSelfSubjectReview.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.AuthenticationV1alpha1.PostCreateSelfSubjectReview.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

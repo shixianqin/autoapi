@@ -53,8 +53,8 @@ export function getListForTeamDiscussionCommentInOrg(options: {
  */
 export function postCreateForTeamDiscussionCommentInOrg(options: {
   pathParams: API.GithubV3Json.Reactions.PostCreateForTeamDiscussionCommentInOrg.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Reactions.PostCreateForTeamDiscussionCommentInOrg.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -118,8 +118,8 @@ export function getListForTeamDiscussionInOrg(options: {
  */
 export function postCreateForTeamDiscussionInOrg(options: {
   pathParams: API.GithubV3Json.Reactions.PostCreateForTeamDiscussionInOrg.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Reactions.PostCreateForTeamDiscussionInOrg.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -179,8 +179,8 @@ export function getListForCommitComment(options: {
  */
 export function postCreateForCommitComment(options: {
   pathParams: API.GithubV3Json.Reactions.PostCreateForCommitComment.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Reactions.PostCreateForCommitComment.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -240,8 +240,8 @@ export function getListForIssueComment(options: {
  */
 export function postCreateForIssueComment(options: {
   pathParams: API.GithubV3Json.Reactions.PostCreateForIssueComment.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Reactions.PostCreateForIssueComment.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -301,8 +301,8 @@ export function getListForIssue(options: {
  */
 export function postCreateForIssue(options: {
   pathParams: API.GithubV3Json.Reactions.PostCreateForIssue.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Reactions.PostCreateForIssue.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -362,8 +362,8 @@ export function getListForPullRequestReviewComment(options: {
  */
 export function postCreateForPullRequestReviewComment(options: {
   pathParams: API.GithubV3Json.Reactions.PostCreateForPullRequestReviewComment.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Reactions.PostCreateForPullRequestReviewComment.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -423,8 +423,8 @@ export function getListForRelease(options: {
  */
 export function postCreateForRelease(options: {
   pathParams: API.GithubV3Json.Reactions.PostCreateForRelease.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Reactions.PostCreateForRelease.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -469,8 +469,8 @@ export function getListForTeamDiscussionCommentLegacy(options: {
  */
 export function postCreateForTeamDiscussionCommentLegacy(options: {
   pathParams: API.GithubV3Json.Reactions.PostCreateForTeamDiscussionCommentLegacy.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Reactions.PostCreateForTeamDiscussionCommentLegacy.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -515,8 +515,8 @@ export function getListForTeamDiscussionLegacy(options: {
  */
 export function postCreateForTeamDiscussionLegacy(options: {
   pathParams: API.GithubV3Json.Reactions.PostCreateForTeamDiscussionLegacy.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Reactions.PostCreateForTeamDiscussionLegacy.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

@@ -23,8 +23,8 @@ export function getApiResources(options?: {
 export function deleteMutatingWebhookConfiguration(options: {
   pathParams: API.K8sV2Json.AdmissionregistrationV1.DeleteMutatingWebhookConfiguration.PathParams;
   queryParams?: API.K8sV2Json.AdmissionregistrationV1.DeleteMutatingWebhookConfiguration.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.AdmissionregistrationV1.DeleteMutatingWebhookConfiguration.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -60,8 +60,8 @@ export function getReadMutatingWebhookConfiguration(options: {
 export function patchMutatingWebhookConfiguration(options: {
   pathParams: API.K8sV2Json.AdmissionregistrationV1.PatchMutatingWebhookConfiguration.PathParams;
   queryParams?: API.K8sV2Json.AdmissionregistrationV1.PatchMutatingWebhookConfiguration.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.AdmissionregistrationV1.PatchMutatingWebhookConfiguration.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -79,8 +79,8 @@ export function patchMutatingWebhookConfiguration(options: {
 export function putReplaceMutatingWebhookConfiguration(options: {
   pathParams: API.K8sV2Json.AdmissionregistrationV1.PutReplaceMutatingWebhookConfiguration.PathParams;
   queryParams?: API.K8sV2Json.AdmissionregistrationV1.PutReplaceMutatingWebhookConfiguration.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.AdmissionregistrationV1.PutReplaceMutatingWebhookConfiguration.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -97,8 +97,8 @@ export function putReplaceMutatingWebhookConfiguration(options: {
  */
 export function deleteCollectionMutatingWebhookConfiguration(options?: {
   queryParams?: API.K8sV2Json.AdmissionregistrationV1.DeleteCollectionMutatingWebhookConfiguration.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.AdmissionregistrationV1.DeleteCollectionMutatingWebhookConfiguration.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -132,8 +132,8 @@ export function getListMutatingWebhookConfiguration(options?: {
  */
 export function postCreateMutatingWebhookConfiguration(options?: {
   queryParams?: API.K8sV2Json.AdmissionregistrationV1.PostCreateMutatingWebhookConfiguration.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.AdmissionregistrationV1.PostCreateMutatingWebhookConfiguration.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -169,8 +169,8 @@ export function getReadValidatingAdmissionPolicyStatus(options: {
 export function patchValidatingAdmissionPolicyStatus(options: {
   pathParams: API.K8sV2Json.AdmissionregistrationV1.PatchValidatingAdmissionPolicyStatus.PathParams;
   queryParams?: API.K8sV2Json.AdmissionregistrationV1.PatchValidatingAdmissionPolicyStatus.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.AdmissionregistrationV1.PatchValidatingAdmissionPolicyStatus.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -188,8 +188,8 @@ export function patchValidatingAdmissionPolicyStatus(options: {
 export function putReplaceValidatingAdmissionPolicyStatus(options: {
   pathParams: API.K8sV2Json.AdmissionregistrationV1.PutReplaceValidatingAdmissionPolicyStatus.PathParams;
   queryParams?: API.K8sV2Json.AdmissionregistrationV1.PutReplaceValidatingAdmissionPolicyStatus.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.AdmissionregistrationV1.PutReplaceValidatingAdmissionPolicyStatus.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -207,8 +207,8 @@ export function putReplaceValidatingAdmissionPolicyStatus(options: {
 export function deleteValidatingAdmissionPolicy(options: {
   pathParams: API.K8sV2Json.AdmissionregistrationV1.DeleteValidatingAdmissionPolicy.PathParams;
   queryParams?: API.K8sV2Json.AdmissionregistrationV1.DeleteValidatingAdmissionPolicy.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.AdmissionregistrationV1.DeleteValidatingAdmissionPolicy.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -244,8 +244,8 @@ export function getReadValidatingAdmissionPolicy(options: {
 export function patchValidatingAdmissionPolicy(options: {
   pathParams: API.K8sV2Json.AdmissionregistrationV1.PatchValidatingAdmissionPolicy.PathParams;
   queryParams?: API.K8sV2Json.AdmissionregistrationV1.PatchValidatingAdmissionPolicy.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.AdmissionregistrationV1.PatchValidatingAdmissionPolicy.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -263,8 +263,8 @@ export function patchValidatingAdmissionPolicy(options: {
 export function putReplaceValidatingAdmissionPolicy(options: {
   pathParams: API.K8sV2Json.AdmissionregistrationV1.PutReplaceValidatingAdmissionPolicy.PathParams;
   queryParams?: API.K8sV2Json.AdmissionregistrationV1.PutReplaceValidatingAdmissionPolicy.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.AdmissionregistrationV1.PutReplaceValidatingAdmissionPolicy.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -281,8 +281,8 @@ export function putReplaceValidatingAdmissionPolicy(options: {
  */
 export function deleteCollectionValidatingAdmissionPolicy(options?: {
   queryParams?: API.K8sV2Json.AdmissionregistrationV1.DeleteCollectionValidatingAdmissionPolicy.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.AdmissionregistrationV1.DeleteCollectionValidatingAdmissionPolicy.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -316,8 +316,8 @@ export function getListValidatingAdmissionPolicy(options?: {
  */
 export function postCreateValidatingAdmissionPolicy(options?: {
   queryParams?: API.K8sV2Json.AdmissionregistrationV1.PostCreateValidatingAdmissionPolicy.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.AdmissionregistrationV1.PostCreateValidatingAdmissionPolicy.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -335,8 +335,8 @@ export function postCreateValidatingAdmissionPolicy(options?: {
 export function deleteValidatingAdmissionPolicyBinding(options: {
   pathParams: API.K8sV2Json.AdmissionregistrationV1.DeleteValidatingAdmissionPolicyBinding.PathParams;
   queryParams?: API.K8sV2Json.AdmissionregistrationV1.DeleteValidatingAdmissionPolicyBinding.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.AdmissionregistrationV1.DeleteValidatingAdmissionPolicyBinding.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -372,8 +372,8 @@ export function getReadValidatingAdmissionPolicyBinding(options: {
 export function patchValidatingAdmissionPolicyBinding(options: {
   pathParams: API.K8sV2Json.AdmissionregistrationV1.PatchValidatingAdmissionPolicyBinding.PathParams;
   queryParams?: API.K8sV2Json.AdmissionregistrationV1.PatchValidatingAdmissionPolicyBinding.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.AdmissionregistrationV1.PatchValidatingAdmissionPolicyBinding.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -391,8 +391,8 @@ export function patchValidatingAdmissionPolicyBinding(options: {
 export function putReplaceValidatingAdmissionPolicyBinding(options: {
   pathParams: API.K8sV2Json.AdmissionregistrationV1.PutReplaceValidatingAdmissionPolicyBinding.PathParams;
   queryParams?: API.K8sV2Json.AdmissionregistrationV1.PutReplaceValidatingAdmissionPolicyBinding.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.AdmissionregistrationV1.PutReplaceValidatingAdmissionPolicyBinding.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -409,8 +409,8 @@ export function putReplaceValidatingAdmissionPolicyBinding(options: {
  */
 export function deleteCollectionValidatingAdmissionPolicyBinding(options?: {
   queryParams?: API.K8sV2Json.AdmissionregistrationV1.DeleteCollectionValidatingAdmissionPolicyBinding.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.AdmissionregistrationV1.DeleteCollectionValidatingAdmissionPolicyBinding.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -444,8 +444,8 @@ export function getListValidatingAdmissionPolicyBinding(options?: {
  */
 export function postCreateValidatingAdmissionPolicyBinding(options?: {
   queryParams?: API.K8sV2Json.AdmissionregistrationV1.PostCreateValidatingAdmissionPolicyBinding.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.AdmissionregistrationV1.PostCreateValidatingAdmissionPolicyBinding.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -463,8 +463,8 @@ export function postCreateValidatingAdmissionPolicyBinding(options?: {
 export function deleteValidatingWebhookConfiguration(options: {
   pathParams: API.K8sV2Json.AdmissionregistrationV1.DeleteValidatingWebhookConfiguration.PathParams;
   queryParams?: API.K8sV2Json.AdmissionregistrationV1.DeleteValidatingWebhookConfiguration.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.AdmissionregistrationV1.DeleteValidatingWebhookConfiguration.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -500,8 +500,8 @@ export function getReadValidatingWebhookConfiguration(options: {
 export function patchValidatingWebhookConfiguration(options: {
   pathParams: API.K8sV2Json.AdmissionregistrationV1.PatchValidatingWebhookConfiguration.PathParams;
   queryParams?: API.K8sV2Json.AdmissionregistrationV1.PatchValidatingWebhookConfiguration.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.AdmissionregistrationV1.PatchValidatingWebhookConfiguration.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -519,8 +519,8 @@ export function patchValidatingWebhookConfiguration(options: {
 export function putReplaceValidatingWebhookConfiguration(options: {
   pathParams: API.K8sV2Json.AdmissionregistrationV1.PutReplaceValidatingWebhookConfiguration.PathParams;
   queryParams?: API.K8sV2Json.AdmissionregistrationV1.PutReplaceValidatingWebhookConfiguration.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.AdmissionregistrationV1.PutReplaceValidatingWebhookConfiguration.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -537,8 +537,8 @@ export function putReplaceValidatingWebhookConfiguration(options: {
  */
 export function deleteCollectionValidatingWebhookConfiguration(options?: {
   queryParams?: API.K8sV2Json.AdmissionregistrationV1.DeleteCollectionValidatingWebhookConfiguration.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.AdmissionregistrationV1.DeleteCollectionValidatingWebhookConfiguration.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -572,8 +572,8 @@ export function getListValidatingWebhookConfiguration(options?: {
  */
 export function postCreateValidatingWebhookConfiguration(options?: {
   queryParams?: API.K8sV2Json.AdmissionregistrationV1.PostCreateValidatingWebhookConfiguration.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.AdmissionregistrationV1.PostCreateValidatingWebhookConfiguration.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

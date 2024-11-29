@@ -48,8 +48,8 @@ export function getWebhookConfigForApp(options?: {
  * @docs https://docs.github.com/rest/reference/apps#update-a-webhook-configuration-for-an-app
  */
 export function patchUpdateWebhookConfigForApp(options?: {
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Apps.PatchUpdateWebhookConfigForApp.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -133,8 +133,8 @@ export function getListWebhookDeliveries(options?: {
  */
 export function postCreateInstallationAccessToken(options: {
   pathParams: API.GithubV3Json.Apps.PostCreateInstallationAccessToken.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Apps.PostCreateInstallationAccessToken.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -279,8 +279,8 @@ export function getAuthenticated(options?: {
  */
 export function deleteAuthorization(options: {
   pathParams: API.GithubV3Json.Apps.DeleteAuthorization.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Apps.DeleteAuthorization.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -299,8 +299,8 @@ export function deleteAuthorization(options: {
  */
 export function postScopeToken(options: {
   pathParams: API.GithubV3Json.Apps.PostScopeToken.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Apps.PostScopeToken.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -319,8 +319,8 @@ export function postScopeToken(options: {
  */
 export function deleteToken(options: {
   pathParams: API.GithubV3Json.Apps.DeleteToken.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Apps.DeleteToken.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -339,8 +339,8 @@ export function deleteToken(options: {
  */
 export function patchResetToken(options: {
   pathParams: API.GithubV3Json.Apps.PatchResetToken.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Apps.PatchResetToken.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -359,8 +359,8 @@ export function patchResetToken(options: {
  */
 export function postCheckToken(options: {
   pathParams: API.GithubV3Json.Apps.PostCheckToken.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Apps.PostCheckToken.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

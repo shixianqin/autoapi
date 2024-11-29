@@ -57,8 +57,8 @@ export function getCachePolicy2020_05_31(options: {
  */
 export function putUpdateCachePolicy2020_05_31(options: {
   pathParams: API.AwsV3Json.Main.PutUpdateCachePolicy2020_05_31.PathParams;
-  headers?: API.AwsV3Json.Main.PutUpdateCachePolicy2020_05_31.Headers;
   body: API.AwsV3Json.Main.PutUpdateCachePolicy2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PutUpdateCachePolicy2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -91,8 +91,8 @@ export function getListCachePolicies2020_05_31(options?: {
  * @path `/2020-05-31/cache-policy`
  */
 export function postCreateCachePolicy2020_05_31(options: {
-  headers?: API.AwsV3Json.Main.PostCreateCachePolicy2020_05_31.Headers;
   body: API.AwsV3Json.Main.PostCreateCachePolicy2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PostCreateCachePolicy2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -177,8 +177,8 @@ export function getContinuousDeploymentPolicy2020_05_31(options: {
  */
 export function putUpdateContinuousDeploymentPolicy2020_05_31(options: {
   pathParams: API.AwsV3Json.Main.PutUpdateContinuousDeploymentPolicy2020_05_31.PathParams;
-  headers?: API.AwsV3Json.Main.PutUpdateContinuousDeploymentPolicy2020_05_31.Headers;
   body: API.AwsV3Json.Main.PutUpdateContinuousDeploymentPolicy2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PutUpdateContinuousDeploymentPolicy2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -211,8 +211,8 @@ export function getListContinuousDeploymentPolicies2020_05_31(options?: {
  * @path `/2020-05-31/continuous-deployment-policy`
  */
 export function postCreateContinuousDeploymentPolicy2020_05_31(options: {
-  headers?: API.AwsV3Json.Main.PostCreateContinuousDeploymentPolicy2020_05_31.Headers;
   body: API.AwsV3Json.Main.PostCreateContinuousDeploymentPolicy2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PostCreateContinuousDeploymentPolicy2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -228,8 +228,8 @@ export function postCreateContinuousDeploymentPolicy2020_05_31(options: {
  * @path `/2020-05-31/delete-realtime-log-config/`
  */
 export function postDeleteRealtimeLogConfig2020_05_31(options?: {
-  headers?: API.AwsV3Json.Main.PostDeleteRealtimeLogConfig2020_05_31.Headers;
   body?: API.AwsV3Json.Main.PostDeleteRealtimeLogConfig2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PostDeleteRealtimeLogConfig2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -246,8 +246,8 @@ export function postDeleteRealtimeLogConfig2020_05_31(options?: {
  */
 export function postCreateDistributionWithTags2020_05_31(options: {
   queryParams: API.AwsV3Json.Main.PostCreateDistributionWithTags2020_05_31.QueryParams;
-  headers?: API.AwsV3Json.Main.PostCreateDistributionWithTags2020_05_31.Headers;
   body: API.AwsV3Json.Main.PostCreateDistributionWithTags2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PostCreateDistributionWithTags2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -299,8 +299,8 @@ export function getListInvalidations2020_05_31(options: {
  */
 export function postCreateInvalidation2020_05_31(options: {
   pathParams: API.AwsV3Json.Main.PostCreateInvalidation2020_05_31.PathParams;
-  headers?: API.AwsV3Json.Main.PostCreateInvalidation2020_05_31.Headers;
   body: API.AwsV3Json.Main.PostCreateInvalidation2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PostCreateInvalidation2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -334,8 +334,8 @@ export function getDistributionConfig2020_05_31(options: {
  */
 export function putUpdateDistribution2020_05_31(options: {
   pathParams: API.AwsV3Json.Main.PutUpdateDistribution2020_05_31.PathParams;
-  headers?: API.AwsV3Json.Main.PutUpdateDistribution2020_05_31.Headers;
   body: API.AwsV3Json.Main.PutUpdateDistribution2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PutUpdateDistribution2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -404,8 +404,8 @@ export function getDistribution2020_05_31(options: {
  */
 export function postCopyDistribution2020_05_31(options: {
   pathParams: API.AwsV3Json.Main.PostCopyDistribution2020_05_31.PathParams;
-  headers?: API.AwsV3Json.Main.PostCopyDistribution2020_05_31.Headers;
   body: API.AwsV3Json.Main.PostCopyDistribution2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PostCopyDistribution2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -456,8 +456,8 @@ export function getListDistributions2020_05_31(options?: {
  * @path `/2020-05-31/distribution`
  */
 export function postCreateDistribution2020_05_31(options: {
-  headers?: API.AwsV3Json.Main.PostCreateDistribution2020_05_31.Headers;
   body: API.AwsV3Json.Main.PostCreateDistribution2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PostCreateDistribution2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -508,8 +508,8 @@ export function getMonitoringSubscription2020_05_31(options: {
  */
 export function postCreateMonitoringSubscription2020_05_31(options: {
   pathParams: API.AwsV3Json.Main.PostCreateMonitoringSubscription2020_05_31.PathParams;
-  headers?: API.AwsV3Json.Main.PostCreateMonitoringSubscription2020_05_31.Headers;
   body: API.AwsV3Json.Main.PostCreateMonitoringSubscription2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PostCreateMonitoringSubscription2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -579,8 +579,8 @@ export function getListDistributionsByOriginRequestPolicyId2020_05_31(options: {
  * @path `/2020-05-31/distributionsByRealtimeLogConfig/`
  */
 export function postListDistributionsByRealtimeLogConfig2020_05_31(options?: {
-  headers?: API.AwsV3Json.Main.PostListDistributionsByRealtimeLogConfig2020_05_31.Headers;
   body?: API.AwsV3Json.Main.PostListDistributionsByRealtimeLogConfig2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PostListDistributionsByRealtimeLogConfig2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -650,8 +650,8 @@ export function getFieldLevelEncryptionProfileConfig2020_05_31(options: {
  */
 export function putUpdateFieldLevelEncryptionProfile2020_05_31(options: {
   pathParams: API.AwsV3Json.Main.PutUpdateFieldLevelEncryptionProfile2020_05_31.PathParams;
-  headers?: API.AwsV3Json.Main.PutUpdateFieldLevelEncryptionProfile2020_05_31.Headers;
   body: API.AwsV3Json.Main.PutUpdateFieldLevelEncryptionProfile2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PutUpdateFieldLevelEncryptionProfile2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -718,8 +718,8 @@ export function getListFieldLevelEncryptionProfiles2020_05_31(options?: {
  * @path `/2020-05-31/field-level-encryption-profile`
  */
 export function postCreateFieldLevelEncryptionProfile2020_05_31(options: {
-  headers?: API.AwsV3Json.Main.PostCreateFieldLevelEncryptionProfile2020_05_31.Headers;
   body: API.AwsV3Json.Main.PostCreateFieldLevelEncryptionProfile2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PostCreateFieldLevelEncryptionProfile2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -753,8 +753,8 @@ export function getFieldLevelEncryptionConfig2020_05_31(options: {
  */
 export function putUpdateFieldLevelEncryptionConfig2020_05_31(options: {
   pathParams: API.AwsV3Json.Main.PutUpdateFieldLevelEncryptionConfig2020_05_31.PathParams;
-  headers?: API.AwsV3Json.Main.PutUpdateFieldLevelEncryptionConfig2020_05_31.Headers;
   body: API.AwsV3Json.Main.PutUpdateFieldLevelEncryptionConfig2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PutUpdateFieldLevelEncryptionConfig2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -821,8 +821,8 @@ export function getListFieldLevelEncryptionConfigs2020_05_31(options?: {
  * @path `/2020-05-31/field-level-encryption`
  */
 export function postCreateFieldLevelEncryptionConfig2020_05_31(options: {
-  headers?: API.AwsV3Json.Main.PostCreateFieldLevelEncryptionConfig2020_05_31.Headers;
   body: API.AwsV3Json.Main.PostCreateFieldLevelEncryptionConfig2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PostCreateFieldLevelEncryptionConfig2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -856,8 +856,8 @@ export function deleteFunction2020_05_31(options: {
  */
 export function putUpdateFunction2020_05_31(options: {
   pathParams: API.AwsV3Json.Main.PutUpdateFunction2020_05_31.PathParams;
-  headers?: API.AwsV3Json.Main.PutUpdateFunction2020_05_31.Headers;
   body: API.AwsV3Json.Main.PutUpdateFunction2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PutUpdateFunction2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -909,8 +909,8 @@ export function postPublishFunction2020_05_31(options: {
  */
 export function postTestFunction2020_05_31(options: {
   pathParams: API.AwsV3Json.Main.PostTestFunction2020_05_31.PathParams;
-  headers?: API.AwsV3Json.Main.PostTestFunction2020_05_31.Headers;
   body: API.AwsV3Json.Main.PostTestFunction2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PostTestFunction2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -961,8 +961,8 @@ export function getListFunctions2020_05_31(options?: {
  * @path `/2020-05-31/function`
  */
 export function postCreateFunction2020_05_31(options: {
-  headers?: API.AwsV3Json.Main.PostCreateFunction2020_05_31.Headers;
   body: API.AwsV3Json.Main.PostCreateFunction2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PostCreateFunction2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -978,8 +978,8 @@ export function postCreateFunction2020_05_31(options: {
  * @path `/2020-05-31/get-realtime-log-config/`
  */
 export function postGetRealtimeLogConfig2020_05_31(options?: {
-  headers?: API.AwsV3Json.Main.PostGetRealtimeLogConfig2020_05_31.Headers;
   body?: API.AwsV3Json.Main.PostGetRealtimeLogConfig2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PostGetRealtimeLogConfig2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1047,8 +1047,8 @@ export function getKeyGroup2020_05_31(options: {
  */
 export function putUpdateKeyGroup2020_05_31(options: {
   pathParams: API.AwsV3Json.Main.PutUpdateKeyGroup2020_05_31.PathParams;
-  headers?: API.AwsV3Json.Main.PutUpdateKeyGroup2020_05_31.Headers;
   body: API.AwsV3Json.Main.PutUpdateKeyGroup2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PutUpdateKeyGroup2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1081,8 +1081,8 @@ export function getListKeyGroups2020_05_31(options?: {
  * @path `/2020-05-31/key-group`
  */
 export function postCreateKeyGroup2020_05_31(options: {
-  headers?: API.AwsV3Json.Main.PostCreateKeyGroup2020_05_31.Headers;
   body: API.AwsV3Json.Main.PostCreateKeyGroup2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PostCreateKeyGroup2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1116,8 +1116,8 @@ export function getOriginAccessControlConfig2020_05_31(options: {
  */
 export function putUpdateOriginAccessControl2020_05_31(options: {
   pathParams: API.AwsV3Json.Main.PutUpdateOriginAccessControl2020_05_31.PathParams;
-  headers?: API.AwsV3Json.Main.PutUpdateOriginAccessControl2020_05_31.Headers;
   body: API.AwsV3Json.Main.PutUpdateOriginAccessControl2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PutUpdateOriginAccessControl2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1184,8 +1184,8 @@ export function getListOriginAccessControls2020_05_31(options?: {
  * @path `/2020-05-31/origin-access-control`
  */
 export function postCreateOriginAccessControl2020_05_31(options: {
-  headers?: API.AwsV3Json.Main.PostCreateOriginAccessControl2020_05_31.Headers;
   body: API.AwsV3Json.Main.PostCreateOriginAccessControl2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PostCreateOriginAccessControl2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1219,8 +1219,8 @@ export function getCloudFrontOriginAccessIdentityConfig2020_05_31(options: {
  */
 export function putUpdateCloudFrontOriginAccessIdentity2020_05_31(options: {
   pathParams: API.AwsV3Json.Main.PutUpdateCloudFrontOriginAccessIdentity2020_05_31.PathParams;
-  headers?: API.AwsV3Json.Main.PutUpdateCloudFrontOriginAccessIdentity2020_05_31.Headers;
   body: API.AwsV3Json.Main.PutUpdateCloudFrontOriginAccessIdentity2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PutUpdateCloudFrontOriginAccessIdentity2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1287,8 +1287,8 @@ export function getListCloudFrontOriginAccessIdentities2020_05_31(options?: {
  * @path `/2020-05-31/origin-access-identity/cloudfront`
  */
 export function postCreateCloudFrontOriginAccessIdentity2020_05_31(options: {
-  headers?: API.AwsV3Json.Main.PostCreateCloudFrontOriginAccessIdentity2020_05_31.Headers;
   body: API.AwsV3Json.Main.PostCreateCloudFrontOriginAccessIdentity2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PostCreateCloudFrontOriginAccessIdentity2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1356,8 +1356,8 @@ export function getOriginRequestPolicy2020_05_31(options: {
  */
 export function putUpdateOriginRequestPolicy2020_05_31(options: {
   pathParams: API.AwsV3Json.Main.PutUpdateOriginRequestPolicy2020_05_31.PathParams;
-  headers?: API.AwsV3Json.Main.PutUpdateOriginRequestPolicy2020_05_31.Headers;
   body: API.AwsV3Json.Main.PutUpdateOriginRequestPolicy2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PutUpdateOriginRequestPolicy2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1390,8 +1390,8 @@ export function getListOriginRequestPolicies2020_05_31(options?: {
  * @path `/2020-05-31/origin-request-policy`
  */
 export function postCreateOriginRequestPolicy2020_05_31(options: {
-  headers?: API.AwsV3Json.Main.PostCreateOriginRequestPolicy2020_05_31.Headers;
   body: API.AwsV3Json.Main.PostCreateOriginRequestPolicy2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PostCreateOriginRequestPolicy2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1425,8 +1425,8 @@ export function getPublicKeyConfig2020_05_31(options: {
  */
 export function putUpdatePublicKey2020_05_31(options: {
   pathParams: API.AwsV3Json.Main.PutUpdatePublicKey2020_05_31.PathParams;
-  headers?: API.AwsV3Json.Main.PutUpdatePublicKey2020_05_31.Headers;
   body: API.AwsV3Json.Main.PutUpdatePublicKey2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PutUpdatePublicKey2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1493,8 +1493,8 @@ export function getListPublicKeys2020_05_31(options?: {
  * @path `/2020-05-31/public-key`
  */
 export function postCreatePublicKey2020_05_31(options: {
-  headers?: API.AwsV3Json.Main.PostCreatePublicKey2020_05_31.Headers;
   body: API.AwsV3Json.Main.PostCreatePublicKey2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PostCreatePublicKey2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1510,8 +1510,8 @@ export function postCreatePublicKey2020_05_31(options: {
  * @path `/2020-05-31/realtime-log-config/`
  */
 export function putUpdateRealtimeLogConfig2020_05_31(options?: {
-  headers?: API.AwsV3Json.Main.PutUpdateRealtimeLogConfig2020_05_31.Headers;
   body?: API.AwsV3Json.Main.PutUpdateRealtimeLogConfig2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PutUpdateRealtimeLogConfig2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1544,8 +1544,8 @@ export function getListRealtimeLogConfigs2020_05_31(options?: {
  * @path `/2020-05-31/realtime-log-config`
  */
 export function postCreateRealtimeLogConfig2020_05_31(options: {
-  headers?: API.AwsV3Json.Main.PostCreateRealtimeLogConfig2020_05_31.Headers;
   body: API.AwsV3Json.Main.PostCreateRealtimeLogConfig2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PostCreateRealtimeLogConfig2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1613,8 +1613,8 @@ export function getResponseHeadersPolicy2020_05_31(options: {
  */
 export function putUpdateResponseHeadersPolicy2020_05_31(options: {
   pathParams: API.AwsV3Json.Main.PutUpdateResponseHeadersPolicy2020_05_31.PathParams;
-  headers?: API.AwsV3Json.Main.PutUpdateResponseHeadersPolicy2020_05_31.Headers;
   body: API.AwsV3Json.Main.PutUpdateResponseHeadersPolicy2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PutUpdateResponseHeadersPolicy2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1647,8 +1647,8 @@ export function getListResponseHeadersPolicies2020_05_31(options?: {
  * @path `/2020-05-31/response-headers-policy`
  */
 export function postCreateResponseHeadersPolicy2020_05_31(options: {
-  headers?: API.AwsV3Json.Main.PostCreateResponseHeadersPolicy2020_05_31.Headers;
   body: API.AwsV3Json.Main.PostCreateResponseHeadersPolicy2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PostCreateResponseHeadersPolicy2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1665,8 +1665,8 @@ export function postCreateResponseHeadersPolicy2020_05_31(options: {
  */
 export function postCreateStreamingDistributionWithTags2020_05_31(options: {
   queryParams: API.AwsV3Json.Main.PostCreateStreamingDistributionWithTags2020_05_31.QueryParams;
-  headers?: API.AwsV3Json.Main.PostCreateStreamingDistributionWithTags2020_05_31.Headers;
   body: API.AwsV3Json.Main.PostCreateStreamingDistributionWithTags2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PostCreateStreamingDistributionWithTags2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1700,8 +1700,8 @@ export function getStreamingDistributionConfig2020_05_31(options: {
  */
 export function putUpdateStreamingDistribution2020_05_31(options: {
   pathParams: API.AwsV3Json.Main.PutUpdateStreamingDistribution2020_05_31.PathParams;
-  headers?: API.AwsV3Json.Main.PutUpdateStreamingDistribution2020_05_31.Headers;
   body: API.AwsV3Json.Main.PutUpdateStreamingDistribution2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PutUpdateStreamingDistribution2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1768,8 +1768,8 @@ export function getListStreamingDistributions2020_05_31(options?: {
  * @path `/2020-05-31/streaming-distribution`
  */
 export function postCreateStreamingDistribution2020_05_31(options: {
-  headers?: API.AwsV3Json.Main.PostCreateStreamingDistribution2020_05_31.Headers;
   body: API.AwsV3Json.Main.PostCreateStreamingDistribution2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PostCreateStreamingDistribution2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1786,8 +1786,8 @@ export function postCreateStreamingDistribution2020_05_31(options: {
  */
 export function postTagResource2020_05_31(options: {
   queryParams: API.AwsV3Json.Main.PostTagResource2020_05_31.QueryParams;
-  headers?: API.AwsV3Json.Main.PostTagResource2020_05_31.Headers;
   body: API.AwsV3Json.Main.PostTagResource2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PostTagResource2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1804,8 +1804,8 @@ export function postTagResource2020_05_31(options: {
  */
 export function postUntagResource2020_05_31(options: {
   queryParams: API.AwsV3Json.Main.PostUntagResource2020_05_31.QueryParams;
-  headers?: API.AwsV3Json.Main.PostUntagResource2020_05_31.Headers;
   body: API.AwsV3Json.Main.PostUntagResource2020_05_31.Body;
+  headers?: API.AwsV3Json.Main.PostUntagResource2020_05_31.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

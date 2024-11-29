@@ -7,8 +7,8 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function deleteCsiDriver(options: {
   pathParams: API.K8sV2Json.StorageV1.DeleteCsiDriver.PathParams;
   queryParams?: API.K8sV2Json.StorageV1.DeleteCsiDriver.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.StorageV1.DeleteCsiDriver.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -44,8 +44,8 @@ export function getReadCsiDriver(options: {
 export function patchCsiDriver(options: {
   pathParams: API.K8sV2Json.StorageV1.PatchCsiDriver.PathParams;
   queryParams?: API.K8sV2Json.StorageV1.PatchCsiDriver.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.StorageV1.PatchCsiDriver.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -63,8 +63,8 @@ export function patchCsiDriver(options: {
 export function putReplaceCsiDriver(options: {
   pathParams: API.K8sV2Json.StorageV1.PutReplaceCsiDriver.PathParams;
   queryParams?: API.K8sV2Json.StorageV1.PutReplaceCsiDriver.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.StorageV1.PutReplaceCsiDriver.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -81,8 +81,8 @@ export function putReplaceCsiDriver(options: {
  */
 export function deleteCollectionCsiDriver(options?: {
   queryParams?: API.K8sV2Json.StorageV1.DeleteCollectionCsiDriver.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.StorageV1.DeleteCollectionCsiDriver.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -116,8 +116,8 @@ export function getListCsiDriver(options?: {
  */
 export function postCreateCsiDriver(options: {
   queryParams?: API.K8sV2Json.StorageV1.PostCreateCsiDriver.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.StorageV1.PostCreateCsiDriver.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -135,8 +135,8 @@ export function postCreateCsiDriver(options: {
 export function deleteCsiNode(options: {
   pathParams: API.K8sV2Json.StorageV1.DeleteCsiNode.PathParams;
   queryParams?: API.K8sV2Json.StorageV1.DeleteCsiNode.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.StorageV1.DeleteCsiNode.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -172,8 +172,8 @@ export function getReadCsiNode(options: {
 export function patchCsiNode(options: {
   pathParams: API.K8sV2Json.StorageV1.PatchCsiNode.PathParams;
   queryParams?: API.K8sV2Json.StorageV1.PatchCsiNode.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.StorageV1.PatchCsiNode.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -191,8 +191,8 @@ export function patchCsiNode(options: {
 export function putReplaceCsiNode(options: {
   pathParams: API.K8sV2Json.StorageV1.PutReplaceCsiNode.PathParams;
   queryParams?: API.K8sV2Json.StorageV1.PutReplaceCsiNode.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.StorageV1.PutReplaceCsiNode.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -209,8 +209,8 @@ export function putReplaceCsiNode(options: {
  */
 export function deleteCollectionCsiNode(options?: {
   queryParams?: API.K8sV2Json.StorageV1.DeleteCollectionCsiNode.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.StorageV1.DeleteCollectionCsiNode.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -244,8 +244,8 @@ export function getListCsiNode(options?: {
  */
 export function postCreateCsiNode(options: {
   queryParams?: API.K8sV2Json.StorageV1.PostCreateCsiNode.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.StorageV1.PostCreateCsiNode.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -296,8 +296,8 @@ export function getApiResources(options?: {
 export function deleteNamespacedCsiStorageCapacity(options: {
   pathParams: API.K8sV2Json.StorageV1.DeleteNamespacedCsiStorageCapacity.PathParams;
   queryParams?: API.K8sV2Json.StorageV1.DeleteNamespacedCsiStorageCapacity.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.StorageV1.DeleteNamespacedCsiStorageCapacity.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -333,8 +333,8 @@ export function getReadNamespacedCsiStorageCapacity(options: {
 export function patchNamespacedCsiStorageCapacity(options: {
   pathParams: API.K8sV2Json.StorageV1.PatchNamespacedCsiStorageCapacity.PathParams;
   queryParams?: API.K8sV2Json.StorageV1.PatchNamespacedCsiStorageCapacity.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.StorageV1.PatchNamespacedCsiStorageCapacity.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -352,8 +352,8 @@ export function patchNamespacedCsiStorageCapacity(options: {
 export function putReplaceNamespacedCsiStorageCapacity(options: {
   pathParams: API.K8sV2Json.StorageV1.PutReplaceNamespacedCsiStorageCapacity.PathParams;
   queryParams?: API.K8sV2Json.StorageV1.PutReplaceNamespacedCsiStorageCapacity.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.StorageV1.PutReplaceNamespacedCsiStorageCapacity.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -371,8 +371,8 @@ export function putReplaceNamespacedCsiStorageCapacity(options: {
 export function deleteCollectionNamespacedCsiStorageCapacity(options: {
   pathParams: API.K8sV2Json.StorageV1.DeleteCollectionNamespacedCsiStorageCapacity.PathParams;
   queryParams?: API.K8sV2Json.StorageV1.DeleteCollectionNamespacedCsiStorageCapacity.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.StorageV1.DeleteCollectionNamespacedCsiStorageCapacity.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -408,8 +408,8 @@ export function getListNamespacedCsiStorageCapacity(options: {
 export function postCreateNamespacedCsiStorageCapacity(options: {
   pathParams: API.K8sV2Json.StorageV1.PostCreateNamespacedCsiStorageCapacity.PathParams;
   queryParams?: API.K8sV2Json.StorageV1.PostCreateNamespacedCsiStorageCapacity.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.StorageV1.PostCreateNamespacedCsiStorageCapacity.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -427,8 +427,8 @@ export function postCreateNamespacedCsiStorageCapacity(options: {
 export function deleteStorageClass(options: {
   pathParams: API.K8sV2Json.StorageV1.DeleteStorageClass.PathParams;
   queryParams?: API.K8sV2Json.StorageV1.DeleteStorageClass.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.StorageV1.DeleteStorageClass.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -464,8 +464,8 @@ export function getReadStorageClass(options: {
 export function patchStorageClass(options: {
   pathParams: API.K8sV2Json.StorageV1.PatchStorageClass.PathParams;
   queryParams?: API.K8sV2Json.StorageV1.PatchStorageClass.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.StorageV1.PatchStorageClass.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -483,8 +483,8 @@ export function patchStorageClass(options: {
 export function putReplaceStorageClass(options: {
   pathParams: API.K8sV2Json.StorageV1.PutReplaceStorageClass.PathParams;
   queryParams?: API.K8sV2Json.StorageV1.PutReplaceStorageClass.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.StorageV1.PutReplaceStorageClass.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -501,8 +501,8 @@ export function putReplaceStorageClass(options: {
  */
 export function deleteCollectionStorageClass(options?: {
   queryParams?: API.K8sV2Json.StorageV1.DeleteCollectionStorageClass.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.StorageV1.DeleteCollectionStorageClass.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -536,8 +536,8 @@ export function getListStorageClass(options?: {
  */
 export function postCreateStorageClass(options: {
   queryParams?: API.K8sV2Json.StorageV1.PostCreateStorageClass.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.StorageV1.PostCreateStorageClass.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -573,8 +573,8 @@ export function getReadVolumeAttachmentStatus(options: {
 export function patchVolumeAttachmentStatus(options: {
   pathParams: API.K8sV2Json.StorageV1.PatchVolumeAttachmentStatus.PathParams;
   queryParams?: API.K8sV2Json.StorageV1.PatchVolumeAttachmentStatus.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.StorageV1.PatchVolumeAttachmentStatus.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -592,8 +592,8 @@ export function patchVolumeAttachmentStatus(options: {
 export function putReplaceVolumeAttachmentStatus(options: {
   pathParams: API.K8sV2Json.StorageV1.PutReplaceVolumeAttachmentStatus.PathParams;
   queryParams?: API.K8sV2Json.StorageV1.PutReplaceVolumeAttachmentStatus.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.StorageV1.PutReplaceVolumeAttachmentStatus.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -611,8 +611,8 @@ export function putReplaceVolumeAttachmentStatus(options: {
 export function deleteVolumeAttachment(options: {
   pathParams: API.K8sV2Json.StorageV1.DeleteVolumeAttachment.PathParams;
   queryParams?: API.K8sV2Json.StorageV1.DeleteVolumeAttachment.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.StorageV1.DeleteVolumeAttachment.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -648,8 +648,8 @@ export function getReadVolumeAttachment(options: {
 export function patchVolumeAttachment(options: {
   pathParams: API.K8sV2Json.StorageV1.PatchVolumeAttachment.PathParams;
   queryParams?: API.K8sV2Json.StorageV1.PatchVolumeAttachment.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.StorageV1.PatchVolumeAttachment.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -667,8 +667,8 @@ export function patchVolumeAttachment(options: {
 export function putReplaceVolumeAttachment(options: {
   pathParams: API.K8sV2Json.StorageV1.PutReplaceVolumeAttachment.PathParams;
   queryParams?: API.K8sV2Json.StorageV1.PutReplaceVolumeAttachment.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.StorageV1.PutReplaceVolumeAttachment.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -685,8 +685,8 @@ export function putReplaceVolumeAttachment(options: {
  */
 export function deleteCollectionVolumeAttachment(options?: {
   queryParams?: API.K8sV2Json.StorageV1.DeleteCollectionVolumeAttachment.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.StorageV1.DeleteCollectionVolumeAttachment.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -720,8 +720,8 @@ export function getListVolumeAttachment(options?: {
  */
 export function postCreateVolumeAttachment(options: {
   queryParams?: API.K8sV2Json.StorageV1.PostCreateVolumeAttachment.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.StorageV1.PostCreateVolumeAttachment.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

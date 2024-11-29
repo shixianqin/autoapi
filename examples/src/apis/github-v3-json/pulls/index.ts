@@ -46,8 +46,8 @@ export function getReviewComment(options: {
  */
 export function patchUpdateReviewComment(options: {
   pathParams: API.GithubV3Json.Pulls.PatchUpdateReviewComment.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Pulls.PatchUpdateReviewComment.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -88,8 +88,8 @@ export function getListReviewCommentsForRepo(options: {
  */
 export function postCreateReplyForReviewComment(options: {
   pathParams: API.GithubV3Json.Pulls.PostCreateReplyForReviewComment.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Pulls.PostCreateReplyForReviewComment.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -135,8 +135,8 @@ export function getListReviewComments(options: {
  */
 export function postCreateReviewComment(options: {
   pathParams: API.GithubV3Json.Pulls.PostCreateReviewComment.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Pulls.PostCreateReviewComment.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -213,8 +213,8 @@ export function getCheckIfMerged(options: {
  */
 export function putMerge(options: {
   pathParams: API.GithubV3Json.Pulls.PutMerge.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Pulls.PutMerge.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -232,8 +232,8 @@ export function putMerge(options: {
  */
 export function deleteRemoveRequestedReviewers(options: {
   pathParams: API.GithubV3Json.Pulls.DeleteRemoveRequestedReviewers.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Pulls.DeleteRemoveRequestedReviewers.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -271,8 +271,8 @@ export function getListRequestedReviewers(options: {
  */
 export function postRequestReviewers(options: {
   pathParams: API.GithubV3Json.Pulls.PostRequestReviewers.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Pulls.PostRequestReviewers.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -311,8 +311,8 @@ export function getListCommentsForReview(options: {
  */
 export function putDismissReview(options: {
   pathParams: API.GithubV3Json.Pulls.PutDismissReview.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Pulls.PutDismissReview.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -331,8 +331,8 @@ export function putDismissReview(options: {
  */
 export function postSubmitReview(options: {
   pathParams: API.GithubV3Json.Pulls.PostSubmitReview.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Pulls.PostSubmitReview.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -387,8 +387,8 @@ export function getReview(options: {
  */
 export function putUpdateReview(options: {
   pathParams: API.GithubV3Json.Pulls.PutUpdateReview.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Pulls.PutUpdateReview.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -433,8 +433,8 @@ export function getListReviews(options: {
  */
 export function postCreateReview(options: {
   pathParams: API.GithubV3Json.Pulls.PostCreateReview.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Pulls.PostCreateReview.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -453,8 +453,8 @@ export function postCreateReview(options: {
  */
 export function putUpdateBranch(options: {
   pathParams: API.GithubV3Json.Pulls.PutUpdateBranch.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Pulls.PutUpdateBranch.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -507,8 +507,8 @@ export function getPulls(options: {
  */
 export function patchUpdate(options: {
   pathParams: API.GithubV3Json.Pulls.PatchUpdate.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Pulls.PatchUpdate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -551,8 +551,8 @@ export function getList(options: {
  */
 export function postCreate(options: {
   pathParams: API.GithubV3Json.Pulls.PostCreate.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Pulls.PostCreate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

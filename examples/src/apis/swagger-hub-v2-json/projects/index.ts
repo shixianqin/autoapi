@@ -25,8 +25,8 @@ export function getProjectMembersV2(options: {
  */
 export function putUpdateProjectMembersV2(options: {
   pathParams: API.SwaggerHubV2Json.Projects.PutUpdateProjectMembersV2.PathParams;
-  headers?: Record<string, any>;
   body?: API.SwaggerHubV2Json.Projects.PutUpdateProjectMembersV2.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -102,8 +102,8 @@ export function getProjectV2(options: {
  */
 export function putSaveProjectV2(options: {
   pathParams: API.SwaggerHubV2Json.Projects.PutSaveProjectV2.PathParams;
-  headers?: Record<string, any>;
   body?: API.SwaggerHubV2Json.Projects.PutSaveProjectV2.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -138,8 +138,8 @@ export function getOrgV2(options: {
  */
 export function postCreateProject(options: {
   pathParams: API.SwaggerHubV2Json.Projects.PostCreateProject.PathParams;
-  headers?: Record<string, any>;
   body?: API.SwaggerHubV2Json.Projects.PostCreateProject.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

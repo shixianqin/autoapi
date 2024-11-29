@@ -83,8 +83,8 @@ export function getComment(options: {
  */
 export function patchUpdateComment(options: {
   pathParams: API.GithubV3Json.Gists.PatchUpdateComment.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Gists.PatchUpdateComment.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -121,8 +121,8 @@ export function getListComments(options: {
  */
 export function postCreateComment(options: {
   pathParams: API.GithubV3Json.Gists.PostCreateComment.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Gists.PostCreateComment.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -306,8 +306,8 @@ export function getGists(options: {
  */
 export function patchUpdate(options: {
   pathParams: API.GithubV3Json.Gists.PatchUpdate.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Gists.PatchUpdate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -346,8 +346,8 @@ export function getList(options?: {
  * @docs https://docs.github.com/rest/reference/gists#create-a-gist
  */
 export function postCreate(options: {
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Gists.PostCreate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

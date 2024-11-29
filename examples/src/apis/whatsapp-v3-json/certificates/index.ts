@@ -21,8 +21,8 @@ export function getDownloadCaCertificate(options?: {
  * @path `/certificates/external`
  */
 export function postUploadCertificate(options: {
-  headers?: Record<string, any>;
   body: API.WhatsappV3Json.Certificates.PostUploadCertificate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -62,8 +62,8 @@ export function getDownloadWebhookCaCertificate(options?: {
  * @path `/certificates/webhooks/ca`
  */
 export function postUploadWebhookCaCertificate(options: {
-  headers?: Record<string, any>;
   body: API.WhatsappV3Json.Certificates.PostUploadWebhookCaCertificate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

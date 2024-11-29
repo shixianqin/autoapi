@@ -28,8 +28,8 @@ export function getBlob(options: {
  */
 export function postCreateBlob(options: {
   pathParams: API.GithubV3Json.Git.PostCreateBlob.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Git.PostCreateBlob.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -125,8 +125,8 @@ export function getCommit(options: {
  */
 export function postCreateCommit(options: {
   pathParams: API.GithubV3Json.Git.PostCreateCommit.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Git.PostCreateCommit.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -208,8 +208,8 @@ export function deleteRef(options: {
  */
 export function patchUpdateRef(options: {
   pathParams: API.GithubV3Json.Git.PatchUpdateRef.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Git.PatchUpdateRef.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -228,8 +228,8 @@ export function patchUpdateRef(options: {
  */
 export function postCreateRef(options: {
   pathParams: API.GithubV3Json.Git.PostCreateRef.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Git.PostCreateRef.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -323,8 +323,8 @@ export function getTag(options: {
  */
 export function postCreateTag(options: {
   pathParams: API.GithubV3Json.Git.PostCreateTag.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Git.PostCreateTag.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -372,8 +372,8 @@ export function getTree(options: {
  */
 export function postCreateTree(options: {
   pathParams: API.GithubV3Json.Git.PostCreateTree.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Git.PostCreateTree.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

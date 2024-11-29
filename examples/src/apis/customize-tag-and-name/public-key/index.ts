@@ -23,8 +23,8 @@ export function getConfig(options: {
  */
 export function putUpdate(options: {
   pathParams: API.CustomizeTagAndName.PublicKey.PutUpdate.PathParams;
-  headers?: API.CustomizeTagAndName.PublicKey.PutUpdate.Headers;
   body: API.CustomizeTagAndName.PublicKey.PutUpdate.Body;
+  headers?: API.CustomizeTagAndName.PublicKey.PutUpdate.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -91,8 +91,8 @@ export function getListPublicKeys(options?: {
  * @path `/2020-05-31/public-key`
  */
 export function postCreate(options: {
-  headers?: API.CustomizeTagAndName.PublicKey.PostCreate.Headers;
   body: API.CustomizeTagAndName.PublicKey.PostCreate.Body;
+  headers?: API.CustomizeTagAndName.PublicKey.PostCreate.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

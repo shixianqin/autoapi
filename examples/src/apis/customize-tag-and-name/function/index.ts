@@ -23,8 +23,8 @@ export function deleteFunction(options: {
  */
 export function putUpdate(options: {
   pathParams: API.CustomizeTagAndName.Function.PutUpdate.PathParams;
-  headers?: API.CustomizeTagAndName.Function.PutUpdate.Headers;
   body: API.CustomizeTagAndName.Function.PutUpdate.Body;
+  headers?: API.CustomizeTagAndName.Function.PutUpdate.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -76,8 +76,8 @@ export function postPublish(options: {
  */
 export function postTest(options: {
   pathParams: API.CustomizeTagAndName.Function.PostTest.PathParams;
-  headers?: API.CustomizeTagAndName.Function.PostTest.Headers;
   body: API.CustomizeTagAndName.Function.PostTest.Body;
+  headers?: API.CustomizeTagAndName.Function.PostTest.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -128,8 +128,8 @@ export function getListFunctions(options?: {
  * @path `/2020-05-31/function`
  */
 export function postCreate(options: {
-  headers?: API.CustomizeTagAndName.Function.PostCreate.Headers;
   body: API.CustomizeTagAndName.Function.PostCreate.Body;
+  headers?: API.CustomizeTagAndName.Function.PostCreate.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

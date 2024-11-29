@@ -5,8 +5,8 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/2020-05-31/delete-realtime-log-config/`
  */
 export function postDeleteRealtimeLogConfig(options?: {
-  headers?: API.CustomizeTagAndName.DeleteRealtimeLogConfig.PostDeleteRealtimeLogConfig.Headers;
   body?: API.CustomizeTagAndName.DeleteRealtimeLogConfig.PostDeleteRealtimeLogConfig.Body;
+  headers?: API.CustomizeTagAndName.DeleteRealtimeLogConfig.PostDeleteRealtimeLogConfig.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

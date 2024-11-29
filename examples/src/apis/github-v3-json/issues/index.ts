@@ -138,8 +138,8 @@ export function getComment(options: {
  */
 export function patchUpdateComment(options: {
   pathParams: API.GithubV3Json.Issues.PatchUpdateComment.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Issues.PatchUpdateComment.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -238,8 +238,8 @@ export function getCheckUserCanBeAssignedToIssue(options: {
  */
 export function deleteRemoveAssignees(options: {
   pathParams: API.GithubV3Json.Issues.DeleteRemoveAssignees.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Issues.DeleteRemoveAssignees.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -258,8 +258,8 @@ export function deleteRemoveAssignees(options: {
  */
 export function postAddAssignees(options: {
   pathParams: API.GithubV3Json.Issues.PostAddAssignees.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Issues.PostAddAssignees.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -298,8 +298,8 @@ export function getListComments(options: {
  */
 export function postCreateComment(options: {
   pathParams: API.GithubV3Json.Issues.PostCreateComment.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Issues.PostCreateComment.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -392,8 +392,8 @@ export function getListLabelsOnIssue(options: {
  */
 export function postAddLabels(options: {
   pathParams: API.GithubV3Json.Issues.PostAddLabels.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Issues.PostAddLabels.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -412,8 +412,8 @@ export function postAddLabels(options: {
  */
 export function putSetLabels(options: {
   pathParams: API.GithubV3Json.Issues.PutSetLabels.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Issues.PutSetLabels.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -453,8 +453,8 @@ export function deleteUnlock(options: {
  */
 export function putLock(options: {
   pathParams: API.GithubV3Json.Issues.PutLock.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Issues.PutLock.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -521,8 +521,8 @@ export function getIssues(options: {
  */
 export function patchUpdate(options: {
   pathParams: API.GithubV3Json.Issues.PatchUpdate.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Issues.PatchUpdate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -568,8 +568,8 @@ export function getListForRepo(options: {
  */
 export function postCreate(options: {
   pathParams: API.GithubV3Json.Issues.PostCreate.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Issues.PostCreate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -623,8 +623,8 @@ export function getLabel(options: {
  */
 export function patchUpdateLabel(options: {
   pathParams: API.GithubV3Json.Issues.PatchUpdateLabel.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Issues.PatchUpdateLabel.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -661,8 +661,8 @@ export function getListLabelsForRepo(options: {
  */
 export function postCreateLabel(options: {
   pathParams: API.GithubV3Json.Issues.PostCreateLabel.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Issues.PostCreateLabel.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -735,8 +735,8 @@ export function getMilestone(options: {
  */
 export function patchUpdateMilestone(options: {
   pathParams: API.GithubV3Json.Issues.PatchUpdateMilestone.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Issues.PatchUpdateMilestone.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -773,8 +773,8 @@ export function getListMilestones(options: {
  */
 export function postCreateMilestone(options: {
   pathParams: API.GithubV3Json.Issues.PostCreateMilestone.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Issues.PostCreateMilestone.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

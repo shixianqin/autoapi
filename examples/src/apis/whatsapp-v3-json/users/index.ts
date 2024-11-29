@@ -5,8 +5,8 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/users/login`
  */
 export function postLoginUser(options: {
-  headers?: Record<string, any>;
   body: API.WhatsappV3Json.Users.PostLoginUser.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -69,8 +69,8 @@ export function getUser(options: {
  */
 export function putUpdateUser(options: {
   pathParams: API.WhatsappV3Json.Users.PutUpdateUser.PathParams;
-  headers?: Record<string, any>;
   body: API.WhatsappV3Json.Users.PutUpdateUser.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -86,8 +86,8 @@ export function putUpdateUser(options: {
  * @path `/users`
  */
 export function postCreateUser(options: {
-  headers?: Record<string, any>;
   body: API.WhatsappV3Json.Users.PostCreateUser.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

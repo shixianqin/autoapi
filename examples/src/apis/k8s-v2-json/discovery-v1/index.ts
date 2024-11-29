@@ -40,8 +40,8 @@ export function getApiResources(options?: {
 export function deleteNamespacedEndpointSlice(options: {
   pathParams: API.K8sV2Json.DiscoveryV1.DeleteNamespacedEndpointSlice.PathParams;
   queryParams?: API.K8sV2Json.DiscoveryV1.DeleteNamespacedEndpointSlice.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.DiscoveryV1.DeleteNamespacedEndpointSlice.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -77,8 +77,8 @@ export function getReadNamespacedEndpointSlice(options: {
 export function patchNamespacedEndpointSlice(options: {
   pathParams: API.K8sV2Json.DiscoveryV1.PatchNamespacedEndpointSlice.PathParams;
   queryParams?: API.K8sV2Json.DiscoveryV1.PatchNamespacedEndpointSlice.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.DiscoveryV1.PatchNamespacedEndpointSlice.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -96,8 +96,8 @@ export function patchNamespacedEndpointSlice(options: {
 export function putReplaceNamespacedEndpointSlice(options: {
   pathParams: API.K8sV2Json.DiscoveryV1.PutReplaceNamespacedEndpointSlice.PathParams;
   queryParams?: API.K8sV2Json.DiscoveryV1.PutReplaceNamespacedEndpointSlice.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.DiscoveryV1.PutReplaceNamespacedEndpointSlice.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -115,8 +115,8 @@ export function putReplaceNamespacedEndpointSlice(options: {
 export function deleteCollectionNamespacedEndpointSlice(options: {
   pathParams: API.K8sV2Json.DiscoveryV1.DeleteCollectionNamespacedEndpointSlice.PathParams;
   queryParams?: API.K8sV2Json.DiscoveryV1.DeleteCollectionNamespacedEndpointSlice.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.DiscoveryV1.DeleteCollectionNamespacedEndpointSlice.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -152,8 +152,8 @@ export function getListNamespacedEndpointSlice(options: {
 export function postCreateNamespacedEndpointSlice(options: {
   pathParams: API.K8sV2Json.DiscoveryV1.PostCreateNamespacedEndpointSlice.PathParams;
   queryParams?: API.K8sV2Json.DiscoveryV1.PostCreateNamespacedEndpointSlice.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.DiscoveryV1.PostCreateNamespacedEndpointSlice.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

@@ -23,8 +23,8 @@ export function getApiResources(options?: {
 export function deleteRuntimeClass(options: {
   pathParams: API.K8sV2Json.NodeV1.DeleteRuntimeClass.PathParams;
   queryParams?: API.K8sV2Json.NodeV1.DeleteRuntimeClass.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.NodeV1.DeleteRuntimeClass.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -60,8 +60,8 @@ export function getReadRuntimeClass(options: {
 export function patchRuntimeClass(options: {
   pathParams: API.K8sV2Json.NodeV1.PatchRuntimeClass.PathParams;
   queryParams?: API.K8sV2Json.NodeV1.PatchRuntimeClass.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.NodeV1.PatchRuntimeClass.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -79,8 +79,8 @@ export function patchRuntimeClass(options: {
 export function putReplaceRuntimeClass(options: {
   pathParams: API.K8sV2Json.NodeV1.PutReplaceRuntimeClass.PathParams;
   queryParams?: API.K8sV2Json.NodeV1.PutReplaceRuntimeClass.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.NodeV1.PutReplaceRuntimeClass.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -97,8 +97,8 @@ export function putReplaceRuntimeClass(options: {
  */
 export function deleteCollectionRuntimeClass(options?: {
   queryParams?: API.K8sV2Json.NodeV1.DeleteCollectionRuntimeClass.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.NodeV1.DeleteCollectionRuntimeClass.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -132,8 +132,8 @@ export function getListRuntimeClass(options?: {
  */
 export function postCreateRuntimeClass(options: {
   queryParams?: API.K8sV2Json.NodeV1.PostCreateRuntimeClass.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.NodeV1.PostCreateRuntimeClass.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

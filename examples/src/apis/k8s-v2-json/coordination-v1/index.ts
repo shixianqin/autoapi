@@ -40,8 +40,8 @@ export function getListLeaseForAllNamespaces(options?: {
 export function deleteNamespacedLease(options: {
   pathParams: API.K8sV2Json.CoordinationV1.DeleteNamespacedLease.PathParams;
   queryParams?: API.K8sV2Json.CoordinationV1.DeleteNamespacedLease.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.CoordinationV1.DeleteNamespacedLease.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -77,8 +77,8 @@ export function getReadNamespacedLease(options: {
 export function patchNamespacedLease(options: {
   pathParams: API.K8sV2Json.CoordinationV1.PatchNamespacedLease.PathParams;
   queryParams?: API.K8sV2Json.CoordinationV1.PatchNamespacedLease.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.CoordinationV1.PatchNamespacedLease.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -96,8 +96,8 @@ export function patchNamespacedLease(options: {
 export function putReplaceNamespacedLease(options: {
   pathParams: API.K8sV2Json.CoordinationV1.PutReplaceNamespacedLease.PathParams;
   queryParams?: API.K8sV2Json.CoordinationV1.PutReplaceNamespacedLease.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.CoordinationV1.PutReplaceNamespacedLease.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -115,8 +115,8 @@ export function putReplaceNamespacedLease(options: {
 export function deleteCollectionNamespacedLease(options: {
   pathParams: API.K8sV2Json.CoordinationV1.DeleteCollectionNamespacedLease.PathParams;
   queryParams?: API.K8sV2Json.CoordinationV1.DeleteCollectionNamespacedLease.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.CoordinationV1.DeleteCollectionNamespacedLease.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -152,8 +152,8 @@ export function getListNamespacedLease(options: {
 export function postCreateNamespacedLease(options: {
   pathParams: API.K8sV2Json.CoordinationV1.PostCreateNamespacedLease.PathParams;
   queryParams?: API.K8sV2Json.CoordinationV1.PostCreateNamespacedLease.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.CoordinationV1.PostCreateNamespacedLease.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

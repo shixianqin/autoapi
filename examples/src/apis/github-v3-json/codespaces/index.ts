@@ -9,8 +9,8 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function deleteBillingUsers(options: {
   pathParams: API.GithubV3Json.Codespaces.DeleteBillingUsers.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Codespaces.DeleteBillingUsers.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -30,8 +30,8 @@ export function deleteBillingUsers(options: {
  */
 export function postSetBillingUsers(options: {
   pathParams: API.GithubV3Json.Codespaces.PostSetBillingUsers.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Codespaces.PostSetBillingUsers.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -51,8 +51,8 @@ export function postSetBillingUsers(options: {
  */
 export function putSetBilling(options: {
   pathParams: API.GithubV3Json.Codespaces.PutSetBilling.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Codespaces.PutSetBilling.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -148,8 +148,8 @@ export function getListSelectedReposForOrgSecret(options: {
  */
 export function putSetSelectedReposForOrgSecret(options: {
   pathParams: API.GithubV3Json.Codespaces.PutSetSelectedReposForOrgSecret.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Codespaces.PutSetSelectedReposForOrgSecret.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -281,8 +281,8 @@ export function getOrgSecret(options: {
  */
 export function putCreateOrUpdateOrgSecret(options: {
   pathParams: API.GithubV3Json.Codespaces.PutCreateOrUpdateOrgSecret.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Codespaces.PutCreateOrUpdateOrgSecret.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -613,8 +613,8 @@ export function getRepoSecret(options: {
  */
 export function putCreateOrUpdateRepoSecret(options: {
   pathParams: API.GithubV3Json.Codespaces.PutCreateOrUpdateRepoSecret.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Codespaces.PutCreateOrUpdateRepoSecret.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -681,8 +681,8 @@ export function getListInRepositoryForAuthenticatedUser(options: {
  */
 export function postCreateWithRepoForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Codespaces.PostCreateWithRepoForAuthenticatedUser.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Codespaces.PostCreateWithRepoForAuthenticatedUser.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -705,8 +705,8 @@ export function postCreateWithRepoForAuthenticatedUser(options: {
  */
 export function postCreateWithPrForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Codespaces.PostCreateWithPrForAuthenticatedUser.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Codespaces.PostCreateWithPrForAuthenticatedUser.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -816,8 +816,8 @@ export function getListRepositoriesForSecretForAuthenticatedUser(options: {
  */
 export function putSetRepositoriesForSecretForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Codespaces.PutSetRepositoriesForSecretForAuthenticatedUser.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Codespaces.PutSetRepositoriesForSecretForAuthenticatedUser.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -959,8 +959,8 @@ export function getSecretForAuthenticatedUser(options: {
  */
 export function putCreateOrUpdateSecretForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Codespaces.PutCreateOrUpdateSecretForAuthenticatedUser.PathParams;
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Codespaces.PutCreateOrUpdateSecretForAuthenticatedUser.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1082,8 +1082,8 @@ export function getCodespaceMachinesForAuthenticatedUser(options: {
  */
 export function postPublishForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Codespaces.PostPublishForAuthenticatedUser.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Codespaces.PostPublishForAuthenticatedUser.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1200,8 +1200,8 @@ export function getForAuthenticatedUser(options: {
  */
 export function patchUpdateForAuthenticatedUser(options: {
   pathParams: API.GithubV3Json.Codespaces.PatchUpdateForAuthenticatedUser.PathParams;
-  headers?: Record<string, any>;
   body?: API.GithubV3Json.Codespaces.PatchUpdateForAuthenticatedUser.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1248,8 +1248,8 @@ export function getListForAuthenticatedUser(options?: {
  * @docs https://docs.github.com/rest/reference/codespaces#create-a-codespace-for-the-authenticated-user
  */
 export function postCreateForAuthenticatedUser(options: {
-  headers?: Record<string, any>;
   body: API.GithubV3Json.Codespaces.PostCreateForAuthenticatedUser.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

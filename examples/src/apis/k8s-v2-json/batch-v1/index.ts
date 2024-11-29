@@ -75,8 +75,8 @@ export function getReadNamespacedCronJobStatus(options: {
 export function patchNamespacedCronJobStatus(options: {
   pathParams: API.K8sV2Json.BatchV1.PatchNamespacedCronJobStatus.PathParams;
   queryParams?: API.K8sV2Json.BatchV1.PatchNamespacedCronJobStatus.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.BatchV1.PatchNamespacedCronJobStatus.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -94,8 +94,8 @@ export function patchNamespacedCronJobStatus(options: {
 export function putReplaceNamespacedCronJobStatus(options: {
   pathParams: API.K8sV2Json.BatchV1.PutReplaceNamespacedCronJobStatus.PathParams;
   queryParams?: API.K8sV2Json.BatchV1.PutReplaceNamespacedCronJobStatus.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.BatchV1.PutReplaceNamespacedCronJobStatus.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -113,8 +113,8 @@ export function putReplaceNamespacedCronJobStatus(options: {
 export function deleteNamespacedCronJob(options: {
   pathParams: API.K8sV2Json.BatchV1.DeleteNamespacedCronJob.PathParams;
   queryParams?: API.K8sV2Json.BatchV1.DeleteNamespacedCronJob.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.BatchV1.DeleteNamespacedCronJob.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -150,8 +150,8 @@ export function getReadNamespacedCronJob(options: {
 export function patchNamespacedCronJob(options: {
   pathParams: API.K8sV2Json.BatchV1.PatchNamespacedCronJob.PathParams;
   queryParams?: API.K8sV2Json.BatchV1.PatchNamespacedCronJob.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.BatchV1.PatchNamespacedCronJob.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -169,8 +169,8 @@ export function patchNamespacedCronJob(options: {
 export function putReplaceNamespacedCronJob(options: {
   pathParams: API.K8sV2Json.BatchV1.PutReplaceNamespacedCronJob.PathParams;
   queryParams?: API.K8sV2Json.BatchV1.PutReplaceNamespacedCronJob.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.BatchV1.PutReplaceNamespacedCronJob.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -188,8 +188,8 @@ export function putReplaceNamespacedCronJob(options: {
 export function deleteCollectionNamespacedCronJob(options: {
   pathParams: API.K8sV2Json.BatchV1.DeleteCollectionNamespacedCronJob.PathParams;
   queryParams?: API.K8sV2Json.BatchV1.DeleteCollectionNamespacedCronJob.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.BatchV1.DeleteCollectionNamespacedCronJob.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -225,8 +225,8 @@ export function getListNamespacedCronJob(options: {
 export function postCreateNamespacedCronJob(options: {
   pathParams: API.K8sV2Json.BatchV1.PostCreateNamespacedCronJob.PathParams;
   queryParams?: API.K8sV2Json.BatchV1.PostCreateNamespacedCronJob.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.BatchV1.PostCreateNamespacedCronJob.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -262,8 +262,8 @@ export function getReadNamespacedJobStatus(options: {
 export function patchNamespacedJobStatus(options: {
   pathParams: API.K8sV2Json.BatchV1.PatchNamespacedJobStatus.PathParams;
   queryParams?: API.K8sV2Json.BatchV1.PatchNamespacedJobStatus.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.BatchV1.PatchNamespacedJobStatus.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -281,8 +281,8 @@ export function patchNamespacedJobStatus(options: {
 export function putReplaceNamespacedJobStatus(options: {
   pathParams: API.K8sV2Json.BatchV1.PutReplaceNamespacedJobStatus.PathParams;
   queryParams?: API.K8sV2Json.BatchV1.PutReplaceNamespacedJobStatus.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.BatchV1.PutReplaceNamespacedJobStatus.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -300,8 +300,8 @@ export function putReplaceNamespacedJobStatus(options: {
 export function deleteNamespacedJob(options: {
   pathParams: API.K8sV2Json.BatchV1.DeleteNamespacedJob.PathParams;
   queryParams?: API.K8sV2Json.BatchV1.DeleteNamespacedJob.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.BatchV1.DeleteNamespacedJob.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -337,8 +337,8 @@ export function getReadNamespacedJob(options: {
 export function patchNamespacedJob(options: {
   pathParams: API.K8sV2Json.BatchV1.PatchNamespacedJob.PathParams;
   queryParams?: API.K8sV2Json.BatchV1.PatchNamespacedJob.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.BatchV1.PatchNamespacedJob.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -356,8 +356,8 @@ export function patchNamespacedJob(options: {
 export function putReplaceNamespacedJob(options: {
   pathParams: API.K8sV2Json.BatchV1.PutReplaceNamespacedJob.PathParams;
   queryParams?: API.K8sV2Json.BatchV1.PutReplaceNamespacedJob.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.BatchV1.PutReplaceNamespacedJob.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -375,8 +375,8 @@ export function putReplaceNamespacedJob(options: {
 export function deleteCollectionNamespacedJob(options: {
   pathParams: API.K8sV2Json.BatchV1.DeleteCollectionNamespacedJob.PathParams;
   queryParams?: API.K8sV2Json.BatchV1.DeleteCollectionNamespacedJob.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.BatchV1.DeleteCollectionNamespacedJob.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -412,8 +412,8 @@ export function getListNamespacedJob(options: {
 export function postCreateNamespacedJob(options: {
   pathParams: API.K8sV2Json.BatchV1.PostCreateNamespacedJob.PathParams;
   queryParams?: API.K8sV2Json.BatchV1.PostCreateNamespacedJob.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.BatchV1.PostCreateNamespacedJob.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

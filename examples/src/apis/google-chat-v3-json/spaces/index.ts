@@ -60,8 +60,8 @@ export function getChatMessagesAttachments(options: {
 export function patchChatMessages(options: {
   pathParams: API.GoogleChatV3Json.Spaces.PatchChatMessages.PathParams;
   queryParams?: API.GoogleChatV3Json.Spaces.PatchChatMessages.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GoogleChatV3Json.Spaces.PatchChatMessages.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -79,8 +79,8 @@ export function patchChatMessages(options: {
 export function putChatMessagesUpdate(options: {
   pathParams: API.GoogleChatV3Json.Spaces.PutChatMessagesUpdate.PathParams;
   queryParams?: API.GoogleChatV3Json.Spaces.PutChatMessagesUpdate.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GoogleChatV3Json.Spaces.PutChatMessagesUpdate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -116,8 +116,8 @@ export function getChatMembersList(options: {
 export function postChatMessagesCreate(options: {
   pathParams: API.GoogleChatV3Json.Spaces.PostChatMessagesCreate.PathParams;
   queryParams?: API.GoogleChatV3Json.Spaces.PostChatMessagesCreate.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GoogleChatV3Json.Spaces.PostChatMessagesCreate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

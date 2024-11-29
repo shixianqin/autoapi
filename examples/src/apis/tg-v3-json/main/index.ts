@@ -6,8 +6,8 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @docs https://core.telegram.org/bots/api/#addstickertoset
  */
 export function postAddStickerToSet(options: {
-  headers?: Record<string, any>;
   formData: API.TgV3Json.Main.PostAddStickerToSet.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -26,9 +26,9 @@ export function postAddStickerToSet(options: {
  * @docs https://core.telegram.org/bots/api/#answercallbackquery
  */
 export function postAnswerCallbackQuery(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostAnswerCallbackQuery.FormData;
   body?: API.TgV3Json.Main.PostAnswerCallbackQuery.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -46,9 +46,9 @@ export function postAnswerCallbackQuery(options: {
  * @docs https://core.telegram.org/bots/api/#answerinlinequery
  */
 export function postAnswerInlineQuery(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostAnswerInlineQuery.FormData;
   body?: API.TgV3Json.Main.PostAnswerInlineQuery.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -65,9 +65,9 @@ export function postAnswerInlineQuery(options: {
  * @docs https://core.telegram.org/bots/api/#answerprecheckoutquery
  */
 export function postAnswerPreCheckoutQuery(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostAnswerPreCheckoutQuery.FormData;
   body?: API.TgV3Json.Main.PostAnswerPreCheckoutQuery.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -84,9 +84,9 @@ export function postAnswerPreCheckoutQuery(options: {
  * @docs https://core.telegram.org/bots/api/#answershippingquery
  */
 export function postAnswerShippingQuery(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostAnswerShippingQuery.FormData;
   body?: API.TgV3Json.Main.PostAnswerShippingQuery.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -120,9 +120,9 @@ export function postClose(options?: {
  * @docs https://core.telegram.org/bots/api/#copymessage
  */
 export function postCopyMessage(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostCopyMessage.FormData;
   body?: API.TgV3Json.Main.PostCopyMessage.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -139,8 +139,8 @@ export function postCopyMessage(options: {
  * @docs https://core.telegram.org/bots/api/#createnewstickerset
  */
 export function postCreateNewStickerSet(options: {
-  headers?: Record<string, any>;
   formData: API.TgV3Json.Main.PostCreateNewStickerSet.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -157,9 +157,9 @@ export function postCreateNewStickerSet(options: {
  * @docs https://core.telegram.org/bots/api/#deletechatphoto
  */
 export function postDeleteChatPhoto(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostDeleteChatPhoto.FormData;
   body?: API.TgV3Json.Main.PostDeleteChatPhoto.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -176,9 +176,9 @@ export function postDeleteChatPhoto(options: {
  * @docs https://core.telegram.org/bots/api/#deletechatstickerset
  */
 export function postDeleteChatStickerSet(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostDeleteChatStickerSet.FormData;
   body?: API.TgV3Json.Main.PostDeleteChatStickerSet.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -203,9 +203,9 @@ export function postDeleteChatStickerSet(options: {
  * @docs https://core.telegram.org/bots/api/#deletemessage
  */
 export function postDeleteMessage(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostDeleteMessage.FormData;
   body?: API.TgV3Json.Main.PostDeleteMessage.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -222,9 +222,9 @@ export function postDeleteMessage(options: {
  * @docs https://core.telegram.org/bots/api/#deletestickerfromset
  */
 export function postDeleteStickerFromSet(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostDeleteStickerFromSet.FormData;
   body?: API.TgV3Json.Main.PostDeleteStickerFromSet.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -241,9 +241,9 @@ export function postDeleteStickerFromSet(options: {
  * @docs https://core.telegram.org/bots/api/#deletewebhook
  */
 export function postDeleteWebhook(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostDeleteWebhook.FormData;
   body?: API.TgV3Json.Main.PostDeleteWebhook.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -260,9 +260,9 @@ export function postDeleteWebhook(options: {
  * @docs https://core.telegram.org/bots/api/#editmessagecaption
  */
 export function postEditMessageCaption(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostEditMessageCaption.FormData;
   body?: API.TgV3Json.Main.PostEditMessageCaption.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -279,9 +279,9 @@ export function postEditMessageCaption(options: {
  * @docs https://core.telegram.org/bots/api/#editmessagelivelocation
  */
 export function postEditMessageLiveLocation(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostEditMessageLiveLocation.FormData;
   body?: API.TgV3Json.Main.PostEditMessageLiveLocation.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -298,8 +298,8 @@ export function postEditMessageLiveLocation(options: {
  * @docs https://core.telegram.org/bots/api/#editmessagemedia
  */
 export function postEditMessageMedia(options: {
-  headers?: Record<string, any>;
   formData: API.TgV3Json.Main.PostEditMessageMedia.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -316,9 +316,9 @@ export function postEditMessageMedia(options: {
  * @docs https://core.telegram.org/bots/api/#editmessagereplymarkup
  */
 export function postEditMessageReplyMarkup(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostEditMessageReplyMarkup.FormData;
   body?: API.TgV3Json.Main.PostEditMessageReplyMarkup.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -335,9 +335,9 @@ export function postEditMessageReplyMarkup(options: {
  * @docs https://core.telegram.org/bots/api/#editmessagetext
  */
 export function postEditMessageText(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostEditMessageText.FormData;
   body?: API.TgV3Json.Main.PostEditMessageText.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -354,9 +354,9 @@ export function postEditMessageText(options: {
  * @docs https://core.telegram.org/bots/api/#exportchatinvitelink
  */
 export function postExportChatInviteLink(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostExportChatInviteLink.FormData;
   body?: API.TgV3Json.Main.PostExportChatInviteLink.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -373,9 +373,9 @@ export function postExportChatInviteLink(options: {
  * @docs https://core.telegram.org/bots/api/#forwardmessage
  */
 export function postForwardMessage(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostForwardMessage.FormData;
   body?: API.TgV3Json.Main.PostForwardMessage.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -392,9 +392,9 @@ export function postForwardMessage(options: {
  * @docs https://core.telegram.org/bots/api/#getchatadministrators
  */
 export function postGetChatAdministrators(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostGetChatAdministrators.FormData;
   body?: API.TgV3Json.Main.PostGetChatAdministrators.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -411,9 +411,9 @@ export function postGetChatAdministrators(options: {
  * @docs https://core.telegram.org/bots/api/#getchatmember
  */
 export function postGetChatMember(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostGetChatMember.FormData;
   body?: API.TgV3Json.Main.PostGetChatMember.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -430,9 +430,9 @@ export function postGetChatMember(options: {
  * @docs https://core.telegram.org/bots/api/#getchatmemberscount
  */
 export function postGetChatMembersCount(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostGetChatMembersCount.FormData;
   body?: API.TgV3Json.Main.PostGetChatMembersCount.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -449,9 +449,9 @@ export function postGetChatMembersCount(options: {
  * @docs https://core.telegram.org/bots/api/#getchat
  */
 export function postGetChat(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostGetChat.FormData;
   body?: API.TgV3Json.Main.PostGetChat.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -468,9 +468,9 @@ export function postGetChat(options: {
  * @docs https://core.telegram.org/bots/api/#getfile
  */
 export function postGetFile(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostGetFile.FormData;
   body?: API.TgV3Json.Main.PostGetFile.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -489,9 +489,9 @@ export function postGetFile(options: {
  * @docs https://core.telegram.org/bots/api/#getgamehighscores
  */
 export function postGetGameHighScores(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostGetGameHighScores.FormData;
   body?: API.TgV3Json.Main.PostGetGameHighScores.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -542,9 +542,9 @@ export function postGetMyCommands(options?: {
  * @docs https://core.telegram.org/bots/api/#getstickerset
  */
 export function postGetStickerSet(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostGetStickerSet.FormData;
   body?: API.TgV3Json.Main.PostGetStickerSet.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -561,9 +561,9 @@ export function postGetStickerSet(options: {
  * @docs https://core.telegram.org/bots/api/#getupdates
  */
 export function postGetUpdates(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostGetUpdates.FormData;
   body?: API.TgV3Json.Main.PostGetUpdates.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -580,9 +580,9 @@ export function postGetUpdates(options: {
  * @docs https://core.telegram.org/bots/api/#getuserprofilephotos
  */
 export function postGetUserProfilePhotos(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostGetUserProfilePhotos.FormData;
   body?: API.TgV3Json.Main.PostGetUserProfilePhotos.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -616,9 +616,9 @@ export function postGetWebhookInfo(options?: {
  * @docs https://core.telegram.org/bots/api/#kickchatmember
  */
 export function postKickChatMember(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostKickChatMember.FormData;
   body?: API.TgV3Json.Main.PostKickChatMember.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -635,9 +635,9 @@ export function postKickChatMember(options: {
  * @docs https://core.telegram.org/bots/api/#leavechat
  */
 export function postLeaveChat(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostLeaveChat.FormData;
   body?: API.TgV3Json.Main.PostLeaveChat.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -671,9 +671,9 @@ export function postLogOut(options?: {
  * @docs https://core.telegram.org/bots/api/#pinchatmessage
  */
 export function postPinChatMessage(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostPinChatMessage.FormData;
   body?: API.TgV3Json.Main.PostPinChatMessage.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -690,9 +690,9 @@ export function postPinChatMessage(options: {
  * @docs https://core.telegram.org/bots/api/#promotechatmember
  */
 export function postPromoteChatMember(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostPromoteChatMember.FormData;
   body?: API.TgV3Json.Main.PostPromoteChatMember.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -709,9 +709,9 @@ export function postPromoteChatMember(options: {
  * @docs https://core.telegram.org/bots/api/#restrictchatmember
  */
 export function postRestrictChatMember(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostRestrictChatMember.FormData;
   body?: API.TgV3Json.Main.PostRestrictChatMember.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -728,8 +728,8 @@ export function postRestrictChatMember(options: {
  * @docs https://core.telegram.org/bots/api/#sendanimation
  */
 export function postSendAnimation(options: {
-  headers?: Record<string, any>;
   formData: API.TgV3Json.Main.PostSendAnimation.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -748,8 +748,8 @@ export function postSendAnimation(options: {
  * @docs https://core.telegram.org/bots/api/#sendaudio
  */
 export function postSendAudio(options: {
-  headers?: Record<string, any>;
   formData: API.TgV3Json.Main.PostSendAudio.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -770,9 +770,9 @@ export function postSendAudio(options: {
  * @docs https://core.telegram.org/bots/api/#sendchataction
  */
 export function postSendChatAction(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostSendChatAction.FormData;
   body?: API.TgV3Json.Main.PostSendChatAction.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -789,9 +789,9 @@ export function postSendChatAction(options: {
  * @docs https://core.telegram.org/bots/api/#sendcontact
  */
 export function postSendContact(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostSendContact.FormData;
   body?: API.TgV3Json.Main.PostSendContact.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -808,9 +808,9 @@ export function postSendContact(options: {
  * @docs https://core.telegram.org/bots/api/#senddice
  */
 export function postSendDice(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostSendDice.FormData;
   body?: API.TgV3Json.Main.PostSendDice.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -827,8 +827,8 @@ export function postSendDice(options: {
  * @docs https://core.telegram.org/bots/api/#senddocument
  */
 export function postSendDocument(options: {
-  headers?: Record<string, any>;
   formData: API.TgV3Json.Main.PostSendDocument.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -845,9 +845,9 @@ export function postSendDocument(options: {
  * @docs https://core.telegram.org/bots/api/#sendgame
  */
 export function postSendGame(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostSendGame.FormData;
   body?: API.TgV3Json.Main.PostSendGame.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -864,9 +864,9 @@ export function postSendGame(options: {
  * @docs https://core.telegram.org/bots/api/#sendinvoice
  */
 export function postSendInvoice(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostSendInvoice.FormData;
   body?: API.TgV3Json.Main.PostSendInvoice.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -883,9 +883,9 @@ export function postSendInvoice(options: {
  * @docs https://core.telegram.org/bots/api/#sendlocation
  */
 export function postSendLocation(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostSendLocation.FormData;
   body?: API.TgV3Json.Main.PostSendLocation.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -902,8 +902,8 @@ export function postSendLocation(options: {
  * @docs https://core.telegram.org/bots/api/#sendmediagroup
  */
 export function postSendMediaGroup(options: {
-  headers?: Record<string, any>;
   formData: API.TgV3Json.Main.PostSendMediaGroup.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -920,9 +920,9 @@ export function postSendMediaGroup(options: {
  * @docs https://core.telegram.org/bots/api/#sendmessage
  */
 export function postSendMessage(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostSendMessage.FormData;
   body?: API.TgV3Json.Main.PostSendMessage.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -939,8 +939,8 @@ export function postSendMessage(options: {
  * @docs https://core.telegram.org/bots/api/#sendphoto
  */
 export function postSendPhoto(options: {
-  headers?: Record<string, any>;
   formData: API.TgV3Json.Main.PostSendPhoto.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -957,9 +957,9 @@ export function postSendPhoto(options: {
  * @docs https://core.telegram.org/bots/api/#sendpoll
  */
 export function postSendPoll(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostSendPoll.FormData;
   body?: API.TgV3Json.Main.PostSendPoll.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -976,8 +976,8 @@ export function postSendPoll(options: {
  * @docs https://core.telegram.org/bots/api/#sendsticker
  */
 export function postSendSticker(options: {
-  headers?: Record<string, any>;
   formData: API.TgV3Json.Main.PostSendSticker.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -994,9 +994,9 @@ export function postSendSticker(options: {
  * @docs https://core.telegram.org/bots/api/#sendvenue
  */
 export function postSendVenue(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostSendVenue.FormData;
   body?: API.TgV3Json.Main.PostSendVenue.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1013,8 +1013,8 @@ export function postSendVenue(options: {
  * @docs https://core.telegram.org/bots/api/#sendvideonote
  */
 export function postSendVideoNote(options: {
-  headers?: Record<string, any>;
   formData: API.TgV3Json.Main.PostSendVideoNote.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1031,8 +1031,8 @@ export function postSendVideoNote(options: {
  * @docs https://core.telegram.org/bots/api/#sendvideo
  */
 export function postSendVideo(options: {
-  headers?: Record<string, any>;
   formData: API.TgV3Json.Main.PostSendVideo.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1049,8 +1049,8 @@ export function postSendVideo(options: {
  * @docs https://core.telegram.org/bots/api/#sendvoice
  */
 export function postSendVoice(options: {
-  headers?: Record<string, any>;
   formData: API.TgV3Json.Main.PostSendVoice.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1067,9 +1067,9 @@ export function postSendVoice(options: {
  * @docs https://core.telegram.org/bots/api/#setchatadministratorcustomtitle
  */
 export function postSetChatAdministratorCustomTitle(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostSetChatAdministratorCustomTitle.FormData;
   body?: API.TgV3Json.Main.PostSetChatAdministratorCustomTitle.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1086,9 +1086,9 @@ export function postSetChatAdministratorCustomTitle(options: {
  * @docs https://core.telegram.org/bots/api/#setchatdescription
  */
 export function postSetChatDescription(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostSetChatDescription.FormData;
   body?: API.TgV3Json.Main.PostSetChatDescription.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1105,9 +1105,9 @@ export function postSetChatDescription(options: {
  * @docs https://core.telegram.org/bots/api/#setchatpermissions
  */
 export function postSetChatPermissions(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostSetChatPermissions.FormData;
   body?: API.TgV3Json.Main.PostSetChatPermissions.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1124,8 +1124,8 @@ export function postSetChatPermissions(options: {
  * @docs https://core.telegram.org/bots/api/#setchatphoto
  */
 export function postSetChatPhoto(options: {
-  headers?: Record<string, any>;
   formData: API.TgV3Json.Main.PostSetChatPhoto.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1142,9 +1142,9 @@ export function postSetChatPhoto(options: {
  * @docs https://core.telegram.org/bots/api/#setchatstickerset
  */
 export function postSetChatStickerSet(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostSetChatStickerSet.FormData;
   body?: API.TgV3Json.Main.PostSetChatStickerSet.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1161,9 +1161,9 @@ export function postSetChatStickerSet(options: {
  * @docs https://core.telegram.org/bots/api/#setchattitle
  */
 export function postSetChatTitle(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostSetChatTitle.FormData;
   body?: API.TgV3Json.Main.PostSetChatTitle.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1180,9 +1180,9 @@ export function postSetChatTitle(options: {
  * @docs https://core.telegram.org/bots/api/#setgamescore
  */
 export function postSetGameScore(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostSetGameScore.FormData;
   body?: API.TgV3Json.Main.PostSetGameScore.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1199,9 +1199,9 @@ export function postSetGameScore(options: {
  * @docs https://core.telegram.org/bots/api/#setmycommands
  */
 export function postSetMyCommands(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostSetMyCommands.FormData;
   body?: API.TgV3Json.Main.PostSetMyCommands.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1220,9 +1220,9 @@ export function postSetMyCommands(options: {
  * @docs https://core.telegram.org/bots/api/#setpassportdataerrors
  */
 export function postSetPassportDataErrors(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostSetPassportDataErrors.FormData;
   body?: API.TgV3Json.Main.PostSetPassportDataErrors.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1239,9 +1239,9 @@ export function postSetPassportDataErrors(options: {
  * @docs https://core.telegram.org/bots/api/#setstickerpositioninset
  */
 export function postSetStickerPositionInSet(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostSetStickerPositionInSet.FormData;
   body?: API.TgV3Json.Main.PostSetStickerPositionInSet.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1258,8 +1258,8 @@ export function postSetStickerPositionInSet(options: {
  * @docs https://core.telegram.org/bots/api/#setstickersetthumb
  */
 export function postSetStickerSetThumb(options: {
-  headers?: Record<string, any>;
   formData: API.TgV3Json.Main.PostSetStickerSetThumb.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1278,8 +1278,8 @@ export function postSetStickerSetThumb(options: {
  * @docs https://core.telegram.org/bots/api/#setwebhook
  */
 export function postSetWebhook(options: {
-  headers?: Record<string, any>;
   formData: API.TgV3Json.Main.PostSetWebhook.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1296,9 +1296,9 @@ export function postSetWebhook(options: {
  * @docs https://core.telegram.org/bots/api/#stopmessagelivelocation
  */
 export function postStopMessageLiveLocation(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostStopMessageLiveLocation.FormData;
   body?: API.TgV3Json.Main.PostStopMessageLiveLocation.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1315,9 +1315,9 @@ export function postStopMessageLiveLocation(options: {
  * @docs https://core.telegram.org/bots/api/#stoppoll
  */
 export function postStopPoll(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostStopPoll.FormData;
   body?: API.TgV3Json.Main.PostStopPoll.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1334,9 +1334,9 @@ export function postStopPoll(options: {
  * @docs https://core.telegram.org/bots/api/#unbanchatmember
  */
 export function postUnbanChatMember(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostUnbanChatMember.FormData;
   body?: API.TgV3Json.Main.PostUnbanChatMember.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1353,9 +1353,9 @@ export function postUnbanChatMember(options: {
  * @docs https://core.telegram.org/bots/api/#unpinallchatmessages
  */
 export function postUnpinAllChatMessages(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostUnpinAllChatMessages.FormData;
   body?: API.TgV3Json.Main.PostUnpinAllChatMessages.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1372,9 +1372,9 @@ export function postUnpinAllChatMessages(options: {
  * @docs https://core.telegram.org/bots/api/#unpinchatmessage
  */
 export function postUnpinChatMessage(options: {
-  headers?: Record<string, any>;
   formData?: API.TgV3Json.Main.PostUnpinChatMessage.FormData;
   body?: API.TgV3Json.Main.PostUnpinChatMessage.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -1391,8 +1391,8 @@ export function postUnpinChatMessage(options: {
  * @docs https://core.telegram.org/bots/api/#uploadstickerfile
  */
 export function postUploadStickerFile(options: {
-  headers?: Record<string, any>;
   formData: API.TgV3Json.Main.PostUploadStickerFile.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

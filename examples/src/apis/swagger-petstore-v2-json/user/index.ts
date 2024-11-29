@@ -5,8 +5,8 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  * @path `/user/createWithArray`
  */
 export function postCreateUsersWithArrayInput(options?: {
-  headers?: Record<string, any>;
   body?: API.SwaggerPetstoreV2Json.User.PostCreateUsersWithArrayInput.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -18,8 +18,8 @@ export function postCreateUsersWithArrayInput(options?: {
  * @path `/user/createWithList`
  */
 export function postCreateUsersWithListInput(options?: {
-  headers?: Record<string, any>;
   body?: API.SwaggerPetstoreV2Json.User.PostCreateUsersWithListInput.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -97,8 +97,8 @@ export function getByName(options: {
  */
 export function putUpdate(options: {
   pathParams: API.SwaggerPetstoreV2Json.User.PutUpdate.PathParams;
-  headers?: Record<string, any>;
   body?: API.SwaggerPetstoreV2Json.User.PutUpdate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -111,8 +111,8 @@ export function putUpdate(options: {
  * @path `/user`
  */
 export function postCreate(options?: {
-  headers?: Record<string, any>;
   body?: API.SwaggerPetstoreV2Json.User.PostCreate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

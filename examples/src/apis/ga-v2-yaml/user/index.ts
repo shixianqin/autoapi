@@ -44,8 +44,8 @@ export function getAnalyticsManagementAccountLinksList(options: {
  */
 export function postAnalyticsManagementAccountLinksInsert(options: {
   pathParams: API.GaV2Yaml.User.PostAnalyticsManagementAccountLinksInsert.PathParams;
-  headers?: Record<string, any>;
   body?: API.GaV2Yaml.User.PostAnalyticsManagementAccountLinksInsert.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -100,8 +100,8 @@ export function getAnalyticsManagementWebpropertyLinksList(options: {
  */
 export function postAnalyticsManagementWebpropertyLinksInsert(options: {
   pathParams: API.GaV2Yaml.User.PostAnalyticsManagementWebpropertyLinksInsert.PathParams;
-  headers?: Record<string, any>;
   body?: API.GaV2Yaml.User.PostAnalyticsManagementWebpropertyLinksInsert.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -156,8 +156,8 @@ export function getAnalyticsManagementProfileLinksList(options: {
  */
 export function postAnalyticsManagementProfileLinksInsert(options: {
   pathParams: API.GaV2Yaml.User.PostAnalyticsManagementProfileLinksInsert.PathParams;
-  headers?: Record<string, any>;
   body?: API.GaV2Yaml.User.PostAnalyticsManagementProfileLinksInsert.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

@@ -26,8 +26,8 @@ export function getAnalyticsManagementCustomMetrics(options: {
 export function patchAnalyticsManagementCustomMetrics(options: {
   pathParams: API.GaV2Yaml.Metric.PatchAnalyticsManagementCustomMetrics.PathParams;
   queryParams?: API.GaV2Yaml.Metric.PatchAnalyticsManagementCustomMetrics.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV2Yaml.Metric.PatchAnalyticsManagementCustomMetrics.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -46,8 +46,8 @@ export function patchAnalyticsManagementCustomMetrics(options: {
 export function putAnalyticsManagementCustomMetricsUpdate(options: {
   pathParams: API.GaV2Yaml.Metric.PutAnalyticsManagementCustomMetricsUpdate.PathParams;
   queryParams?: API.GaV2Yaml.Metric.PutAnalyticsManagementCustomMetricsUpdate.QueryParams;
-  headers?: Record<string, any>;
   body?: API.GaV2Yaml.Metric.PutAnalyticsManagementCustomMetricsUpdate.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -84,8 +84,8 @@ export function getAnalyticsManagementCustomMetricsList(options: {
  */
 export function postAnalyticsManagementCustomMetricsInsert(options: {
   pathParams: API.GaV2Yaml.Metric.PostAnalyticsManagementCustomMetricsInsert.PathParams;
-  headers?: Record<string, any>;
   body?: API.GaV2Yaml.Metric.PostAnalyticsManagementCustomMetricsInsert.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

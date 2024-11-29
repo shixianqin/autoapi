@@ -57,8 +57,8 @@ export function getResponseHeadersPolicy(options: {
  */
 export function putUpdate(options: {
   pathParams: API.CustomizeTagAndName.ResponseHeadersPolicy.PutUpdate.PathParams;
-  headers?: API.CustomizeTagAndName.ResponseHeadersPolicy.PutUpdate.Headers;
   body: API.CustomizeTagAndName.ResponseHeadersPolicy.PutUpdate.Body;
+  headers?: API.CustomizeTagAndName.ResponseHeadersPolicy.PutUpdate.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -91,8 +91,8 @@ export function getListResponseHeadersPolicies(options?: {
  * @path `/2020-05-31/response-headers-policy`
  */
 export function postCreate(options: {
-  headers?: API.CustomizeTagAndName.ResponseHeadersPolicy.PostCreate.Headers;
   body: API.CustomizeTagAndName.ResponseHeadersPolicy.PostCreate.Body;
+  headers?: API.CustomizeTagAndName.ResponseHeadersPolicy.PostCreate.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

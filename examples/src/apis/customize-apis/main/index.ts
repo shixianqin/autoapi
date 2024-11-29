@@ -21,8 +21,8 @@ export function getCustomizePathToCategories(options?: {
  * @path `/customize/path/to/create`
  */
 export function postCreate(options: {
-  headers?: Record<string, any>;
   formData: API.CustomizeApis.Main.PostCreate.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

@@ -17,8 +17,8 @@ export function deleteDisableTwoStep(options?: {
  * @path `/settings/account/two-step`
  */
 export function postEnableTwoStep(options: {
-  headers?: Record<string, any>;
   body: API.WhatsappV3Json.TwoStepVerification.PostEnableTwoStep.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

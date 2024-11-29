@@ -7,8 +7,8 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
 export function deleteClusterRoleBinding(options: {
   pathParams: API.K8sV2Json.RbacAuthorizationV1.DeleteClusterRoleBinding.PathParams;
   queryParams?: API.K8sV2Json.RbacAuthorizationV1.DeleteClusterRoleBinding.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.RbacAuthorizationV1.DeleteClusterRoleBinding.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -44,8 +44,8 @@ export function getReadClusterRoleBinding(options: {
 export function patchClusterRoleBinding(options: {
   pathParams: API.K8sV2Json.RbacAuthorizationV1.PatchClusterRoleBinding.PathParams;
   queryParams?: API.K8sV2Json.RbacAuthorizationV1.PatchClusterRoleBinding.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.RbacAuthorizationV1.PatchClusterRoleBinding.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -63,8 +63,8 @@ export function patchClusterRoleBinding(options: {
 export function putReplaceClusterRoleBinding(options: {
   pathParams: API.K8sV2Json.RbacAuthorizationV1.PutReplaceClusterRoleBinding.PathParams;
   queryParams?: API.K8sV2Json.RbacAuthorizationV1.PutReplaceClusterRoleBinding.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.RbacAuthorizationV1.PutReplaceClusterRoleBinding.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -81,8 +81,8 @@ export function putReplaceClusterRoleBinding(options: {
  */
 export function deleteCollectionClusterRoleBinding(options?: {
   queryParams?: API.K8sV2Json.RbacAuthorizationV1.DeleteCollectionClusterRoleBinding.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.RbacAuthorizationV1.DeleteCollectionClusterRoleBinding.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -116,8 +116,8 @@ export function getListClusterRoleBinding(options?: {
  */
 export function postCreateClusterRoleBinding(options: {
   queryParams?: API.K8sV2Json.RbacAuthorizationV1.PostCreateClusterRoleBinding.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.RbacAuthorizationV1.PostCreateClusterRoleBinding.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -135,8 +135,8 @@ export function postCreateClusterRoleBinding(options: {
 export function deleteClusterRole(options: {
   pathParams: API.K8sV2Json.RbacAuthorizationV1.DeleteClusterRole.PathParams;
   queryParams?: API.K8sV2Json.RbacAuthorizationV1.DeleteClusterRole.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.RbacAuthorizationV1.DeleteClusterRole.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -172,8 +172,8 @@ export function getReadClusterRole(options: {
 export function patchClusterRole(options: {
   pathParams: API.K8sV2Json.RbacAuthorizationV1.PatchClusterRole.PathParams;
   queryParams?: API.K8sV2Json.RbacAuthorizationV1.PatchClusterRole.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.RbacAuthorizationV1.PatchClusterRole.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -191,8 +191,8 @@ export function patchClusterRole(options: {
 export function putReplaceClusterRole(options: {
   pathParams: API.K8sV2Json.RbacAuthorizationV1.PutReplaceClusterRole.PathParams;
   queryParams?: API.K8sV2Json.RbacAuthorizationV1.PutReplaceClusterRole.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.RbacAuthorizationV1.PutReplaceClusterRole.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -209,8 +209,8 @@ export function putReplaceClusterRole(options: {
  */
 export function deleteCollectionClusterRole(options?: {
   queryParams?: API.K8sV2Json.RbacAuthorizationV1.DeleteCollectionClusterRole.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.RbacAuthorizationV1.DeleteCollectionClusterRole.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -244,8 +244,8 @@ export function getListClusterRole(options?: {
  */
 export function postCreateClusterRole(options?: {
   queryParams?: API.K8sV2Json.RbacAuthorizationV1.PostCreateClusterRole.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.RbacAuthorizationV1.PostCreateClusterRole.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -279,8 +279,8 @@ export function getApiResources(options?: {
 export function deleteNamespacedRoleBinding(options: {
   pathParams: API.K8sV2Json.RbacAuthorizationV1.DeleteNamespacedRoleBinding.PathParams;
   queryParams?: API.K8sV2Json.RbacAuthorizationV1.DeleteNamespacedRoleBinding.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.RbacAuthorizationV1.DeleteNamespacedRoleBinding.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -316,8 +316,8 @@ export function getReadNamespacedRoleBinding(options: {
 export function patchNamespacedRoleBinding(options: {
   pathParams: API.K8sV2Json.RbacAuthorizationV1.PatchNamespacedRoleBinding.PathParams;
   queryParams?: API.K8sV2Json.RbacAuthorizationV1.PatchNamespacedRoleBinding.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.RbacAuthorizationV1.PatchNamespacedRoleBinding.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -335,8 +335,8 @@ export function patchNamespacedRoleBinding(options: {
 export function putReplaceNamespacedRoleBinding(options: {
   pathParams: API.K8sV2Json.RbacAuthorizationV1.PutReplaceNamespacedRoleBinding.PathParams;
   queryParams?: API.K8sV2Json.RbacAuthorizationV1.PutReplaceNamespacedRoleBinding.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.RbacAuthorizationV1.PutReplaceNamespacedRoleBinding.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -354,8 +354,8 @@ export function putReplaceNamespacedRoleBinding(options: {
 export function deleteCollectionNamespacedRoleBinding(options: {
   pathParams: API.K8sV2Json.RbacAuthorizationV1.DeleteCollectionNamespacedRoleBinding.PathParams;
   queryParams?: API.K8sV2Json.RbacAuthorizationV1.DeleteCollectionNamespacedRoleBinding.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.RbacAuthorizationV1.DeleteCollectionNamespacedRoleBinding.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -391,8 +391,8 @@ export function getListNamespacedRoleBinding(options: {
 export function postCreateNamespacedRoleBinding(options: {
   pathParams: API.K8sV2Json.RbacAuthorizationV1.PostCreateNamespacedRoleBinding.PathParams;
   queryParams?: API.K8sV2Json.RbacAuthorizationV1.PostCreateNamespacedRoleBinding.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.RbacAuthorizationV1.PostCreateNamespacedRoleBinding.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -410,8 +410,8 @@ export function postCreateNamespacedRoleBinding(options: {
 export function deleteNamespacedRole(options: {
   pathParams: API.K8sV2Json.RbacAuthorizationV1.DeleteNamespacedRole.PathParams;
   queryParams?: API.K8sV2Json.RbacAuthorizationV1.DeleteNamespacedRole.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.RbacAuthorizationV1.DeleteNamespacedRole.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -447,8 +447,8 @@ export function getReadNamespacedRole(options: {
 export function patchNamespacedRole(options: {
   pathParams: API.K8sV2Json.RbacAuthorizationV1.PatchNamespacedRole.PathParams;
   queryParams?: API.K8sV2Json.RbacAuthorizationV1.PatchNamespacedRole.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.RbacAuthorizationV1.PatchNamespacedRole.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -466,8 +466,8 @@ export function patchNamespacedRole(options: {
 export function putReplaceNamespacedRole(options: {
   pathParams: API.K8sV2Json.RbacAuthorizationV1.PutReplaceNamespacedRole.PathParams;
   queryParams?: API.K8sV2Json.RbacAuthorizationV1.PutReplaceNamespacedRole.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.RbacAuthorizationV1.PutReplaceNamespacedRole.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -485,8 +485,8 @@ export function putReplaceNamespacedRole(options: {
 export function deleteCollectionNamespacedRole(options: {
   pathParams: API.K8sV2Json.RbacAuthorizationV1.DeleteCollectionNamespacedRole.PathParams;
   queryParams?: API.K8sV2Json.RbacAuthorizationV1.DeleteCollectionNamespacedRole.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.RbacAuthorizationV1.DeleteCollectionNamespacedRole.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -522,8 +522,8 @@ export function getListNamespacedRole(options: {
 export function postCreateNamespacedRole(options: {
   pathParams: API.K8sV2Json.RbacAuthorizationV1.PostCreateNamespacedRole.PathParams;
   queryParams?: API.K8sV2Json.RbacAuthorizationV1.PostCreateNamespacedRole.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.RbacAuthorizationV1.PostCreateNamespacedRole.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

@@ -40,8 +40,8 @@ export function patchWpV2Me(options?: {
  * @path `/wp/v2/users/me`
  */
 export function postWpV2Me(options?: {
-  headers?: Record<string, any>;
   formData?: API.WordpressV2Json.Users.PostWpV2Me.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -112,8 +112,8 @@ export function patchWpV2Id(options: {
  */
 export function postWpV2Id(options: {
   pathParams: API.WordpressV2Json.Users.PostWpV2Id.PathParams;
-  headers?: Record<string, any>;
   formData?: API.WordpressV2Json.Users.PostWpV2Id.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -188,8 +188,8 @@ export function getWpV2UserIdApplicationPasswords(options: {
  */
 export function postWpV2UserIdApplicationPasswords(options: {
   pathParams: API.WordpressV2Json.Users.PostWpV2UserIdApplicationPasswords.PathParams;
-  headers?: Record<string, any>;
   formData: API.WordpressV2Json.Users.PostWpV2UserIdApplicationPasswords.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -255,8 +255,8 @@ export function patchWpV2UserId(options: {
  */
 export function postWpV2UserId(options: {
   pathParams: API.WordpressV2Json.Users.PostWpV2UserId.PathParams;
-  headers?: Record<string, any>;
   formData?: API.WordpressV2Json.Users.PostWpV2UserId.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -300,8 +300,8 @@ export function getWpV2(options?: {
  * @path `/wp/v2/users`
  */
 export function postWpV2(options: {
-  headers?: Record<string, any>;
   formData: API.WordpressV2Json.Users.PostWpV2.FormData;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

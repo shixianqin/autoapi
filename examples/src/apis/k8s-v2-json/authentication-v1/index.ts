@@ -22,8 +22,8 @@ export function getApiResources(options?: {
  */
 export function postCreateSelfSubjectReview(options?: {
   queryParams?: API.K8sV2Json.AuthenticationV1.PostCreateSelfSubjectReview.QueryParams;
-  headers?: Record<string, any>;
   body?: API.K8sV2Json.AuthenticationV1.PostCreateSelfSubjectReview.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
@@ -40,8 +40,8 @@ export function postCreateSelfSubjectReview(options?: {
  */
 export function postCreateTokenReview(options: {
   queryParams?: API.K8sV2Json.AuthenticationV1.PostCreateTokenReview.QueryParams;
-  headers?: Record<string, any>;
   body: API.K8sV2Json.AuthenticationV1.PostCreateTokenReview.Body;
+  headers?: Record<string, any>;
   config?: RequestConfig;
   context?: RequestContext;
 }) {

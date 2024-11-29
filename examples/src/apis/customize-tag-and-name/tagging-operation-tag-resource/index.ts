@@ -6,8 +6,8 @@ import { request, type RequestConfig, type RequestContext } from "@/adapter";
  */
 export function postTagResource(options: {
   queryParams: API.CustomizeTagAndName.TaggingOperationTagResource.PostTagResource.QueryParams;
-  headers?: API.CustomizeTagAndName.TaggingOperationTagResource.PostTagResource.Headers;
   body: API.CustomizeTagAndName.TaggingOperationTagResource.PostTagResource.Body;
+  headers?: API.CustomizeTagAndName.TaggingOperationTagResource.PostTagResource.Headers;
   config?: RequestConfig;
   context?: RequestContext;
 }) {
