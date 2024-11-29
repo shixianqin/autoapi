@@ -1,5 +1,12 @@
 # @autoapi/core
 
+## 1.0.5
+
+### Patch Changes
+
+- Remove `assignType` option from `ParameterOptions`
+- Optimize `headers` type generation rules
+
 ## 1.0.4
 
 ### Patch Changes
