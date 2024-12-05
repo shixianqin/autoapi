@@ -1,5 +1,11 @@
 # @autoapi/core
 
+## 1.0.7
+
+### Patch Changes
+
+- Fix the problem of custom tag failure
+
 ## 1.0.6
 
 ### Patch Changes
