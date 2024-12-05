@@ -266,11 +266,10 @@ export class Parser {
    */
   private async _parseOperation(meta: OperationMeta, originalOperation: OpenAPI.Operation) {
     const { _operations } = this
-    const tag = this._getTag(meta)
 
     const operation: Operation = {
       ...meta,
-      tag,
+      tag: this._getTag(meta),
 
       // 初始化名称为空，会在最后填充更新
       name: '',
@@ -285,19 +284,10 @@ export class Parser {
           },
     }
 
-    const items = _operations.get(tag)
-
-    if (items) {
-      items.push(operation)
-    }
-    else {
-      _operations.set(tag, [operation])
-    }
-
     // 执行自定义操作
     await this._customize(operation)
 
-    const { types } = operation
+    const { tag, types } = operation
 
     // 如果 formData 和 body 的结构一样，则 formData 直接引用 body 的类型
     if (types.formData && types.body && genTypeBody(types.formData) === genTypeBody(types.body)) {
@@ -308,6 +298,16 @@ export class Parser {
     // 如果自定义的时候没有指定 `name`，则使用默认的命名规则
     if (!operation.name) {
       operation.name = this._getName(operation)
+    }
+
+    // 按照 tag 分组
+    const items = _operations.get(tag)
+
+    if (items) {
+      items.push(operation)
+    }
+    else {
+      _operations.set(tag, [operation])
     }
   }
 
