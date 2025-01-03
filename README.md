@@ -23,7 +23,7 @@ English | [简体中文](./README-zh.md)
 
 + Requires [OpenAPI](https://www.openapis.org/) / [Swagger](https://swagger.io/) documents or manually declared APIs.
 + Project must use [TypeScript](https://www.typescriptlang.org/).
-+ Requires custom implementation of [adapter](#adapters) logic—don’t worry, it’s simple.
++ Requires custom implementation of [adapter](#adapter) logic—don’t worry, it’s simple.
 
 ## Installation
 
